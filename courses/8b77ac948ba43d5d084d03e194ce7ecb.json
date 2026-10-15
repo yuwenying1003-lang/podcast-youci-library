@@ -1,0 +1,3758 @@
+{
+  "units": [
+    {
+      "start": "00:00",
+      "end": "03:14",
+      "title": "The parking-lot incident",
+      "preview": "The narrator introduces a collision and asks how responsibility could be assigned.",
+      "question": "What two different accounts of the collision do you hear?"
+    },
+    {
+      "start": "03:14",
+      "end": "07:41",
+      "title": "Campus protests and the official response",
+      "preview": "Students’ questions, the president’s account, and disciplinary consequences are compared.",
+      "question": "Which details are attributed to an official statement, and which are the narrator’s interpretation?"
+    },
+    {
+      "start": "07:41",
+      "end": "12:22",
+      "title": "Introducing the lawsuit and reporting limits",
+      "preview": "The narrator switches to the civil case, describes the dispute, and explains why the accusations cannot be treated as legal findings.",
+      "question": "What language does the host use to distinguish accusations from established findings?"
+    },
+    {
+      "start": "12:22",
+      "end": "19:12",
+      "title": "Fraternities and insurance risk",
+      "preview": "Background on fraternities, liability, exclusions, and how members may lose coverage.",
+      "question": "Why do insurance exclusions matter in this background section?"
+    },
+    {
+      "start": "19:12",
+      "end": "25:44",
+      "title": "Risk, lawsuits and campus incentives",
+      "preview": "A discussion of common claims, risky initiation practices and why institutions keep fraternity housing.",
+      "question": "What financial or institutional reasons does the host discuss?"
+    },
+    {
+      "start": "25:44",
+      "end": "29:01",
+      "title": "A former member’s account",
+      "preview": "The narrator discusses a former fraternity member’s allegations about initiation and the chapter house.",
+      "question": "Whose personal account is described, and how is it related to the larger story?"
+    },
+    {
+      "start": "29:01",
+      "end": "32:32",
+      "title": "Events before the alleged incident",
+      "preview": "The story turns to a drug-related arrest, campus oversight, and the timeline leading into the lawsuit.",
+      "question": "How does the narrator connect the earlier incident to the upcoming allegations?"
+    },
+    {
+      "start": "32:32",
+      "end": "40:43",
+      "title": "The timeline presented in the lawsuit",
+      "preview": "The narrator traces locations and people while reporting disputed claims from the court filing.",
+      "question": "Can you reconstruct the locations in chronological order while keeping claims attributed?"
+    },
+    {
+      "start": "40:43",
+      "end": "49:28",
+      "title": "Messages and competing interpretations",
+      "preview": "The host reviews group-chat material and stresses the difference between what messages show and what someone infers.",
+      "question": "Which statements are directly reported, and which are interpretations of the messages?"
+    },
+    {
+      "start": "49:28",
+      "end": "53:24",
+      "title": "An additional lawsuit and later reporting",
+      "preview": "A separate filing, partial investigation records, and later reported developments complicate the narrative.",
+      "question": "Why might different filings describe overlapping events differently?"
+    },
+    {
+      "start": "53:24",
+      "end": "60:54",
+      "title": "Investigations, outcomes and the close",
+      "preview": "The episode recounts institutional procedures, disciplinary outcomes, and the later public lawsuit.",
+      "question": "How do university discipline and criminal prosecution differ in this account?"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "pedestrian",
+      "definition": "a person traveling on foot",
+      "time": "00:00",
+      "cn": "行人",
+      "tip": "pedestrian vs. driver. Transcript: around 00:00.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "at fault",
+      "definition": "responsible for a mistake or accident",
+      "time": "00:00",
+      "cn": "有过错；负有责任",
+      "tip": "be at fault for something. Transcript: around 00:00.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "follow-up questions",
+      "definition": "additional questions for clarification",
+      "time": "00:00",
+      "cn": "追问；后续问题",
+      "tip": "follow up (verb) → follow-up (modifier). Transcript: around 00:00.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "recession",
+      "definition": "a period of economic decline",
+      "time": "00:00",
+      "cn": "经济衰退",
+      "tip": "An unusual metaphor in the opening; compare economic recession.. Transcript: around 00:00.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "reverse",
+      "definition": "to move a vehicle backward",
+      "time": "00:34",
+      "cn": "倒车",
+      "tip": "reverse / reversing / in reverse. Transcript: around 00:34.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "allegedly",
+      "definition": "according to a claim not yet proved",
+      "time": "01:40",
+      "cn": "据称；涉嫌",
+      "tip": "allege → allegation → allegedly. Transcript: around 01:40.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "fiasco",
+      "definition": "a complete failure or embarrassing mess",
+      "time": "01:40",
+      "cn": "惨败；一团糟",
+      "tip": "a parking-lot fiasco = a chaotic incident. Transcript: around 01:40.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "prestigious",
+      "definition": "highly respected and admired",
+      "time": "02:12",
+      "cn": "享有盛誉的",
+      "tip": "prestige (noun) → prestigious (adjective). Transcript: around 02:12.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "Ivy League",
+      "definition": "a group of prestigious US universities",
+      "time": "02:12",
+      "cn": "常春藤盟校",
+      "tip": "a fixed name for a university group. Transcript: around 02:12.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "loitering",
+      "definition": "remaining somewhere without a clear purpose",
+      "time": "03:00",
+      "cn": "闲逛；逗留",
+      "tip": "loiter (verb) → loitering (noun). Transcript: around 03:00.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "rescinding",
+      "definition": "officially taking back a rule or decision",
+      "time": "03:40",
+      "cn": "撤销；废除",
+      "tip": "rescind a visa, offer, or decision. Transcript: around 03:40.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "footage",
+      "definition": "recorded video images",
+      "time": "04:23",
+      "cn": "录像；视频片段",
+      "tip": "Uncountable: security footage, not a footage. Transcript: around 04:23.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "volatile",
+      "definition": "likely to change suddenly or become tense",
+      "time": "04:59",
+      "cn": "容易失控的；不稳定的",
+      "tip": "volatile situation / volatile market. Transcript: around 04:59.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "accosted",
+      "definition": "approached someone aggressively",
+      "time": "05:27",
+      "cn": "上前纠缠；搭讪骚扰",
+      "tip": "accost → accosted; the speaker quotes a statement. Transcript: around 05:27.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "maneuver",
+      "definition": "move or steer carefully",
+      "time": "05:27",
+      "cn": "操纵；调整位置",
+      "tip": "maneuver a car out of a parking space. Transcript: around 05:27.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "intimidation",
+      "definition": "behavior intended to frighten someone",
+      "time": "06:04",
+      "cn": "恐吓；威胁",
+      "tip": "intimidate → intimidating → intimidation. Transcript: around 06:04.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "hazardous",
+      "definition": "dangerous or likely to cause harm",
+      "time": "06:50",
+      "cn": "危险的",
+      "tip": "hazard (noun) → hazardous (adjective). Transcript: around 06:50.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "civil lawsuit",
+      "definition": "a legal claim brought in a civil court",
+      "time": "07:41",
+      "cn": "民事诉讼",
+      "tip": "civil lawsuit vs. criminal prosecution. Transcript: around 07:41.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "fraternity",
+      "definition": "a male university social organization",
+      "time": "07:41",
+      "cn": "大学男生兄弟会",
+      "tip": "Latin frater means brother; fraternal. Transcript: around 07:41.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "traumatized",
+      "definition": "deeply distressed by a shocking experience",
+      "time": "07:41",
+      "cn": "受到心理创伤的",
+      "tip": "trauma → traumatic → traumatized. Transcript: around 07:41.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "accused",
+      "definition": "people alleged to have committed wrongdoing",
+      "time": "08:12",
+      "cn": "被指控者",
+      "tip": "accuse (verb) → accusation (noun) → accused. Transcript: around 08:12.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "prosecutor",
+      "definition": "a lawyer who brings a criminal case",
+      "time": "08:12",
+      "cn": "检察官",
+      "tip": "prosecute → prosecution → prosecutor. Transcript: around 08:12.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "doxed",
+      "definition": "having private personal details exposed online",
+      "time": "08:59",
+      "cn": "被人肉搜索；隐私被公开",
+      "tip": "dox / doxxing: publishing private information. Transcript: around 08:59.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "coercion",
+      "definition": "pressure or threats used to force an action",
+      "time": "10:09",
+      "cn": "胁迫；强制",
+      "tip": "coerce → coercion → coercive. Transcript: around 10:09.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "adjudicated",
+      "definition": "formally decided by a court or authority",
+      "time": "10:43",
+      "cn": "经司法裁定的",
+      "tip": "adjudicate → adjudication; legal verb. Transcript: around 10:43.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "credibility",
+      "definition": "the quality of being believable",
+      "time": "10:43",
+      "cn": "可信度",
+      "tip": "credible → credibility. Transcript: around 10:43.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "speculations",
+      "definition": "guesses without confirmed evidence",
+      "time": "11:16",
+      "cn": "猜测；推测",
+      "tip": "speculate → speculation; often uncountable. Transcript: around 11:16.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "polarizing",
+      "definition": "causing people to hold strongly opposing views",
+      "time": "11:34",
+      "cn": "引起两极分化的",
+      "tip": "polarize → polarization. Transcript: around 11:34.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "sororities",
+      "definition": "women’s university social organizations",
+      "time": "13:07",
+      "cn": "大学女生联谊会（复数）",
+      "tip": "Latin soror = sister; singular sorority. Transcript: around 13:07.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "hazing",
+      "definition": "dangerous or humiliating initiation practices",
+      "time": "20:21",
+      "cn": "入会霸凌",
+      "tip": "haze (verb); anti-hazing rules. Transcript: around 20:21.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "plaintiffs",
+      "definition": "people who bring a civil legal case",
+      "time": "21:08",
+      "cn": "民事诉讼原告（复数）",
+      "tip": "plaintiff vs. defendant. Transcript: around 21:08.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "intoxicated",
+      "definition": "affected by alcohol or drugs",
+      "time": "21:54",
+      "cn": "醉酒的；受药物影响的",
+      "tip": "intoxicate → intoxication. Transcript: around 21:54.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "incentive",
+      "definition": "something that motivates an action",
+      "time": "22:56",
+      "cn": "激励因素；动机",
+      "tip": "financial incentive / incentive to act. Transcript: around 22:56.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "alumni",
+      "definition": "former students or graduates",
+      "time": "24:16",
+      "cn": "校友（复数）",
+      "tip": "alumnus (singular male); alumna (singular female). Transcript: around 24:16.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "pledge",
+      "definition": "a prospective fraternity member",
+      "time": "25:32",
+      "cn": "兄弟会准会员",
+      "tip": "pledge also means a promise; context matters. Transcript: around 25:32.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "psychological",
+      "definition": "related to the mind and emotions",
+      "time": "25:44",
+      "cn": "心理的",
+      "tip": "psychology → psychological. Transcript: around 25:44.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "undergraduate",
+      "definition": "a student studying for a first degree",
+      "time": "33:13",
+      "cn": "本科生",
+      "tip": "under- + graduate; contrast postgraduate. Transcript: around 33:13.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "consenting",
+      "definition": "giving free and informed agreement",
+      "time": "37:17",
+      "cn": "同意；自愿许可",
+      "tip": "consent (noun/verb) → consenting. Transcript: around 37:17.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "defendant",
+      "definition": "a party accused or sued in court",
+      "time": "37:50",
+      "cn": "被告",
+      "tip": "defend → defendant; contrast plaintiff. Transcript: around 37:50.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "recollection",
+      "definition": "memory of a past event",
+      "time": "41:38",
+      "cn": "回忆；记忆",
+      "tip": "recollect → recollection; no recollection of. Transcript: around 41:38.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "misconduct",
+      "definition": "unacceptable or improper behavior",
+      "time": "54:41",
+      "cn": "不当行为",
+      "tip": "mis- (wrong) + conduct (behavior). Transcript: around 54:41.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "interim",
+      "definition": "temporary; serving until a replacement",
+      "time": "55:20",
+      "cn": "临时的；过渡的",
+      "tip": "interim president / interim report. Transcript: around 55:20.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "discrimination",
+      "definition": "unfair treatment based on protected traits",
+      "time": "56:23",
+      "cn": "歧视",
+      "tip": "discriminate → discrimination. Transcript: around 56:23.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "subpoena",
+      "definition": "an order requiring evidence or testimony",
+      "time": "57:04",
+      "cn": "传票；强制提交证据命令",
+      "tip": "subpoena power; issue a subpoena. Transcript: around 57:04.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "sanctions",
+      "definition": "official penalties or restrictions",
+      "time": "58:34",
+      "cn": "处罚；制裁",
+      "tip": "impose sanctions; academic sanctions. Transcript: around 58:34.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "egregious",
+      "definition": "extremely bad or shocking",
+      "time": "58:34",
+      "cn": "极其恶劣的",
+      "tip": "egregious misconduct / egregious error. Transcript: around 58:34.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "pedestrian",
+      "cn": "行人",
+      "definition": "a person walking instead of driving",
+      "tip": "Compare pedestrian with driver.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "A pedestrian was standing near the parked vehicle.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "back into",
+      "cn": "倒车撞上",
+      "definition": "to reverse a vehicle into someone or something",
+      "tip": "back up = reverse; back into = reverse into an object.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "The car began to back into a parking spot.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "parking spot",
+      "cn": "停车位",
+      "definition": "a marked space for parking a vehicle",
+      "tip": "Also say parking space.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "A driver was trying to enter a parking spot.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "run over",
+      "cn": "碾过",
+      "definition": "to drive a vehicle over someone or something",
+      "tip": "run over a foot / an animal.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "The pedestrian feared the vehicle might run over his foot.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "get dragged",
+      "cn": "被拖拽",
+      "definition": "to be pulled along the ground",
+      "tip": "drag → dragged → dragging.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "The object could get dragged across the ground.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "lose balance",
+      "cn": "失去平衡",
+      "definition": "to become unsteady and possibly fall",
+      "tip": "lose your balance on the stairs.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "He appeared to lose balance during the encounter.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "reversing",
+      "cn": "倒车",
+      "definition": "moving a vehicle backward",
+      "tip": "reverse / reversing / reverse lights.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "The reversing car created a confusing situation.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "footage",
+      "cn": "影像资料",
+      "definition": "recorded video of an event",
+      "tip": "security footage; video footage.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "The video footage shows part of the encounter.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "anti-climactically",
+      "cn": "不如预期地平淡",
+      "definition": "in a less dramatic way than expected",
+      "tip": "climax → anticlimax → anticlimactic.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "The situation ended rather anti-climactically.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "accosted",
+      "cn": "上前纠缠",
+      "definition": "approached someone in a confrontational way",
+      "tip": "Often: be accosted by someone.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "A student said he was accosted in the hallway.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "loitering",
+      "cn": "闲逛逗留",
+      "definition": "remaining somewhere without a clear purpose",
+      "tip": "loiter → loitering.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Several students were loitering outside the building.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "volatile",
+      "cn": "情绪易失控的",
+      "definition": "likely to change suddenly or become violent",
+      "tip": "volatile emotions / volatile situation.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "The exchange became volatile as tensions grew.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "intimidation",
+      "cn": "恐吓",
+      "definition": "behavior meant to frighten someone",
+      "tip": "intimidate → intimidation.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "The complaint described the incident as intimidation.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "harassment",
+      "cn": "骚扰",
+      "definition": "repeated unwanted behavior causing distress",
+      "tip": "harass → harassment.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Students expressed concerns about harassment.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "rescind",
+      "cn": "撤销",
+      "definition": "to officially cancel a decision or permission",
+      "tip": "rescind a visa / an offer.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Officials considered whether to rescind the decision.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "illuminated",
+      "cn": "亮起的",
+      "definition": "lit up or made visible by light",
+      "tip": "illuminate → illuminated.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "The footage illuminated an important detail.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "maneuver",
+      "cn": "操纵；移动",
+      "definition": "to move carefully through a difficult position",
+      "tip": "maneuver a vehicle through a narrow space.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "The driver attempted a difficult maneuver.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "disruptive",
+      "cn": "扰乱秩序的",
+      "definition": "causing a disturbance or interruption",
+      "tip": "disrupt → disruption → disruptive.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Officials described the behavior as disruptive.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "civil lawsuit",
+      "cn": "民事诉讼",
+      "definition": "a legal claim brought between parties",
+      "tip": "civil lawsuit vs criminal prosecution.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The narrator introduced a civil lawsuit involving the university.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "allegedly",
+      "cn": "据称；尚未证实",
+      "definition": "according to a claim that has not been proven",
+      "tip": "allege → alleged → allegedly.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The complaint describes what allegedly happened.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "credibility",
+      "cn": "可信度",
+      "definition": "the quality of being believable",
+      "tip": "credible → credibility.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The credibility of each account must be considered.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "adjudicated",
+      "cn": "经司法裁定",
+      "definition": "officially decided by a court or tribunal",
+      "tip": "adjudicate → adjudication.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The claim has not yet been adjudicated in court.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "polarizing",
+      "cn": "引起对立的",
+      "definition": "causing strong opposing views",
+      "tip": "polarize → polarization.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The story has become highly polarizing.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "coercion",
+      "cn": "胁迫",
+      "definition": "pressure or threats forcing an action",
+      "tip": "coerce → coercive → coercion.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The lawsuit contains allegations of coercion.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "doxed",
+      "cn": "被公开私人信息",
+      "definition": "having private information exposed online",
+      "tip": "dox / doxxing.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Some people worried that someone might be doxed online.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "prosecutor",
+      "cn": "检察官",
+      "definition": "a lawyer bringing a criminal case",
+      "tip": "prosecute → prosecutor → prosecution.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "A prosecutor evaluates evidence before bringing charges.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "court filing",
+      "cn": "法院提交文件",
+      "definition": "a document formally submitted in a court case",
+      "tip": "file a lawsuit / court filing.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "The court filing outlines one party’s claims.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "liability",
+      "cn": "法律责任",
+      "definition": "legal responsibility for injury or loss",
+      "tip": "liable → liability.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "The organization could face legal liability.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "insurance coverage",
+      "cn": "保险保障范围",
+      "definition": "protection provided by an insurance policy",
+      "tip": "covered / coverage / uncovered.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "The policy may not provide insurance coverage in every situation.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "exclusion",
+      "cn": "除外责任",
+      "definition": "something that an insurance policy does not cover",
+      "tip": "exclude → exclusion.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "An exclusion can remove certain events from coverage.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "fine print",
+      "cn": "细则；小字条款",
+      "definition": "small contractual text stating restrictions",
+      "tip": "read the fine print.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Always read the fine print of the agreement.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "rescind membership",
+      "cn": "取消成员资格",
+      "definition": "to officially cancel someone's membership",
+      "tip": "rescind = formally cancel.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "A chapter may decide to rescind membership.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "inebriated",
+      "cn": "醉酒的",
+      "definition": "affected by alcohol; drunk",
+      "tip": "inebriation = drunkenness.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "An inebriated person may be unable to make decisions clearly.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "third-party vendor",
+      "cn": "第三方供应商",
+      "definition": "an outside company providing a service",
+      "tip": "third party ≠ either main party.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "A third-party vendor might provide services for an event.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "self-insuring",
+      "cn": "自行承保",
+      "definition": "covering one's own financial risk",
+      "tip": "self + insure.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "The organization discussed the costs of self-insuring.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "pledge",
+      "cn": "申请入会的新成员",
+      "definition": "a person seeking membership in a fraternity",
+      "tip": "pledge can also mean promise.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "A new pledge may have to follow initiation rules.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "circumstantial evidence",
+      "cn": "间接证据",
+      "definition": "evidence implying something without proving it directly",
+      "tip": "circumstance → circumstantial.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Circumstantial evidence needs careful interpretation.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "no recollection of",
+      "cn": "完全不记得",
+      "definition": "no memory of an event",
+      "tip": "recollect → recollection.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "She had no recollection of the conversation.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "bypass",
+      "cn": "绕过",
+      "definition": "to avoid going through a normal route",
+      "tip": "bypass the usual process.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Some systems allow people to bypass ordinary checks.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "injury",
+      "cn": "伤害",
+      "definition": "physical damage to a person",
+      "tip": "injure → injury.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "An injury may have serious consequences.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "financially beneficial",
+      "cn": "经济上有利的",
+      "definition": "providing a financial advantage",
+      "tip": "benefit → beneficial.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "The arrangement might be financially beneficial to the institution.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "incentive",
+      "cn": "动机；激励",
+      "definition": "something that encourages a particular action",
+      "tip": "financial incentive.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "The policy could create an unintended incentive.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "alumni",
+      "cn": "校友",
+      "definition": "former students of an institution",
+      "tip": "alumnus singular; alumni plural.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Alumni can influence university organizations.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "dormitory",
+      "cn": "学生宿舍",
+      "definition": "a building where students live",
+      "tip": "dorm = dormitory.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "The students lived in a dormitory.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "disclosed",
+      "cn": "被披露的",
+      "definition": "made known to the public",
+      "tip": "disclose → disclosure.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "The details were not disclosed immediately.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "maintenance",
+      "cn": "维护",
+      "definition": "the work of keeping something in good condition",
+      "tip": "maintain → maintenance.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "The building required regular maintenance.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "hazing",
+      "cn": "入会霸凌",
+      "definition": "harmful initiation practices imposed on recruits",
+      "tip": "haze → hazing.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "The former member described hazing practices.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "initiation",
+      "cn": "入会仪式",
+      "definition": "the process of officially joining a group",
+      "tip": "initiate → initiation.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "The initiation process was difficult to explain.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "blindfolded",
+      "cn": "被蒙眼的",
+      "definition": "having one's eyes covered",
+      "tip": "blind + fold.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Some participants were allegedly blindfolded.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "endure",
+      "cn": "忍受",
+      "definition": "to suffer or tolerate something difficult",
+      "tip": "endure hardship.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Students described what they had to endure.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "consent",
+      "cn": "同意",
+      "definition": "freely given agreement",
+      "tip": "give consent / without consent.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Consent needs to be freely given.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "vulnerability",
+      "cn": "脆弱处境",
+      "definition": "susceptibility to harm or distress",
+      "tip": "vulnerable → vulnerability.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "The experience revealed a sense of vulnerability.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "articulate",
+      "cn": "清楚表达",
+      "definition": "to express thoughts clearly in words",
+      "tip": "articulate your feelings.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "It can be hard to articulate a painful experience.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "inducted",
+      "cn": "正式接纳加入",
+      "definition": "formally admitted into a group",
+      "tip": "induct → induction.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "The member was inducted into the organization.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "recount",
+      "cn": "讲述",
+      "definition": "to tell an event from memory",
+      "tip": "recount an experience.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "The witness tried to recount the events in order.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "jurisdiction",
+      "cn": "管辖权",
+      "definition": "legal authority over a place or matter",
+      "tip": "jurisdiction over something.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The incident raised questions about jurisdiction.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "interim suspension",
+      "cn": "临时停学或暂停资格",
+      "definition": "a temporary restriction pending a decision",
+      "tip": "interim = temporary.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The university imposed an interim suspension.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "possession",
+      "cn": "持有",
+      "definition": "the state of having or owning something",
+      "tip": "in possession of.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The report discussed possession of prohibited substances.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "overdose",
+      "cn": "药物过量",
+      "definition": "to take a dangerously large amount of a drug",
+      "tip": "over + dose.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Officials responded to a possible overdose.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "crime log",
+      "cn": "犯罪事件登记簿",
+      "definition": "a record of reported crimes",
+      "tip": "log = written record.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The reporter consulted the campus crime log.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "privileges",
+      "cn": "特权；许可",
+      "definition": "special rights or advantages",
+      "tip": "privilege → privileges.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Membership privileges may be suspended.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "integrity",
+      "cn": "正直；诚信",
+      "definition": "honesty and strong moral principles",
+      "tip": "personal integrity.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The organization emphasized academic integrity.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "pseudonym",
+      "cn": "化名",
+      "definition": "a false name used to protect identity",
+      "tip": "pseudo = false; -nym = name.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The report used a pseudonym to protect a person’s identity.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "creed",
+      "cn": "信条",
+      "definition": "a set of formal beliefs",
+      "tip": "organizational creed.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "The fraternity described its values as a creed.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "defendant",
+      "cn": "被告",
+      "definition": "the person or party sued in a case",
+      "tip": "defend → defendant.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Each defendant is entitled to respond to allegations.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "plaintiff",
+      "cn": "原告",
+      "definition": "the party who brings a civil legal claim",
+      "tip": "plaintiff vs defendant.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "The plaintiff filed a complaint in civil court.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "intoxicated",
+      "cn": "醉酒的",
+      "definition": "affected by alcohol or drugs",
+      "tip": "intoxicate → intoxication.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "The witness said some people appeared intoxicated.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "underage",
+      "cn": "未到法定年龄的",
+      "definition": "below the legally required age",
+      "tip": "under + age.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Underage drinking was one issue under discussion.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "bouncer",
+      "cn": "酒吧保安",
+      "definition": "a person who controls entry to a bar",
+      "tip": "bar bouncer.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "A bouncer may check identification at the entrance.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "consenting",
+      "cn": "表示同意的",
+      "definition": "giving permission freely",
+      "tip": "consent → consenting.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Being silent is not the same as consenting.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "congregate",
+      "cn": "聚集",
+      "definition": "to gather together in a place",
+      "tip": "congregation shares this root.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Guests began to congregate near the entrance.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "proposition",
+      "cn": "提出性方面邀约",
+      "definition": "to make a sexual suggestion or offer",
+      "tip": "Here a verb: proposition someone.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "He made a proposition that the other person rejected.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "bruise",
+      "cn": "淤伤",
+      "definition": "a discolored mark caused by injury",
+      "tip": "bruising = multiple bruises.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "A bruise might be visible after an injury.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "derogatory",
+      "cn": "贬损的",
+      "definition": "showing disrespect toward someone",
+      "tip": "derogatory remark.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "The chat included derogatory language.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "clarify",
+      "cn": "澄清",
+      "definition": "to make something easier to understand",
+      "tip": "clear → clarify → clarification.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "A follow-up question can clarify what was meant.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "restating",
+      "cn": "重新表述",
+      "definition": "saying something again in other words",
+      "tip": "restate a point.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "She was restating the earlier claim.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "abruptly",
+      "cn": "突然地",
+      "definition": "in a sudden unexpected way",
+      "tip": "abrupt → abruptly.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "The conversation ended abruptly.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "interpretation",
+      "cn": "解读",
+      "definition": "an explanation of what something means",
+      "tip": "interpret → interpretation.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Two readers offered different interpretations.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "reprehensible",
+      "cn": "应受谴责的",
+      "definition": "morally very wrong",
+      "tip": "morally reprehensible.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "The conduct described was reprehensible.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "redacted",
+      "cn": "被遮盖删节的",
+      "definition": "with private details removed from a document",
+      "tip": "redact → redaction.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Personal details were redacted from the report.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "remotely",
+      "cn": "稍微；哪怕一点",
+      "definition": "even slightly, in this context",
+      "tip": "remotely close to.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "The event was not remotely similar to the earlier incident.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "firsthand",
+      "cn": "亲身的",
+      "definition": "directly experienced or witnessed",
+      "tip": "firsthand account.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "The account was not based on firsthand knowledge.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "redaction",
+      "cn": "删改遮盖",
+      "definition": "the removal of sensitive information from documents",
+      "tip": "redact → redaction.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "The redaction hid identifying details.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "context clues",
+      "cn": "上下文线索",
+      "definition": "nearby words that help reveal meaning",
+      "tip": "use context clues.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Readers tried to interpret context clues.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "publicly available",
+      "cn": "公开可得的",
+      "definition": "accessible to the public",
+      "tip": "public → publicly.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Some information was already publicly available.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "cross-reference",
+      "cn": "交叉核对",
+      "definition": "to compare different sources for matching details",
+      "tip": "cross + reference.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "They attempted to cross-reference the reports.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "adjacent",
+      "cn": "相邻的",
+      "definition": "next to something",
+      "tip": "adjacent room.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "The rooms were adjacent to each other.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "alcove",
+      "cn": "凹室；壁龛",
+      "definition": "a small recessed section of a room",
+      "tip": "picture a little space off a main room.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "A small alcove connected the hallway and the room.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "legal finding",
+      "cn": "法律认定",
+      "definition": "an official conclusion reached through a legal process",
+      "tip": "find → finding.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "An allegation is not the same as a legal finding.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "source",
+      "cn": "消息来源",
+      "definition": "the person or document providing information",
+      "tip": "an inside source.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Every claim should be linked to a reliable source.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "disciplinary",
+      "cn": "纪律处分相关的",
+      "definition": "relating to formal punishment for rule-breaking",
+      "tip": "discipline → disciplinary.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Disciplinary action may follow a formal investigation.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "mitigate",
+      "cn": "减轻",
+      "definition": "to reduce severity or harm",
+      "tip": "mitigate the impact.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Officials tried to mitigate future risks.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "sanction",
+      "cn": "处分；制裁",
+      "definition": "a formal penalty imposed for misconduct",
+      "tip": "academic sanctions.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "The university considered an appropriate sanction.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "misconduct",
+      "cn": "不当行为",
+      "definition": "unacceptable or improper conduct",
+      "tip": "mis- (wrong) + conduct.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "The report examined alleged misconduct.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "subpoena",
+      "cn": "传票；强制提交令",
+      "definition": "a legal order to provide evidence or appear",
+      "tip": "subpoena power.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "A court may issue a subpoena for records.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "prosecute",
+      "cn": "提起刑事公诉",
+      "definition": "to bring a criminal charge before a court",
+      "tip": "prosecute → prosecution.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Authorities must decide whether to prosecute.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "egregious",
+      "cn": "极其恶劣的",
+      "definition": "shockingly bad or unacceptable",
+      "tip": "egregious misconduct.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "The narrator described the alleged conduct as egregious.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "commence",
+      "cn": "开始",
+      "definition": "to begin formally",
+      "tip": "commence an investigation.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "The review was scheduled to commence later.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "speculate",
+      "cn": "推测",
+      "definition": "to form an idea without enough evidence",
+      "tip": "speculate → speculation.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "It is important not to speculate beyond the evidence.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "diligently",
+      "cn": "勤勉地",
+      "definition": "with sustained careful effort",
+      "tip": "diligent → diligently.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Investigators said they would work diligently.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "scenario",
+      "definition": "a possible situation or sequence of events",
+      "cn": "情形；假设情况",
+      "tip": "A scenario is an imagined case; plural: scenarios.",
+      "example": "Try to imagine a scenario in which the pedestrian was responsible.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "come to a conclusion",
+      "definition": "to reach a judgment after considering evidence",
+      "cn": "得出结论",
+      "tip": "conclude (verb) → conclusion (noun); draw a conclusion.",
+      "example": "It is too early to come to a conclusion without reviewing the video.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "backpack",
+      "definition": "a bag worn on your back with shoulder straps",
+      "cn": "双肩背包",
+      "tip": "back + pack: a pack carried on your back.",
+      "example": "The student carried a backpack while recording the incident.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "bump into",
+      "definition": "to hit or collide with something lightly",
+      "cn": "撞到；碰到",
+      "tip": "Also means to meet someone unexpectedly: bump into a friend.",
+      "example": "The reversing car bumped into the person behind it.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "get out of the way",
+      "definition": "to move so someone or something can pass",
+      "cn": "让开；避让",
+      "tip": "Learn as a whole chunk: get out of the way.",
+      "example": "The people standing nearby were asked to get out of the way.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "be at fault",
+      "definition": "to be responsible for a mistake or incident",
+      "cn": "有过错；负有责任",
+      "tip": "at fault contrasts with not to blame.",
+      "example": "The investigators considered who was at fault.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "bizarre",
+      "definition": "very strange or difficult to explain",
+      "cn": "古怪的；离奇的",
+      "tip": "Common combination: a bizarre situation.",
+      "example": "The result of the investigation sounded bizarre.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "be prevented from",
+      "definition": "to be stopped from doing something",
+      "cn": "被阻止做某事",
+      "tip": "prevent someone from + -ing.",
+      "example": "The driver was prevented from leaving the parking lot.",
+      "example_source": "adapted",
+      "unit": 0,
+      "time": "00:02",
+      "source": "verified in publicly visible opening transcript; example adapted"
+    },
+    {
+      "word": "anticlimactically",
+      "definition": "in a way that is less dramatic than expected",
+      "time": "00:34",
+      "cn": "出乎意料地平淡",
+      "tip": "anti- + climactic; think: without the expected dramatic peak.",
+      "example": "The announcement ended anticlimactically.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "irresponsible",
+      "definition": "not acting with adequate care",
+      "time": "02:12",
+      "cn": "不负责任的",
+      "tip": "in-/ir- (not) + responsible.",
+      "example": "It was irresponsible to ignore the warning.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "expelling",
+      "definition": "forcing someone to leave a school or organization",
+      "time": "03:40",
+      "cn": "开除",
+      "tip": "expel → expulsion; distinguish from suspend.",
+      "example": "The school considered expelling the student.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "verbal abuse",
+      "definition": "harmful or insulting spoken language",
+      "time": "05:27",
+      "cn": "言语辱骂",
+      "tip": "verbal = spoken; abuse is often uncountable.",
+      "example": "The policy prohibits verbal abuse.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "silencing",
+      "definition": "preventing someone from expressing views",
+      "time": "06:04",
+      "cn": "压制发声",
+      "tip": "silence (verb) → silencing; silence speech.",
+      "example": "She accused the policy of silencing criticism.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "ripped apart",
+      "definition": "severely damaged or destroyed",
+      "time": "07:41",
+      "cn": "被撕裂；受到严重破坏",
+      "tip": "rip apart = tear apart; figurative as well as literal.",
+      "example": "The scandal ripped the community apart.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "fair shake",
+      "definition": "fair treatment or opportunity",
+      "time": "08:12",
+      "cn": "公平对待",
+      "tip": "An informal idiom: give someone a fair shake.",
+      "example": "Every applicant deserves a fair shake.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "mainstream media",
+      "definition": "widely established news organizations",
+      "time": "08:59",
+      "cn": "主流媒体",
+      "tip": "mainstream = widely accepted or dominant.",
+      "example": "The story spread through mainstream media.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "court filings",
+      "definition": "documents officially submitted to a court",
+      "time": "10:43",
+      "cn": "法院提交的文件",
+      "tip": "file a case / court filing; filing = submitted document.",
+      "example": "The details appeared in court filings.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "exaggeration",
+      "definition": "a statement making something seem greater than it is",
+      "time": "11:34",
+      "cn": "夸张说法",
+      "tip": "exaggerate → exaggerated → exaggeration.",
+      "example": "Calling it a disaster was an exaggeration.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "not worth the risk",
+      "definition": "too risky to justify the possible benefit",
+      "time": "12:45",
+      "cn": "不值得冒风险",
+      "tip": "Reusable: It is not worth the risk.",
+      "example": "The shortcut was not worth the risk.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "liability coverage",
+      "definition": "insurance protection against legal responsibility",
+      "time": "13:57",
+      "cn": "责任险保障",
+      "tip": "liable → liability; legal and business collocation.",
+      "example": "The company reviewed its liability coverage.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "under certain circumstances",
+      "definition": "in some particular situations",
+      "time": "15:00",
+      "cn": "在特定情况下",
+      "tip": "Highly reusable formal phrase.",
+      "example": "Refunds are possible under certain circumstances.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "homeowners insurance",
+      "definition": "insurance for damage or liability associated with a home",
+      "time": "17:34",
+      "cn": "房屋业主保险",
+      "tip": "homeowner + insurance; US term.",
+      "example": "Their homeowners insurance covered the damage.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "categorizing",
+      "definition": "putting items into separate groups",
+      "time": "19:12",
+      "cn": "分类",
+      "tip": "category → categorize → categorization.",
+      "example": "They were categorizing the claims by type.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "gauge",
+      "definition": "estimate or measure something",
+      "time": "20:21",
+      "cn": "估计；衡量",
+      "tip": "gauge the risk / gauge how much.",
+      "example": "It is difficult to gauge the impact.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "maintain",
+      "definition": "keep something in good condition",
+      "time": "23:36",
+      "cn": "维护",
+      "tip": "maintain → maintenance; maintain housing.",
+      "example": "The university must maintain its buildings.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "tuition",
+      "definition": "the amount charged for education",
+      "time": "24:16",
+      "cn": "学费",
+      "tip": "tuition fees; do not confuse with tutoring.",
+      "example": "Tuition increased again this year.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "recounts",
+      "definition": "tells a story about past events",
+      "time": "25:44",
+      "cn": "讲述；回忆",
+      "tip": "recount an experience; re- (again) + count (tell).",
+      "example": "She recounts her first day at university.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "sleep deprived",
+      "definition": "not having had enough sleep",
+      "time": "26:05",
+      "cn": "睡眠不足的",
+      "tip": "deprive of sleep → sleep deprivation.",
+      "example": "I felt sleep deprived after the flight.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "discarded",
+      "definition": "thrown away as unwanted",
+      "time": "28:23",
+      "cn": "被丢弃的",
+      "tip": "discard → discarded items.",
+      "example": "Discarded furniture filled the room.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "snippets",
+      "definition": "short pieces of information or text",
+      "time": "29:38",
+      "cn": "片段",
+      "tip": "snippet of audio / a snippet of text.",
+      "example": "The report released short snippets of testimony.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "personal integrity",
+      "definition": "honesty and strong moral principles",
+      "time": "31:08",
+      "cn": "个人诚信",
+      "tip": "integrity = honesty, wholeness; personal integrity.",
+      "example": "Personal integrity matters more than reputation.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "vital",
+      "definition": "essential or very important",
+      "time": "32:32",
+      "cn": "至关重要的",
+      "tip": "vital part of / vital for.",
+      "example": "Clear communication is vital to the project.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "facilitate",
+      "definition": "make a process easier",
+      "time": "33:57",
+      "cn": "促进；协助",
+      "tip": "facilitate a meeting / facilitate access.",
+      "example": "The coordinator will facilitate the discussion.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "visibly",
+      "definition": "in a way that can be clearly seen",
+      "time": "36:35",
+      "cn": "明显地",
+      "tip": "visible → visibly; visibly upset / nervous.",
+      "example": "The speaker was visibly nervous.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "clarifying questions",
+      "definition": "questions to make something clearer",
+      "time": "40:43",
+      "cn": "澄清性问题",
+      "tip": "clarify → clarification; ask clarifying questions.",
+      "example": "Ask clarifying questions before you decide.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "morally reprehensible",
+      "definition": "deserving strong moral criticism",
+      "time": "42:16",
+      "cn": "道德上应受强烈谴责的",
+      "tip": "reprehensible = worthy of blame.",
+      "example": "The comments were morally reprehensible.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "whatsoever",
+      "definition": "at all; used for emphasis",
+      "time": "46:31",
+      "cn": "丝毫；任何",
+      "tip": "Often follows negatives: no... whatsoever.",
+      "example": "I have no reason whatsoever to doubt her.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "redactions",
+      "definition": "parts removed or hidden from a document",
+      "time": "49:28",
+      "cn": "被涂黑／删去的内容",
+      "tip": "redact → redaction; redact confidential text.",
+      "example": "The public report contained many redactions.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "cross-referencing",
+      "definition": "checking information against other sources",
+      "time": "50:49",
+      "cn": "交叉核对",
+      "tip": "cross-reference a report with another source.",
+      "example": "Cross-referencing reports revealed inconsistencies.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "word": "lost consciousness",
+      "definition": "became unconscious",
+      "time": "52:08",
+      "cn": "失去意识",
+      "tip": "conscious → consciousness; lose consciousness.",
+      "example": "The patient lost consciousness briefly.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    }
+  ],
+  "expressions": [
+    {
+      "text": "end up at fault",
+      "definition": "to eventually be judged responsible",
+      "example": "The passenger ended up at fault after the investigation.",
+      "time": "0:00",
+      "cn": "最终被认定有责任",
+      "example_source": "adapted"
+    },
+    {
+      "text": "follow-up questions",
+      "definition": "additional questions asked to clarify something",
+      "example": "Before accepting the explanation, ask a few follow-up questions.",
+      "time": "0:00",
+      "cn": "后续追问",
+      "example_source": "adapted"
+    },
+    {
+      "text": "sooner rather than later",
+      "definition": "fairly soon; without a long delay",
+      "example": "We should address this issue sooner rather than later.",
+      "time": "0:00",
+      "cn": "尽早；越快越好",
+      "example_source": "adapted"
+    },
+    {
+      "text": "back into",
+      "definition": "to reverse a vehicle so it hits something",
+      "example": "The driver accidentally backed into a fence.",
+      "time": "1:00",
+      "cn": "倒车撞上",
+      "example_source": "adapted"
+    },
+    {
+      "text": "run over",
+      "definition": "to drive over something with a vehicle",
+      "example": "Be careful not to run over the curb.",
+      "time": "1:00",
+      "cn": "开车碾过",
+      "example_source": "adapted"
+    },
+    {
+      "text": "a bizarre incident",
+      "definition": "a very unusual or strange event",
+      "example": "The reporter described a bizarre incident outside the building.",
+      "time": "2:00",
+      "cn": "一件离奇事件",
+      "example_source": "adapted"
+    },
+    {
+      "text": "all things considered",
+      "definition": "taking all relevant factors into account",
+      "example": "All things considered, the decision was reasonable.",
+      "time": "4:00",
+      "cn": "综合考虑",
+      "example_source": "adapted"
+    },
+    {
+      "text": "make a public statement",
+      "definition": "to announce an official position publicly",
+      "example": "The university made a public statement the next morning.",
+      "time": "5:00",
+      "cn": "公开发表声明",
+      "example_source": "adapted"
+    },
+    {
+      "text": "in the slightest",
+      "definition": "at all, often used in negative sentences",
+      "example": "I was not surprised in the slightest.",
+      "time": "7:00",
+      "cn": "丝毫；一点也不",
+      "example_source": "adapted"
+    },
+    {
+      "text": "file a civil lawsuit",
+      "definition": "to formally begin a civil court case",
+      "example": "The family decided to file a civil lawsuit.",
+      "time": "7:00",
+      "cn": "提起民事诉讼",
+      "example_source": "adapted"
+    },
+    {
+      "text": "according to the lawsuit",
+      "definition": "as claimed in the legal complaint",
+      "example": "According to the lawsuit, the company ignored several warnings.",
+      "time": "8:00",
+      "cn": "根据起诉书的说法",
+      "example_source": "adapted"
+    },
+    {
+      "text": "weigh in",
+      "definition": "to give an opinion on a topic",
+      "example": "Several experts weighed in on the debate.",
+      "time": "8:00",
+      "cn": "发表意见",
+      "example_source": "adapted"
+    },
+    {
+      "text": "the other way around",
+      "definition": "with the situation reversed",
+      "example": "I thought she called him, but it was the other way around.",
+      "time": "8:00",
+      "cn": "正好相反",
+      "example_source": "adapted"
+    },
+    {
+      "text": "pick a side",
+      "definition": "to choose one party in a disagreement",
+      "example": "You do not have to pick a side before hearing the evidence.",
+      "time": "9:00",
+      "cn": "选边站",
+      "example_source": "adapted"
+    },
+    {
+      "text": "currently ongoing",
+      "definition": "still happening or being investigated",
+      "example": "The inquiry is currently ongoing.",
+      "time": "10:00",
+      "cn": "仍在进行中",
+      "example_source": "adapted"
+    },
+    {
+      "text": "be proven guilty",
+      "definition": "to be established as guilty through legal process",
+      "example": "An accusation does not mean someone has been proven guilty.",
+      "time": "10:00",
+      "cn": "被证明有罪",
+      "example_source": "adapted"
+    },
+    {
+      "text": "keep in mind",
+      "definition": "to remember or consider an important fact",
+      "example": "Keep in mind that the report may be incomplete.",
+      "time": "11:00",
+      "cn": "记住；考虑到",
+      "example_source": "adapted"
+    },
+    {
+      "text": "become polarizing",
+      "definition": "to cause strong opposing opinions",
+      "example": "The issue has become increasingly polarizing.",
+      "time": "11:00",
+      "cn": "引起两极分化",
+      "example_source": "adapted"
+    },
+    {
+      "text": "fine print",
+      "definition": "small, important terms in a contract",
+      "example": "Always read the fine print before signing.",
+      "time": "14:00",
+      "cn": "合同细则",
+      "example_source": "adapted"
+    },
+    {
+      "text": "assume liability",
+      "definition": "to accept legal responsibility",
+      "example": "The vendor may assume liability for certain accidents.",
+      "time": "16:00",
+      "cn": "承担法律责任",
+      "example_source": "adapted"
+    },
+    {
+      "text": "right off the bat",
+      "definition": "immediately; from the very beginning",
+      "example": "Right off the bat, I noticed something was wrong.",
+      "time": "19:00",
+      "cn": "一开始就",
+      "example_source": "adapted"
+    },
+    {
+      "text": "a turn of events",
+      "definition": "a change in how a situation develops",
+      "example": "An unexpected turn of events changed our plans.",
+      "time": "19:00",
+      "cn": "事情的转折",
+      "example_source": "adapted"
+    },
+    {
+      "text": "circumstantial evidence",
+      "definition": "indirect evidence suggesting something happened",
+      "example": "The investigation relied on circumstantial evidence.",
+      "time": "19:00",
+      "cn": "间接证据",
+      "example_source": "adapted"
+    },
+    {
+      "text": "have no recollection of",
+      "definition": "not remember an event at all",
+      "example": "I have no recollection of that conversation.",
+      "time": "20:00",
+      "cn": "完全不记得",
+      "example_source": "adapted"
+    },
+    {
+      "text": "hard to gauge",
+      "definition": "difficult to measure or judge",
+      "example": "It is hard to gauge how customers will react.",
+      "time": "20:00",
+      "cn": "很难判断",
+      "example_source": "adapted"
+    },
+    {
+      "text": "to put it simply",
+      "definition": "to explain in an easy, direct way",
+      "example": "To put it simply, the project needs more time.",
+      "time": "20:00",
+      "cn": "简单来说",
+      "example_source": "adapted"
+    },
+    {
+      "text": "way more often than",
+      "definition": "much more frequently than",
+      "example": "It happens way more often than you might think.",
+      "time": "22:00",
+      "cn": "比……频繁得多",
+      "example_source": "adapted"
+    },
+    {
+      "text": "make sense",
+      "definition": "to seem logical or reasonable",
+      "example": "That explanation does not make sense to me.",
+      "time": "22:00",
+      "cn": "讲得通",
+      "example_source": "adapted"
+    },
+    {
+      "text": "on top of that",
+      "definition": "in addition to what was already mentioned",
+      "example": "The train was late, and on top of that, it started raining.",
+      "time": "23:00",
+      "cn": "除此之外",
+      "example_source": "adapted"
+    },
+    {
+      "text": "come up more recently",
+      "definition": "begin to be discussed or noticed lately",
+      "example": "This question has come up more recently in meetings.",
+      "time": "24:00",
+      "cn": "最近开始出现／被提出",
+      "example_source": "adapted"
+    },
+    {
+      "text": "be worth it",
+      "definition": "to justify the time, effort, money, or risk",
+      "example": "Learning a language takes time, but it is worth it.",
+      "time": "24:00",
+      "cn": "值得",
+      "example_source": "adapted"
+    },
+    {
+      "text": "have been around",
+      "definition": "to have existed for a long time",
+      "example": "That tradition has been around for decades.",
+      "time": "25:00",
+      "cn": "已经存在很久",
+      "example_source": "adapted"
+    },
+    {
+      "text": "highly relevant",
+      "definition": "closely connected and important to the topic",
+      "example": "That example is highly relevant to our discussion.",
+      "time": "25:00",
+      "cn": "高度相关",
+      "example_source": "adapted"
+    },
+    {
+      "text": "as it turned out",
+      "definition": "as was later discovered",
+      "example": "As it turned out, we had the wrong address.",
+      "time": "27:00",
+      "cn": "结果发现",
+      "example_source": "adapted"
+    },
+    {
+      "text": "unable to articulate",
+      "definition": "not able to express something clearly in words",
+      "example": "He was unable to articulate why he felt uneasy.",
+      "time": "27:00",
+      "cn": "无法清楚表达",
+      "example_source": "adapted"
+    },
+    {
+      "text": "be worth reading",
+      "definition": "to deserve the time spent reading",
+      "example": "The article is long, but it is worth reading.",
+      "time": "27:00",
+      "cn": "值得一读",
+      "example_source": "adapted"
+    },
+    {
+      "text": "shut down",
+      "definition": "to close or stop operating",
+      "example": "The venue was shut down for renovations.",
+      "time": "28:00",
+      "cn": "关闭；叫停",
+      "example_source": "adapted"
+    },
+    {
+      "text": "to be exact",
+      "definition": "used to add precise information",
+      "example": "We met three years ago, in June to be exact.",
+      "time": "29:00",
+      "cn": "确切地说",
+      "example_source": "adapted"
+    },
+    {
+      "text": "at this point",
+      "definition": "at this stage or moment",
+      "example": "At this point, we should wait for more information.",
+      "time": "36:00",
+      "cn": "到了这个阶段",
+      "example_source": "adapted"
+    },
+    {
+      "text": "off to the side",
+      "definition": "away from the central area",
+      "example": "Could we talk off to the side for a moment?",
+      "time": "37:00",
+      "cn": "在旁边",
+      "example_source": "adapted"
+    },
+    {
+      "text": "in the sense that",
+      "definition": "meaning specifically that",
+      "example": "It is flexible in the sense that you can work from home.",
+      "time": "38:00",
+      "cn": "从……这个意义上说",
+      "example_source": "adapted"
+    },
+    {
+      "text": "pass something around",
+      "definition": "to share or circulate something among people",
+      "example": "We passed the photos around the table.",
+      "time": "38:00",
+      "cn": "传递给在场的人",
+      "example_source": "adapted"
+    },
+    {
+      "text": "all of a sudden",
+      "definition": "suddenly; without warning",
+      "example": "All of a sudden, the lights went out.",
+      "time": "43:00",
+      "cn": "突然",
+      "example_source": "adapted"
+    },
+    {
+      "text": "out of nowhere",
+      "definition": "unexpectedly, with no apparent warning",
+      "example": "He called me out of nowhere yesterday.",
+      "time": "43:00",
+      "cn": "毫无征兆地",
+      "example_source": "adapted"
+    },
+    {
+      "text": "pick up the tone",
+      "definition": "to notice the feeling or attitude in speech",
+      "example": "I picked up the tone of frustration in her reply.",
+      "time": "44:00",
+      "cn": "听出语气",
+      "example_source": "adapted"
+    },
+    {
+      "text": "more on that later",
+      "definition": "the topic will be explained further afterward",
+      "example": "There is another complication; more on that later.",
+      "time": "45:00",
+      "cn": "稍后再细说",
+      "example_source": "adapted"
+    },
+    {
+      "text": "context clues",
+      "definition": "hints from the surrounding words or situation",
+      "example": "Try using context clues before checking the dictionary.",
+      "time": "49:00",
+      "cn": "上下文线索",
+      "example_source": "adapted"
+    },
+    {
+      "text": "get your hands on",
+      "definition": "to obtain or gain access to something",
+      "example": "I finally got my hands on the full report.",
+      "time": "50:00",
+      "cn": "设法拿到",
+      "example_source": "adapted"
+    },
+    {
+      "text": "piece together",
+      "definition": "to combine bits of information to understand the whole",
+      "example": "We pieced together the timeline from emails.",
+      "time": "51:00",
+      "cn": "拼凑出全貌",
+      "example_source": "adapted"
+    },
+    {
+      "text": "cross-reference",
+      "definition": "to check information against other sources",
+      "example": "Cross-reference the names with the original list.",
+      "time": "51:00",
+      "cn": "交叉核对",
+      "example_source": "adapted"
+    },
+    {
+      "text": "in a state of shock",
+      "definition": "feeling stunned after an upsetting event",
+      "example": "He was in a state of shock after the accident.",
+      "time": "52:00",
+      "cn": "处于震惊状态",
+      "example_source": "adapted"
+    },
+    {
+      "text": "as a precautionary measure",
+      "definition": "done to prevent a possible problem",
+      "example": "We backed up the files as a precautionary measure.",
+      "time": "52:00",
+      "cn": "作为预防措施",
+      "example_source": "adapted"
+    },
+    {
+      "text": "an opportunity to",
+      "definition": "a chance to do something",
+      "example": "This is an opportunity to learn from our mistakes.",
+      "time": "53:00",
+      "cn": "……的机会",
+      "example_source": "adapted"
+    },
+    {
+      "text": "urge someone to",
+      "definition": "strongly encourage someone to do something",
+      "example": "The notice urged residents to stay indoors.",
+      "time": "54:00",
+      "cn": "敦促某人做某事",
+      "example_source": "adapted"
+    },
+    {
+      "text": "comb through",
+      "definition": "to search something very carefully",
+      "example": "The team combed through hundreds of pages.",
+      "time": "55:00",
+      "cn": "仔细翻查",
+      "example_source": "adapted"
+    },
+    {
+      "text": "keep someone updated",
+      "definition": "to regularly provide new information",
+      "example": "Please keep me updated on the application.",
+      "time": "11:00",
+      "cn": "随时告诉某人最新进展",
+      "example_source": "adapted"
+    },
+    {
+      "text": "be that as it may",
+      "definition": "even though that is true; nevertheless",
+      "example": "Be that as it may, we still need a solution.",
+      "time": "57:00",
+      "cn": "即便如此",
+      "example_source": "adapted"
+    },
+    {
+      "text": "I can’t think of many reasons why",
+      "definition": "used to challenge an explanation",
+      "time": "00:00",
+      "cn": "我想不出多少理由说明……",
+      "example": "I can’t think of many reasons why we should delay.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "the ones to blame",
+      "definition": "the people considered responsible",
+      "time": "02:12",
+      "cn": "应该负责的人",
+      "example": "The investigation identified the ones to blame.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "there’s got to be a better way",
+      "definition": "a better alternative must exist",
+      "time": "03:14",
+      "cn": "肯定有更好的办法",
+      "example": "There’s got to be a better way to organize this.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "to give some context",
+      "definition": "to provide relevant background",
+      "time": "03:40",
+      "cn": "补充一下背景",
+      "example": "To give some context, the system was upgraded yesterday.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "a long history of",
+      "definition": "many past examples of something",
+      "time": "05:27",
+      "cn": "长期以来一直有……",
+      "example": "The firm has a long history of innovation.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "seems so overkill",
+      "definition": "appears excessive for the situation",
+      "time": "06:50",
+      "cn": "感觉太过火了",
+      "example": "That response seems so overkill for a small error.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "caught up in",
+      "definition": "involved in a difficult situation",
+      "time": "07:41",
+      "cn": "被卷入",
+      "example": "We got caught up in the dispute.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "get a fair shake",
+      "definition": "be treated fairly",
+      "time": "08:12",
+      "cn": "得到公平对待",
+      "example": "Every candidate should get a fair shake.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "I cannot stress enough",
+      "definition": "I strongly want to emphasize",
+      "time": "10:43",
+      "cn": "我要再三强调",
+      "example": "I cannot stress enough how important testing is.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "keep you updated",
+      "definition": "tell you about new developments",
+      "time": "11:16",
+      "cn": "随时告知你进展",
+      "example": "I’ll keep you updated on the repair.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "something to keep in mind",
+      "definition": "an important point to remember",
+      "time": "11:56",
+      "cn": "有一点要记住",
+      "example": "Here’s something to keep in mind before the meeting.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "you might as well",
+      "definition": "it would be equally reasonable to do something",
+      "time": "12:22",
+      "cn": "倒不如；还不如",
+      "example": "You might as well ask for clarification.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "it does appear though",
+      "definition": "introduces a cautious observation",
+      "time": "13:25",
+      "cn": "但看起来确实如此",
+      "example": "It does appear, though, that the data changed.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "to the point where",
+      "definition": "so much that a certain result occurs",
+      "time": "13:57",
+      "cn": "到了……的程度",
+      "example": "It got to the point where we had to stop.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "under certain circumstances",
+      "definition": "in some specific situations",
+      "time": "15:00",
+      "cn": "在特定情况下",
+      "example": "Under certain circumstances, you can request a refund.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "if all else fails",
+      "definition": "if every other option is unsuccessful",
+      "time": "17:34",
+      "cn": "如果其他办法都不行",
+      "example": "If all else fails, restart the device.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "when I was looking into this",
+      "definition": "during my research on this",
+      "time": "21:54",
+      "cn": "我在调查这件事时",
+      "example": "When I was looking into this, I found a useful report.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "it doesn’t even make sense",
+      "definition": "it seems completely unreasonable",
+      "time": "22:32",
+      "cn": "完全说不通",
+      "example": "The numbers don’t even make sense.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "is it really worth it",
+      "definition": "asks whether benefits justify the costs",
+      "time": "24:16",
+      "cn": "真的值得吗",
+      "example": "Is it really worth it to switch providers?",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "it’s worth reading",
+      "definition": "it is valuable to read",
+      "time": "27:51",
+      "cn": "值得一读",
+      "example": "The full article is worth reading.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "we do know that",
+      "definition": "signals confirmed information",
+      "time": "29:38",
+      "cn": "我们确实知道……",
+      "example": "We do know that the server was restarted.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "under the jurisdiction of",
+      "definition": "within the legal authority of",
+      "time": "30:11",
+      "cn": "属于……管辖",
+      "example": "The site is under the jurisdiction of the city.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "unless you knew what was going on",
+      "definition": "without inside knowledge of the situation",
+      "time": "32:07",
+      "cn": "除非你知道内情",
+      "example": "It looked normal unless you knew what was going on.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "this is where you",
+      "definition": "introduces a typical place or situation",
+      "time": "33:13",
+      "cn": "这里就是你可以……的地方",
+      "example": "This is where you can check your results.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "not associated with",
+      "definition": "not connected to or affiliated with",
+      "time": "34:20",
+      "cn": "与……无关",
+      "example": "The contractor is not associated with our team.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "despite the fact that",
+      "definition": "although something is true",
+      "time": "35:22",
+      "cn": "尽管事实上……",
+      "example": "They continued despite the fact that it was raining.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "it’s unclear how long",
+      "definition": "the exact duration is not known",
+      "time": "37:17",
+      "cn": "不清楚具体持续多久",
+      "example": "It’s unclear how long the repair will take.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "check up on",
+      "definition": "visit or contact to make sure someone is okay",
+      "time": "40:43",
+      "cn": "查看某人情况",
+      "example": "I’ll check up on her after the appointment.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "wrap my mind around",
+      "definition": "fully understand a complex idea",
+      "time": "42:16",
+      "cn": "想明白；理解",
+      "example": "I still can’t wrap my mind around the decision.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "the tone I picked up",
+      "definition": "the attitude or feeling I perceived",
+      "time": "44:11",
+      "cn": "我感受到的语气",
+      "example": "That’s the tone I picked up from the email.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    },
+    {
+      "text": "it’s kind of unclear",
+      "definition": "it is somewhat uncertain",
+      "time": "51:30",
+      "cn": "有点不清楚",
+      "example": "It’s kind of unclear who approved it.",
+      "example_source": "adapted",
+      "transcript_verified": true
+    }
+  ],
+  "patterns": [
+    [
+      {
+        "text": "I can’t think of many reasons why …",
+        "cn": "我想不出多少理由说明……",
+        "example": "I can’t think of many reasons why the schedule should change.",
+        "prompt": "Explain why a work meeting should not be cancelled.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "end up + -ing / adjective",
+        "cn": "最终变得／最终做……",
+        "example": "We ended up finishing the report late.",
+        "prompt": "Describe an unexpected result.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "sooner rather than later",
+        "cn": "越早越好",
+        "example": "We should fix the issue sooner rather than later.",
+        "prompt": "Tell a colleague something should be done soon.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "from the footage I saw …",
+        "cn": "从我看到的录像来看……",
+        "example": "From the footage I saw, the problem was minor.",
+        "prompt": "Describe what a video suggests, without overstating certainty.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "all things considered",
+        "cn": "综合考虑",
+        "example": "All things considered, the launch went well.",
+        "prompt": "Evaluate a project.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "not even in the slightest",
+        "cn": "一点也不",
+        "example": "I am not worried in the slightest.",
+        "prompt": "Make a strong but natural denial.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "according to …",
+        "cn": "根据……的说法",
+        "example": "According to the report, the test was delayed.",
+        "prompt": "Distinguish a claim from a verified fact.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "with that being said …",
+        "cn": "话虽如此……",
+        "example": "With that being said, we still need more data.",
+        "prompt": "Introduce a qualification.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "keep someone updated",
+        "cn": "随时告知进展",
+        "example": "Please keep me updated on the investigation.",
+        "prompt": "Ask a colleague for updates.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "it’s not worth the risk",
+        "cn": "不值得冒这个险",
+        "example": "It is not worth the risk of losing our data.",
+        "prompt": "Explain why you would avoid an uncertain plan.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "the minute …",
+        "cn": "一……就……",
+        "example": "The minute I receive the files, I will call you.",
+        "prompt": "Promise an immediate action.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "if all else fails",
+        "cn": "如果其他办法都不行",
+        "example": "If all else fails, we can revert to the backup.",
+        "prompt": "Suggest a backup plan.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "right off the bat",
+        "cn": "一开始",
+        "example": "Right off the bat, I noticed an error.",
+        "prompt": "Describe something you noticed immediately.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "on top of that",
+        "cn": "除此之外",
+        "example": "On top of that, we need more time.",
+        "prompt": "Add one more reason.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "it is worth it to …?",
+        "cn": "做……值得吗？",
+        "example": "Is it worth it to rebuild everything?",
+        "prompt": "Question whether an effort is worthwhile.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "as it turned out",
+        "cn": "结果发现",
+        "example": "As it turned out, the assumption was incorrect.",
+        "prompt": "Tell an unexpected outcome.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "be unable to articulate …",
+        "cn": "无法清楚表达……",
+        "example": "I was unable to articulate my concern.",
+        "prompt": "Talk about a difficult feeling or opinion.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "not even during …",
+        "cn": "甚至不是在……期间",
+        "example": "That did not happen during the previous release.",
+        "prompt": "Clarify timing.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "to be exact",
+        "cn": "确切地说",
+        "example": "We checked three files, to be exact.",
+        "prompt": "Correct an imprecise quantity.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "under the jurisdiction of …",
+        "cn": "属于……管辖",
+        "example": "This issue falls under the jurisdiction of the local team.",
+        "prompt": "Explain who is responsible.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "there is no indication that …",
+        "cn": "没有迹象表明……",
+        "example": "There is no indication that the database was corrupted.",
+        "prompt": "Explain uncertainty responsibly.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "by this point …",
+        "cn": "到了这个时候……",
+        "example": "By this point, we had finished testing.",
+        "prompt": "Describe a timeline.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "according to the lawsuit …",
+        "cn": "根据诉状所称……",
+        "example": "According to the report, the device stopped responding.",
+        "prompt": "Report what a source claims.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "it remains unclear whether …",
+        "cn": "目前尚不清楚是否……",
+        "example": "It remains unclear whether the sensor was faulty.",
+        "prompt": "Say what has not been established.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "out of nowhere",
+        "cn": "毫无征兆地",
+        "example": "The warning appeared out of nowhere.",
+        "prompt": "Describe a sudden event.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "I could be wrong about …",
+        "cn": "关于……我可能判断错",
+        "example": "I could be wrong about the root cause.",
+        "prompt": "Qualify your interpretation.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "I have no recollection of …",
+        "cn": "我完全不记得……",
+        "example": "I have no recollection of that conversation.",
+        "prompt": "Talk about not remembering something.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "get your hands on …",
+        "cn": "设法拿到……",
+        "example": "Did you get your hands on the latest report?",
+        "prompt": "Ask whether someone obtained a file.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "piece together …",
+        "cn": "拼凑梳理……",
+        "example": "We pieced together the event timeline.",
+        "prompt": "Describe reconstructing events.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "the essence of … is …",
+        "cn": "……的核心在于……",
+        "example": "The essence of the problem is missing data.",
+        "prompt": "Summarize a complex problem.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ],
+    [
+      {
+        "text": "be that as it may",
+        "cn": "即便如此",
+        "example": "Be that as it may, we need a decision.",
+        "prompt": "Acknowledge a point and move forward.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "I can’t help but think …",
+        "cn": "我不禁觉得……",
+        "example": "I can’t help but think we missed a step.",
+        "prompt": "Express a cautious impression.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      },
+      {
+        "text": "it is unclear whether …",
+        "cn": "尚不清楚是否……",
+        "example": "It is unclear whether the update will arrive today.",
+        "prompt": "Report uncertain status.",
+        "label": "Adapted practice sentence (not a podcast quotation)"
+      }
+    ]
+  ],
+  "supplemental": [
+    {
+      "word": "pedestrian",
+      "cn": "行人",
+      "definition": "a person walking instead of driving",
+      "tip": "Compare pedestrian with driver.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “pedestrian” in this section."
+    },
+    {
+      "word": "back into",
+      "cn": "倒车撞上",
+      "definition": "to reverse a vehicle into someone or something",
+      "tip": "back up = reverse; back into = reverse into an object.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “back into” in this section."
+    },
+    {
+      "word": "parking spot",
+      "cn": "停车位",
+      "definition": "a marked space for parking a vehicle",
+      "tip": "Also say parking space.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “parking spot” in this section."
+    },
+    {
+      "word": "run over",
+      "cn": "碾过",
+      "definition": "to drive a vehicle over someone or something",
+      "tip": "run over a foot / an animal.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “run over” in this section."
+    },
+    {
+      "word": "get dragged",
+      "cn": "被拖拽",
+      "definition": "to be pulled along the ground",
+      "tip": "drag → dragged → dragging.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “get dragged” in this section."
+    },
+    {
+      "word": "lose balance",
+      "cn": "失去平衡",
+      "definition": "to become unsteady and possibly fall",
+      "tip": "lose your balance on the stairs.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “lose balance” in this section."
+    },
+    {
+      "word": "reversing",
+      "cn": "倒车",
+      "definition": "moving a vehicle backward",
+      "tip": "reverse / reversing / reverse lights.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “reversing” in this section."
+    },
+    {
+      "word": "footage",
+      "cn": "影像资料",
+      "definition": "recorded video of an event",
+      "tip": "security footage; video footage.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “footage” in this section."
+    },
+    {
+      "word": "anti-climactically",
+      "cn": "不如预期地平淡",
+      "definition": "in a less dramatic way than expected",
+      "tip": "climax → anticlimax → anticlimactic.",
+      "unit": 0,
+      "source": "transcript term",
+      "example": "Listen for “anti-climactically” in this section."
+    },
+    {
+      "word": "accosted",
+      "cn": "上前纠缠",
+      "definition": "approached someone in a confrontational way",
+      "tip": "Often: be accosted by someone.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “accosted” in this section."
+    },
+    {
+      "word": "loitering",
+      "cn": "闲逛逗留",
+      "definition": "remaining somewhere without a clear purpose",
+      "tip": "loiter → loitering.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “loitering” in this section."
+    },
+    {
+      "word": "volatile",
+      "cn": "情绪易失控的",
+      "definition": "likely to change suddenly or become violent",
+      "tip": "volatile emotions / volatile situation.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “volatile” in this section."
+    },
+    {
+      "word": "intimidation",
+      "cn": "恐吓",
+      "definition": "behavior meant to frighten someone",
+      "tip": "intimidate → intimidation.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “intimidation” in this section."
+    },
+    {
+      "word": "harassment",
+      "cn": "骚扰",
+      "definition": "repeated unwanted behavior causing distress",
+      "tip": "harass → harassment.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “harassment” in this section."
+    },
+    {
+      "word": "rescind",
+      "cn": "撤销",
+      "definition": "to officially cancel a decision or permission",
+      "tip": "rescind a visa / an offer.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “rescind” in this section."
+    },
+    {
+      "word": "illuminated",
+      "cn": "亮起的",
+      "definition": "lit up or made visible by light",
+      "tip": "illuminate → illuminated.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “illuminated” in this section."
+    },
+    {
+      "word": "maneuver",
+      "cn": "操纵；移动",
+      "definition": "to move carefully through a difficult position",
+      "tip": "maneuver a vehicle through a narrow space.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “maneuver” in this section."
+    },
+    {
+      "word": "disruptive",
+      "cn": "扰乱秩序的",
+      "definition": "causing a disturbance or interruption",
+      "tip": "disrupt → disruption → disruptive.",
+      "unit": 1,
+      "source": "transcript term",
+      "example": "Listen for “disruptive” in this section."
+    },
+    {
+      "word": "civil lawsuit",
+      "cn": "民事诉讼",
+      "definition": "a legal claim brought between parties",
+      "tip": "civil lawsuit vs criminal prosecution.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “civil lawsuit” in this section."
+    },
+    {
+      "word": "allegedly",
+      "cn": "据称；尚未证实",
+      "definition": "according to a claim that has not been proven",
+      "tip": "allege → alleged → allegedly.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “allegedly” in this section."
+    },
+    {
+      "word": "credibility",
+      "cn": "可信度",
+      "definition": "the quality of being believable",
+      "tip": "credible → credibility.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “credibility” in this section."
+    },
+    {
+      "word": "adjudicated",
+      "cn": "经司法裁定",
+      "definition": "officially decided by a court or tribunal",
+      "tip": "adjudicate → adjudication.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “adjudicated” in this section."
+    },
+    {
+      "word": "polarizing",
+      "cn": "引起对立的",
+      "definition": "causing strong opposing views",
+      "tip": "polarize → polarization.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “polarizing” in this section."
+    },
+    {
+      "word": "coercion",
+      "cn": "胁迫",
+      "definition": "pressure or threats forcing an action",
+      "tip": "coerce → coercive → coercion.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “coercion” in this section."
+    },
+    {
+      "word": "doxed",
+      "cn": "被公开私人信息",
+      "definition": "having private information exposed online",
+      "tip": "dox / doxxing.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “doxed” in this section."
+    },
+    {
+      "word": "prosecutor",
+      "cn": "检察官",
+      "definition": "a lawyer bringing a criminal case",
+      "tip": "prosecute → prosecutor → prosecution.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “prosecutor” in this section."
+    },
+    {
+      "word": "court filing",
+      "cn": "法院提交文件",
+      "definition": "a document formally submitted in a court case",
+      "tip": "file a lawsuit / court filing.",
+      "unit": 2,
+      "source": "transcript term",
+      "example": "Listen for “court filing” in this section."
+    },
+    {
+      "word": "liability",
+      "cn": "法律责任",
+      "definition": "legal responsibility for injury or loss",
+      "tip": "liable → liability.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “liability” in this section."
+    },
+    {
+      "word": "insurance coverage",
+      "cn": "保险保障范围",
+      "definition": "protection provided by an insurance policy",
+      "tip": "covered / coverage / uncovered.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “insurance coverage” in this section."
+    },
+    {
+      "word": "exclusion",
+      "cn": "除外责任",
+      "definition": "something that an insurance policy does not cover",
+      "tip": "exclude → exclusion.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “exclusion” in this section."
+    },
+    {
+      "word": "fine print",
+      "cn": "细则；小字条款",
+      "definition": "small contractual text stating restrictions",
+      "tip": "read the fine print.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “fine print” in this section."
+    },
+    {
+      "word": "rescind membership",
+      "cn": "取消成员资格",
+      "definition": "to officially cancel someone's membership",
+      "tip": "rescind = formally cancel.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “rescind membership” in this section."
+    },
+    {
+      "word": "inebriated",
+      "cn": "醉酒的",
+      "definition": "affected by alcohol; drunk",
+      "tip": "inebriation = drunkenness.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “inebriated” in this section."
+    },
+    {
+      "word": "third-party vendor",
+      "cn": "第三方供应商",
+      "definition": "an outside company providing a service",
+      "tip": "third party ≠ either main party.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “third-party vendor” in this section."
+    },
+    {
+      "word": "self-insuring",
+      "cn": "自行承保",
+      "definition": "covering one's own financial risk",
+      "tip": "self + insure.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “self-insuring” in this section."
+    },
+    {
+      "word": "pledge",
+      "cn": "申请入会的新成员",
+      "definition": "a person seeking membership in a fraternity",
+      "tip": "pledge can also mean promise.",
+      "unit": 3,
+      "source": "transcript term",
+      "example": "Listen for “pledge” in this section."
+    },
+    {
+      "word": "circumstantial evidence",
+      "cn": "间接证据",
+      "definition": "evidence implying something without proving it directly",
+      "tip": "circumstance → circumstantial.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “circumstantial evidence” in this section."
+    },
+    {
+      "word": "no recollection of",
+      "cn": "完全不记得",
+      "definition": "no memory of an event",
+      "tip": "recollect → recollection.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “no recollection of” in this section."
+    },
+    {
+      "word": "bypass",
+      "cn": "绕过",
+      "definition": "to avoid going through a normal route",
+      "tip": "bypass the usual process.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “bypass” in this section."
+    },
+    {
+      "word": "injury",
+      "cn": "伤害",
+      "definition": "physical damage to a person",
+      "tip": "injure → injury.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “injury” in this section."
+    },
+    {
+      "word": "financially beneficial",
+      "cn": "经济上有利的",
+      "definition": "providing a financial advantage",
+      "tip": "benefit → beneficial.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “financially beneficial” in this section."
+    },
+    {
+      "word": "incentive",
+      "cn": "动机；激励",
+      "definition": "something that encourages a particular action",
+      "tip": "financial incentive.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “incentive” in this section."
+    },
+    {
+      "word": "alumni",
+      "cn": "校友",
+      "definition": "former students of an institution",
+      "tip": "alumnus singular; alumni plural.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “alumni” in this section."
+    },
+    {
+      "word": "dormitory",
+      "cn": "学生宿舍",
+      "definition": "a building where students live",
+      "tip": "dorm = dormitory.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “dormitory” in this section."
+    },
+    {
+      "word": "disclosed",
+      "cn": "被披露的",
+      "definition": "made known to the public",
+      "tip": "disclose → disclosure.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “disclosed” in this section."
+    },
+    {
+      "word": "maintenance",
+      "cn": "维护",
+      "definition": "the work of keeping something in good condition",
+      "tip": "maintain → maintenance.",
+      "unit": 4,
+      "source": "transcript term",
+      "example": "Listen for “maintenance” in this section."
+    },
+    {
+      "word": "hazing",
+      "cn": "入会霸凌",
+      "definition": "harmful initiation practices imposed on recruits",
+      "tip": "haze → hazing.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “hazing” in this section."
+    },
+    {
+      "word": "initiation",
+      "cn": "入会仪式",
+      "definition": "the process of officially joining a group",
+      "tip": "initiate → initiation.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “initiation” in this section."
+    },
+    {
+      "word": "blindfolded",
+      "cn": "被蒙眼的",
+      "definition": "having one's eyes covered",
+      "tip": "blind + fold.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “blindfolded” in this section."
+    },
+    {
+      "word": "endure",
+      "cn": "忍受",
+      "definition": "to suffer or tolerate something difficult",
+      "tip": "endure hardship.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “endure” in this section."
+    },
+    {
+      "word": "consent",
+      "cn": "同意",
+      "definition": "freely given agreement",
+      "tip": "give consent / without consent.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “consent” in this section."
+    },
+    {
+      "word": "vulnerability",
+      "cn": "脆弱处境",
+      "definition": "susceptibility to harm or distress",
+      "tip": "vulnerable → vulnerability.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “vulnerability” in this section."
+    },
+    {
+      "word": "articulate",
+      "cn": "清楚表达",
+      "definition": "to express thoughts clearly in words",
+      "tip": "articulate your feelings.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “articulate” in this section."
+    },
+    {
+      "word": "inducted",
+      "cn": "正式接纳加入",
+      "definition": "formally admitted into a group",
+      "tip": "induct → induction.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “inducted” in this section."
+    },
+    {
+      "word": "recount",
+      "cn": "讲述",
+      "definition": "to tell an event from memory",
+      "tip": "recount an experience.",
+      "unit": 5,
+      "source": "transcript term",
+      "example": "Listen for “recount” in this section."
+    },
+    {
+      "word": "jurisdiction",
+      "cn": "管辖权",
+      "definition": "legal authority over a place or matter",
+      "tip": "jurisdiction over something.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “jurisdiction” in this section."
+    },
+    {
+      "word": "interim suspension",
+      "cn": "临时停学或暂停资格",
+      "definition": "a temporary restriction pending a decision",
+      "tip": "interim = temporary.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “interim suspension” in this section."
+    },
+    {
+      "word": "possession",
+      "cn": "持有",
+      "definition": "the state of having or owning something",
+      "tip": "in possession of.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “possession” in this section."
+    },
+    {
+      "word": "overdose",
+      "cn": "药物过量",
+      "definition": "to take a dangerously large amount of a drug",
+      "tip": "over + dose.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “overdose” in this section."
+    },
+    {
+      "word": "crime log",
+      "cn": "犯罪事件登记簿",
+      "definition": "a record of reported crimes",
+      "tip": "log = written record.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “crime log” in this section."
+    },
+    {
+      "word": "privileges",
+      "cn": "特权；许可",
+      "definition": "special rights or advantages",
+      "tip": "privilege → privileges.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “privileges” in this section."
+    },
+    {
+      "word": "integrity",
+      "cn": "正直；诚信",
+      "definition": "honesty and strong moral principles",
+      "tip": "personal integrity.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “integrity” in this section."
+    },
+    {
+      "word": "pseudonym",
+      "cn": "化名",
+      "definition": "a false name used to protect identity",
+      "tip": "pseudo = false; -nym = name.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “pseudonym” in this section."
+    },
+    {
+      "word": "creed",
+      "cn": "信条",
+      "definition": "a set of formal beliefs",
+      "tip": "organizational creed.",
+      "unit": 6,
+      "source": "transcript term",
+      "example": "Listen for “creed” in this section."
+    },
+    {
+      "word": "defendant",
+      "cn": "被告",
+      "definition": "the person or party sued in a case",
+      "tip": "defend → defendant.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “defendant” in this section."
+    },
+    {
+      "word": "plaintiff",
+      "cn": "原告",
+      "definition": "the party who brings a civil legal claim",
+      "tip": "plaintiff vs defendant.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “plaintiff” in this section."
+    },
+    {
+      "word": "intoxicated",
+      "cn": "醉酒的",
+      "definition": "affected by alcohol or drugs",
+      "tip": "intoxicate → intoxication.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “intoxicated” in this section."
+    },
+    {
+      "word": "underage",
+      "cn": "未到法定年龄的",
+      "definition": "below the legally required age",
+      "tip": "under + age.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “underage” in this section."
+    },
+    {
+      "word": "bouncer",
+      "cn": "酒吧保安",
+      "definition": "a person who controls entry to a bar",
+      "tip": "bar bouncer.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “bouncer” in this section."
+    },
+    {
+      "word": "consenting",
+      "cn": "表示同意的",
+      "definition": "giving permission freely",
+      "tip": "consent → consenting.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “consenting” in this section."
+    },
+    {
+      "word": "congregate",
+      "cn": "聚集",
+      "definition": "to gather together in a place",
+      "tip": "congregation shares this root.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “congregate” in this section."
+    },
+    {
+      "word": "proposition",
+      "cn": "提出性方面邀约",
+      "definition": "to make a sexual suggestion or offer",
+      "tip": "Here a verb: proposition someone.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “proposition” in this section."
+    },
+    {
+      "word": "bruise",
+      "cn": "淤伤",
+      "definition": "a discolored mark caused by injury",
+      "tip": "bruising = multiple bruises.",
+      "unit": 7,
+      "source": "transcript term",
+      "example": "Listen for “bruise” in this section."
+    },
+    {
+      "word": "derogatory",
+      "cn": "贬损的",
+      "definition": "showing disrespect toward someone",
+      "tip": "derogatory remark.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “derogatory” in this section."
+    },
+    {
+      "word": "clarify",
+      "cn": "澄清",
+      "definition": "to make something easier to understand",
+      "tip": "clear → clarify → clarification.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “clarify” in this section."
+    },
+    {
+      "word": "restating",
+      "cn": "重新表述",
+      "definition": "saying something again in other words",
+      "tip": "restate a point.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “restating” in this section."
+    },
+    {
+      "word": "abruptly",
+      "cn": "突然地",
+      "definition": "in a sudden unexpected way",
+      "tip": "abrupt → abruptly.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “abruptly” in this section."
+    },
+    {
+      "word": "interpretation",
+      "cn": "解读",
+      "definition": "an explanation of what something means",
+      "tip": "interpret → interpretation.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “interpretation” in this section."
+    },
+    {
+      "word": "reprehensible",
+      "cn": "应受谴责的",
+      "definition": "morally very wrong",
+      "tip": "morally reprehensible.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “reprehensible” in this section."
+    },
+    {
+      "word": "redacted",
+      "cn": "被遮盖删节的",
+      "definition": "with private details removed from a document",
+      "tip": "redact → redaction.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “redacted” in this section."
+    },
+    {
+      "word": "remotely",
+      "cn": "稍微；哪怕一点",
+      "definition": "even slightly, in this context",
+      "tip": "remotely close to.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “remotely” in this section."
+    },
+    {
+      "word": "firsthand",
+      "cn": "亲身的",
+      "definition": "directly experienced or witnessed",
+      "tip": "firsthand account.",
+      "unit": 8,
+      "source": "transcript term",
+      "example": "Listen for “firsthand” in this section."
+    },
+    {
+      "word": "redaction",
+      "cn": "删改遮盖",
+      "definition": "the removal of sensitive information from documents",
+      "tip": "redact → redaction.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “redaction” in this section."
+    },
+    {
+      "word": "context clues",
+      "cn": "上下文线索",
+      "definition": "nearby words that help reveal meaning",
+      "tip": "use context clues.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “context clues” in this section."
+    },
+    {
+      "word": "publicly available",
+      "cn": "公开可得的",
+      "definition": "accessible to the public",
+      "tip": "public → publicly.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “publicly available” in this section."
+    },
+    {
+      "word": "cross-reference",
+      "cn": "交叉核对",
+      "definition": "to compare different sources for matching details",
+      "tip": "cross + reference.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “cross-reference” in this section."
+    },
+    {
+      "word": "adjacent",
+      "cn": "相邻的",
+      "definition": "next to something",
+      "tip": "adjacent room.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “adjacent” in this section."
+    },
+    {
+      "word": "alcove",
+      "cn": "凹室；壁龛",
+      "definition": "a small recessed section of a room",
+      "tip": "picture a little space off a main room.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “alcove” in this section."
+    },
+    {
+      "word": "legal finding",
+      "cn": "法律认定",
+      "definition": "an official conclusion reached through a legal process",
+      "tip": "find → finding.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “legal finding” in this section."
+    },
+    {
+      "word": "source",
+      "cn": "消息来源",
+      "definition": "the person or document providing information",
+      "tip": "an inside source.",
+      "unit": 9,
+      "source": "transcript term",
+      "example": "Listen for “source” in this section."
+    },
+    {
+      "word": "disciplinary",
+      "cn": "纪律处分相关的",
+      "definition": "relating to formal punishment for rule-breaking",
+      "tip": "discipline → disciplinary.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “disciplinary” in this section."
+    },
+    {
+      "word": "mitigate",
+      "cn": "减轻",
+      "definition": "to reduce severity or harm",
+      "tip": "mitigate the impact.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “mitigate” in this section."
+    },
+    {
+      "word": "sanction",
+      "cn": "处分；制裁",
+      "definition": "a formal penalty imposed for misconduct",
+      "tip": "academic sanctions.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “sanction” in this section."
+    },
+    {
+      "word": "misconduct",
+      "cn": "不当行为",
+      "definition": "unacceptable or improper conduct",
+      "tip": "mis- (wrong) + conduct.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “misconduct” in this section."
+    },
+    {
+      "word": "subpoena",
+      "cn": "传票；强制提交令",
+      "definition": "a legal order to provide evidence or appear",
+      "tip": "subpoena power.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “subpoena” in this section."
+    },
+    {
+      "word": "prosecute",
+      "cn": "提起刑事公诉",
+      "definition": "to bring a criminal charge before a court",
+      "tip": "prosecute → prosecution.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “prosecute” in this section."
+    },
+    {
+      "word": "egregious",
+      "cn": "极其恶劣的",
+      "definition": "shockingly bad or unacceptable",
+      "tip": "egregious misconduct.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “egregious” in this section."
+    },
+    {
+      "word": "commence",
+      "cn": "开始",
+      "definition": "to begin formally",
+      "tip": "commence an investigation.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “commence” in this section."
+    },
+    {
+      "word": "speculate",
+      "cn": "推测",
+      "definition": "to form an idea without enough evidence",
+      "tip": "speculate → speculation.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “speculate” in this section."
+    },
+    {
+      "word": "diligently",
+      "cn": "勤勉地",
+      "definition": "with sustained careful effort",
+      "tip": "diligent → diligently.",
+      "unit": 10,
+      "source": "transcript term",
+      "example": "Listen for “diligently” in this section."
+    }
+  ],
+  "meta": {
+    "episodeId": "8b77ac948ba43d5d084d03e194ce7ecb",
+    "title": "Cornell 7 · Rotten Mango",
+    "verified": "mixed legacy curated content; examples may be adapted"
+  }
+}
