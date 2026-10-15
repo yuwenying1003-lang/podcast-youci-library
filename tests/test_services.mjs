@@ -4,8 +4,6 @@ import { readFile } from 'node:fs/promises';
 import { ACTIONS, PROTOCOL, VERSION, request, validPodcastId, validResponse } from '../app/services/protocol.js';
 import { loadCourse } from '../app/services/course-loader.js';
 
-globalThis.crypto = { randomUUID: () => 'request-1' };
-
 test('podcast IDs accept the ListenLeap ID and reject URL injection', () => {
   assert.equal(validPodcastId('8b77ac948ba43d5d084d03e194ce7ecb'), true);
   assert.equal(validPodcastId('../course'), false);
