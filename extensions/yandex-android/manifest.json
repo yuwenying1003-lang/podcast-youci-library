@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Podcast Youci v3 (Yandex Android)",
+  "version": "3.0.0",
+  "description": "Touch-friendly ListenLeap integration for the remotely updated Podcast Youci learning UI.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://app.listenleap.com/*"],
+  "content_scripts": [{"matches": ["https://app.listenleap.com/*"], "js": ["content.js"], "run_at": "document_idle"}]
+}

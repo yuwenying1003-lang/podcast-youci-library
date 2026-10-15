@@ -11,7 +11,9 @@
       "properties": {
         "episodeId": {"type": "string", "pattern": "^[A-Za-z0-9_-]+$"},
         "title": {"type": "string", "minLength": 1},
-        "verified": {"type": "string", "minLength": 1}
+        "verified": {"type": "string", "minLength": 1},
+        "sourceUrl": {"type": "string", "pattern": "^https://app\\.listenleap\\.com/read\\?id="},
+        "revision": {"type": "string", "minLength": 1}
       }
     },
     "units": {
@@ -29,13 +31,29 @@
         }
       }
     },
-    "vocab": {"type": "array", "minItems": 1, "items": {"type": "object"}},
-    "expressions": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "vocab": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/learningItem"}},
+    "expressions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/learningItem"}},
     "patterns": {
       "type": "array",
       "minItems": 1,
       "items": {"type": "array", "minItems": 1, "items": {"type": "object"}}
     }
   },
-  "$defs": {"time": {"type": "string", "pattern": "^[0-9]+:[0-5][0-9]$"}}
+  "$defs": {
+    "time": {"type": "string", "pattern": "^[0-9]+:[0-5][0-9]$"},
+    "clip": {
+      "type": "object",
+      "required": ["start", "end", "verified", "quote"],
+      "properties": {
+        "start": {"$ref": "#/$defs/time"},
+        "end": {"$ref": "#/$defs/time"},
+        "verified": {"const": true},
+        "quote": {"type": "string", "minLength": 1}
+      }
+    },
+    "learningItem": {
+      "type": "object",
+      "properties": {"clip": {"$ref": "#/$defs/clip"}}
+    }
+  }
 }
