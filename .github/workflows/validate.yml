@@ -16,3 +16,12 @@ jobs:
         with:
           python-version: "3.x"
       - run: python scripts/validate_courses.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm test
+      - run: python scripts/package_extensions.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: podcast-youci-v3-extensions
+          path: dist/*.zip

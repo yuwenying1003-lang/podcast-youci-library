@@ -42,6 +42,8 @@ def validate(path: Path) -> list[str]:
         require_text(meta, ("episodeId", "title", "verified"), "meta", errors)
         if meta.get("episodeId") != path.stem:
             errors.append(f"meta.episodeId must match filename {path.stem!r}")
+        if "sourceUrl" in meta and meta["sourceUrl"] != f"https://app.listenleap.com/read?id={path.stem}":
+            errors.append("meta.sourceUrl must be the matching ListenLeap episode URL")
 
     units = data.get("units")
     if not isinstance(units, list) or not units:
@@ -86,6 +88,17 @@ def validate(path: Path) -> list[str]:
                 errors.append(f"{where}.example_source: expected 'adapted' or 'transcript'")
             if "transcript_verified" in record and not isinstance(record["transcript_verified"], bool):
                 errors.append(f"{where}.transcript_verified: expected boolean")
+            if "clip" in record:
+                clip = record["clip"]
+                if not isinstance(clip, dict) or clip.get("verified") is not True:
+                    errors.append(f"{where}.clip: exact clips require verified=true")
+                else:
+                    start = seconds(clip.get("start"), f"{where}.clip.start", errors)
+                    end = seconds(clip.get("end"), f"{where}.clip.end", errors)
+                    if start is not None and end is not None and (end <= start or end - start > 90):
+                        errors.append(f"{where}.clip: end must be after start and within 90 seconds")
+                    if not isinstance(clip.get("quote"), str) or not clip["quote"].strip():
+                        errors.append(f"{where}.clip.quote: verified source sentence required")
 
     patterns = data.get("patterns")
     if not isinstance(patterns, list) or not patterns:

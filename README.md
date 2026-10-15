@@ -7,6 +7,19 @@ UTF-8 JSON document per ListenLeap episode from:
 
 The extension can therefore receive new courses without being rebuilt or reinstalled.
 
+## Version 3 application
+
+- Remote UI: `https://yuwenying1003-lang.github.io/podcast-youci-library/app/`
+- Cornell 7: append `?podcastId=8b77ac948ba43d5d084d03e194ce7ecb`
+- Extension source: `extensions/` (one shared bridge, two platform manifests)
+- Architecture and security: [docs/architecture-v3.md](docs/architecture-v3.md)
+- Messaging contract: [docs/message-protocol.md](docs/message-protocol.md)
+- Upgrade/testing: [docs/migration-v3.md](docs/migration-v3.md) and [docs/test-report.md](docs/test-report.md)
+
+Ordinary UI changes under `app/` and course changes under `courses/` are published by
+GitHub Pages and do not require an extension reinstall. Changes to the bridge, manifest,
+permissions, or protocol do require a new extension package.
+
 ## Add a course
 
 1. Extract the episode ID from the ListenLeap podcast URL.
@@ -37,5 +50,8 @@ requests. GitHub Pages is configured to publish the `main` branch root.
   repository/blob URL, and inspect the response for `Access-Control-Allow-Origin`.
 - **Pages not deployed:** in repository Settings → Pages, select **Deploy from a branch**,
   branch **main**, directory **/(root)**, then inspect the Pages Actions run.
+
+Build both installable packages with `python scripts/package_extensions.py`. CI publishes
+the ZIPs as a workflow artifact after validation and protocol tests pass.
 
 The original archive instructions are retained in `README.archive.md` for provenance.

@@ -3753,6 +3753,8 @@
   "meta": {
     "episodeId": "8b77ac948ba43d5d084d03e194ce7ecb",
     "title": "Cornell 7 · Rotten Mango",
-    "verified": "mixed legacy curated content; examples may be adapted"
+    "verified": "mixed legacy curated content; examples may be adapted",
+    "sourceUrl": "https://app.listenleap.com/read?id=8b77ac948ba43d5d084d03e194ce7ecb",
+    "revision": "2026-10-16"
   }
 }
