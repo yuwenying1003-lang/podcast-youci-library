@@ -1,6 +1,6 @@
 import { validPodcastId } from './protocol.js';
 
-const COURSE_BASE = new URL('../courses/', import.meta.url);
+const COURSE_BASE = new URL('../../courses/', import.meta.url);
 
 export async function loadCourse(podcastId, signal, refresh = false) {
   if (!validPodcastId(podcastId)) throw new Error('Invalid or missing podcast ID');

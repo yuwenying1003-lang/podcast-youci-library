@@ -25,7 +25,10 @@ test('responses must match request ID and protocol version', () => {
 });
 
 test('unknown course is an explicit null and never a Cornell fallback', async () => {
-  globalThis.fetch = async () => ({ status: 404, ok: false });
+  globalThis.fetch = async url => {
+    assert.match(url.pathname, /\/courses\/unknown-podcast\.json$/);
+    return { status: 404, ok: false };
+  };
   assert.equal(await loadCourse('unknown-podcast'), null);
 });
 
