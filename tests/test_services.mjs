@@ -105,6 +105,20 @@ test('compact speaking practice shows only situation, sentence, and essential ac
   assert.doesNotMatch(app, /createElement\('textarea'\).*speaking/i);
 });
 
+test('speaking pattern summaries keep wrapped titles and chevrons on one row', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /\.pattern-summary\s*{[^}]*display:\s*flex;[^}]*align-items:\s*center;[^}]*justify-content:\s*space-between/s);
+  assert.match(html, /\.pattern-summary h3\s*{[^}]*flex:\s*1 1 auto;[^}]*min-width:\s*0;[^}]*overflow-wrap:\s*anywhere/s);
+  assert.match(html, /\.pattern-chevron\s*{[^}]*flex:\s*0 0 28px/s);
+  assert.match(html, /details\.patternbox\[open\][^{]*\.pattern-chevron::before/);
+  assert.match(app, /summary\.className = 'pattern-summary'/);
+  assert.match(app, /chevron\.className = 'pattern-chevron'/);
+  assert.match(app, /summary\.append\(heading, chevron\)/);
+});
+
 test('vocabulary and expression previews share one non-wrapping five-action bar', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),

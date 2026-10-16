@@ -111,9 +111,10 @@ function renderPatterns() {
       if (!box.open) return;
       for (const other of document.querySelectorAll('#patternList > details.patternbox')) if (other !== box) other.open = false;
     });
-    const summary = document.createElement('summary');
+    const summary = document.createElement('summary'); summary.className = 'pattern-summary';
     const heading = document.createElement('h3'); heading.textContent = `${index + 1}. ${pattern.text}`;
-    summary.append(heading);
+    const chevron = document.createElement('span'); chevron.className = 'pattern-chevron'; chevron.setAttribute('aria-hidden', 'true');
+    summary.append(heading, chevron);
     const content = document.createElement('div'); content.className = 'pattern-content';
     const cn = document.createElement('div'); cn.className = 'recognition'; cn.textContent = pattern.cn;
     const scenarios = pattern.scenarios || [
