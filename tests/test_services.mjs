@@ -48,6 +48,9 @@ test('extension bridge enforces origins, verified ranges, and event-driven stopp
   assert.match(source, /payload\.verified !== true/);
   assert.match(source, /addEventListener\('timeupdate'/);
   assert.doesNotMatch(source, /postMessage\([^\n]+,\s*['"]\*['"]/);
+  assert.match(source, /\.drag\{[^}]*width:44px/);
+  assert.match(source, /onpointercancel = finishDrag/);
+  assert.match(source, /pointer !== undefined/);
 });
 
 test('vocabulary normalization catches case, spacing, quote, and dash variants', () => {
@@ -179,4 +182,10 @@ test('Podlingora editorial UI keeps accessible responsive learning controls', as
   assert.match(html, /@media \(prefers-reduced-motion: reduce\)/);
   assert.match(html, /role="progressbar"/);
   assert.match(app, /aria-valuenow/);
+  assert.match(html, /id="retryCourse"/);
+  assert.match(html, /role="status"/);
+  assert.match(app, /aria-expanded/);
+  assert.match(app, /aria-current/);
+  assert.match(app, /aria-busy/);
+  assert.match(app, /scaleX/);
 });
