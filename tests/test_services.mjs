@@ -84,7 +84,7 @@ test('compact vocabulary UI hides optional details and keeps exact audio verifie
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
   ]);
   assert.doesNotMatch(html + app, /Practice example \(adapted\)|Adapted practice example|Approximate item times/);
-  assert.doesNotMatch(html, />Example<|Teaching examples may be adapted/);
+  assert.doesNotMatch(html, /class="answer-label">Example|Teaching examples may be adapted/);
   assert.match(html, /id="vOriginal" class="hidden"/);
   assert.match(app, /Original'\)\.classList\.toggle\('hidden', !clip\)/);
   assert.match(html, /id="vMeaningPanel" class="meaning-panel hidden"/);
@@ -113,7 +113,7 @@ test('speaking pattern summaries keep wrapped titles and chevrons on one row', a
   assert.match(html, /\.pattern-summary\s*{[^}]*display:\s*flex;[^}]*align-items:\s*center;[^}]*justify-content:\s*space-between/s);
   assert.match(html, /\.pattern-summary h3\s*{[^}]*flex:\s*1 1 auto;[^}]*min-width:\s*0;[^}]*overflow-wrap:\s*anywhere/s);
   assert.match(html, /\.pattern-chevron\s*{[^}]*flex:\s*0 0 28px/s);
-  assert.match(html, /details\.patternbox\[open\][^{]*\.pattern-chevron::before/);
+  assert.match(html, /details\.patternbox\[open\][^{]*\.pattern-chevron \.icon/);
   assert.match(app, /summary\.className = 'pattern-summary'/);
   assert.match(app, /chevron\.className = 'pattern-chevron'/);
   assert.match(app, /summary\.append\(heading, chevron\)/);
@@ -139,12 +139,26 @@ test('vocabulary and expression previews share one non-wrapping five-action bar'
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
   ]);
   assert.match(html, /\.study-actions\s*{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*repeat\(5, minmax\(0, 1fr\)\);[^}]*width:\s*100%/s);
-  assert.match(html, /class="study-actions" aria-label="Expression controls"[\s\S]*id="ePrev"[^>]*>←<\/[\s\S]*id="eKnown"[^>]*>✓<\/[\s\S]*id="eReveal"[^>]*>Meaning<\/[\s\S]*id="eAgain"[^>]*>☆<\/[\s\S]*id="eNext"[^>]*>→<\//);
+  assert.match(html, /class="study-actions" aria-label="Expression controls"[\s\S]*id="ePrev"[^>]*><\/button[\s\S]*id="eKnown"[^>]*><\/button[\s\S]*id="eReveal"[^>]*>Meaning<\/[\s\S]*id="eAgain"[^>]*><\/button[\s\S]*id="eNext"[^>]*><\//);
   assert.doesNotMatch(html, />← Previous<|>Next →<|>Need review<|>✓ I know this</);
   for (const id of ['ePrev', 'eKnown', 'eAgain', 'eNext']) {
     assert.match(html, new RegExp(`id="${id}"[^>]*aria-label="[^"]+"[^>]*title="[^"]+"`));
   }
-  assert.match(app, /\$\(prefix \+ 'Again'\)\.textContent = rating === false \? '★' : '☆'/);
+  assert.match(app, /vAgain: 'star'.*eAgain: 'star'/s);
+  assert.doesNotMatch(app, /Again'\)\.textContent/);
+});
+
+test('controls use reusable rounded inline SVG icons without external assets', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /\.icon\s*{[^}]*stroke-width:\s*2;[^}]*stroke-linecap:\s*round;[^}]*stroke-linejoin:\s*round/s);
+  assert.match(app, /const ICONS = \{/);
+  assert.match(app, /document\.createElementNS\(SVG_NS, 'svg'\)/);
+  for (const name of ['chevronLeft', 'chevronRight', 'chevronDown', 'check', 'star', 'volume2', 'play', 'pause', 'refreshCw']) assert.match(app, new RegExp(`${name}:`));
+  assert.match(html, /\.rating-selected\.review \.icon-star\s*{\s*fill:\s*currentColor/);
+  assert.doesNotMatch(html + app, /unpkg|jsdelivr|lucide\.min|icon-font/);
 });
 
 test('TTS cancels prior speech and uses the selected English voice and rate', async () => {

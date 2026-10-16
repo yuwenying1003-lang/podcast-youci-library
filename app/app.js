@@ -7,6 +7,36 @@ import { validPodcastId } from './services/protocol.js';
 import { AI_API_URL } from './config.js';
 
 const $ = id => document.getElementById(id);
+const SVG_NS = 'http://www.w3.org/2000/svg';
+const ICONS = {
+  chevronLeft: [['path', { d: 'm15 18-6-6 6-6' }]],
+  chevronRight: [['path', { d: 'm9 18 6-6-6-6' }]],
+  chevronDown: [['path', { d: 'm6 9 6 6 6-6' }]],
+  check: [['path', { d: 'm20 6-11 11-5-5' }]],
+  star: [['path', { d: 'm12 2.7 2.85 5.78 6.38.93-4.62 4.5 1.09 6.35L12 17.97 6.3 20.96l1.09-6.35-4.62-4.5 6.38-.93L12 2.7Z' }]],
+  volume2: [['path', { d: 'M11 5 6 9H2v6h4l5 4V5Z' }], ['path', { d: 'M15.5 8.5a5 5 0 0 1 0 7' }], ['path', { d: 'M18 6a8.5 8.5 0 0 1 0 12' }]],
+  play: [['path', { d: 'm8 5 11 7-11 7V5Z' }]],
+  pause: [['path', { d: 'M9 5v14' }], ['path', { d: 'M15 5v14' }]],
+  refreshCw: [['path', { d: 'M20 11a8 8 0 1 0-2.34 5.66' }], ['path', { d: 'M20 4v7h-7' }]],
+  headphones: [['path', { d: 'M4 14v-2a8 8 0 0 1 16 0v2' }], ['path', { d: 'M18 19h-1a2 2 0 0 1-2-2v-3h5v3a2 2 0 0 1-2 2Z' }], ['path', { d: 'M6 19H5a2 2 0 0 1-2-2v-3h5v3a2 2 0 0 1-2 2Z' }]],
+};
+const makeIcon = name => {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.classList.add('icon', `icon-${name}`); svg.setAttribute('viewBox', '0 0 24 24'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false');
+  for (const [tag, attributes] of ICONS[name]) { const child = document.createElementNS(SVG_NS, tag); for (const [key, value] of Object.entries(attributes)) child.setAttribute(key, value); svg.append(child); }
+  return svg;
+};
+const setIcon = (element, name, label = '') => {
+  const nodes = [makeIcon(name)];
+  if (label) { const text = document.createElement('span'); text.className = 'icon-label'; text.textContent = label; nodes.push(text); }
+  element.classList.add('has-icon');
+  element.replaceChildren(...nodes);
+};
+const installIcons = () => {
+  for (const [id, name] of Object.entries({ vPrev: 'chevronLeft', vKnown: 'check', vAgain: 'star', vNext: 'chevronRight', ePrev: 'chevronLeft', eKnown: 'check', eAgain: 'star', eNext: 'chevronRight', vSay: 'volume2', vSentence: 'volume2' })) setIcon($(id), name);
+  for (const [id, name, label] of [['eSay', 'volume2', 'Phrase'], ['eSentence', 'volume2', 'Example'], ['vOriginal', 'headphones', 'Play exact sentence'], ['eOriginal', 'headphones', 'Play exact sentence'], ['refreshVoices', 'refreshCw', 'Voices'], ['testVoice', 'play', 'Test'], ['listenButton', 'play', 'Play this unit'], ['pauseButton', 'pause', 'Play / Pause'], ['saveUnit', 'check', 'Save & complete this unit'], ['nextUnit', 'chevronRight', 'Next unit']]) setIcon($(id), name, label);
+  setIcon($('voiceHeading'), 'volume2', 'Voice Studio');
+};
 const params = new URLSearchParams(location.search);
 const podcastId = params.get('podcastId') || params.get('episode') || '';
 const audio = validPodcastId(podcastId) ? new AudioClient(podcastId) : null;
@@ -98,7 +128,6 @@ function renderCard(kind) {
   $(prefix + 'Known').classList.toggle('rating-selected', rating === true);
   $(prefix + 'Again').classList.toggle('rating-selected', rating === false);
   $(prefix + 'Again').classList.toggle('review', rating === false);
-  $(prefix + 'Again').textContent = rating === false ? '★' : '☆';
   $(prefix + 'Again').title = rating === false ? `Marked ${isVocab ? 'word' : 'expression'} for review` : `Review this ${isVocab ? 'word' : 'expression'}`;
   $(prefix + 'Known').setAttribute('aria-pressed', String(rating === true));
   $(prefix + 'Again').setAttribute('aria-pressed', String(rating === false));
@@ -113,7 +142,7 @@ function renderPatterns() {
     });
     const summary = document.createElement('summary'); summary.className = 'pattern-summary';
     const heading = document.createElement('h3'); heading.textContent = `${index + 1}. ${pattern.text}`;
-    const chevron = document.createElement('span'); chevron.className = 'pattern-chevron'; chevron.setAttribute('aria-hidden', 'true');
+    const chevron = document.createElement('span'); chevron.className = 'pattern-chevron'; chevron.setAttribute('aria-hidden', 'true'); chevron.append(makeIcon('chevronDown'));
     summary.append(heading, chevron);
     const content = document.createElement('div'); content.className = 'pattern-content';
     const cn = document.createElement('div'); cn.className = 'recognition'; cn.textContent = pattern.cn;
@@ -168,8 +197,8 @@ function renderPatterns() {
       for (const value of [feedback.grammar_feedback_zh, feedback.pattern_usage_feedback_zh].filter(Boolean).slice(0, 2)) { const item = document.createElement('li'); item.textContent = value; tips.append(item); }
       if (tips.childElementCount) { const tipTitle = document.createElement('b'); tipTitle.textContent = '重点建议（最多两条）：'; result.append(tipTitle, tips); }
       const audioTools = document.createElement('div'); audioTools.className = 'tools';
-      for (const [text, value] of [['🔊 修改后句子', feedback.corrected_sentence], ['🔊 自然表达', feedback.natural_alternative]]) {
-        const button = document.createElement('button'); button.textContent = text; button.onclick = () => speak(value); audioTools.append(button);
+      for (const [text, value] of [['修改后句子', feedback.corrected_sentence], ['自然表达', feedback.natural_alternative]]) {
+        const button = document.createElement('button'); setIcon(button, 'volume2', text); button.onclick = () => speak(value); audioTools.append(button);
       }
       result.prepend(title); result.append(audioTools);
     };
@@ -278,7 +307,7 @@ async function start(refresh = false) {
   } catch (error) { if (error.name !== 'AbortError') { courseStatus(`Course load failed: ${error.message}`, 'error', true); document.querySelector('main').hidden = true; } }
 }
 
-setupControls();
+setupControls(); installIcons();
 const savedRate = Number(localStorage.getItem('youci-tts-rate'));
 if (savedRate >= .7 && savedRate <= 1.15) $('ttsRate').value = String(savedRate);
 $('ttsRateLabel').textContent = `${Number($('ttsRate').value).toFixed(2)}×`;
