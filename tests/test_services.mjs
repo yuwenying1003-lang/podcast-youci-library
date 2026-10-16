@@ -178,6 +178,9 @@ test('Podlingora editorial UI keeps accessible responsive learning controls', as
   assert.match(html, /PODLINGORA · GUIDED PODCAST ENGLISH/);
   assert.match(html, /--ivory:\s*#f7f9f6/);
   assert.match(html, /--clay:\s*#1c6444/);
+  assert.match(html, /h1, h2, h3\s*{[^}]*font-family:\s*var\(--sans\)/s);
+  assert.match(html, /\.target\s*{[^}]*font-family:\s*var\(--sans\)[^}]*font-weight:\s*800/s);
+  assert.doesNotMatch(html, /var\(--serif\)/);
   assert.match(html, /@media \(pointer: coarse\)/);
   assert.match(html, /@media \(prefers-reduced-motion: reduce\)/);
   assert.match(html, /role="progressbar"/);
