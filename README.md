@@ -38,6 +38,15 @@ required metadata and learning collections, time formats and ordering, unit refe
 explicit duplicate IDs, and source labels. GitHub Actions runs it on pushes and pull
 requests. GitHub Pages is configured to publish the `main` branch root.
 
+## Guided Speaking Practice
+
+Every reusable pattern provides daily-life, social-conversation, and work-communication
+prompts with a goal, keyword bank, sentence starter, and hidden reference answer. “Check
+My Sentence” sends the learner's sentence to the authenticated Cloudflare Worker; Gemini
+returns structured feedback without treating the reference answer as the only valid answer.
+The Gemini key remains in Cloudflare Secrets. The API enforces Access-based sign-in,
+short-lived sessions, input limits, burst rate limits, and a daily per-user quota.
+
 ## Troubleshooting
 
 - **404 for a course:** confirm the lowercase episode ID and filename match exactly,

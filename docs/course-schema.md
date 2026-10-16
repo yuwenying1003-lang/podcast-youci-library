@@ -11,7 +11,10 @@ Required top-level fields:
 - `vocab`: vocabulary records. Current content supports both time-addressed legacy
   records and unit-addressed records.
 - `expressions`: phrase records with `time`, `text`, translation, definition, and example.
-- `patterns`: one array per learning unit, containing speaking/example-sentence prompts.
+- `patterns`: one array per learning unit. Every pattern includes at least three guided
+  scenarios (`daily`, `social`, and `work`). Each scenario supplies a Chinese situation,
+  English expression goal, 2–4 keywords, starter text, and a hidden reference answer.
+  Reference answers are examples, not unique correct answers.
 
 Times use `MM:SS` (minutes may exceed 59). Unit `start`/`end` values identify broad
 sections only. An exact-sentence playback control must require separately verified start

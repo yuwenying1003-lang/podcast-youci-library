@@ -36,7 +36,7 @@
     "patterns": {
       "type": "array",
       "minItems": 1,
-      "items": {"type": "array", "minItems": 1, "items": {"type": "object"}}
+      "items": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/speakingPattern"}}
     }
   },
   "$defs": {
@@ -54,6 +54,31 @@
     "learningItem": {
       "type": "object",
       "properties": {"clip": {"$ref": "#/$defs/clip"}}
+    },
+    "speakingScenario": {
+      "type": "object",
+      "required": ["type", "label", "scene_zh", "goal_en", "keywords", "starter", "reference_answer"],
+      "properties": {
+        "type": {"enum": ["daily", "social", "work"]},
+        "label": {"type": "string", "minLength": 1},
+        "scene_zh": {"type": "string", "minLength": 10},
+        "goal_en": {"type": "string", "minLength": 5},
+        "keywords": {"type": "array", "minItems": 2, "maxItems": 4, "items": {"type": "string", "minLength": 1}},
+        "starter": {"type": "string", "minLength": 2},
+        "reference_answer": {"type": "string", "minLength": 5}
+      },
+      "additionalProperties": false
+    },
+    "speakingPattern": {
+      "type": "object",
+      "required": ["text", "cn", "example", "prompt", "scenarios"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "cn": {"type": "string", "minLength": 1},
+        "example": {"type": "string", "minLength": 5},
+        "prompt": {"type": "string", "minLength": 5},
+        "scenarios": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/speakingScenario"}}
+      }
     }
   }
 }

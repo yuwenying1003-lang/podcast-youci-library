@@ -137,6 +137,23 @@ def validate(path: Path) -> list[str]:
                     errors.append(f"{where}: expected object")
                     continue
                 require_text(item, ("text", "cn", "example", "prompt"), where, errors)
+                scenarios = item.get("scenarios")
+                if not isinstance(scenarios, list) or len(scenarios) < 3:
+                    errors.append(f"{where}.scenarios: expected at least three scenarios")
+                    continue
+                types = set()
+                for scenario_index, scenario in enumerate(scenarios):
+                    scenario_where = f"{where}.scenarios[{scenario_index}]"
+                    if not isinstance(scenario, dict):
+                        errors.append(f"{scenario_where}: expected object")
+                        continue
+                    require_text(scenario, ("type", "label", "scene_zh", "goal_en", "starter", "reference_answer"), scenario_where, errors)
+                    types.add(scenario.get("type"))
+                    keywords = scenario.get("keywords")
+                    if not isinstance(keywords, list) or not 2 <= len(keywords) <= 4 or not all(isinstance(word, str) and word.strip() for word in keywords):
+                        errors.append(f"{scenario_where}.keywords: expected 2-4 non-empty strings")
+                if not {"daily", "social", "work"}.issubset(types):
+                    errors.append(f"{where}.scenarios: must include daily, social, and work")
 
     ids: dict[str, str] = {}
     for name in ("units", "vocab", "expressions", "supplemental"):

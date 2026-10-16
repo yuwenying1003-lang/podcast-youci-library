@@ -7,6 +7,9 @@
 - Podcast ID rejection, action allowlist, protocol/version/request matching, unknown
   course behavior, and course-ID mismatch: covered by Node tests.
 - Both MV3 manifests and shared-source packaging: checked by the packaging script.
+- Guided scenarios require daily, social, and work variants with goals, 2–4 keywords,
+  starters, and reference answers; AI input/output contracts and frontend key isolation
+  are covered by Node tests.
 
 ## Static/manual inspection passed
 
@@ -27,5 +30,7 @@
   audio, refresh, and progress-persistence tests.
 - Confirm whether ListenLeap replaces its audio element during navigation and whether
   subtitle highlighting remains synchronized after direct seeking.
+- Sign in through Cloudflare Access and submit a natural answer, a fixable answer, and an
+  incorrect answer to confirm live Gemini classifications and daily quota reporting.
 
 Real Chrome, Edge, and Yandex device results are not claimed until this checklist is run.

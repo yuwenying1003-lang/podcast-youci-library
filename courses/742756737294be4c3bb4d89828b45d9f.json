@@ -65,109 +65,1473 @@
     }
   ],
   "vocab": [
-    {"unit": 0, "word": "staple", "cn": "常备品；主要元素", "definition": "something used or valued regularly and considered basic or essential", "tip": "A staple holds papers together; metaphorically, a staple holds a routine or culture together.", "source": "transcript term", "example": "Point-and-click adventures became a staple of 1990s computer gaming.", "example_source": "adapted"},
-    {"unit": 0, "word": "fanfare", "cn": "大张旗鼓的宣传；隆重欢迎", "definition": "public attention, celebration, or publicity surrounding an event", "tip": "Originally a short ceremonial trumpet flourish; now often used in 'with little fanfare'.", "source": "transcript term", "example": "The product arrived with little fanfare but gradually found a loyal audience.", "example_source": "adapted"},
-    {"unit": 0, "word": "immensely", "cn": "极其；非常", "definition": "to a very great degree", "tip": "immense + -ly; compare enormously and tremendously.", "source": "transcript term", "example": "The game remains immensely popular among players of a certain generation.", "example_source": "adapted"},
-    {"unit": 0, "word": "vintage", "cn": "特定年代；年代特征", "definition": "a period associated with the production or origin of something", "tip": "From wine production; 'of a certain vintage' politely refers to age or generation.", "source": "transcript term", "example": "Gamers of a similar vintage often share the same references.", "example_source": "adapted"},
-    {"unit": 0, "word": "moderate", "cn": "中等的；适度的", "definition": "neither very large nor very small in amount or degree", "tip": "mod- relates to measure; moderation means avoiding extremes.", "source": "transcript term", "example": "Initial demand was moderate rather than spectacular.", "example_source": "adapted"},
-    {"unit": 0, "word": "atmospheric", "cn": "富有氛围的", "definition": "creating a distinctive and emotionally engaging mood", "tip": "atmosphere + -ic; useful for films, music, games, and places.", "source": "transcript term", "example": "Careful lighting made the limited graphics surprisingly atmospheric.", "example_source": "adapted"},
-
-    {"unit": 1, "word": "potent", "cn": "强有力的；影响深远的", "definition": "having great power, influence, or effect", "tip": "Related to potential and omnipotent through the Latin root pot-, meaning power.", "source": "transcript term", "example": "A theme-park attraction can become a potent source of cultural imagery.", "example_source": "adapted"},
-    {"unit": 1, "word": "sequel", "cn": "续集", "definition": "a work that continues the story or subject of an earlier one", "tip": "From Latin sequi, 'to follow'; sequence shares the same root.", "source": "transcript term", "example": "The successful film produced several sequels.", "example_source": "adapted"},
-    {"unit": 1, "word": "context", "cn": "语境；背景", "definition": "the circumstances that help explain the meaning of something", "tip": "con- (together) + text (woven): ideas woven together around a detail.", "source": "transcript term", "example": "Without historical context, the joke sounds much older than it is.", "example_source": "adapted"},
-    {"unit": 1, "word": "in utero", "cn": "在子宫内；出生前", "definition": "while still developing inside the uterus", "tip": "A Latin phrase used humorously in the episode to reject an impossible childhood experience.", "source": "transcript term", "example": "She joked that she could not have played the game in utero.", "example_source": "adapted"},
-    {"unit": 1, "word": "text-based", "cn": "基于文本的", "definition": "operated or presented mainly through written words rather than graphics", "tip": "The hyphen joins a noun and participle into one modifier.", "source": "transcript term", "example": "Early text-based games required players to type commands.", "example_source": "adapted"},
-    {"unit": 1, "word": "command", "cn": "指令；命令", "definition": "an instruction given to a computer or person", "tip": "In computing, command is countable: enter, select, or execute a command.", "source": "transcript term", "example": "A visible command menu reduced the need for trial and error.", "example_source": "adapted"},
-
-    {"unit": 2, "word": "interaction", "cn": "互动；交互", "definition": "communication or action involving two or more participants or systems", "tip": "inter- (between) + action; interactive describes a system that responds to users.", "source": "transcript term", "example": "The interface made interaction depend on both images and language.", "example_source": "adapted"},
-    {"unit": 2, "word": "insignificant", "cn": "微不足道的；不重要的", "definition": "too small or unimportant to deserve much attention", "tip": "in- (not) + significant; the speaker contrasts apparent insignificance with historical importance.", "source": "transcript term", "example": "The change may look insignificant now, but it transformed the user experience.", "example_source": "adapted"},
-    {"unit": 2, "word": "sideline", "cn": "副业；次要项目", "definition": "an activity that is secondary to someone's main work", "tip": "From the line beside a sports field; a sideline project sits outside the main activity.", "source": "transcript term", "example": "The experimental game began as a sideline project.", "example_source": "adapted"},
-    {"unit": 2, "word": "enterprise", "cn": "企业；事业", "definition": "a business organization or an ambitious undertaking", "tip": "enter- + prise (undertaking); entrepreneurial belongs to the same word family.", "source": "transcript term", "example": "The filmmaker expanded his enterprise into several technical fields.", "example_source": "adapted"},
-    {"unit": 2, "word": "pioneering", "cn": "开创性的；先驱性的", "definition": "introducing methods or ideas that have not been used before", "tip": "A pioneer explores new territory; pioneering work opens a new field.", "source": "transcript term", "example": "The studio invested in pioneering visual-effects technology.", "example_source": "adapted"},
-    {"unit": 2, "word": "rebrand", "cn": "重塑品牌；更名改造", "definition": "to change the public identity, name, or image of an organization", "tip": "re- (again) + brand; often used in the passive: be rebranded as.", "source": "transcript term", "example": "The graphics division was later rebranded under a famous new name.", "example_source": "adapted"},
-
-    {"unit": 3, "word": "irritation", "cn": "恼怒；令人烦恼之处", "definition": "a feeling of annoyance or something that repeatedly causes it", "tip": "irritate → irritated/irritating → irritation.", "source": "transcript term", "example": "A common irritation was discovering that an earlier mistake made the game unwinnable.", "example_source": "adapted"},
-    {"unit": 3, "word": "seamless", "cn": "无缝的；流畅衔接的", "definition": "smooth and continuous, with no obvious breaks or difficulties", "tip": "seam + -less: literally without a visible join.", "source": "transcript term", "example": "The designers wanted progression to feel seamless.", "example_source": "adapted"},
-    {"unit": 3, "word": "cop-out", "cn": "逃避责任的做法；敷衍手段", "definition": "an easy but unsatisfactory way of avoiding a difficult problem", "tip": "Informal noun; usually appears as 'an easy cop-out'.", "source": "transcript term", "example": "Repeatedly killing the player can feel like a design cop-out.", "example_source": "adapted"},
-    {"unit": 3, "word": "prolong", "cn": "延长", "definition": "to make something last longer than it otherwise would", "tip": "pro- (forward) + long; prolong gameplay, conflict, or uncertainty.", "source": "transcript term", "example": "Artificial difficulty may prolong gameplay without making it more enjoyable.", "example_source": "adapted"},
-    {"unit": 3, "word": "ambitious", "cn": "雄心勃勃的；规模宏大的", "definition": "requiring great effort and aiming for an impressive result", "tip": "ambition is the noun; ambitious can describe people or projects.", "source": "transcript term", "example": "Licensing limits encouraged the team to attempt more ambitious original projects.", "example_source": "adapted"},
-    {"unit": 3, "word": "avatar", "cn": "虚拟形象；化身", "definition": "a graphical representation of a user in a digital environment", "tip": "The computing sense comes from a Sanskrit word for a deity's earthly manifestation.", "source": "transcript term", "example": "The experimental online world allowed users to interact through avatars.", "example_source": "adapted"},
-
-    {"unit": 4, "word": "derive", "cn": "获得；源自", "definition": "to obtain something from a particular source", "tip": "Common pattern: derive A from B; be derived from B.", "source": "transcript term", "example": "Players derived pleasure from the comedy as well as the puzzles.", "example_source": "adapted"},
-    {"unit": 4, "word": "immersed", "cn": "沉浸其中的", "definition": "deeply involved in an activity or fictional world", "tip": "immerse literally means put under liquid; metaphorically, become fully absorbed.", "source": "transcript term", "example": "The dialogue helped young players feel immersed in the story.", "example_source": "adapted"},
-    {"unit": 4, "word": "protagonist", "cn": "主人公；主角", "definition": "the main character in a story, game, or drama", "tip": "Contrast protagonist with antagonist, the main opposing force.", "source": "transcript term", "example": "An inexperienced protagonist can make a player's mistakes believable.", "example_source": "adapted"},
-    {"unit": 4, "word": "naive", "cn": "天真的；缺乏经验的", "definition": "lacking experience or sophisticated judgment", "tip": "Pronounced /naɪˈiːv/; the two vowel sounds belong to separate syllables.", "source": "transcript term", "example": "The hero is naive, but his enthusiasm makes him appealing.", "example_source": "adapted"},
-    {"unit": 4, "word": "novice", "cn": "新手；初学者", "definition": "a person who is new to an activity and has little experience", "tip": "The adjective beginner is less formal; novice is useful for skills and professions.", "source": "transcript term", "example": "The novice pirate learns by experimenting rather than following instructions.", "example_source": "adapted"},
-    {"unit": 4, "word": "everyman", "cn": "普通人式角色；平凡人代表", "definition": "an ordinary and relatable character intended to represent typical people", "tip": "Written as one word when it names the literary character type.", "source": "transcript term", "example": "The hero functions as an everyman despite the fantastic setting.", "example_source": "adapted"},
-
-    {"unit": 5, "word": "bitmap", "cn": "位图", "definition": "a digital image represented as a grid of individual pixels", "tip": "bit + map: a map of binary picture information.", "source": "transcript term", "example": "The character's bitmap file accidentally supplied his final name.", "example_source": "adapted"},
-    {"unit": 5, "word": "nameless", "cn": "未命名的；无名的", "definition": "not having or not being given a name", "tip": "name + -less; compare faceless, countless, and endless.", "source": "transcript term", "example": "The nameless protagonist was initially called simply Guy.", "example_source": "adapted"},
-    {"unit": 5, "word": "installment", "cn": "系列作品中的一部；分期部分", "definition": "one part of a series published or released over time", "tip": "Also spelled instalment in British English; context distinguishes it from a payment installment.", "source": "transcript term", "example": "A later installment turned the naming joke into a family tradition.", "example_source": "adapted"},
-    {"unit": 5, "word": "lean into", "cn": "顺势强化；积极利用", "definition": "to accept and deliberately emphasize a quality, trend, or situation", "tip": "Originally physical; now common in informal discussions of branding and storytelling.", "source": "transcript term", "example": "The sequel leaned into the accidental joke instead of ignoring it.", "example_source": "adapted"},
-    {"unit": 5, "word": "casual", "cn": "随意的；不正式的", "definition": "relaxed and not carefully planned or formal", "tip": "Casual can describe clothing, speech, decisions, or employment; context changes its meaning.", "source": "transcript term", "example": "Some of the most memorable names emerged from casual working labels.", "example_source": "adapted"},
-    {"unit": 5, "word": "parody", "cn": "戏仿；滑稽模仿", "definition": "a humorous imitation of a recognizable work, style, or scene", "tip": "Parody imitates for comic effect; satire uses humour to criticize.", "source": "transcript term", "example": "The writers chose a name that enabled a parody of a famous film scene.", "example_source": "adapted"}
+    {
+      "unit": 0,
+      "word": "staple",
+      "cn": "常备品；主要元素",
+      "definition": "something used or valued regularly and considered basic or essential",
+      "tip": "A staple holds papers together; metaphorically, a staple holds a routine or culture together.",
+      "source": "transcript term",
+      "example": "Point-and-click adventures became a staple of 1990s computer gaming.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 0,
+      "word": "fanfare",
+      "cn": "大张旗鼓的宣传；隆重欢迎",
+      "definition": "public attention, celebration, or publicity surrounding an event",
+      "tip": "Originally a short ceremonial trumpet flourish; now often used in 'with little fanfare'.",
+      "source": "transcript term",
+      "example": "The product arrived with little fanfare but gradually found a loyal audience.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 0,
+      "word": "immensely",
+      "cn": "极其；非常",
+      "definition": "to a very great degree",
+      "tip": "immense + -ly; compare enormously and tremendously.",
+      "source": "transcript term",
+      "example": "The game remains immensely popular among players of a certain generation.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 0,
+      "word": "vintage",
+      "cn": "特定年代；年代特征",
+      "definition": "a period associated with the production or origin of something",
+      "tip": "From wine production; 'of a certain vintage' politely refers to age or generation.",
+      "source": "transcript term",
+      "example": "Gamers of a similar vintage often share the same references.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 0,
+      "word": "moderate",
+      "cn": "中等的；适度的",
+      "definition": "neither very large nor very small in amount or degree",
+      "tip": "mod- relates to measure; moderation means avoiding extremes.",
+      "source": "transcript term",
+      "example": "Initial demand was moderate rather than spectacular.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 0,
+      "word": "atmospheric",
+      "cn": "富有氛围的",
+      "definition": "creating a distinctive and emotionally engaging mood",
+      "tip": "atmosphere + -ic; useful for films, music, games, and places.",
+      "source": "transcript term",
+      "example": "Careful lighting made the limited graphics surprisingly atmospheric.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 1,
+      "word": "potent",
+      "cn": "强有力的；影响深远的",
+      "definition": "having great power, influence, or effect",
+      "tip": "Related to potential and omnipotent through the Latin root pot-, meaning power.",
+      "source": "transcript term",
+      "example": "A theme-park attraction can become a potent source of cultural imagery.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 1,
+      "word": "sequel",
+      "cn": "续集",
+      "definition": "a work that continues the story or subject of an earlier one",
+      "tip": "From Latin sequi, 'to follow'; sequence shares the same root.",
+      "source": "transcript term",
+      "example": "The successful film produced several sequels.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 1,
+      "word": "context",
+      "cn": "语境；背景",
+      "definition": "the circumstances that help explain the meaning of something",
+      "tip": "con- (together) + text (woven): ideas woven together around a detail.",
+      "source": "transcript term",
+      "example": "Without historical context, the joke sounds much older than it is.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 1,
+      "word": "in utero",
+      "cn": "在子宫内；出生前",
+      "definition": "while still developing inside the uterus",
+      "tip": "A Latin phrase used humorously in the episode to reject an impossible childhood experience.",
+      "source": "transcript term",
+      "example": "She joked that she could not have played the game in utero.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 1,
+      "word": "text-based",
+      "cn": "基于文本的",
+      "definition": "operated or presented mainly through written words rather than graphics",
+      "tip": "The hyphen joins a noun and participle into one modifier.",
+      "source": "transcript term",
+      "example": "Early text-based games required players to type commands.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 1,
+      "word": "command",
+      "cn": "指令；命令",
+      "definition": "an instruction given to a computer or person",
+      "tip": "In computing, command is countable: enter, select, or execute a command.",
+      "source": "transcript term",
+      "example": "A visible command menu reduced the need for trial and error.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 2,
+      "word": "interaction",
+      "cn": "互动；交互",
+      "definition": "communication or action involving two or more participants or systems",
+      "tip": "inter- (between) + action; interactive describes a system that responds to users.",
+      "source": "transcript term",
+      "example": "The interface made interaction depend on both images and language.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 2,
+      "word": "insignificant",
+      "cn": "微不足道的；不重要的",
+      "definition": "too small or unimportant to deserve much attention",
+      "tip": "in- (not) + significant; the speaker contrasts apparent insignificance with historical importance.",
+      "source": "transcript term",
+      "example": "The change may look insignificant now, but it transformed the user experience.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 2,
+      "word": "sideline",
+      "cn": "副业；次要项目",
+      "definition": "an activity that is secondary to someone's main work",
+      "tip": "From the line beside a sports field; a sideline project sits outside the main activity.",
+      "source": "transcript term",
+      "example": "The experimental game began as a sideline project.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 2,
+      "word": "enterprise",
+      "cn": "企业；事业",
+      "definition": "a business organization or an ambitious undertaking",
+      "tip": "enter- + prise (undertaking); entrepreneurial belongs to the same word family.",
+      "source": "transcript term",
+      "example": "The filmmaker expanded his enterprise into several technical fields.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 2,
+      "word": "pioneering",
+      "cn": "开创性的；先驱性的",
+      "definition": "introducing methods or ideas that have not been used before",
+      "tip": "A pioneer explores new territory; pioneering work opens a new field.",
+      "source": "transcript term",
+      "example": "The studio invested in pioneering visual-effects technology.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 2,
+      "word": "rebrand",
+      "cn": "重塑品牌；更名改造",
+      "definition": "to change the public identity, name, or image of an organization",
+      "tip": "re- (again) + brand; often used in the passive: be rebranded as.",
+      "source": "transcript term",
+      "example": "The graphics division was later rebranded under a famous new name.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 3,
+      "word": "irritation",
+      "cn": "恼怒；令人烦恼之处",
+      "definition": "a feeling of annoyance or something that repeatedly causes it",
+      "tip": "irritate → irritated/irritating → irritation.",
+      "source": "transcript term",
+      "example": "A common irritation was discovering that an earlier mistake made the game unwinnable.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 3,
+      "word": "seamless",
+      "cn": "无缝的；流畅衔接的",
+      "definition": "smooth and continuous, with no obvious breaks or difficulties",
+      "tip": "seam + -less: literally without a visible join.",
+      "source": "transcript term",
+      "example": "The designers wanted progression to feel seamless.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 3,
+      "word": "cop-out",
+      "cn": "逃避责任的做法；敷衍手段",
+      "definition": "an easy but unsatisfactory way of avoiding a difficult problem",
+      "tip": "Informal noun; usually appears as 'an easy cop-out'.",
+      "source": "transcript term",
+      "example": "Repeatedly killing the player can feel like a design cop-out.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 3,
+      "word": "prolong",
+      "cn": "延长",
+      "definition": "to make something last longer than it otherwise would",
+      "tip": "pro- (forward) + long; prolong gameplay, conflict, or uncertainty.",
+      "source": "transcript term",
+      "example": "Artificial difficulty may prolong gameplay without making it more enjoyable.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 3,
+      "word": "ambitious",
+      "cn": "雄心勃勃的；规模宏大的",
+      "definition": "requiring great effort and aiming for an impressive result",
+      "tip": "ambition is the noun; ambitious can describe people or projects.",
+      "source": "transcript term",
+      "example": "Licensing limits encouraged the team to attempt more ambitious original projects.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 3,
+      "word": "avatar",
+      "cn": "虚拟形象；化身",
+      "definition": "a graphical representation of a user in a digital environment",
+      "tip": "The computing sense comes from a Sanskrit word for a deity's earthly manifestation.",
+      "source": "transcript term",
+      "example": "The experimental online world allowed users to interact through avatars.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 4,
+      "word": "derive",
+      "cn": "获得；源自",
+      "definition": "to obtain something from a particular source",
+      "tip": "Common pattern: derive A from B; be derived from B.",
+      "source": "transcript term",
+      "example": "Players derived pleasure from the comedy as well as the puzzles.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 4,
+      "word": "immersed",
+      "cn": "沉浸其中的",
+      "definition": "deeply involved in an activity or fictional world",
+      "tip": "immerse literally means put under liquid; metaphorically, become fully absorbed.",
+      "source": "transcript term",
+      "example": "The dialogue helped young players feel immersed in the story.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 4,
+      "word": "protagonist",
+      "cn": "主人公；主角",
+      "definition": "the main character in a story, game, or drama",
+      "tip": "Contrast protagonist with antagonist, the main opposing force.",
+      "source": "transcript term",
+      "example": "An inexperienced protagonist can make a player's mistakes believable.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 4,
+      "word": "naive",
+      "cn": "天真的；缺乏经验的",
+      "definition": "lacking experience or sophisticated judgment",
+      "tip": "Pronounced /naɪˈiːv/; the two vowel sounds belong to separate syllables.",
+      "source": "transcript term",
+      "example": "The hero is naive, but his enthusiasm makes him appealing.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 4,
+      "word": "novice",
+      "cn": "新手；初学者",
+      "definition": "a person who is new to an activity and has little experience",
+      "tip": "The adjective beginner is less formal; novice is useful for skills and professions.",
+      "source": "transcript term",
+      "example": "The novice pirate learns by experimenting rather than following instructions.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 4,
+      "word": "everyman",
+      "cn": "普通人式角色；平凡人代表",
+      "definition": "an ordinary and relatable character intended to represent typical people",
+      "tip": "Written as one word when it names the literary character type.",
+      "source": "transcript term",
+      "example": "The hero functions as an everyman despite the fantastic setting.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 5,
+      "word": "bitmap",
+      "cn": "位图",
+      "definition": "a digital image represented as a grid of individual pixels",
+      "tip": "bit + map: a map of binary picture information.",
+      "source": "transcript term",
+      "example": "The character's bitmap file accidentally supplied his final name.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 5,
+      "word": "nameless",
+      "cn": "未命名的；无名的",
+      "definition": "not having or not being given a name",
+      "tip": "name + -less; compare faceless, countless, and endless.",
+      "source": "transcript term",
+      "example": "The nameless protagonist was initially called simply Guy.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 5,
+      "word": "installment",
+      "cn": "系列作品中的一部；分期部分",
+      "definition": "one part of a series published or released over time",
+      "tip": "Also spelled instalment in British English; context distinguishes it from a payment installment.",
+      "source": "transcript term",
+      "example": "A later installment turned the naming joke into a family tradition.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 5,
+      "word": "lean into",
+      "cn": "顺势强化；积极利用",
+      "definition": "to accept and deliberately emphasize a quality, trend, or situation",
+      "tip": "Originally physical; now common in informal discussions of branding and storytelling.",
+      "source": "transcript term",
+      "example": "The sequel leaned into the accidental joke instead of ignoring it.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 5,
+      "word": "casual",
+      "cn": "随意的；不正式的",
+      "definition": "relaxed and not carefully planned or formal",
+      "tip": "Casual can describe clothing, speech, decisions, or employment; context changes its meaning.",
+      "source": "transcript term",
+      "example": "Some of the most memorable names emerged from casual working labels.",
+      "example_source": "adapted"
+    },
+    {
+      "unit": 5,
+      "word": "parody",
+      "cn": "戏仿；滑稽模仿",
+      "definition": "a humorous imitation of a recognizable work, style, or scene",
+      "tip": "Parody imitates for comic effect; satire uses humour to criticize.",
+      "source": "transcript term",
+      "example": "The writers chose a name that enabled a parody of a famous film scene.",
+      "example_source": "adapted"
+    }
   ],
   "expressions": [
-    {"time": "00:00", "text": "with little fanfare", "cn": "几乎没有宣传或庆祝地", "definition": "without attracting much public attention", "example": "The innovative title was released with little fanfare.", "example_source": "adapted"},
-    {"time": "00:00", "text": "of a certain vintage", "cn": "属于某一代的；有些年纪的", "definition": "a tactful or humorous way to describe people or things from a particular period", "example": "The reference is instantly familiar to gamers of a certain vintage.", "example_source": "adapted"},
-    {"time": "00:00", "text": "north of ... and south of ...", "cn": "高于……且低于……", "definition": "an informal way to place a number within a broad range", "example": "Sales were north of one hundred thousand and south of one million.", "example_source": "adapted"},
-    {"time": "00:00", "text": "grow and grow", "cn": "不断增长", "definition": "to increase continuously over an extended period", "example": "The game's reputation continued to grow and grow.", "example_source": "adapted"},
-
-    {"time": "02:30", "text": "keep in mind", "cn": "记住；考虑到", "definition": "to remember an important fact while judging a situation", "example": "Keep in mind that many modern interface conventions did not yet exist.", "example_source": "adapted"},
-    {"time": "02:30", "text": "have no idea", "cn": "完全不知道", "definition": "to lack knowledge or understanding of something", "example": "She had no idea the familiar song came from a theme-park ride.", "example_source": "adapted"},
-    {"time": "02:30", "text": "come before", "cn": "先于……出现", "definition": "to exist or happen earlier than something else", "example": "Several text adventures came before the graphical game.", "example_source": "adapted"},
-    {"time": "02:30", "text": "guess at", "cn": "猜测；试猜", "definition": "to attempt an answer without enough information", "example": "Players often had to guess at the exact wording of a command.", "example_source": "adapted"},
-
-    {"time": "04:10", "text": "point and click", "cn": "点击式操作", "definition": "to control software by moving a pointer and selecting visible items", "example": "Point-and-click controls made the world easier to explore.", "example_source": "adapted"},
-    {"time": "04:10", "text": "say it out loud", "cn": "大声说出来", "definition": "to express words audibly rather than silently", "example": "The innovation sounds minor when you say it out loud today.", "example_source": "adapted"},
-    {"time": "04:10", "text": "push in new directions", "cn": "向新方向探索", "definition": "to pursue unfamiliar or innovative possibilities", "example": "The company used its resources to push in new directions.", "example_source": "adapted"},
-    {"time": "04:10", "text": "be known as", "cn": "被称为", "definition": "to have a particular name or reputation", "example": "The division later became known as LucasArts.", "example_source": "adapted"},
-
-    {"time": "06:10", "text": "run someone into a dead end", "cn": "使某人陷入无法继续的局面", "definition": "to leave someone in a situation with no possible progress", "example": "A missing object could run the player into a dead end.", "example_source": "adapted"},
-    {"time": "06:10", "text": "one wrong move", "cn": "一步走错；一个错误操作", "definition": "a single mistake with serious consequences", "example": "In some older games, one wrong move meant starting again.", "example_source": "adapted"},
-    {"time": "06:10", "text": "ahead of its time", "cn": "超越时代的；理念超前的", "definition": "more advanced or innovative than contemporary expectations", "example": "The avatar-based online community was far ahead of its time.", "example_source": "adapted"},
-    {"time": "06:10", "text": "along similar lines", "cn": "以类似方式；遵循相似思路", "definition": "using a comparable approach or design", "example": "The reusable engine helped the studio build several games along similar lines.", "example_source": "adapted"},
-
-    {"time": "08:20", "text": "take part in", "cn": "参与", "definition": "to participate in an activity or event", "example": "The interface made players feel they were taking part in a comedy.", "example_source": "adapted"},
-    {"time": "08:20", "text": "bumble into", "cn": "跌跌撞撞地进入；误打误撞进入", "definition": "to enter a situation awkwardly or by accident", "example": "The player seems to bumble into a lively pirate sitcom.", "example_source": "adapted"},
-    {"time": "08:20", "text": "true to character", "cn": "符合人物性格", "definition": "consistent with a person's established personality", "example": "Getting lost remains true to the inexperienced hero's character.", "example_source": "adapted"},
-    {"time": "08:20", "text": "wide-eyed and bushy-tailed", "cn": "满怀热情且天真兴奋的", "definition": "very eager, alert, and enthusiastic, often because of inexperience", "example": "The young adventurer enters the pirate world wide-eyed and bushy-tailed.", "example_source": "adapted"},
-
-    {"time": "10:15", "text": "refer to ... as ...", "cn": "把……称作……", "definition": "to use a particular name or description for something", "example": "The team initially referred to the hero as Guy.", "example_source": "adapted"},
-    {"time": "10:15", "text": "lean into the joke", "cn": "顺势强化这个笑点", "definition": "to deliberately develop a humorous idea instead of avoiding it", "example": "Later writers leaned into the joke by naming his son Boybrush.", "example_source": "adapted"},
-    {"time": "10:15", "text": "across the board", "cn": "全面地；在各方面", "definition": "applying to every part or category", "example": "The working process was informal across the board.", "example_source": "adapted"},
-    {"time": "10:15", "text": "enable someone to do something", "cn": "使某人能够做某事", "definition": "to provide the means or opportunity for an action", "example": "The chosen name enabled the writers to parody a famous scene.", "example_source": "adapted"}
+    {
+      "time": "00:00",
+      "text": "with little fanfare",
+      "cn": "几乎没有宣传或庆祝地",
+      "definition": "without attracting much public attention",
+      "example": "The innovative title was released with little fanfare.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "00:00",
+      "text": "of a certain vintage",
+      "cn": "属于某一代的；有些年纪的",
+      "definition": "a tactful or humorous way to describe people or things from a particular period",
+      "example": "The reference is instantly familiar to gamers of a certain vintage.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "00:00",
+      "text": "north of ... and south of ...",
+      "cn": "高于……且低于……",
+      "definition": "an informal way to place a number within a broad range",
+      "example": "Sales were north of one hundred thousand and south of one million.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "00:00",
+      "text": "grow and grow",
+      "cn": "不断增长",
+      "definition": "to increase continuously over an extended period",
+      "example": "The game's reputation continued to grow and grow.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "02:30",
+      "text": "keep in mind",
+      "cn": "记住；考虑到",
+      "definition": "to remember an important fact while judging a situation",
+      "example": "Keep in mind that many modern interface conventions did not yet exist.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "02:30",
+      "text": "have no idea",
+      "cn": "完全不知道",
+      "definition": "to lack knowledge or understanding of something",
+      "example": "She had no idea the familiar song came from a theme-park ride.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "02:30",
+      "text": "come before",
+      "cn": "先于……出现",
+      "definition": "to exist or happen earlier than something else",
+      "example": "Several text adventures came before the graphical game.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "02:30",
+      "text": "guess at",
+      "cn": "猜测；试猜",
+      "definition": "to attempt an answer without enough information",
+      "example": "Players often had to guess at the exact wording of a command.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "04:10",
+      "text": "point and click",
+      "cn": "点击式操作",
+      "definition": "to control software by moving a pointer and selecting visible items",
+      "example": "Point-and-click controls made the world easier to explore.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "04:10",
+      "text": "say it out loud",
+      "cn": "大声说出来",
+      "definition": "to express words audibly rather than silently",
+      "example": "The innovation sounds minor when you say it out loud today.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "04:10",
+      "text": "push in new directions",
+      "cn": "向新方向探索",
+      "definition": "to pursue unfamiliar or innovative possibilities",
+      "example": "The company used its resources to push in new directions.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "04:10",
+      "text": "be known as",
+      "cn": "被称为",
+      "definition": "to have a particular name or reputation",
+      "example": "The division later became known as LucasArts.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "06:10",
+      "text": "run someone into a dead end",
+      "cn": "使某人陷入无法继续的局面",
+      "definition": "to leave someone in a situation with no possible progress",
+      "example": "A missing object could run the player into a dead end.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "06:10",
+      "text": "one wrong move",
+      "cn": "一步走错；一个错误操作",
+      "definition": "a single mistake with serious consequences",
+      "example": "In some older games, one wrong move meant starting again.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "06:10",
+      "text": "ahead of its time",
+      "cn": "超越时代的；理念超前的",
+      "definition": "more advanced or innovative than contemporary expectations",
+      "example": "The avatar-based online community was far ahead of its time.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "06:10",
+      "text": "along similar lines",
+      "cn": "以类似方式；遵循相似思路",
+      "definition": "using a comparable approach or design",
+      "example": "The reusable engine helped the studio build several games along similar lines.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "08:20",
+      "text": "take part in",
+      "cn": "参与",
+      "definition": "to participate in an activity or event",
+      "example": "The interface made players feel they were taking part in a comedy.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "08:20",
+      "text": "bumble into",
+      "cn": "跌跌撞撞地进入；误打误撞进入",
+      "definition": "to enter a situation awkwardly or by accident",
+      "example": "The player seems to bumble into a lively pirate sitcom.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "08:20",
+      "text": "true to character",
+      "cn": "符合人物性格",
+      "definition": "consistent with a person's established personality",
+      "example": "Getting lost remains true to the inexperienced hero's character.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "08:20",
+      "text": "wide-eyed and bushy-tailed",
+      "cn": "满怀热情且天真兴奋的",
+      "definition": "very eager, alert, and enthusiastic, often because of inexperience",
+      "example": "The young adventurer enters the pirate world wide-eyed and bushy-tailed.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "10:15",
+      "text": "refer to ... as ...",
+      "cn": "把……称作……",
+      "definition": "to use a particular name or description for something",
+      "example": "The team initially referred to the hero as Guy.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "10:15",
+      "text": "lean into the joke",
+      "cn": "顺势强化这个笑点",
+      "definition": "to deliberately develop a humorous idea instead of avoiding it",
+      "example": "Later writers leaned into the joke by naming his son Boybrush.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "10:15",
+      "text": "across the board",
+      "cn": "全面地；在各方面",
+      "definition": "applying to every part or category",
+      "example": "The working process was informal across the board.",
+      "example_source": "adapted"
+    },
+    {
+      "time": "10:15",
+      "text": "enable someone to do something",
+      "cn": "使某人能够做某事",
+      "definition": "to provide the means or opportunity for an action",
+      "example": "The chosen name enabled the writers to parody a famous scene.",
+      "example_source": "adapted"
+    }
   ],
   "patterns": [
     [
-      {"text": "Although ..., it ...", "cn": "虽然……，但它……", "example": "Although the game sold moderately at first, it became a cult classic.", "prompt": "Describe something whose later influence exceeded its early success."},
-      {"text": "What made ... was ...", "cn": "使……具有某种特点的是……", "example": "What made the game atmospheric was its inventive use of limited colours.", "prompt": "Explain what gives a film, book, or place its distinctive atmosphere."},
-      {"text": "It was not ..., but ...", "cn": "它不是……，而是……", "example": "It was not an immediate blockbuster, but a reputation that grew over time.", "prompt": "Correct a common oversimplification about a successful product."}
+      {
+        "text": "Although ..., it ...",
+        "cn": "虽然……，但它……",
+        "example": "Although the game sold moderately at first, it became a cult classic.",
+        "prompt": "Describe something whose later influence exceeded its early success.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“虽然……，但它……”组织一句完整英语。",
+            "goal_en": "Describe something whose later influence exceeded its early success.",
+            "keywords": [
+              "game",
+              "sold",
+              "moderately",
+              "first"
+            ],
+            "starter": "Although",
+            "reference_answer": "Although the game sold moderately at first, it became a cult classic."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“虽然……，但它……”组织一句完整英语。",
+            "goal_en": "Describe something whose later influence exceeded its early success.",
+            "keywords": [
+              "game",
+              "sold",
+              "moderately",
+              "first"
+            ],
+            "starter": "Although",
+            "reference_answer": "Although the game sold moderately at first, it became a cult classic."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“虽然……，但它……”组织一句完整英语。",
+            "goal_en": "Describe something whose later influence exceeded its early success.",
+            "keywords": [
+              "game",
+              "sold",
+              "moderately",
+              "first"
+            ],
+            "starter": "Although",
+            "reference_answer": "Although the game sold moderately at first, it became a cult classic."
+          }
+        ]
+      },
+      {
+        "text": "What made ... was ...",
+        "cn": "使……具有某种特点的是……",
+        "example": "What made the game atmospheric was its inventive use of limited colours.",
+        "prompt": "Explain what gives a film, book, or place its distinctive atmosphere.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“使……具有某种特点的是……”组织一句完整英语。",
+            "goal_en": "Explain what gives a film, book, or place its distinctive atmosphere.",
+            "keywords": [
+              "made",
+              "game",
+              "atmospheric",
+              "inventive"
+            ],
+            "starter": "What made",
+            "reference_answer": "What made the game atmospheric was its inventive use of limited colours."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“使……具有某种特点的是……”组织一句完整英语。",
+            "goal_en": "Explain what gives a film, book, or place its distinctive atmosphere.",
+            "keywords": [
+              "made",
+              "game",
+              "atmospheric",
+              "inventive"
+            ],
+            "starter": "What made",
+            "reference_answer": "What made the game atmospheric was its inventive use of limited colours."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“使……具有某种特点的是……”组织一句完整英语。",
+            "goal_en": "Explain what gives a film, book, or place its distinctive atmosphere.",
+            "keywords": [
+              "made",
+              "game",
+              "atmospheric",
+              "inventive"
+            ],
+            "starter": "What made",
+            "reference_answer": "What made the game atmospheric was its inventive use of limited colours."
+          }
+        ]
+      },
+      {
+        "text": "It was not ..., but ...",
+        "cn": "它不是……，而是……",
+        "example": "It was not an immediate blockbuster, but a reputation that grew over time.",
+        "prompt": "Correct a common oversimplification about a successful product.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“它不是……，而是……”组织一句完整英语。",
+            "goal_en": "Correct a common oversimplification about a successful product.",
+            "keywords": [
+              "immediate",
+              "blockbuster",
+              "reputation",
+              "grew"
+            ],
+            "starter": "It was not",
+            "reference_answer": "It was not an immediate blockbuster, but a reputation that grew over time."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“它不是……，而是……”组织一句完整英语。",
+            "goal_en": "Correct a common oversimplification about a successful product.",
+            "keywords": [
+              "immediate",
+              "blockbuster",
+              "reputation",
+              "grew"
+            ],
+            "starter": "It was not",
+            "reference_answer": "It was not an immediate blockbuster, but a reputation that grew over time."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“它不是……，而是……”组织一句完整英语。",
+            "goal_en": "Correct a common oversimplification about a successful product.",
+            "keywords": [
+              "immediate",
+              "blockbuster",
+              "reputation",
+              "grew"
+            ],
+            "starter": "It was not",
+            "reference_answer": "It was not an immediate blockbuster, but a reputation that grew over time."
+          }
+        ]
+      }
     ],
     [
-      {"text": "Not only did ...; it also ...", "cn": "……不仅……，还……", "example": "Not only did the ride inspire a game; it also supplied a famous pirate song.", "prompt": "Connect one cultural source to two later works."},
-      {"text": "You have to keep in mind that ...", "cn": "你必须考虑到……", "example": "You have to keep in mind that players once typed every command.", "prompt": "Add historical context to a modern comparison."},
-      {"text": "Before ..., users had to ...", "cn": "在……之前，用户不得不……", "example": "Before visible command menus, users had to guess at the correct wording.", "prompt": "Contrast an older technology with its successor."}
+      {
+        "text": "Not only did ...; it also ...",
+        "cn": "……不仅……，还……",
+        "example": "Not only did the ride inspire a game; it also supplied a famous pirate song.",
+        "prompt": "Connect one cultural source to two later works.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“……不仅……，还……”组织一句完整英语。",
+            "goal_en": "Connect one cultural source to two later works.",
+            "keywords": [
+              "only",
+              "ride",
+              "inspire",
+              "game"
+            ],
+            "starter": "Not only did",
+            "reference_answer": "Not only did the ride inspire a game; it also supplied a famous pirate song."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“……不仅……，还……”组织一句完整英语。",
+            "goal_en": "Connect one cultural source to two later works.",
+            "keywords": [
+              "only",
+              "ride",
+              "inspire",
+              "game"
+            ],
+            "starter": "Not only did",
+            "reference_answer": "Not only did the ride inspire a game; it also supplied a famous pirate song."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“……不仅……，还……”组织一句完整英语。",
+            "goal_en": "Connect one cultural source to two later works.",
+            "keywords": [
+              "only",
+              "ride",
+              "inspire",
+              "game"
+            ],
+            "starter": "Not only did",
+            "reference_answer": "Not only did the ride inspire a game; it also supplied a famous pirate song."
+          }
+        ]
+      },
+      {
+        "text": "You have to keep in mind that ...",
+        "cn": "你必须考虑到……",
+        "example": "You have to keep in mind that players once typed every command.",
+        "prompt": "Add historical context to a modern comparison.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“你必须考虑到……”组织一句完整英语。",
+            "goal_en": "Add historical context to a modern comparison.",
+            "keywords": [
+              "keep",
+              "mind",
+              "players",
+              "once"
+            ],
+            "starter": "You have to keep in mind that",
+            "reference_answer": "You have to keep in mind that players once typed every command."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“你必须考虑到……”组织一句完整英语。",
+            "goal_en": "Add historical context to a modern comparison.",
+            "keywords": [
+              "keep",
+              "mind",
+              "players",
+              "once"
+            ],
+            "starter": "You have to keep in mind that",
+            "reference_answer": "You have to keep in mind that players once typed every command."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“你必须考虑到……”组织一句完整英语。",
+            "goal_en": "Add historical context to a modern comparison.",
+            "keywords": [
+              "keep",
+              "mind",
+              "players",
+              "once"
+            ],
+            "starter": "You have to keep in mind that",
+            "reference_answer": "You have to keep in mind that players once typed every command."
+          }
+        ]
+      },
+      {
+        "text": "Before ..., users had to ...",
+        "cn": "在……之前，用户不得不……",
+        "example": "Before visible command menus, users had to guess at the correct wording.",
+        "prompt": "Contrast an older technology with its successor.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“在……之前，用户不得不……”组织一句完整英语。",
+            "goal_en": "Contrast an older technology with its successor.",
+            "keywords": [
+              "before",
+              "visible",
+              "command",
+              "menus"
+            ],
+            "starter": "Before",
+            "reference_answer": "Before visible command menus, users had to guess at the correct wording."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“在……之前，用户不得不……”组织一句完整英语。",
+            "goal_en": "Contrast an older technology with its successor.",
+            "keywords": [
+              "before",
+              "visible",
+              "command",
+              "menus"
+            ],
+            "starter": "Before",
+            "reference_answer": "Before visible command menus, users had to guess at the correct wording."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“在……之前，用户不得不……”组织一句完整英语。",
+            "goal_en": "Contrast an older technology with its successor.",
+            "keywords": [
+              "before",
+              "visible",
+              "command",
+              "menus"
+            ],
+            "starter": "Before",
+            "reference_answer": "Before visible command menus, users had to guess at the correct wording."
+          }
+        ]
+      }
     ],
     [
-      {"text": "What sounds ... today was ... at the time.", "cn": "今天听来……的事，当时却……", "example": "What sounds insignificant today was revolutionary at the time.", "prompt": "Describe an innovation that later became ordinary."},
-      {"text": "Whatever happened would ...", "cn": "无论发生什么都会……", "example": "Whatever happened would produce a response rather than a dead end.", "prompt": "Describe a forgiving system or learning environment."},
-      {"text": "After the success of ..., ... expanded into ...", "cn": "在……成功后，……扩展到……", "example": "After the success of its films, the company expanded into games and graphics.", "prompt": "Explain how an organization diversified after an early success."}
+      {
+        "text": "What sounds ... today was ... at the time.",
+        "cn": "今天听来……的事，当时却……",
+        "example": "What sounds insignificant today was revolutionary at the time.",
+        "prompt": "Describe an innovation that later became ordinary.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“今天听来……的事，当时却……”组织一句完整英语。",
+            "goal_en": "Describe an innovation that later became ordinary.",
+            "keywords": [
+              "sounds",
+              "insignificant",
+              "today",
+              "revolutionary"
+            ],
+            "starter": "What sounds",
+            "reference_answer": "What sounds insignificant today was revolutionary at the time."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“今天听来……的事，当时却……”组织一句完整英语。",
+            "goal_en": "Describe an innovation that later became ordinary.",
+            "keywords": [
+              "sounds",
+              "insignificant",
+              "today",
+              "revolutionary"
+            ],
+            "starter": "What sounds",
+            "reference_answer": "What sounds insignificant today was revolutionary at the time."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“今天听来……的事，当时却……”组织一句完整英语。",
+            "goal_en": "Describe an innovation that later became ordinary.",
+            "keywords": [
+              "sounds",
+              "insignificant",
+              "today",
+              "revolutionary"
+            ],
+            "starter": "What sounds",
+            "reference_answer": "What sounds insignificant today was revolutionary at the time."
+          }
+        ]
+      },
+      {
+        "text": "Whatever happened would ...",
+        "cn": "无论发生什么都会……",
+        "example": "Whatever happened would produce a response rather than a dead end.",
+        "prompt": "Describe a forgiving system or learning environment.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“无论发生什么都会……”组织一句完整英语。",
+            "goal_en": "Describe a forgiving system or learning environment.",
+            "keywords": [
+              "whatever",
+              "happened",
+              "produce",
+              "response"
+            ],
+            "starter": "Whatever happened would",
+            "reference_answer": "Whatever happened would produce a response rather than a dead end."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“无论发生什么都会……”组织一句完整英语。",
+            "goal_en": "Describe a forgiving system or learning environment.",
+            "keywords": [
+              "whatever",
+              "happened",
+              "produce",
+              "response"
+            ],
+            "starter": "Whatever happened would",
+            "reference_answer": "Whatever happened would produce a response rather than a dead end."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“无论发生什么都会……”组织一句完整英语。",
+            "goal_en": "Describe a forgiving system or learning environment.",
+            "keywords": [
+              "whatever",
+              "happened",
+              "produce",
+              "response"
+            ],
+            "starter": "Whatever happened would",
+            "reference_answer": "Whatever happened would produce a response rather than a dead end."
+          }
+        ]
+      },
+      {
+        "text": "After the success of ..., ... expanded into ...",
+        "cn": "在……成功后，……扩展到……",
+        "example": "After the success of its films, the company expanded into games and graphics.",
+        "prompt": "Explain how an organization diversified after an early success.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“在……成功后，……扩展到……”组织一句完整英语。",
+            "goal_en": "Explain how an organization diversified after an early success.",
+            "keywords": [
+              "success",
+              "films",
+              "company",
+              "expanded"
+            ],
+            "starter": "After the success of",
+            "reference_answer": "After the success of its films, the company expanded into games and graphics."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“在……成功后，……扩展到……”组织一句完整英语。",
+            "goal_en": "Explain how an organization diversified after an early success.",
+            "keywords": [
+              "success",
+              "films",
+              "company",
+              "expanded"
+            ],
+            "starter": "After the success of",
+            "reference_answer": "After the success of its films, the company expanded into games and graphics."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“在……成功后，……扩展到……”组织一句完整英语。",
+            "goal_en": "Explain how an organization diversified after an early success.",
+            "keywords": [
+              "success",
+              "films",
+              "company",
+              "expanded"
+            ],
+            "starter": "After the success of",
+            "reference_answer": "After the success of its films, the company expanded into games and graphics."
+          }
+        ]
+      }
     ],
     [
-      {"text": "He did not like the fact that ...", "cn": "他不喜欢……这一事实", "example": "He did not like the fact that one missed object could halt all progress.", "prompt": "Identify a design problem you would like to eliminate."},
-      {"text": "Rather than ..., the designers wanted ...", "cn": "设计者不想……，而希望……", "example": "Rather than prolonging play through repeated deaths, the designers wanted entertaining puzzles.", "prompt": "Contrast a poor solution with a better design goal."},
-      {"text": "The restriction meant that ...", "cn": "这一限制意味着……", "example": "The licensing restriction meant that the studio explored original ideas.", "prompt": "Explain how a limitation produced an unexpected benefit."}
+      {
+        "text": "He did not like the fact that ...",
+        "cn": "他不喜欢……这一事实",
+        "example": "He did not like the fact that one missed object could halt all progress.",
+        "prompt": "Identify a design problem you would like to eliminate.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“他不喜欢……这一事实”组织一句完整英语。",
+            "goal_en": "Identify a design problem you would like to eliminate.",
+            "keywords": [
+              "like",
+              "fact",
+              "missed",
+              "object"
+            ],
+            "starter": "He did not like the fact that",
+            "reference_answer": "He did not like the fact that one missed object could halt all progress."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“他不喜欢……这一事实”组织一句完整英语。",
+            "goal_en": "Identify a design problem you would like to eliminate.",
+            "keywords": [
+              "like",
+              "fact",
+              "missed",
+              "object"
+            ],
+            "starter": "He did not like the fact that",
+            "reference_answer": "He did not like the fact that one missed object could halt all progress."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“他不喜欢……这一事实”组织一句完整英语。",
+            "goal_en": "Identify a design problem you would like to eliminate.",
+            "keywords": [
+              "like",
+              "fact",
+              "missed",
+              "object"
+            ],
+            "starter": "He did not like the fact that",
+            "reference_answer": "He did not like the fact that one missed object could halt all progress."
+          }
+        ]
+      },
+      {
+        "text": "Rather than ..., the designers wanted ...",
+        "cn": "设计者不想……，而希望……",
+        "example": "Rather than prolonging play through repeated deaths, the designers wanted entertaining puzzles.",
+        "prompt": "Contrast a poor solution with a better design goal.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“设计者不想……，而希望……”组织一句完整英语。",
+            "goal_en": "Contrast a poor solution with a better design goal.",
+            "keywords": [
+              "than",
+              "prolonging",
+              "play",
+              "repeated"
+            ],
+            "starter": "Rather than",
+            "reference_answer": "Rather than prolonging play through repeated deaths, the designers wanted entertaining puzzles."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“设计者不想……，而希望……”组织一句完整英语。",
+            "goal_en": "Contrast a poor solution with a better design goal.",
+            "keywords": [
+              "than",
+              "prolonging",
+              "play",
+              "repeated"
+            ],
+            "starter": "Rather than",
+            "reference_answer": "Rather than prolonging play through repeated deaths, the designers wanted entertaining puzzles."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“设计者不想……，而希望……”组织一句完整英语。",
+            "goal_en": "Contrast a poor solution with a better design goal.",
+            "keywords": [
+              "than",
+              "prolonging",
+              "play",
+              "repeated"
+            ],
+            "starter": "Rather than",
+            "reference_answer": "Rather than prolonging play through repeated deaths, the designers wanted entertaining puzzles."
+          }
+        ]
+      },
+      {
+        "text": "The restriction meant that ...",
+        "cn": "这一限制意味着……",
+        "example": "The licensing restriction meant that the studio explored original ideas.",
+        "prompt": "Explain how a limitation produced an unexpected benefit.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“这一限制意味着……”组织一句完整英语。",
+            "goal_en": "Explain how a limitation produced an unexpected benefit.",
+            "keywords": [
+              "licensing",
+              "restriction",
+              "meant",
+              "studio"
+            ],
+            "starter": "The restriction meant that",
+            "reference_answer": "The licensing restriction meant that the studio explored original ideas."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“这一限制意味着……”组织一句完整英语。",
+            "goal_en": "Explain how a limitation produced an unexpected benefit.",
+            "keywords": [
+              "licensing",
+              "restriction",
+              "meant",
+              "studio"
+            ],
+            "starter": "The restriction meant that",
+            "reference_answer": "The licensing restriction meant that the studio explored original ideas."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“这一限制意味着……”组织一句完整英语。",
+            "goal_en": "Explain how a limitation produced an unexpected benefit.",
+            "keywords": [
+              "licensing",
+              "restriction",
+              "meant",
+              "studio"
+            ],
+            "starter": "The restriction meant that",
+            "reference_answer": "The licensing restriction meant that the studio explored original ideas."
+          }
+        ]
+      }
     ],
     [
-      {"text": "What was so clever about ... was that ...", "cn": "……巧妙之处在于……", "example": "What was so clever about the hero was that his inexperience matched the player's.", "prompt": "Analyze an effective character or teaching design."},
-      {"text": "You felt as if ...", "cn": "你感觉仿佛……", "example": "You felt as if you had wandered into an interactive comedy.", "prompt": "Describe the emotional effect of a game, film, or performance."},
-      {"text": "When ..., you do not feel ... because ...", "cn": "当……时，你不会觉得……，因为……", "example": "When you make a mistake, you do not feel foolish because it suits the hero.", "prompt": "Explain how context changes the meaning of a mistake."}
+      {
+        "text": "What was so clever about ... was that ...",
+        "cn": "……巧妙之处在于……",
+        "example": "What was so clever about the hero was that his inexperience matched the player's.",
+        "prompt": "Analyze an effective character or teaching design.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“……巧妙之处在于……”组织一句完整英语。",
+            "goal_en": "Analyze an effective character or teaching design.",
+            "keywords": [
+              "clever",
+              "hero",
+              "inexperience",
+              "matched"
+            ],
+            "starter": "What was so clever about",
+            "reference_answer": "What was so clever about the hero was that his inexperience matched the player's."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“……巧妙之处在于……”组织一句完整英语。",
+            "goal_en": "Analyze an effective character or teaching design.",
+            "keywords": [
+              "clever",
+              "hero",
+              "inexperience",
+              "matched"
+            ],
+            "starter": "What was so clever about",
+            "reference_answer": "What was so clever about the hero was that his inexperience matched the player's."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“……巧妙之处在于……”组织一句完整英语。",
+            "goal_en": "Analyze an effective character or teaching design.",
+            "keywords": [
+              "clever",
+              "hero",
+              "inexperience",
+              "matched"
+            ],
+            "starter": "What was so clever about",
+            "reference_answer": "What was so clever about the hero was that his inexperience matched the player's."
+          }
+        ]
+      },
+      {
+        "text": "You felt as if ...",
+        "cn": "你感觉仿佛……",
+        "example": "You felt as if you had wandered into an interactive comedy.",
+        "prompt": "Describe the emotional effect of a game, film, or performance.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“你感觉仿佛……”组织一句完整英语。",
+            "goal_en": "Describe the emotional effect of a game, film, or performance.",
+            "keywords": [
+              "felt",
+              "wandered",
+              "interactive",
+              "comedy"
+            ],
+            "starter": "You felt as if",
+            "reference_answer": "You felt as if you had wandered into an interactive comedy."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“你感觉仿佛……”组织一句完整英语。",
+            "goal_en": "Describe the emotional effect of a game, film, or performance.",
+            "keywords": [
+              "felt",
+              "wandered",
+              "interactive",
+              "comedy"
+            ],
+            "starter": "You felt as if",
+            "reference_answer": "You felt as if you had wandered into an interactive comedy."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“你感觉仿佛……”组织一句完整英语。",
+            "goal_en": "Describe the emotional effect of a game, film, or performance.",
+            "keywords": [
+              "felt",
+              "wandered",
+              "interactive",
+              "comedy"
+            ],
+            "starter": "You felt as if",
+            "reference_answer": "You felt as if you had wandered into an interactive comedy."
+          }
+        ]
+      },
+      {
+        "text": "When ..., you do not feel ... because ...",
+        "cn": "当……时，你不会觉得……，因为……",
+        "example": "When you make a mistake, you do not feel foolish because it suits the hero.",
+        "prompt": "Explain how context changes the meaning of a mistake.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“当……时，你不会觉得……，因为……”组织一句完整英语。",
+            "goal_en": "Explain how context changes the meaning of a mistake.",
+            "keywords": [
+              "make",
+              "mistake",
+              "feel",
+              "foolish"
+            ],
+            "starter": "When",
+            "reference_answer": "When you make a mistake, you do not feel foolish because it suits the hero."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“当……时，你不会觉得……，因为……”组织一句完整英语。",
+            "goal_en": "Explain how context changes the meaning of a mistake.",
+            "keywords": [
+              "make",
+              "mistake",
+              "feel",
+              "foolish"
+            ],
+            "starter": "When",
+            "reference_answer": "When you make a mistake, you do not feel foolish because it suits the hero."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“当……时，你不会觉得……，因为……”组织一句完整英语。",
+            "goal_en": "Explain how context changes the meaning of a mistake.",
+            "keywords": [
+              "make",
+              "mistake",
+              "feel",
+              "foolish"
+            ],
+            "starter": "When",
+            "reference_answer": "When you make a mistake, you do not feel foolish because it suits the hero."
+          }
+        ]
+      }
     ],
     [
-      {"text": "The reason ... is that ...", "cn": "……的原因是……", "example": "The reason he became Guybrush is that his image was saved as a brush file.", "prompt": "Explain the accidental origin of a name or convention."},
-      {"text": "They initially referred to ... as ...", "cn": "他们最初把……称作……", "example": "They initially referred to the unnamed protagonist as Guy.", "prompt": "Describe how a temporary working label became permanent."},
-      {"text": "Later versions leaned into this by ...", "cn": "后续版本通过……强化了这一点", "example": "Later installments leaned into this by extending the naming joke.", "prompt": "Explain how a later work developed an accidental detail."}
+      {
+        "text": "The reason ... is that ...",
+        "cn": "……的原因是……",
+        "example": "The reason he became Guybrush is that his image was saved as a brush file.",
+        "prompt": "Explain the accidental origin of a name or convention.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“……的原因是……”组织一句完整英语。",
+            "goal_en": "Explain the accidental origin of a name or convention.",
+            "keywords": [
+              "reason",
+              "became",
+              "guybrush",
+              "image"
+            ],
+            "starter": "The reason",
+            "reference_answer": "The reason he became Guybrush is that his image was saved as a brush file."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“……的原因是……”组织一句完整英语。",
+            "goal_en": "Explain the accidental origin of a name or convention.",
+            "keywords": [
+              "reason",
+              "became",
+              "guybrush",
+              "image"
+            ],
+            "starter": "The reason",
+            "reference_answer": "The reason he became Guybrush is that his image was saved as a brush file."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“……的原因是……”组织一句完整英语。",
+            "goal_en": "Explain the accidental origin of a name or convention.",
+            "keywords": [
+              "reason",
+              "became",
+              "guybrush",
+              "image"
+            ],
+            "starter": "The reason",
+            "reference_answer": "The reason he became Guybrush is that his image was saved as a brush file."
+          }
+        ]
+      },
+      {
+        "text": "They initially referred to ... as ...",
+        "cn": "他们最初把……称作……",
+        "example": "They initially referred to the unnamed protagonist as Guy.",
+        "prompt": "Describe how a temporary working label became permanent.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“他们最初把……称作……”组织一句完整英语。",
+            "goal_en": "Describe how a temporary working label became permanent.",
+            "keywords": [
+              "initially",
+              "referred",
+              "unnamed",
+              "protagonist"
+            ],
+            "starter": "They initially referred to",
+            "reference_answer": "They initially referred to the unnamed protagonist as Guy."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“他们最初把……称作……”组织一句完整英语。",
+            "goal_en": "Describe how a temporary working label became permanent.",
+            "keywords": [
+              "initially",
+              "referred",
+              "unnamed",
+              "protagonist"
+            ],
+            "starter": "They initially referred to",
+            "reference_answer": "They initially referred to the unnamed protagonist as Guy."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“他们最初把……称作……”组织一句完整英语。",
+            "goal_en": "Describe how a temporary working label became permanent.",
+            "keywords": [
+              "initially",
+              "referred",
+              "unnamed",
+              "protagonist"
+            ],
+            "starter": "They initially referred to",
+            "reference_answer": "They initially referred to the unnamed protagonist as Guy."
+          }
+        ]
+      },
+      {
+        "text": "Later versions leaned into this by ...",
+        "cn": "后续版本通过……强化了这一点",
+        "example": "Later installments leaned into this by extending the naming joke.",
+        "prompt": "Explain how a later work developed an accidental detail.",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“后续版本通过……强化了这一点”组织一句完整英语。",
+            "goal_en": "Explain how a later work developed an accidental detail.",
+            "keywords": [
+              "later",
+              "installments",
+              "leaned",
+              "extending"
+            ],
+            "starter": "Later versions leaned into this by",
+            "reference_answer": "Later installments leaned into this by extending the naming joke."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“后续版本通过……强化了这一点”组织一句完整英语。",
+            "goal_en": "Explain how a later work developed an accidental detail.",
+            "keywords": [
+              "later",
+              "installments",
+              "leaned",
+              "extending"
+            ],
+            "starter": "Later versions leaned into this by",
+            "reference_answer": "Later installments leaned into this by extending the naming joke."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“后续版本通过……强化了这一点”组织一句完整英语。",
+            "goal_en": "Explain how a later work developed an accidental detail.",
+            "keywords": [
+              "later",
+              "installments",
+              "leaned",
+              "extending"
+            ],
+            "starter": "Later versions leaned into this by",
+            "reference_answer": "Later installments leaned into this by extending the naming joke."
+          }
+        ]
+      }
     ]
   ]
 }

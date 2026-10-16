@@ -326,6 +326,25 @@
         color: #2c6642;
         margin-top: 5px;
       }
+      .scenario {
+        border-left: 4px solid #74aa83;
+        background: #edf5ed;
+        padding: 10px 12px;
+        margin-top: 8px;
+        color: #244d35;
+      }
+      .scenario-goal { font-weight: 650; margin: 8px 0 4px; }
+      .keyword-bank { display: flex; flex-wrap: wrap; gap: 6px; margin: 7px 0; }
+      .keyword { background: #e7f1e9; border-radius: 999px; padding: 4px 9px; color: #22573c; font-size: 13px; }
+      .starter { text-align: left; margin-bottom: 3px; }
+      .feedback-tips { margin: 6px 0 8px; padding-left: 22px; color: #355542; }
+      .reference-answer { margin: 8px 0; font-size: 13px; }
+      .char-count { text-align: right; color: #5a7463; font-size: 12px; }
+      .ai-result { border: 1px solid #b8d1bf; border-radius: 10px; padding: 12px; background: #fff; }
+      .ai-result[data-status="correct"] { border-left: 5px solid #2e8654; }
+      .ai-result[data-status="needs_improvement"] { border-left: 5px solid #d69a20; }
+      .ai-result[data-status="incorrect"] { border-left: 5px solid #b54a45; }
+      .ai-result p { margin: 6px 0; }
       /* Android tablet touch controls */
       @media (pointer: coarse) {
         button,
@@ -534,6 +553,11 @@
           Learn the pattern, complete the adapted model sentence, and make your
           own sentence about your life or work.
         </p>
+        <div class="tools">
+          <button id="aiLogin" class="primary" type="button">Sign in to AI Feedback</button>
+          <button id="aiLogout" type="button">Sign out</button>
+        </div>
+        <p id="aiAuthStatus" class="status" aria-live="polite"></p>
         <div id="patternList"></div>
       </section>
       <section class="section">

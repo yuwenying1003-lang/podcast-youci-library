@@ -2,5 +2,14 @@
   "name": "podcast-youci-library",
   "private": true,
   "type": "module",
-  "scripts": {"test": "node --test tests/*.mjs"}
+  "scripts": {
+    "test": "node --test tests/*.mjs",
+    "deploy:worker": "wrangler deploy --config worker/wrangler.jsonc"
+  },
+  "dependencies": {
+    "jose": "^6.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.1"
+  }
 }

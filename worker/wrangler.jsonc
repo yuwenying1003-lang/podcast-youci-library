@@ -1,0 +1,30 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "podcast-youci-speaking-ai",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-16",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGIN": "https://yuwenying1003-lang.github.io",
+    "GEMINI_MODEL": "gemini-3.8-flash",
+    "DAILY_LIMIT": "20",
+    "TEAM_DOMAIN": "https://quiet-shape-8fb9.cloudflareaccess.com",
+    "ACCESS_AUD": "cf165e3ae4054abf758bbafddd814096f32c274aa9d0e3b813982b606b6139b0"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "podcast-youci-speaking-ai",
+      "database_id": "7becb632-eaf3-45ef-855e-f805548ed078",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "AI_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": { "limit": 5, "period": 60 }
+    }
+  ],
+  "observability": { "enabled": true, "head_sampling_rate": 0.05 }
+}

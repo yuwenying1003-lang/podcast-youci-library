@@ -2828,21 +2828,153 @@
         "cn": "我想不出多少理由说明……",
         "example": "I can’t think of many reasons why the schedule should change.",
         "prompt": "Explain why a work meeting should not be cancelled.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“我想不出多少理由说明……”组织一句完整英语。",
+            "goal_en": "Explain why a work meeting should not be cancelled.",
+            "keywords": [
+              "think",
+              "many",
+              "reasons",
+              "schedule"
+            ],
+            "starter": "I can’t think of many reasons why",
+            "reference_answer": "I can’t think of many reasons why the schedule should change."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“我想不出多少理由说明……”组织一句完整英语。",
+            "goal_en": "Explain why a work meeting should not be cancelled.",
+            "keywords": [
+              "think",
+              "many",
+              "reasons",
+              "schedule"
+            ],
+            "starter": "I can’t think of many reasons why",
+            "reference_answer": "I can’t think of many reasons why the schedule should change."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“我想不出多少理由说明……”组织一句完整英语。",
+            "goal_en": "Explain why a work meeting should not be cancelled.",
+            "keywords": [
+              "think",
+              "many",
+              "reasons",
+              "schedule"
+            ],
+            "starter": "I can’t think of many reasons why",
+            "reference_answer": "I can’t think of many reasons why the schedule should change."
+          }
+        ]
       },
       {
         "text": "end up + -ing / adjective",
         "cn": "最终变得／最终做……",
         "example": "We ended up finishing the report late.",
         "prompt": "Describe an unexpected result.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“最终变得／最终做……”组织一句完整英语。",
+            "goal_en": "Describe an unexpected result.",
+            "keywords": [
+              "ended",
+              "finishing",
+              "report",
+              "late"
+            ],
+            "starter": "end up + -ing / adjective",
+            "reference_answer": "We ended up finishing the report late."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“最终变得／最终做……”组织一句完整英语。",
+            "goal_en": "Describe an unexpected result.",
+            "keywords": [
+              "ended",
+              "finishing",
+              "report",
+              "late"
+            ],
+            "starter": "end up + -ing / adjective",
+            "reference_answer": "We ended up finishing the report late."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“最终变得／最终做……”组织一句完整英语。",
+            "goal_en": "Describe an unexpected result.",
+            "keywords": [
+              "ended",
+              "finishing",
+              "report",
+              "late"
+            ],
+            "starter": "end up + -ing / adjective",
+            "reference_answer": "We ended up finishing the report late."
+          }
+        ]
       },
       {
         "text": "sooner rather than later",
         "cn": "越早越好",
         "example": "We should fix the issue sooner rather than later.",
         "prompt": "Tell a colleague something should be done soon.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“越早越好”组织一句完整英语。",
+            "goal_en": "Tell a colleague something should be done soon.",
+            "keywords": [
+              "issue",
+              "sooner",
+              "than",
+              "later"
+            ],
+            "starter": "sooner rather than later",
+            "reference_answer": "We should fix the issue sooner rather than later."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“越早越好”组织一句完整英语。",
+            "goal_en": "Tell a colleague something should be done soon.",
+            "keywords": [
+              "issue",
+              "sooner",
+              "than",
+              "later"
+            ],
+            "starter": "sooner rather than later",
+            "reference_answer": "We should fix the issue sooner rather than later."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“越早越好”组织一句完整英语。",
+            "goal_en": "Tell a colleague something should be done soon.",
+            "keywords": [
+              "issue",
+              "sooner",
+              "than",
+              "later"
+            ],
+            "starter": "sooner rather than later",
+            "reference_answer": "We should fix the issue sooner rather than later."
+          }
+        ]
       }
     ],
     [
@@ -2851,21 +2983,144 @@
         "cn": "从我看到的录像来看……",
         "example": "From the footage I saw, the problem was minor.",
         "prompt": "Describe what a video suggests, without overstating certainty.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“从我看到的录像来看……”组织一句完整英语。",
+            "goal_en": "Describe what a video suggests, without overstating certainty.",
+            "keywords": [
+              "footage",
+              "problem",
+              "minor"
+            ],
+            "starter": "from the footage I saw",
+            "reference_answer": "From the footage I saw, the problem was minor."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“从我看到的录像来看……”组织一句完整英语。",
+            "goal_en": "Describe what a video suggests, without overstating certainty.",
+            "keywords": [
+              "footage",
+              "problem",
+              "minor"
+            ],
+            "starter": "from the footage I saw",
+            "reference_answer": "From the footage I saw, the problem was minor."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“从我看到的录像来看……”组织一句完整英语。",
+            "goal_en": "Describe what a video suggests, without overstating certainty.",
+            "keywords": [
+              "footage",
+              "problem",
+              "minor"
+            ],
+            "starter": "from the footage I saw",
+            "reference_answer": "From the footage I saw, the problem was minor."
+          }
+        ]
       },
       {
         "text": "all things considered",
         "cn": "综合考虑",
         "example": "All things considered, the launch went well.",
         "prompt": "Evaluate a project.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“综合考虑”组织一句完整英语。",
+            "goal_en": "Evaluate a project.",
+            "keywords": [
+              "things",
+              "considered",
+              "launch",
+              "went"
+            ],
+            "starter": "all things considered",
+            "reference_answer": "All things considered, the launch went well."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“综合考虑”组织一句完整英语。",
+            "goal_en": "Evaluate a project.",
+            "keywords": [
+              "things",
+              "considered",
+              "launch",
+              "went"
+            ],
+            "starter": "all things considered",
+            "reference_answer": "All things considered, the launch went well."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“综合考虑”组织一句完整英语。",
+            "goal_en": "Evaluate a project.",
+            "keywords": [
+              "things",
+              "considered",
+              "launch",
+              "went"
+            ],
+            "starter": "all things considered",
+            "reference_answer": "All things considered, the launch went well."
+          }
+        ]
       },
       {
         "text": "not even in the slightest",
         "cn": "一点也不",
         "example": "I am not worried in the slightest.",
         "prompt": "Make a strong but natural denial.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“一点也不”组织一句完整英语。",
+            "goal_en": "Make a strong but natural denial.",
+            "keywords": [
+              "worried",
+              "slightest"
+            ],
+            "starter": "not even in the slightest",
+            "reference_answer": "I am not worried in the slightest."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“一点也不”组织一句完整英语。",
+            "goal_en": "Make a strong but natural denial.",
+            "keywords": [
+              "worried",
+              "slightest"
+            ],
+            "starter": "not even in the slightest",
+            "reference_answer": "I am not worried in the slightest."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“一点也不”组织一句完整英语。",
+            "goal_en": "Make a strong but natural denial.",
+            "keywords": [
+              "worried",
+              "slightest"
+            ],
+            "starter": "not even in the slightest",
+            "reference_answer": "I am not worried in the slightest."
+          }
+        ]
       }
     ],
     [
@@ -2874,21 +3129,153 @@
         "cn": "根据……的说法",
         "example": "According to the report, the test was delayed.",
         "prompt": "Distinguish a claim from a verified fact.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“根据……的说法”组织一句完整英语。",
+            "goal_en": "Distinguish a claim from a verified fact.",
+            "keywords": [
+              "according",
+              "report",
+              "test",
+              "delayed"
+            ],
+            "starter": "according to",
+            "reference_answer": "According to the report, the test was delayed."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“根据……的说法”组织一句完整英语。",
+            "goal_en": "Distinguish a claim from a verified fact.",
+            "keywords": [
+              "according",
+              "report",
+              "test",
+              "delayed"
+            ],
+            "starter": "according to",
+            "reference_answer": "According to the report, the test was delayed."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“根据……的说法”组织一句完整英语。",
+            "goal_en": "Distinguish a claim from a verified fact.",
+            "keywords": [
+              "according",
+              "report",
+              "test",
+              "delayed"
+            ],
+            "starter": "according to",
+            "reference_answer": "According to the report, the test was delayed."
+          }
+        ]
       },
       {
         "text": "with that being said …",
         "cn": "话虽如此……",
         "example": "With that being said, we still need more data.",
         "prompt": "Introduce a qualification.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“话虽如此……”组织一句完整英语。",
+            "goal_en": "Introduce a qualification.",
+            "keywords": [
+              "said",
+              "need",
+              "more",
+              "data"
+            ],
+            "starter": "with that being said",
+            "reference_answer": "With that being said, we still need more data."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“话虽如此……”组织一句完整英语。",
+            "goal_en": "Introduce a qualification.",
+            "keywords": [
+              "said",
+              "need",
+              "more",
+              "data"
+            ],
+            "starter": "with that being said",
+            "reference_answer": "With that being said, we still need more data."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“话虽如此……”组织一句完整英语。",
+            "goal_en": "Introduce a qualification.",
+            "keywords": [
+              "said",
+              "need",
+              "more",
+              "data"
+            ],
+            "starter": "with that being said",
+            "reference_answer": "With that being said, we still need more data."
+          }
+        ]
       },
       {
         "text": "keep someone updated",
         "cn": "随时告知进展",
         "example": "Please keep me updated on the investigation.",
         "prompt": "Ask a colleague for updates.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“随时告知进展”组织一句完整英语。",
+            "goal_en": "Ask a colleague for updates.",
+            "keywords": [
+              "please",
+              "keep",
+              "updated",
+              "investigation"
+            ],
+            "starter": "keep someone updated",
+            "reference_answer": "Please keep me updated on the investigation."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“随时告知进展”组织一句完整英语。",
+            "goal_en": "Ask a colleague for updates.",
+            "keywords": [
+              "please",
+              "keep",
+              "updated",
+              "investigation"
+            ],
+            "starter": "keep someone updated",
+            "reference_answer": "Please keep me updated on the investigation."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“随时告知进展”组织一句完整英语。",
+            "goal_en": "Ask a colleague for updates.",
+            "keywords": [
+              "please",
+              "keep",
+              "updated",
+              "investigation"
+            ],
+            "starter": "keep someone updated",
+            "reference_answer": "Please keep me updated on the investigation."
+          }
+        ]
       }
     ],
     [
@@ -2897,21 +3284,153 @@
         "cn": "不值得冒这个险",
         "example": "It is not worth the risk of losing our data.",
         "prompt": "Explain why you would avoid an uncertain plan.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“不值得冒这个险”组织一句完整英语。",
+            "goal_en": "Explain why you would avoid an uncertain plan.",
+            "keywords": [
+              "worth",
+              "risk",
+              "losing",
+              "data"
+            ],
+            "starter": "it’s not worth the risk",
+            "reference_answer": "It is not worth the risk of losing our data."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“不值得冒这个险”组织一句完整英语。",
+            "goal_en": "Explain why you would avoid an uncertain plan.",
+            "keywords": [
+              "worth",
+              "risk",
+              "losing",
+              "data"
+            ],
+            "starter": "it’s not worth the risk",
+            "reference_answer": "It is not worth the risk of losing our data."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“不值得冒这个险”组织一句完整英语。",
+            "goal_en": "Explain why you would avoid an uncertain plan.",
+            "keywords": [
+              "worth",
+              "risk",
+              "losing",
+              "data"
+            ],
+            "starter": "it’s not worth the risk",
+            "reference_answer": "It is not worth the risk of losing our data."
+          }
+        ]
       },
       {
         "text": "the minute …",
         "cn": "一……就……",
         "example": "The minute I receive the files, I will call you.",
         "prompt": "Promise an immediate action.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“一……就……”组织一句完整英语。",
+            "goal_en": "Promise an immediate action.",
+            "keywords": [
+              "minute",
+              "receive",
+              "files",
+              "will"
+            ],
+            "starter": "the minute",
+            "reference_answer": "The minute I receive the files, I will call you."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“一……就……”组织一句完整英语。",
+            "goal_en": "Promise an immediate action.",
+            "keywords": [
+              "minute",
+              "receive",
+              "files",
+              "will"
+            ],
+            "starter": "the minute",
+            "reference_answer": "The minute I receive the files, I will call you."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“一……就……”组织一句完整英语。",
+            "goal_en": "Promise an immediate action.",
+            "keywords": [
+              "minute",
+              "receive",
+              "files",
+              "will"
+            ],
+            "starter": "the minute",
+            "reference_answer": "The minute I receive the files, I will call you."
+          }
+        ]
       },
       {
         "text": "if all else fails",
         "cn": "如果其他办法都不行",
         "example": "If all else fails, we can revert to the backup.",
         "prompt": "Suggest a backup plan.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“如果其他办法都不行”组织一句完整英语。",
+            "goal_en": "Suggest a backup plan.",
+            "keywords": [
+              "else",
+              "fails",
+              "revert",
+              "backup"
+            ],
+            "starter": "if all else fails",
+            "reference_answer": "If all else fails, we can revert to the backup."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“如果其他办法都不行”组织一句完整英语。",
+            "goal_en": "Suggest a backup plan.",
+            "keywords": [
+              "else",
+              "fails",
+              "revert",
+              "backup"
+            ],
+            "starter": "if all else fails",
+            "reference_answer": "If all else fails, we can revert to the backup."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“如果其他办法都不行”组织一句完整英语。",
+            "goal_en": "Suggest a backup plan.",
+            "keywords": [
+              "else",
+              "fails",
+              "revert",
+              "backup"
+            ],
+            "starter": "if all else fails",
+            "reference_answer": "If all else fails, we can revert to the backup."
+          }
+        ]
       }
     ],
     [
@@ -2920,21 +3439,144 @@
         "cn": "一开始",
         "example": "Right off the bat, I noticed an error.",
         "prompt": "Describe something you noticed immediately.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“一开始”组织一句完整英语。",
+            "goal_en": "Describe something you noticed immediately.",
+            "keywords": [
+              "right",
+              "noticed",
+              "error"
+            ],
+            "starter": "right off the bat",
+            "reference_answer": "Right off the bat, I noticed an error."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“一开始”组织一句完整英语。",
+            "goal_en": "Describe something you noticed immediately.",
+            "keywords": [
+              "right",
+              "noticed",
+              "error"
+            ],
+            "starter": "right off the bat",
+            "reference_answer": "Right off the bat, I noticed an error."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“一开始”组织一句完整英语。",
+            "goal_en": "Describe something you noticed immediately.",
+            "keywords": [
+              "right",
+              "noticed",
+              "error"
+            ],
+            "starter": "right off the bat",
+            "reference_answer": "Right off the bat, I noticed an error."
+          }
+        ]
       },
       {
         "text": "on top of that",
         "cn": "除此之外",
         "example": "On top of that, we need more time.",
         "prompt": "Add one more reason.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“除此之外”组织一句完整英语。",
+            "goal_en": "Add one more reason.",
+            "keywords": [
+              "need",
+              "more",
+              "time"
+            ],
+            "starter": "on top of that",
+            "reference_answer": "On top of that, we need more time."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“除此之外”组织一句完整英语。",
+            "goal_en": "Add one more reason.",
+            "keywords": [
+              "need",
+              "more",
+              "time"
+            ],
+            "starter": "on top of that",
+            "reference_answer": "On top of that, we need more time."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“除此之外”组织一句完整英语。",
+            "goal_en": "Add one more reason.",
+            "keywords": [
+              "need",
+              "more",
+              "time"
+            ],
+            "starter": "on top of that",
+            "reference_answer": "On top of that, we need more time."
+          }
+        ]
       },
       {
         "text": "it is worth it to …?",
         "cn": "做……值得吗？",
         "example": "Is it worth it to rebuild everything?",
         "prompt": "Question whether an effort is worthwhile.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“做……值得吗？”组织一句完整英语。",
+            "goal_en": "Question whether an effort is worthwhile.",
+            "keywords": [
+              "worth",
+              "rebuild",
+              "everything"
+            ],
+            "starter": "it is worth it to",
+            "reference_answer": "Is it worth it to rebuild everything?"
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“做……值得吗？”组织一句完整英语。",
+            "goal_en": "Question whether an effort is worthwhile.",
+            "keywords": [
+              "worth",
+              "rebuild",
+              "everything"
+            ],
+            "starter": "it is worth it to",
+            "reference_answer": "Is it worth it to rebuild everything?"
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“做……值得吗？”组织一句完整英语。",
+            "goal_en": "Question whether an effort is worthwhile.",
+            "keywords": [
+              "worth",
+              "rebuild",
+              "everything"
+            ],
+            "starter": "it is worth it to",
+            "reference_answer": "Is it worth it to rebuild everything?"
+          }
+        ]
       }
     ],
     [
@@ -2943,21 +3585,147 @@
         "cn": "结果发现",
         "example": "As it turned out, the assumption was incorrect.",
         "prompt": "Tell an unexpected outcome.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“结果发现”组织一句完整英语。",
+            "goal_en": "Tell an unexpected outcome.",
+            "keywords": [
+              "turned",
+              "assumption",
+              "incorrect"
+            ],
+            "starter": "as it turned out",
+            "reference_answer": "As it turned out, the assumption was incorrect."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“结果发现”组织一句完整英语。",
+            "goal_en": "Tell an unexpected outcome.",
+            "keywords": [
+              "turned",
+              "assumption",
+              "incorrect"
+            ],
+            "starter": "as it turned out",
+            "reference_answer": "As it turned out, the assumption was incorrect."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“结果发现”组织一句完整英语。",
+            "goal_en": "Tell an unexpected outcome.",
+            "keywords": [
+              "turned",
+              "assumption",
+              "incorrect"
+            ],
+            "starter": "as it turned out",
+            "reference_answer": "As it turned out, the assumption was incorrect."
+          }
+        ]
       },
       {
         "text": "be unable to articulate …",
         "cn": "无法清楚表达……",
         "example": "I was unable to articulate my concern.",
         "prompt": "Talk about a difficult feeling or opinion.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“无法清楚表达……”组织一句完整英语。",
+            "goal_en": "Talk about a difficult feeling or opinion.",
+            "keywords": [
+              "unable",
+              "articulate",
+              "concern"
+            ],
+            "starter": "be unable to articulate",
+            "reference_answer": "I was unable to articulate my concern."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“无法清楚表达……”组织一句完整英语。",
+            "goal_en": "Talk about a difficult feeling or opinion.",
+            "keywords": [
+              "unable",
+              "articulate",
+              "concern"
+            ],
+            "starter": "be unable to articulate",
+            "reference_answer": "I was unable to articulate my concern."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“无法清楚表达……”组织一句完整英语。",
+            "goal_en": "Talk about a difficult feeling or opinion.",
+            "keywords": [
+              "unable",
+              "articulate",
+              "concern"
+            ],
+            "starter": "be unable to articulate",
+            "reference_answer": "I was unable to articulate my concern."
+          }
+        ]
       },
       {
         "text": "not even during …",
         "cn": "甚至不是在……期间",
         "example": "That did not happen during the previous release.",
         "prompt": "Clarify timing.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“甚至不是在……期间”组织一句完整英语。",
+            "goal_en": "Clarify timing.",
+            "keywords": [
+              "happen",
+              "during",
+              "previous",
+              "release"
+            ],
+            "starter": "not even during",
+            "reference_answer": "That did not happen during the previous release."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“甚至不是在……期间”组织一句完整英语。",
+            "goal_en": "Clarify timing.",
+            "keywords": [
+              "happen",
+              "during",
+              "previous",
+              "release"
+            ],
+            "starter": "not even during",
+            "reference_answer": "That did not happen during the previous release."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“甚至不是在……期间”组织一句完整英语。",
+            "goal_en": "Clarify timing.",
+            "keywords": [
+              "happen",
+              "during",
+              "previous",
+              "release"
+            ],
+            "starter": "not even during",
+            "reference_answer": "That did not happen during the previous release."
+          }
+        ]
       }
     ],
     [
@@ -2966,21 +3734,150 @@
         "cn": "确切地说",
         "example": "We checked three files, to be exact.",
         "prompt": "Correct an imprecise quantity.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“确切地说”组织一句完整英语。",
+            "goal_en": "Correct an imprecise quantity.",
+            "keywords": [
+              "checked",
+              "three",
+              "files",
+              "exact"
+            ],
+            "starter": "to be exact",
+            "reference_answer": "We checked three files, to be exact."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“确切地说”组织一句完整英语。",
+            "goal_en": "Correct an imprecise quantity.",
+            "keywords": [
+              "checked",
+              "three",
+              "files",
+              "exact"
+            ],
+            "starter": "to be exact",
+            "reference_answer": "We checked three files, to be exact."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“确切地说”组织一句完整英语。",
+            "goal_en": "Correct an imprecise quantity.",
+            "keywords": [
+              "checked",
+              "three",
+              "files",
+              "exact"
+            ],
+            "starter": "to be exact",
+            "reference_answer": "We checked three files, to be exact."
+          }
+        ]
       },
       {
         "text": "under the jurisdiction of …",
         "cn": "属于……管辖",
         "example": "This issue falls under the jurisdiction of the local team.",
         "prompt": "Explain who is responsible.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“属于……管辖”组织一句完整英语。",
+            "goal_en": "Explain who is responsible.",
+            "keywords": [
+              "issue",
+              "falls",
+              "jurisdiction",
+              "local"
+            ],
+            "starter": "under the jurisdiction of",
+            "reference_answer": "This issue falls under the jurisdiction of the local team."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“属于……管辖”组织一句完整英语。",
+            "goal_en": "Explain who is responsible.",
+            "keywords": [
+              "issue",
+              "falls",
+              "jurisdiction",
+              "local"
+            ],
+            "starter": "under the jurisdiction of",
+            "reference_answer": "This issue falls under the jurisdiction of the local team."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“属于……管辖”组织一句完整英语。",
+            "goal_en": "Explain who is responsible.",
+            "keywords": [
+              "issue",
+              "falls",
+              "jurisdiction",
+              "local"
+            ],
+            "starter": "under the jurisdiction of",
+            "reference_answer": "This issue falls under the jurisdiction of the local team."
+          }
+        ]
       },
       {
         "text": "there is no indication that …",
         "cn": "没有迹象表明……",
         "example": "There is no indication that the database was corrupted.",
         "prompt": "Explain uncertainty responsibly.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“没有迹象表明……”组织一句完整英语。",
+            "goal_en": "Explain uncertainty responsibly.",
+            "keywords": [
+              "indication",
+              "database",
+              "corrupted"
+            ],
+            "starter": "there is no indication that",
+            "reference_answer": "There is no indication that the database was corrupted."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“没有迹象表明……”组织一句完整英语。",
+            "goal_en": "Explain uncertainty responsibly.",
+            "keywords": [
+              "indication",
+              "database",
+              "corrupted"
+            ],
+            "starter": "there is no indication that",
+            "reference_answer": "There is no indication that the database was corrupted."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“没有迹象表明……”组织一句完整英语。",
+            "goal_en": "Explain uncertainty responsibly.",
+            "keywords": [
+              "indication",
+              "database",
+              "corrupted"
+            ],
+            "starter": "there is no indication that",
+            "reference_answer": "There is no indication that the database was corrupted."
+          }
+        ]
       }
     ],
     [
@@ -2989,21 +3886,150 @@
         "cn": "到了这个时候……",
         "example": "By this point, we had finished testing.",
         "prompt": "Describe a timeline.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“到了这个时候……”组织一句完整英语。",
+            "goal_en": "Describe a timeline.",
+            "keywords": [
+              "point",
+              "finished",
+              "testing"
+            ],
+            "starter": "by this point",
+            "reference_answer": "By this point, we had finished testing."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“到了这个时候……”组织一句完整英语。",
+            "goal_en": "Describe a timeline.",
+            "keywords": [
+              "point",
+              "finished",
+              "testing"
+            ],
+            "starter": "by this point",
+            "reference_answer": "By this point, we had finished testing."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“到了这个时候……”组织一句完整英语。",
+            "goal_en": "Describe a timeline.",
+            "keywords": [
+              "point",
+              "finished",
+              "testing"
+            ],
+            "starter": "by this point",
+            "reference_answer": "By this point, we had finished testing."
+          }
+        ]
       },
       {
         "text": "according to the lawsuit …",
         "cn": "根据诉状所称……",
         "example": "According to the report, the device stopped responding.",
         "prompt": "Report what a source claims.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“根据诉状所称……”组织一句完整英语。",
+            "goal_en": "Report what a source claims.",
+            "keywords": [
+              "according",
+              "report",
+              "device",
+              "stopped"
+            ],
+            "starter": "according to the lawsuit",
+            "reference_answer": "According to the report, the device stopped responding."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“根据诉状所称……”组织一句完整英语。",
+            "goal_en": "Report what a source claims.",
+            "keywords": [
+              "according",
+              "report",
+              "device",
+              "stopped"
+            ],
+            "starter": "according to the lawsuit",
+            "reference_answer": "According to the report, the device stopped responding."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“根据诉状所称……”组织一句完整英语。",
+            "goal_en": "Report what a source claims.",
+            "keywords": [
+              "according",
+              "report",
+              "device",
+              "stopped"
+            ],
+            "starter": "according to the lawsuit",
+            "reference_answer": "According to the report, the device stopped responding."
+          }
+        ]
       },
       {
         "text": "it remains unclear whether …",
         "cn": "目前尚不清楚是否……",
         "example": "It remains unclear whether the sensor was faulty.",
         "prompt": "Say what has not been established.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“目前尚不清楚是否……”组织一句完整英语。",
+            "goal_en": "Say what has not been established.",
+            "keywords": [
+              "remains",
+              "unclear",
+              "whether",
+              "sensor"
+            ],
+            "starter": "it remains unclear whether",
+            "reference_answer": "It remains unclear whether the sensor was faulty."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“目前尚不清楚是否……”组织一句完整英语。",
+            "goal_en": "Say what has not been established.",
+            "keywords": [
+              "remains",
+              "unclear",
+              "whether",
+              "sensor"
+            ],
+            "starter": "it remains unclear whether",
+            "reference_answer": "It remains unclear whether the sensor was faulty."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“目前尚不清楚是否……”组织一句完整英语。",
+            "goal_en": "Say what has not been established.",
+            "keywords": [
+              "remains",
+              "unclear",
+              "whether",
+              "sensor"
+            ],
+            "starter": "it remains unclear whether",
+            "reference_answer": "It remains unclear whether the sensor was faulty."
+          }
+        ]
       }
     ],
     [
@@ -3012,21 +4038,141 @@
         "cn": "毫无征兆地",
         "example": "The warning appeared out of nowhere.",
         "prompt": "Describe a sudden event.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“毫无征兆地”组织一句完整英语。",
+            "goal_en": "Describe a sudden event.",
+            "keywords": [
+              "warning",
+              "appeared",
+              "nowhere"
+            ],
+            "starter": "out of nowhere",
+            "reference_answer": "The warning appeared out of nowhere."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“毫无征兆地”组织一句完整英语。",
+            "goal_en": "Describe a sudden event.",
+            "keywords": [
+              "warning",
+              "appeared",
+              "nowhere"
+            ],
+            "starter": "out of nowhere",
+            "reference_answer": "The warning appeared out of nowhere."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“毫无征兆地”组织一句完整英语。",
+            "goal_en": "Describe a sudden event.",
+            "keywords": [
+              "warning",
+              "appeared",
+              "nowhere"
+            ],
+            "starter": "out of nowhere",
+            "reference_answer": "The warning appeared out of nowhere."
+          }
+        ]
       },
       {
         "text": "I could be wrong about …",
         "cn": "关于……我可能判断错",
         "example": "I could be wrong about the root cause.",
         "prompt": "Qualify your interpretation.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“关于……我可能判断错”组织一句完整英语。",
+            "goal_en": "Qualify your interpretation.",
+            "keywords": [
+              "wrong",
+              "root",
+              "cause"
+            ],
+            "starter": "I could be wrong about",
+            "reference_answer": "I could be wrong about the root cause."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“关于……我可能判断错”组织一句完整英语。",
+            "goal_en": "Qualify your interpretation.",
+            "keywords": [
+              "wrong",
+              "root",
+              "cause"
+            ],
+            "starter": "I could be wrong about",
+            "reference_answer": "I could be wrong about the root cause."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“关于……我可能判断错”组织一句完整英语。",
+            "goal_en": "Qualify your interpretation.",
+            "keywords": [
+              "wrong",
+              "root",
+              "cause"
+            ],
+            "starter": "I could be wrong about",
+            "reference_answer": "I could be wrong about the root cause."
+          }
+        ]
       },
       {
         "text": "I have no recollection of …",
         "cn": "我完全不记得……",
         "example": "I have no recollection of that conversation.",
         "prompt": "Talk about not remembering something.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“我完全不记得……”组织一句完整英语。",
+            "goal_en": "Talk about not remembering something.",
+            "keywords": [
+              "recollection",
+              "conversation"
+            ],
+            "starter": "I have no recollection of",
+            "reference_answer": "I have no recollection of that conversation."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“我完全不记得……”组织一句完整英语。",
+            "goal_en": "Talk about not remembering something.",
+            "keywords": [
+              "recollection",
+              "conversation"
+            ],
+            "starter": "I have no recollection of",
+            "reference_answer": "I have no recollection of that conversation."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“我完全不记得……”组织一句完整英语。",
+            "goal_en": "Talk about not remembering something.",
+            "keywords": [
+              "recollection",
+              "conversation"
+            ],
+            "starter": "I have no recollection of",
+            "reference_answer": "I have no recollection of that conversation."
+          }
+        ]
       }
     ],
     [
@@ -3035,21 +4181,153 @@
         "cn": "设法拿到……",
         "example": "Did you get your hands on the latest report?",
         "prompt": "Ask whether someone obtained a file.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“设法拿到……”组织一句完整英语。",
+            "goal_en": "Ask whether someone obtained a file.",
+            "keywords": [
+              "your",
+              "hands",
+              "latest",
+              "report"
+            ],
+            "starter": "get your hands on",
+            "reference_answer": "Did you get your hands on the latest report?"
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“设法拿到……”组织一句完整英语。",
+            "goal_en": "Ask whether someone obtained a file.",
+            "keywords": [
+              "your",
+              "hands",
+              "latest",
+              "report"
+            ],
+            "starter": "get your hands on",
+            "reference_answer": "Did you get your hands on the latest report?"
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“设法拿到……”组织一句完整英语。",
+            "goal_en": "Ask whether someone obtained a file.",
+            "keywords": [
+              "your",
+              "hands",
+              "latest",
+              "report"
+            ],
+            "starter": "get your hands on",
+            "reference_answer": "Did you get your hands on the latest report?"
+          }
+        ]
       },
       {
         "text": "piece together …",
         "cn": "拼凑梳理……",
         "example": "We pieced together the event timeline.",
         "prompt": "Describe reconstructing events.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "乘坐公共交通时遇到一个问题：请用“拼凑梳理……”组织一句完整英语。",
+            "goal_en": "Describe reconstructing events.",
+            "keywords": [
+              "pieced",
+              "together",
+              "event",
+              "timeline"
+            ],
+            "starter": "piece together",
+            "reference_answer": "We pieced together the event timeline."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "向朋友澄清一件容易误会的事：请用“拼凑梳理……”组织一句完整英语。",
+            "goal_en": "Describe reconstructing events.",
+            "keywords": [
+              "pieced",
+              "together",
+              "event",
+              "timeline"
+            ],
+            "starter": "piece together",
+            "reference_answer": "We pieced together the event timeline."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "在会议上汇报项目进度：请用“拼凑梳理……”组织一句完整英语。",
+            "goal_en": "Describe reconstructing events.",
+            "keywords": [
+              "pieced",
+              "together",
+              "event",
+              "timeline"
+            ],
+            "starter": "piece together",
+            "reference_answer": "We pieced together the event timeline."
+          }
+        ]
       },
       {
         "text": "the essence of … is …",
         "cn": "……的核心在于……",
         "example": "The essence of the problem is missing data.",
         "prompt": "Summarize a complex problem.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "安排家务时需要解释自己的决定：请用“……的核心在于……”组织一句完整英语。",
+            "goal_en": "Summarize a complex problem.",
+            "keywords": [
+              "essence",
+              "problem",
+              "missing",
+              "data"
+            ],
+            "starter": "the essence of",
+            "reference_answer": "The essence of the problem is missing data."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "和朋友商量见面时间：请用“……的核心在于……”组织一句完整英语。",
+            "goal_en": "Summarize a complex problem.",
+            "keywords": [
+              "essence",
+              "problem",
+              "missing",
+              "data"
+            ],
+            "starter": "the essence of",
+            "reference_answer": "The essence of the problem is missing data."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "向同事解释一个具体问题：请用“……的核心在于……”组织一句完整英语。",
+            "goal_en": "Summarize a complex problem.",
+            "keywords": [
+              "essence",
+              "problem",
+              "missing",
+              "data"
+            ],
+            "starter": "the essence of",
+            "reference_answer": "The essence of the problem is missing data."
+          }
+        ]
       }
     ],
     [
@@ -3058,21 +4336,147 @@
         "cn": "即便如此",
         "example": "Be that as it may, we need a decision.",
         "prompt": "Acknowledge a point and move forward.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "去超市购物时临时换了选择：请用“即便如此”组织一句完整英语。",
+            "goal_en": "Acknowledge a point and move forward.",
+            "keywords": [
+              "need",
+              "decision"
+            ],
+            "starter": "be that as it may",
+            "reference_answer": "Be that as it may, we need a decision."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "聊一部电影带来的不同感受：请用“即便如此”组织一句完整英语。",
+            "goal_en": "Acknowledge a point and move forward.",
+            "keywords": [
+              "need",
+              "decision"
+            ],
+            "starter": "be that as it may",
+            "reference_answer": "Be that as it may, we need a decision."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "讨论截止时间和备选方案：请用“即便如此”组织一句完整英语。",
+            "goal_en": "Acknowledge a point and move forward.",
+            "keywords": [
+              "need",
+              "decision"
+            ],
+            "starter": "be that as it may",
+            "reference_answer": "Be that as it may, we need a decision."
+          }
+        ]
       },
       {
         "text": "I can’t help but think …",
         "cn": "我不禁觉得……",
         "example": "I can’t help but think we missed a step.",
         "prompt": "Express a cautious impression.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "做饭时发现结果和预想不同：请用“我不禁觉得……”组织一句完整英语。",
+            "goal_en": "Express a cautious impression.",
+            "keywords": [
+              "help",
+              "think",
+              "missed",
+              "step"
+            ],
+            "starter": "I can’t help but think",
+            "reference_answer": "I can’t help but think we missed a step."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "分享一次旅行中的意外经历：请用“我不禁觉得……”组织一句完整英语。",
+            "goal_en": "Express a cautious impression.",
+            "keywords": [
+              "help",
+              "think",
+              "missed",
+              "step"
+            ],
+            "starter": "I can’t help but think",
+            "reference_answer": "I can’t help but think we missed a step."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "说明一个决定可能带来的风险：请用“我不禁觉得……”组织一句完整英语。",
+            "goal_en": "Express a cautious impression.",
+            "keywords": [
+              "help",
+              "think",
+              "missed",
+              "step"
+            ],
+            "starter": "I can’t help but think",
+            "reference_answer": "I can’t help but think we missed a step."
+          }
+        ]
       },
       {
         "text": "it is unclear whether …",
         "cn": "尚不清楚是否……",
         "example": "It is unclear whether the update will arrive today.",
         "prompt": "Report uncertain status.",
-        "label": "Adapted practice sentence (not a podcast quotation)"
+        "label": "Adapted practice sentence (not a podcast quotation)",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life · 日常生活",
+            "scene_zh": "周末出行时改变了原计划：请用“尚不清楚是否……”组织一句完整英语。",
+            "goal_en": "Report uncertain status.",
+            "keywords": [
+              "unclear",
+              "whether",
+              "update",
+              "will"
+            ],
+            "starter": "it is unclear whether",
+            "reference_answer": "It is unclear whether the update will arrive today."
+          },
+          {
+            "type": "social",
+            "label": "Social conversation · 朋友聊天",
+            "scene_zh": "回应朋友对周末计划的看法：请用“尚不清楚是否……”组织一句完整英语。",
+            "goal_en": "Report uncertain status.",
+            "keywords": [
+              "unclear",
+              "whether",
+              "update",
+              "will"
+            ],
+            "starter": "it is unclear whether",
+            "reference_answer": "It is unclear whether the update will arrive today."
+          },
+          {
+            "type": "work",
+            "label": "Work communication · 工作交流",
+            "scene_zh": "更新团队目前已经确认的信息：请用“尚不清楚是否……”组织一句完整英语。",
+            "goal_en": "Report uncertain status.",
+            "keywords": [
+              "unclear",
+              "whether",
+              "update",
+              "will"
+            ],
+            "starter": "it is unclear whether",
+            "reference_answer": "It is unclear whether the update will arrive today."
+          }
+        ]
       }
     ]
   ],

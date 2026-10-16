@@ -5,6 +5,7 @@ import { ACTIONS, PROTOCOL, VERSION, request, validPodcastId, validResponse } fr
 import { loadCourse } from '../app/services/course-loader.js';
 import { TtsService } from '../app/services/tts.js';
 import { auditCourse, normalizeWord } from '../scripts/audit_vocab.mjs';
+import { buildPrompt, feedbackSchema, validateFeedbackInput, validateGeminiFeedback } from '../worker/src/core.js';
 
 test('podcast IDs accept the ListenLeap ID and reject URL injection', () => {
   assert.equal(validPodcastId('8b77ac948ba43d5d084d03e194ce7ecb'), true);
@@ -105,4 +106,50 @@ test('TTS cancels prior speech and uses the selected English voice and rate', as
   assert.equal(spoken.rate, .8);
   delete globalThis.window;
   delete globalThis.SpeechSynthesisUtterance;
+});
+
+test('every speaking pattern has complete daily, social, and work guided scenarios', async () => {
+  const courseNames = ['742756737294be4c3bb4d89828b45d9f', '8b77ac948ba43d5d084d03e194ce7ecb'];
+  for (const name of courseNames) {
+    const course = JSON.parse(await readFile(new URL(`../courses/${name}.json`, import.meta.url), 'utf8'));
+    for (const patterns of course.patterns) for (const pattern of patterns) {
+      assert.deepEqual(pattern.scenarios.map(item => item.type), ['daily', 'social', 'work']);
+      for (const scenario of pattern.scenarios) {
+        assert.ok(scenario.scene_zh.length >= 15);
+        assert.ok(scenario.goal_en.length >= 5);
+        assert.ok(scenario.keywords.length >= 2 && scenario.keywords.length <= 4);
+        assert.ok(scenario.starter.length >= 2);
+        assert.ok(scenario.reference_answer.length >= 10);
+      }
+    }
+  }
+});
+
+test('AI feedback input has strict length limits and prompt does not treat reference as unique', () => {
+  const input = validateFeedbackInput({ sentence: 'I could be wrong about the timing.', target_pattern: 'I could be wrong about …', scenario_zh: '和朋友讨论时间安排。', reference_answer: 'I could be wrong about the date.' });
+  assert.match(buildPrompt(input), /不是唯一答案/);
+  assert.throws(() => validateFeedbackInput({ ...input, sentence: 'x'.repeat(501) }), /500/);
+  assert.throws(() => validateFeedbackInput({ ...input, sentence: '' }), /填写/);
+});
+
+test('Gemini feedback must match the required structured JSON contract', () => {
+  const valid = {
+    status: 'correct', grammar_feedback_zh: '语法正确。', pattern_usage_feedback_zh: '句式使用自然。',
+    corrected_sentence: 'I could be wrong about the timing.', natural_alternative: 'I may be mistaken about the timing.', brief_explanation_zh: '表达自然，无需修改。',
+  };
+  assert.deepEqual(validateGeminiFeedback(valid), valid);
+  assert.throws(() => validateGeminiFeedback({ ...valid, status: 'maybe' }), /状态/);
+  assert.deepEqual(feedbackSchema().required, Object.keys(valid));
+});
+
+test('AI frontend never contains a Gemini key and keeps feedback history local', async () => {
+  const [app, client, worker] = await Promise.all([
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+    readFile(new URL('../app/services/speaking-feedback.js', import.meta.url), 'utf8'),
+    readFile(new URL('../worker/src/index.js', import.meta.url), 'utf8'),
+  ]);
+  assert.doesNotMatch(app + client, /GEMINI_API_KEY|generativelanguage\.googleapis\.com/);
+  assert.match(app, /speakingHistory/);
+  assert.match(worker, /env\.GEMINI_API_KEY/);
+  assert.match(worker, /verifySession/);
 });
