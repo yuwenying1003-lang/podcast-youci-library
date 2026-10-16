@@ -14,8 +14,9 @@ html-effectiveness project for the underlying design language.
 ## Interface tokens
 
 - Page: cream `#faf9f5`; cards: white; text: deep forest `#163526`.
-- Primary action: forest green `#244d3b`; hover/secondary accent: sage `#477a61`;
-  selected surfaces: light sage `#e5efe7`.
+- Content speech and preview Meaning actions: eucalyptus `#5f9277`; hover:
+  `#4e8068`; selected surfaces: `#e8f2ea`. Deep forest `#244d3b` remains the
+  structural brand color.
 - Headings: system sans at weight 750; body: system sans; unit numbers and metadata:
   system monospace.
 - Primary component borders: 1.5px; cards: 12px radius; controls: 8px radius.

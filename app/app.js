@@ -15,6 +15,7 @@ const ICONS = {
   check: [['path', { d: 'm20 6-11 11-5-5' }]],
   star: [['path', { d: 'm12 2.7 2.85 5.78 6.38.93-4.62 4.5 1.09 6.35L12 17.97 6.3 20.96l1.09-6.35-4.62-4.5 6.38-.93L12 2.7Z' }]],
   volume2: [['path', { d: 'M11 5 6 9H2v6h4l5 4V5Z' }], ['path', { d: 'M15.5 8.5a5 5 0 0 1 0 7' }], ['path', { d: 'M18 6a8.5 8.5 0 0 1 0 12' }]],
+  audioLines: [['path', { d: 'M2 10v3' }], ['path', { d: 'M6 6v11' }], ['path', { d: 'M10 3v18' }], ['path', { d: 'M14 8v7' }], ['path', { d: 'M18 5v13' }], ['path', { d: 'M22 10v3' }]],
   play: [['path', { d: 'm8 5 11 7-11 7V5Z' }]],
   pause: [['path', { d: 'M9 5v14' }], ['path', { d: 'M15 5v14' }]],
   refreshCw: [['path', { d: 'M20 11a8 8 0 1 0-2.34 5.66' }], ['path', { d: 'M20 4v7h-7' }]],
@@ -33,7 +34,7 @@ const setIcon = (element, name, label = '') => {
   element.replaceChildren(...nodes);
 };
 const installIcons = () => {
-  for (const [id, name] of Object.entries({ vPrev: 'chevronLeft', vKnown: 'check', vAgain: 'star', vNext: 'chevronRight', ePrev: 'chevronLeft', eKnown: 'check', eAgain: 'star', eNext: 'chevronRight', vSay: 'volume2', vSentence: 'volume2', eSay: 'volume2', eSentence: 'volume2' })) setIcon($(id), name);
+  for (const [id, name] of Object.entries({ vPrev: 'chevronLeft', vKnown: 'check', vAgain: 'star', vNext: 'chevronRight', ePrev: 'chevronLeft', eKnown: 'check', eAgain: 'star', eNext: 'chevronRight', vSay: 'volume2', vSentence: 'audioLines', eSay: 'volume2', eSentence: 'audioLines' })) setIcon($(id), name);
   for (const [id, name, label] of [['vOriginal', 'headphones', 'Play exact sentence'], ['eOriginal', 'headphones', 'Play exact sentence'], ['refreshVoices', 'refreshCw', 'Voices'], ['testVoice', 'play', 'Test'], ['listenButton', 'play', 'Play this unit'], ['pauseButton', 'pause', 'Play / Pause'], ['saveUnit', 'check', 'Save & complete this unit'], ['nextUnit', 'chevronRight', 'Next unit']]) setIcon($(id), name, label);
   setIcon($('voiceHeading'), 'volume2', 'Voice Studio');
 };
@@ -199,7 +200,7 @@ function renderPatterns() {
       if (tips.childElementCount) { const tipTitle = document.createElement('b'); tipTitle.textContent = '重点建议（最多两条）：'; result.append(tipTitle, tips); }
       const audioTools = document.createElement('div'); audioTools.className = 'tools';
       for (const [text, value] of [['修改后句子', feedback.corrected_sentence], ['自然表达', feedback.natural_alternative]]) {
-        const button = document.createElement('button'); setIcon(button, 'volume2', text); button.onclick = () => speak(value, button); audioTools.append(button);
+        const button = document.createElement('button'); button.className = 'speech-audio'; button.type = 'button'; button.title = text; button.setAttribute('aria-label', text); setIcon(button, 'audioLines'); button.onclick = () => speak(value, button); audioTools.append(button);
       }
       result.prepend(title); result.append(audioTools);
     };
