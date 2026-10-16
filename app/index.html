@@ -410,12 +410,16 @@
 
       /* Podlingora green editorial theme, adapted from Acme HTML Style design principles. */
       :root {
-        --ivory: #f7f9f6;
+        --forest: #244d3b;
+        --sage: #477a61;
+        --light-sage: #e5efe7;
+        --cream: #faf9f5;
+        --ivory: var(--cream);
         --slate: #163526;
-        --clay: #1c6444;
-        --clay-dark: #145237;
-        --oat: #cfe0d3;
-        --olive: #4f7a5d;
+        --clay: var(--forest);
+        --clay-dark: #193b2d;
+        --oat: var(--light-sage);
+        --olive: var(--sage);
         --rust: #b04a3f;
         --paper: #fff;
         --gray-100: #edf3ee;
@@ -603,8 +607,8 @@
       .course-state[data-state="error"] { color: var(--rust); }
       .course-state-spinner { width: 14px; height: 14px; border: 2px solid var(--gray-300); border-top-color: var(--clay); border-radius: 50%; animation: state-spin 650ms linear infinite; }
       @keyframes state-spin { to { transform: rotate(360deg); } }
-      .rating-selected { border-color: var(--olive); background: rgba(120, 140, 93, 0.14); color: #52663e; }
-      .rating-selected.review { border-color: #c78e3f; background: rgba(199, 142, 63, 0.14); color: #8a5f23; }
+      .rating-selected { border-color: var(--sage); background: var(--light-sage); color: var(--forest); }
+      .rating-selected.review { border-color: #c49a45; background: #f8f0dc; color: #795b1d; }
       .rating-selected.review .icon-star { fill: currentColor; }
       @media (hover: hover) and (pointer: fine) {
         button:hover:not(:disabled) { background: var(--gray-100); border-color: var(--gray-500); }
@@ -642,7 +646,11 @@
       .compact-card { min-height: 0; padding: 14px 12px; gap: 7px; line-height: 1.42; }
       .vocab-wordline { display: grid; justify-items: center; gap: 4px; width: 100%; }
       .vocab-wordline .target, .vocab-wordline .ipa { display: block; text-align: center; }
-      .vocab-pronounce { min-height: 36px; padding: 6px 12px; }
+      .preview-audio { width: 40px; height: 40px; min-width: 40px; min-height: 40px; padding: 0; border: 1px solid var(--forest); border-radius: 50%; background: var(--forest); color: #fff; }
+      .preview-audio .icon { width: 19px; height: 19px; stroke-width: 1.9; }
+      .audio-tools .preview-audio { flex: 0 0 40px; }
+      .preview-audio.is-speaking .icon-volume2 path:nth-child(n+2) { animation: sound-wave 700ms ease-in-out infinite alternate; }
+      @keyframes sound-wave { from { opacity: .3; } to { opacity: 1; } }
       .vocab-content { width: min(100%, 680px); text-align: center; }
       .vocab-definition, .vocab-example { margin: 4px auto; text-align: center; line-height: 1.42; }
       .vocab-example { background: transparent; padding: 0; color: var(--slate); }
@@ -651,9 +659,9 @@
       .memory-panel { margin-top: 5px; padding: 8px 10px; text-align: center; }
       .memory-toggle { min-height: 34px; padding: 5px 10px; }
       .study-actions { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); width: 100%; gap: 6px; margin: 8px 0 0; }
-      .study-actions button { width: 100%; min-width: 0; min-height: 42px; padding: 6px 2px; font-size: 17px; overflow: hidden; }
-      .study-actions .meaning-action { font-size: 12px; font-weight: 700; white-space: nowrap; }
-      .study-actions .meaning-action[aria-expanded="true"] { border-color: var(--olive); background: rgba(120, 140, 93, 0.14); }
+      .study-actions button { width: 100%; min-width: 0; min-height: 42px; padding: 6px 2px; overflow: hidden; border-color: #bfd0c5; background: #fff; color: var(--forest); }
+      .study-actions .icon { width: 19px; height: 19px; }
+      .study-actions .meaning-action, .study-actions .meaning-action[aria-expanded="true"] { border-color: var(--forest); background: var(--forest); color: #fff; font-size: 12px; font-weight: 750; white-space: nowrap; }
       .compact-expression { min-height: 0; padding: 13px; gap: 6px; }
       .compact-expression .answer { padding-top: 7px; }
       .compact-expression .hint { padding: 0; margin: 4px 0; background: transparent; text-align: center; }
@@ -678,8 +686,17 @@
       .pattern-content > .tools { margin: 6px 0; }
       @media (pointer: coarse) {
         .study-actions button { min-height: 48px; }
+        .preview-audio { width: 46px; height: 46px; min-width: 46px; min-height: 46px; }
+        .audio-tools .preview-audio { flex-basis: 46px; }
         .memory-toggle { min-height: 44px; }
         .pattern-chevron { flex-basis: 40px; width: 40px; height: 40px; }
+      }
+      @media (hover: hover) and (pointer: fine) {
+        .preview-audio:hover:not(:disabled), .study-actions .meaning-action:hover:not(:disabled) { border-color: var(--sage); background: var(--sage); color: #fff; }
+        .study-actions button:hover:not(:disabled):not(.meaning-action) { border-color: var(--sage); background: var(--light-sage); color: var(--forest); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .preview-audio.is-speaking .icon-volume2 path { animation: none; }
       }
       @media (max-width: 390px) {
         .study-actions { gap: 4px; }
@@ -756,7 +773,7 @@
           <div class="vocab-wordline">
             <div class="target" id="vWord" aria-live="polite"></div>
             <span class="ipa" id="vIpa"></span>
-            <button id="vSay" class="vocab-pronounce" aria-label="Pronounce word" title="Pronounce word"></button>
+            <button id="vSay" class="preview-audio" aria-label="Pronounce current word" title="Pronounce current word"></button>
             <button id="vOriginal" class="hidden">
               Play exact sentence
             </button>
@@ -764,7 +781,7 @@
           <div class="vocab-content" id="vAnswer">
             <p id="vMeaning" class="vocab-definition"></p>
             <p id="vExample" class="vocab-example"></p>
-            <button id="vSentence" aria-label="Pronounce example" title="Pronounce example"></button>
+            <button id="vSentence" class="preview-audio" aria-label="Pronounce vocabulary example" title="Pronounce vocabulary example"></button>
             <div id="vMeaningPanel" class="meaning-panel hidden">
               <div class="cn" id="vChinese"></div>
               <p id="vExampleCn" class="vocab-translation"></p>
@@ -791,8 +808,8 @@
         <div id="eCard" class="card compact-expression">
           <div id="eText" class="target" aria-live="polite"></div>
           <div class="tools audio-tools">
-            <button id="eSay">Phrase</button
-            ><button id="eSentence">Example</button
+            <button id="eSay" class="preview-audio" aria-label="Pronounce current expression" title="Pronounce current expression"></button
+            ><button id="eSentence" class="preview-audio" aria-label="Pronounce expression example" title="Pronounce expression example"></button
             ><button id="eOriginal" class="hidden">
               Play exact sentence
             </button>

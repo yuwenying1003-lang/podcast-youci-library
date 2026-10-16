@@ -33,8 +33,8 @@ const setIcon = (element, name, label = '') => {
   element.replaceChildren(...nodes);
 };
 const installIcons = () => {
-  for (const [id, name] of Object.entries({ vPrev: 'chevronLeft', vKnown: 'check', vAgain: 'star', vNext: 'chevronRight', ePrev: 'chevronLeft', eKnown: 'check', eAgain: 'star', eNext: 'chevronRight', vSay: 'volume2', vSentence: 'volume2' })) setIcon($(id), name);
-  for (const [id, name, label] of [['eSay', 'volume2', 'Phrase'], ['eSentence', 'volume2', 'Example'], ['vOriginal', 'headphones', 'Play exact sentence'], ['eOriginal', 'headphones', 'Play exact sentence'], ['refreshVoices', 'refreshCw', 'Voices'], ['testVoice', 'play', 'Test'], ['listenButton', 'play', 'Play this unit'], ['pauseButton', 'pause', 'Play / Pause'], ['saveUnit', 'check', 'Save & complete this unit'], ['nextUnit', 'chevronRight', 'Next unit']]) setIcon($(id), name, label);
+  for (const [id, name] of Object.entries({ vPrev: 'chevronLeft', vKnown: 'check', vAgain: 'star', vNext: 'chevronRight', ePrev: 'chevronLeft', eKnown: 'check', eAgain: 'star', eNext: 'chevronRight', vSay: 'volume2', vSentence: 'volume2', eSay: 'volume2', eSentence: 'volume2' })) setIcon($(id), name);
+  for (const [id, name, label] of [['vOriginal', 'headphones', 'Play exact sentence'], ['eOriginal', 'headphones', 'Play exact sentence'], ['refreshVoices', 'refreshCw', 'Voices'], ['testVoice', 'play', 'Test'], ['listenButton', 'play', 'Play this unit'], ['pauseButton', 'pause', 'Play / Pause'], ['saveUnit', 'check', 'Save & complete this unit'], ['nextUnit', 'chevronRight', 'Next unit']]) setIcon($(id), name, label);
   setIcon($('voiceHeading'), 'volume2', 'Voice Studio');
 };
 const params = new URLSearchParams(location.search);
@@ -64,14 +64,15 @@ const courseStatus = (message, state = 'ready', retry = false) => {
   $('retryCourse').classList.toggle('hidden', !retry);
 };
 
-const speak = async text => {
+const speak = async (text, trigger) => {
+  trigger?.classList.add('is-speaking');
   try {
     $('voiceStatus').textContent = 'Speaking…';
     await tts.speak(text, $('voiceSelect').value, Number($('ttsRate').value));
     $('voiceStatus').textContent = 'Ready.';
   } catch (error) {
     if (error.message !== 'Speech was stopped.') $('voiceStatus').textContent = error.message;
-  }
+  } finally { trigger?.classList.remove('is-speaking'); }
 };
 
 function verifiedClip(item) {
@@ -198,7 +199,7 @@ function renderPatterns() {
       if (tips.childElementCount) { const tipTitle = document.createElement('b'); tipTitle.textContent = '重点建议（最多两条）：'; result.append(tipTitle, tips); }
       const audioTools = document.createElement('div'); audioTools.className = 'tools';
       for (const [text, value] of [['修改后句子', feedback.corrected_sentence], ['自然表达', feedback.natural_alternative]]) {
-        const button = document.createElement('button'); setIcon(button, 'volume2', text); button.onclick = () => speak(value); audioTools.append(button);
+        const button = document.createElement('button'); setIcon(button, 'volume2', text); button.onclick = () => speak(value, button); audioTools.append(button);
       }
       result.prepend(title); result.append(audioTools);
     };
@@ -255,8 +256,8 @@ function setupControls() {
     $(kind + 'Prev').onclick = () => { if (kind === 'v' && vocab.length) { vi = (vi - 1 + vocab.length) % vocab.length; revealV = revealMemory = false; } if (kind === 'e' && expressions.length) { ei = (ei - 1 + expressions.length) % expressions.length; revealE = false; } renderCard(kind); };
     $(kind + 'Next').onclick = () => { if (kind === 'v' && vocab.length) { vi = (vi + 1) % vocab.length; revealV = revealMemory = false; } if (kind === 'e' && expressions.length) { ei = (ei + 1) % expressions.length; revealE = false; } renderCard(kind); };
     $(kind + 'Reveal').onclick = () => { if (kind === 'v') revealV = !revealV; else revealE = !revealE; renderCard(kind); };
-    $(kind + 'Say').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(kind === 'v' ? item.word : item.text); };
-    $(kind + 'Sentence').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(item.example || (kind === 'v' ? item.word : item.text)); };
+    $(kind + 'Say').onclick = event => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(kind === 'v' ? item.word : item.text, event.currentTarget); };
+    $(kind + 'Sentence').onclick = event => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(item.example || (kind === 'v' ? item.word : item.text), event.currentTarget); };
     $(kind + 'Original').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei], clip = verifiedClip(item); if (!clip) return status('Exact original audio not yet available.'); command('AUDIO_PLAY_RANGE', clip); };
     $(kind + 'Again').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = false; save(); renderCard(kind); } };
     $(kind + 'Known').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = true; save(); renderCard(kind); } };
