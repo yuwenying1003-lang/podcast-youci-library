@@ -48,6 +48,9 @@ test('extension bridge enforces origins, verified ranges, and event-driven stopp
   assert.match(source, /payload\.verified !== true/);
   assert.match(source, /addEventListener\('timeupdate'/);
   assert.doesNotMatch(source, /postMessage\([^\n]+,\s*['"]\*['"]/);
+  assert.match(source, /\.drag\{[^}]*width:44px/);
+  assert.match(source, /onpointercancel = finishDrag/);
+  assert.match(source, /pointer !== undefined/);
 });
 
 test('vocabulary normalization catches case, spacing, quote, and dash variants', () => {
@@ -165,4 +168,24 @@ test('Gemini 503 responses retry three times without changing models', async () 
   await assert.rejects(callGemini(input, { GEMINI_API_KEY: 'test-only', GEMINI_MODEL: 'gemini-3.8-flash' }, fetcher, async ms => waits.push(ms)), /重试 3 次/);
   assert.equal(calls, 3);
   assert.equal(waits.length, 2);
+});
+
+test('Podlingora editorial UI keeps accessible responsive learning controls', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /PODLINGORA · GUIDED PODCAST ENGLISH/);
+  assert.match(html, /--ivory:\s*#faf9f5/);
+  assert.match(html, /--clay:\s*#d97757/);
+  assert.match(html, /@media \(pointer: coarse\)/);
+  assert.match(html, /@media \(prefers-reduced-motion: reduce\)/);
+  assert.match(html, /role="progressbar"/);
+  assert.match(app, /aria-valuenow/);
+  assert.match(html, /id="retryCourse"/);
+  assert.match(html, /role="status"/);
+  assert.match(app, /aria-expanded/);
+  assert.match(app, /aria-current/);
+  assert.match(app, /aria-busy/);
+  assert.match(app, /scaleX/);
 });

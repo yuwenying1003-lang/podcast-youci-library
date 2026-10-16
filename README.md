@@ -13,6 +13,7 @@ The extension can therefore receive new courses without being rebuilt or reinsta
 - Cornell 7: append `?podcastId=8b77ac948ba43d5d084d03e194ce7ecb`
 - Extension source: `extensions/` (one shared bridge, two platform manifests)
 - Architecture and security: [docs/architecture-v3.md](docs/architecture-v3.md)
+- Interface design and attribution: [docs/design-system.md](docs/design-system.md)
 - Messaging contract: [docs/message-protocol.md](docs/message-protocol.md)
 - Upgrade/testing: [docs/migration-v3.md](docs/migration-v3.md) and [docs/test-report.md](docs/test-report.md)
 
