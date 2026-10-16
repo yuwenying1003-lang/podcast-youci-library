@@ -652,8 +652,7 @@
       .compact-expression .answer { padding-top: 7px; }
       .compact-expression .hint { padding: 0; margin: 4px 0; background: transparent; text-align: center; }
       .compact-expression .cn, .compact-expression p { text-align: center; }
-      .pattern-content { padding-top: 10px; }
-      .pattern-content > label { margin-top: 7px; }
+      .pattern-content { padding-top: 7px; }
       .patternbox { padding: 10px; margin: 7px 0; }
       details.patternbox > summary { margin: -10px; padding: 10px; }
       .pattern-summary { display: flex; align-items: center; justify-content: space-between; gap: 9px; list-style: none; text-align: left; }
@@ -664,9 +663,13 @@
       .pattern-chevron::before { content: ""; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
       details.patternbox[open] > .pattern-summary .pattern-chevron::before { transform: translateY(2px) rotate(225deg); }
       details.patternbox[open] > summary { margin-bottom: 8px; }
-      .scenario { margin-top: 6px; padding: 8px 10px; line-height: 1.4; }
-      .speaking-input { min-height: 42px !important; height: 42px; padding: 8px 10px; }
-      .reference-answer p { margin: 5px 0; }
+      .scenario-controls { display: grid; grid-template-columns: minmax(0, 3fr) minmax(104px, 2fr); align-items: center; gap: 6px; width: 100%; margin-top: 6px; }
+      .scenario-controls > * { width: 100%; min-width: 0; }
+      .example-toggle { padding-inline: 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .scenario { margin-top: 6px; padding: 7px 9px; line-height: 1.4; }
+      .reference-sentence { margin: 5px 2px 0; color: var(--slate); line-height: 1.4; }
+      .speaking-input { min-height: 42px !important; height: 42px; padding: 8px 10px; margin-top: 7px; }
+      .pattern-content > .tools { margin: 6px 0; }
       @media (pointer: coarse) {
         .study-actions button { min-height: 48px; }
         .memory-toggle { min-height: 44px; }
@@ -674,6 +677,8 @@
       }
       @media (max-width: 390px) {
         .study-actions { gap: 4px; }
+        .scenario-controls { grid-template-columns: minmax(0, 3fr) minmax(96px, 2fr); gap: 4px; }
+        .example-toggle { padding-inline: 4px; font-size: 12px; }
       }
     </style>
   </head>
