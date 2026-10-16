@@ -629,6 +629,43 @@
         *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
         .course-state-spinner { animation: none; border-top-color: var(--gray-300); }
       }
+      /* Compact study layout */
+      .wrap { padding-top: 10px; }
+      .lead, .section { margin-block: 9px; padding: 14px; }
+      .section > h2, .sectionhead { padding-bottom: 7px; margin-bottom: 9px; }
+      .compact-card { min-height: 0; padding: 14px 12px; gap: 7px; line-height: 1.42; }
+      .vocab-wordline { display: grid; justify-items: center; gap: 4px; width: 100%; }
+      .vocab-wordline .target, .vocab-wordline .ipa { display: block; text-align: center; }
+      .vocab-pronounce { min-height: 36px; padding: 6px 12px; }
+      .vocab-content { width: min(100%, 680px); text-align: center; }
+      .vocab-definition, .vocab-example { margin: 4px auto; text-align: center; line-height: 1.42; }
+      .vocab-example { background: transparent; padding: 0; color: var(--slate); }
+      .vocab-translation { margin: 3px auto; text-align: center; }
+      .meaning-panel { margin-top: 5px; }
+      .memory-panel { margin-top: 5px; padding: 8px 10px; text-align: center; }
+      .memory-toggle { min-height: 34px; padding: 5px 10px; }
+      .vocab-actions { display: grid; grid-template-columns: minmax(44px, .8fr) minmax(44px, .8fr) minmax(78px, 1.35fr) minmax(44px, .8fr) minmax(44px, .8fr); gap: 6px; margin: 8px 0 0; }
+      .vocab-actions button { min-width: 0; min-height: 42px; padding: 6px 4px; font-size: 17px; }
+      .vocab-actions .meaning-action { font-size: 12px; font-weight: 700; white-space: nowrap; }
+      .compact-expression { min-height: 0; padding: 13px; gap: 6px; }
+      .compact-expression .answer { padding-top: 7px; }
+      .compact-expression .hint { padding: 0; margin: 4px 0; background: transparent; text-align: center; }
+      .compact-expression .cn, .compact-expression p { text-align: center; }
+      .pattern-content { padding-top: 10px; }
+      .pattern-content > label { margin-top: 7px; }
+      .patternbox { padding: 12px; margin: 8px 0; }
+      details.patternbox > summary { margin: -12px; padding: 12px; }
+      details.patternbox[open] > summary { margin-bottom: 10px; }
+      .scenario { margin-top: 6px; padding: 8px 10px; line-height: 1.4; }
+      .speaking-input { min-height: 42px !important; height: 42px; padding: 8px 10px; }
+      .reference-answer p { margin: 5px 0; }
+      @media (pointer: coarse) {
+        .vocab-actions button { min-height: 48px; }
+        .memory-toggle { min-height: 44px; }
+      }
+      @media (max-width: 390px) {
+        .vocab-actions { gap: 4px; grid-template-columns: 42px 42px minmax(70px, 1fr) 42px 42px; }
+      }
     </style>
   </head>
   <body>
@@ -695,41 +732,35 @@
           <h2>01 · Vocabulary Preview</h2>
           <span class="chip" id="vPos"></span>
         </div>
-        <p class="sub">
-          Teaching examples may be adapted for clarity and are not presented as
-          podcast quotations. Exact original audio appears only when a quotation
-          and precise start/end times have been verified.
-        </p>
-        <div id="vCard" class="card">
-          <div class="wordline">
+        <div id="vCard" class="card compact-card">
+          <div class="vocab-wordline">
             <div class="target" id="vWord" aria-live="polite"></div>
             <span class="ipa" id="vIpa"></span>
-            <button id="vSay" aria-label="Pronounce word">🔊 Word</button>
+            <button id="vSay" class="vocab-pronounce" aria-label="Pronounce word" title="Pronounce word">🔊</button>
             <button id="vOriginal" class="hidden">
               🎧 Play exact sentence
             </button>
           </div>
-          <div class="answer hidden" id="vAnswer">
-            <div class="cn" id="vChinese"></div>
-            <p id="vMeaning"></p>
-            <div class="answer-label">Example</div>
-            <p id="vExample" class="hint"></p>
-            <p id="vExampleCn" class="example-cn"></p>
-            <button id="vSentence">🔊 Example</button>
-            <div class="memory">
-              <div class="answer-label">Memory Tip</div>
+          <div class="vocab-content" id="vAnswer">
+            <p id="vMeaning" class="vocab-definition"></p>
+            <p id="vExample" class="vocab-example"></p>
+            <button id="vSentence" aria-label="Pronounce example" title="Pronounce example">🔊</button>
+            <div id="vMeaningPanel" class="meaning-panel hidden">
+              <div class="cn" id="vChinese"></div>
+              <p id="vExampleCn" class="vocab-translation"></p>
+            </div>
+            <button id="vMemoryToggle" class="memory-toggle" aria-expanded="false">Memory Tip</button>
+            <div id="vMemory" class="memory memory-panel hidden">
               <p id="vTip"></p>
             </div>
           </div>
         </div>
-        <div class="tools">
-          <button id="vPrev">← Previous</button
-          ><button class="primary grow" id="vReveal">Reveal meaning</button>
-        </div>
-        <div class="tools">
-          <button id="vKnown">✓ I know this</button
-          ><button id="vAgain">Need review</button
-          ><button class="grow" id="vNext">Next word →</button>
+        <div class="vocab-actions" aria-label="Vocabulary controls">
+          <button id="vPrev" aria-label="Previous word" title="Previous word">←</button
+          ><button id="vKnown" aria-label="I know this" title="I know this">✓</button
+          ><button class="meaning-action" id="vReveal">Meaning</button
+          ><button id="vAgain" aria-label="Need review" title="Need review">☆</button
+          ><button id="vNext" aria-label="Next word" title="Next word">→</button>
         </div>
       </section>
       <section class="section">
@@ -737,11 +768,7 @@
           <h2>02 · Expression Preview</h2>
           <span class="chip" id="ePos"></span>
         </div>
-        <p class="sub">
-          Expressions used around this part of the podcast. Teaching examples
-          may be adapted for clarity.
-        </p>
-        <div id="eCard" class="card">
+        <div id="eCard" class="card compact-expression">
           <div id="eText" class="target" aria-live="polite"></div>
           <div class="tools audio-tools">
             <button id="eSay">🔊 Phrase</button
@@ -753,7 +780,6 @@
           <div id="eAnswer" class="answer hidden">
             <div class="cn" id="eChinese"></div>
             <p id="eMeaning"></p>
-            <div class="answer-label">Example</div>
             <p id="eExample" class="hint"></p>
           </div>
         </div>
@@ -769,10 +795,6 @@
       </section>
       <section class="section">
         <h2>03 · Reusable Speaking Patterns</h2>
-        <p class="sub">
-          Learn the pattern, complete the adapted model sentence, and make your
-          own sentence about your life or work.
-        </p>
         <div class="tools">
           <button id="aiLogin" class="primary" type="button">Sign in to AI Feedback</button>
           <button id="aiLogout" type="button">Sign out</button>
@@ -845,11 +867,6 @@
           <p class="sub" id="progressSummary"></p>
           <div class="progress-track" role="progressbar" aria-label="Course completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progressFill" class="progress-fill"></span></div>
           <button id="export">Export my notes</button>
-          <p class="foot">
-            Teaching examples may be adapted for clarity. Only examples carrying
-            a verified quotation and precise start/end times are treated as
-            exact podcast audio.
-          </p>
           <a
             id="sourceLink"
             href="https://app.listenleap.com/"

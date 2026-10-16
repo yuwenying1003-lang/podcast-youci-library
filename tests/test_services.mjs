@@ -78,14 +78,31 @@ test('Cornell 7 has eleven units, IPA for every word, no exact clips, and no tec
   assert.equal(course.vocab.some(item => item.clip), false);
 });
 
-test('vocabulary UI uses one Example label and hides unverified exact-audio controls', async () => {
+test('compact vocabulary UI hides optional details and keeps exact audio verified', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
   ]);
   assert.doesNotMatch(html + app, /Practice example \(adapted\)|Adapted practice example|Approximate item times/);
+  assert.doesNotMatch(html, />Example<|Teaching examples may be adapted/);
   assert.match(html, /id="vOriginal" class="hidden"/);
   assert.match(app, /Original'\)\.classList\.toggle\('hidden', !clip\)/);
+  assert.match(html, /id="vMeaningPanel" class="meaning-panel hidden"/);
+  assert.match(html, /id="vMemory" class="memory memory-panel hidden"/);
+  assert.match(html, /class="vocab-actions"[\s\S]*id="vPrev"[\s\S]*id="vKnown"[\s\S]*id="vReveal"[\s\S]*id="vAgain"[\s\S]*id="vNext"/);
+  assert.match(app, /revealV = revealMemory = false/);
+});
+
+test('compact speaking practice shows only situation, sentence, and essential actions', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.doesNotMatch(html + app, /Expressions used around this part|Learn the pattern|Expression goal:|Use starter:|Pattern example:|参考答案（不是唯一答案）|使用前请登录/);
+  assert.match(app, /daily: 'Daily life', social: 'Friends', work: 'Work'/);
+  assert.match(app, /createElement\('input'\); input\.type = 'text'/);
+  assert.match(app, /className = 'input speaking-input'/);
+  assert.doesNotMatch(app, /createElement\('textarea'\).*speaking/i);
 });
 
 test('TTS cancels prior speech and uses the selected English voice and rate', async () => {

@@ -21,3 +21,15 @@ html-effectiveness project for the underlying design language.
 - Feedback is 120–150ms. Reduced-motion preferences disable nonessential transitions.
 - Coarse pointers receive 46px controls; narrow panels reduce padding while preserving
   readable vocabulary, Chinese explanations, examples, and memory tips.
+
+## Compact study layout
+
+- Vocabulary keeps the English word, IPA, definition, and example centered and immediately
+  readable; Chinese meaning and memory guidance are separate, user-controlled disclosures.
+- The five persistent vocabulary actions use one non-wrapping grid. Icon-only actions keep
+  accessible names and tooltips, with larger targets for coarse pointers.
+- Speaking practice shows one situation, one single-line response field, and essential actions.
+  Scenario goals, keyword banks, and starter prompts remain available in course data and AI
+  context but are not repeated in the visible practice card.
+- Source metadata, verified-clip rules, authentication, and saved progress remain internal and
+  surface only when the learner needs to act or recover from an error.

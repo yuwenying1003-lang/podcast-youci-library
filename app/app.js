@@ -13,7 +13,7 @@ const audio = validPodcastId(podcastId) ? new AudioClient(podcastId) : null;
 const progressStore = validPodcastId(podcastId) ? new ProgressStore(podcastId) : null;
 const tts = new TtsService();
 const feedbackClient = new SpeakingFeedbackClient(AI_API_URL);
-let course, unit = 0, vocab = [], expressions = [], vi = 0, ei = 0, revealV = false, revealE = false;
+let course, unit = 0, vocab = [], expressions = [], vi = 0, ei = 0, revealV = false, revealE = false, revealMemory = false;
 let progress = progressStore?.load() || {};
 let controller;
 
@@ -21,6 +21,12 @@ const seconds = value => String(value).split(':').reduce((total, part) => total 
 const save = () => { progress.unit = unit; progressStore?.save(progress); };
 const lesson = () => (progress.lessons ??= {}, progress.lessons[unit] ??= {});
 const status = message => { $('audioStatus').textContent = message; };
+const syncAiAuth = (message = '') => {
+  const signedIn = feedbackClient.signedIn();
+  $('aiLogin').hidden = signedIn;
+  $('aiLogout').hidden = !signedIn;
+  $('aiAuthStatus').textContent = message;
+};
 const courseStatus = (message, state = 'ready', retry = false) => {
   $('courseNotice').dataset.state = state;
   $('courseNoticeText').textContent = message;
@@ -62,6 +68,7 @@ function renderCard(kind) {
   $(prefix + 'Pos').textContent = `${item ? index + 1 : 0} / ${items.length}`;
   $(prefix + (isVocab ? 'Word' : 'Text')).textContent = item ? (isVocab ? item.word : item.text) : `No ${isVocab ? 'vocabulary' : 'phrases'} in this unit`;
   for (const suffix of ['Say', 'Sentence', 'Reveal', 'Prev', 'Next', 'Again', 'Known']) $(prefix + suffix).disabled = !item;
+  if (isVocab) $('vMemoryToggle').disabled = !item;
   $(prefix + 'Reveal').setAttribute('aria-expanded', String(Boolean(item && revealed)));
   $(prefix + 'Card')?.classList.toggle('empty', !item);
   if (!item) { $(prefix + 'Original').classList.add('hidden'); $(prefix + 'Answer').classList.add('hidden'); return; }
@@ -69,22 +76,30 @@ function renderCard(kind) {
   $(prefix + 'Original').classList.toggle('hidden', !clip);
   $(prefix + 'Original').disabled = false;
   $(prefix + 'Original').title = clip ? 'Play verified sentence range' : '';
-  $(prefix + 'Answer').classList.toggle('hidden', !revealed);
-  $(prefix + 'Reveal').textContent = revealed ? 'Hide meaning' : 'Reveal meaning';
+  $(prefix + 'Answer').classList.toggle('hidden', !isVocab && !revealed);
+  $(prefix + 'Reveal').textContent = revealed ? 'Hide' : 'Meaning';
+  $(prefix + 'Reveal').setAttribute('aria-label', revealed ? 'Hide Chinese meaning' : 'Show Chinese meaning');
+  $(prefix + 'Reveal').title = revealed ? 'Hide Chinese meaning' : 'Show Chinese meaning';
   $(prefix + 'Chinese').textContent = item.cn || '';
   $(prefix + 'Meaning').textContent = item.definition || '';
   $(prefix + 'Example').textContent = item.example || '';
   if (isVocab) {
     $('vIpa').textContent = item.ipa || '';
     $('vExampleCn').textContent = item.example_cn || '';
-    $('vExampleCn').classList.toggle('hidden', !item.example_cn);
+    $('vMeaningPanel').classList.toggle('hidden', !revealed);
+    $('vExampleCn').classList.toggle('hidden', !revealed || !item.example_cn);
     $('vTip').textContent = item.tip || '';
+    $('vMemory').classList.toggle('hidden', !revealMemory);
+    $('vMemoryToggle').textContent = revealMemory ? 'Hide Memory Tip' : 'Memory Tip';
+    $('vMemoryToggle').setAttribute('aria-expanded', String(revealMemory));
   }
   const ratingKey = isVocab ? item.word : item.text;
   const rating = progress.ratings?.[ratingKey];
   $(prefix + 'Known').classList.toggle('rating-selected', rating === true);
   $(prefix + 'Again').classList.toggle('rating-selected', rating === false);
   $(prefix + 'Again').classList.toggle('review', rating === false);
+  if (isVocab) $('vAgain').textContent = rating === false ? '★' : '☆';
+  if (isVocab) $('vAgain').title = rating === false ? 'Marked for review' : 'Need review';
   $(prefix + 'Known').setAttribute('aria-pressed', String(rating === true));
   $(prefix + 'Again').setAttribute('aria-pressed', String(rating === false));
 }
@@ -102,47 +117,33 @@ function renderPatterns() {
     const content = document.createElement('div'); content.className = 'pattern-content';
     const cn = document.createElement('div'); cn.className = 'recognition'; cn.textContent = pattern.cn;
     const scenarios = pattern.scenarios || [
-      { type: 'daily', label: 'Daily life · 日常生活', scene_zh: `谈谈最近的一次日常经历，并自然使用“${pattern.cn}”。`, goal_en: pattern.prompt, keywords: [], starter: '', reference_answer: pattern.example },
-      { type: 'social', label: 'Social conversation · 朋友聊天', scene_zh: `向朋友讲述一个相关见闻，并自然使用“${pattern.cn}”。`, goal_en: pattern.prompt, keywords: [], starter: '', reference_answer: pattern.example },
-      { type: 'work', label: 'Work communication · 工作交流', scene_zh: `向同事说明一个项目情况，并自然使用“${pattern.cn}”。`, goal_en: pattern.prompt, keywords: [], starter: '', reference_answer: pattern.example },
+      { type: 'daily', label: 'Daily life', scene_zh: `谈谈最近的一次日常经历，并自然使用“${pattern.cn}”。`, reference_answer: pattern.example },
+      { type: 'social', label: 'Friends', scene_zh: `向朋友讲述一个相关见闻，并自然使用“${pattern.cn}”。`, reference_answer: pattern.example },
+      { type: 'work', label: 'Work', scene_zh: `向同事说明一个项目情况，并自然使用“${pattern.cn}”。`, reference_answer: pattern.example },
     ];
     const stored = (lesson().patterns || {})[index];
     const state = typeof stored === 'string' ? { sentence: stored, scenario: 0 } : (stored || { sentence: '', scenario: 0 });
     const scenarioLabel = document.createElement('label'); scenarioLabel.textContent = 'Choose a situation';
     const scenarioSelect = document.createElement('select'); scenarioSelect.className = 'input';
     scenarioSelect.replaceChildren(...scenarios.map((item, scenarioIndex) => {
-      const option = document.createElement('option'); option.value = scenarioIndex; option.textContent = item.label || item.type; return option;
+      const option = document.createElement('option'); option.value = scenarioIndex; option.textContent = ({ daily: 'Daily life', social: 'Friends', work: 'Work' })[item.type] || ['Daily life', 'Friends', 'Work'][scenarioIndex] || item.type; return option;
     }));
     scenarioSelect.value = String(Math.min(state.scenario || 0, scenarios.length - 1));
     const scene = document.createElement('div'); scene.className = 'scenario';
-    const goal = document.createElement('p'); goal.className = 'scenario-goal';
-    const wordBank = document.createElement('div'); wordBank.className = 'keyword-bank';
-    const starter = document.createElement('button'); starter.type = 'button'; starter.className = 'starter';
     const reference = document.createElement('details'); reference.className = 'reference-answer';
-    const referenceTitle = document.createElement('summary'); referenceTitle.textContent = '参考答案（不是唯一答案）';
+    const referenceTitle = document.createElement('summary'); referenceTitle.textContent = 'Show example';
     const referenceText = document.createElement('p'); reference.append(referenceTitle, referenceText);
     const updateScenario = () => {
       const selected = scenarios[Number(scenarioSelect.value)] || scenarios[0];
-      scene.textContent = selected.scene_zh;
-      goal.textContent = `Expression goal: ${selected.goal_en || pattern.prompt}`;
-      wordBank.replaceChildren(...(selected.keywords || []).map(word => { const chip = document.createElement('span'); chip.className = 'keyword'; chip.textContent = word; return chip; }));
-      starter.textContent = selected.starter ? `Use starter: ${selected.starter}…` : 'No sentence starter';
-      starter.disabled = !selected.starter;
+      scene.textContent = String(selected.scene_zh || '').replace(/[：:]\s*请用[\s\S]*$/, '').replace(/，并自然使用[\s\S]*$/, '。');
       referenceText.textContent = selected.reference_answer;
       state.scenario = Number(scenarioSelect.value);
       (lesson().patterns ??= {})[index] = state; save();
     };
     scenarioSelect.addEventListener('change', updateScenario); updateScenario();
-    const model = document.createElement('div'); model.className = 'example'; model.textContent = `Pattern example: ${pattern.example}`;
     const label = document.createElement('label'); label.textContent = 'Your English sentence';
-    const input = document.createElement('textarea'); input.maxLength = 500; input.placeholder = 'Write your own English sentence here…'; input.value = state.sentence || '';
-    starter.onclick = () => {
-      const selected = scenarios[Number(scenarioSelect.value)] || scenarios[0];
-      if (!input.value.trim() && selected.starter) { input.value = `${selected.starter} `; input.focus(); input.dispatchEvent(new Event('input')); }
-    };
+    const input = document.createElement('input'); input.type = 'text'; input.className = 'input speaking-input'; input.maxLength = 500; input.placeholder = 'Write one natural sentence for this situation'; input.value = state.sentence || '';
     input.addEventListener('input', () => { state.sentence = input.value; (lesson().patterns ??= {})[index] = state; save(); });
-    const counter = document.createElement('div'); counter.className = 'char-count';
-    input.addEventListener('input', () => { counter.textContent = `${input.value.length} / 500`; }); input.dispatchEvent(new Event('input'));
     const actions = document.createElement('div'); actions.className = 'tools';
     const another = document.createElement('button'); another.type = 'button'; another.textContent = 'Another Scenario';
     another.onclick = () => { scenarioSelect.value = String((Number(scenarioSelect.value) + 1) % scenarios.length); updateScenario(); };
@@ -182,7 +183,7 @@ function renderPatterns() {
     };
     actions.append(check, another);
     const previous = (lesson().speakingHistory || []).find(item => item.pattern === pattern.text);
-    content.append(cn, model, scenarioLabel, scenarioSelect, scene, goal, wordBank, starter, reference, label, input, counter, actions, result);
+    content.append(cn, scenarioLabel, scenarioSelect, scene, reference, label, input, actions, result);
     if (previous?.feedback) { const historyNote = document.createElement('details'); const historySummary = document.createElement('summary'); historySummary.textContent = '最近一次 AI Feedback'; const body = document.createElement('p'); body.textContent = `${previous.sentence} — ${previous.feedback.brief_explanation_zh}`; historyNote.append(historySummary, body); content.append(historyNote); }
     box.append(summary, content);
     return box;
@@ -190,7 +191,7 @@ function renderPatterns() {
 }
 
 function render() {
-  selectItems(); vi = ei = 0; revealV = revealE = false;
+  selectItems(); vi = ei = 0; revealV = revealE = revealMemory = false;
   $('tabs').replaceChildren(...course.units.map((item, index) => {
     const button = document.createElement('button'); button.textContent = String(index + 1).padStart(2, '0'); button.title = item.title;
     button.classList.toggle('selected', index === unit); button.classList.toggle('completed', Boolean(progress.lessons?.[index]?.done));
@@ -216,8 +217,8 @@ function render() {
 
 function setupControls() {
   for (const kind of ['v', 'e']) {
-    $(kind + 'Prev').onclick = () => { if (kind === 'v' && vocab.length) vi = (vi - 1 + vocab.length) % vocab.length; if (kind === 'e' && expressions.length) ei = (ei - 1 + expressions.length) % expressions.length; renderCard(kind); };
-    $(kind + 'Next').onclick = () => { if (kind === 'v' && vocab.length) vi = (vi + 1) % vocab.length; if (kind === 'e' && expressions.length) ei = (ei + 1) % expressions.length; renderCard(kind); };
+    $(kind + 'Prev').onclick = () => { if (kind === 'v' && vocab.length) { vi = (vi - 1 + vocab.length) % vocab.length; revealV = revealMemory = false; } if (kind === 'e' && expressions.length) { ei = (ei - 1 + expressions.length) % expressions.length; revealE = false; } renderCard(kind); };
+    $(kind + 'Next').onclick = () => { if (kind === 'v' && vocab.length) { vi = (vi + 1) % vocab.length; revealV = revealMemory = false; } if (kind === 'e' && expressions.length) { ei = (ei + 1) % expressions.length; revealE = false; } renderCard(kind); };
     $(kind + 'Reveal').onclick = () => { if (kind === 'v') revealV = !revealV; else revealE = !revealE; renderCard(kind); };
     $(kind + 'Say').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(kind === 'v' ? item.word : item.text); };
     $(kind + 'Sentence').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(item.example || (kind === 'v' ? item.word : item.text)); };
@@ -225,6 +226,7 @@ function setupControls() {
     $(kind + 'Again').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = false; save(); renderCard(kind); } };
     $(kind + 'Known').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = true; save(); renderCard(kind); } };
   }
+  $('vMemoryToggle').onclick = () => { revealMemory = !revealMemory; renderCard('v'); };
   $('listenButton').onclick = () => { const current = course.units[unit]; command('AUDIO_PLAY_UNIT', { start: seconds(current.start), end: seconds(current.end) }); };
   $('pauseButton').onclick = async () => {
     try { const current = await audio.send('AUDIO_GET_STATE'); await command(current.paused ? 'AUDIO_PLAY' : 'AUDIO_PAUSE'); }
@@ -239,11 +241,11 @@ function setupControls() {
   $('ttsRate').oninput = event => { $('ttsRateLabel').textContent = `${Number(event.target.value).toFixed(2)}×`; localStorage.setItem('youci-tts-rate', event.target.value); };
   $('aiLogin').onclick = async () => {
     $('aiAuthStatus').textContent = '正在登录…';
-    try { await feedbackClient.signIn(); $('aiAuthStatus').textContent = '已登录，可以使用 AI Feedback。'; }
-    catch (error) { $('aiAuthStatus').textContent = error.message; }
+    try { await feedbackClient.signIn(); syncAiAuth('AI Feedback ready.'); }
+    catch (error) { syncAiAuth(error.message); }
   };
-  $('aiLogout').onclick = () => { feedbackClient.signOut(); $('aiAuthStatus').textContent = '已退出 AI Feedback。'; };
-  $('aiAuthStatus').textContent = feedbackClient.signedIn() ? '本次浏览器会话已登录。' : '使用前请登录；AI 不会把参考答案当作唯一答案。';
+  $('aiLogout').onclick = () => { feedbackClient.signOut(); syncAiAuth(); };
+  syncAiAuth();
 }
 
 function loadVoices() {
