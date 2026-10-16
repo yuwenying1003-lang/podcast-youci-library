@@ -26,7 +26,7 @@ html-effectiveness project for the underlying design language.
 
 - Vocabulary keeps the English word, IPA, definition, and example centered and immediately
   readable; Chinese meaning and memory guidance are separate, user-controlled disclosures.
-- The five persistent vocabulary actions use one non-wrapping grid. Icon-only actions keep
+- The five persistent vocabulary and expression actions share one non-wrapping grid. Icon-only actions keep
   accessible names and tooltips, with larger targets for coarse pointers.
 - Speaking practice shows one situation, one single-line response field, and essential actions.
   Scenario goals, keyword banks, and starter prompts remain available in course data and AI
