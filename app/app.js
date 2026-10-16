@@ -124,16 +124,22 @@ function renderPatterns() {
     ];
     const stored = (lesson().patterns || {})[index];
     const state = typeof stored === 'string' ? { sentence: stored, scenario: 0 } : (stored || { sentence: '', scenario: 0 });
-    const scenarioLabel = document.createElement('label'); scenarioLabel.textContent = 'Choose a situation';
-    const scenarioSelect = document.createElement('select'); scenarioSelect.className = 'input';
+    const scenarioSelect = document.createElement('select'); scenarioSelect.className = 'input'; scenarioSelect.setAttribute('aria-label', 'Choose a situation');
     scenarioSelect.replaceChildren(...scenarios.map((item, scenarioIndex) => {
       const option = document.createElement('option'); option.value = scenarioIndex; option.textContent = ({ daily: 'Daily life', social: 'Friends', work: 'Work' })[item.type] || ['Daily life', 'Friends', 'Work'][scenarioIndex] || item.type; return option;
     }));
     scenarioSelect.value = String(Math.min(state.scenario || 0, scenarios.length - 1));
+    const scenarioControls = document.createElement('div'); scenarioControls.className = 'scenario-controls';
+    const exampleToggle = document.createElement('button'); exampleToggle.type = 'button'; exampleToggle.className = 'example-toggle'; exampleToggle.textContent = 'Show example'; exampleToggle.setAttribute('aria-expanded', 'false');
     const scene = document.createElement('div'); scene.className = 'scenario';
-    const reference = document.createElement('details'); reference.className = 'reference-answer';
-    const referenceTitle = document.createElement('summary'); referenceTitle.textContent = 'Show example';
-    const referenceText = document.createElement('p'); reference.append(referenceTitle, referenceText);
+    const referenceText = document.createElement('p'); referenceText.className = 'reference-sentence hidden';
+    exampleToggle.onclick = () => {
+      const expanded = exampleToggle.getAttribute('aria-expanded') !== 'true';
+      exampleToggle.setAttribute('aria-expanded', String(expanded));
+      exampleToggle.textContent = expanded ? 'Hide example' : 'Show example';
+      referenceText.classList.toggle('hidden', !expanded);
+    };
+    scenarioControls.append(scenarioSelect, exampleToggle);
     const updateScenario = () => {
       const selected = scenarios[Number(scenarioSelect.value)] || scenarios[0];
       scene.textContent = String(selected.scene_zh || '').replace(/[：:]\s*请用[\s\S]*$/, '').replace(/，并自然使用[\s\S]*$/, '。');
@@ -142,8 +148,7 @@ function renderPatterns() {
       (lesson().patterns ??= {})[index] = state; save();
     };
     scenarioSelect.addEventListener('change', updateScenario); updateScenario();
-    const label = document.createElement('label'); label.textContent = 'Your English sentence';
-    const input = document.createElement('input'); input.type = 'text'; input.className = 'input speaking-input'; input.maxLength = 500; input.placeholder = 'Write one natural sentence for this situation'; input.value = state.sentence || '';
+    const input = document.createElement('input'); input.type = 'text'; input.className = 'input speaking-input'; input.maxLength = 500; input.placeholder = 'Your English sentence…'; input.setAttribute('aria-label', 'Your English sentence'); input.value = state.sentence || '';
     input.addEventListener('input', () => { state.sentence = input.value; (lesson().patterns ??= {})[index] = state; save(); });
     const actions = document.createElement('div'); actions.className = 'tools';
     const another = document.createElement('button'); another.type = 'button'; another.textContent = 'Another Scenario';
@@ -184,7 +189,7 @@ function renderPatterns() {
     };
     actions.append(check, another);
     const previous = (lesson().speakingHistory || []).find(item => item.pattern === pattern.text);
-    content.append(cn, scenarioLabel, scenarioSelect, scene, reference, label, input, actions, result);
+    content.append(cn, scenarioControls, scene, referenceText, input, actions, result);
     if (previous?.feedback) { const historyNote = document.createElement('details'); const historySummary = document.createElement('summary'); historySummary.textContent = '最近一次 AI Feedback'; const body = document.createElement('p'); body.textContent = `${previous.sentence} — ${previous.feedback.brief_explanation_zh}`; historyNote.append(historySummary, body); content.append(historyNote); }
     box.append(summary, content);
     return box;

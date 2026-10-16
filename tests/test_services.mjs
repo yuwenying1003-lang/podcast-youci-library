@@ -119,6 +119,20 @@ test('speaking pattern summaries keep wrapped titles and chevrons on one row', a
   assert.match(app, /summary\.append\(heading, chevron\)/);
 });
 
+test('speaking scenario controls stay compact without visible helper headings', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /\.scenario-controls\s*{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*minmax\(0, 3fr\) minmax\(104px, 2fr\)/s);
+  assert.match(app, /scenarioControls\.append\(scenarioSelect, exampleToggle\)/);
+  assert.match(app, /exampleToggle\.textContent = expanded \? 'Hide example' : 'Show example'/);
+  assert.match(app, /referenceText\.className = 'reference-sentence hidden'/);
+  assert.match(app, /input\.placeholder = 'Your English sentence…'/);
+  assert.doesNotMatch(app, /scenarioLabel|referenceTitle|label\.textContent = 'Your English sentence'/);
+  assert.match(app, /content\.append\(cn, scenarioControls, scene, referenceText, input, actions, result\)/);
+});
+
 test('vocabulary and expression previews share one non-wrapping five-action bar', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
