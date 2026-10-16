@@ -3,7 +3,7 @@
 Podlingora uses a calm green editorial interface optimized for a narrow embedded learning panel.
 The visual direction is inspired by the design principles documented in
 [Acme HTML Style](https://github.com/kaiychen9/acme-html-style): restrained semantic colors,
-serif headings, system-sans body text,
+compact editorial structure, system-sans typography,
 1.5px component borders, and short interaction transitions.
 
 The implementation is original CSS adapted to Podlingora's vocabulary, speaking, audio,
@@ -15,7 +15,7 @@ html-effectiveness project for the underlying design language.
 
 - Page: pale sage `#f7f9f6`; cards: white; text: deep forest `#163526`.
 - Primary action: forest green `#1c6444`; success/progress: muted green `#4f7a5d`.
-- Headings: system serif at weight 500; body: system sans; unit numbers and metadata:
+- Headings: system sans at weight 750; body: system sans; unit numbers and metadata:
   system monospace.
 - Primary component borders: 1.5px; cards: 12px radius; controls: 8px radius.
 - Feedback is 120–150ms. Reduced-motion preferences disable nonessential transitions.
