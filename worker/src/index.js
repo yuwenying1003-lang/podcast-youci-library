@@ -26,31 +26,45 @@ async function useDailyQuota(db, hash, limit) {
   return result ? { allowed: true, remaining: Math.max(0, limit - result.request_count) } : { allowed: false, remaining: 0 };
 }
 
-async function callGemini(input, env) {
+export async function callGemini(input, env, fetcher = fetch, sleep = ms => new Promise(resolve => setTimeout(resolve, ms))) {
   if (!env.GEMINI_API_KEY) throw new Error('Gemini API Key 尚未配置。');
   const model = env.GEMINI_MODEL || 'gemini-3.8-flash';
-  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
+  const request = {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': env.GEMINI_API_KEY },
     body: JSON.stringify({
       contents: [{ role: 'user', parts: [{ text: buildPrompt(input) }] }],
-      generationConfig: {
-        temperature: 0.2,
-        maxOutputTokens: 900,
-        responseMimeType: 'application/json',
-        responseJsonSchema: feedbackSchema(),
-      },
+      generationConfig: { temperature: 0.2, maxOutputTokens: 900, responseMimeType: 'application/json', responseJsonSchema: feedbackSchema() },
     }),
-  });
+  };
+  let response;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try { response = await fetcher(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, request); }
+    catch (error) {
+      if (attempt === 2) throw new Error('Gemini 暂时无法连接，请稍后重试。');
+      await sleep(500 * (2 ** attempt) + Math.floor(Math.random() * 250));
+      continue;
+    }
+    if (response.status !== 503 && response.status !== 408 && response.status < 500) break;
+    if (attempt === 2) break;
+    await response.body?.cancel().catch(() => {});
+    await sleep(500 * (2 ** attempt) + Math.floor(Math.random() * 250));
+  }
   if (!response.ok) {
     const detail = await response.text();
     if (response.status === 429) throw new Error('Gemini 免费额度暂时用完，请稍后或明天再试。');
+    if (response.status === 503) throw new Error('Gemini 当前繁忙，已自动重试 3 次，请稍后再试。');
     throw new Error(`Gemini 请求失败 (${response.status}${detail.includes('API_KEY') ? ', key configuration' : ''})。`);
   }
   const data = await response.json();
   const text = data?.candidates?.[0]?.content?.parts?.map(part => part.text || '').join('');
   if (!text) throw new Error('Gemini 没有返回可用评价。');
   return validateGeminiFeedback(JSON.parse(text));
+}
+
+async function refundDailyQuota(db, hash) {
+  const date = new Date().toISOString().slice(0, 10);
+  await db.prepare('UPDATE daily_usage SET request_count = MAX(0, request_count - 1) WHERE subject_hash = ? AND usage_date = ?').bind(hash, date).run();
 }
 
 export default {
@@ -80,7 +94,9 @@ export default {
       const limit = Math.max(1, Math.min(100, Number(env.DAILY_LIMIT) || 20));
       const quota = await useDailyQuota(env.DB, hash, limit);
       if (!quota.allowed) return json({ error: `今日免费额度 ${limit} 次已用完，请明天再试。`, remaining: 0 }, 429, cors);
-      const feedback = await callGemini(input, env);
+      let feedback;
+      try { feedback = await callGemini(input, env); }
+      catch (error) { await refundDailyQuota(env.DB, hash); throw error; }
       return json({ ...feedback, remaining: quota.remaining }, 200, cors);
     } catch (error) {
       const authError = /登录|会话|JWT|JWS|signature|token/i.test(error.message);

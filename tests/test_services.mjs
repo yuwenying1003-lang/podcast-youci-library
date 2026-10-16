@@ -6,6 +6,7 @@ import { loadCourse } from '../app/services/course-loader.js';
 import { TtsService } from '../app/services/tts.js';
 import { auditCourse, normalizeWord } from '../scripts/audit_vocab.mjs';
 import { buildPrompt, feedbackSchema, validateFeedbackInput, validateGeminiFeedback } from '../worker/src/core.js';
+import { callGemini } from '../worker/src/index.js';
 
 test('podcast IDs accept the ListenLeap ID and reject URL injection', () => {
   assert.equal(validPodcastId('8b77ac948ba43d5d084d03e194ce7ecb'), true);
@@ -152,4 +153,16 @@ test('AI frontend never contains a Gemini key and keeps feedback history local',
   assert.match(app, /speakingHistory/);
   assert.match(worker, /env\.GEMINI_API_KEY/);
   assert.match(worker, /verifySession/);
+});
+
+test('Gemini 503 responses retry three times without changing models', async () => {
+  const input = { sentence: 'It is not worth the risk.', target_pattern: 'It is not worth the risk', scenario_zh: '解释风险。', reference_answer: 'It is not worth the risk.' };
+  let calls = 0; const waits = [];
+  const fetcher = async url => {
+    calls += 1; assert.match(url, /gemini-3\.8-flash:generateContent$/);
+    return { ok: false, status: 503, text: async () => 'UNAVAILABLE', body: { cancel: async () => {} } };
+  };
+  await assert.rejects(callGemini(input, { GEMINI_API_KEY: 'test-only', GEMINI_MODEL: 'gemini-3.8-flash' }, fetcher, async ms => waits.push(ms)), /重试 3 次/);
+  assert.equal(calls, 3);
+  assert.equal(waits.length, 2);
 });
