@@ -82,9 +82,9 @@
     Object.assign(host.style, { position: 'fixed', inset: '0', pointerEvents: 'none', zIndex: '2147483647' });
     const shadow = host.attachShadow({ mode: 'closed' });
     const style = document.createElement('style'); style.textContent = `
-      *{box-sizing:border-box}.pane{position:fixed;top:0;left:0;height:100dvh;background:white;border-right:1px solid #8fb9ae;box-shadow:6px 0 28px #0003;pointer-events:auto;display:none}.frame{width:100%;height:100%;border:0}.drag{position:absolute;top:0;right:-13px;width:26px;height:100%;cursor:col-resize;touch-action:none}.drag:after{content:'';position:absolute;top:44%;right:10px;width:6px;height:75px;border-radius:8px;background:#147b68}.controls{position:fixed;top:12px;left:12px;display:flex;gap:6px;pointer-events:auto}.controls button{height:44px;padding:0 13px;border:1px solid white;border-radius:22px;background:#116b5b;color:white;font:600 13px system-ui;box-shadow:0 3px 12px #0003;cursor:pointer}`;
+      *{box-sizing:border-box}.pane{position:fixed;top:0;left:0;height:100dvh;background:white;border-right:1px solid #8fb9ae;box-shadow:6px 0 28px #0003;pointer-events:auto;display:none}.frame{width:100%;height:100%;border:0}.drag{position:absolute;top:0;right:-22px;width:44px;height:100%;cursor:col-resize;touch-action:none}.drag:after{content:'';position:absolute;top:44%;right:19px;width:5px;height:64px;border-radius:8px;background:#d97757}.controls{position:fixed;top:12px;left:12px;display:flex;gap:6px;pointer-events:auto}.controls button{height:44px;padding:0 13px;border:1px solid white;border-radius:22px;background:#116b5b;color:white;font:600 13px system-ui;box-shadow:0 3px 12px #0003;cursor:pointer}`;
     pane = document.createElement('div'); pane.className = 'pane';
-    frame = document.createElement('iframe'); frame.className = 'frame'; frame.title = 'Podcast Youci learning panel'; frame.allow = 'autoplay';
+    frame = document.createElement('iframe'); frame.className = 'frame'; frame.title = 'Podlingora learning panel'; frame.allow = 'autoplay';
     const drag = document.createElement('div'); drag.className = 'drag';
     const controls = document.createElement('div'); controls.className = 'controls';
     const toggle = document.createElement('button'); toggle.textContent = '🎧 Study';
@@ -94,14 +94,15 @@
     let position = localStorage.getItem(sideKey) || 'left';
     const clamp = value => Math.max(300, Math.min(innerWidth - 16, Math.round(value)));
     let width = clamp(Number(localStorage.getItem(widthKey)) || innerWidth * (innerWidth <= 1024 ? .4 : .35));
-    function layout() { const right = position === 'right'; pane.style.width = `${clamp(width)}px`; pane.style.left = right ? 'auto' : '0'; pane.style.right = right ? '0' : 'auto'; drag.style.left = right ? '-13px' : 'auto'; drag.style.right = right ? 'auto' : '-13px'; controls.style.left = right ? 'auto' : '12px'; controls.style.right = right ? '12px' : 'auto'; }
+    function layout() { const right = position === 'right'; pane.style.width = `${clamp(width)}px`; pane.style.left = right ? 'auto' : '0'; pane.style.right = right ? '0' : 'auto'; drag.style.left = right ? '-22px' : 'auto'; drag.style.right = right ? 'auto' : '-22px'; controls.style.left = right ? 'auto' : '12px'; controls.style.right = right ? '12px' : 'auto'; }
     setOpen = open => { pane.style.display = open ? 'block' : 'none'; toggle.textContent = open ? '✕ Close' : '🎧 Study'; side.hidden = !open; localStorage.setItem(openKey, String(open)); };
     toggle.onclick = () => setOpen(pane.style.display === 'none');
     side.onclick = () => { position = position === 'left' ? 'right' : 'left'; localStorage.setItem(sideKey, position); layout(); };
     let pointer;
-    drag.onpointerdown = event => { pointer = event.pointerId; drag.setPointerCapture(pointer); event.preventDefault(); };
+    drag.onpointerdown = event => { if (pointer !== undefined) return; pointer = event.pointerId; drag.setPointerCapture(pointer); event.preventDefault(); };
     drag.onpointermove = event => { if (event.pointerId !== pointer) return; width = clamp(position === 'left' ? event.clientX : innerWidth - event.clientX); layout(); };
-    drag.onpointerup = event => { if (event.pointerId !== pointer) return; pointer = null; localStorage.setItem(widthKey, String(width)); };
+    const finishDrag = event => { if (event.pointerId !== pointer) return; pointer = undefined; localStorage.setItem(widthKey, String(width)); };
+    drag.onpointerup = finishDrag; drag.onpointercancel = finishDrag;
     addEventListener('resize', layout); layout(); setOpen(localStorage.getItem(openKey) === 'true'); updateFrame();
   }
 

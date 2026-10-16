@@ -21,6 +21,12 @@ const seconds = value => String(value).split(':').reduce((total, part) => total 
 const save = () => { progress.unit = unit; progressStore?.save(progress); };
 const lesson = () => (progress.lessons ??= {}, progress.lessons[unit] ??= {});
 const status = message => { $('audioStatus').textContent = message; };
+const courseStatus = (message, state = 'ready', retry = false) => {
+  $('courseNotice').dataset.state = state;
+  $('courseNoticeText').textContent = message;
+  $('courseNotice').querySelector('.course-state-spinner').classList.toggle('hidden', state !== 'loading');
+  $('retryCourse').classList.toggle('hidden', !retry);
+};
 
 const speak = async text => {
   try {
@@ -55,8 +61,10 @@ function renderCard(kind) {
   const revealed = isVocab ? revealV : revealE, prefix = isVocab ? 'v' : 'e', item = items[index];
   $(prefix + 'Pos').textContent = `${item ? index + 1 : 0} / ${items.length}`;
   $(prefix + (isVocab ? 'Word' : 'Text')).textContent = item ? (isVocab ? item.word : item.text) : `No ${isVocab ? 'vocabulary' : 'phrases'} in this unit`;
-  for (const suffix of ['Say', 'Sentence', 'Reveal']) $(prefix + suffix).disabled = !item;
-  if (!item) { $(prefix + 'Original').classList.add('hidden'); return; }
+  for (const suffix of ['Say', 'Sentence', 'Reveal', 'Prev', 'Next', 'Again', 'Known']) $(prefix + suffix).disabled = !item;
+  $(prefix + 'Reveal').setAttribute('aria-expanded', String(Boolean(item && revealed)));
+  $(prefix + 'Card')?.classList.toggle('empty', !item);
+  if (!item) { $(prefix + 'Original').classList.add('hidden'); $(prefix + 'Answer').classList.add('hidden'); return; }
   const clip = verifiedClip(item);
   $(prefix + 'Original').classList.toggle('hidden', !clip);
   $(prefix + 'Original').disabled = false;
@@ -72,12 +80,26 @@ function renderCard(kind) {
     $('vExampleCn').classList.toggle('hidden', !item.example_cn);
     $('vTip').textContent = item.tip || '';
   }
+  const ratingKey = isVocab ? item.word : item.text;
+  const rating = progress.ratings?.[ratingKey];
+  $(prefix + 'Known').classList.toggle('rating-selected', rating === true);
+  $(prefix + 'Again').classList.toggle('rating-selected', rating === false);
+  $(prefix + 'Again').classList.toggle('review', rating === false);
+  $(prefix + 'Known').setAttribute('aria-pressed', String(rating === true));
+  $(prefix + 'Again').setAttribute('aria-pressed', String(rating === false));
 }
 
 function renderPatterns() {
   $('patternList').replaceChildren(...(course.patterns[unit] || []).map((pattern, index) => {
-    const box = document.createElement('div'); box.className = 'patternbox';
+    const box = document.createElement('details'); box.className = 'patternbox'; box.open = index === 0;
+    box.addEventListener('toggle', () => {
+      if (!box.open) return;
+      for (const other of document.querySelectorAll('#patternList > details.patternbox')) if (other !== box) other.open = false;
+    });
+    const summary = document.createElement('summary');
     const heading = document.createElement('h3'); heading.textContent = `${index + 1}. ${pattern.text}`;
+    summary.append(heading);
+    const content = document.createElement('div'); content.className = 'pattern-content';
     const cn = document.createElement('div'); cn.className = 'recognition'; cn.textContent = pattern.cn;
     const scenarios = pattern.scenarios || [
       { type: 'daily', label: 'Daily life · 日常生活', scene_zh: `谈谈最近的一次日常经历，并自然使用“${pattern.cn}”。`, goal_en: pattern.prompt, keywords: [], starter: '', reference_answer: pattern.example },
@@ -125,9 +147,9 @@ function renderPatterns() {
     const another = document.createElement('button'); another.type = 'button'; another.textContent = 'Another Scenario';
     another.onclick = () => { scenarioSelect.value = String((Number(scenarioSelect.value) + 1) % scenarios.length); updateScenario(); };
     const check = document.createElement('button'); check.className = 'primary'; check.textContent = 'Check My Sentence';
-    const result = document.createElement('div'); result.className = 'ai-result hidden'; result.setAttribute('aria-live', 'polite');
+    const result = document.createElement('div'); result.className = 'ai-result hidden'; result.setAttribute('role', 'status'); result.setAttribute('aria-live', 'polite');
     const showFeedback = feedback => {
-      result.replaceChildren(); result.classList.remove('hidden');
+      result.replaceChildren(); result.className = 'ai-result'; result.removeAttribute('aria-busy');
       const title = document.createElement('strong'); title.textContent = ({ correct: '✓ 表达自然正确', needs_improvement: '△ 可以改进', incorrect: '× 需要修改' })[feedback.status] || 'AI Feedback';
       result.dataset.status = feedback.status;
       for (const [name, value] of [
@@ -146,8 +168,8 @@ function renderPatterns() {
     };
     check.onclick = async () => {
       const selected = scenarios[Number(scenarioSelect.value)] || scenarios[0];
-      if (!input.value.trim()) { result.textContent = '请先填写英文句子。'; result.classList.remove('hidden'); return; }
-      check.disabled = true; check.textContent = 'Checking…'; result.textContent = '正在进行真实 AI 评价…'; result.classList.remove('hidden');
+      if (!input.value.trim()) { result.textContent = '请先填写英文句子。'; result.className = 'ai-result error'; input.focus(); return; }
+      check.disabled = true; check.textContent = 'Checking…'; result.textContent = '正在进行真实 AI 评价…'; result.className = 'ai-result pending'; result.setAttribute('aria-busy', 'true');
       try {
         const feedback = await feedbackClient.check({ sentence: input.value, target_pattern: pattern.text, scenario_zh: selected.scene_zh, reference_answer: selected.reference_answer });
         showFeedback(feedback);
@@ -155,13 +177,14 @@ function renderPatterns() {
         history.unshift({ pattern: pattern.text, scenario: selected.type, sentence: input.value.trim(), feedback, checkedAt: new Date().toISOString() });
         if (history.length > 50) history.length = 50; save();
         $('aiAuthStatus').textContent = `已登录 · 今日还可检查 ${feedback.remaining} 次`;
-      } catch (error) { result.textContent = error.message; if (!feedbackClient.signedIn()) $('aiAuthStatus').textContent = '尚未登录'; }
+      } catch (error) { result.textContent = error.message; result.className = 'ai-result error'; result.removeAttribute('aria-busy'); if (!feedbackClient.signedIn()) $('aiAuthStatus').textContent = '尚未登录'; }
       finally { check.disabled = false; check.textContent = 'Check My Sentence'; }
     };
     actions.append(check, another);
     const previous = (lesson().speakingHistory || []).find(item => item.pattern === pattern.text);
-    box.append(heading, cn, model, scenarioLabel, scenarioSelect, scene, goal, wordBank, starter, reference, label, input, counter, actions, result);
-    if (previous?.feedback) { const historyNote = document.createElement('details'); const summary = document.createElement('summary'); summary.textContent = '最近一次 AI Feedback'; const body = document.createElement('p'); body.textContent = `${previous.sentence} — ${previous.feedback.brief_explanation_zh}`; historyNote.append(summary, body); box.append(historyNote); }
+    content.append(cn, model, scenarioLabel, scenarioSelect, scene, goal, wordBank, starter, reference, label, input, counter, actions, result);
+    if (previous?.feedback) { const historyNote = document.createElement('details'); const historySummary = document.createElement('summary'); historySummary.textContent = '最近一次 AI Feedback'; const body = document.createElement('p'); body.textContent = `${previous.sentence} — ${previous.feedback.brief_explanation_zh}`; historyNote.append(historySummary, body); content.append(historyNote); }
+    box.append(summary, content);
     return box;
   }));
 }
@@ -170,8 +193,12 @@ function render() {
   selectItems(); vi = ei = 0; revealV = revealE = false;
   $('tabs').replaceChildren(...course.units.map((item, index) => {
     const button = document.createElement('button'); button.textContent = String(index + 1).padStart(2, '0'); button.title = item.title;
-    button.className = index === unit ? 'selected' : ''; button.onclick = () => { unit = index; save(); render(); scrollTo(0, 0); }; return button;
+    button.classList.toggle('selected', index === unit); button.classList.toggle('completed', Boolean(progress.lessons?.[index]?.done));
+    if (index === unit) button.setAttribute('aria-current', 'step');
+    button.setAttribute('aria-label', `Unit ${index + 1}: ${item.title}${progress.lessons?.[index]?.done ? ', completed' : ''}`);
+    button.onclick = () => { unit = index; save(); render(); scrollTo(0, 0); }; return button;
   }));
+  requestAnimationFrame(() => $('tabs').querySelector('[aria-current="step"]')?.scrollIntoView({ block: 'nearest', inline: 'center' }));
   const current = course.units[unit];
   $('unitTitle').textContent = current.title; $('preview').textContent = current.preview;
   $('activeLabel').textContent = `UNIT ${String(unit + 1).padStart(2, '0')} / ${course.units.length}`;
@@ -183,7 +210,7 @@ function render() {
   const completed = Object.values(progress.lessons || {}).filter(item => item.done).length;
   $('progressSummary').textContent = `${completed} of ${course.units.length} units completed. Saved for this podcast in this browser.`;
   const percent = course.units.length ? Math.round(completed / course.units.length * 100) : 0;
-  $('progressFill').style.width = `${percent}%`;
+  $('progressFill').style.transform = `scaleX(${percent / 100})`;
   $('progressFill').parentElement.setAttribute('aria-valuenow', String(percent));
 }
 
@@ -195,8 +222,8 @@ function setupControls() {
     $(kind + 'Say').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(kind === 'v' ? item.word : item.text); };
     $(kind + 'Sentence').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(item.example || (kind === 'v' ? item.word : item.text)); };
     $(kind + 'Original').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei], clip = verifiedClip(item); if (!clip) return status('Exact original audio not yet available.'); command('AUDIO_PLAY_RANGE', clip); };
-    $(kind + 'Again').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = false; save(); } };
-    $(kind + 'Known').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = true; save(); } };
+    $(kind + 'Again').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = false; save(); renderCard(kind); } };
+    $(kind + 'Known').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = true; save(); renderCard(kind); } };
   }
   $('listenButton').onclick = () => { const current = course.units[unit]; command('AUDIO_PLAY_UNIT', { start: seconds(current.start), end: seconds(current.end) }); };
   $('pauseButton').onclick = async () => {
@@ -230,17 +257,17 @@ function loadVoices() {
 
 async function start(refresh = false) {
   controller?.abort(); controller = new AbortController(); $('episodeId').textContent = podcastId || 'not found';
-  if (!validPodcastId(podcastId)) { $('courseNotice').textContent = 'No valid podcast ID supplied. Open this app from a ListenLeap episode.'; document.querySelector('main').hidden = true; return; }
-  $('courseNotice').textContent = 'Loading course…';
+  if (!validPodcastId(podcastId)) { courseStatus('No valid podcast ID supplied. Open this app from a ListenLeap episode.', 'error'); document.querySelector('main').hidden = true; return; }
+  courseStatus('Loading course…', 'loading');
   try {
     course = await loadCourse(podcastId, controller.signal, refresh);
-    if (!course) { $('courseNotice').textContent = 'No course exists for this podcast yet.'; document.querySelector('main').hidden = true; return; }
+    if (!course) { courseStatus('No course exists for this podcast yet.', 'empty', true); document.querySelector('main').hidden = true; return; }
     document.querySelector('main').hidden = false; unit = Math.min(Number.isInteger(progress.unit) ? progress.unit : 0, course.units.length - 1);
-    $('courseNotice').textContent = `✓ ${course.meta.title} · ${course.units.length} units`;
+    courseStatus(`✓ ${course.meta.title} · ${course.units.length} units`);
     $('courseRevision').textContent = course.meta.revision || course.meta.verified || 'not specified';
     $('sourceLink').href = course.meta.sourceUrl || `https://app.listenleap.com/read?id=${encodeURIComponent(podcastId)}`;
     render();
-  } catch (error) { if (error.name !== 'AbortError') { $('courseNotice').textContent = `Course load failed: ${error.message}`; document.querySelector('main').hidden = true; } }
+  } catch (error) { if (error.name !== 'AbortError') { courseStatus(`Course load failed: ${error.message}`, 'error', true); document.querySelector('main').hidden = true; } }
 }
 
 setupControls();
@@ -254,4 +281,5 @@ $('refreshVoices').onclick = loadVoices; $('testVoice').onclick = async () => {
   catch (error) { if (error.message !== 'Speech was stopped.') $('voiceStatus').textContent = error.message; }
 };
 $('reloadCourse').onclick = () => start(true);
+$('retryCourse').onclick = () => start(true);
 start();
