@@ -161,6 +161,22 @@ test('controls use reusable rounded inline SVG icons without external assets', a
   assert.doesNotMatch(html + app, /unpkg|jsdelivr|lucide\.min|icon-font/);
 });
 
+test('preview controls use branded forest hierarchy and real TTS triggers', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  for (const token of ['--forest: #244d3b', '--sage: #477a61', '--light-sage: #e5efe7', '--cream: #faf9f5']) assert.match(html, new RegExp(token));
+  assert.match(html, /\.preview-audio\s*{[^}]*width:\s*40px;[^}]*border-radius:\s*50%;[^}]*background:\s*var\(--forest\);[^}]*color:\s*#fff/s);
+  for (const id of ['vSay', 'vSentence', 'eSay', 'eSentence']) assert.match(html, new RegExp(`id="${id}" class="preview-audio"[^>]*aria-label="[^"]+"[^>]*title="[^"]+"`));
+  assert.match(html, /\.study-actions \.meaning-action,[^{]*\{[^}]*background:\s*var\(--forest\);[^}]*color:\s*#fff/s);
+  assert.match(html, /\.rating-selected\s*{[^}]*background:\s*var\(--light-sage\);[^}]*color:\s*var\(--forest\)/s);
+  assert.match(app, /const speak = async \(text, trigger\)/);
+  assert.match(app, /trigger\?\.classList\.add\('is-speaking'\)/);
+  assert.match(app, /speak\(kind === 'v' \? item\.word : item\.text, event\.currentTarget\)/);
+  assert.match(html, /prefers-reduced-motion:[\s\S]*\.preview-audio\.is-speaking/s);
+});
+
 test('TTS cancels prior speech and uses the selected English voice and rate', async () => {
   const selected = { name: 'English UK', lang: 'en-GB' };
   let canceled = 0;
@@ -249,8 +265,8 @@ test('Podlingora editorial UI keeps accessible responsive learning controls', as
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
   ]);
   assert.match(html, /PODLINGORA · GUIDED PODCAST ENGLISH/);
-  assert.match(html, /--ivory:\s*#f7f9f6/);
-  assert.match(html, /--clay:\s*#1c6444/);
+  assert.match(html, /--ivory:\s*var\(--cream\)/);
+  assert.match(html, /--clay:\s*var\(--forest\)/);
   assert.match(html, /h1, h2, h3\s*{[^}]*font-family:\s*var\(--sans\)/s);
   assert.match(html, /\.target\s*{[^}]*font-family:\s*var\(--sans\)[^}]*font-weight:\s*800/s);
   assert.doesNotMatch(html, /var\(--serif\)/);
