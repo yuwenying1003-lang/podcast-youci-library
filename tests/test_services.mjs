@@ -156,25 +156,27 @@ test('controls use reusable rounded inline SVG icons without external assets', a
   assert.match(html, /\.icon\s*{[^}]*stroke-width:\s*2;[^}]*stroke-linecap:\s*round;[^}]*stroke-linejoin:\s*round/s);
   assert.match(app, /const ICONS = \{/);
   assert.match(app, /document\.createElementNS\(SVG_NS, 'svg'\)/);
-  for (const name of ['chevronLeft', 'chevronRight', 'chevronDown', 'check', 'star', 'volume2', 'play', 'pause', 'refreshCw']) assert.match(app, new RegExp(`${name}:`));
+  for (const name of ['chevronLeft', 'chevronRight', 'chevronDown', 'check', 'star', 'volume2', 'audioLines', 'play', 'pause', 'refreshCw']) assert.match(app, new RegExp(`${name}:`));
   assert.match(html, /\.rating-selected\.review \.icon-star\s*{\s*fill:\s*currentColor/);
   assert.doesNotMatch(html + app, /unpkg|jsdelivr|lucide\.min|icon-font/);
 });
 
-test('preview controls use branded forest hierarchy and real TTS triggers', async () => {
+test('preview controls use eucalyptus hierarchy and content-specific TTS icons', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
   ]);
-  for (const token of ['--forest: #244d3b', '--sage: #477a61', '--light-sage: #e5efe7', '--cream: #faf9f5']) assert.match(html, new RegExp(token));
-  assert.match(html, /\.preview-audio\s*{[^}]*width:\s*40px;[^}]*border-radius:\s*50%;[^}]*background:\s*var\(--forest\);[^}]*color:\s*#fff/s);
-  for (const id of ['vSay', 'vSentence', 'eSay', 'eSentence']) assert.match(html, new RegExp(`id="${id}" class="preview-audio"[^>]*aria-label="[^"]+"[^>]*title="[^"]+"`));
-  assert.match(html, /\.study-actions \.meaning-action,[^{]*\{[^}]*background:\s*var\(--forest\);[^}]*color:\s*#fff/s);
-  assert.match(html, /\.rating-selected\s*{[^}]*background:\s*var\(--light-sage\);[^}]*color:\s*var\(--forest\)/s);
+  for (const token of ['--eucalyptus: #5f9277', '--eucalyptus-hover: #4e8068', '--eucalyptus-light: #e8f2ea', '--cream: #faf9f5']) assert.match(html, new RegExp(token));
+  assert.match(html, /\.speech-audio\s*{[^}]*width:\s*40px;[^}]*border-radius:\s*50%;[^}]*background:\s*var\(--eucalyptus\);[^}]*color:\s*#fff/s);
+  for (const id of ['vSay', 'vSentence', 'eSay', 'eSentence']) assert.match(html, new RegExp(`id="${id}" class="preview-audio speech-audio"[^>]*aria-label="[^"]+"[^>]*title="[^"]+"`));
+  assert.match(app, /vSay: 'volume2', vSentence: 'audioLines', eSay: 'volume2', eSentence: 'audioLines'/);
+  assert.match(app, /button\.className = 'speech-audio'[\s\S]*setIcon\(button, 'audioLines'\)/);
+  assert.match(html, /\.study-actions \.meaning-action,[^{]*\{[^}]*background:\s*var\(--eucalyptus\);[^}]*color:\s*#fff/s);
+  assert.match(html, /\.study-actions button\[aria-pressed="true"\][^{]*\{[^}]*background:\s*var\(--eucalyptus-light\)/s);
   assert.match(app, /const speak = async \(text, trigger\)/);
   assert.match(app, /trigger\?\.classList\.add\('is-speaking'\)/);
   assert.match(app, /speak\(kind === 'v' \? item\.word : item\.text, event\.currentTarget\)/);
-  assert.match(html, /prefers-reduced-motion:[\s\S]*\.preview-audio\.is-speaking/s);
+  assert.match(html, /prefers-reduced-motion:[\s\S]*\.speech-audio\.is-speaking/s);
 });
 
 test('TTS cancels prior speech and uses the selected English voice and rate', async () => {
