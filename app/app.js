@@ -42,17 +42,23 @@ function renderCard(kind) {
   const revealed = isVocab ? revealV : revealE, prefix = isVocab ? 'v' : 'e', item = items[index];
   $(prefix + 'Pos').textContent = `${item ? index + 1 : 0} / ${items.length}`;
   $(prefix + (isVocab ? 'Word' : 'Text')).textContent = item ? (isVocab ? item.word : item.text) : `No ${isVocab ? 'vocabulary' : 'phrases'} in this unit`;
-  for (const suffix of ['Say', 'Sentence', 'Reveal', 'Original']) $(prefix + suffix).disabled = !item;
-  if (!item) return;
+  for (const suffix of ['Say', 'Sentence', 'Reveal']) $(prefix + suffix).disabled = !item;
+  if (!item) { $(prefix + 'Original').classList.add('hidden'); return; }
   const clip = verifiedClip(item);
-  $(prefix + 'Original').disabled = !clip;
-  $(prefix + 'Original').title = clip ? 'Play verified sentence range' : 'Exact original audio not yet available.';
+  $(prefix + 'Original').classList.toggle('hidden', !clip);
+  $(prefix + 'Original').disabled = false;
+  $(prefix + 'Original').title = clip ? 'Play verified sentence range' : '';
   $(prefix + 'Answer').classList.toggle('hidden', !revealed);
   $(prefix + 'Reveal').textContent = revealed ? 'Hide meaning' : 'Reveal meaning';
   $(prefix + 'Chinese').textContent = item.cn || '';
   $(prefix + 'Meaning').textContent = item.definition || '';
-  $(prefix + 'Example').textContent = `${item.example_source === 'adapted' ? 'Practice example (adapted): ' : 'Example: '}${item.example || ''}`;
-  if (isVocab) $('vTip').textContent = `${item.tip || ''} Approximate item times are not verified sentence clips.`;
+  $(prefix + 'Example').textContent = item.example || '';
+  if (isVocab) {
+    $('vIpa').textContent = item.ipa || '';
+    $('vExampleCn').textContent = item.example_cn || '';
+    $('vExampleCn').classList.toggle('hidden', !item.example_cn);
+    $('vTip').textContent = item.tip || '';
+  }
 }
 
 function renderPatterns() {
@@ -87,12 +93,21 @@ function render() {
 }
 
 function setupControls() {
+  const speak = async text => {
+    try {
+      $('voiceStatus').textContent = 'Speaking…';
+      await tts.speak(text, $('voiceSelect').value, Number($('ttsRate').value));
+      $('voiceStatus').textContent = 'Ready.';
+    } catch (error) {
+      if (error.message !== 'Speech was stopped.') $('voiceStatus').textContent = error.message;
+    }
+  };
   for (const kind of ['v', 'e']) {
     $(kind + 'Prev').onclick = () => { if (kind === 'v' && vocab.length) vi = (vi - 1 + vocab.length) % vocab.length; if (kind === 'e' && expressions.length) ei = (ei - 1 + expressions.length) % expressions.length; renderCard(kind); };
     $(kind + 'Next').onclick = () => { if (kind === 'v' && vocab.length) vi = (vi + 1) % vocab.length; if (kind === 'e' && expressions.length) ei = (ei + 1) % expressions.length; renderCard(kind); };
     $(kind + 'Reveal').onclick = () => { if (kind === 'v') revealV = !revealV; else revealE = !revealE; renderCard(kind); };
-    $(kind + 'Say').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) tts.speak(kind === 'v' ? item.word : item.text, $('voiceSelect').value, Number($('ttsRate').value)); };
-    $(kind + 'Sentence').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) tts.speak(item.example || (kind === 'v' ? item.word : item.text), $('voiceSelect').value, Number($('ttsRate').value)); };
+    $(kind + 'Say').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(kind === 'v' ? item.word : item.text); };
+    $(kind + 'Sentence').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) speak(item.example || (kind === 'v' ? item.word : item.text)); };
     $(kind + 'Original').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei], clip = verifiedClip(item); if (!clip) return status('Exact original audio not yet available.'); command('AUDIO_PLAY_RANGE', clip); };
     $(kind + 'Again').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = false; save(); } };
     $(kind + 'Known').onclick = () => { const item = kind === 'v' ? vocab[vi] : expressions[ei]; if (item) { (progress.ratings ??= {})[kind === 'v' ? item.word : item.text] = true; save(); } };
@@ -114,8 +129,10 @@ function setupControls() {
 function loadVoices() {
   const voices = tts.voices(), select = $('voiceSelect'), selected = localStorage.getItem('youci-voice-name') || '';
   select.replaceChildren(...voices.map(voice => { const option = document.createElement('option'); option.value = voice.name; option.textContent = `${voice.name} · ${voice.lang}`; return option; }));
-  if (voices.some(voice => voice.name === selected)) select.value = selected;
-  $('voiceStatus').textContent = voices.length ? `${voices.length} English voices available.` : 'No English voice is currently available.';
+  const preferred = voices.find(voice => voice.name === selected) || voices.find(voice => /^en-US$/i.test(voice.lang)) || voices.find(voice => /^en-GB$/i.test(voice.lang)) || voices[0];
+  if (preferred) select.value = preferred.name;
+  select.disabled = !voices.length;
+  $('voiceStatus').textContent = !tts.supported() ? 'English speech is unavailable in this browser.' : voices.length ? `${voices.length} English voices available. US and UK voices are supported.` : 'No English voice is available. Install or enable an English system voice, then tap Refresh voices.';
 }
 
 async function start(refresh = false) {
@@ -133,8 +150,15 @@ async function start(refresh = false) {
   } catch (error) { if (error.name !== 'AbortError') { $('courseNotice').textContent = `Course load failed: ${error.message}`; document.querySelector('main').hidden = true; } }
 }
 
-setupControls(); loadVoices(); if ('speechSynthesis' in window) speechSynthesis.addEventListener?.('voiceschanged', loadVoices);
+setupControls();
+const savedRate = Number(localStorage.getItem('youci-tts-rate'));
+if (savedRate >= .7 && savedRate <= 1.15) $('ttsRate').value = String(savedRate);
+$('ttsRateLabel').textContent = `${Number($('ttsRate').value).toFixed(2)}×`;
+loadVoices(); if ('speechSynthesis' in window) speechSynthesis.addEventListener?.('voiceschanged', loadVoices);
 $('voiceSelect').onchange = event => localStorage.setItem('youci-voice-name', event.target.value);
-$('refreshVoices').onclick = loadVoices; $('testVoice').onclick = () => tts.speak('Podcast Youci voice test.', $('voiceSelect').value, Number($('ttsRate').value));
+$('refreshVoices').onclick = loadVoices; $('testVoice').onclick = async () => {
+  try { await tts.speak('Podcast Youci voice test.', $('voiceSelect').value, Number($('ttsRate').value)); $('voiceStatus').textContent = 'Voice test complete.'; }
+  catch (error) { if (error.message !== 'Speech was stopped.') $('voiceStatus').textContent = error.message; }
+};
 $('reloadCourse').onclick = () => start(true);
 start();

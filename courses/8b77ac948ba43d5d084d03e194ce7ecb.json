@@ -84,378 +84,544 @@
       "definition": "a person traveling on foot",
       "time": "00:00",
       "cn": "行人",
-      "tip": "pedestrian vs. driver. Transcript: around 00:00.",
-      "example_source": "adapted"
+      "tip": "Learn the contrast pedestrian ↔ driver, and the collocations pedestrian crossing and pedestrian safety.",
+      "example_source": "adapted",
+      "example": "The driver stopped to let a pedestrian cross the road.",
+      "example_cn": "司机停车让一名行人过马路。",
+      "unit": 0,
+      "source": "transcript term",
+      "ipa": "/pəˈdɛstriən/"
     },
     {
       "word": "at fault",
       "definition": "responsible for a mistake or accident",
       "time": "00:00",
       "cn": "有过错；负有责任",
-      "tip": "be at fault for something. Transcript: around 00:00.",
-      "example_source": "adapted"
+      "tip": "Learn the fixed phrase be at fault for: it assigns responsibility, especially for a mistake or accident.",
+      "example_source": "adapted",
+      "example": "The report did not determine who was at fault for the collision.",
+      "example_cn": "报告没有确定谁应对这次碰撞负责。",
+      "ipa": "/æt fɔlt/"
     },
     {
       "word": "follow-up questions",
       "definition": "additional questions for clarification",
       "time": "00:00",
       "cn": "追问；后续问题",
-      "tip": "follow up (verb) → follow-up (modifier). Transcript: around 00:00.",
-      "example_source": "adapted"
+      "tip": "Follow up is a verb; follow-up is an adjective or noun. A reporter asks follow-up questions to clarify an answer.",
+      "example_source": "adapted",
+      "example": "The students asked follow-up questions after the president's statement.",
+      "example_cn": "校长发表声明后，学生们提出了后续问题。",
+      "ipa": "/ˈfɑloʊˌəp kˈwɛsʧənz/"
     },
     {
       "word": "recession",
       "definition": "a period of economic decline",
       "time": "00:00",
       "cn": "经济衰退",
-      "tip": "An unusual metaphor in the opening; compare economic recession.. Transcript: around 00:00.",
-      "example_source": "adapted"
+      "tip": "Connect recession with recede, meaning move back. In economics, activity recedes during a recession.",
+      "example_source": "adapted",
+      "example": "The speaker compared the quiet crowd to a business district during a recession.",
+      "example_cn": "说话者把安静的人群比作经济衰退时期的商业区。",
+      "ipa": "/ˌriˈsɛʃən/"
     },
     {
       "word": "reverse",
       "definition": "to move a vehicle backward",
       "time": "00:34",
       "cn": "倒车",
-      "tip": "reverse / reversing / in reverse. Transcript: around 00:34.",
-      "example_source": "adapted"
+      "tip": "Useful driving patterns: reverse into a space, reverse out of a space, and put the car in reverse.",
+      "example_source": "adapted",
+      "example": "The driver began to reverse out of the parking space.",
+      "example_cn": "司机开始倒车驶出停车位。",
+      "ipa": "/rɪˈvərs/"
     },
     {
       "word": "allegedly",
       "definition": "according to a claim not yet proved",
       "time": "01:40",
       "cn": "据称；涉嫌",
-      "tip": "allege → allegation → allegedly. Transcript: around 01:40.",
-      "example_source": "adapted"
+      "tip": "A key news and legal word: allegedly means claimed but not yet proved, so it differs from a statement of fact.",
+      "example_source": "adapted",
+      "example": "The student allegedly ignored the officer's instructions.",
+      "example_cn": "据称，这名学生没有听从工作人员的指示。",
+      "ipa": "/əˈlɛʤədli/"
     },
     {
       "word": "fiasco",
       "definition": "a complete failure or embarrassing mess",
       "time": "01:40",
       "cn": "惨败；一团糟",
-      "tip": "a parking-lot fiasco = a chaotic incident. Transcript: around 01:40.",
-      "example_source": "adapted"
+      "tip": "A fiasco is not just a problem; it is an embarrassing, chaotic failure. Common phrase: the whole thing was a fiasco.",
+      "example_source": "adapted",
+      "example": "A minor parking dispute turned into a public-relations fiasco.",
+      "example_cn": "一场小小的停车纠纷演变成了公关闹剧。",
+      "ipa": "/fiˈæskoʊ/"
     },
     {
       "word": "prestigious",
       "definition": "highly respected and admired",
       "time": "02:12",
       "cn": "享有盛誉的",
-      "tip": "prestige (noun) → prestigious (adjective). Transcript: around 02:12.",
-      "example_source": "adapted"
+      "tip": "From prestige, meaning reputation. Common partners include prestigious university, award, journal, and position.",
+      "example_source": "adapted",
+      "example": "She studied at a prestigious university in the United States.",
+      "example_cn": "她就读于美国一所享有盛誉的大学。",
+      "ipa": "/pərˈstiʤəs/"
     },
     {
       "word": "Ivy League",
       "definition": "a group of prestigious US universities",
       "time": "02:12",
       "cn": "常春藤盟校",
-      "tip": "a fixed name for a university group. Transcript: around 02:12.",
-      "example_source": "adapted"
+      "tip": "Ivy League is a fixed proper name for eight US universities; figuratively, it can suggest academic prestige.",
+      "example_source": "adapted",
+      "example": "The story takes place at an Ivy League university.",
+      "example_cn": "这个故事发生在一所常春藤盟校。",
+      "ipa": "/ˈaɪvi lig/"
     },
     {
       "word": "loitering",
       "definition": "remaining somewhere without a clear purpose",
       "time": "03:00",
       "cn": "闲逛；逗留",
-      "tip": "loiter (verb) → loitering (noun). Transcript: around 03:00.",
-      "example_source": "adapted"
+      "tip": "Loiter means remain in a public place without a clear purpose. Remember the common notice: No loitering.",
+      "example_source": "adapted",
+      "example": "A group of people were loitering near the entrance.",
+      "example_cn": "一群人在入口附近逗留。",
+      "ipa": "/ˈlɔɪtərɪŋ/"
     },
     {
       "word": "rescinding",
       "definition": "officially taking back a rule or decision",
       "time": "03:40",
       "cn": "撤销；废除",
-      "tip": "rescind a visa, offer, or decision. Transcript: around 03:40.",
-      "example_source": "adapted"
+      "tip": "Rescind is formal and means officially take back. Common objects: rescind an offer, policy, visa, or decision.",
+      "example_source": "adapted",
+      "example": "The university considered rescinding its earlier decision.",
+      "example_cn": "学校考虑撤销先前的决定。",
+      "ipa": "/rɪˈsɪndɪŋ/"
     },
     {
       "word": "footage",
       "definition": "recorded video images",
       "time": "04:23",
       "cn": "录像；视频片段",
-      "tip": "Uncountable: security footage, not a footage. Transcript: around 04:23.",
-      "example_source": "adapted"
+      "tip": "Footage is uncountable: say some security footage or a piece of footage, not a footage.",
+      "example_source": "adapted",
+      "example": "Security footage showed part of the parking-lot incident.",
+      "example_cn": "监控录像显示了停车场事件的一部分。",
+      "ipa": "/ˈfʊtɪʤ/"
     },
     {
       "word": "volatile",
       "definition": "likely to change suddenly or become tense",
       "time": "04:59",
       "cn": "容易失控的；不稳定的",
-      "tip": "volatile situation / volatile market. Transcript: around 04:59.",
-      "example_source": "adapted"
+      "tip": "Volatile describes something likely to change or erupt suddenly: a volatile situation, market, or substance.",
+      "example_source": "adapted",
+      "example": "The discussion became volatile when the two accounts conflicted.",
+      "example_cn": "当两种说法发生冲突时，讨论变得容易失控。",
+      "unit": 1,
+      "source": "transcript term",
+      "ipa": "/ˈvɑlətəl/"
     },
     {
       "word": "accosted",
       "definition": "approached someone aggressively",
       "time": "05:27",
       "cn": "上前纠缠；搭讪骚扰",
-      "tip": "accost → accosted; the speaker quotes a statement. Transcript: around 05:27.",
-      "example_source": "adapted"
+      "tip": "Accost is stronger than approach: it suggests confronting someone boldly or aggressively.",
+      "example_source": "adapted",
+      "example": "The statement claimed that the student had accosted a passerby.",
+      "example_cn": "声明称这名学生曾上前纠缠一位路人。",
+      "unit": 1,
+      "source": "transcript term",
+      "ipa": "/əˈkɑstəd/"
     },
     {
       "word": "maneuver",
       "definition": "move or steer carefully",
       "time": "05:27",
       "cn": "操纵；调整位置",
-      "tip": "maneuver a car out of a parking space. Transcript: around 05:27.",
-      "example_source": "adapted"
+      "tip": "Use maneuver for careful movement in limited space: maneuver a car into or out of a parking spot.",
+      "example_source": "adapted",
+      "example": "She maneuvered the car around the people standing behind it.",
+      "example_cn": "她小心地把车绕过站在后面的人。",
+      "unit": 1,
+      "source": "transcript term",
+      "ipa": "/məˈnuvər/"
     },
     {
       "word": "intimidation",
       "definition": "behavior intended to frighten someone",
       "time": "06:04",
       "cn": "恐吓；威胁",
-      "tip": "intimidate → intimidating → intimidation. Transcript: around 06:04.",
-      "example_source": "adapted"
+      "tip": "Intimidate is the verb; intimidation is pressure intended to frighten. Contrast it with persuasion, which uses reasons.",
+      "example_source": "adapted",
+      "example": "The students said the warning felt like intimidation.",
+      "example_cn": "学生们说这项警告让人感到受到了恐吓。",
+      "unit": 1,
+      "source": "transcript term",
+      "ipa": "/ˌɪnˌtɪmɪˈdeɪʃən/"
     },
     {
       "word": "hazardous",
       "definition": "dangerous or likely to cause harm",
       "time": "06:50",
       "cn": "危险的",
-      "tip": "hazard (noun) → hazardous (adjective). Transcript: around 06:50.",
-      "example_source": "adapted"
+      "tip": "Hazard is the noun and hazardous the adjective. Common combinations: hazardous conditions, materials, and behavior.",
+      "example_source": "adapted",
+      "example": "Reversing through a crowd can create a hazardous situation.",
+      "example_cn": "在人群中倒车可能造成危险局面。",
+      "ipa": "/ˈhæzərdəs/"
     },
     {
       "word": "civil lawsuit",
       "definition": "a legal claim brought in a civil court",
       "time": "07:41",
       "cn": "民事诉讼",
-      "tip": "civil lawsuit vs. criminal prosecution. Transcript: around 07:41.",
-      "example_source": "adapted"
+      "tip": "Contrast a civil lawsuit, usually seeking a remedy or damages, with a criminal prosecution brought by the state.",
+      "example_source": "adapted",
+      "example": "The allegations were presented in a civil lawsuit rather than a criminal verdict.",
+      "example_cn": "这些指控出现在民事诉讼中，而不是刑事判决中。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/ˈsɪvəl ˈlɔˌsut/"
     },
     {
       "word": "fraternity",
       "definition": "a male university social organization",
       "time": "07:41",
       "cn": "大学男生兄弟会",
-      "tip": "Latin frater means brother; fraternal. Transcript: around 07:41.",
-      "example_source": "adapted"
+      "tip": "Link fraternity with fraternal and brother. In US campus life, it usually means a male student social organization.",
+      "example_source": "adapted",
+      "example": "The university reviewed its relationship with the fraternity.",
+      "example_cn": "学校审查了其与该兄弟会的关系。",
+      "ipa": "/frəˈtərnɪti/"
     },
     {
       "word": "traumatized",
       "definition": "deeply distressed by a shocking experience",
       "time": "07:41",
       "cn": "受到心理创伤的",
-      "tip": "trauma → traumatic → traumatized. Transcript: around 07:41.",
-      "example_source": "adapted"
+      "tip": "Trauma is the event or injury; traumatized describes a person deeply affected by it; traumatic describes the experience.",
+      "example_source": "adapted",
+      "example": "The lawsuit said the experience left the student traumatized.",
+      "example_cn": "诉讼称这段经历给该学生造成了心理创伤。",
+      "ipa": "/ˈtrɔməˌtaɪzd/"
     },
     {
       "word": "accused",
       "definition": "people alleged to have committed wrongdoing",
       "time": "08:12",
       "cn": "被指控者",
-      "tip": "accuse (verb) → accusation (noun) → accused. Transcript: around 08:12.",
-      "example_source": "adapted"
+      "tip": "The accused means a person alleged to have done wrong; it does not mean guilt has been proved.",
+      "example_source": "adapted",
+      "example": "The accused students denied the allegations against them.",
+      "example_cn": "被指控的学生否认了针对他们的指控。",
+      "ipa": "/əˈkjuzd/"
     },
     {
       "word": "prosecutor",
       "definition": "a lawyer who brings a criminal case",
       "time": "08:12",
       "cn": "检察官",
-      "tip": "prosecute → prosecution → prosecutor. Transcript: around 08:12.",
-      "example_source": "adapted"
+      "tip": "Remember the word family: prosecute → prosecution → prosecutor. A prosecutor brings a criminal case.",
+      "example_source": "adapted",
+      "example": "The prosecutor must decide whether the evidence supports a charge.",
+      "example_cn": "检察官必须决定证据是否足以支持指控。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/ˈprɑsɪˌkjutər/"
     },
     {
       "word": "doxed",
       "definition": "having private personal details exposed online",
       "time": "08:59",
       "cn": "被人肉搜索；隐私被公开",
-      "tip": "dox / doxxing: publishing private information. Transcript: around 08:59.",
-      "example_source": "adapted"
+      "tip": "Dox means publish someone's private identifying information online; doxxing is also commonly spelled with two x's.",
+      "example_source": "adapted",
+      "example": "The student said she was doxed after the story spread online.",
+      "example_cn": "这名学生说，事件在网上传播后，她的私人信息被公开。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/dɑkst/"
     },
     {
       "word": "coercion",
       "definition": "pressure or threats used to force an action",
       "time": "10:09",
       "cn": "胁迫；强制",
-      "tip": "coerce → coercion → coercive. Transcript: around 10:09.",
-      "example_source": "adapted"
+      "tip": "From coerce, meaning force. Contrast coercion with persuasion: coercion relies on threats or pressure.",
+      "example_source": "adapted",
+      "example": "Consent obtained through coercion is not freely given.",
+      "example_cn": "通过胁迫获得的同意并非出于自愿。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/koʊəˈrʃən/"
     },
     {
       "word": "adjudicated",
       "definition": "formally decided by a court or authority",
       "time": "10:43",
       "cn": "经司法裁定的",
-      "tip": "adjudicate → adjudication; legal verb. Transcript: around 10:43.",
-      "example_source": "adapted"
+      "tip": "Adjudicate is a formal legal verb meaning decide a dispute; adjudication is the decision-making process.",
+      "example_source": "adapted",
+      "example": "The allegation had not yet been adjudicated by a court.",
+      "example_cn": "这项指控尚未经法院裁定。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/əˈʤudəˌkeɪtɪd/"
     },
     {
       "word": "credibility",
       "definition": "the quality of being believable",
       "time": "10:43",
       "cn": "可信度",
-      "tip": "credible → credibility. Transcript: around 10:43.",
-      "example_source": "adapted"
+      "tip": "Credible means believable; credibility is the quality of being believed. Common phrase: assess a witness's credibility.",
+      "example_source": "adapted",
+      "example": "The report compared the credibility of the competing accounts.",
+      "example_cn": "报告比较了不同说法的可信度。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/ˌkrɛdəˈbɪlɪti/"
     },
     {
       "word": "speculations",
       "definition": "guesses without confirmed evidence",
       "time": "11:16",
       "cn": "猜测；推测",
-      "tip": "speculate → speculation; often uncountable. Transcript: around 11:16.",
-      "example_source": "adapted"
+      "tip": "Speculate is the verb and speculation the usually uncountable noun. Use it when evidence is incomplete.",
+      "example_source": "adapted",
+      "example": "The host separated confirmed details from speculation.",
+      "example_cn": "主持人把已确认的细节与推测区分开来。",
+      "ipa": "/ˌspɛkjəˈleɪʃənz/"
     },
     {
       "word": "polarizing",
       "definition": "causing people to hold strongly opposing views",
       "time": "11:34",
       "cn": "引起两极分化的",
-      "tip": "polarize → polarization. Transcript: around 11:34.",
-      "example_source": "adapted"
+      "tip": "Picture two poles pulling apart: a polarizing issue divides people into strongly opposed groups.",
+      "example_source": "adapted",
+      "example": "The case became a polarizing topic on campus.",
+      "example_cn": "这起案件成了校园里一个引发两极分化的话题。",
+      "unit": 2,
+      "source": "transcript term",
+      "ipa": "/ˈpoʊlərˌaɪzɪŋ/"
     },
     {
       "word": "sororities",
       "definition": "women’s university social organizations",
       "time": "13:07",
       "cn": "大学女生联谊会（复数）",
-      "tip": "Latin soror = sister; singular sorority. Transcript: around 13:07.",
-      "example_source": "adapted"
+      "tip": "Link sorority with Latin soror, sister. Sororities is the plural; fraternity is the related male organization.",
+      "example_source": "adapted",
+      "example": "Several fraternities and sororities operate near the campus.",
+      "example_cn": "校园附近有多个兄弟会和女生联谊会。",
+      "ipa": "/sərˈɔrətiz/"
     },
     {
       "word": "hazing",
       "definition": "dangerous or humiliating initiation practices",
       "time": "20:21",
       "cn": "入会霸凌",
-      "tip": "haze (verb); anti-hazing rules. Transcript: around 20:21.",
-      "example_source": "adapted"
+      "tip": "Hazing means harmful or humiliating initiation activity. Learn the common combinations anti-hazing policy and hazing allegation.",
+      "example_source": "adapted",
+      "example": "The university prohibits hazing during student-group initiation.",
+      "example_cn": "学校禁止学生团体在入会仪式中实施霸凌。",
+      "ipa": "/ˈheɪzɪŋ/"
     },
     {
       "word": "plaintiffs",
       "definition": "people who bring a civil legal case",
       "time": "21:08",
       "cn": "民事诉讼原告（复数）",
-      "tip": "plaintiff vs. defendant. Transcript: around 21:08.",
-      "example_source": "adapted"
+      "tip": "In a civil case, plaintiffs bring the claim and defendants respond to it. Learn the pair together.",
+      "example_source": "adapted",
+      "example": "The plaintiffs sought damages from several defendants.",
+      "example_cn": "原告向多名被告索赔。",
+      "ipa": "/ˈpleɪnɪfs/"
     },
     {
       "word": "intoxicated",
       "definition": "affected by alcohol or drugs",
       "time": "21:54",
       "cn": "醉酒的；受药物影响的",
-      "tip": "intoxicate → intoxication. Transcript: around 21:54.",
-      "example_source": "adapted"
+      "tip": "Intoxicated is a formal term for being affected by alcohol or drugs; intoxication is the noun.",
+      "example_source": "adapted",
+      "example": "The filing alleged that several people were intoxicated that night.",
+      "example_cn": "诉状称当晚有几个人处于醉酒状态。",
+      "ipa": "/ˌɪnˈtɑksɪˌkeɪtɪd/"
     },
     {
       "word": "incentive",
       "definition": "something that motivates an action",
       "time": "22:56",
       "cn": "激励因素；动机",
-      "tip": "financial incentive / incentive to act. Transcript: around 22:56.",
-      "example_source": "adapted"
+      "tip": "An incentive is something that motivates action. Common combinations: financial incentive and incentive to do something.",
+      "example_source": "adapted",
+      "example": "The housing arrangement gave the university a financial incentive to maintain the system.",
+      "example_cn": "这种住宿安排给学校带来了维持该体系的经济动机。",
+      "unit": 4,
+      "source": "transcript term",
+      "ipa": "/ˌɪnˈsɛnɪv/"
     },
     {
       "word": "alumni",
       "definition": "former students or graduates",
       "time": "24:16",
       "cn": "校友（复数）",
-      "tip": "alumnus (singular male); alumna (singular female). Transcript: around 24:16.",
-      "example_source": "adapted"
+      "tip": "Alumni is plural. Alumnus and alumna are traditional singular forms; alum is a common gender-neutral alternative.",
+      "example_source": "adapted",
+      "example": "Many alumni continued to support the university financially.",
+      "example_cn": "许多校友继续在经济上支持学校。",
+      "unit": 4,
+      "source": "transcript term",
+      "ipa": "/əˈləmˌnaɪ/"
     },
     {
       "word": "pledge",
       "definition": "a prospective fraternity member",
       "time": "25:32",
       "cn": "兄弟会准会员",
-      "tip": "pledge also means a promise; context matters. Transcript: around 25:32.",
-      "example_source": "adapted"
+      "tip": "In fraternity context, a pledge is a prospective member. In other contexts, pledge means a serious promise.",
+      "example_source": "adapted",
+      "example": "The former member described what happened when he was a pledge.",
+      "example_cn": "这名前成员讲述了自己还是准会员时发生的事情。",
+      "ipa": "/plɛʤ/"
     },
     {
       "word": "psychological",
       "definition": "related to the mind and emotions",
       "time": "25:44",
       "cn": "心理的",
-      "tip": "psychology → psychological. Transcript: around 25:44.",
-      "example_source": "adapted"
+      "tip": "Build the family: psychology → psychological → psychologically. Common phrase: psychological pressure.",
+      "example_source": "adapted",
+      "example": "The account described both physical and psychological pressure.",
+      "example_cn": "该说法描述了身体和心理两方面的压力。",
+      "ipa": "/ˌsaɪkəˈlɑʤɪkəl/"
     },
     {
       "word": "undergraduate",
       "definition": "a student studying for a first degree",
       "time": "33:13",
       "cn": "本科生",
-      "tip": "under- + graduate; contrast postgraduate. Transcript: around 33:13.",
-      "example_source": "adapted"
+      "tip": "Under- plus graduate: an undergraduate is studying for a first degree; a postgraduate studies after that degree.",
+      "example_source": "adapted",
+      "example": "He joined the organization while he was an undergraduate.",
+      "example_cn": "他在读本科时加入了这个组织。",
+      "ipa": "/ˌəndərˈgræʤəwət/"
     },
     {
       "word": "consenting",
       "definition": "giving free and informed agreement",
       "time": "37:17",
       "cn": "同意；自愿许可",
-      "tip": "consent (noun/verb) → consenting. Transcript: around 37:17.",
-      "example_source": "adapted"
+      "tip": "Consent must be free and informed. Consenting describes someone who agrees voluntarily, without coercion.",
+      "example_source": "adapted",
+      "example": "The filing disputed whether everyone involved was a consenting participant.",
+      "example_cn": "诉状对所有参与者是否都自愿同意提出了质疑。",
+      "unit": 7,
+      "source": "transcript term",
+      "ipa": "/kənˈsɛnɪŋ/"
     },
     {
       "word": "defendant",
       "definition": "a party accused or sued in court",
       "time": "37:50",
       "cn": "被告",
-      "tip": "defend → defendant; contrast plaintiff. Transcript: around 37:50.",
-      "example_source": "adapted"
+      "tip": "Link defendant with defend. In a civil case, learn defendant as the opposite of plaintiff.",
+      "example_source": "adapted",
+      "example": "Each defendant filed a response to the lawsuit.",
+      "example_cn": "每名被告都对这起诉讼提交了答辩。",
+      "unit": 7,
+      "source": "transcript term",
+      "ipa": "/dɪˈfɛndənt/"
     },
     {
       "word": "recollection",
       "definition": "memory of a past event",
       "time": "41:38",
       "cn": "回忆；记忆",
-      "tip": "recollect → recollection; no recollection of. Transcript: around 41:38.",
-      "example_source": "adapted"
+      "tip": "Recollect means remember; recollection is a memory. Useful pattern: have no recollection of an event.",
+      "example_source": "adapted",
+      "example": "Her recollection of the conversation differed from his.",
+      "example_cn": "她对那次谈话的回忆与他不同。",
+      "ipa": "/ˌrɛkəˈlɛkʃən/"
     },
     {
       "word": "misconduct",
       "definition": "unacceptable or improper behavior",
       "time": "54:41",
       "cn": "不当行为",
-      "tip": "mis- (wrong) + conduct (behavior). Transcript: around 54:41.",
-      "example_source": "adapted"
+      "tip": "Mis- means wrong or bad, so misconduct is improper conduct. Common combinations: alleged, professional, or academic misconduct.",
+      "example_source": "adapted",
+      "example": "The investigation examined allegations of student misconduct.",
+      "example_cn": "调查审查了有关学生不当行为的指控。",
+      "unit": 10,
+      "source": "transcript term",
+      "ipa": "/mɪˈskɑndəkt/"
     },
     {
       "word": "interim",
       "definition": "temporary; serving until a replacement",
       "time": "55:20",
       "cn": "临时的；过渡的",
-      "tip": "interim president / interim report. Transcript: around 55:20.",
-      "example_source": "adapted"
+      "tip": "Interim means temporary between two permanent stages: interim president, report, measure, or agreement.",
+      "example_source": "adapted",
+      "example": "An interim president led the university during the investigation.",
+      "example_cn": "调查期间，一名临时校长负责管理学校。",
+      "ipa": "/ˈɪnərəm/"
     },
     {
       "word": "discrimination",
       "definition": "unfair treatment based on protected traits",
       "time": "56:23",
       "cn": "歧视",
-      "tip": "discriminate → discrimination. Transcript: around 56:23.",
-      "example_source": "adapted"
+      "tip": "Build the word family: discriminate → discriminatory → discrimination. Common phrase: discrimination based on race or sex.",
+      "example_source": "adapted",
+      "example": "The complaint included an allegation of discrimination.",
+      "example_cn": "投诉中包含一项歧视指控。",
+      "ipa": "/dɪˌskrɪməˈneɪʃən/"
     },
     {
       "word": "subpoena",
       "definition": "an order requiring evidence or testimony",
       "time": "57:04",
       "cn": "传票；强制提交证据命令",
-      "tip": "subpoena power; issue a subpoena. Transcript: around 57:04.",
-      "example_source": "adapted"
+      "tip": "A subpoena is a legal order, not a request. Common verbs are issue, receive, comply with, and challenge a subpoena.",
+      "example_source": "adapted",
+      "example": "The committee issued a subpoena for the relevant records.",
+      "example_cn": "委员会发出传票，要求提交相关记录。",
+      "unit": 10,
+      "source": "transcript term",
+      "ipa": "/səˈpinə/"
     },
     {
       "word": "sanctions",
       "definition": "official penalties or restrictions",
       "time": "58:34",
       "cn": "处罚；制裁",
-      "tip": "impose sanctions; academic sanctions. Transcript: around 58:34.",
-      "example_source": "adapted"
+      "tip": "Sanctions are formal penalties. Learn impose sanctions on and face sanctions for; context may be academic or international.",
+      "example_source": "adapted",
+      "example": "Students who violate the policy may face disciplinary sanctions.",
+      "example_cn": "违反该政策的学生可能面临纪律处分。",
+      "ipa": "/ˈsæŋkʃənz/"
     },
     {
       "word": "egregious",
       "definition": "extremely bad or shocking",
       "time": "58:34",
       "cn": "极其恶劣的",
-      "tip": "egregious misconduct / egregious error. Transcript: around 58:34.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "pedestrian",
-      "cn": "行人",
-      "definition": "a person walking instead of driving",
-      "tip": "Compare pedestrian with driver.",
-      "unit": 0,
+      "tip": "Egregious is stronger than bad: it means shockingly unacceptable. Common partners include misconduct, error, and violation.",
+      "example_source": "adapted",
+      "example": "The complaint characterized the alleged conduct as egregious.",
+      "example_cn": "投诉把所指控的行为描述为极其恶劣。",
+      "unit": 10,
       "source": "transcript term",
-      "example": "A pedestrian was standing near the parked vehicle.",
-      "example_source": "adapted"
+      "ipa": "/ɪˈgriʤəs/"
     },
     {
       "word": "back into",
@@ -465,7 +631,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "The car began to back into a parking spot.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/bæk ˈɪntu/"
     },
     {
       "word": "parking spot",
@@ -475,7 +642,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "A driver was trying to enter a parking spot.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈpɑrkɪŋ spɑt/"
     },
     {
       "word": "run over",
@@ -485,7 +653,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "The pedestrian feared the vehicle might run over his foot.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/rən ˈoʊvər/"
     },
     {
       "word": "get dragged",
@@ -495,7 +664,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "The object could get dragged across the ground.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/gɪt drægd/"
     },
     {
       "word": "lose balance",
@@ -505,7 +675,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "He appeared to lose balance during the encounter.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/luz ˈbæləns/"
     },
     {
       "word": "reversing",
@@ -515,7 +686,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "The reversing car created a confusing situation.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/rɪˈvərsɪŋ/"
     },
     {
       "word": "footage",
@@ -525,7 +697,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "The video footage shows part of the encounter.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈfʊtɪʤ/"
     },
     {
       "word": "anti-climactically",
@@ -535,17 +708,8 @@
       "unit": 0,
       "source": "transcript term",
       "example": "The situation ended rather anti-climactically.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "accosted",
-      "cn": "上前纠缠",
-      "definition": "approached someone in a confrontational way",
-      "tip": "Often: be accosted by someone.",
-      "unit": 1,
-      "source": "transcript term",
-      "example": "A student said he was accosted in the hallway.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌæntiˌklaɪˈmæktɪkli/"
     },
     {
       "word": "loitering",
@@ -555,27 +719,8 @@
       "unit": 1,
       "source": "transcript term",
       "example": "Several students were loitering outside the building.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "volatile",
-      "cn": "情绪易失控的",
-      "definition": "likely to change suddenly or become violent",
-      "tip": "volatile emotions / volatile situation.",
-      "unit": 1,
-      "source": "transcript term",
-      "example": "The exchange became volatile as tensions grew.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "intimidation",
-      "cn": "恐吓",
-      "definition": "behavior meant to frighten someone",
-      "tip": "intimidate → intimidation.",
-      "unit": 1,
-      "source": "transcript term",
-      "example": "The complaint described the incident as intimidation.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈlɔɪtərɪŋ/"
     },
     {
       "word": "harassment",
@@ -585,7 +730,8 @@
       "unit": 1,
       "source": "transcript term",
       "example": "Students expressed concerns about harassment.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/hərˈæsmənt/"
     },
     {
       "word": "rescind",
@@ -595,7 +741,8 @@
       "unit": 1,
       "source": "transcript term",
       "example": "Officials considered whether to rescind the decision.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/rɪˈsɪnd/"
     },
     {
       "word": "illuminated",
@@ -605,17 +752,8 @@
       "unit": 1,
       "source": "transcript term",
       "example": "The footage illuminated an important detail.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "maneuver",
-      "cn": "操纵；移动",
-      "definition": "to move carefully through a difficult position",
-      "tip": "maneuver a vehicle through a narrow space.",
-      "unit": 1,
-      "source": "transcript term",
-      "example": "The driver attempted a difficult maneuver.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪˈluməˌneɪtəd/"
     },
     {
       "word": "disruptive",
@@ -625,17 +763,8 @@
       "unit": 1,
       "source": "transcript term",
       "example": "Officials described the behavior as disruptive.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "civil lawsuit",
-      "cn": "民事诉讼",
-      "definition": "a legal claim brought between parties",
-      "tip": "civil lawsuit vs criminal prosecution.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "The narrator introduced a civil lawsuit involving the university.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/dɪsˈrəptɪv/"
     },
     {
       "word": "allegedly",
@@ -645,67 +774,8 @@
       "unit": 2,
       "source": "transcript term",
       "example": "The complaint describes what allegedly happened.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "credibility",
-      "cn": "可信度",
-      "definition": "the quality of being believable",
-      "tip": "credible → credibility.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "The credibility of each account must be considered.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "adjudicated",
-      "cn": "经司法裁定",
-      "definition": "officially decided by a court or tribunal",
-      "tip": "adjudicate → adjudication.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "The claim has not yet been adjudicated in court.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "polarizing",
-      "cn": "引起对立的",
-      "definition": "causing strong opposing views",
-      "tip": "polarize → polarization.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "The story has become highly polarizing.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "coercion",
-      "cn": "胁迫",
-      "definition": "pressure or threats forcing an action",
-      "tip": "coerce → coercive → coercion.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "The lawsuit contains allegations of coercion.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "doxed",
-      "cn": "被公开私人信息",
-      "definition": "having private information exposed online",
-      "tip": "dox / doxxing.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "Some people worried that someone might be doxed online.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "prosecutor",
-      "cn": "检察官",
-      "definition": "a lawyer bringing a criminal case",
-      "tip": "prosecute → prosecutor → prosecution.",
-      "unit": 2,
-      "source": "transcript term",
-      "example": "A prosecutor evaluates evidence before bringing charges.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/əˈlɛʤədli/"
     },
     {
       "word": "court filing",
@@ -715,7 +785,8 @@
       "unit": 2,
       "source": "transcript term",
       "example": "The court filing outlines one party’s claims.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/kɔrt ˈfaɪlɪŋ/"
     },
     {
       "word": "liability",
@@ -725,7 +796,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "The organization could face legal liability.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌlaɪəˈbɪlɪti/"
     },
     {
       "word": "insurance coverage",
@@ -735,7 +807,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "The policy may not provide insurance coverage in every situation.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪnˈʃʊrəns ˈkəvərɪʤ/"
     },
     {
       "word": "exclusion",
@@ -745,7 +818,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "An exclusion can remove certain events from coverage.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ɪkˈskluʒən/"
     },
     {
       "word": "fine print",
@@ -755,7 +829,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "Always read the fine print of the agreement.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/faɪn prɪnt/"
     },
     {
       "word": "rescind membership",
@@ -765,7 +840,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "A chapter may decide to rescind membership.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/rɪˈsɪnd ˈmɛmbərˌʃɪp/"
     },
     {
       "word": "inebriated",
@@ -775,7 +851,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "An inebriated person may be unable to make decisions clearly.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪˈnɛbriˌeɪtəd/"
     },
     {
       "word": "third-party vendor",
@@ -785,7 +862,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "A third-party vendor might provide services for an event.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌθɝd ˈpɑrti ˈvɛndər/"
     },
     {
       "word": "self-insuring",
@@ -795,7 +873,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "The organization discussed the costs of self-insuring.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌsɛlf ɪnˈʃʊrɪŋ/"
     },
     {
       "word": "pledge",
@@ -805,7 +884,8 @@
       "unit": 3,
       "source": "transcript term",
       "example": "A new pledge may have to follow initiation rules.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/plɛʤ/"
     },
     {
       "word": "circumstantial evidence",
@@ -815,7 +895,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "Circumstantial evidence needs careful interpretation.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌsərkəmˈstænʃəl ˈɛvədəns/"
     },
     {
       "word": "no recollection of",
@@ -825,7 +906,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "She had no recollection of the conversation.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/noʊ ˌrɛkəˈlɛkʃən əv/"
     },
     {
       "word": "bypass",
@@ -835,7 +917,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "Some systems allow people to bypass ordinary checks.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈbaɪˌpæs/"
     },
     {
       "word": "injury",
@@ -845,7 +928,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "An injury may have serious consequences.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈɪnʤəri/"
     },
     {
       "word": "financially beneficial",
@@ -855,27 +939,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "The arrangement might be financially beneficial to the institution.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "incentive",
-      "cn": "动机；激励",
-      "definition": "something that encourages a particular action",
-      "tip": "financial incentive.",
-      "unit": 4,
-      "source": "transcript term",
-      "example": "The policy could create an unintended incentive.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "alumni",
-      "cn": "校友",
-      "definition": "former students of an institution",
-      "tip": "alumnus singular; alumni plural.",
-      "unit": 4,
-      "source": "transcript term",
-      "example": "Alumni can influence university organizations.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌfaɪˈnænʃəli ˌbɛnəˈfɪʃəl/"
     },
     {
       "word": "dormitory",
@@ -885,7 +950,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "The students lived in a dormitory.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈdɔrməˌtɔri/"
     },
     {
       "word": "disclosed",
@@ -895,7 +961,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "The details were not disclosed immediately.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/dɪˈskloʊzd/"
     },
     {
       "word": "maintenance",
@@ -905,7 +972,8 @@
       "unit": 4,
       "source": "transcript term",
       "example": "The building required regular maintenance.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈmeɪntənəns/"
     },
     {
       "word": "hazing",
@@ -915,7 +983,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "The former member described hazing practices.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈheɪzɪŋ/"
     },
     {
       "word": "initiation",
@@ -925,7 +994,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "The initiation process was difficult to explain.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪˌnɪʃiˈeɪʃən/"
     },
     {
       "word": "blindfolded",
@@ -935,7 +1005,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "Some participants were allegedly blindfolded.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈblaɪndˌfoʊldɪd/"
     },
     {
       "word": "endure",
@@ -945,7 +1016,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "Students described what they had to endure.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ɪnˈdʊr/"
     },
     {
       "word": "consent",
@@ -955,7 +1027,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "Consent needs to be freely given.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/kənˈsɛnt/"
     },
     {
       "word": "vulnerability",
@@ -965,7 +1038,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "The experience revealed a sense of vulnerability.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌvəlnərəˈbɪlɪti/"
     },
     {
       "word": "articulate",
@@ -975,7 +1049,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "It can be hard to articulate a painful experience.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ɑrˈtɪkjəˌleɪt/"
     },
     {
       "word": "inducted",
@@ -985,7 +1060,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "The member was inducted into the organization.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪnˈdəktɪd/"
     },
     {
       "word": "recount",
@@ -995,7 +1071,8 @@
       "unit": 5,
       "source": "transcript term",
       "example": "The witness tried to recount the events in order.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌriˈkaʊnt/"
     },
     {
       "word": "jurisdiction",
@@ -1005,7 +1082,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The incident raised questions about jurisdiction.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌʤʊrɪsˈdɪkʃən/"
     },
     {
       "word": "interim suspension",
@@ -1015,7 +1093,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The university imposed an interim suspension.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈɪnərəm səˈspɛnʃən/"
     },
     {
       "word": "possession",
@@ -1025,7 +1104,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The report discussed possession of prohibited substances.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/pəˈzɛʃən/"
     },
     {
       "word": "overdose",
@@ -1035,7 +1115,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "Officials responded to a possible overdose.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈoʊvərˌdoʊs/"
     },
     {
       "word": "crime log",
@@ -1045,7 +1126,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The reporter consulted the campus crime log.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/kraɪm lɔg/"
     },
     {
       "word": "privileges",
@@ -1055,7 +1137,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "Membership privileges may be suspended.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈprɪvɪˌlɪʤɪz/"
     },
     {
       "word": "integrity",
@@ -1065,7 +1148,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The organization emphasized academic integrity.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪnˈtɛgrəti/"
     },
     {
       "word": "pseudonym",
@@ -1075,7 +1159,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The report used a pseudonym to protect a person’s identity.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈsudəˌnɪm/"
     },
     {
       "word": "creed",
@@ -1085,17 +1170,8 @@
       "unit": 6,
       "source": "transcript term",
       "example": "The fraternity described its values as a creed.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "defendant",
-      "cn": "被告",
-      "definition": "the person or party sued in a case",
-      "tip": "defend → defendant.",
-      "unit": 7,
-      "source": "transcript term",
-      "example": "Each defendant is entitled to respond to allegations.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/krid/"
     },
     {
       "word": "plaintiff",
@@ -1105,7 +1181,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "The plaintiff filed a complaint in civil court.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈpleɪnəf/"
     },
     {
       "word": "intoxicated",
@@ -1115,7 +1192,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "The witness said some people appeared intoxicated.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪnˈtɑksɪˌkeɪtɪd/"
     },
     {
       "word": "underage",
@@ -1125,7 +1203,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "Underage drinking was one issue under discussion.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈəndərɪʤ/"
     },
     {
       "word": "bouncer",
@@ -1135,17 +1214,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "A bouncer may check identification at the entrance.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "consenting",
-      "cn": "表示同意的",
-      "definition": "giving permission freely",
-      "tip": "consent → consenting.",
-      "unit": 7,
-      "source": "transcript term",
-      "example": "Being silent is not the same as consenting.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈbaʊnsər/"
     },
     {
       "word": "congregate",
@@ -1155,7 +1225,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "Guests began to congregate near the entrance.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈkɑŋgrəˌgeɪt/"
     },
     {
       "word": "proposition",
@@ -1165,7 +1236,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "He made a proposition that the other person rejected.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌprɑpəˈzɪʃən/"
     },
     {
       "word": "bruise",
@@ -1175,7 +1247,8 @@
       "unit": 7,
       "source": "transcript term",
       "example": "A bruise might be visible after an injury.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/bruz/"
     },
     {
       "word": "derogatory",
@@ -1185,7 +1258,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "The chat included derogatory language.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/dərˈɑgəˌtɔri/"
     },
     {
       "word": "clarify",
@@ -1195,7 +1269,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "A follow-up question can clarify what was meant.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈklɛrəˌfaɪ/"
     },
     {
       "word": "restating",
@@ -1205,7 +1280,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "She was restating the earlier claim.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/riˈsteɪtɪŋ/"
     },
     {
       "word": "abruptly",
@@ -1215,7 +1291,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "The conversation ended abruptly.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/əˈbrəptli/"
     },
     {
       "word": "interpretation",
@@ -1225,7 +1302,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "Two readers offered different interpretations.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌɪnˌtərprɪˈteɪʃən/"
     },
     {
       "word": "reprehensible",
@@ -1235,7 +1313,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "The conduct described was reprehensible.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˌrɛprɪˈhɛnsəbəl/"
     },
     {
       "word": "redacted",
@@ -1245,7 +1324,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "Personal details were redacted from the report.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/rɪˈdæktɪd/"
     },
     {
       "word": "remotely",
@@ -1255,7 +1335,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "The event was not remotely similar to the earlier incident.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/riˈmoʊtli/"
     },
     {
       "word": "firsthand",
@@ -1265,7 +1346,8 @@
       "unit": 8,
       "source": "transcript term",
       "example": "The account was not based on firsthand knowledge.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈfərsthænd/"
     },
     {
       "word": "redaction",
@@ -1275,7 +1357,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "The redaction hid identifying details.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/rɪˈdækʃən/"
     },
     {
       "word": "context clues",
@@ -1285,7 +1368,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "Readers tried to interpret context clues.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈkɑntɛkst kluz/"
     },
     {
       "word": "publicly available",
@@ -1295,7 +1379,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "Some information was already publicly available.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈpəblɪkli əˈveɪləbəl/"
     },
     {
       "word": "cross-reference",
@@ -1305,7 +1390,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "They attempted to cross-reference the reports.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈkrɔsˌrɛfərəns/"
     },
     {
       "word": "adjacent",
@@ -1315,7 +1401,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "The rooms were adjacent to each other.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/əˈʤeɪsənt/"
     },
     {
       "word": "alcove",
@@ -1325,7 +1412,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "A small alcove connected the hallway and the room.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈælˌkoʊv/"
     },
     {
       "word": "legal finding",
@@ -1335,7 +1423,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "An allegation is not the same as a legal finding.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈligəl ˈfaɪndɪŋ/"
     },
     {
       "word": "source",
@@ -1345,7 +1434,8 @@
       "unit": 9,
       "source": "transcript term",
       "example": "Every claim should be linked to a reliable source.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/sɔrs/"
     },
     {
       "word": "disciplinary",
@@ -1355,7 +1445,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "Disciplinary action may follow a formal investigation.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈdɪsəpləˌnɛri/"
     },
     {
       "word": "mitigate",
@@ -1365,7 +1456,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "Officials tried to mitigate future risks.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈmɪtəˌgeɪt/"
     },
     {
       "word": "sanction",
@@ -1375,27 +1467,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "The university considered an appropriate sanction.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "misconduct",
-      "cn": "不当行为",
-      "definition": "unacceptable or improper conduct",
-      "tip": "mis- (wrong) + conduct.",
-      "unit": 10,
-      "source": "transcript term",
-      "example": "The report examined alleged misconduct.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "subpoena",
-      "cn": "传票；强制提交令",
-      "definition": "a legal order to provide evidence or appear",
-      "tip": "subpoena power.",
-      "unit": 10,
-      "source": "transcript term",
-      "example": "A court may issue a subpoena for records.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈsæŋkʃən/"
     },
     {
       "word": "prosecute",
@@ -1405,17 +1478,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "Authorities must decide whether to prosecute.",
-      "example_source": "adapted"
-    },
-    {
-      "word": "egregious",
-      "cn": "极其恶劣的",
-      "definition": "shockingly bad or unacceptable",
-      "tip": "egregious misconduct.",
-      "unit": 10,
-      "source": "transcript term",
-      "example": "The narrator described the alleged conduct as egregious.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈprɑsəˌkjut/"
     },
     {
       "word": "commence",
@@ -1425,7 +1489,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "The review was scheduled to commence later.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/kəˈmɛns/"
     },
     {
       "word": "speculate",
@@ -1435,7 +1500,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "It is important not to speculate beyond the evidence.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈspɛkjəˌleɪt/"
     },
     {
       "word": "diligently",
@@ -1445,7 +1511,8 @@
       "unit": 10,
       "source": "transcript term",
       "example": "Investigators said they would work diligently.",
-      "example_source": "adapted"
+      "example_source": "adapted",
+      "ipa": "/ˈdɪləʤəntli/"
     },
     {
       "word": "scenario",
@@ -1456,7 +1523,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/sɪˈnɛrioʊ/"
     },
     {
       "word": "come to a conclusion",
@@ -1467,7 +1535,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/kəm tɪ ə kənˈkluʒən/"
     },
     {
       "word": "backpack",
@@ -1478,7 +1547,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/ˈbækˌpæk/"
     },
     {
       "word": "bump into",
@@ -1489,7 +1559,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/bəmp ˈɪntu/"
     },
     {
       "word": "get out of the way",
@@ -1500,7 +1571,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/gɪt aʊt əv ðə weɪ/"
     },
     {
       "word": "be at fault",
@@ -1511,7 +1583,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/bi æt fɔlt/"
     },
     {
       "word": "bizarre",
@@ -1522,7 +1595,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/bɪˈzɑr/"
     },
     {
       "word": "be prevented from",
@@ -1533,7 +1607,8 @@
       "example_source": "adapted",
       "unit": 0,
       "time": "00:02",
-      "source": "verified in publicly visible opening transcript; example adapted"
+      "source": "verified in publicly visible opening transcript; example adapted",
+      "ipa": "/bi prɪˈvɛnɪd frəm/"
     },
     {
       "word": "anticlimactically",
@@ -1543,7 +1618,8 @@
       "tip": "anti- + climactic; think: without the expected dramatic peak.",
       "example": "The announcement ended anticlimactically.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˌæntiˌklaɪˈmæktɪkli/"
     },
     {
       "word": "irresponsible",
@@ -1553,7 +1629,8 @@
       "tip": "in-/ir- (not) + responsible.",
       "example": "It was irresponsible to ignore the warning.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˌɪrəˈspɑnsəbəl/"
     },
     {
       "word": "expelling",
@@ -1563,7 +1640,8 @@
       "tip": "expel → expulsion; distinguish from suspend.",
       "example": "The school considered expelling the student.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ɪkˈspɛlɪŋ/"
     },
     {
       "word": "verbal abuse",
@@ -1573,7 +1651,8 @@
       "tip": "verbal = spoken; abuse is often uncountable.",
       "example": "The policy prohibits verbal abuse.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈvərbəl əˈbjuz/"
     },
     {
       "word": "silencing",
@@ -1583,7 +1662,8 @@
       "tip": "silence (verb) → silencing; silence speech.",
       "example": "She accused the policy of silencing criticism.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈsaɪlənsɪŋ/"
     },
     {
       "word": "ripped apart",
@@ -1593,7 +1673,8 @@
       "tip": "rip apart = tear apart; figurative as well as literal.",
       "example": "The scandal ripped the community apart.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/rɪpt əˈpɑrt/"
     },
     {
       "word": "fair shake",
@@ -1603,7 +1684,8 @@
       "tip": "An informal idiom: give someone a fair shake.",
       "example": "Every applicant deserves a fair shake.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/fɛr ʃeɪk/"
     },
     {
       "word": "mainstream media",
@@ -1613,7 +1695,8 @@
       "tip": "mainstream = widely accepted or dominant.",
       "example": "The story spread through mainstream media.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈmeɪnˌstrim ˈmidiə/"
     },
     {
       "word": "court filings",
@@ -1623,7 +1706,8 @@
       "tip": "file a case / court filing; filing = submitted document.",
       "example": "The details appeared in court filings.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/kɔrt ˈfaɪlɪŋz/"
     },
     {
       "word": "exaggeration",
@@ -1633,7 +1717,8 @@
       "tip": "exaggerate → exaggerated → exaggeration.",
       "example": "Calling it a disaster was an exaggeration.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ɪgˌzæʤərˈeɪʃən/"
     },
     {
       "word": "not worth the risk",
@@ -1643,7 +1728,8 @@
       "tip": "Reusable: It is not worth the risk.",
       "example": "The shortcut was not worth the risk.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/nɑt wərθ ðə rɪsk/"
     },
     {
       "word": "liability coverage",
@@ -1653,7 +1739,8 @@
       "tip": "liable → liability; legal and business collocation.",
       "example": "The company reviewed its liability coverage.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˌlaɪəˈbɪlɪti ˈkəvərɪʤ/"
     },
     {
       "word": "under certain circumstances",
@@ -1663,7 +1750,8 @@
       "tip": "Highly reusable formal phrase.",
       "example": "Refunds are possible under certain circumstances.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈəndər ˈsərtən ˈsərkəmˌstænsɪz/"
     },
     {
       "word": "homeowners insurance",
@@ -1673,7 +1761,8 @@
       "tip": "homeowner + insurance; US term.",
       "example": "Their homeowners insurance covered the damage.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈhoʊˌmoʊnərz ˌɪnˈʃʊrəns/"
     },
     {
       "word": "categorizing",
@@ -1683,7 +1772,8 @@
       "tip": "category → categorize → categorization.",
       "example": "They were categorizing the claims by type.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈkætəgərˌaɪzɪŋ/"
     },
     {
       "word": "gauge",
@@ -1693,7 +1783,8 @@
       "tip": "gauge the risk / gauge how much.",
       "example": "It is difficult to gauge the impact.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/geɪʤ/"
     },
     {
       "word": "maintain",
@@ -1703,7 +1794,8 @@
       "tip": "maintain → maintenance; maintain housing.",
       "example": "The university must maintain its buildings.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/meɪnˈteɪn/"
     },
     {
       "word": "tuition",
@@ -1713,7 +1805,8 @@
       "tip": "tuition fees; do not confuse with tutoring.",
       "example": "Tuition increased again this year.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/tjuˈɪʃən/"
     },
     {
       "word": "recounts",
@@ -1723,7 +1816,8 @@
       "tip": "recount an experience; re- (again) + count (tell).",
       "example": "She recounts her first day at university.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˌriˈkaʊnts/"
     },
     {
       "word": "sleep deprived",
@@ -1733,7 +1827,8 @@
       "tip": "deprive of sleep → sleep deprivation.",
       "example": "I felt sleep deprived after the flight.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/slip dɪˈpraɪvd/"
     },
     {
       "word": "discarded",
@@ -1743,7 +1838,8 @@
       "tip": "discard → discarded items.",
       "example": "Discarded furniture filled the room.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/dɪˈskɑrdɪd/"
     },
     {
       "word": "snippets",
@@ -1753,7 +1849,8 @@
       "tip": "snippet of audio / a snippet of text.",
       "example": "The report released short snippets of testimony.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/sˈnɪpəts/"
     },
     {
       "word": "personal integrity",
@@ -1763,7 +1860,8 @@
       "tip": "integrity = honesty, wholeness; personal integrity.",
       "example": "Personal integrity matters more than reputation.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈpərsɪnəl ˌɪnˈtɛgrəti/"
     },
     {
       "word": "vital",
@@ -1773,7 +1871,8 @@
       "tip": "vital part of / vital for.",
       "example": "Clear communication is vital to the project.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈvaɪtəl/"
     },
     {
       "word": "facilitate",
@@ -1783,7 +1882,8 @@
       "tip": "facilitate a meeting / facilitate access.",
       "example": "The coordinator will facilitate the discussion.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/fəˈsɪləˌteɪt/"
     },
     {
       "word": "visibly",
@@ -1793,7 +1893,8 @@
       "tip": "visible → visibly; visibly upset / nervous.",
       "example": "The speaker was visibly nervous.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈvɪzəbli/"
     },
     {
       "word": "clarifying questions",
@@ -1803,7 +1904,8 @@
       "tip": "clarify → clarification; ask clarifying questions.",
       "example": "Ask clarifying questions before you decide.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈklɛrəˌfaɪɪŋ kˈwɛsʧənz/"
     },
     {
       "word": "morally reprehensible",
@@ -1813,7 +1915,8 @@
       "tip": "reprehensible = worthy of blame.",
       "example": "The comments were morally reprehensible.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˈmɔrəli ˌrɛprɪˈhɛnsəbəl/"
     },
     {
       "word": "whatsoever",
@@ -1823,7 +1926,8 @@
       "tip": "Often follows negatives: no... whatsoever.",
       "example": "I have no reason whatsoever to doubt her.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˌwətsoʊˈɛvər/"
     },
     {
       "word": "redactions",
@@ -1833,7 +1937,8 @@
       "tip": "redact → redaction; redact confidential text.",
       "example": "The public report contained many redactions.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/rɪˈdækʃənz/"
     },
     {
       "word": "cross-referencing",
@@ -1843,7 +1948,8 @@
       "tip": "cross-reference a report with another source.",
       "example": "Cross-referencing reports revealed inconsistencies.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/ˌkrɔsˈrɛfərənsɪŋ/"
     },
     {
       "word": "lost consciousness",
@@ -1853,7 +1959,8 @@
       "tip": "conscious → consciousness; lose consciousness.",
       "example": "The patient lost consciousness briefly.",
       "example_source": "adapted",
-      "transcript_verified": true
+      "transcript_verified": true,
+      "ipa": "/lɔst ˈkɑnʃəsnəs/"
     }
   ],
   "expressions": [
@@ -3755,6 +3862,7 @@
     "title": "Cornell 7 · Rotten Mango",
     "verified": "mixed legacy curated content; examples may be adapted",
     "sourceUrl": "https://app.listenleap.com/read?id=8b77ac948ba43d5d084d03e194ce7ecb",
-    "revision": "2026-10-16"
+    "revision": "2026-10-17-vocabulary-cleanup",
+    "examples": "Teaching examples may be adapted for clarity; only records with a verified clip are treated as podcast quotations."
   }
 }

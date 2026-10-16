@@ -3,6 +3,8 @@ import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import { ACTIONS, PROTOCOL, VERSION, request, validPodcastId, validResponse } from '../app/services/protocol.js';
 import { loadCourse } from '../app/services/course-loader.js';
+import { TtsService } from '../app/services/tts.js';
+import { auditCourse, normalizeWord } from '../scripts/audit_vocab.mjs';
 
 test('podcast IDs accept the ListenLeap ID and reject URL injection', () => {
   assert.equal(validPodcastId('8b77ac948ba43d5d084d03e194ce7ecb'), true);
@@ -44,4 +46,62 @@ test('extension bridge enforces origins, verified ranges, and event-driven stopp
   assert.match(source, /payload\.verified !== true/);
   assert.match(source, /addEventListener\('timeupdate'/);
   assert.doesNotMatch(source, /postMessage\([^\n]+,\s*['"]\*['"]/);
+});
+
+test('vocabulary normalization catches case, spacing, quote, and dash variants', () => {
+  assert.equal(normalizeWord('  Follow‑Up   Questions '), 'follow-up questions');
+  assert.equal(normalizeWord('Student’s'), "student's");
+});
+
+test('all course vocabulary is unique within each unit and complete', async () => {
+  const courseNames = ['742756737294be4c3bb4d89828b45d9f', '8b77ac948ba43d5d084d03e194ce7ecb'];
+  for (const name of courseNames) {
+    const course = JSON.parse(await readFile(new URL(`../courses/${name}.json`, import.meta.url), 'utf8'));
+    const audit = auditCourse(course);
+    assert.equal(audit.duplicateRows, 0, `${name} has duplicate vocabulary`);
+    for (const field of ['cn', 'definition', 'example', 'tip']) assert.equal(audit.missing[field], 0, `${name} has missing ${field}`);
+  }
+});
+
+test('Cornell 7 has eleven units, IPA for every word, no exact clips, and no technical tips', async () => {
+  const course = JSON.parse(await readFile(new URL('../courses/8b77ac948ba43d5d084d03e194ce7ecb.json', import.meta.url), 'utf8'));
+  const audit = auditCourse(course);
+  assert.equal(course.units.length, 11);
+  assert.equal(audit.missing.ipa, 0);
+  assert.equal(audit.technicalTips, 0);
+  assert.equal(course.vocab.some(item => item.clip), false);
+});
+
+test('vocabulary UI uses one Example label and hides unverified exact-audio controls', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.doesNotMatch(html + app, /Practice example \(adapted\)|Adapted practice example|Approximate item times/);
+  assert.match(html, /id="vOriginal" class="hidden"/);
+  assert.match(app, /Original'\)\.classList\.toggle\('hidden', !clip\)/);
+});
+
+test('TTS cancels prior speech and uses the selected English voice and rate', async () => {
+  const selected = { name: 'English UK', lang: 'en-GB' };
+  let canceled = 0;
+  let spoken;
+  globalThis.window = {
+    SpeechSynthesisUtterance: class {},
+    speechSynthesis: {
+      getVoices: () => [selected, { name: '中文', lang: 'zh-CN' }],
+      cancel: () => canceled++,
+      speak: utterance => { spoken = utterance; queueMicrotask(() => utterance.onend()); },
+    },
+  };
+  globalThis.SpeechSynthesisUtterance = class { constructor(text) { this.text = text; } };
+  const service = new TtsService();
+  await service.speak('Natural English example.', selected.name, .8);
+  assert.equal(canceled, 1);
+  assert.equal(spoken.text, 'Natural English example.');
+  assert.equal(spoken.voice, selected);
+  assert.equal(spoken.lang, 'en-GB');
+  assert.equal(spoken.rate, .8);
+  delete globalThis.window;
+  delete globalThis.SpeechSynthesisUtterance;
 });

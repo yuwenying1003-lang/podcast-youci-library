@@ -26,6 +26,12 @@ def require_text(item: dict, fields: tuple[str, ...], where: str, errors: list[s
             errors.append(f"{where}.{field}: required non-empty string")
 
 
+def normalize_vocab(value: object) -> str:
+    text = str(value or "").strip().casefold()
+    text = text.translate(str.maketrans({"‘": "'", "’": "'", "‐": "-", "‑": "-", "‒": "-", "–": "-", "—": "-"}))
+    return " ".join(text.split())
+
+
 def validate(path: Path) -> list[str]:
     errors: list[str] = []
     try:
@@ -66,7 +72,7 @@ def validate(path: Path) -> list[str]:
             previous_end = end
 
     collection_fields = {
-        "vocab": ("word", "cn", "definition", "tip"),
+        "vocab": ("word", "cn", "definition", "example", "tip"),
         "expressions": ("time", "text", "cn", "definition", "example"),
     }
     for name, required in collection_fields.items():
@@ -99,6 +105,23 @@ def validate(path: Path) -> list[str]:
                         errors.append(f"{where}.clip: end must be after start and within 90 seconds")
                     if not isinstance(clip.get("quote"), str) or not clip["quote"].strip():
                         errors.append(f"{where}.clip.quote: verified source sentence required")
+
+    seen_vocab: dict[tuple[int, str], int] = {}
+    for index, record in enumerate(data.get("vocab", [])):
+        if not isinstance(record, dict):
+            continue
+        if isinstance(record.get("unit"), int):
+            unit_index = record["unit"]
+        else:
+            item_time = seconds(record.get("time"), f"vocab[{index}].time", errors)
+            unit_index = next((i for i, unit in enumerate(units) if item_time is not None and seconds(unit["start"], f"units[{i}].start", []) <= item_time < seconds(unit["end"], f"units[{i}].end", [])), -1)
+        key = (unit_index, normalize_vocab(record.get("word")))
+        if key in seen_vocab:
+            errors.append(f"vocab[{index}]: duplicate normalized word in unit {unit_index + 1}; first used at vocab[{seen_vocab[key]}]")
+        else:
+            seen_vocab[key] = index
+        if re.search(r"transcript|timestamp|timecode|verified sentence clip", str(record.get("tip", "")), re.I):
+            errors.append(f"vocab[{index}].tip: technical source/timestamp status is not a learning tip")
 
     patterns = data.get("patterns")
     if not isinstance(patterns, list) or not patterns:
