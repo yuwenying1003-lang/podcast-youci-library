@@ -182,6 +182,9 @@ function render() {
   $('speakingPrompt').textContent = expressions.length ? `Try using “${expressions[0].text}” in your own context.` : 'Describe this unit in English.';
   const completed = Object.values(progress.lessons || {}).filter(item => item.done).length;
   $('progressSummary').textContent = `${completed} of ${course.units.length} units completed. Saved for this podcast in this browser.`;
+  const percent = course.units.length ? Math.round(completed / course.units.length * 100) : 0;
+  $('progressFill').style.width = `${percent}%`;
+  $('progressFill').parentElement.setAttribute('aria-valuenow', String(percent));
 }
 
 function setupControls() {

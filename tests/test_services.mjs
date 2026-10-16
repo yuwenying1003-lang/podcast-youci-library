@@ -166,3 +166,17 @@ test('Gemini 503 responses retry three times without changing models', async () 
   assert.equal(calls, 3);
   assert.equal(waits.length, 2);
 });
+
+test('Podlingora editorial UI keeps accessible responsive learning controls', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /PODLINGORA · GUIDED PODCAST ENGLISH/);
+  assert.match(html, /--ivory:\s*#faf9f5/);
+  assert.match(html, /--clay:\s*#d97757/);
+  assert.match(html, /@media \(pointer: coarse\)/);
+  assert.match(html, /@media \(prefers-reduced-motion: reduce\)/);
+  assert.match(html, /role="progressbar"/);
+  assert.match(app, /aria-valuenow/);
+});
