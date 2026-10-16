@@ -89,7 +89,7 @@ test('compact vocabulary UI hides optional details and keeps exact audio verifie
   assert.match(app, /Original'\)\.classList\.toggle\('hidden', !clip\)/);
   assert.match(html, /id="vMeaningPanel" class="meaning-panel hidden"/);
   assert.match(html, /id="vMemory" class="memory memory-panel hidden"/);
-  assert.match(html, /class="vocab-actions"[\s\S]*id="vPrev"[\s\S]*id="vKnown"[\s\S]*id="vReveal"[\s\S]*id="vAgain"[\s\S]*id="vNext"/);
+  assert.match(html, /class="study-actions"[\s\S]*id="vPrev"[\s\S]*id="vKnown"[\s\S]*id="vReveal"[\s\S]*id="vAgain"[\s\S]*id="vNext"/);
   assert.match(app, /revealV = revealMemory = false/);
 });
 
@@ -103,6 +103,20 @@ test('compact speaking practice shows only situation, sentence, and essential ac
   assert.match(app, /createElement\('input'\); input\.type = 'text'/);
   assert.match(app, /className = 'input speaking-input'/);
   assert.doesNotMatch(app, /createElement\('textarea'\).*speaking/i);
+});
+
+test('vocabulary and expression previews share one non-wrapping five-action bar', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /\.study-actions\s*{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*repeat\(5, minmax\(0, 1fr\)\);[^}]*width:\s*100%/s);
+  assert.match(html, /class="study-actions" aria-label="Expression controls"[\s\S]*id="ePrev"[^>]*>←<\/[\s\S]*id="eKnown"[^>]*>✓<\/[\s\S]*id="eReveal"[^>]*>Meaning<\/[\s\S]*id="eAgain"[^>]*>☆<\/[\s\S]*id="eNext"[^>]*>→<\//);
+  assert.doesNotMatch(html, />← Previous<|>Next →<|>Need review<|>✓ I know this</);
+  for (const id of ['ePrev', 'eKnown', 'eAgain', 'eNext']) {
+    assert.match(html, new RegExp(`id="${id}"[^>]*aria-label="[^"]+"[^>]*title="[^"]+"`));
+  }
+  assert.match(app, /\$\(prefix \+ 'Again'\)\.textContent = rating === false \? '★' : '☆'/);
 });
 
 test('TTS cancels prior speech and uses the selected English voice and rate', async () => {

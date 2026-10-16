@@ -644,9 +644,10 @@
       .meaning-panel { margin-top: 5px; }
       .memory-panel { margin-top: 5px; padding: 8px 10px; text-align: center; }
       .memory-toggle { min-height: 34px; padding: 5px 10px; }
-      .vocab-actions { display: grid; grid-template-columns: minmax(44px, .8fr) minmax(44px, .8fr) minmax(78px, 1.35fr) minmax(44px, .8fr) minmax(44px, .8fr); gap: 6px; margin: 8px 0 0; }
-      .vocab-actions button { min-width: 0; min-height: 42px; padding: 6px 4px; font-size: 17px; }
-      .vocab-actions .meaning-action { font-size: 12px; font-weight: 700; white-space: nowrap; }
+      .study-actions { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); width: 100%; gap: 6px; margin: 8px 0 0; }
+      .study-actions button { width: 100%; min-width: 0; min-height: 42px; padding: 6px 2px; font-size: 17px; overflow: hidden; }
+      .study-actions .meaning-action { font-size: 12px; font-weight: 700; white-space: nowrap; }
+      .study-actions .meaning-action[aria-expanded="true"] { border-color: var(--olive); background: rgba(120, 140, 93, 0.14); }
       .compact-expression { min-height: 0; padding: 13px; gap: 6px; }
       .compact-expression .answer { padding-top: 7px; }
       .compact-expression .hint { padding: 0; margin: 4px 0; background: transparent; text-align: center; }
@@ -660,11 +661,11 @@
       .speaking-input { min-height: 42px !important; height: 42px; padding: 8px 10px; }
       .reference-answer p { margin: 5px 0; }
       @media (pointer: coarse) {
-        .vocab-actions button { min-height: 48px; }
+        .study-actions button { min-height: 48px; }
         .memory-toggle { min-height: 44px; }
       }
       @media (max-width: 390px) {
-        .vocab-actions { gap: 4px; grid-template-columns: 42px 42px minmax(70px, 1fr) 42px 42px; }
+        .study-actions { gap: 4px; }
       }
     </style>
   </head>
@@ -755,7 +756,7 @@
             </div>
           </div>
         </div>
-        <div class="vocab-actions" aria-label="Vocabulary controls">
+        <div class="study-actions" aria-label="Vocabulary controls">
           <button id="vPrev" aria-label="Previous word" title="Previous word">←</button
           ><button id="vKnown" aria-label="I know this" title="I know this">✓</button
           ><button class="meaning-action" id="vReveal">Meaning</button
@@ -783,14 +784,12 @@
             <p id="eExample" class="hint"></p>
           </div>
         </div>
-        <div class="tools">
-          <button id="ePrev">← Previous</button
-          ><button id="eReveal" class="primary grow">Reveal meaning</button
-          ><button id="eNext">Next →</button>
-        </div>
-        <div class="tools">
-          <button id="eAgain">Need review</button
-          ><button id="eKnown">✓ I know this</button>
+        <div class="study-actions" aria-label="Expression controls">
+          <button id="ePrev" aria-label="Previous expression" title="Previous expression">←</button
+          ><button id="eKnown" aria-label="I know this expression" title="I know this expression">✓</button
+          ><button class="meaning-action" id="eReveal">Meaning</button
+          ><button id="eAgain" aria-label="Review this expression" title="Review this expression">☆</button
+          ><button id="eNext" aria-label="Next expression" title="Next expression">→</button>
         </div>
       </section>
       <section class="section">

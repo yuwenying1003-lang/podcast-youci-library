@@ -98,8 +98,8 @@ function renderCard(kind) {
   $(prefix + 'Known').classList.toggle('rating-selected', rating === true);
   $(prefix + 'Again').classList.toggle('rating-selected', rating === false);
   $(prefix + 'Again').classList.toggle('review', rating === false);
-  if (isVocab) $('vAgain').textContent = rating === false ? '★' : '☆';
-  if (isVocab) $('vAgain').title = rating === false ? 'Marked for review' : 'Need review';
+  $(prefix + 'Again').textContent = rating === false ? '★' : '☆';
+  $(prefix + 'Again').title = rating === false ? `Marked ${isVocab ? 'word' : 'expression'} for review` : `Review this ${isVocab ? 'word' : 'expression'}`;
   $(prefix + 'Known').setAttribute('aria-pressed', String(rating === true));
   $(prefix + 'Again').setAttribute('aria-pressed', String(rating === false));
 }
