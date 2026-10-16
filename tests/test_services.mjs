@@ -68,6 +68,7 @@ test('Cornell 7 has eleven units, IPA for every word, no exact clips, and no tec
   const audit = auditCourse(course);
   assert.equal(course.units.length, 11);
   assert.equal(audit.missing.ipa, 0);
+  assert.equal(audit.missing.example_cn, 0);
   assert.equal(audit.technicalTips, 0);
   assert.equal(course.vocab.some(item => item.clip), false);
 });
