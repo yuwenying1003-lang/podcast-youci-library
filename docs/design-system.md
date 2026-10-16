@@ -33,3 +33,10 @@ html-effectiveness project for the underlying design language.
   context but are not repeated in the visible practice card.
 - Source metadata, verified-clip rules, authentication, and saved progress remain internal and
   surface only when the learner needs to act or recover from an error.
+
+## Icons
+
+- Controls use a local, reusable inline-SVG set inspired by Lucide's rounded line style:
+  19px default size, 2px strokes, round line caps, and round joins.
+- Icons inherit the control color, require no CDN or icon font, and remain decorative beside
+  accessible button names. Review stars fill only when the saved review state is active.
