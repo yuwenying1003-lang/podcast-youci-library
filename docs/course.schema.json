@@ -68,7 +68,11 @@
         "source_kind": {"enum": ["original", "teaching"]},
         "source_verification": {"type": "string", "minLength": 1},
         "extraction_confidence": {"enum": ["high", "medium", "low"]},
-        "editorial_status": {"type": "string", "minLength": 1}
+        "editorial_status": {"type": "string", "minLength": 1},
+        "ipa_source": {"type": "string", "minLength": 1},
+        "ipa_status": {"type": "string", "minLength": 1},
+        "definition_source": {"type": "string", "minLength": 1},
+        "definition_status": {"type": "string", "minLength": 1}
       }
     },
     "speakingScenario": {

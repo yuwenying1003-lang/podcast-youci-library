@@ -13,8 +13,8 @@ Generated from source schema `2.4-expanded-fourth-pass` on 2026-10-22.
 
 ## Unresolved editorial work
 
-- 234 Words have no checked IPA.
-- 234 Words have no independently supplied English definition; the current visible fallback is explicitly contextual and is not marked as human-verified.
+- All 234 former IPA gaps now have externally sourced pronunciations: 12 direct dictionary IPA, 217 CMUdict ARPABET-to-broad-IPA conversions, and 5 transparent inflection/abbreviation rules. They remain flagged for editorial review.
+- All 234 former English-definition gaps are filled: 216 use Wiktionary-derived definitions and 18 multiword terms use a context-matched Podlingora editorial definition. Externally sourced definitions remain flagged for final contextual review.
 - 207 Word examples have no complete Chinese sentence translation.
 - 206 Words use generated spelling/context memory anchors and require editorial improvement.
 - All 321 source Word cards retain the source library's human-review status.

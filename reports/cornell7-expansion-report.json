@@ -99,12 +99,14 @@
     "requires_review": 409
   },
   "unresolved_counts": {
-    "missing_ipa": 234,
-    "missing_english_definition": 234,
+    "missing_ipa": 0,
+    "missing_english_definition": 0,
     "missing_example_translation": 207,
     "generated_spelling_context_memory": 206,
     "requires_human_review": 321,
-    "transcript_segments_requiring_review": 409
+    "transcript_segments_requiring_review": 409,
+    "externally_sourced_ipa_requiring_review": 234,
+    "externally_sourced_definition_requiring_review": 216
   },
-  "note": "Source excerpts are transcript-grounded. Sentence-level audio timestamps are absent and no clip objects were generated. Missing IPA and generated fallback memory aids remain explicitly unresolved."
+  "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required."
 }

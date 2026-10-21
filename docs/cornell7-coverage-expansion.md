@@ -19,4 +19,9 @@ Re-run the deterministic import with:
 
 ```powershell
 node scripts/import_cornell7_source_library.mjs <path-to-cornell7-source-library.json>
+node scripts/enrich_cornell7_dictionary.mjs
 ```
+
+The second command adds sourced IPA and English definitions. It should always run after the source-library import because the import is intentionally deterministic and does not depend on a network service.
+
+Pronunciation enrichment acknowledges the [CMU Pronouncing Dictionary](https://github.com/cmusphinx/cmudict), maintained by Carnegie Mellon University's Speech Group. Dictionary definitions and some direct IPA values are obtained through Free Dictionary APIs from Wiktionary-derived data; each enriched card records its source and unreviewed status.

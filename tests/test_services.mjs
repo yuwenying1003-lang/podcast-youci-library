@@ -85,7 +85,10 @@ test('Cornell 7 expansion preserves units, provenance, deduplication, and unreso
   assert.equal(coverage.segments.length, 850);
   assert.equal(Object.values(report.coverage_status).reduce((sum, count) => sum + count, 0), 850);
   assert.equal(audit.missing.ipa, unresolved.missing_ipa.length);
-  assert.equal(audit.missing.ipa, 234);
+  assert.equal(audit.missing.ipa, 0);
+  assert.equal(unresolved.externally_sourced_ipa_requiring_review.length, 234);
+  assert.equal(unresolved.missing_english_definition.length, 0);
+  assert.equal(unresolved.externally_sourced_definition_requiring_review.length, 216);
   assert.equal(audit.missing.example_cn, unresolved.missing_example_translation.length);
   assert.equal(audit.missing.example_cn, 207);
   assert.equal(audit.technicalTips, 0);
