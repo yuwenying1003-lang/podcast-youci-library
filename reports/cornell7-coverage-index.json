@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 302,
+      "phrases": 306,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -41,7 +41,7 @@
         "unit": 4,
         "pages": "11-15",
         "words": 48,
-        "phrases": 41,
+        "phrases": 45,
         "chunks": 10
       },
       {
@@ -95,27 +95,27 @@
       }
     ],
     "coverage_status": {
-      "covered": 404,
-      "no_identified_barrier": 90,
-      "requires_review": 356
+      "covered": 400,
+      "no_identified_barrier": 101,
+      "requires_review": 349
     },
     "unresolved_counts": {
       "missing_ipa": 0,
       "missing_english_definition": 0,
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
-      "requires_human_review": 250,
-      "transcript_segments_requiring_review": 356,
-      "externally_sourced_ipa_requiring_review": 192,
-      "externally_sourced_definition_requiring_review": 174,
-      "machine_translations_requiring_review": 172,
-      "form_generated_memory_requiring_review": 171,
-      "fewer_than_two_collocations": 205
+      "requires_human_review": 202,
+      "transcript_segments_requiring_review": 349,
+      "externally_sourced_ipa_requiring_review": 151,
+      "externally_sourced_definition_requiring_review": 135,
+      "machine_translations_requiring_review": 139,
+      "form_generated_memory_requiring_review": 138,
+      "fewer_than_two_collocations": 170
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-    "reviewed_word_cards": 71,
+    "reviewed_word_cards": 119,
     "translated_word_examples": 321,
-    "upgraded_memory_tips": 114,
+    "upgraded_memory_tips": 149,
     "review_updated_on": "2026-10-22"
   },
   "segments": [
@@ -2208,11 +2208,14 @@
       "page": 11,
       "segment": 158,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Imagined insurer refusal continues 157; take your money means keep/take it elsewhere, not literal accepting payment.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You can take your money."
     },
     {
       "page": 11,
@@ -2220,8 +2223,14 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:don't want to cover"
-      ]
+        "phrase:3:don't want to cover",
+        "word:2:coverage"
+      ],
+      "review_reason": "Cover is insure, consistent with the refusal in 158, not physically cover.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We don't want to cover you."
     },
     {
       "page": 11,
@@ -2229,9 +2238,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:go through",
         "phrase:3:go through that"
-      ]
+      ],
+      "review_reason": "Go through that means experience/deal with the trouble, not travel through an object.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We don't even want to go through that."
     },
     {
       "page": 11,
@@ -2240,9 +2253,13 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:risk",
-        "phrase:3:worth the risk",
         "chunk:3:it's not even worth the risk"
-      ]
+      ],
+      "review_reason": "Worth compares potential benefit with exposure; even adds emphasis to refusal.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's not even worth the risk."
     },
     {
       "page": 11,
@@ -2250,31 +2267,44 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "word:3:fraternity",
         "phrase:3:one of them"
-      ]
+      ],
+      "review_reason": "Them points to organizations insurers allegedly refuse; no independent underwriting conclusion.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Fraternities are one of them."
     },
     {
       "page": 11,
       "segment": 163,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:3:contractor",
-        "word:3:disposal",
-        "word:3:hazardous waste",
         "word:3:statistic",
-        "phrase:3:the sixth worst"
-      ]
+        "word:3:hazardous waste",
+        "word:3:disposal",
+        "word:3:contractor"
+      ],
+      "review_reason": "A best dose contractors is suspect ASR for asbestos contractors, but not audio-verified. Sixth worst statistic is explicitly questioned in subsequent paragraphs; do not silently correct or endorse it.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There is a common statistic that's cited out there that fraternities are the sixth worst insurance risk in the country behind hazardous waste disposal companies and a best dose contractors."
     },
     {
       "page": 11,
       "segment": 164,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Attributes the statement to a magazine and immediately states there is no official list; prevents treating the preceding ranking as verified.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "That was stated in Time magazine, but there's no official list."
     },
     {
       "page": 11,
@@ -2283,32 +2313,48 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "A best dose contract is another suspect ASR form; preserve exact PDF and await audio verification before proposing a quotation repair.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's a best dose contract."
     },
     {
       "page": 11,
       "segment": 166,
       "source_unit": 2,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "requires_review",
+      "learning_item_ids": [],
+      "review_reason": "Mold is a specialized comparison in an uncertain asbestos exchange; no confident interpretation from one short sentence.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's like mold."
     },
     {
       "page": 11,
       "segment": 167,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "I see signals understanding, not literal vision.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Oh, I see."
     },
     {
       "page": 11,
       "segment": 168,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Repeats the explicit absence of an official list.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah, I mean, there's no official list."
     },
     {
       "page": 11,
@@ -2317,38 +2363,56 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:3:very hard to say",
-        "chunk:3:it's very hard to say"
-      ]
+        "phrase:3:the sixth worst"
+      ],
+      "review_reason": "Hard to say expresses uncertainty about the ordinal ranking, not difficulty speaking.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's very hard to say if they're the sixth worst."
     },
     {
       "page": 11,
       "segment": 170,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:statistic"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Exact source is the origin of the repeated statistic; speaker admits inability to verify it. Keep repeating is continue saying.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I couldn't find the exact source of this thing that people keep repeating."
     },
     {
       "page": 11,
       "segment": 171,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Unfinished alternative rank; uncertainty carried across the next paragraph.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Some people say it's the seventh worst or..."
     },
     {
       "page": 11,
       "segment": 172,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Sororities needs the female student-organization sense; fraternity alone does not cover it.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Some people say it's fraternities and sororities."
     },
     {
       "page": 11,
@@ -2357,18 +2421,26 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Greek life is US fraternity/sorority culture, not life in Greece; needs an explicit learning item.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's all Greek life."
     },
     {
       "page": 11,
       "segment": 174,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Just means only; narrows the disputed statistic to male organizations.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Some people say it's just fraternities."
     },
     {
       "page": 11,
@@ -2376,22 +2448,31 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:it does appear"
-      ]
+        "phrase:3:it does appear",
+        "phrase:3:don't want to cover",
+        "word:3:insurance company",
+        "word:3:fraternity"
+      ],
+      "review_reason": "Does emphasizes appear, though marks concession; retains the narrator's inference rather than asserting an independently checked market fact.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It does appear, though, the truth is that many insurance companies don't want to cover fraternities."
     },
     {
       "page": 12,
       "segment": 176,
       "source_unit": 2,
-      "status": "covered",
-      "learning_item_ids": [
-        "phrase:3:the sixth worst"
-      ],
+      "status": "no_identified_barrier",
+      "learning_item_ids": [],
       "candidate_learning_item_ids": [
         "phrase:3:the sixth worst"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: the sixth worst."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Restates uncertainty about sixth worst while reporting the speaker's impression; pronouns refer to insurers and fraternities.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I don't know if it's the sixth worst, but they just don't like them."
     },
     {
       "page": 12,
@@ -2399,9 +2480,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:umbrella",
-        "phrase:3:umbrella coverage"
-      ]
+        "word:3:umbrella"
+      ],
+      "review_reason": "Insurance extension, not rain protection; source's an umbrella coverage is retained but teaching example uses an umbrella policy.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I didn't know they need an umbrella coverage."
     },
     {
       "page": 12,
@@ -2416,18 +2501,24 @@
         "word:3:umbrella",
         "phrase:3:umbrella coverage"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: umbrella coverage."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Repeats insurance phrase; no actual recommendation that any organization must purchase a particular product.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah, they need umbrella coverage."
     },
     {
       "page": 12,
       "segment": 179,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Like asks for a comparison with a company, not a preference.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Are they like a company?"
     },
     {
       "page": 12,
@@ -2436,7 +2527,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:organization"
-      ]
+      ],
+      "review_reason": "Run means manage; right asks for confirmation of the organizational comparison.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They run it probably like an organization, right?"
     },
     {
       "page": 12,
@@ -2444,8 +2540,14 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:national"
-      ]
+        "word:3:national",
+        "phrase:3:umbrella coverage"
+      ],
+      "review_reason": "National means country-wide parent organization, not government; usually qualifies the narrated claim.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So they need umbrella coverage usually for the national organization."
     },
     {
       "page": 12,
@@ -2456,7 +2558,12 @@
         "word:3:chapter",
         "word:3:nightmare",
         "phrase:3:a bunch of"
-      ]
+      ],
+      "review_reason": "Chapter houses are local branch houses; a bunch of is informal quantity; nightmare is figurative difficulty. Disfluent agreement is not copied into teaching example.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And then I think for the chapter houses filled with a bunch of 18-year-olds that are getting drunk is usually an insurance nightmare."
     },
     {
       "page": 12,
@@ -2464,9 +2571,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:that makes sense",
         "chunk:3:that makes sense"
-      ]
+      ],
+      "review_reason": "Acknowledges a comprehensible explanation, not independent agreement that insurance details are true.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "That makes sense."
     },
     {
       "page": 12,
@@ -2474,9 +2585,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:that makes sense",
         "chunk:3:that makes sense"
-      ]
+      ],
+      "review_reason": "Repeats the acknowledgment in 183; no additional language barrier is introduced.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "That makes sense."
     },
     {
       "page": 12,
@@ -2484,10 +2599,15 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:liability",
         "word:3:lawsuits",
+        "word:3:liability",
         "chunk:3:imagine the amount of"
-      ]
+      ],
+      "review_reason": "False start followed by two nouns; countable lawsuits versus uncountable liability kept distinct in new teaching examples.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Imagine the amount of- Lawsuits, liability."
     },
     {
       "page": 12,
@@ -2495,30 +2615,45 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:on a weekly basis"
-      ]
+        "phrase:3:on a weekly basis",
+        "word:2:coverage"
+      ],
+      "review_reason": "On a weekly basis means every week; cover incidents means respond financially under insurance, as the speaker alleges.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah, just incidents that they have to cover on a weekly basis."
     },
     {
       "page": 12,
       "segment": 187,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:3:self insuring",
-        "phrase:3:self insuring",
-        "phrase:3:to the point where",
         "chunk:3:it's to the point where"
-      ]
+      ],
+      "review_reason": "Resulted in self-insuring is printed wording; possible resorted to is unverified. Speaker also conflates retained risk with setting up insurers, so do not certify the explanation.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's to the point where a lot of the fraternities have resulted in self-insuring."
     },
     {
       "page": 12,
       "segment": 188,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:set up",
+        "word:3:insurance company"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Set up means establish; card now supports the phrasal verb.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They have set up their own insurance companies."
     },
     {
       "page": 12,
@@ -2526,8 +2661,15 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:3:came together",
+        "word:3:fraternity",
         "word:3:insurance company"
-      ]
+      ],
+      "review_reason": "Came together means collaborated; big fraternities are large organizations, not older brothers.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Some big fraternities even came together to create their own insurance company."
     },
     {
       "page": 12,
@@ -2536,7 +2678,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:fraternity"
-      ]
+      ],
+      "review_reason": "Acronym expanded in the sentence; Trust is part of the organization's proper name. No independent fact-check of corporate status is claimed.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's one really big one called FRMT, Fraternity Risk Management Trust."
     },
     {
       "page": 12,
@@ -2546,20 +2693,30 @@
       "learning_item_ids": [
         "word:3:board member",
         "word:3:liability coverage",
-        "phrase:3:typically don't cover"
-      ]
+        "word:3:national"
+      ],
+      "review_reason": "Write coverage is provide/issue insurance; roughly half is approximate. Things is completed by the relative clause in 192; claim remains attributed to board member.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "A board member states that they write liability coverage for roughly half of all the national fraternities, but they typically don't cover the things."
     },
     {
       "page": 12,
       "segment": 192,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:3:alcohol",
         "word:3:hazing",
-        "word:3:sued",
-        "phrase:3:get sued"
-      ]
+        "word:3:alcohol",
+        "word:3:violation",
+        "word:3:sued"
+      ],
+      "review_reason": "Essay in list of grounds for suit is euphemistic/ASR wording, not written composition; retain source and flag. Other insurance claims remain attributed.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "That fraternities usually get sued for, such as hazing, alcohol violations, or essay."
     },
     {
       "page": 12,
@@ -2567,25 +2724,32 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:fine print",
-        "phrase:3:fine print"
-      ]
+        "word:3:fine print"
+      ],
+      "review_reason": "Fine print announces restrictions rather than small aesthetic print.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And there's fine print."
     },
     {
       "page": 13,
       "segment": 194,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:3:fraternity",
-        "word:3:organization"
+        "word:3:hazing"
       ],
       "candidate_learning_item_ids": [
         "word:3:fraternity",
         "word:3:organization"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Pledged, vague, directed towards, and representative of need support; unfinished disclaimer continues in 195 and must not become an assertion about all organizations.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So basically, if you're a member of a fraternity, you're 18, you went to college, you just joined a fraternity, you just pledged, you got hazed, and obviously this is vague and not directed towards one organization, but a general overview that shouldn't be taken as representative of"
     },
     {
       "page": 13,
@@ -2594,20 +2758,28 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Completes the not representative disclaimer in 194; review with that full sentence before closing.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Any specific or all organizations."
     },
     {
       "page": 13,
       "segment": 196,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [
         "word:3:fraternity"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Introduces a hypothetical if scenario, not a report about a named member.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But if you're a member of a fraternity and you're drunk, you do something really bad."
     },
     {
       "page": 13,
@@ -2615,30 +2787,42 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:you end up getting sued"
-      ]
+        "phrase:3:you end up getting sued",
+        "word:3:sued"
+      ],
+      "review_reason": "End up is eventual outcome; get sued is passive, not a judgment of liability.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You end up getting sued, okay?"
     },
     {
       "page": 13,
       "segment": 198,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [
         "word:3:fraternity"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Annual payment in the narrator's example; like qualifies an approximate amount.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You pay the fraternity like $50 a year."
     },
     {
       "page": 13,
       "segment": 199,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Alternative rough amounts attributed to some people, not a verified fee schedule.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Some people say it's $100 a year, couple hundred dollars a year for insurance."
     },
     {
       "page": 13,
@@ -2646,11 +2830,15 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "word:3:fine print",
         "phrase:3:the minute you",
-        "phrase:3:under certain circumstances",
-        "phrase:3:you are no longer",
-        "chunk:3:the minute you"
-      ]
+        "phrase:3:under certain circumstances"
+      ],
+      "review_reason": "The minute means as soon as; under certain circumstances limits the hypothetical statement. No general insurance rule inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member."
     },
     {
       "page": 13,
@@ -2659,21 +2847,30 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:membership",
-        "word:3:policy",
         "word:3:rescinded",
-        "phrase:3:no longer covered",
-        "phrase:3:insurance policy"
-      ]
+        "word:3:policy",
+        "phrase:3:no longer covered"
+      ],
+      "review_reason": "Chains claimed consequences of membership cancellation and coverage loss; definition/example now use insurance policy, not company rules.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Your membership is rescinded, which means the minute that that happens, you are no longer a fraternity member, which means you are no longer covered under the fraternity insurance policy."
     },
     {
       "page": 13,
       "segment": 202,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:membership"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Anymore/no longer indicates ending the hypothetical membership.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You're just not a member anymore now."
     },
     {
       "page": 13,
@@ -2682,8 +2879,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Spanked is a concrete action in the initiation account and needs a definition; do not hide it behind a generic hazing label.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yes, you got spanked."
     },
     {
       "page": 13,
@@ -2691,9 +2891,15 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "word:3:hazing",
         "word:3:organized",
         "phrase:3:have a lot more in common with"
-      ]
+      ],
+      "review_reason": "Comparison with organized meetups conveys criticism; FetLife is a proper-name adult social platform reference, not a reusable learner word.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You got hazed in ways that probably have a lot more in common with organized FetLife meetups."
     },
     {
       "page": 13,
@@ -2702,7 +2908,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:blindfolds"
-      ]
+      ],
+      "review_reason": "Noun fragment adds equipment to the preceding description; new example uses the correct noun meaning.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Blindfolds."
     },
     {
       "page": 13,
@@ -2711,8 +2922,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Raw onion, forced to plank, and professing undying love contain multiple concrete/idiomatic barriers needing explicit support; no coverage from theme alone.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You're eating an entire raw onion while being spanked, then forced to plank while professing your undying love to the brothers."
     },
     {
       "page": 13,
@@ -2721,27 +2935,41 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "You're big may be ASR for your big, a fraternity mentor role; do not repair without audio. Continues into 208.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And you're big, which is the guy standing over you watching with like a..."
     },
     {
       "page": 13,
       "segment": 208,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:3:interpersonal",
-        "word:3:power trip"
-      ]
+        "word:3:power trip",
+        "word:3:interpersonal"
+      ],
+      "review_reason": "Sarcastic praise after coercive actions; pinnacle remains a vocabulary gap and the opening attaches to uncertain 207.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Weird power trip and that obviously can only mean that this is like the pinnacle of interpersonal relationships and friendship."
     },
     {
       "page": 14,
       "segment": 209,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:3:the second that"
-      ]
+        "phrase:3:the second that",
+        "word:3:drops"
+      ],
+      "review_reason": "Dropped means membership removed; court filing needs explicit support and the statement remains a generalized claim, not a verified rule.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "All of that, the second that there's a court filing, that member is likely dropped."
     },
     {
       "page": 14,
@@ -2750,7 +2978,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:poetic"
-      ]
+      ],
+      "review_reason": "Ironically fitting outcome after claimed membership cancellation, not simply beautiful poetry; contextual note distinguishes lexical meaning from sarcasm.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's almost poetic actually."
     },
     {
       "page": 14,
@@ -2758,9 +2991,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:workaround",
         "word:3:workarounds"
-      ]
+      ],
+      "review_reason": "Workarounds names alternatives; odd marks the speaker's evaluation, not assurance that the arrangements are valid.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There are two odd workarounds for this alcohol thing."
     },
     {
       "page": 14,
@@ -2772,10 +3009,13 @@
         "word:3:third party",
         "word:3:vendor",
         "word:3:assume",
-        "phrase:3:assume the liability",
-        "phrase:3:check ids",
-        "phrase:3:third party vendor"
-      ]
+        "phrase:3:check ids"
+      ],
+      "review_reason": "Long disfluent enumeration introduces option one; assume liability means accept responsibility, not guess. This is reported language, not insurance advice.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Two usually approved ways of drinking at fraternity houses that have your chance of most likely staying insured by the fraternity insurance is one, the fraternity brings in a third party vendor to check IDs and they assume the liability."
     },
     {
       "page": 14,
@@ -2783,15 +3023,29 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:inebriated"
-      ]
+        "word:3:inebriated",
+        "phrase:3:check ids"
+      ],
+      "review_reason": "Host an event and stop giving drinks describe service roles; too inebriated means too drunk. Gonna is informal going to.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's like you're hosting an event and now they're gonna check the ID, make sure everyone's 21 and they're gonna stop giving you drinks when you seem too inebriated."
     },
     {
       "page": 14,
       "segment": 214,
       "source_unit": 2,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:liability",
+        "word:3:assume"
+      ],
+      "review_reason": "Liable is adjective related to liability, meaning responsible as asserted in the example; no determination of actual liability.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're now liable."
     },
     {
       "page": 14,
@@ -2800,8 +3054,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "BYOB begins option two and is expanded in 216, but wording whole list of BYOB is unclear; read the full checklist before approving.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Or two, this is crazy, but there's a whole list of BYOB."
     },
     {
       "page": 14,
@@ -2810,17 +3067,25 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:3:bring your own beer"
-      ]
+      ],
+      "review_reason": "Source explicitly expands BYOB as beer. A checklist lists required steps; supposed to indicates expected compliance, not guaranteed behavior.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's bring your own beer and they have a whole checklist that they're supposed to do."
     },
     {
       "page": 14,
       "segment": 217,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Assign someone at the door means designate an entry checker; incomplete task details supplied in 218–220.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So they assign someone at the door"
     },
     {
       "page": 14,
@@ -2828,20 +3093,26 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:guest list",
-        "word:3:guest",
-        "phrase:3:guest list"
-      ]
+        "word:3:guest list"
+      ],
+      "review_reason": "Event-entry list, not an unspecified list of objects.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And it's like a guest list."
     },
     {
       "page": 14,
       "segment": 219,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Age threshold in the narrator's scenario; not offered as current jurisdiction-specific legal advice.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Everybody has to be 21."
     },
     {
       "page": 14,
@@ -2850,8 +3121,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "It has to be marked has an unclear antecedent (list/eligibility); do not invent a specific mark or checking procedure.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It has to be marked."
     },
     {
       "page": 14,
@@ -2861,7 +3135,12 @@
       "learning_item_ids": [
         "word:3:beverages",
         "phrase:3:you can only"
-      ]
+      ],
+      "review_reason": "Six drinks is a count, not six types; and under means at most. Limits are narrated examples, not validated policy terms.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You can only bring like six beverages, like six beers and under, or like one bottle of wine."
     },
     {
       "page": 14,
@@ -2870,16 +3149,26 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:limitation"
-      ]
+      ],
+      "review_reason": "Some sort of acknowledges imprecision about the limit rather than specifying a confirmed rule.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's some sort of limitation there."
     },
     {
       "page": 14,
       "segment": 223,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:3:take off"
-      ]
+      ],
+      "review_reason": "Band is likely a wristband used for entry/drinking controls, not musicians; needs an explicit contextual item. Cannot remove is covered by take off.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And then you get a band that you can't take off and you can only drink your own beer."
     },
     {
       "page": 14,
@@ -2887,15 +3176,18 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:you can only",
-        "word:3:alcohol"
+        "word:3:alcohol",
+        "phrase:3:you can only"
       ],
       "candidate_learning_item_ids": [
         "word:3:alcohol",
         "phrase:3:you can only"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: you can only."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Restricts the quantity to what the attendee brought; like is a filler, not a comparison here.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Or you can only drink like the amount of alcohol that you brought."
     },
     {
       "page": 14,
@@ -2904,15 +3196,23 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Ensure in the PDF may stand for insure; retain the original and await audio rather than teaching ensure as insurance protection.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You're saying that's the only time they will ensure these type of incidents?"
     },
     {
       "page": 15,
       "segment": 226,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short response to the preceding question; does not resolve its transcription uncertainty.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yes."
     },
     {
       "page": 15,
@@ -2923,8 +3223,11 @@
       "candidate_learning_item_ids": [
         "word:3:fraternity"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Fellow fraternity brothers and the contrast between checkers' ages and the stated threshold need explanation; no blanket coverage.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But like the people that are checking all these things are your fellow fraternity brothers that are also 18, 19, probably maybe 21."
     },
     {
       "page": 15,
@@ -2933,19 +3236,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:3:foolproof"
-      ]
+      ],
+      "review_reason": "Not foolproof denies reliability; repeated it's is speech repair.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's just it's not like a foolproof way."
     },
     {
       "page": 15,
       "segment": 229,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [
         "word:3:fraternity"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Which is why links the previous asserted weakness to the speaker's conclusion; nonstandard there's a lot of things is retained only in source.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Which is why there's a lot of bad things that happen at fraternity houses."
     },
     {
       "page": 15,
@@ -2953,19 +3264,28 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:all else fails",
-        "phrase:3:if all else fails",
-        "chunk:3:if all else fails"
-      ]
+        "phrase:3:if all else fails"
+      ],
+      "review_reason": "Fallback transition, completed by the following discussion; not a standalone guarantee.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But if all else fails,"
     },
     {
       "page": 15,
       "segment": 231,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
+        "word:3:insured",
         "phrase:3:who pays them out"
-      ]
+      ],
+      "review_reason": "Disfluent question about who funds payments; referent of them and insurer/claimant relationships are unclear. Do not convert pays them out into a universal clean model.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "When members are not insured, fraternity brothers, and this is so strange, I was thinking, okay, like where do they, who pays them out then?"
     },
     {
       "page": 15,
@@ -2973,9 +3293,15 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "word:3:sued",
         "word:3:drops",
         "chunk:3:what happens then"
-      ]
+      ],
+      "review_reason": "If scenario asks consequences of losing coverage. Drops means organization removes the member, not member quitting or liquid drops.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?"
     },
     {
       "page": 15,
@@ -2983,19 +3309,29 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "word:3:payouts",
         "word:3:homeowner's",
-        "word:3:payouts"
-      ]
+        "word:3:policy",
+        "word:1:apparently"
+      ],
+      "review_reason": "Apparently limits confidence; payout and policy definitions clarify the attributed claim without treating parents' insurance as guaranteed coverage.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Apparently a large number of payouts are made by that individual's parents' homeowner's insurance policy."
     },
     {
       "page": 15,
       "segment": 234,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Unfinished evaluative reaction; continuation elaborates the impression rather than supplying missing factual content.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's just like the strangest."
     },
     {
       "page": 15,
@@ -3003,8 +3339,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:3:take on fraternity cases"
-      ]
+        "phrase:3:take on"
+      ],
+      "review_reason": "Ecosphere is a figurative interconnected professional world; take on cases means accept them, now taught with a transferable work example.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's like a whole ecosphere of lawyers who only take on fraternity cases."
     },
     {
       "page": 15,
@@ -3012,18 +3353,29 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:industry"
-      ]
+        "phrase:3:big names",
+        "word:3:industry",
+        "word:3:chapter",
+        "word:3:national"
+      ],
+      "review_reason": "Big names means prominent professionals; heads are leaders, and profanity intensifies hate. No literal size or diligence sense.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's some really big ones, like big names in the industry that all of the chapter heads, the national heads of these organizations fucking hate these lawyers."
     },
     {
       "page": 15,
       "segment": 237,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Everybody knows everybody is hyperbole for a small connected circle, not a verified universal social network.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's like one big everybody knows everybody type of thing."
     },
     {
       "page": 15,
@@ -3031,15 +3383,18 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:fraternity",
+        "word:3:insurance company",
         "word:3:national"
       ],
       "candidate_learning_item_ids": [
         "word:3:fraternity",
         "word:3:national"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
+      "review_status": "contextually_reviewed",
+      "review_reason": "A Reddit user's quoted annual payment; per brother per year specifies both units and went to means was spent on. Attribution is not verification.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "One Redditor writes that when he was in a fraternity, quote, $50 per brother per year went to insurance, which the national office required."
     },
     {
       "page": 15,
@@ -3047,25 +3402,32 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:3:bylaw",
-        "word:3:bylaws",
+        "word:3:policy",
         "word:3:violation",
+        "word:3:bylaws",
         "phrase:3:in which case",
-        "phrase:3:no coverage is offered",
-        "phrase:3:read the insurance policy",
-        "phrase:3:result in",
-        "chunk:3:in which case",
-        "chunk:3:the thing is"
-      ]
+        "phrase:3:result in"
+      ],
+      "review_reason": "Either...or joins two alleged breaches; in which case refers back to that condition. Entire generalization is part of a user's quoted account, not binding policy interpretation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
     },
     {
       "page": 15,
       "segment": 240,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:3:throw a football around"
-      ]
+        "phrase:3:throw a football around",
+        "word:3:liability"
+      ],
+      "review_reason": "Non-brothers means nonmembers, not unrelated siblings; athletic is a further vocabulary gap. Quoted policy account must remain attributed.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We technically could not throw a football around in the front yard with non-brothers that were there because according to the policy, anything athletic was too much of a liability for the insurance company."
     },
     {
       "page": 16,

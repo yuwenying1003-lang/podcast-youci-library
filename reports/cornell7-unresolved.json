@@ -5,206 +5,6 @@
   "generated_spelling_context_memory": [],
   "requires_human_review": [
     {
-      "unit": 4,
-      "page": 11,
-      "word": "contractor"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "disposal"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "hazardous waste"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "risk"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "statistic"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "alcohol"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "board member"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "chapter"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "fine print"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "fraternity"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "hazing"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "insurance company"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "liability"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "liability coverage"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "national"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "nightmare"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "organization"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "self-insuring"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "umbrella"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "blindfolds"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "interpersonal"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "membership"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "policy"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "power trip"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "rescinded"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest list"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "inebriated"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "insured"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "limitation"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "poetic"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "third party"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "vendor"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workaround"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaw"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaws"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "foolproof"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "homeowner's"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "industry"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "payouts"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "violation"
-    },
-    {
       "unit": 5,
       "page": 16,
       "word": "absorb"
@@ -330,31 +130,6 @@
       "word": "plaintiffs"
     },
     {
-      "unit": 4,
-      "page": 12,
-      "word": "lawsuits"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "sued"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "organized"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workarounds"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "standard"
@@ -365,24 +140,9 @@
       "word": "process"
     },
     {
-      "unit": 4,
-      "page": 14,
-      "word": "beverages"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "escape"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "drops"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "assume"
     },
     {
       "unit": 5,
@@ -1425,179 +1185,125 @@
     },
     {
       "page": 11,
-      "segment": 158,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 11,
-      "segment": 164,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 163,
+      "reason": "A best dose contractors is suspect ASR for asbestos contractors, but not audio-verified. Sixth worst statistic is explicitly questioned in subsequent paragraphs; do not silently correct or endorse it."
     },
     {
       "page": 11,
       "segment": 165,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "A best dose contract is another suspect ASR form; preserve exact PDF and await audio verification before proposing a quotation repair.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 11,
-      "segment": 168,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 11,
-      "segment": 170,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 11,
-      "segment": 171,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 166,
+      "reason": "Mold is a specialized comparison in an uncertain asbestos exchange; no confident interpretation from one short sentence."
     },
     {
       "page": 11,
       "segment": 172,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Sororities needs the female student-organization sense; fraternity alone does not cover it.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 11,
       "segment": 173,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 11,
-      "segment": 174,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Greek life is US fraternity/sorority culture, not life in Greece; needs an explicit learning item.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 12,
-      "segment": 179,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 187,
+      "reason": "Resulted in self-insuring is printed wording; possible resorted to is unverified. Speaker also conflates retained risk with setting up insurers, so do not certify the explanation."
     },
     {
       "page": 12,
-      "segment": 188,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 192,
+      "reason": "Essay in list of grounds for suit is euphemistic/ASR wording, not written composition; retain source and flag. Other insurance claims remain attributed."
+    },
+    {
+      "page": 13,
+      "segment": 194,
+      "reason": "Pledged, vague, directed towards, and representative of need support; unfinished disclaimer continues in 195 and must not become an assertion about all organizations.",
+      "candidate_learning_item_ids": [
+        "word:3:fraternity",
+        "word:3:organization"
+      ]
     },
     {
       "page": 13,
       "segment": 195,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 13,
-      "segment": 196,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:3:fraternity"
-      ]
-    },
-    {
-      "page": 13,
-      "segment": 198,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:3:fraternity"
-      ]
-    },
-    {
-      "page": 13,
-      "segment": 199,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 13,
-      "segment": 202,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Completes the not representative disclaimer in 194; review with that full sentence before closing.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 13,
       "segment": 203,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Spanked is a concrete action in the initiation account and needs a definition; do not hide it behind a generic hazing label.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 13,
       "segment": 206,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Raw onion, forced to plank, and professing undying love contain multiple concrete/idiomatic barriers needing explicit support; no coverage from theme alone.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 13,
       "segment": 207,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "You're big may be ASR for your big, a fraternity mentor role; do not repair without audio. Continues into 208.",
       "candidate_learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 208,
+      "reason": "Sarcastic praise after coercive actions; pinnacle remains a vocabulary gap and the opening attaches to uncertain 207."
+    },
+    {
+      "page": 14,
+      "segment": 209,
+      "reason": "Dropped means membership removed; court filing needs explicit support and the statement remains a generalized claim, not a verified rule."
     },
     {
       "page": 14,
       "segment": 215,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 14,
-      "segment": 217,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 14,
-      "segment": 219,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "BYOB begins option two and is expanded in 216, but wording whole list of BYOB is unclear; read the full checklist before approving.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 14,
       "segment": 220,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "It has to be marked has an unclear antecedent (list/eligibility); do not invent a specific mark or checking procedure.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 14,
+      "segment": 223,
+      "reason": "Band is likely a wristband used for entry/drinking controls, not musicians; needs an explicit contextual item. Cannot remove is covered by take off."
+    },
+    {
+      "page": 14,
       "segment": 225,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Ensure in the PDF may stand for insure; retain the original and await audio rather than teaching ensure as insurance protection.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 15,
       "segment": 227,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "Fellow fraternity brothers and the contrast between checkers' ages and the stated threshold need explanation; no blanket coverage.",
       "candidate_learning_item_ids": [
         "word:3:fraternity"
       ]
     },
     {
       "page": 15,
-      "segment": 229,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:3:fraternity"
-      ]
+      "segment": 231,
+      "reason": "Disfluent question about who funds payments; referent of them and insurer/claimant relationships are unclear. Do not convert pays them out into a universal clean model."
     },
     {
       "page": 15,
-      "segment": 234,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 15,
-      "segment": 237,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 240,
+      "reason": "Non-brothers means nonmembers, not unrelated siblings; athletic is a further vocabulary gap. Quoted policy account must remain attributed."
     },
     {
       "page": 16,
@@ -3462,270 +3168,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 4,
-      "page": 11,
-      "word": "contractor",
-      "ipa": "/kɑntræktɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "disposal",
-      "ipa": "/dɪspoʊzəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "hazardous waste",
-      "ipa": "/hæzɚdəs weɪst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "risk",
-      "ipa": "/rɪsk/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "statistic",
-      "ipa": "/stətɪstɪk/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "alcohol",
-      "ipa": "/ælkəhɑl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "board member",
-      "ipa": "/bɔrd mɛmbɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "chapter",
-      "ipa": "/tʃæptɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "insurance company",
-      "ipa": "/ɪnʃʊrəns kʌmpəni/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "national",
-      "ipa": "/næʃənəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "nightmare",
-      "ipa": "/naɪtmɛr/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "organization",
-      "ipa": "/ɔrɡənəzeɪʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "umbrella",
-      "ipa": "/əmbrɛlə/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "blindfolds",
-      "ipa": "/blaɪndfoʊldz/",
-      "source": "CMU Pronouncing Dictionary + transparent inflection/abbreviation rule",
-      "status": "rule_derived_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "interpersonal",
-      "ipa": "/ɪntɚpɝsənəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "membership",
-      "ipa": "/mɛmbɚʃɪp/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "policy",
-      "ipa": "/pɑləsi/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "power trip",
-      "ipa": "/paʊɚ trɪp/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "rescinded",
-      "ipa": "/rɪsɪndɪd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest list",
-      "ipa": "/ɡɛst lɪst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "insured",
-      "ipa": "/ɪnʃʊrd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "limitation",
-      "ipa": "/lɪmɪteɪʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "poetic",
-      "ipa": "/poʊɛtɪk/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "third party",
-      "ipa": "/θɝd pɑrti/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "vendor",
-      "ipa": "/vɛndɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workaround",
-      "ipa": "/wɝkɚaʊnd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaw",
-      "ipa": "/baɪlɔ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaws",
-      "ipa": "/baɪlɔz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "foolproof",
-      "ipa": "/fulpruf/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "homeowner's",
-      "ipa": "/hoʊmoʊnɚz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "industry",
-      "ipa": "/ɪndəstri/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "payouts",
-      "ipa": "/peɪaʊts/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "violation",
-      "ipa": "/vaɪəleɪʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 5,
       "page": 16,
       "word": "absorb",
@@ -3878,46 +3320,6 @@
       "status": "external_dictionary_conversion_unreviewed"
     },
     {
-      "unit": 4,
-      "page": 12,
-      "word": "lawsuits",
-      "ipa": "/lɔsuts/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "sued",
-      "ipa": "/sud/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "organized",
-      "ipa": "/ɔrɡənaɪzd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workarounds",
-      "ipa": "/wɝkɚaʊndz/",
-      "source": "CMU Pronouncing Dictionary + transparent inflection/abbreviation rule",
-      "status": "rule_derived_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest",
-      "ipa": "/ɡɛst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "standard",
@@ -3934,34 +3336,10 @@
       "status": "external_dictionary_conversion_unreviewed"
     },
     {
-      "unit": 4,
-      "page": 14,
-      "word": "beverages",
-      "ipa": "/bɛvrɪdʒɪz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "escape",
       "ipa": "/ɪskeɪp/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "drops",
-      "ipa": "/drɑps/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "assume",
-      "ipa": "/əsum/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
     },
@@ -5000,223 +4378,6 @@
   ],
   "externally_sourced_definition_requiring_review": [
     {
-      "unit": 4,
-      "page": 11,
-      "word": "contractor",
-      "definition": "A person or company that builds or improves buildings or structures.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "disposal",
-      "definition": "(countable) A disposition; an arrangement, categorization, or classification of things.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "risk",
-      "definition": "(uncountable) The probability of a negative outcome to a decision or event.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "statistic",
-      "definition": "A single item in a statistical study.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "alcohol",
-      "definition": "(organic chemistry, countable) Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "board member",
-      "definition": "A member of a board in an association or company, especially the board of directors.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "chapter",
-      "definition": "One of the main sections into which a published work is divided, especially a book.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "insurance company",
-      "definition": "A company that provides insurance policies.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "national",
-      "definition": "Pertaining to a nation or country, especially as a whole; affecting, shared by, or existing throughout all of a nation.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "nightmare",
-      "definition": "A very unpleasant or frightening dream.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "organization",
-      "definition": "(uncountable) The quality of being organized.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "umbrella",
-      "definition": "A cloth-covered frame used for protection against rain or sun.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "blindfolds",
-      "definition": "plural of blindfold",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "interpersonal",
-      "definition": "Between two or more people.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "membership",
-      "definition": "The state of being a member of a group or organization.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "policy",
-      "definition": "A principle of behaviour, conduct which an entity (government, organization, etc.) applies or seeks to follow, especially as formally expressed by an authoritative body.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "power trip",
-      "definition": "Any activity which confers a sense of power on the person involved.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "rescinded",
-      "definition": "simple past and past participle of rescind",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest list",
-      "definition": "A list of all the guests invited or allowed to enter an event.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "insured",
-      "definition": "Covered by an insurance policy.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "limitation",
-      "definition": "The act of limiting or the state of being limited.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "poetic",
-      "definition": "Relating to poetry.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "third party",
-      "definition": "(business, commerce) Someone not directly involved in a transaction; an entity beyond the seller (first party) and customer (second party).",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "vendor",
-      "definition": "A person or a company that vends or sells.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workaround",
-      "definition": "A means of overcoming some obstacle, especially an obstacle consisting of constraints, or laws or regulations.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaw",
-      "definition": "A local custom or law of a settlement or district.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaws",
-      "definition": "plural of bylaw",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "foolproof",
-      "definition": "Of a device: protected against, or designed to be proof against, misuse or error.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "industry",
-      "definition": "(uncountable) The tendency to work persistently.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "payouts",
-      "definition": "plural of payout",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "violation",
-      "definition": "The act or an instance of violating or the condition of being violated.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 5,
       "page": 16,
       "word": "absorb",
@@ -5336,41 +4497,6 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 4,
-      "page": 12,
-      "word": "lawsuits",
-      "definition": "plural of lawsuit",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "sued",
-      "definition": "simple past and past participle of sue",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "organized",
-      "definition": "(of things or settings) Having been organized; in good order.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workarounds",
-      "definition": "plural of workaround",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest",
-      "definition": "A recipient of hospitality, especially someone staying by invitation at the house of another.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "standard",
@@ -5385,31 +4511,10 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 4,
-      "page": 14,
-      "word": "beverages",
-      "definition": "plural of beverage",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "escape",
       "definition": "(intransitive) To get free; to free oneself.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "drops",
-      "definition": "plural of drop",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "assume",
-      "definition": "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof.",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
@@ -6220,181 +5325,6 @@
   ],
   "machine_translations_requiring_review": [
     {
-      "unit": 4,
-      "page": 11,
-      "word": "contractor",
-      "example": "There is a common statistic that's cited out there that fraternities are the sixth worst insurance risk in the country behind hazardous waste disposal companies and a best dose contractors.",
-      "translation": "有一个普遍的统计数据表明，兄弟会是该国第六大保险风险，仅次于危险废物处理公司和最佳剂量承包商。"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "disposal",
-      "example": "There is a common statistic that's cited out there that fraternities are the sixth worst insurance risk in the country behind hazardous waste disposal companies and a best dose contractors.",
-      "translation": "有一个普遍的统计数据表明，兄弟会是该国第六大保险风险，仅次于危险废物处理公司和最佳剂量承包商。"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "hazardous waste",
-      "example": "There is a common statistic that's cited out there that fraternities are the sixth worst insurance risk in the country behind hazardous waste disposal companies and a best dose contractors.",
-      "translation": "有一个普遍的统计数据表明，兄弟会是该国第六大保险风险，仅次于危险废物处理公司和最佳剂量承包商。"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "risk",
-      "example": "It's not even worth the risk.",
-      "translation": "甚至不值得冒这个风险。"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "statistic",
-      "example": "There is a common statistic that's cited out there that fraternities are the sixth worst insurance risk in the country behind hazardous waste disposal companies and a best dose contractors.",
-      "translation": "有一个普遍的统计数据表明，兄弟会是该国第六大保险风险，仅次于危险废物处理公司和最佳剂量承包商。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "alcohol",
-      "example": "That fraternities usually get sued for, such as hazing, alcohol violations, or essay.",
-      "translation": "兄弟会通常会因欺凌、酗酒或散文等行为而被起诉。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "board member",
-      "example": "A board member states that they write liability coverage for roughly half of all the national fraternities, but they typically don't cover the things.",
-      "translation": "一位董事会成员表示，他们为全国大约一半的兄弟会承保责任保险，但他们通常不承保这些事情。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "chapter",
-      "example": "So these institutions are now saving money since Greek life and the chapter houses typically reduce the number of students that need campus housing.",
-      "translation": "因此，这些机构现在正在节省资金，因为希腊生活和分会宿舍通常会减少需要校园住宿的学生数量。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "insurance company",
-      "example": "Some big fraternities even came together to create their own insurance company.",
-      "translation": "一些大兄弟甚至联合起来创建了自己的保险公司。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "national",
-      "example": "So they need umbrella coverage usually for the national organization.",
-      "translation": "因此，他们通常需要为国家组织提供保护伞。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "nightmare",
-      "example": "And then I think for the chapter houses filled with a bunch of 18-year-olds that are getting drunk is usually an insurance nightmare.",
-      "translation": "然后我认为，对于挤满了一群喝醉的 18 岁年轻人的分会来说，这通常是一场保险噩梦。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "organization",
-      "example": "They run it probably like an organization, right?",
-      "translation": "他们可能像一个组织一样运作，对吗？"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "umbrella",
-      "example": "I didn't know they need an umbrella coverage.",
-      "translation": "我不知道他们需要雨伞。"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "blindfolds",
-      "example": "Blindfolds.",
-      "translation": "蒙住眼睛。"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "interpersonal",
-      "example": "Weird power trip and that obviously can only mean that this is like the pinnacle of interpersonal relationships and friendship.",
-      "translation": "奇怪的权力之旅显然只能意味着这就像人际关系和友谊的顶峰。"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "membership",
-      "example": "Your membership is rescinded, which means the minute that that happens, you are no longer a fraternity member, which means you are no longer covered under the fraternity insurance policy.",
-      "translation": "您的会员资格被取消，这意味着您不再是兄弟会会员，这意味着您不再受兄弟会保险单的保护。"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "power trip",
-      "example": "Weird power trip and that obviously can only mean that this is like the pinnacle of interpersonal relationships and friendship.",
-      "translation": "奇怪的权力之旅显然只能意味着这就像人际关系和友谊的顶峰。"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest list",
-      "example": "And it's like a guest list.",
-      "translation": "这就像宾客名单。"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "poetic",
-      "example": "It's almost poetic actually.",
-      "translation": "实际上这几乎是诗意的。"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "third party",
-      "example": "Two usually approved ways of drinking at fraternity houses that have your chance of most likely staying insured by the fraternity insurance is one, the fraternity brings in a third party vendor to check IDs and they assume the liability.",
-      "translation": "在兄弟会会所通常批准的两种饮酒方式最有可能获得兄弟会保险的保险，其中一种是兄弟会聘请第三方供应商检查身份证件，并承担责任。"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaws",
-      "example": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
-      "translation": "问题是，如果你阅读保险单，任何可能导致分会或国家组织被起诉的行为要么违反了兄弟会章程，要么违反了保险单本身，在这种情况下，不提供承保。"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "homeowner's",
-      "example": "Apparently a large number of payouts are made by that individual's parents' homeowner's insurance policy.",
-      "translation": "显然，该人父母的房主保险单支付了大量赔付。"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "industry",
-      "example": "There's some really big ones, like big names in the industry that all of the chapter heads, the national heads of these organizations fucking hate these lawyers.",
-      "translation": "有一些非常大的律师，比如行业内的大人物，所有分会的负责人，这些组织的国家负责人都非常讨厌这些律师。"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "payouts",
-      "example": "Apparently a large number of payouts are made by that individual's parents' homeowner's insurance policy.",
-      "translation": "显然，该人父母的房主保险单支付了大量赔付。"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "violation",
-      "example": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
-      "translation": "问题是，如果你阅读保险单，任何可能导致分会或国家组织被起诉的行为要么违反了兄弟会章程，要么违反了保险单本身，在这种情况下，不提供承保。"
-    },
-    {
       "unit": 5,
       "page": 16,
       "word": "absorb",
@@ -6528,41 +5458,6 @@
       "translation": "有时，打开的窗户旁边会有一张双层床，他们会喝醉，从床上滚下来，然后滚出窗户，从防火梯上掉下来，从阳台上掉下来。"
     },
     {
-      "unit": 4,
-      "page": 12,
-      "word": "lawsuits",
-      "example": "Imagine the amount of- Lawsuits, liability.",
-      "translation": "想象一下诉讼、责任的数量。"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "sued",
-      "example": "That fraternities usually get sued for, such as hazing, alcohol violations, or essay.",
-      "translation": "兄弟会通常会因欺凌、酗酒或散文等行为而被起诉。"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "organized",
-      "example": "You got hazed in ways that probably have a lot more in common with organized FetLife meetups.",
-      "translation": "你受到欺负的方式可能与有组织的 FetLife 聚会有更多共同点。"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workarounds",
-      "example": "There are two odd workarounds for this alcohol thing.",
-      "translation": "对于酒精问题有两种奇怪的解决方法。"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest",
-      "example": "And it's like a guest list.",
-      "translation": "这就像宾客名单。"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "standard",
@@ -6577,32 +5472,11 @@
       "translation": "然而，警方在兄弟会会所发现了间接证据，包括患者可能在此过程中肠道失控并在自己身上排便的证据，而他也不记得了"
     },
     {
-      "unit": 4,
-      "page": 14,
-      "word": "beverages",
-      "example": "You can only bring like six beverages, like six beers and under, or like one bottle of wine.",
-      "translation": "您只能携带六种饮料，例如六瓶及以下啤酒，或一瓶葡萄酒。"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "escape",
       "example": "Sometimes there will be a bunk bed next to an open window and they'll be intoxicated, roll out of the bed and then roll out the window, fall from fire escapes, fall from balconies.",
       "translation": "有时，打开的窗户旁边会有一张双层床，他们会喝醉，从床上滚下来，然后滚出窗户，从防火梯上掉下来，从阳台上掉下来。"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "drops",
-      "example": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?",
-      "translation": "如果您起诉兄弟会成员，而他们的兄弟会取消了他们的保险，那么会发生什么？"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "assume",
-      "example": "Two usually approved ways of drinking at fraternity houses that have your chance of most likely staying insured by the fraternity insurance is one, the fraternity brings in a third party vendor to check IDs and they assume the liability.",
-      "translation": "在兄弟会会所通常批准的两种饮酒方式最有可能获得兄弟会保险的保险，其中一种是兄弟会聘请第三方供应商检查身份证件，并承担责任。"
     },
     {
       "unit": 5,
@@ -7426,131 +6300,6 @@
   ],
   "form_generated_memory_requiring_review": [
     {
-      "unit": 4,
-      "page": 11,
-      "word": "contractor"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "disposal"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "hazardous waste"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "risk"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "statistic"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "alcohol"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "board member"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "chapter"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "insurance company"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "national"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "nightmare"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "organization"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "umbrella"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "blindfolds"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "interpersonal"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "membership"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "power trip"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest list"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "poetic"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "third party"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaws"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "homeowner's"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "industry"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "payouts"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "violation"
-    },
-    {
       "unit": 5,
       "page": 16,
       "word": "absorb"
@@ -7646,31 +6395,6 @@
       "word": "balconies"
     },
     {
-      "unit": 4,
-      "page": 12,
-      "word": "lawsuits"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "sued"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "organized"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workarounds"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "standard"
@@ -7681,24 +6405,9 @@
       "word": "process"
     },
     {
-      "unit": 4,
-      "page": 14,
-      "word": "beverages"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "escape"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "drops"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "assume"
     },
     {
       "unit": 5,
@@ -8288,141 +6997,6 @@
       "word": "bizarre"
     },
     {
-      "unit": 4,
-      "page": 11,
-      "word": "contractor"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "disposal"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "hazardous waste"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "risk"
-    },
-    {
-      "unit": 4,
-      "page": 11,
-      "word": "statistic"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "alcohol"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "board member"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "chapter"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "insurance company"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "liability coverage"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "national"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "nightmare"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "organization"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "umbrella"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "blindfolds"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "interpersonal"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "membership"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "power trip"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest list"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "inebriated"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "poetic"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "third party"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "bylaws"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "homeowner's"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "industry"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "payouts"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "violation"
-    },
-    {
       "unit": 5,
       "page": 16,
       "word": "absorb"
@@ -8543,31 +7117,6 @@
       "word": "plaintiffs"
     },
     {
-      "unit": 4,
-      "page": 12,
-      "word": "lawsuits"
-    },
-    {
-      "unit": 4,
-      "page": 12,
-      "word": "sued"
-    },
-    {
-      "unit": 4,
-      "page": 13,
-      "word": "organized"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "workarounds"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "guest"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "standard"
@@ -8578,24 +7127,9 @@
       "word": "process"
     },
     {
-      "unit": 4,
-      "page": 14,
-      "word": "beverages"
-    },
-    {
       "unit": 5,
       "page": 18,
       "word": "escape"
-    },
-    {
-      "unit": 4,
-      "page": 15,
-      "word": "drops"
-    },
-    {
-      "unit": 4,
-      "page": 14,
-      "word": "assume"
     },
     {
       "unit": 5,

@@ -68,12 +68,12 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
-- Batch evidence: reports/cornell7-unit2-transcript-review.json and reports/cornell7-unit3-review-batch.json; additional batches use the same explicit review format.
+- Batch evidence: reports/cornell7-unit2-transcript-review.json, reports/cornell7-unit3-review-batch.json and reports/cornell7-unit4-review-batch.json; additional batches use the same explicit review format.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.
 
 ## Validation and boundaries
 
-Latest tested PDF/Unit 2–3 batch: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
+PDF/Unit 2–4 batches: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
 
 Only course content, editorial scripts, tests and reports are in scope. UI, CSS, player/audio controls, AI/login configuration, sentence checking and collections remain untouched. PR #16 only; no merge or deployment.
 
