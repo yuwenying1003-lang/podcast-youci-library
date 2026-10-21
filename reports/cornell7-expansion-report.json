@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-21T19:53:39.075Z",
+  "source_schema": "2.4-expanded-fourth-pass",
+  "source_pages": 51,
+  "transcript_segments": 850,
+  "totals": {
+    "words": 321,
+    "phrases": 280,
+    "chunks": 116
+  },
+  "source_candidate_totals": {
+    "words": 321,
+    "phrases": 281,
+    "chunks": 127
+  },
+  "duplicates_removed": 12,
+  "unit_stats": [
+    {
+      "unit": 1,
+      "pages": "1-3",
+      "words": 26,
+      "phrases": 31,
+      "chunks": 14
+    },
+    {
+      "unit": 2,
+      "pages": "4-7",
+      "words": 30,
+      "phrases": 12,
+      "chunks": 13
+    },
+    {
+      "unit": 3,
+      "pages": "8-10",
+      "words": 15,
+      "phrases": 22,
+      "chunks": 5
+    },
+    {
+      "unit": 4,
+      "pages": "11-15",
+      "words": 48,
+      "phrases": 41,
+      "chunks": 10
+    },
+    {
+      "unit": 5,
+      "pages": "16-20",
+      "words": 45,
+      "phrases": 35,
+      "chunks": 16
+    },
+    {
+      "unit": 6,
+      "pages": "21-23",
+      "words": 32,
+      "phrases": 16,
+      "chunks": 3
+    },
+    {
+      "unit": 7,
+      "pages": "24-26",
+      "words": 20,
+      "phrases": 18,
+      "chunks": 5
+    },
+    {
+      "unit": 8,
+      "pages": "27-33",
+      "words": 47,
+      "phrases": 38,
+      "chunks": 12
+    },
+    {
+      "unit": 9,
+      "pages": "34-40",
+      "words": 22,
+      "phrases": 31,
+      "chunks": 17
+    },
+    {
+      "unit": 10,
+      "pages": "41-44",
+      "words": 9,
+      "phrases": 19,
+      "chunks": 15
+    },
+    {
+      "unit": 11,
+      "pages": "45-51",
+      "words": 27,
+      "phrases": 17,
+      "chunks": 6
+    }
+  ],
+  "coverage_status": {
+    "covered": 368,
+    "no_identified_barrier": 73,
+    "requires_review": 409
+  },
+  "unresolved_counts": {
+    "missing_ipa": 234,
+    "missing_english_definition": 234,
+    "missing_example_translation": 207,
+    "generated_spelling_context_memory": 206,
+    "requires_human_review": 321,
+    "transcript_segments_requiring_review": 409
+  },
+  "note": "Source excerpts are transcript-grounded. Sentence-level audio timestamps are absent and no clip objects were generated. Missing IPA and generated fallback memory aids remain explicitly unresolved."
+}

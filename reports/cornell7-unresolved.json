@@ -1,0 +1,7660 @@
+{
+  "missing_ipa": [
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "conclusion"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "filming"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "balance"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "banned"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "aggressive"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "investigation"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "vehicle"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "atrium"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "incident"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protester"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "administration"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "compelled"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "deemed"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "protest"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "allegation"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "doxxed"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "lawsuit"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "scandal"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "bonk"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "screaming"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protesters"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "suspending"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "scandals"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "president"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "campus"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "survivor"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "leaked"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "publicly"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "worst"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "individual"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "apparently"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "conduct"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "outlet"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "alleged"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "potentially"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "frat"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "coverage"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "threatened"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "contractor"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "disposal"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "hazardous waste"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "risk"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "statistic"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "alcohol"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "board member"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "chapter"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "insurance company"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "national"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "nightmare"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "organization"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "umbrella"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "blindfolds"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "interpersonal"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "membership"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "policy"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "power trip"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "rescinded"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest list"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "insured"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "limitation"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "poetic"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "third party"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "vendor"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workaround"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaw"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaws"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "foolproof"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "homeowner's"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "industry"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "payouts"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "violation"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "absorb"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "bypassing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "claim"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "enemas"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "injuries"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "rushed"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "sodomized"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "terrifying"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "assault"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "branding"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "emotional damage"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "grafts"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "hazing lawsuits"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "iron"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "permanent"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "rectum"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "sustain"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "balconies"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "insurance"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "lawsuits"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "sued"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "organized"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workarounds"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "standard"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "process"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "beverages"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "escape"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "drops"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "assume"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "beneficial"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "donation"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "enticing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "financially"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "Greek life"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "housing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "institution"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "marketing"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "chapter"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "dorms"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "merged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active chapters"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "deprived"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "freshman"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physically exhausted"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "pledged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "precipice"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "relevant"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "ashamed"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "cayenne"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "coffin"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inflicting"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "trap door"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vinegar"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "waistband"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "addiction"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "conquest"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "glory"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "offerings"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "vacant"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "arrest"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "ketamine"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "overdosed"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "chivalrous"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "sophomore"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "community"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "promoting"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "generous"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physical"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "barred"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "suspension"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "supplying"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "network"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "investigate"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "sorority"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "fentanyl"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired professional"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "house director"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "legal drinking age"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational manager"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "oversee"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "salaried"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "shots"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "upkeep"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "vodka"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "caretaker"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "bartender"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "establishment"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "fraternity brother"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "separate"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "under 21"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "wristband"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "awkwardly"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "couch"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "dancing"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "propositioned"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "unclear"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "alumni room"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "high proof"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "marijuana"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "powdery"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "pressuring"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "snorting"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "substance"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "unlocked"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "erection"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "meanwhile"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "group message"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "Snapchat"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "clarifying"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "consensual"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "dense"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "morally"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "AFK"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "all caps"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "respond"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "POV"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "low-key"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "onsite"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "manager"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "employees"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "considers"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "invited"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "fake"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interaction"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "believed"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "upsetting"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "certainty"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "findings"
+    },
+    {
+      "unit": 10,
+      "page": 42,
+      "word": "Title IX"
+    },
+    {
+      "unit": 10,
+      "page": 44,
+      "word": "preemptive"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "allegation"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "statement"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "federal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "intentional"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "criminally"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victim"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "academically"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "alleged assault"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "charged"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "graduating"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "emotionally"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "haunt"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "mainstream"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "news outlet"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "recover"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "trauma"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "retreat"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "formal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "complaint"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "commences"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutors"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "equipped"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "healing"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "instantly"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victims"
+    }
+  ],
+  "missing_english_definition": [
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "conclusion"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "filming"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "balance"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "banned"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "aggressive"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "investigation"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "vehicle"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "atrium"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "incident"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protester"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "administration"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "compelled"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "deemed"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "protest"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "allegation"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "doxxed"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "lawsuit"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "scandal"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "bonk"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "screaming"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protesters"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "suspending"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "scandals"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "president"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "campus"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "survivor"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "leaked"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "publicly"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "worst"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "individual"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "apparently"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "conduct"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "outlet"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "alleged"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "potentially"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "frat"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "coverage"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "threatened"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "contractor"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "disposal"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "hazardous waste"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "risk"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "statistic"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "alcohol"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "board member"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "chapter"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "insurance company"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "national"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "nightmare"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "organization"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "umbrella"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "blindfolds"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "interpersonal"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "membership"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "policy"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "power trip"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "rescinded"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest list"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "insured"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "limitation"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "poetic"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "third party"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "vendor"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workaround"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaw"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaws"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "foolproof"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "homeowner's"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "industry"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "payouts"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "violation"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "absorb"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "bypassing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "claim"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "enemas"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "injuries"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "rushed"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "sodomized"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "terrifying"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "assault"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "branding"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "emotional damage"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "grafts"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "hazing lawsuits"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "iron"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "permanent"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "rectum"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "sustain"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "balconies"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "insurance"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "lawsuits"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "sued"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "organized"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workarounds"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "standard"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "process"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "beverages"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "escape"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "drops"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "assume"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "beneficial"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "donation"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "enticing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "financially"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "Greek life"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "housing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "institution"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "marketing"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "chapter"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "dorms"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "merged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active chapters"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "deprived"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "freshman"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physically exhausted"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "pledged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "precipice"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "relevant"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "ashamed"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "cayenne"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "coffin"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inflicting"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "trap door"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vinegar"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "waistband"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "addiction"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "conquest"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "glory"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "offerings"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "vacant"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "arrest"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "ketamine"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "overdosed"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "chivalrous"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "sophomore"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "community"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "promoting"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "generous"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physical"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "barred"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "suspension"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "supplying"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "network"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "investigate"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "sorority"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "fentanyl"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired professional"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "house director"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "legal drinking age"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational manager"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "oversee"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "salaried"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "shots"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "upkeep"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "vodka"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "caretaker"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "bartender"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "establishment"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "fraternity brother"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "separate"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "under 21"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "wristband"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "awkwardly"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "couch"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "dancing"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "propositioned"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "unclear"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "alumni room"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "high proof"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "marijuana"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "powdery"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "pressuring"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "snorting"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "substance"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "unlocked"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "erection"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "meanwhile"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "group message"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "Snapchat"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "clarifying"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "consensual"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "dense"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "morally"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "AFK"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "all caps"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "respond"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "POV"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "low-key"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "onsite"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "manager"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "employees"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "considers"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "invited"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "fake"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interaction"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "believed"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "upsetting"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "certainty"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "findings"
+    },
+    {
+      "unit": 10,
+      "page": 42,
+      "word": "Title IX"
+    },
+    {
+      "unit": 10,
+      "page": 44,
+      "word": "preemptive"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "allegation"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "statement"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "federal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "intentional"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "criminally"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victim"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "academically"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "alleged assault"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "charged"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "graduating"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "emotionally"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "haunt"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "mainstream"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "news outlet"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "recover"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "trauma"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "retreat"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "formal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "complaint"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "commences"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutors"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "equipped"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "healing"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "instantly"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victims"
+    }
+  ],
+  "missing_example_translation": [
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "banned"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "aggressive"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "atrium"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protester"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "administration"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "compelled"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "deemed"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "protest"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "allegation"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "doxxed"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "lawsuit"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "scandal"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "bonk"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "screaming"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protesters"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "suspending"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "scandals"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "president"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "campus"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "survivor"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "leaked"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "publicly"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "worst"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "individual"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "apparently"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "conduct"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "outlet"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "alleged"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "potentially"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "frat"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "threatened"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "contractor"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "disposal"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "hazardous waste"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "risk"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "statistic"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "alcohol"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "board member"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "chapter"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "insurance company"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "national"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "nightmare"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "organization"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "umbrella"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "blindfolds"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "interpersonal"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "membership"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "power trip"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest list"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "poetic"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "third party"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaws"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "homeowner's"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "industry"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "payouts"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "violation"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "absorb"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "bypassing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "claim"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "enemas"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "injuries"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "rushed"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "sodomized"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "terrifying"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "assault"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "branding"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "emotional damage"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "grafts"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "hazing lawsuits"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "iron"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "permanent"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "rectum"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "sustain"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "balconies"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "insurance"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "lawsuits"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "sued"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "organized"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workarounds"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "standard"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "process"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "beverages"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "escape"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "drops"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "assume"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "donation"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "financially"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "Greek life"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "housing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "institution"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "marketing"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "chapter"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "dorms"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "merged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active chapters"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "deprived"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "freshman"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physically exhausted"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "pledged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "precipice"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "relevant"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "ashamed"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "cayenne"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "coffin"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inflicting"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "trap door"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vinegar"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "waistband"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "addiction"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "conquest"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "glory"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "offerings"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "vacant"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "arrest"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "ketamine"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "overdosed"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "chivalrous"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "community"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "promoting"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "generous"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physical"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "barred"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "suspension"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "supplying"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "network"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "investigate"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "sorority"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "fentanyl"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired professional"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "house director"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "legal drinking age"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational manager"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "salaried"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "shots"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "vodka"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "bartender"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "establishment"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "fraternity brother"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "separate"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "under 21"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "awkwardly"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "couch"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "dancing"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "propositioned"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "unclear"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "alumni room"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "high proof"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "marijuana"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "pressuring"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "snorting"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "substance"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "unlocked"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "erection"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "meanwhile"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "group message"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "Snapchat"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "consensual"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "dense"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "morally"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "AFK"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "all caps"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "respond"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "POV"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "low-key"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "onsite"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "manager"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "employees"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "considers"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "invited"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "fake"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interaction"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "believed"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "upsetting"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "findings"
+    },
+    {
+      "unit": 10,
+      "page": 42,
+      "word": "Title IX"
+    },
+    {
+      "unit": 10,
+      "page": 44,
+      "word": "preemptive"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "allegation"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "statement"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "federal"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "criminally"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victim"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "academically"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "alleged assault"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "charged"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "graduating"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "emotionally"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "haunt"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "mainstream"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "news outlet"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "recover"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "trauma"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "retreat"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "formal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "complaint"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "commences"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutors"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "equipped"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "healing"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "instantly"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victims"
+    }
+  ],
+  "generated_spelling_context_memory": [
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "banned"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "aggressive"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "atrium"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protester"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "administration"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "compelled"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "deemed"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "protest"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "allegation"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "doxxed"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "lawsuit"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "scandal"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "bonk"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "screaming"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protesters"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "suspending"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "scandals"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "president"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "campus"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "survivor"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "leaked"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "publicly"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "worst"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "individual"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "apparently"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "conduct"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "outlet"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "alleged"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "potentially"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "frat"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "threatened"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "contractor"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "disposal"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "hazardous waste"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "risk"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "statistic"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "alcohol"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "board member"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "chapter"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "insurance company"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "national"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "nightmare"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "organization"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "umbrella"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "blindfolds"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "interpersonal"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "membership"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "power trip"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest list"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "poetic"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "third party"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaws"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "homeowner's"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "industry"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "payouts"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "violation"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "absorb"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "bypassing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "claim"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "enemas"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "injuries"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "rushed"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "sodomized"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "terrifying"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "assault"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "branding"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "emotional damage"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "grafts"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "hazing lawsuits"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "iron"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "permanent"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "rectum"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "sustain"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "balconies"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "insurance"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "lawsuits"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "sued"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "organized"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workarounds"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "standard"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "process"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "beverages"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "escape"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "drops"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "assume"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "donation"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "financially"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "Greek life"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "housing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "institution"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "marketing"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "chapter"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "dorms"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "merged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active chapters"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "deprived"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "freshman"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physically exhausted"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "pledged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "precipice"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "relevant"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "ashamed"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "cayenne"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "coffin"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inflicting"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "trap door"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vinegar"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "waistband"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "addiction"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "conquest"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "glory"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "offerings"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "vacant"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "arrest"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "ketamine"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "overdosed"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "chivalrous"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "community"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "promoting"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "generous"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physical"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "barred"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "suspension"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "supplying"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "network"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "investigate"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "sorority"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "fentanyl"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired professional"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "house director"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "legal drinking age"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational manager"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "salaried"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "shots"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "vodka"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "bartender"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "establishment"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "fraternity brother"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "separate"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "under 21"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "awkwardly"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "couch"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "dancing"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "propositioned"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "unclear"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "alumni room"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "high proof"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "marijuana"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "pressuring"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "snorting"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "substance"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "unlocked"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "erection"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "meanwhile"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "group message"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "Snapchat"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "dense"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "morally"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "AFK"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "all caps"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "respond"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "POV"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "low-key"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "onsite"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "manager"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "employees"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "considers"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "invited"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "fake"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interaction"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "believed"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "upsetting"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "findings"
+    },
+    {
+      "unit": 10,
+      "page": 42,
+      "word": "Title IX"
+    },
+    {
+      "unit": 10,
+      "page": 44,
+      "word": "preemptive"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "allegation"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "statement"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "federal"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "criminally"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victim"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "academically"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "alleged assault"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "charged"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "graduating"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "emotionally"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "haunt"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "mainstream"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "news outlet"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "recover"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "trauma"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "retreat"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "formal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "complaint"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "commences"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutors"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "equipped"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "healing"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "instantly"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victims"
+    }
+  ],
+  "requires_human_review": [
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "accused"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "backpack"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "conclusion"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "filming"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "parking spot"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "pedestrian"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "recession"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "scenario"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "allegedly"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "anticlimactically"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "balance"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "banned"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "fiasco"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "aggressive"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "bizarre"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "investigation"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "loitering"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "prestigious"
+    },
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "vehicle"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "atrium"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "incident"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protester"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "rescind"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "accosted"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "administration"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "disruptive"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "maneuver"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "volatile"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "compelled"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "deemed"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "harassment"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "hazardous"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "illuminated"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "intimidation"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "protest"
+    },
+    {
+      "unit": 2,
+      "page": 6,
+      "word": "reverse"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "allegation"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "doxxed"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "lawsuit"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "scandal"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "coercion"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "adjudicated"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "credibility"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "speculations"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "bonk"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "screaming"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "protesters"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "suspending"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "expelling"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "scandals"
+    },
+    {
+      "unit": 2,
+      "page": 4,
+      "word": "president"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "campus"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "survivor"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "leaked"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "publicly"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "worst"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "individual"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "apparently"
+    },
+    {
+      "unit": 2,
+      "page": 7,
+      "word": "traumatized"
+    },
+    {
+      "unit": 2,
+      "page": 5,
+      "word": "conduct"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "outlet"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "alleged"
+    },
+    {
+      "unit": 1,
+      "page": 2,
+      "word": "potentially"
+    },
+    {
+      "unit": 1,
+      "page": 1,
+      "word": "frat"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "coverage"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "polarizing"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "threatened"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "contractor"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "disposal"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "hazardous waste"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "risk"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "statistic"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "alcohol"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "board member"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "chapter"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "fine print"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "fraternity"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "hazing"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "insurance company"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "liability"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "liability coverage"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "national"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "nightmare"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "organization"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "self-insuring"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "umbrella"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "blindfolds"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "interpersonal"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "membership"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "policy"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "power trip"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "rescinded"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest list"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "inebriated"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "insured"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "limitation"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "poetic"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "third party"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "vendor"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workaround"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaw"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaws"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "foolproof"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "homeowner's"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "industry"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "payouts"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "violation"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "absorb"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "bypassing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "categorizing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial evidence"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "claim"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "enemas"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "injuries"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "rushed"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "sodomized"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "terrifying"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "assault"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "branding"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "emotional damage"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "grafts"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "hazing lawsuits"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "iron"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "permanent"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "plaintiff"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "pledge"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "rectum"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "sustain"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "balconies"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "intoxicated"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "insurance"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "plaintiffs"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "lawsuits"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "sued"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "organized"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workarounds"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "standard"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "process"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "beverages"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "escape"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "drops"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "assume"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "beneficial"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "disclosed"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "donation"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "enticing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "financially"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "Greek life"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "housing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "incentive"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "institution"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "maintain"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "marketing"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "alumni"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "chapter"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "dorms"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "merged"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "tuition"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active chapters"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "blindfolded"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "deprived"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "endure"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "freshman"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "initiation"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physically exhausted"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "pledged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "precipice"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "psychological"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "relevant"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "articulate"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "ashamed"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "cayenne"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "coffin"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inducted"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inflicting"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "trap door"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vinegar"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vulnerability"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "waistband"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "addiction"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "conquest"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "discarded"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "glory"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "offerings"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "vacant"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "arrest"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "crime log"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "interim"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "jurisdiction"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "ketamine"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "overdosed"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "possession"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "chivalrous"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "creed"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "personal integrity"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "privileges"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "pseudonym"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "sophomore"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "community"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "promoting"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "generous"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physical"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "barred"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "suspension"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "supplying"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "integrity"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "network"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "investigate"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "sorority"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "fentanyl"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "facilitate"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired professional"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "house director"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "legal drinking age"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational manager"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "oversee"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "salaried"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "shots"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "undergraduate"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "upkeep"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "vodka"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "bouncer"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "caretaker"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "bartender"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "establishment"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "fraternity brother"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "separate"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "under 21"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "wristband"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "awkwardly"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "couch"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "dancing"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "propositioned"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "unclear"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "alumni room"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "congregate"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "high proof"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "marijuana"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "plaintiff"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "powdery"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "pressuring"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "snorting"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "substance"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "unlocked"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "erection"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "meanwhile"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "group message"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "Snapchat"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "clarifying"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "consensual"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "dense"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "derogatory"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "morally"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "remotely"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "reprehensible"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "abruptly"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "AFK"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "restating"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "all caps"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "respond"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "POV"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interpretation"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "low-key"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "redacted"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "onsite"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "manager"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "employees"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "considers"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "defendant"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "invited"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "fake"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interaction"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "believed"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "recollection"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "upsetting"
+    },
+    {
+      "unit": 9,
+      "page": 40,
+      "word": "consent"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "certainty"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "findings"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "redaction"
+    },
+    {
+      "unit": 10,
+      "page": 42,
+      "word": "Title IX"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "adjacent"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "alcove"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "cross-referencing"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "snippets"
+    },
+    {
+      "unit": 10,
+      "page": 44,
+      "word": "preemptive"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "allegation"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "statement"
+    },
+    {
+      "unit": 11,
+      "page": 46,
+      "word": "misconduct"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "federal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "intentional"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "criminally"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutor"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victim"
+    },
+    {
+      "unit": 11,
+      "page": 49,
+      "word": "sanctions"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "academically"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "alleged assault"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "charged"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "graduating"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "emotionally"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "haunt"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "mainstream"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "news outlet"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "recover"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "trauma"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "retreat"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "formal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "complaint"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "commences"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutors"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "equipped"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "healing"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "instantly"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victims"
+    }
+  ],
+  "transcript_segments_requiring_review": [
+    {
+      "page": 1,
+      "segment": 6
+    },
+    {
+      "page": 1,
+      "segment": 13
+    },
+    {
+      "page": 1,
+      "segment": 15
+    },
+    {
+      "page": 2,
+      "segment": 23
+    },
+    {
+      "page": 2,
+      "segment": 28
+    },
+    {
+      "page": 2,
+      "segment": 30
+    },
+    {
+      "page": 3,
+      "segment": 36
+    },
+    {
+      "page": 3,
+      "segment": 40
+    },
+    {
+      "page": 3,
+      "segment": 42
+    },
+    {
+      "page": 3,
+      "segment": 46
+    },
+    {
+      "page": 3,
+      "segment": 47
+    },
+    {
+      "page": 4,
+      "segment": 52
+    },
+    {
+      "page": 4,
+      "segment": 54
+    },
+    {
+      "page": 4,
+      "segment": 55
+    },
+    {
+      "page": 4,
+      "segment": 58
+    },
+    {
+      "page": 4,
+      "segment": 60
+    },
+    {
+      "page": 4,
+      "segment": 64
+    },
+    {
+      "page": 5,
+      "segment": 65
+    },
+    {
+      "page": 5,
+      "segment": 66
+    },
+    {
+      "page": 5,
+      "segment": 67
+    },
+    {
+      "page": 5,
+      "segment": 70
+    },
+    {
+      "page": 5,
+      "segment": 71
+    },
+    {
+      "page": 5,
+      "segment": 72
+    },
+    {
+      "page": 6,
+      "segment": 81
+    },
+    {
+      "page": 6,
+      "segment": 84
+    },
+    {
+      "page": 6,
+      "segment": 85
+    },
+    {
+      "page": 6,
+      "segment": 86
+    },
+    {
+      "page": 6,
+      "segment": 87
+    },
+    {
+      "page": 6,
+      "segment": 88
+    },
+    {
+      "page": 6,
+      "segment": 89
+    },
+    {
+      "page": 6,
+      "segment": 91
+    },
+    {
+      "page": 6,
+      "segment": 92
+    },
+    {
+      "page": 6,
+      "segment": 94
+    },
+    {
+      "page": 7,
+      "segment": 100
+    },
+    {
+      "page": 7,
+      "segment": 101
+    },
+    {
+      "page": 7,
+      "segment": 102
+    },
+    {
+      "page": 7,
+      "segment": 104
+    },
+    {
+      "page": 7,
+      "segment": 106
+    },
+    {
+      "page": 8,
+      "segment": 110
+    },
+    {
+      "page": 8,
+      "segment": 111
+    },
+    {
+      "page": 8,
+      "segment": 113
+    },
+    {
+      "page": 8,
+      "segment": 116
+    },
+    {
+      "page": 8,
+      "segment": 117
+    },
+    {
+      "page": 8,
+      "segment": 118
+    },
+    {
+      "page": 8,
+      "segment": 120
+    },
+    {
+      "page": 8,
+      "segment": 121
+    },
+    {
+      "page": 8,
+      "segment": 122
+    },
+    {
+      "page": 8,
+      "segment": 123
+    },
+    {
+      "page": 8,
+      "segment": 124
+    },
+    {
+      "page": 9,
+      "segment": 127
+    },
+    {
+      "page": 9,
+      "segment": 128
+    },
+    {
+      "page": 9,
+      "segment": 129
+    },
+    {
+      "page": 9,
+      "segment": 135
+    },
+    {
+      "page": 9,
+      "segment": 138
+    },
+    {
+      "page": 10,
+      "segment": 142
+    },
+    {
+      "page": 10,
+      "segment": 143
+    },
+    {
+      "page": 10,
+      "segment": 146
+    },
+    {
+      "page": 10,
+      "segment": 150
+    },
+    {
+      "page": 10,
+      "segment": 151
+    },
+    {
+      "page": 10,
+      "segment": 152
+    },
+    {
+      "page": 10,
+      "segment": 153
+    },
+    {
+      "page": 10,
+      "segment": 154
+    },
+    {
+      "page": 10,
+      "segment": 156
+    },
+    {
+      "page": 11,
+      "segment": 158
+    },
+    {
+      "page": 11,
+      "segment": 164
+    },
+    {
+      "page": 11,
+      "segment": 165
+    },
+    {
+      "page": 11,
+      "segment": 168
+    },
+    {
+      "page": 11,
+      "segment": 170
+    },
+    {
+      "page": 11,
+      "segment": 171
+    },
+    {
+      "page": 11,
+      "segment": 172
+    },
+    {
+      "page": 11,
+      "segment": 173
+    },
+    {
+      "page": 11,
+      "segment": 174
+    },
+    {
+      "page": 12,
+      "segment": 176
+    },
+    {
+      "page": 12,
+      "segment": 178
+    },
+    {
+      "page": 12,
+      "segment": 179
+    },
+    {
+      "page": 12,
+      "segment": 188
+    },
+    {
+      "page": 13,
+      "segment": 194
+    },
+    {
+      "page": 13,
+      "segment": 195
+    },
+    {
+      "page": 13,
+      "segment": 196
+    },
+    {
+      "page": 13,
+      "segment": 198
+    },
+    {
+      "page": 13,
+      "segment": 199
+    },
+    {
+      "page": 13,
+      "segment": 202
+    },
+    {
+      "page": 13,
+      "segment": 203
+    },
+    {
+      "page": 13,
+      "segment": 206
+    },
+    {
+      "page": 13,
+      "segment": 207
+    },
+    {
+      "page": 14,
+      "segment": 215
+    },
+    {
+      "page": 14,
+      "segment": 217
+    },
+    {
+      "page": 14,
+      "segment": 219
+    },
+    {
+      "page": 14,
+      "segment": 220
+    },
+    {
+      "page": 14,
+      "segment": 224
+    },
+    {
+      "page": 14,
+      "segment": 225
+    },
+    {
+      "page": 15,
+      "segment": 227
+    },
+    {
+      "page": 15,
+      "segment": 229
+    },
+    {
+      "page": 15,
+      "segment": 234
+    },
+    {
+      "page": 15,
+      "segment": 237
+    },
+    {
+      "page": 15,
+      "segment": 238
+    },
+    {
+      "page": 16,
+      "segment": 241
+    },
+    {
+      "page": 16,
+      "segment": 242
+    },
+    {
+      "page": 16,
+      "segment": 246
+    },
+    {
+      "page": 16,
+      "segment": 252
+    },
+    {
+      "page": 16,
+      "segment": 254
+    },
+    {
+      "page": 17,
+      "segment": 258
+    },
+    {
+      "page": 17,
+      "segment": 259
+    },
+    {
+      "page": 17,
+      "segment": 262
+    },
+    {
+      "page": 17,
+      "segment": 269
+    },
+    {
+      "page": 17,
+      "segment": 271
+    },
+    {
+      "page": 18,
+      "segment": 278
+    },
+    {
+      "page": 18,
+      "segment": 279
+    },
+    {
+      "page": 18,
+      "segment": 280
+    },
+    {
+      "page": 18,
+      "segment": 281
+    },
+    {
+      "page": 18,
+      "segment": 282
+    },
+    {
+      "page": 18,
+      "segment": 284
+    },
+    {
+      "page": 18,
+      "segment": 286
+    },
+    {
+      "page": 18,
+      "segment": 287
+    },
+    {
+      "page": 19,
+      "segment": 291
+    },
+    {
+      "page": 19,
+      "segment": 295
+    },
+    {
+      "page": 19,
+      "segment": 301
+    },
+    {
+      "page": 20,
+      "segment": 309
+    },
+    {
+      "page": 20,
+      "segment": 310
+    },
+    {
+      "page": 20,
+      "segment": 313
+    },
+    {
+      "page": 20,
+      "segment": 321
+    },
+    {
+      "page": 20,
+      "segment": 322
+    },
+    {
+      "page": 21,
+      "segment": 323
+    },
+    {
+      "page": 21,
+      "segment": 325
+    },
+    {
+      "page": 21,
+      "segment": 326
+    },
+    {
+      "page": 21,
+      "segment": 329
+    },
+    {
+      "page": 21,
+      "segment": 330
+    },
+    {
+      "page": 21,
+      "segment": 331
+    },
+    {
+      "page": 21,
+      "segment": 334
+    },
+    {
+      "page": 21,
+      "segment": 335
+    },
+    {
+      "page": 21,
+      "segment": 336
+    },
+    {
+      "page": 22,
+      "segment": 342
+    },
+    {
+      "page": 22,
+      "segment": 346
+    },
+    {
+      "page": 22,
+      "segment": 347
+    },
+    {
+      "page": 22,
+      "segment": 350
+    },
+    {
+      "page": 22,
+      "segment": 355
+    },
+    {
+      "page": 22,
+      "segment": 356
+    },
+    {
+      "page": 22,
+      "segment": 357
+    },
+    {
+      "page": 23,
+      "segment": 361
+    },
+    {
+      "page": 23,
+      "segment": 366
+    },
+    {
+      "page": 23,
+      "segment": 370
+    },
+    {
+      "page": 23,
+      "segment": 372
+    },
+    {
+      "page": 23,
+      "segment": 373
+    },
+    {
+      "page": 23,
+      "segment": 375
+    },
+    {
+      "page": 24,
+      "segment": 377
+    },
+    {
+      "page": 24,
+      "segment": 380
+    },
+    {
+      "page": 24,
+      "segment": 381
+    },
+    {
+      "page": 24,
+      "segment": 383
+    },
+    {
+      "page": 24,
+      "segment": 387
+    },
+    {
+      "page": 24,
+      "segment": 388
+    },
+    {
+      "page": 24,
+      "segment": 390
+    },
+    {
+      "page": 25,
+      "segment": 391
+    },
+    {
+      "page": 25,
+      "segment": 392
+    },
+    {
+      "page": 25,
+      "segment": 394
+    },
+    {
+      "page": 25,
+      "segment": 396
+    },
+    {
+      "page": 25,
+      "segment": 397
+    },
+    {
+      "page": 25,
+      "segment": 399
+    },
+    {
+      "page": 25,
+      "segment": 402
+    },
+    {
+      "page": 25,
+      "segment": 403
+    },
+    {
+      "page": 25,
+      "segment": 404
+    },
+    {
+      "page": 26,
+      "segment": 407
+    },
+    {
+      "page": 26,
+      "segment": 408
+    },
+    {
+      "page": 26,
+      "segment": 409
+    },
+    {
+      "page": 26,
+      "segment": 410
+    },
+    {
+      "page": 26,
+      "segment": 415
+    },
+    {
+      "page": 26,
+      "segment": 416
+    },
+    {
+      "page": 26,
+      "segment": 418
+    },
+    {
+      "page": 26,
+      "segment": 422
+    },
+    {
+      "page": 27,
+      "segment": 424
+    },
+    {
+      "page": 27,
+      "segment": 426
+    },
+    {
+      "page": 27,
+      "segment": 427
+    },
+    {
+      "page": 27,
+      "segment": 430
+    },
+    {
+      "page": 27,
+      "segment": 437
+    },
+    {
+      "page": 27,
+      "segment": 439
+    },
+    {
+      "page": 27,
+      "segment": 440
+    },
+    {
+      "page": 28,
+      "segment": 441
+    },
+    {
+      "page": 28,
+      "segment": 443
+    },
+    {
+      "page": 28,
+      "segment": 446
+    },
+    {
+      "page": 28,
+      "segment": 447
+    },
+    {
+      "page": 28,
+      "segment": 450
+    },
+    {
+      "page": 28,
+      "segment": 451
+    },
+    {
+      "page": 28,
+      "segment": 452
+    },
+    {
+      "page": 28,
+      "segment": 453
+    },
+    {
+      "page": 28,
+      "segment": 454
+    },
+    {
+      "page": 29,
+      "segment": 459
+    },
+    {
+      "page": 29,
+      "segment": 465
+    },
+    {
+      "page": 29,
+      "segment": 467
+    },
+    {
+      "page": 29,
+      "segment": 469
+    },
+    {
+      "page": 29,
+      "segment": 472
+    },
+    {
+      "page": 29,
+      "segment": 473
+    },
+    {
+      "page": 29,
+      "segment": 474
+    },
+    {
+      "page": 30,
+      "segment": 476
+    },
+    {
+      "page": 30,
+      "segment": 477
+    },
+    {
+      "page": 30,
+      "segment": 478
+    },
+    {
+      "page": 30,
+      "segment": 479
+    },
+    {
+      "page": 30,
+      "segment": 480
+    },
+    {
+      "page": 30,
+      "segment": 481
+    },
+    {
+      "page": 30,
+      "segment": 483
+    },
+    {
+      "page": 30,
+      "segment": 489
+    },
+    {
+      "page": 30,
+      "segment": 490
+    },
+    {
+      "page": 31,
+      "segment": 494
+    },
+    {
+      "page": 31,
+      "segment": 496
+    },
+    {
+      "page": 31,
+      "segment": 497
+    },
+    {
+      "page": 31,
+      "segment": 507
+    },
+    {
+      "page": 32,
+      "segment": 509
+    },
+    {
+      "page": 32,
+      "segment": 511
+    },
+    {
+      "page": 32,
+      "segment": 512
+    },
+    {
+      "page": 32,
+      "segment": 513
+    },
+    {
+      "page": 32,
+      "segment": 516
+    },
+    {
+      "page": 32,
+      "segment": 517
+    },
+    {
+      "page": 32,
+      "segment": 518
+    },
+    {
+      "page": 32,
+      "segment": 519
+    },
+    {
+      "page": 32,
+      "segment": 521
+    },
+    {
+      "page": 32,
+      "segment": 522
+    },
+    {
+      "page": 32,
+      "segment": 523
+    },
+    {
+      "page": 32,
+      "segment": 524
+    },
+    {
+      "page": 33,
+      "segment": 525
+    },
+    {
+      "page": 33,
+      "segment": 526
+    },
+    {
+      "page": 33,
+      "segment": 527
+    },
+    {
+      "page": 33,
+      "segment": 531
+    },
+    {
+      "page": 33,
+      "segment": 532
+    },
+    {
+      "page": 33,
+      "segment": 533
+    },
+    {
+      "page": 33,
+      "segment": 534
+    },
+    {
+      "page": 33,
+      "segment": 536
+    },
+    {
+      "page": 33,
+      "segment": 537
+    },
+    {
+      "page": 33,
+      "segment": 538
+    },
+    {
+      "page": 33,
+      "segment": 540
+    },
+    {
+      "page": 33,
+      "segment": 543
+    },
+    {
+      "page": 34,
+      "segment": 545
+    },
+    {
+      "page": 34,
+      "segment": 546
+    },
+    {
+      "page": 34,
+      "segment": 551
+    },
+    {
+      "page": 34,
+      "segment": 555
+    },
+    {
+      "page": 34,
+      "segment": 556
+    },
+    {
+      "page": 34,
+      "segment": 558
+    },
+    {
+      "page": 34,
+      "segment": 559
+    },
+    {
+      "page": 35,
+      "segment": 562
+    },
+    {
+      "page": 35,
+      "segment": 564
+    },
+    {
+      "page": 35,
+      "segment": 565
+    },
+    {
+      "page": 35,
+      "segment": 567
+    },
+    {
+      "page": 35,
+      "segment": 568
+    },
+    {
+      "page": 35,
+      "segment": 571
+    },
+    {
+      "page": 35,
+      "segment": 573
+    },
+    {
+      "page": 35,
+      "segment": 575
+    },
+    {
+      "page": 35,
+      "segment": 577
+    },
+    {
+      "page": 35,
+      "segment": 578
+    },
+    {
+      "page": 36,
+      "segment": 583
+    },
+    {
+      "page": 36,
+      "segment": 584
+    },
+    {
+      "page": 36,
+      "segment": 585
+    },
+    {
+      "page": 36,
+      "segment": 586
+    },
+    {
+      "page": 36,
+      "segment": 588
+    },
+    {
+      "page": 36,
+      "segment": 595
+    },
+    {
+      "page": 36,
+      "segment": 596
+    },
+    {
+      "page": 37,
+      "segment": 598
+    },
+    {
+      "page": 37,
+      "segment": 599
+    },
+    {
+      "page": 37,
+      "segment": 601
+    },
+    {
+      "page": 37,
+      "segment": 602
+    },
+    {
+      "page": 37,
+      "segment": 605
+    },
+    {
+      "page": 37,
+      "segment": 606
+    },
+    {
+      "page": 37,
+      "segment": 608
+    },
+    {
+      "page": 37,
+      "segment": 609
+    },
+    {
+      "page": 37,
+      "segment": 611
+    },
+    {
+      "page": 37,
+      "segment": 612
+    },
+    {
+      "page": 37,
+      "segment": 613
+    },
+    {
+      "page": 37,
+      "segment": 615
+    },
+    {
+      "page": 38,
+      "segment": 616
+    },
+    {
+      "page": 38,
+      "segment": 617
+    },
+    {
+      "page": 38,
+      "segment": 618
+    },
+    {
+      "page": 38,
+      "segment": 619
+    },
+    {
+      "page": 38,
+      "segment": 621
+    },
+    {
+      "page": 38,
+      "segment": 622
+    },
+    {
+      "page": 38,
+      "segment": 625
+    },
+    {
+      "page": 38,
+      "segment": 627
+    },
+    {
+      "page": 38,
+      "segment": 630
+    },
+    {
+      "page": 38,
+      "segment": 632
+    },
+    {
+      "page": 38,
+      "segment": 633
+    },
+    {
+      "page": 39,
+      "segment": 634
+    },
+    {
+      "page": 39,
+      "segment": 638
+    },
+    {
+      "page": 39,
+      "segment": 640
+    },
+    {
+      "page": 39,
+      "segment": 644
+    },
+    {
+      "page": 39,
+      "segment": 648
+    },
+    {
+      "page": 39,
+      "segment": 649
+    },
+    {
+      "page": 39,
+      "segment": 650
+    },
+    {
+      "page": 40,
+      "segment": 653
+    },
+    {
+      "page": 40,
+      "segment": 654
+    },
+    {
+      "page": 40,
+      "segment": 656
+    },
+    {
+      "page": 40,
+      "segment": 657
+    },
+    {
+      "page": 40,
+      "segment": 658
+    },
+    {
+      "page": 40,
+      "segment": 659
+    },
+    {
+      "page": 40,
+      "segment": 661
+    },
+    {
+      "page": 40,
+      "segment": 663
+    },
+    {
+      "page": 40,
+      "segment": 664
+    },
+    {
+      "page": 40,
+      "segment": 665
+    },
+    {
+      "page": 41,
+      "segment": 666
+    },
+    {
+      "page": 41,
+      "segment": 667
+    },
+    {
+      "page": 41,
+      "segment": 668
+    },
+    {
+      "page": 41,
+      "segment": 669
+    },
+    {
+      "page": 41,
+      "segment": 670
+    },
+    {
+      "page": 41,
+      "segment": 677
+    },
+    {
+      "page": 41,
+      "segment": 678
+    },
+    {
+      "page": 41,
+      "segment": 681
+    },
+    {
+      "page": 41,
+      "segment": 682
+    },
+    {
+      "page": 42,
+      "segment": 684
+    },
+    {
+      "page": 42,
+      "segment": 686
+    },
+    {
+      "page": 42,
+      "segment": 687
+    },
+    {
+      "page": 42,
+      "segment": 689
+    },
+    {
+      "page": 42,
+      "segment": 692
+    },
+    {
+      "page": 42,
+      "segment": 693
+    },
+    {
+      "page": 42,
+      "segment": 694
+    },
+    {
+      "page": 42,
+      "segment": 696
+    },
+    {
+      "page": 42,
+      "segment": 698
+    },
+    {
+      "page": 42,
+      "segment": 701
+    },
+    {
+      "page": 43,
+      "segment": 704
+    },
+    {
+      "page": 43,
+      "segment": 705
+    },
+    {
+      "page": 43,
+      "segment": 710
+    },
+    {
+      "page": 43,
+      "segment": 711
+    },
+    {
+      "page": 43,
+      "segment": 713
+    },
+    {
+      "page": 43,
+      "segment": 714
+    },
+    {
+      "page": 43,
+      "segment": 715
+    },
+    {
+      "page": 43,
+      "segment": 717
+    },
+    {
+      "page": 44,
+      "segment": 719
+    },
+    {
+      "page": 44,
+      "segment": 720
+    },
+    {
+      "page": 44,
+      "segment": 722
+    },
+    {
+      "page": 44,
+      "segment": 725
+    },
+    {
+      "page": 44,
+      "segment": 726
+    },
+    {
+      "page": 44,
+      "segment": 727
+    },
+    {
+      "page": 44,
+      "segment": 728
+    },
+    {
+      "page": 44,
+      "segment": 729
+    },
+    {
+      "page": 44,
+      "segment": 730
+    },
+    {
+      "page": 44,
+      "segment": 731
+    },
+    {
+      "page": 44,
+      "segment": 732
+    },
+    {
+      "page": 44,
+      "segment": 733
+    },
+    {
+      "page": 45,
+      "segment": 734
+    },
+    {
+      "page": 45,
+      "segment": 735
+    },
+    {
+      "page": 45,
+      "segment": 737
+    },
+    {
+      "page": 45,
+      "segment": 738
+    },
+    {
+      "page": 45,
+      "segment": 739
+    },
+    {
+      "page": 45,
+      "segment": 740
+    },
+    {
+      "page": 45,
+      "segment": 741
+    },
+    {
+      "page": 45,
+      "segment": 744
+    },
+    {
+      "page": 45,
+      "segment": 745
+    },
+    {
+      "page": 45,
+      "segment": 746
+    },
+    {
+      "page": 45,
+      "segment": 747
+    },
+    {
+      "page": 45,
+      "segment": 748
+    },
+    {
+      "page": 46,
+      "segment": 751
+    },
+    {
+      "page": 46,
+      "segment": 752
+    },
+    {
+      "page": 46,
+      "segment": 753
+    },
+    {
+      "page": 46,
+      "segment": 755
+    },
+    {
+      "page": 46,
+      "segment": 757
+    },
+    {
+      "page": 46,
+      "segment": 759
+    },
+    {
+      "page": 46,
+      "segment": 761
+    },
+    {
+      "page": 46,
+      "segment": 762
+    },
+    {
+      "page": 46,
+      "segment": 763
+    },
+    {
+      "page": 46,
+      "segment": 764
+    },
+    {
+      "page": 46,
+      "segment": 765
+    },
+    {
+      "page": 47,
+      "segment": 768
+    },
+    {
+      "page": 47,
+      "segment": 769
+    },
+    {
+      "page": 47,
+      "segment": 770
+    },
+    {
+      "page": 47,
+      "segment": 773
+    },
+    {
+      "page": 47,
+      "segment": 774
+    },
+    {
+      "page": 47,
+      "segment": 775
+    },
+    {
+      "page": 47,
+      "segment": 776
+    },
+    {
+      "page": 47,
+      "segment": 777
+    },
+    {
+      "page": 47,
+      "segment": 778
+    },
+    {
+      "page": 47,
+      "segment": 779
+    },
+    {
+      "page": 47,
+      "segment": 780
+    },
+    {
+      "page": 47,
+      "segment": 781
+    },
+    {
+      "page": 47,
+      "segment": 782
+    },
+    {
+      "page": 47,
+      "segment": 783
+    },
+    {
+      "page": 48,
+      "segment": 784
+    },
+    {
+      "page": 48,
+      "segment": 789
+    },
+    {
+      "page": 48,
+      "segment": 790
+    },
+    {
+      "page": 48,
+      "segment": 794
+    },
+    {
+      "page": 48,
+      "segment": 795
+    },
+    {
+      "page": 48,
+      "segment": 796
+    },
+    {
+      "page": 48,
+      "segment": 800
+    },
+    {
+      "page": 48,
+      "segment": 801
+    },
+    {
+      "page": 49,
+      "segment": 803
+    },
+    {
+      "page": 49,
+      "segment": 804
+    },
+    {
+      "page": 49,
+      "segment": 805
+    },
+    {
+      "page": 49,
+      "segment": 807
+    },
+    {
+      "page": 49,
+      "segment": 808
+    },
+    {
+      "page": 49,
+      "segment": 809
+    },
+    {
+      "page": 49,
+      "segment": 810
+    },
+    {
+      "page": 49,
+      "segment": 811
+    },
+    {
+      "page": 49,
+      "segment": 812
+    },
+    {
+      "page": 49,
+      "segment": 813
+    },
+    {
+      "page": 49,
+      "segment": 815
+    },
+    {
+      "page": 49,
+      "segment": 816
+    },
+    {
+      "page": 49,
+      "segment": 817
+    },
+    {
+      "page": 49,
+      "segment": 818
+    },
+    {
+      "page": 50,
+      "segment": 819
+    },
+    {
+      "page": 50,
+      "segment": 820
+    },
+    {
+      "page": 50,
+      "segment": 823
+    },
+    {
+      "page": 50,
+      "segment": 824
+    },
+    {
+      "page": 50,
+      "segment": 826
+    },
+    {
+      "page": 50,
+      "segment": 828
+    },
+    {
+      "page": 50,
+      "segment": 829
+    },
+    {
+      "page": 50,
+      "segment": 830
+    },
+    {
+      "page": 50,
+      "segment": 831
+    },
+    {
+      "page": 50,
+      "segment": 832
+    },
+    {
+      "page": 50,
+      "segment": 833
+    },
+    {
+      "page": 50,
+      "segment": 834
+    },
+    {
+      "page": 50,
+      "segment": 835
+    },
+    {
+      "page": 50,
+      "segment": 836
+    },
+    {
+      "page": 51,
+      "segment": 842
+    },
+    {
+      "page": 51,
+      "segment": 843
+    },
+    {
+      "page": 51,
+      "segment": 846
+    },
+    {
+      "page": 51,
+      "segment": 847
+    },
+    {
+      "page": 51,
+      "segment": 850
+    }
+  ]
+}

@@ -27,7 +27,7 @@ export function auditCourse(course) {
     group.push(index);
     groups.set(key, group);
     for (const field of Object.keys(missing)) if (!String(item[field] ?? '').trim()) missing[field]++;
-    if (/transcript|timestamp|time(?:code)?|verified|sentence clip/i.test(item.tip ?? '')) technicalTips++;
+    if (/timestamp|timecode|verified sentence clip|transcript status|not verified/i.test(item.tip ?? '')) technicalTips++;
   }
   const duplicates = [...groups.entries()].filter(([, indexes]) => indexes.length > 1);
   return {

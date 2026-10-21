@@ -1,0 +1,7151 @@
+{
+  "report": {
+    "generated_at": "2026-10-21T19:53:39.075Z",
+    "source_schema": "2.4-expanded-fourth-pass",
+    "source_pages": 51,
+    "transcript_segments": 850,
+    "totals": {
+      "words": 321,
+      "phrases": 280,
+      "chunks": 116
+    },
+    "source_candidate_totals": {
+      "words": 321,
+      "phrases": 281,
+      "chunks": 127
+    },
+    "duplicates_removed": 12,
+    "unit_stats": [
+      {
+        "unit": 1,
+        "pages": "1-3",
+        "words": 26,
+        "phrases": 31,
+        "chunks": 14
+      },
+      {
+        "unit": 2,
+        "pages": "4-7",
+        "words": 30,
+        "phrases": 12,
+        "chunks": 13
+      },
+      {
+        "unit": 3,
+        "pages": "8-10",
+        "words": 15,
+        "phrases": 22,
+        "chunks": 5
+      },
+      {
+        "unit": 4,
+        "pages": "11-15",
+        "words": 48,
+        "phrases": 41,
+        "chunks": 10
+      },
+      {
+        "unit": 5,
+        "pages": "16-20",
+        "words": 45,
+        "phrases": 35,
+        "chunks": 16
+      },
+      {
+        "unit": 6,
+        "pages": "21-23",
+        "words": 32,
+        "phrases": 16,
+        "chunks": 3
+      },
+      {
+        "unit": 7,
+        "pages": "24-26",
+        "words": 20,
+        "phrases": 18,
+        "chunks": 5
+      },
+      {
+        "unit": 8,
+        "pages": "27-33",
+        "words": 47,
+        "phrases": 38,
+        "chunks": 12
+      },
+      {
+        "unit": 9,
+        "pages": "34-40",
+        "words": 22,
+        "phrases": 31,
+        "chunks": 17
+      },
+      {
+        "unit": 10,
+        "pages": "41-44",
+        "words": 9,
+        "phrases": 19,
+        "chunks": 15
+      },
+      {
+        "unit": 11,
+        "pages": "45-51",
+        "words": 27,
+        "phrases": 17,
+        "chunks": 6
+      }
+    ],
+    "coverage_status": {
+      "covered": 368,
+      "no_identified_barrier": 73,
+      "requires_review": 409
+    },
+    "unresolved_counts": {
+      "missing_ipa": 234,
+      "missing_english_definition": 234,
+      "missing_example_translation": 207,
+      "generated_spelling_context_memory": 206,
+      "requires_human_review": 321,
+      "transcript_segments_requiring_review": 409
+    },
+    "note": "Source excerpts are transcript-grounded. Sentence-level audio timestamps are absent and no clip objects were generated. Missing IPA and generated fallback memory aids remain explicitly unresolved."
+  },
+  "segments": [
+    {
+      "page": 1,
+      "segment": 1,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:accused",
+        "word:0:campus",
+        "word:0:frat"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 2,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:pedestrian",
+        "phrase:0:get hit by a car",
+        "phrase:0:at fault",
+        "chunk:0:i can't think of many reasons"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 3,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:conclusion",
+        "word:0:scenario",
+        "phrase:0:follow up questions",
+        "chunk:0:there's not really many scenarios",
+        "chunk:0:without asking a ton of follow up questions"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 4,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:have to be",
+        "phrase:0:kind of",
+        "chunk:0:i mean"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 5,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:recession",
+        "phrase:0:some sort of"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 6,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 1,
+      "segment": 7,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:parking lot"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 8,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:backpack",
+        "word:0:filming"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 9,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:parking spot",
+        "phrase:0:in front of"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 10,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:am i allowed to",
+        "chunk:0:am i allowed to"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 11,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:get the answer",
+        "phrase:0:sooner rather than later",
+        "chunk:0:sooner rather than later"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 12,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:0:i don't know if",
+        "chunk:0:i don't know if but"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 13,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 1,
+      "segment": 14,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:bonk",
+        "phrase:0:little more like"
+      ]
+    },
+    {
+      "page": 1,
+      "segment": 15,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 1,
+      "segment": 16,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:go zero to 60"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 17,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:anticlimactically",
+        "phrase:0:reversing out of"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 18,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:balance",
+        "phrase:0:lose balance"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 19,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:fall over"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 20,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:get dragged",
+        "chunk:0:it's not like"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 21,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:back into",
+        "phrase:0:get out of",
+        "phrase:0:get out of the parking spot"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 22,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:screaming"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 23,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 2,
+      "segment": 24,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 2,
+      "segment": 25,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:banned",
+        "word:0:individual",
+        "word:0:potentially",
+        "phrase:0:the entire year"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 26,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:allegedly",
+        "word:0:alleged",
+        "phrase:0:no longer come back",
+        "phrase:0:run over",
+        "phrase:0:no longer"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 27,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:0:there's a lot of"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 28,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 2,
+      "segment": 29,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 2,
+      "segment": 30,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 2,
+      "segment": 31,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:0:there's different people"
+      ]
+    },
+    {
+      "page": 2,
+      "segment": 32,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:fiasco"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 33,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:this isn't just"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 34,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:prestigious"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 35,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:investigation",
+        "phrase:0:the ones to blame"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 36,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 37,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:bizarre",
+        "chunk:0:it kind of sounds"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 38,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:vehicle",
+        "phrase:0:start moving",
+        "phrase:0:try to do something",
+        "phrase:0:standing in the way"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 39,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:there's a bunch of",
+        "chunk:0:there's a bunch of"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 40,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 41,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 42,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 43,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:aggressive",
+        "phrase:0:not super aggressive"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 44,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:loitering",
+        "chunk:0:it's kind of like"
+      ]
+    },
+    {
+      "page": 3,
+      "segment": 45,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 46,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 47,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 48,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 3,
+      "segment": 49,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 4,
+      "segment": 50,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:1:there's got to be",
+        "chunk:1:there's got to be a better way"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 51,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:incident"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 52,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 4,
+      "segment": 53,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:president"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 54,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 4,
+      "segment": 55,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 4,
+      "segment": 56,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:right before",
+        "phrase:1:to give some context",
+        "chunk:1:to give some context"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 57,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:protester",
+        "word:1:rescind",
+        "word:1:protesters",
+        "word:1:suspending",
+        "word:1:expelling",
+        "word:1:scandals"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 58,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 4,
+      "segment": 59,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:1:i guess",
+        "chunk:1:so i guess"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 60,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 4,
+      "segment": 61,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:atrium"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 62,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:a handful of",
+        "phrase:1:end up following"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 63,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:it doesn't look like",
+        "chunk:1:it doesn't look like"
+      ]
+    },
+    {
+      "page": 4,
+      "segment": 64,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 65,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 66,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 67,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 68,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:1:it's very clear"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 69,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:all things considered",
+        "chunk:1:all things considered"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 70,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 71,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 72,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 73,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:volatile",
+        "chunk:1:it doesn't seem",
+        "chunk:1:it doesn't seem that"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 74,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:apparently"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 75,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:administration",
+        "word:1:conduct",
+        "phrase:1:release a public statement"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 76,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:disruptive"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 77,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:accosted",
+        "phrase:1:blocked the car"
+      ]
+    },
+    {
+      "page": 5,
+      "segment": 78,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 5,
+      "segment": 79,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:maneuver"
+      ]
+    },
+    {
+      "page": 6,
+      "segment": 80,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 81,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 82,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:protest"
+      ]
+    },
+    {
+      "page": 6,
+      "segment": 83,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:harassment",
+        "word:1:intimidation"
+      ]
+    },
+    {
+      "page": 6,
+      "segment": 84,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 85,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 86,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 87,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 88,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 89,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 90,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:hazardous",
+        "word:1:illuminated",
+        "word:1:reverse"
+      ]
+    },
+    {
+      "page": 6,
+      "segment": 91,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 92,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 93,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:compelled",
+        "chunk:1:what compelled someone to"
+      ]
+    },
+    {
+      "page": 6,
+      "segment": 94,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 6,
+      "segment": 95,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:deemed"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 96,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:scandal"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 97,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:worst",
+        "phrase:1:caught up in",
+        "chunk:1:that will not"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 98,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:lawsuit"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 99,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:traumatized"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 100,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 7,
+      "segment": 101,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 7,
+      "segment": 102,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 7,
+      "segment": 103,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:allegation",
+        "chunk:1:it seems like"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 104,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 7,
+      "segment": 105,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:get a fair shake"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 106,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 7,
+      "segment": 107,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:at least"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 108,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:not the other way around"
+      ]
+    },
+    {
+      "page": 7,
+      "segment": 109,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:doxxed"
+      ]
+    },
+    {
+      "page": 8,
+      "segment": 110,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 111,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 112,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 113,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 114,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:pick a side"
+      ]
+    },
+    {
+      "page": 8,
+      "segment": 115,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:2:it is not that simple"
+      ]
+    },
+    {
+      "page": 8,
+      "segment": 116,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 117,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 118,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 119,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:endorsed",
+        "word:2:survivor"
+      ]
+    },
+    {
+      "page": 8,
+      "segment": 120,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 121,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 122,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 123,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 124,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 8,
+      "segment": 125,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:coercion"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 126,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 9,
+      "segment": 127,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 9,
+      "segment": 128,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 9,
+      "segment": 129,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 9,
+      "segment": 130,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:outlet",
+        "phrase:2:up until the time",
+        "phrase:2:up until the time of recording",
+        "phrase:2:news outlet"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 131,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:adjudicated",
+        "word:2:pending",
+        "phrase:2:due to"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 132,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:in the court of law",
+        "phrase:2:innocent until"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 133,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:credibility"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 134,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:speculations",
+        "word:2:leaked",
+        "word:2:publicly"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 135,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 9,
+      "segment": 136,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:do our best"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 137,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:do your own research",
+        "phrase:2:with that being said"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 138,
+      "source_unit": 1,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 9,
+      "segment": 139,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:lawyered up",
+        "phrase:2:lawyered up"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 140,
+      "source_unit": 1,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:at this point"
+      ]
+    },
+    {
+      "page": 9,
+      "segment": 141,
+      "source_unit": 1,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 142,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 143,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 144,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:threatened",
+        "phrase:2:getting threatened"
+      ]
+    },
+    {
+      "page": 10,
+      "segment": 145,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:death threats"
+      ]
+    },
+    {
+      "page": 10,
+      "segment": 146,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 147,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:polarizing",
+        "phrase:2:keep in mind",
+        "chunk:2:just something to keep in mind"
+      ]
+    },
+    {
+      "page": 10,
+      "segment": 148,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:let's get started",
+        "chunk:2:with that being said"
+      ]
+    },
+    {
+      "page": 10,
+      "segment": 149,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:coverage",
+        "word:2:insurance",
+        "phrase:2:at least in my personal experience",
+        "phrase:2:in my personal experience",
+        "phrase:2:say no to coverage",
+        "phrase:2:that's saying no to",
+        "chunk:2:at least in my personal experience",
+        "chunk:2:they don't like to"
+      ]
+    },
+    {
+      "page": 10,
+      "segment": 150,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 151,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 152,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 153,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 154,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 155,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:might as well"
+      ]
+    },
+    {
+      "page": 10,
+      "segment": 156,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 10,
+      "segment": 157,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:we don't even want"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 158,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 159,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:don't want to cover"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 160,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:go through",
+        "phrase:3:go through that"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 161,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:risk",
+        "phrase:3:worth the risk",
+        "chunk:3:it's not even worth the risk"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 162,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:one of them"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 163,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:contractor",
+        "word:3:disposal",
+        "word:3:hazardous waste",
+        "word:3:statistic",
+        "phrase:3:the sixth worst"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 164,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 165,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 166,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 167,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 168,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 169,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:very hard to say",
+        "chunk:3:it's very hard to say"
+      ]
+    },
+    {
+      "page": 11,
+      "segment": 170,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 171,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 172,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 173,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 174,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 11,
+      "segment": 175,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:it does appear"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 176,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 12,
+      "segment": 177,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:umbrella",
+        "phrase:3:umbrella coverage"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 178,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 12,
+      "segment": 179,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 12,
+      "segment": 180,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:organization"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 181,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:national"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 182,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:chapter",
+        "word:3:nightmare",
+        "phrase:3:a bunch of"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 183,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:that makes sense",
+        "chunk:3:that makes sense"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 184,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:that makes sense",
+        "chunk:3:that makes sense"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 185,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:liability",
+        "word:3:lawsuits",
+        "chunk:3:imagine the amount of"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 186,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:on a weekly basis"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 187,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:self insuring",
+        "phrase:3:self insuring",
+        "phrase:3:to the point where",
+        "chunk:3:it's to the point where"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 188,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 12,
+      "segment": 189,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:insurance company"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 190,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 191,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:board member",
+        "word:3:liability coverage",
+        "phrase:3:typically don't cover"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 192,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:alcohol",
+        "word:3:hazing",
+        "word:3:sued",
+        "phrase:3:get sued"
+      ]
+    },
+    {
+      "page": 12,
+      "segment": 193,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fine print",
+        "phrase:3:fine print"
+      ]
+    },
+    {
+      "page": 13,
+      "segment": 194,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 195,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 196,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 197,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:you end up getting sued"
+      ]
+    },
+    {
+      "page": 13,
+      "segment": 198,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 199,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 200,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:the minute you",
+        "phrase:3:under certain circumstances",
+        "phrase:3:you are no longer",
+        "chunk:3:the minute you"
+      ]
+    },
+    {
+      "page": 13,
+      "segment": 201,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:membership",
+        "word:3:policy",
+        "word:3:rescinded",
+        "phrase:3:no longer covered",
+        "phrase:3:insurance policy"
+      ]
+    },
+    {
+      "page": 13,
+      "segment": 202,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 203,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 204,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:organized",
+        "phrase:3:have a lot more in common with"
+      ]
+    },
+    {
+      "page": 13,
+      "segment": 205,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:blindfolds"
+      ]
+    },
+    {
+      "page": 13,
+      "segment": 206,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 207,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 13,
+      "segment": 208,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:interpersonal",
+        "word:3:power trip"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 209,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:the second that"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 210,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:poetic"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 211,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:workaround",
+        "word:3:workarounds"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 212,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:insured",
+        "word:3:third party",
+        "word:3:vendor",
+        "word:3:assume",
+        "phrase:3:assume the liability",
+        "phrase:3:check ids",
+        "phrase:3:third party vendor"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 213,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:inebriated"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 214,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 14,
+      "segment": 215,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 14,
+      "segment": 216,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:bring your own beer"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 217,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 14,
+      "segment": 218,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:guest list",
+        "word:3:guest",
+        "phrase:3:guest list"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 219,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 14,
+      "segment": 220,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 14,
+      "segment": 221,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:beverages",
+        "phrase:3:you can only"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 222,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:limitation"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 223,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:take off"
+      ]
+    },
+    {
+      "page": 14,
+      "segment": 224,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 14,
+      "segment": 225,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 226,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 227,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 228,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:foolproof"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 229,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 230,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:all else fails",
+        "phrase:3:if all else fails",
+        "chunk:3:if all else fails"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 231,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:who pays them out"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 232,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:drops",
+        "chunk:3:what happens then"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 233,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:homeowner's",
+        "word:3:payouts"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 234,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 235,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:take on fraternity cases"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 236,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:industry"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 237,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 238,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 15,
+      "segment": 239,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:bylaw",
+        "word:3:bylaws",
+        "word:3:violation",
+        "phrase:3:in which case",
+        "phrase:3:no coverage is offered",
+        "phrase:3:read the insurance policy",
+        "phrase:3:result in",
+        "chunk:3:in which case",
+        "chunk:3:the thing is"
+      ]
+    },
+    {
+      "page": 15,
+      "segment": 240,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:throw a football around"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 241,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 16,
+      "segment": 242,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 16,
+      "segment": 243,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:claim"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 244,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:categorizing"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 245,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:injuries",
+        "phrase:4:right off the bat"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 246,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 16,
+      "segment": 247,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:terrifying"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 248,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:rushed"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 249,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:sodomized"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 250,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:enemas",
+        "phrase:4:turn of events"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 251,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 16,
+      "segment": 252,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 16,
+      "segment": 253,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:circumstantial",
+        "word:4:circumstantial evidence",
+        "word:4:process"
+      ]
+    },
+    {
+      "page": 16,
+      "segment": 254,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 16,
+      "segment": 255,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:absorb",
+        "word:4:bypassing"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 256,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:4:it's hard to gauge"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 257,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:pledge",
+        "word:4:rectum",
+        "word:4:sustain"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 258,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 259,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 260,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:the biggest type of",
+        "phrase:4:biggest type of lawsuit"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 261,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:assault"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 262,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 263,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:slip and fall"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 264,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:fall from heights"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 265,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 266,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:hazing lawsuits"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 267,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:branding",
+        "word:4:grafts",
+        "word:4:iron",
+        "word:4:plaintiff",
+        "word:4:plaintiffs",
+        "phrase:4:in extreme cases"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 268,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:emotional damage",
+        "word:4:permanent"
+      ]
+    },
+    {
+      "page": 17,
+      "segment": 269,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 270,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 271,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 17,
+      "segment": 272,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 273,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:standard",
+        "phrase:4:it seems to be a thing",
+        "chunk:4:i don't know if it's standard",
+        "chunk:4:it seems to be",
+        "chunk:4:it seems to be a thing"
+      ]
+    },
+    {
+      "page": 18,
+      "segment": 274,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 275,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 276,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 277,
+      "source_unit": 2,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 278,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 279,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 280,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 281,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 282,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 283,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:intoxicated",
+        "phrase:4:fall off"
+      ]
+    },
+    {
+      "page": 18,
+      "segment": 284,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 285,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:balconies",
+        "word:4:escape",
+        "phrase:4:roll out of"
+      ]
+    },
+    {
+      "page": 18,
+      "segment": 286,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 287,
+      "source_unit": 2,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 18,
+      "segment": 288,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:one would think",
+        "chunk:4:one would think",
+        "chunk:4:one would think why"
+      ]
+    },
+    {
+      "page": 18,
+      "segment": 289,
+      "source_unit": 2,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:4:it doesn't even make any sense"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 290,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:greek life",
+        "phrase:4:ban greek life"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 291,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 19,
+      "segment": 292,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 19,
+      "segment": 293,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:benefit a lot from",
+        "chunk:4:they benefit a lot from"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 294,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:donation"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 295,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 19,
+      "segment": 296,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:disclosed"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 297,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:marketing"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 298,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:the promise of"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 299,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:enticing",
+        "phrase:4:getting student loans",
+        "phrase:4:more enticing to"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 300,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:built in marketing",
+        "chunk:4:it's kind of like"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 301,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 19,
+      "segment": 302,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 19,
+      "segment": 303,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:incentive",
+        "phrase:4:bottom line incentive",
+        "phrase:4:on top of that",
+        "chunk:4:on top of that"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 304,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:beneficial",
+        "word:4:financially",
+        "word:4:institution",
+        "phrase:4:financially beneficial"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 305,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:maintain",
+        "phrase:4:don't have to",
+        "phrase:4:they don't have to",
+        "chunk:4:i hadn't even thought of",
+        "chunk:4:one random one",
+        "chunk:4:one random one i hadn't thought of"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 306,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:housing"
+      ]
+    },
+    {
+      "page": 19,
+      "segment": 307,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:one in every eight"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 308,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:dorms",
+        "phrase:4:by bed and by student",
+        "chunk:4:that means"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 309,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 20,
+      "segment": 310,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 20,
+      "segment": 311,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:burns down"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 312,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:slip on"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 313,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 20,
+      "segment": 314,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:chapter"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 315,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:tuition",
+        "phrase:4:expand the number"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 316,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:alumni",
+        "word:4:generous",
+        "phrase:4:according to",
+        "phrase:4:at least according to",
+        "phrase:4:seem more financially generous",
+        "phrase:4:part of greek life"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 317,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:worth it",
+        "chunk:4:i guess the question",
+        "chunk:4:i guess the question is"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 318,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:on campus"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 319,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:if not the oldest"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 320,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:merged",
+        "phrase:4:merged into one"
+      ]
+    },
+    {
+      "page": 20,
+      "segment": 321,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 20,
+      "segment": 322,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 323,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 324,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:active chapters",
+        "word:5:active"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 325,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 326,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 327,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:has been there since"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 328,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:been around"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 329,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 330,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 331,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 332,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:years ago"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 333,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:relevant"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 334,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 335,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 336,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 21,
+      "segment": 337,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:freshman",
+        "word:5:psychological",
+        "word:5:physical",
+        "phrase:5:when he was a freshman",
+        "phrase:5:had endured months of"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 338,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:initiation",
+        "phrase:5:the night of"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 339,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:precipice",
+        "phrase:5:on the precipice of"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 340,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:endure",
+        "word:5:pledged"
+      ]
+    },
+    {
+      "page": 21,
+      "segment": 341,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:blindfolded",
+        "word:5:deprived",
+        "word:5:physically exhausted"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 342,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 343,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:for the first time"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 344,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 345,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:waistband",
+        "phrase:5:all over"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 346,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 347,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 348,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:cayenne",
+        "word:5:vinegar"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 349,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:inflicting"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 350,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 351,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:on my elbows and knees"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 352,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:as it turned out",
+        "phrase:5:no actual answer",
+        "chunk:5:as it turned out"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 353,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 354,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:coffin",
+        "word:5:inducted",
+        "word:5:trap door"
+      ]
+    },
+    {
+      "page": 22,
+      "segment": 355,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 356,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 357,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 22,
+      "segment": 358,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:articulate",
+        "word:5:ashamed",
+        "word:5:vulnerability",
+        "phrase:5:unable to articulate"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 359,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:offerings"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 360,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:addiction",
+        "word:5:conquest",
+        "word:5:glory"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 361,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 362,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:worth reading",
+        "chunk:5:it's worth",
+        "chunk:5:it's worth reading"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 363,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:vacant"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 364,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:has been shut down",
+        "phrase:5:shut down"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 365,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:barred"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 366,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 367,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 368,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:discarded"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 369,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:sorority"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 370,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 371,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:fentanyl"
+      ]
+    },
+    {
+      "page": 23,
+      "segment": 372,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 373,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 374,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 23,
+      "segment": 375,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 376,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 377,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 378,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:arrest",
+        "word:6:ketamine"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 379,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:interim",
+        "word:6:suspension",
+        "phrase:6:sort of like",
+        "phrase:6:interim suspension",
+        "chunk:6:the university does not"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 380,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 381,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 382,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:overdosed",
+        "phrase:6:go through"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 383,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 384,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:crime log"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 385,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:supplying"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 386,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:possession",
+        "phrase:6:in possession of",
+        "phrase:6:we don't know if",
+        "chunk:6:we don't know if"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 387,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 388,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 24,
+      "segment": 389,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:jurisdiction",
+        "phrase:6:off campus",
+        "phrase:6:under the jurisdiction of"
+      ]
+    },
+    {
+      "page": 24,
+      "segment": 390,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 391,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 392,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 393,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:made an arrest"
+      ]
+    },
+    {
+      "page": 25,
+      "segment": 394,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 395,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:privileges",
+        "word:6:investigate"
+      ]
+    },
+    {
+      "page": 25,
+      "segment": 396,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 397,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 398,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:sophomore"
+      ]
+    },
+    {
+      "page": 25,
+      "segment": 399,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 400,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:personal integrity",
+        "word:6:integrity",
+        "phrase:6:personal integrity"
+      ]
+    },
+    {
+      "page": 25,
+      "segment": 401,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:creed",
+        "phrase:6:in the chapter house",
+        "chunk:6:in short"
+      ]
+    },
+    {
+      "page": 25,
+      "segment": 402,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 403,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 404,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 25,
+      "segment": 405,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:chivalrous"
+      ]
+    },
+    {
+      "page": 25,
+      "segment": 406,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:pseudonym",
+        "phrase:6:relevant details"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 407,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 408,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 409,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 410,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 411,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:what was going on",
+        "chunk:6:unless you were"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 412,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:sue not just"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 413,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:get into all of it",
+        "chunk:6:we're going to get into"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 414,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:breaks open"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 415,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 416,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 417,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:for about two years"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 418,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 419,
+      "source_unit": 3,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 26,
+      "segment": 420,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:community",
+        "word:6:promoting"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 421,
+      "source_unit": 3,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:network",
+        "phrase:6:safe environment",
+        "phrase:6:make so many friends"
+      ]
+    },
+    {
+      "page": 26,
+      "segment": 422,
+      "source_unit": 3,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 423,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:shots",
+        "word:7:vodka"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 424,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 425,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:legal drinking age",
+        "phrase:7:as per her lawsuit",
+        "phrase:7:legal drinking age"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 426,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 427,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 428,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:undergraduate",
+        "phrase:7:figure out",
+        "phrase:7:figure out college",
+        "chunk:7:trying to figure out"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 429,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:house director"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 430,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 431,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:salaried"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 432,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:operational",
+        "word:7:operational manager",
+        "word:7:manager"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 433,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:hired professional",
+        "word:7:hired"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 434,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:oversee",
+        "word:7:upkeep"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 435,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:onsite"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 436,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 437,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 438,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:facilitate"
+      ]
+    },
+    {
+      "page": 27,
+      "segment": 439,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 27,
+      "segment": 440,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 441,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 442,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:employees"
+      ]
+    },
+    {
+      "page": 28,
+      "segment": 443,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 444,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:not associated with"
+      ]
+    },
+    {
+      "page": 28,
+      "segment": 445,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 446,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 447,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 448,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:not even former members"
+      ]
+    },
+    {
+      "page": 28,
+      "segment": 449,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:get hired"
+      ]
+    },
+    {
+      "page": 28,
+      "segment": 450,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 451,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 452,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 453,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 454,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 455,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:caretaker"
+      ]
+    },
+    {
+      "page": 28,
+      "segment": 456,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 28,
+      "segment": 457,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:go off campus"
+      ]
+    },
+    {
+      "page": 28,
+      "segment": 458,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:bouncer",
+        "word:7:defendant",
+        "chunk:7:i'm assuming"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 459,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 460,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 461,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 462,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:bartender"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 463,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:establishment"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 464,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:separate",
+        "phrase:7:around 10 p m"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 465,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 466,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:under 21",
+        "word:7:wristband",
+        "phrase:7:at least from the filing",
+        "chunk:7:it would appear"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 467,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 468,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:meet up with"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 469,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 470,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:fraternity brother"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 471,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:by this point",
+        "chunk:7:by this point"
+      ]
+    },
+    {
+      "page": 29,
+      "segment": 472,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 473,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 474,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 29,
+      "segment": 475,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 476,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 477,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 478,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 479,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 480,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 481,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 482,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:dancing"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 483,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 484,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:start dancing"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 485,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:unclear",
+        "phrase:7:three to five minutes",
+        "chunk:7:it's unclear how",
+        "chunk:7:it's unclear how long"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 486,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:propositioned",
+        "phrase:7:according to the lawsuit",
+        "phrase:7:pulls jane off to the side",
+        "chunk:7:according to the lawsuit"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 487,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:at this point"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 488,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:leads her upstairs",
+        "phrase:7:leaves her alone"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 489,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 490,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 30,
+      "segment": 491,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:awkwardly",
+        "word:7:couch",
+        "phrase:7:on the couch",
+        "phrase:7:sitting on the couch"
+      ]
+    },
+    {
+      "page": 30,
+      "segment": 492,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:eventually comes back",
+        "phrase:7:it appears that",
+        "chunk:7:it appears that"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 493,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:as alleged",
+        "phrase:7:a separate room",
+        "chunk:7:as alleged in the lawsuit"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 494,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 31,
+      "segment": 495,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:alumni room"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 496,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 31,
+      "segment": 497,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 31,
+      "segment": 498,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:considers"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 499,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:in the sense that",
+        "phrase:7:nobody locks it"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 500,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:congregate",
+        "word:7:unlocked"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 501,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 31,
+      "segment": 502,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:powdery",
+        "word:7:substance",
+        "phrase:7:passing around",
+        "chunk:7:it seems like"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 503,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:pressuring",
+        "word:7:snorting"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 504,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:has never done"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 505,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:high proof",
+        "word:7:marijuana",
+        "word:7:plaintiff",
+        "word:7:believed",
+        "chunk:7:the lawsuit says"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 506,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:soon after",
+        "phrase:7:without her consent"
+      ]
+    },
+    {
+      "page": 31,
+      "segment": 507,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 31,
+      "segment": 508,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:so called friend"
+      ]
+    },
+    {
+      "page": 32,
+      "segment": 509,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 510,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:erection",
+        "phrase:7:at some point",
+        "chunk:7:at some point"
+      ]
+    },
+    {
+      "page": 32,
+      "segment": 511,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 512,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 513,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 514,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:falls asleep"
+      ]
+    },
+    {
+      "page": 32,
+      "segment": 515,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:meanwhile",
+        "phrase:7:keeps trying to",
+        "phrase:7:meanwhile"
+      ]
+    },
+    {
+      "page": 32,
+      "segment": 516,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 517,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 518,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 519,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 520,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:according to the sequence"
+      ]
+    },
+    {
+      "page": 32,
+      "segment": 521,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 522,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 523,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 32,
+      "segment": 524,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 525,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 526,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 527,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 528,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:invited"
+      ]
+    },
+    {
+      "page": 33,
+      "segment": 529,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:group message"
+      ]
+    },
+    {
+      "page": 33,
+      "segment": 530,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:snapchat"
+      ]
+    },
+    {
+      "page": 33,
+      "segment": 531,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 532,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 533,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 534,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 535,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 536,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 537,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 538,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 539,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 540,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 541,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 33,
+      "segment": 542,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:pull up"
+      ]
+    },
+    {
+      "page": 33,
+      "segment": 543,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 544,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:dense"
+      ]
+    },
+    {
+      "page": 34,
+      "segment": 545,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 546,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 547,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:clarifying"
+      ]
+    },
+    {
+      "page": 34,
+      "segment": 548,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:go check up on"
+      ]
+    },
+    {
+      "page": 34,
+      "segment": 549,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:remotely"
+      ]
+    },
+    {
+      "page": 34,
+      "segment": 550,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:consensual",
+        "word:8:derogatory"
+      ]
+    },
+    {
+      "page": 34,
+      "segment": 551,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 552,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 553,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:morally",
+        "word:8:reprehensible"
+      ]
+    },
+    {
+      "page": 34,
+      "segment": 554,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 555,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 556,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 557,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 558,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 559,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 34,
+      "segment": 560,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:8:i don't know what",
+        "chunk:8:i don't know what that means"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 561,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:restating"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 562,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 563,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:what do you mean",
+        "chunk:8:what do you mean"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 564,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 565,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 566,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:afk"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 567,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 568,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 569,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:in a separate room"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 570,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:abruptly"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 571,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 572,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 573,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 574,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 575,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 576,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:8:so he claims"
+      ]
+    },
+    {
+      "page": 35,
+      "segment": 577,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 578,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 35,
+      "segment": 579,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 580,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:go by"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 581,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:what's going on"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 582,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:out of nowhere",
+        "chunk:8:out of nowhere"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 583,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 584,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 585,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 586,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 587,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 588,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 589,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:this is my opinion",
+        "phrase:8:i don't know what's going on",
+        "chunk:8:i don't know what's going on",
+        "chunk:8:this is my opinion"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 590,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:i haven't seen him since"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 591,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 592,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:8:that's the tone that i picked up"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 593,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:i could be picking up",
+        "chunk:8:i could be",
+        "chunk:8:i could be picking up"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 594,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:respond"
+      ]
+    },
+    {
+      "page": 36,
+      "segment": 595,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 596,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 36,
+      "segment": 597,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:all caps"
+      ]
+    },
+    {
+      "page": 37,
+      "segment": 598,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 599,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 600,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:pov",
+        "phrase:8:first person pov",
+        "phrase:8:not a bit"
+      ]
+    },
+    {
+      "page": 37,
+      "segment": 601,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 602,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 603,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:fake",
+        "phrase:8:this is not fake"
+      ]
+    },
+    {
+      "page": 37,
+      "segment": 604,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:no cap"
+      ]
+    },
+    {
+      "page": 37,
+      "segment": 605,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 606,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 607,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 608,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 609,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 610,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:not detailed in"
+      ]
+    },
+    {
+      "page": 37,
+      "segment": 611,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 612,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 613,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 614,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 37,
+      "segment": 615,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 616,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 617,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 618,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 619,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 620,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:at the time"
+      ]
+    },
+    {
+      "page": 38,
+      "segment": 621,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 622,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 623,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:redacted",
+        "phrase:8:right now"
+      ]
+    },
+    {
+      "page": 38,
+      "segment": 624,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:low key"
+      ]
+    },
+    {
+      "page": 38,
+      "segment": 625,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 626,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:interaction"
+      ]
+    },
+    {
+      "page": 38,
+      "segment": 627,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 628,
+      "source_unit": 4,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 629,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:interpretation",
+        "chunk:8:that's just my interpretation"
+      ]
+    },
+    {
+      "page": 38,
+      "segment": 630,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 631,
+      "source_unit": 4,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:makes it sound like",
+        "chunk:8:that makes it sound like"
+      ]
+    },
+    {
+      "page": 38,
+      "segment": 632,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 38,
+      "segment": 633,
+      "source_unit": 4,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 634,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 635,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:what in the world"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 636,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:recollection",
+        "phrase:8:no recollection",
+        "phrase:8:i have no recollection",
+        "chunk:8:i have no recollection",
+        "chunk:8:i have no recollection of"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 637,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:upsetting"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 638,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 639,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:it doesn't appear",
+        "chunk:8:it doesn't appear that"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 640,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 641,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:absolutely zero"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 642,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:8:the lawsuit states that"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 643,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:in doing so"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 644,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 645,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:retreat"
+      ]
+    },
+    {
+      "page": 39,
+      "segment": 646,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 647,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 648,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 649,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 39,
+      "segment": 650,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 651,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:8:consent"
+      ]
+    },
+    {
+      "page": 40,
+      "segment": 652,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:on the other side",
+        "phrase:8:she feels like",
+        "phrase:8:on the other side of the room",
+        "phrase:8:there's no way for her to",
+        "chunk:8:there's no way for her to"
+      ]
+    },
+    {
+      "page": 40,
+      "segment": 653,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 654,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 655,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:barely made a dent",
+        "phrase:8:barely made a dent in"
+      ]
+    },
+    {
+      "page": 40,
+      "segment": 656,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 657,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 658,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 659,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 660,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 661,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 662,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:make their way up"
+      ]
+    },
+    {
+      "page": 40,
+      "segment": 663,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 664,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 40,
+      "segment": 665,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 666,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 667,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 668,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 669,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 670,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 671,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:certainty",
+        "phrase:9:i cannot say with certainty",
+        "phrase:9:with certainty",
+        "chunk:9:i cannot say with certainty"
+      ]
+    },
+    {
+      "page": 41,
+      "segment": 672,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:context clues",
+        "phrase:9:get context clues"
+      ]
+    },
+    {
+      "page": 41,
+      "segment": 673,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:more on it later",
+        "chunk:9:more on it later"
+      ]
+    },
+    {
+      "page": 41,
+      "segment": 674,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 675,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:findings",
+        "chunk:9:there's a whole"
+      ]
+    },
+    {
+      "page": 41,
+      "segment": 676,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:9:i don't think i did anything wrong"
+      ]
+    },
+    {
+      "page": 41,
+      "segment": 677,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 678,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 679,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 680,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:not a lot of people",
+        "chunk:9:not a lot of people",
+        "chunk:9:not a lot of people are talking about"
+      ]
+    },
+    {
+      "page": 41,
+      "segment": 681,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 682,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 41,
+      "segment": 683,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:redaction"
+      ]
+    },
+    {
+      "page": 42,
+      "segment": 684,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 685,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:9:what more can you say"
+      ]
+    },
+    {
+      "page": 42,
+      "segment": 686,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 687,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 688,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 689,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 690,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 691,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:the outcome"
+      ]
+    },
+    {
+      "page": 42,
+      "segment": 692,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 693,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 694,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 695,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 696,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 697,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 698,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 699,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 42,
+      "segment": 700,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:title ix",
+        "phrase:9:getting their hands on",
+        "phrase:9:not publicly available",
+        "phrase:9:publicly available",
+        "chunk:9:i don't know if",
+        "chunk:9:i don't know if they got"
+      ]
+    },
+    {
+      "page": 42,
+      "segment": 701,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 702,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 703,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:snippets"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 704,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 705,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 706,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:a hundred page lawsuit",
+        "chunk:9:it's like",
+        "chunk:9:we've pieced together"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 707,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:cross referencing",
+        "phrase:9:cross referencing",
+        "phrase:9:get into all the cross referencing",
+        "chunk:9:we're going to get into"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 708,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:9:it's just a lot"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 709,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:it's a headache"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 710,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 711,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 712,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:adjacent",
+        "phrase:9:next to that room"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 713,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 714,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 715,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 716,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:alcove",
+        "phrase:9:it's not even an office"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 717,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 718,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:9:it seems more like"
+      ]
+    },
+    {
+      "page": 44,
+      "segment": 719,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 720,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 721,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:by this point",
+        "chunk:9:by this point"
+      ]
+    },
+    {
+      "page": 44,
+      "segment": 722,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 723,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:in a state of shock"
+      ]
+    },
+    {
+      "page": 44,
+      "segment": 724,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:preemptive",
+        "phrase:9:out of fear"
+      ]
+    },
+    {
+      "page": 44,
+      "segment": 725,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 726,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 727,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 728,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 729,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 730,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 731,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 732,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 733,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 734,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 735,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 736,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:more or less"
+      ]
+    },
+    {
+      "page": 45,
+      "segment": 737,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 738,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 739,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 740,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 741,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 742,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:statement"
+      ]
+    },
+    {
+      "page": 45,
+      "segment": 743,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:allegation",
+        "phrase:10:very quietly"
+      ]
+    },
+    {
+      "page": 45,
+      "segment": 744,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 745,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 746,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 747,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 45,
+      "segment": 748,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 749,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:misconduct"
+      ]
+    },
+    {
+      "page": 46,
+      "segment": 750,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:for many"
+      ]
+    },
+    {
+      "page": 46,
+      "segment": 751,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 752,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 753,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 754,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 755,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 756,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:at the time"
+      ]
+    },
+    {
+      "page": 46,
+      "segment": 757,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 758,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 759,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 760,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 761,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 762,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 763,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 764,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 46,
+      "segment": 765,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 766,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:highly doubt",
+        "chunk:10:i highly doubt"
+      ]
+    },
+    {
+      "page": 47,
+      "segment": 767,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:intentional",
+        "phrase:10:can't help but",
+        "chunk:10:i can't help but think"
+      ]
+    },
+    {
+      "page": 47,
+      "segment": 768,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 769,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 770,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 771,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:formal",
+        "word:10:complaint",
+        "word:10:commences",
+        "phrase:10:formal complaint"
+      ]
+    },
+    {
+      "page": 47,
+      "segment": 772,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:federal"
+      ]
+    },
+    {
+      "page": 47,
+      "segment": 773,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 774,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 775,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 776,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 777,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 778,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 779,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 780,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 781,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 782,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 47,
+      "segment": 783,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 784,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 785,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 786,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 787,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 788,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 789,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 790,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 791,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:prosecutors"
+      ]
+    },
+    {
+      "page": 48,
+      "segment": 792,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:victim",
+        "word:10:equipped",
+        "word:10:victims"
+      ]
+    },
+    {
+      "page": 48,
+      "segment": 793,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:prosecutor"
+      ]
+    },
+    {
+      "page": 48,
+      "segment": 794,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 795,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 796,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 797,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:criminally"
+      ]
+    },
+    {
+      "page": 48,
+      "segment": 798,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:10:it's unclear where"
+      ]
+    },
+    {
+      "page": 48,
+      "segment": 799,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:healing",
+        "chunk:10:it could be that"
+      ]
+    },
+    {
+      "page": 48,
+      "segment": 800,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 48,
+      "segment": 801,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 802,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:be that as it may"
+      ]
+    },
+    {
+      "page": 49,
+      "segment": 803,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 804,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 805,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 806,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:allowed to return",
+        "phrase:10:three semesters"
+      ]
+    },
+    {
+      "page": 49,
+      "segment": 807,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 808,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 809,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 810,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 811,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 812,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 813,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 814,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:sanctions"
+      ]
+    },
+    {
+      "page": 49,
+      "segment": 815,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 816,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 817,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 49,
+      "segment": 818,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 819,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 820,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 821,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 822,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:graduating"
+      ]
+    },
+    {
+      "page": 50,
+      "segment": 823,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 824,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 825,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:academically",
+        "word:10:charged"
+      ]
+    },
+    {
+      "page": 50,
+      "segment": 826,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 827,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:alleged assault",
+        "phrase:10:drops out of school"
+      ]
+    },
+    {
+      "page": 50,
+      "segment": 828,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 829,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 830,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 831,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 832,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 833,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 834,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 835,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 50,
+      "segment": 836,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 837,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:emotionally"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 838,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:recover",
+        "word:10:trauma",
+        "phrase:10:recover from"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 839,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:every aspect of"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 840,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:haunt",
+        "phrase:10:for the rest of my life",
+        "chunk:10:for the rest of my life"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 841,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:mainstream",
+        "word:10:news outlet",
+        "word:10:instantly",
+        "phrase:10:picked up instantly"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 842,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 843,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 844,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:in the second half",
+        "phrase:10:second half"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 845,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 846,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 847,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 848,
+      "source_unit": 5,
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:10:that's all going to be covered"
+      ]
+    },
+    {
+      "page": 51,
+      "segment": 849,
+      "source_unit": 5,
+      "status": "no_identified_barrier",
+      "learning_item_ids": []
+    },
+    {
+      "page": 51,
+      "segment": 850,
+      "source_unit": 5,
+      "status": "requires_review",
+      "learning_item_ids": []
+    }
+  ]
+}

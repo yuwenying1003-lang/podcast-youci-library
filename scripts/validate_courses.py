@@ -73,7 +73,7 @@ def validate(path: Path) -> list[str]:
 
     collection_fields = {
         "vocab": ("word", "cn", "definition", "example", "tip"),
-        "expressions": ("time", "text", "cn", "definition", "example"),
+        "expressions": ("text", "cn", "definition", "example"),
     }
     for name, required in collection_fields.items():
         records = data.get(name)
@@ -86,6 +86,13 @@ def validate(path: Path) -> list[str]:
                 errors.append(f"{where}: expected object")
                 continue
             require_text(record, required, where, errors)
+            if name == "expressions" and "time" not in record and not (
+                isinstance(record.get("unit"), int)
+                and isinstance(record.get("source_page"), int)
+                and isinstance(record.get("source_excerpt"), str)
+                and record["source_excerpt"].strip()
+            ):
+                errors.append(f"{where}: requires time or unit + transcript page provenance")
             if "time" in record:
                 seconds(record["time"], f"{where}.time", errors)
             if "unit" in record and (not isinstance(record["unit"], int) or not 0 <= record["unit"] < len(units)):
@@ -120,7 +127,7 @@ def validate(path: Path) -> list[str]:
             errors.append(f"vocab[{index}]: duplicate normalized word in unit {unit_index + 1}; first used at vocab[{seen_vocab[key]}]")
         else:
             seen_vocab[key] = index
-        if re.search(r"transcript|timestamp|timecode|verified sentence clip", str(record.get("tip", "")), re.I):
+        if re.search(r"timestamp|timecode|verified sentence clip|transcript status|not verified", str(record.get("tip", "")), re.I):
             errors.append(f"vocab[{index}].tip: technical source/timestamp status is not a learning tip")
 
     patterns = data.get("patterns")
