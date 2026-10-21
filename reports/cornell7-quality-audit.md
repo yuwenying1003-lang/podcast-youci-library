@@ -6,8 +6,9 @@ Generated from source schema `2.4-expanded-fourth-pass` on 2026-10-22.
 
 - Processed source scope: 51/51 pages and 850/850 transcript segments indexed.
 - Current reviewed library: 321 Words, 281 Phrases, 118 Chunks.
+- Chunk count reconciliation: the supplied source contains 127 Chunk candidates. Eleven are normalized duplicates within the same mapped Unit, leaving 116 unique imported Chunks; Unit 1 review added two genuinely new reusable patterns, producing 118. The exact eleven removals and source pages are recorded in `cornell7-duplicates.json`.
 - Removed as normalized overlaps: 12 (1 Phrase and 11 Chunks); details are in `cornell7-duplicates.json`.
-- Transcript index: 376 segments covered, 76 segments with no identified barrier, and 398 requiring editorial review.
+- Transcript index: 399 segments covered, 76 segments with no identified barrier, and 375 requiring editorial review. The systematic linkage pass only approved complete multiword phrase/Chunk matches or at least two distinct Word matches; a single Word match was retained for manual review.
 - Provenance: every imported Word, Phrase, and Chunk has a source page and exact source excerpt.
 - Exact audio: no sentence-level `clip` was created because the source has no verified start/end timestamps.
 
@@ -17,10 +18,10 @@ Generated from source schema `2.4-expanded-fourth-pass` on 2026-10-22.
 - Unit 1 transcript review is complete: all eleven formerly unresolved segments on pages 1–3 now have a documented disposition. This added `back up`, `Is that what it is?`, and `prevent ... from ...` as practical spoken-English items.
 - All 234 former IPA gaps now have externally sourced pronunciations: 12 direct dictionary IPA, 217 CMUdict ARPABET-to-broad-IPA conversions, and 5 transparent inflection/abbreviation rules. They remain flagged for editorial review.
 - All 234 former English-definition gaps are filled: 216 use Wiktionary-derived definitions and 18 multiword terms use a context-matched Podlingora editorial definition. Externally sourced definitions remain flagged for final contextual review.
-- 193 Word examples still have no complete Chinese sentence translation.
-- 192 Words still use generated spelling/context memory anchors and require editorial improvement.
+- All Word examples now have a Chinese translation. The 193 newly filled translations are explicitly queued for editorial review and are not counted as human-reviewed.
+- No original generic `Spelling anchor:` tips remain. The 192 replacements use target-specific suffix, inflection, multiword, or spelling-block links and remain explicitly queued for editorial refinement.
 - 31 Word cards are fully reviewed; 290 remain in the human-review queue. Unit 2 has begun with five high-risk dictionary mismatches corrected (`administration`, `deemed`, `president`, `apparently`, and `conduct`).
-- 398 transcript segments remain in `requires_review`; this work is therefore not described as 100% comprehension coverage.
+- 375 transcript segments remain in `requires_review`; this work is therefore not described as 100% comprehension coverage.
 
 The complete machine-readable queues are in `cornell7-unresolved.json` and `cornell7-coverage-index.json`.
 

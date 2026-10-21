@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 376,
+      "covered": 399,
       "no_identified_barrier": 76,
-      "requires_review": 398
+      "requires_review": 375
     },
     "unresolved_counts": {
       "missing_ipa": 234,
@@ -631,7 +631,10 @@
       "segment": 52,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 4,
@@ -647,14 +650,20 @@
       "segment": 54,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 4,
       "segment": 55,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 4,
@@ -686,7 +695,10 @@
       "segment": 58,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 4,
@@ -703,7 +715,10 @@
       "segment": 60,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 4,
@@ -738,29 +753,47 @@
       "page": 4,
       "segment": 64,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:it doesn't look like",
+        "chunk:1:it doesn't look like"
+      ],
+      "candidate_learning_item_ids": [
+        "phrase:1:it doesn't look like",
+        "chunk:1:it doesn't look like"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: it doesn't look like; it doesn't look like."
     },
     {
       "page": 5,
       "segment": 65,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 5,
       "segment": 66,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 5,
       "segment": 67,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 5,
@@ -786,21 +819,30 @@
       "segment": 70,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 5,
       "segment": 71,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 5,
       "segment": 72,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 5,
@@ -880,7 +922,10 @@
       "segment": 81,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 6,
@@ -906,42 +951,68 @@
       "segment": 84,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 6,
       "segment": 85,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:1:incident"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 6,
       "segment": 86,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 6,
       "segment": 87,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:1:incident"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 6,
       "segment": 88,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:1:president"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 6,
       "segment": 89,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:1:maneuver"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 6,
@@ -959,14 +1030,26 @@
       "segment": 91,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 6,
       "segment": 92,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:reverse",
+        "word:1:president"
+      ],
+      "candidate_learning_item_ids": [
+        "word:1:reverse",
+        "word:1:president"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
     },
     {
       "page": 6,
@@ -983,7 +1066,10 @@
       "segment": 94,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 6,
@@ -1037,21 +1123,32 @@
       "segment": 100,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:1:lawsuit"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 7,
       "segment": 101,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 7,
       "segment": 102,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 7,
@@ -1068,7 +1165,10 @@
       "segment": 104,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 7,
@@ -1084,7 +1184,10 @@
       "segment": 106,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 7,
@@ -1118,14 +1221,20 @@
       "segment": 110,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 111,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
@@ -1139,7 +1248,10 @@
       "segment": 113,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
@@ -1164,21 +1276,30 @@
       "segment": 116,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 117,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 118,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
@@ -1195,35 +1316,50 @@
       "segment": 120,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 121,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 122,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 123,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
       "segment": 124,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 8,
@@ -1246,21 +1382,32 @@
       "segment": 127,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:2:survivor"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 9,
       "segment": 128,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 9,
       "segment": 129,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 9,
@@ -1320,7 +1467,10 @@
       "segment": 135,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 9,
@@ -1346,7 +1496,10 @@
       "segment": 138,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 9,
@@ -1379,14 +1532,20 @@
       "segment": 142,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
       "segment": 143,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
@@ -1412,7 +1571,10 @@
       "segment": 146,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
@@ -1456,35 +1618,56 @@
       "segment": 150,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
       "segment": 151,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
       "segment": 152,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
       "segment": 153,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
       "segment": 154,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:at this point",
+        "word:2:insurance"
+      ],
+      "candidate_learning_item_ids": [
+        "word:2:insurance",
+        "phrase:2:at this point"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: at this point."
     },
     {
       "page": 10,
@@ -1500,7 +1683,10 @@
       "segment": 156,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 10,
@@ -1516,7 +1702,10 @@
       "segment": 158,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
@@ -1575,14 +1764,20 @@
       "segment": 164,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
       "segment": 165,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
@@ -1603,7 +1798,10 @@
       "segment": 168,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
@@ -1620,35 +1818,50 @@
       "segment": 170,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
       "segment": 171,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
       "segment": 172,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
       "segment": 173,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
       "segment": 174,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 11,
@@ -1663,8 +1876,15 @@
       "page": 12,
       "segment": 176,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:the sixth worst"
+      ],
+      "candidate_learning_item_ids": [
+        "phrase:3:the sixth worst"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: the sixth worst."
     },
     {
       "page": 12,
@@ -1680,15 +1900,27 @@
       "page": 12,
       "segment": 178,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:umbrella coverage",
+        "word:3:umbrella"
+      ],
+      "candidate_learning_item_ids": [
+        "word:3:umbrella",
+        "phrase:3:umbrella coverage"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: umbrella coverage."
     },
     {
       "page": 12,
       "segment": 179,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 12,
@@ -1776,7 +2008,10 @@
       "segment": 188,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 12,
@@ -1833,22 +2068,39 @@
       "page": 13,
       "segment": 194,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity",
+        "word:3:organization"
+      ],
+      "candidate_learning_item_ids": [
+        "word:3:fraternity",
+        "word:3:organization"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
     },
     {
       "page": 13,
       "segment": 195,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 13,
       "segment": 196,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:3:fraternity"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 13,
@@ -1864,14 +2116,22 @@
       "segment": 198,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:3:fraternity"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 13,
       "segment": 199,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 13,
@@ -1903,14 +2163,20 @@
       "segment": 202,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 13,
       "segment": 203,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 13,
@@ -1936,14 +2202,20 @@
       "segment": 206,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 13,
       "segment": 207,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 13,
@@ -2019,7 +2291,10 @@
       "segment": 215,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 14,
@@ -2035,7 +2310,10 @@
       "segment": 217,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 14,
@@ -2053,14 +2331,20 @@
       "segment": 219,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 14,
       "segment": 220,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 14,
@@ -2094,15 +2378,27 @@
       "page": 14,
       "segment": 224,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:you can only",
+        "word:3:alcohol"
+      ],
+      "candidate_learning_item_ids": [
+        "word:3:alcohol",
+        "phrase:3:you can only"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: you can only."
     },
     {
       "page": 14,
       "segment": 225,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 15,
@@ -2116,7 +2412,12 @@
       "segment": 227,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:3:fraternity"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 15,
@@ -2132,7 +2433,12 @@
       "segment": 229,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:3:fraternity"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 15,
@@ -2179,7 +2485,10 @@
       "segment": 234,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 15,
@@ -2204,14 +2513,26 @@
       "segment": 237,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 15,
       "segment": 238,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity",
+        "word:3:national"
+      ],
+      "candidate_learning_item_ids": [
+        "word:3:fraternity",
+        "word:3:national"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
     },
     {
       "page": 15,
@@ -2243,15 +2564,27 @@
       "page": 16,
       "segment": 241,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:according to",
+        "word:4:chapter"
+      ],
+      "candidate_learning_item_ids": [
+        "word:4:chapter",
+        "phrase:4:according to"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: according to."
     },
     {
       "page": 16,
       "segment": 242,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 16,
@@ -2286,7 +2619,10 @@
       "segment": 246,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 16,
@@ -2337,7 +2673,10 @@
       "segment": 252,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 16,
@@ -2355,7 +2694,12 @@
       "segment": 254,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:enemas"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 16,
@@ -2392,14 +2736,20 @@
       "segment": 258,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 17,
       "segment": 259,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 17,
@@ -2425,7 +2775,10 @@
       "segment": 262,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 17,
@@ -2490,7 +2843,10 @@
       "segment": 269,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 17,
@@ -2504,7 +2860,10 @@
       "segment": 271,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 17,
@@ -2559,35 +2918,54 @@
       "segment": 278,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 18,
       "segment": 279,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:assault"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 18,
       "segment": 280,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:hazing lawsuits"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 18,
       "segment": 281,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 18,
       "segment": 282,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 18,
@@ -2604,7 +2982,12 @@
       "segment": 284,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:intoxicated"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 18,
@@ -2622,14 +3005,20 @@
       "segment": 286,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 18,
       "segment": 287,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 18,
@@ -2666,7 +3055,12 @@
       "segment": 291,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:greek life"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 19,
@@ -2699,7 +3093,10 @@
       "segment": 295,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 19,
@@ -2754,7 +3151,10 @@
       "segment": 301,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 19,
@@ -2835,14 +3235,22 @@
       "segment": 309,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 20,
       "segment": 310,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:dorms"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 20,
@@ -2867,7 +3275,10 @@
       "segment": 313,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 20,
@@ -2946,21 +3357,32 @@
       "segment": 321,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:4:merged"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 20,
       "segment": 322,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
       "segment": 323,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
@@ -2977,14 +3399,20 @@
       "segment": 325,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
       "segment": 326,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
@@ -3009,21 +3437,30 @@
       "segment": 329,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
       "segment": 330,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
       "segment": 331,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
@@ -3048,21 +3485,30 @@
       "segment": 334,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
       "segment": 335,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
       "segment": 336,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 21,
@@ -3123,7 +3569,10 @@
       "segment": 342,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
@@ -3156,14 +3605,20 @@
       "segment": 346,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
       "segment": 347,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
@@ -3189,7 +3644,10 @@
       "segment": 350,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
@@ -3234,21 +3692,30 @@
       "segment": 355,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
       "segment": 356,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
       "segment": 357,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 22,
@@ -3287,7 +3754,10 @@
       "segment": 361,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 23,
@@ -3333,7 +3803,10 @@
       "segment": 366,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 23,
@@ -3365,7 +3838,12 @@
       "segment": 370,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:5:sorority"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 23,
@@ -3381,14 +3859,22 @@
       "segment": 372,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:5:fentanyl"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 23,
       "segment": 373,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 23,
@@ -3402,7 +3888,10 @@
       "segment": 375,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 24,
@@ -3416,7 +3905,10 @@
       "segment": 377,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 24,
@@ -3446,14 +3938,22 @@
       "segment": 380,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:6:ketamine"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 24,
       "segment": 381,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 24,
@@ -3470,7 +3970,12 @@
       "segment": 383,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:6:arrest"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 24,
@@ -3507,14 +4012,22 @@
       "segment": 387,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:6:ketamine"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 24,
       "segment": 388,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 24,
@@ -3532,21 +4045,32 @@
       "segment": 390,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
       "segment": 391,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:6:suspension"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 25,
       "segment": 392,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
@@ -3562,7 +4086,10 @@
       "segment": 394,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
@@ -3579,14 +4106,20 @@
       "segment": 396,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
       "segment": 397,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
@@ -3602,7 +4135,10 @@
       "segment": 399,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
@@ -3631,21 +4167,38 @@
       "segment": 402,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
       "segment": 403,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:personal integrity",
+        "word:6:personal integrity",
+        "word:6:integrity"
+      ],
+      "candidate_learning_item_ids": [
+        "word:6:personal integrity",
+        "word:6:integrity",
+        "phrase:6:personal integrity"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: personal integrity."
     },
     {
       "page": 25,
       "segment": 404,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 25,
@@ -3671,28 +4224,40 @@
       "segment": 407,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 26,
       "segment": 408,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 26,
       "segment": 409,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 26,
       "segment": 410,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 26,
@@ -3737,14 +4302,22 @@
       "segment": 415,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 26,
       "segment": 416,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:6:sophomore"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 26,
@@ -3760,7 +4333,10 @@
       "segment": 418,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 26,
@@ -3795,7 +4371,10 @@
       "segment": 422,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
@@ -3812,7 +4391,10 @@
       "segment": 424,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
@@ -3830,14 +4412,20 @@
       "segment": 426,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
       "segment": 427,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
@@ -3865,7 +4453,10 @@
       "segment": 430,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
@@ -3928,7 +4519,10 @@
       "segment": 437,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
@@ -3944,21 +4538,30 @@
       "segment": 439,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 27,
       "segment": 440,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
       "segment": 441,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
@@ -3974,7 +4577,10 @@
       "segment": 443,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
@@ -3997,14 +4603,24 @@
       "segment": 446,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
       "segment": 447,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:not associated with"
+      ],
+      "candidate_learning_item_ids": [
+        "phrase:7:not associated with"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: not associated with."
     },
     {
       "page": 28,
@@ -4029,35 +4645,62 @@
       "segment": 450,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
       "segment": 451,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
       "segment": 452,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:shots",
+        "word:7:vodka"
+      ],
+      "candidate_learning_item_ids": [
+        "word:7:shots",
+        "word:7:vodka"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
     },
     {
       "page": 28,
       "segment": 453,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 28,
       "segment": 454,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:legal drinking age",
+        "word:7:legal drinking age"
+      ],
+      "candidate_learning_item_ids": [
+        "word:7:legal drinking age",
+        "phrase:7:legal drinking age"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: legal drinking age."
     },
     {
       "page": 28,
@@ -4100,7 +4743,10 @@
       "segment": 459,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 29,
@@ -4149,7 +4795,12 @@
       "segment": 465,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:defendant"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 29,
@@ -4168,7 +4819,10 @@
       "segment": 467,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 29,
@@ -4184,7 +4838,10 @@
       "segment": 469,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 29,
@@ -4210,21 +4867,36 @@
       "segment": 472,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 29,
       "segment": 473,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:vodka"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 29,
       "segment": 474,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:7:i'm assuming"
+      ],
+      "candidate_learning_item_ids": [
+        "chunk:7:i'm assuming"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: i'm assuming."
     },
     {
       "page": 29,
@@ -4238,42 +4910,60 @@
       "segment": 476,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
       "segment": 477,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
       "segment": 478,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
       "segment": 479,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
       "segment": 480,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
       "segment": 481,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
@@ -4289,7 +4979,10 @@
       "segment": 483,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 30,
@@ -4348,14 +5041,24 @@
       "segment": 489,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:defendant"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 30,
       "segment": 490,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:fraternity brother"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 30,
@@ -4396,7 +5099,12 @@
       "segment": 494,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:defendant"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 31,
@@ -4412,14 +5120,24 @@
       "segment": 496,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:alumni room"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 31,
       "segment": 497,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:couch"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 31,
@@ -4516,7 +5234,10 @@
       "segment": 507,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 31,
@@ -4532,7 +5253,12 @@
       "segment": 509,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:defendant"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 32,
@@ -4550,21 +5276,30 @@
       "segment": 511,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 512,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 513,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
@@ -4591,28 +5326,46 @@
       "segment": 516,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 517,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 518,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:soon after",
+        "word:7:fraternity brother"
+      ],
+      "candidate_learning_item_ids": [
+        "word:7:fraternity brother",
+        "phrase:7:soon after"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: soon after."
     },
     {
       "page": 32,
       "segment": 519,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
@@ -4628,49 +5381,72 @@
       "segment": 521,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 522,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 523,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 32,
       "segment": 524,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:defendant"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 33,
       "segment": 525,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 526,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 527,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
@@ -4704,28 +5480,42 @@
       "segment": 531,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 532,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 533,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 534,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:snapchat"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 33,
@@ -4739,21 +5529,30 @@
       "segment": 536,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 537,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
       "segment": 538,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 33,
@@ -4767,7 +5566,12 @@
       "segment": 540,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:7:alumni room"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 33,
@@ -4790,7 +5594,10 @@
       "segment": 543,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
@@ -4806,14 +5613,20 @@
       "segment": 545,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
       "segment": 546,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
@@ -4857,7 +5670,10 @@
       "segment": 551,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
@@ -4888,14 +5704,20 @@
       "segment": 555,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
       "segment": 556,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
@@ -4909,14 +5731,20 @@
       "segment": 558,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
       "segment": 559,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 34,
@@ -4942,7 +5770,12 @@
       "segment": 562,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:8:clarifying"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 35,
@@ -4959,14 +5792,20 @@
       "segment": 564,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
       "segment": 565,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
@@ -4982,14 +5821,22 @@
       "segment": 567,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:8:afk"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 35,
       "segment": 568,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
@@ -5014,7 +5861,10 @@
       "segment": 571,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
@@ -5028,7 +5878,10 @@
       "segment": 573,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
@@ -5042,7 +5895,10 @@
       "segment": 575,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
@@ -5058,14 +5914,20 @@
       "segment": 577,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
       "segment": 578,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 35,
@@ -5107,28 +5969,40 @@
       "segment": 583,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
       "segment": 584,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
       "segment": 585,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
       "segment": 586,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
@@ -5142,7 +6016,10 @@
       "segment": 588,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
@@ -5206,14 +6083,20 @@
       "segment": 595,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
       "segment": 596,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 36,
@@ -5229,14 +6112,20 @@
       "segment": 598,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
       "segment": 599,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
@@ -5254,14 +6143,20 @@
       "segment": 601,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
       "segment": 602,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
@@ -5287,14 +6182,24 @@
       "segment": 605,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
       "segment": 606,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:not a bit"
+      ],
+      "candidate_learning_item_ids": [
+        "phrase:8:not a bit"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: not a bit."
     },
     {
       "page": 37,
@@ -5308,14 +6213,20 @@
       "segment": 608,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
       "segment": 609,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
@@ -5331,21 +6242,30 @@
       "segment": 611,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
       "segment": 612,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
       "segment": 613,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 37,
@@ -5359,35 +6279,52 @@
       "segment": 615,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:8:consent"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 38,
       "segment": 616,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
       "segment": 617,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
       "segment": 618,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
       "segment": 619,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
@@ -5403,14 +6340,20 @@
       "segment": 621,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
       "segment": 622,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
@@ -5436,7 +6379,10 @@
       "segment": 625,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
@@ -5451,8 +6397,17 @@
       "page": 38,
       "segment": 627,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:right now",
+        "word:8:redacted"
+      ],
+      "candidate_learning_item_ids": [
+        "word:8:redacted",
+        "phrase:8:right now"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: right now."
     },
     {
       "page": 38,
@@ -5476,7 +6431,12 @@
       "segment": 630,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:8:low key"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 38,
@@ -5493,21 +6453,30 @@
       "segment": 632,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 38,
       "segment": 633,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
       "segment": 634,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
@@ -5545,7 +6514,10 @@
       "segment": 638,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
@@ -5562,7 +6534,10 @@
       "segment": 640,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
@@ -5596,7 +6571,10 @@
       "segment": 644,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
@@ -5626,21 +6604,30 @@
       "segment": 648,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
       "segment": 649,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 39,
       "segment": 650,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
@@ -5669,14 +6656,20 @@
       "segment": 653,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
       "segment": 654,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
@@ -5693,28 +6686,40 @@
       "segment": 656,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
       "segment": 657,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
       "segment": 658,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
       "segment": 659,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
@@ -5728,7 +6733,10 @@
       "segment": 661,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
@@ -5743,57 +6751,87 @@
       "page": 40,
       "segment": 663,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:not a bit",
+        "word:8:pov"
+      ],
+      "candidate_learning_item_ids": [
+        "word:8:pov",
+        "phrase:8:not a bit"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: not a bit."
     },
     {
       "page": 40,
       "segment": 664,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 40,
       "segment": 665,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
       "segment": 666,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
       "segment": 667,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
       "segment": 668,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
       "segment": 669,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
       "segment": 670,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
@@ -5858,14 +6896,20 @@
       "segment": 677,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
       "segment": 678,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
@@ -5889,15 +6933,29 @@
       "page": 41,
       "segment": 681,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:not a lot of people",
+        "chunk:9:not a lot of people",
+        "chunk:9:not a lot of people are talking about"
+      ],
+      "candidate_learning_item_ids": [
+        "phrase:9:not a lot of people",
+        "chunk:9:not a lot of people",
+        "chunk:9:not a lot of people are talking about"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: not a lot of people; not a lot of people; not a lot of people are talking about."
     },
     {
       "page": 41,
       "segment": 682,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 41,
@@ -5913,7 +6971,10 @@
       "segment": 684,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
@@ -5929,14 +6990,20 @@
       "segment": 686,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
       "segment": 687,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
@@ -5950,7 +7017,10 @@
       "segment": 689,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
@@ -5973,21 +7043,30 @@
       "segment": 692,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
       "segment": 693,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
       "segment": 694,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
@@ -6001,7 +7080,10 @@
       "segment": 696,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
@@ -6015,7 +7097,10 @@
       "segment": 698,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 42,
@@ -6043,7 +7128,12 @@
       "segment": 701,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:9:title ix"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 43,
@@ -6065,15 +7155,27 @@
       "page": 43,
       "segment": 704,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:title ix",
+        "word:9:snippets"
+      ],
+      "candidate_learning_item_ids": [
+        "word:9:title ix",
+        "word:9:snippets"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
     },
     {
       "page": 43,
       "segment": 705,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 43,
@@ -6121,14 +7223,20 @@
       "segment": 710,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 43,
       "segment": 711,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 43,
@@ -6145,21 +7253,38 @@
       "segment": 713,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 43,
       "segment": 714,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:9:i don't know if"
+      ],
+      "candidate_learning_item_ids": [
+        "chunk:9:i don't know if"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: i don't know if."
     },
     {
       "page": 43,
       "segment": 715,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:9:i don't know if"
+      ],
+      "candidate_learning_item_ids": [
+        "chunk:9:i don't know if"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: i don't know if."
     },
     {
       "page": 43,
@@ -6176,7 +7301,10 @@
       "segment": 717,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 43,
@@ -6192,14 +7320,20 @@
       "segment": 719,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 720,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
@@ -6216,7 +7350,10 @@
       "segment": 722,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
@@ -6242,77 +7379,110 @@
       "segment": 725,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 726,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 727,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 728,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 729,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 730,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 731,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 732,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 44,
       "segment": 733,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 734,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 735,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
@@ -6328,35 +7498,50 @@
       "segment": 737,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 738,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 739,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 740,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 741,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
@@ -6382,35 +7567,52 @@
       "segment": 744,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:10:statement"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 45,
       "segment": 745,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 746,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 747,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 45,
       "segment": 748,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
@@ -6435,21 +7637,30 @@
       "segment": 751,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
       "segment": 752,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
       "segment": 753,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
@@ -6463,7 +7674,10 @@
       "segment": 755,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
@@ -6479,7 +7693,10 @@
       "segment": 757,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
@@ -6493,7 +7710,10 @@
       "segment": 759,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
@@ -6507,35 +7727,52 @@
       "segment": 761,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:10:statement"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 46,
       "segment": 762,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
       "segment": 763,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
       "segment": 764,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 46,
       "segment": 765,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
@@ -6563,21 +7800,30 @@
       "segment": 768,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 769,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 770,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
@@ -6605,84 +7851,126 @@
       "segment": 773,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 774,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 775,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:10:federal"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 47,
       "segment": 776,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:10:federal"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 47,
       "segment": 777,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 778,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:10:commences"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 47,
       "segment": 779,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 780,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 781,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 782,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 47,
       "segment": 783,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
       "segment": 784,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
@@ -6717,14 +8005,20 @@
       "segment": 789,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
       "segment": 790,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
@@ -6760,21 +8054,30 @@
       "segment": 794,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
       "segment": 795,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
       "segment": 796,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
@@ -6809,14 +8112,20 @@
       "segment": 800,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 48,
       "segment": 801,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
@@ -6832,21 +8141,30 @@
       "segment": 803,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 804,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 805,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
@@ -6863,49 +8181,70 @@
       "segment": 807,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 808,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 809,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 810,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 811,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 812,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 813,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
@@ -6921,42 +8260,60 @@
       "segment": 815,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 816,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 817,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 49,
       "segment": 818,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 819,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 820,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
@@ -6979,14 +8336,22 @@
       "segment": 823,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 824,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [
+        "word:10:sanctions"
+      ],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
     },
     {
       "page": 50,
@@ -7003,7 +8368,10 @@
       "segment": 826,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
@@ -7020,63 +8388,94 @@
       "segment": 828,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 829,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 830,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 831,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 832,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:at the time"
+      ],
+      "candidate_learning_item_ids": [
+        "phrase:10:at the time"
+      ],
+      "review_status": "systematic_link_review",
+      "review_reason": "Covered by complete reusable phrase/chunk match: at the time."
     },
     {
       "page": 50,
       "segment": 833,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 834,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 835,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 50,
       "segment": 836,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 51,
@@ -7135,14 +8534,20 @@
       "segment": 842,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 51,
       "segment": 843,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 51,
@@ -7166,14 +8571,20 @@
       "segment": 846,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 51,
       "segment": 847,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     },
     {
       "page": 51,
@@ -7196,7 +8607,10 @@
       "segment": 850,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "candidate_learning_item_ids": [],
+      "review_status": "systematic_review_needs_editorial_decision",
+      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
     }
   ]
 }

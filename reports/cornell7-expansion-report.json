@@ -94,22 +94,24 @@
     }
   ],
   "coverage_status": {
-    "covered": 376,
+    "covered": 399,
     "no_identified_barrier": 76,
-    "requires_review": 398
+    "requires_review": 375
   },
   "unresolved_counts": {
     "missing_ipa": 0,
     "missing_english_definition": 0,
-    "missing_example_translation": 193,
-    "generated_spelling_context_memory": 192,
+    "missing_example_translation": 0,
+    "generated_spelling_context_memory": 0,
     "requires_human_review": 290,
-    "transcript_segments_requiring_review": 398,
+    "transcript_segments_requiring_review": 375,
     "externally_sourced_ipa_requiring_review": 215,
-    "externally_sourced_definition_requiring_review": 197
+    "externally_sourced_definition_requiring_review": 197,
+    "machine_translations_requiring_review": 193,
+    "form_generated_memory_requiring_review": 192
   },
   "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
   "reviewed_word_cards": 31,
-  "translated_word_examples": 128,
+  "translated_word_examples": 321,
   "upgraded_memory_tips": 80
 }
