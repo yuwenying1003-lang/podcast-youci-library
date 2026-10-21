@@ -136,7 +136,7 @@
   "vocab": [
     {
       "word": "accused",
-      "definition": "people alleged to have committed wrongdoing",
+      "definition": "said or believed to have committed a crime or done something wrong",
       "cn": "被指控的",
       "ipa": "/əˈkjuzd/",
       "difficulty": "Useful",
@@ -159,20 +159,23 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "accuse → accused",
-      "memory_hook": "Accuse first; prove it later!",
+      "tip": "accuse + -ed → accused. Keep the single e in accuse, then add d for the past-participle form.",
+      "memory_hook": "Someone accuses; the person becomes the accused.",
       "mental_image_zh": "指控贴在文件上，还没有判决印章。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "The manager was accused of misconduct.",
-      "example_cn": "经理被指控有不当行为。",
+      "editorial_status": "reviewed_complete",
+      "example": "The employee was accused of sharing confidential files.",
+      "example_cn": "这名员工被指控泄露机密文件。",
       "example_source": "adapted",
-      "source": "verified transcript page 1"
+      "source": "verified transcript page 1",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "backpack",
-      "definition": "a bag worn on your back with shoulder straps",
+      "definition": "a bag carried on the back with two shoulder straps",
       "cn": "背包",
       "ipa": "/ˈbækˌpæk/",
       "difficulty": "Useful",
@@ -195,22 +198,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "back + pack",
-      "memory_hook": "Pack it on your back!",
+      "tip": "back + pack → backpack: a pack carried on your back.",
+      "memory_hook": "Pack it, zip it, carry it on your back.",
       "mental_image_zh": "把所有书 pack 到背上。",
       "mnemonic_type": "wordplay",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "I packed my backpack last night.",
-      "example_cn": "我昨晚收拾了背包。",
+      "editorial_status": "reviewed_complete",
+      "example": "I left my laptop in my backpack.",
+      "example_cn": "我把笔记本电脑落在背包里了。",
       "example_source": "adapted",
-      "source": "verified transcript page 1"
+      "source": "verified transcript page 1",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "conclusion",
-      "definition": "The end, finish, close or last part of something.",
+      "definition": "a judgment or decision reached after considering the facts",
       "cn": "结论",
-      "ipa": "/kənkluʒən/",
+      "ipa": "/kənˈkluʒən/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 1,
@@ -231,26 +237,27 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "conclude → conclusion",
-      "memory_hook": "Conclude the case; reach a conclusion!",
+      "tip": "conclude loses final -de and takes -sion → conclusion. The word family links the action to its result.",
+      "memory_hook": "Conclude the discussion and state your conclusion.",
       "mental_image_zh": "侦探合上卷宗，终于得出结论。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "Let's not jump to conclusions.",
-      "example_cn": "我们先别急着下结论。",
+      "editorial_status": "reviewed_complete",
+      "example": "We should hear both sides before reaching a conclusion.",
+      "example_cn": "我们应该听完双方的说法再下结论。",
       "example_source": "adapted",
       "source": "verified transcript page 1",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "filming",
-      "definition": "The action of the verb to film.",
+      "definition": "recording people or events with a camera",
       "cn": "拍摄",
-      "ipa": "/fɪlmɪŋ/",
+      "ipa": "/ˈfɪlmɪŋ/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 1,
@@ -271,24 +278,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "film → filming",
-      "memory_hook": "Film it while it's happening!",
+      "tip": "film + -ing → filming. Film keeps its final m before the vowel suffix.",
+      "memory_hook": "The camera is rolling, so they are filming.",
       "mental_image_zh": "举着手机把现场拍下来。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "She kept filming the event.",
-      "example_cn": "她一直在拍摄现场。",
+      "editorial_status": "reviewed_complete",
+      "example": "She was filming the concert on her phone.",
+      "example_cn": "她当时正用手机拍摄音乐会。",
       "example_source": "adapted",
       "source": "verified transcript page 1",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "parking spot",
-      "definition": "a marked space for parking a vehicle",
+      "definition": "a marked space where a vehicle can be parked",
       "cn": "停车位",
       "ipa": "/ˈpɑrkɪŋ spɑt/",
       "difficulty": "Advanced",
@@ -299,21 +307,35 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "Also say parking space.",
-      "memory_hook": "parking spot: in a parking spot",
-      "mental_image_zh": "想象原文场景，并把 “parking spot” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "find a parking spot",
+          "meaning_zh": "找到停车位",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "pull into a parking spot",
+          "meaning_zh": "驶入停车位",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "parking + spot: spot means a particular place, so this is the place assigned for parking.",
+      "memory_hook": "Spot an empty space and pull into the parking spot.",
+      "mental_image_zh": "停车场里一个空格被绿色圆圈圈出，写着 parking spot。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "A driver was trying to enter a parking spot.",
-      "example_cn": "一名司机试图进入停车位。",
-      "example_source": "transcript",
-      "source": "verified transcript page 1"
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "It took us ten minutes to find a parking spot.",
+      "example_cn": "我们花了十分钟才找到一个停车位。",
+      "example_source": "adapted",
+      "source": "verified transcript page 1",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "pedestrian",
-      "definition": "a person traveling on foot",
+      "definition": "a person who is walking, especially near traffic",
       "cn": "行人",
       "ipa": "/pəˈdɛstriən/",
       "difficulty": "Useful",
@@ -336,22 +358,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "ped = foot",
-      "memory_hook": "Pedestrians travel on foot!",
+      "tip": "ped- relates to “foot,” as in pedal; a pedestrian travels on foot.",
+      "memory_hook": "Pedal uses feet, and a pedestrian walks on foot.",
       "mental_image_zh": "一双脚 ped 穿过斑马线。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "Pedestrian safety is a priority.",
-      "example_cn": "行人安全是首要事项。",
+      "editorial_status": "reviewed_complete",
+      "example": "Drivers must stop for pedestrians at the crosswalk.",
+      "example_cn": "司机必须在人行横道前停车让行人先过。",
       "example_source": "adapted",
-      "source": "verified transcript page 1"
+      "source": "verified transcript page 1",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "recession",
-      "definition": "a period of economic decline",
+      "definition": "a period when economic activity declines",
       "cn": "经济衰退",
-      "ipa": "/ˌriˈsɛʃən/",
+      "ipa": "/rɪˈsɛʃən/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 1,
@@ -372,22 +397,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "recede → recession",
-      "memory_hook": "When growth recedes, recession arrives!",
+      "tip": "recede means “move back”; recede + -sion gives recession, when the economy moves backward.",
+      "memory_hook": "When growth recedes, the economy enters a recession.",
       "mental_image_zh": "经济曲线像退潮一样往后退。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "The economy entered a recession.",
-      "example_cn": "经济进入了衰退期。",
+      "editorial_status": "reviewed_complete",
+      "example": "Many companies reduced hiring during the recession.",
+      "example_cn": "经济衰退期间，许多公司减少了招聘。",
       "example_source": "adapted",
-      "source": "verified transcript page 1"
+      "source": "verified transcript page 1",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "scenario",
       "definition": "a possible situation or sequence of events",
       "cn": "情形、假设",
-      "ipa": "/sɪˈnɛrioʊ/",
+      "ipa": "/səˈnɛrioʊ/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 1,
@@ -408,22 +436,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "scenario ↔ scene",
-      "memory_hook": "Picture every possible scene!",
+      "tip": "Link scenario with scene: a scenario is a possible scene you can picture unfolding.",
+      "memory_hook": "Picture the scene to understand the scenario.",
       "mental_image_zh": "脑海放映三个不同结局的 scene。",
       "mnemonic_type": "wordplay",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "We need to plan for the worst-case scenario.",
-      "example_cn": "我们要为最坏的情况做准备。",
+      "editorial_status": "reviewed_complete",
+      "example": "Let’s prepare for the worst-case scenario.",
+      "example_cn": "我们来为最坏的情况做好准备。",
       "example_source": "adapted",
-      "source": "verified transcript page 1"
+      "source": "verified transcript page 1",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "allegedly",
-      "definition": "according to a claim that has not been proven",
+      "definition": "according to an unproven claim",
       "cn": "据称",
-      "ipa": "/əˈlɛʤədli/",
+      "ipa": "/əˈlɛdʒɪdli/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 2,
@@ -444,22 +475,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "allege → allegedly",
-      "memory_hook": "Alleged does not mean proven!",
+      "tip": "allege → alleged → allegedly. Build the adverb by adding -ly to alleged.",
+      "memory_hook": "Allegedly reports a claim, not a proven fact.",
       "mental_image_zh": "报道贴着“据称”而非“已证实”。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "He was allegedly involved in the incident.",
-      "example_cn": "据称他涉及这起事件。",
+      "editorial_status": "reviewed_complete",
+      "example": "The documents were allegedly removed from the office.",
+      "example_cn": "据称这些文件被人从办公室拿走了。",
       "example_source": "adapted",
-      "source": "verified transcript page 2"
+      "source": "verified transcript page 2",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "anticlimactically",
-      "definition": "in a way that is less dramatic than expected",
+      "definition": "in a disappointingly ordinary way after excitement or expectation",
       "cn": "平淡收场地",
-      "ipa": "/ˌæntiˌklaɪˈmæktɪkli/",
+      "ipa": "/ˌæntiklaɪˈmæktɪkli/",
       "difficulty": "Advanced",
       "unit": 0,
       "source_page": 2,
@@ -468,21 +502,35 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "anti- + climactic; think: without the expected dramatic peak.",
-      "memory_hook": "anticlimactically: kind of anticlimactically bumps into the",
-      "mental_image_zh": "想象原文场景，并把 “anticlimactically” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "end anticlimactically",
+          "meaning_zh": "平淡收场",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "finish anticlimactically",
+          "meaning_zh": "以令人失望的方式结束",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "anti- “against” + climactic “at the dramatic peak” + -ally: the expected climax never arrives.",
+      "memory_hook": "No climax arrives; the story ends anticlimactically.",
+      "mental_image_zh": "烟花倒计时结束却只冒出一缕烟，旁边写着 anticlimactically。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "The announcement ended anticlimactically.",
-      "example_cn": "该公告以虎头蛇尾的方式结束。",
-      "example_source": "transcript",
-      "source": "verified transcript page 2"
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "After weeks of hype, the event ended anticlimactically.",
+      "example_cn": "经过数周造势，这场活动最终却平淡收场。",
+      "example_source": "adapted",
+      "source": "verified transcript page 2",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "balance",
-      "definition": "(uncountable) A state in which opposing forces harmonise; equilibrium.",
+      "definition": "the ability to remain steady without falling",
       "cn": "平衡",
       "ipa": "/ˈbæləns/",
       "difficulty": "Useful",
@@ -505,24 +553,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "balance ↔ balanced",
-      "memory_hook": "Stay balanced; don't lose your balance!",
+      "tip": "balance → balanced. The unchanged base helps connect the noun with the adjective.",
+      "memory_hook": "Stay balanced so you do not lose your balance.",
       "mental_image_zh": "站在平衡木上，两手努力保持 balance。",
       "mnemonic_type": "wordplay",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "I almost lost my balance.",
-      "example_cn": "我差点失去平衡。",
+      "editorial_status": "reviewed_complete",
+      "example": "She lost her balance on the icy step.",
+      "example_cn": "她在结冰的台阶上失去了平衡。",
       "example_source": "adapted",
       "source": "verified transcript page 2",
       "ipa_source": "dictionaryapi.dev",
-      "ipa_status": "external_dictionary_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "banned",
-      "definition": "Forbidden; not allowed.",
+      "definition": "officially forbidden or not allowed",
       "cn": "被禁止",
       "ipa": "/bænd/",
       "difficulty": "Useful",
@@ -533,25 +582,37 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “banned” visible, then recall it through the podcast phrase “car is banned from campus for”.",
-      "memory_hook": "banned: car is banned from campus for",
-      "mental_image_zh": "想象原文场景，并把 “banned” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "be banned from campus",
+          "meaning_zh": "被禁止进入校园",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "ban someone from an event",
+          "meaning_zh": "禁止某人参加活动",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "ban doubles final n before -ed → banned. The double n keeps the short /æ/ sound.",
+      "memory_hook": "One ban becomes two n’s in banned.",
+      "mental_image_zh": "校园门口的禁入牌把 ban 的 n 复制成 banned。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "And that individual whose foot was potentially ran over by this car is banned from campus for the entire year.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "He was banned from attending the event.",
+      "example_cn": "他被禁止参加这项活动。",
+      "example_source": "adapted",
       "source": "verified transcript page 2",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "fiasco",
-      "definition": "a complete failure or embarrassing mess",
+      "definition": "a complete and embarrassing failure",
       "cn": "闹剧",
       "ipa": "/fiˈæskoʊ/",
       "difficulty": "Useful",
@@ -574,22 +635,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "a complete fiasco",
-      "memory_hook": "One small mistake, a complete fiasco!",
+      "tip": "Fix the unusual ending -asco in your mind through the phrase a complete fiasco.",
+      "memory_hook": "Everything failed: it was a complete fiasco.",
       "mental_image_zh": "小会议竟演变成一场大型混乱。",
       "mnemonic_type": "context",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "The launch turned into a fiasco.",
-      "example_cn": "这次发布变成了一场闹剧。",
+      "editorial_status": "reviewed_complete",
+      "example": "The poorly planned launch turned into a fiasco.",
+      "example_cn": "这次计划不周的发布活动变成了一场闹剧。",
       "example_source": "adapted",
-      "source": "verified transcript page 2"
+      "source": "verified transcript page 2",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "aggressive",
-      "definition": "Characterized by aggression; highly combative; prone to behave in a way that involves attacking (especially if unjustly) or arguing.",
+      "definition": "forceful, hostile, or ready to attack or argue",
       "cn": "咄咄逼人的",
-      "ipa": "/əɡrɛsɪv/",
+      "ipa": "/əˈɡrɛsɪv/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 3,
@@ -598,27 +662,39 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “aggressive” visible, then recall it through the podcast phrase “not super aggressive either”.",
-      "memory_hook": "aggressive: not super aggressive either",
-      "mental_image_zh": "想象原文场景，并把 “aggressive” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "aggressive behavior",
+          "meaning_zh": "攻击性行为",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "sound aggressive",
+          "meaning_zh": "听起来咄咄逼人",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "aggression → aggressive: both keep the double g and double s; -ive makes the adjective.",
+      "memory_hook": "Aggression describes the act; aggressive describes the behavior.",
+      "mental_image_zh": "一句话两边各站着 gg 和 ss，语气显得 aggressive。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "Yes, but it's not super aggressive either.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "His reply sounded more defensive than aggressive.",
+      "example_cn": "他的回答听起来更像是在防御，而不是咄咄逼人。",
+      "example_source": "adapted",
       "source": "verified transcript page 3",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "bizarre",
       "definition": "very strange or difficult to explain",
       "cn": "离奇的",
-      "ipa": "/bɪˈzɑr/",
+      "ipa": "/bəˈzɑr/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 3,
@@ -628,22 +704,25 @@
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
       "collocations": [],
-      "tip": "Use the target word itself as the spelling anchor: bi-ZARRE ends with the unusual double r + e. Fix it in the natural phrase a bizarre situation, then picture a scene so odd that the word bizarre appears on its sign.",
-      "memory_hook": "bizarre: of sounds bizarre because like, sure",
+      "tip": "Remember the striking spelling: one z but double r in bizarre; anchor it in a bizarre situation.",
+      "memory_hook": "If the situation is strangely hard to explain, call it bizarre.",
       "mental_image_zh": "想象原文场景，并把 “bizarre” 写在画面中央。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "The result of the investigation sounded bizarre.",
-      "example_cn": "调查结果听起来很奇怪。",
-      "example_source": "transcript",
-      "source": "verified transcript page 3"
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "That explanation sounds completely bizarre.",
+      "example_cn": "那个解释听起来十分离奇。",
+      "example_source": "adapted",
+      "source": "verified transcript page 3",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "investigation",
-      "definition": "The act of investigating; the process of inquiring into or following up; research, especially patient or thorough inquiry or examination",
+      "definition": "an official or careful examination of facts to discover what happened",
       "cn": "调查",
-      "ipa": "/ɪnvɛstəɡeɪʃən/",
+      "ipa": "/ɪnˌvɛstəˈɡeɪʃən/",
       "difficulty": "Advanced",
       "unit": 0,
       "source_page": 3,
@@ -664,24 +743,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "investigate → investigation",
-      "memory_hook": "Investigate clues before concluding!",
+      "tip": "investigate drops final e and adds -ion → investigation.",
+      "memory_hook": "Investigate the evidence during an investigation.",
       "mental_image_zh": "调查员拿放大镜逐一检查线索。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "The company launched an investigation.",
-      "example_cn": "公司展开了调查。",
+      "editorial_status": "reviewed_complete",
+      "example": "The university opened an investigation into the complaint.",
+      "example_cn": "大学针对这起投诉展开了调查。",
       "example_source": "adapted",
       "source": "verified transcript page 3",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "loitering",
-      "definition": "remaining somewhere without a clear purpose",
+      "definition": "remaining in a place without an obvious purpose",
       "cn": "闲逛",
       "ipa": "/ˈlɔɪtərɪŋ/",
       "difficulty": "Useful",
@@ -692,23 +772,37 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "loiter → loitering.",
-      "memory_hook": "loitering: kind of loitering",
-      "mental_image_zh": "想象原文场景，并把 “loitering” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "loiter outside",
+          "meaning_zh": "在外面闲逛逗留",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "no loitering",
+          "meaning_zh": "禁止逗留",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "loiter + -ing → loitering. Keep the /ɔɪ/ sound from loiter, like the sound in “boy.”",
+      "memory_hook": "No clear destination—just loitering around.",
+      "mental_image_zh": "商店门口有人来回踱步，牌子上写着 No loitering。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "Several students were loitering outside the building.",
-      "example_cn": "几名学生在大楼外面闲逛。",
-      "example_source": "transcript",
-      "source": "verified transcript page 3"
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "A group of teenagers was loitering near the entrance.",
+      "example_cn": "一群青少年在入口附近闲逛。",
+      "example_source": "adapted",
+      "source": "verified transcript page 3",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "prestigious",
-      "definition": "highly respected and admired",
+      "definition": "respected and admired because of high quality or importance",
       "cn": "有声望的",
-      "ipa": "/pərˈstiʤəs/",
+      "ipa": "/prɛˈstɪdʒəs/",
       "difficulty": "Advanced",
       "unit": 0,
       "source_page": 3,
@@ -729,22 +823,25 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "prestige → prestigious",
-      "memory_hook": "Prestige earns a prestigious badge!",
+      "tip": "prestige + -ous → prestigious. The /ʒ/ in prestige shifts to /dʒ/ before -ous.",
+      "memory_hook": "Prestige gives a school its prestigious reputation.",
       "mental_image_zh": "prestige 变成校门上闪亮的奖牌。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "She won a prestigious award.",
-      "example_cn": "她获得了一项重要奖项。",
+      "editorial_status": "reviewed_complete",
+      "example": "She received a scholarship from a prestigious university.",
+      "example_cn": "她获得了一所知名大学的奖学金。",
       "example_source": "adapted",
-      "source": "verified transcript page 3"
+      "source": "verified transcript page 3",
+      "definition_status": "context_reviewed",
+      "ipa_status": "american_ipa_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "vehicle",
-      "definition": "A conveyance: a spacious device for carrying or transporting substances, objects, people or animals.",
+      "definition": "a machine such as a car or truck used to transport people or goods",
       "cn": "车辆",
-      "ipa": "/ˈvɪː(ə).kəl/",
+      "ipa": "/ˈviəkəl/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 3,
@@ -765,20 +862,21 @@
           "source_kind": "teaching"
         }
       ],
-      "tip": "vehicle ↔ vehicular",
-      "memory_hook": "A vehicle carries you somewhere!",
+      "tip": "Hear vehicle as three light beats: ve-hi-cle /ˈvi.ə.kəl/; do not pronounce the written h strongly.",
+      "memory_hook": "A vehicle carries people from one place to another.",
       "mental_image_zh": "车库门一开，所有 vehicle 排队出门。",
       "mnemonic_type": "etymology",
       "mnemonic_status": "editorially_curated_complete_card",
-      "editorial_status": "editorially_curated_needs_human_final_proofreading",
-      "example": "Please stay away from moving vehicles.",
-      "example_cn": "请远离行驶中的车辆。",
+      "editorial_status": "reviewed_complete",
+      "example": "Keep a safe distance from the moving vehicle.",
+      "example_cn": "请与行驶中的车辆保持安全距离。",
       "example_source": "adapted",
       "source": "verified transcript page 3",
       "ipa_source": "dictionaryapi.dev",
-      "ipa_status": "external_dictionary_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "atrium",
@@ -1593,7 +1691,7 @@
     },
     {
       "word": "bonk",
-      "definition": "(informal) To hit or strike; to collide with something.",
+      "definition": "to hit or collide with something, making a dull sound",
       "cn": "咚地撞击",
       "ipa": "/bɑŋk/",
       "difficulty": "Useful",
@@ -1604,27 +1702,39 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “bonk” visible, then recall it through the podcast phrase “like a bonk”.",
-      "memory_hook": "bonk: like a bonk",
-      "mental_image_zh": "想象原文场景，并把 “bonk” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "bonk your head",
+          "meaning_zh": "撞到头",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "bonk into something",
+          "meaning_zh": "砰地撞上某物",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "Bonk sounds like the dull impact it describes; the final -nk ends with /ŋk/.",
+      "memory_hook": "Bonk—the sound of a light, dull bump.",
+      "mental_image_zh": "头轻轻撞到柜门，声音“bonk”正写在撞击点上。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "It's a little more like a bonk.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "I bonked my head on the open cabinet door.",
+      "example_cn": "我的头撞到了敞开的橱柜门上。",
+      "example_source": "adapted",
       "source": "verified transcript page 1",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "screaming",
-      "definition": "Loud, sharp, and piercing to the ear.",
+      "definition": "shouting or crying in a very loud, high voice",
       "cn": "尖叫",
-      "ipa": "/skrimɪŋ/",
+      "ipa": "/ˈskrimɪŋ/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 2,
@@ -1633,21 +1743,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “screaming” visible, then recall it through the podcast phrase “else is screaming now”.",
-      "memory_hook": "screaming: else is screaming now",
-      "mental_image_zh": "想象原文场景，并把 “screaming” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "start screaming",
+          "meaning_zh": "开始尖叫",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "hear someone screaming",
+          "meaning_zh": "听见某人在尖叫",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "scream + -ing → screaming. The long /i/ sound matches the extended ee spelling.",
+      "memory_hook": "The double e stretches the sound in screaming.",
+      "mental_image_zh": "画面中的 ee 被拉得很长，像一声持续的尖叫。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "But as the car is moving forward, you can hear from the side of the car, someone else is screaming now.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "We heard someone screaming outside.",
+      "example_cn": "我们听见有人在外面尖叫。",
+      "example_source": "adapted",
       "source": "verified transcript page 2",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "protesters",
@@ -1792,9 +1914,9 @@
     },
     {
       "word": "campus",
-      "definition": "The grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.",
+      "definition": "the buildings and grounds of a university or school",
       "cn": "校园",
-      "ipa": "/kæmpəs/",
+      "ipa": "/ˈkæmpəs/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 1,
@@ -1803,21 +1925,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “campus” visible, then recall it through the podcast phrase “Accused of Campus Gang Rape &”.",
-      "memory_hook": "campus: Accused of Campus Gang Rape &",
-      "mental_image_zh": "想象原文场景，并把 “campus” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "on campus",
+          "meaning_zh": "在校园内",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "campus police",
+          "meaning_zh": "校园警察",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "campus begins with camp: picture a group of university buildings gathered like a camp.",
+      "memory_hook": "The whole university community gathers on campus.",
+      "mental_image_zh": "几栋教学楼像营地一样围在一起，中间写着 campus。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "Cornell 7: Frat Brothers Accused of Campus Gang Rape & Sending \"Free Pussy\" Snapchat",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "Visitors must register before entering the campus.",
+      "example_cn": "访客进入校园前必须登记。",
+      "example_source": "adapted",
       "source": "verified transcript page 1",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "survivor",
@@ -1937,9 +2071,9 @@
     },
     {
       "word": "individual",
-      "definition": "A person considered alone, rather than as belonging to a group of people.",
+      "definition": "one particular person considered separately from a group",
       "cn": "个人",
-      "ipa": "/ɪndəvɪdʒəwəl/",
+      "ipa": "/ˌɪndəˈvɪdʒuəl/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 2,
@@ -1948,21 +2082,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “individual” visible, then recall it through the podcast phrase “And that individual whose foot was”.",
-      "memory_hook": "individual: And that individual whose foot was",
-      "mental_image_zh": "想象原文场景，并把 “individual” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "the individual involved",
+          "meaning_zh": "涉事个人",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "each individual",
+          "meaning_zh": "每一个人",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "in- + dividual connects with divide: an individual is one person separated from the group.",
+      "memory_hook": "Divide the group until one individual remains.",
+      "mental_image_zh": "人群分开后只剩一个人，头顶写着 individual。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "And that individual whose foot was potentially ran over by this car is banned from campus for the entire year.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "Each individual is responsible for following the rules.",
+      "example_cn": "每个人都有责任遵守这些规定。",
+      "example_source": "adapted",
       "source": "verified transcript page 2",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "apparently",
@@ -2078,9 +2224,9 @@
     },
     {
       "word": "alleged",
-      "definition": "Asserted but not proved.",
+      "definition": "claimed to be true but not yet proved",
       "cn": "被指称的",
-      "ipa": "/əlɛdʒd/",
+      "ipa": "/əˈlɛdʒd/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 2,
@@ -2089,27 +2235,39 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “alleged” visible, then recall it through the podcast phrase “This is a student who got his foot”.",
-      "memory_hook": "alleged: This is a student who got his foot",
-      "mental_image_zh": "想象原文场景，并把 “alleged” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "alleged assault",
+          "meaning_zh": "被指称的袭击",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "alleged misconduct",
+          "meaning_zh": "被指称的不当行为",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "allege + -d → alleged. Because allege already ends in e, add only d.",
+      "memory_hook": "An alleged event is claimed, not confirmed.",
+      "mental_image_zh": "报道上的 alleged 旁边盖着“尚未证实”的印章。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "This is a student who got his foot allegedly run over and can no longer come back to campus.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "Police are investigating the alleged assault.",
+      "example_cn": "警方正在调查这起据称发生的袭击。",
+      "example_source": "adapted",
       "source": "verified transcript page 2",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "potentially",
-      "definition": "In a manner showing much potential; with the possibility of happening in a given way.",
+      "definition": "possibly, if circumstances develop in a particular way",
       "cn": "潜在地",
-      "ipa": "/pətɛnʃəli/",
+      "ipa": "/pəˈtɛnʃəli/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 2,
@@ -2118,27 +2276,39 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “potentially” visible, then recall it through the podcast phrase “foot was potentially ran over by”.",
-      "memory_hook": "potentially: foot was potentially ran over by",
-      "mental_image_zh": "想象原文场景，并把 “potentially” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "potentially dangerous",
+          "meaning_zh": "可能有危险的",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "potentially useful",
+          "meaning_zh": "可能有用的",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "potential + -ly → potentially. The -ial ending becomes -ially in the adverb.",
+      "memory_hook": "Potential means possibility; potentially means possibly.",
+      "mental_image_zh": "两条可能的道路从 potential 延伸到 potentially。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "And that individual whose foot was potentially ran over by this car is banned from campus for the entire year.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "The loose cable is potentially dangerous.",
+      "example_cn": "这根松动的电缆可能有危险。",
+      "example_source": "adapted",
       "source": "verified transcript page 2",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "frat",
-      "definition": "(often attributive) Shortened form of fraternity, college organization.",
+      "definition": "an informal shortened form of fraternity, especially a college fraternity",
       "cn": "兄弟会（口语）",
-      "ipa": "/fɹæt/",
+      "ipa": "/fræt/",
       "difficulty": "Useful",
       "unit": 0,
       "source_page": 1,
@@ -2147,21 +2317,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “frat” visible, then recall it through the podcast phrase “Cornell 7: Frat Brothers Accused of”.",
-      "memory_hook": "frat: Cornell 7: Frat Brothers Accused of",
-      "mental_image_zh": "想象原文场景，并把 “frat” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "frat house",
+          "meaning_zh": "兄弟会会所",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "frat brother",
+          "meaning_zh": "兄弟会成员",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "frat is the clipped spoken form of fraternity: keep the opening frat- and drop the rest.",
+      "memory_hook": "Fraternity gets shortened to frat in casual speech.",
+      "mental_image_zh": "长单词 fraternity 被剪短，只留下口语形式 frat。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "Cornell 7: Frat Brothers Accused of Campus Gang Rape & Sending \"Free Pussy\" Snapchat",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "He met his friends at the frat house.",
+      "example_cn": "他在兄弟会会所见到了朋友们。",
+      "example_source": "adapted",
       "source": "verified transcript page 1",
       "ipa_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "ipa_status": "external_dictionary_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "coverage",
@@ -15411,6 +15593,26 @@
       "example_cn": "",
       "example_source": "transcript",
       "editorial_status": "new_exact_match_pedagogical_review_pending"
+    },
+    {
+      "text": "back up",
+      "definition": "to move backward, especially in a vehicle",
+      "cn": "倒车；向后移动",
+      "difficulty": "Essential",
+      "unit": 0,
+      "source_page": 3,
+      "source_segment": "segment-47",
+      "source_excerpt": "It just starts slowly backing up.",
+      "source_kind": "original",
+      "source_verification": "verified_transcript_match",
+      "extraction_confidence": "high",
+      "grammatical_pattern": "back up / back the car up",
+      "connected_speech_note": "The two words link naturally in speech.",
+      "daily_usefulness": "High",
+      "example": "Could you back up a little?",
+      "example_cn": "你能稍微往后退一点吗？",
+      "example_source": "adapted",
+      "editorial_status": "reviewed_complete"
     }
   ],
   "patterns": [
@@ -16218,6 +16420,114 @@
             "reference_answer": "Wait, there's a lot of people?"
           }
         ]
+      },
+      {
+        "text": "Is that what it is?",
+        "cn": "原来是这样吗？／是这个意思吗？",
+        "example": "Oh, is that what it is? I thought the noise came from outside.",
+        "prompt": "Use “Is that what it is?” when you have just understood an explanation.",
+        "source_page": 3,
+        "source_segment": "segment-40",
+        "source_excerpt": "Is that what it is?",
+        "communicative_function": "checking a newly understood explanation",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life",
+            "scene_zh": "家人解释以后，你终于明白冰箱为什么一直响。",
+            "goal_en": "Check whether that explanation is correct.",
+            "keywords": [
+              "fridge",
+              "noise"
+            ],
+            "starter": "Oh, is that what it is?",
+            "reference_answer": "Oh, is that what it is? I thought something was broken."
+          },
+          {
+            "type": "social",
+            "label": "Friends",
+            "scene_zh": "朋友解释以后，你终于听懂了刚才那个玩笑。",
+            "goal_en": "Confirm that you now understand the joke.",
+            "keywords": [
+              "joke",
+              "meaning"
+            ],
+            "starter": "Is that what it is?",
+            "reference_answer": "Is that what it is? Now the joke makes sense."
+          },
+          {
+            "type": "work",
+            "label": "Work",
+            "scene_zh": "同事说明情况后，你明白了报表数字变化的原因。",
+            "goal_en": "Confirm your understanding of the cause.",
+            "keywords": [
+              "report",
+              "change"
+            ],
+            "starter": "Is that what it is?",
+            "reference_answer": "Is that what it is? I thought the change came from the new pricing."
+          }
+        ],
+        "source_kind": "original",
+        "source_verification": "verified_transcript_match",
+        "extraction_confidence": "high",
+        "editorial_status": "reviewed_complete",
+        "original_en": "Is that what it is?",
+        "everyday_example": "Oh, is that what it is? I thought the noise came from outside."
+      },
+      {
+        "text": "prevent ... from ...",
+        "cn": "阻止……做……",
+        "example": "The delay prevented us from finishing on time.",
+        "prompt": "Use “prevent ... from ...” to explain what stopped an action.",
+        "source_page": 3,
+        "source_segment": "segment-42",
+        "source_excerpt": "Okay, so prevent it from leaving.",
+        "communicative_function": "explaining what stops an action",
+        "scenarios": [
+          {
+            "type": "daily",
+            "label": "Daily life",
+            "scene_zh": "今天雨下得很大，导致你没有办法按计划出门。",
+            "goal_en": "Explain what stopped you from going out.",
+            "keywords": [
+              "rain",
+              "go out"
+            ],
+            "starter": "The rain prevented me from",
+            "reference_answer": "The heavy rain prevented me from going out."
+          },
+          {
+            "type": "social",
+            "label": "Friends",
+            "scene_zh": "路上交通严重堵塞，导致朋友没有按时赶到聚会。",
+            "goal_en": "Explain why your friend was late.",
+            "keywords": [
+              "traffic",
+              "arrive"
+            ],
+            "starter": "Traffic prevented her from",
+            "reference_answer": "Traffic prevented her from arriving on time."
+          },
+          {
+            "type": "work",
+            "label": "Work",
+            "scene_zh": "公司系统突然出现故障，团队因此无法提交报告。",
+            "goal_en": "Explain what blocked the submission.",
+            "keywords": [
+              "system issue",
+              "submit"
+            ],
+            "starter": "The system issue prevented us from",
+            "reference_answer": "The system issue prevented us from submitting the report."
+          }
+        ],
+        "source_kind": "original",
+        "source_verification": "verified_transcript_match",
+        "extraction_confidence": "high",
+        "editorial_status": "reviewed_complete",
+        "original_en": "Okay, so prevent it from leaving.",
+        "everyday_example": "The delay prevented us from finishing on time."
       }
     ],
     [

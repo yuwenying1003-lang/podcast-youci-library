@@ -3,16 +3,6 @@
   "missing_english_definition": [],
   "missing_example_translation": [
     {
-      "unit": 1,
-      "page": 2,
-      "word": "banned"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "aggressive"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "atrium"
@@ -78,16 +68,6 @@
       "word": "pending"
     },
     {
-      "unit": 1,
-      "page": 1,
-      "word": "bonk"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "screaming"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "protesters"
@@ -106,11 +86,6 @@
       "unit": 2,
       "page": 4,
       "word": "president"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "campus"
     },
     {
       "unit": 3,
@@ -133,11 +108,6 @@
       "word": "worst"
     },
     {
-      "unit": 1,
-      "page": 2,
-      "word": "individual"
-    },
-    {
       "unit": 2,
       "page": 5,
       "word": "apparently"
@@ -151,21 +121,6 @@
       "unit": 3,
       "page": 9,
       "word": "outlet"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "alleged"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "potentially"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "frat"
     },
     {
       "unit": 3,
@@ -1040,16 +995,6 @@
   ],
   "generated_spelling_context_memory": [
     {
-      "unit": 1,
-      "page": 2,
-      "word": "banned"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "aggressive"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "atrium"
@@ -1115,16 +1060,6 @@
       "word": "pending"
     },
     {
-      "unit": 1,
-      "page": 1,
-      "word": "bonk"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "screaming"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "protesters"
@@ -1143,11 +1078,6 @@
       "unit": 2,
       "page": 4,
       "word": "president"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "campus"
     },
     {
       "unit": 3,
@@ -1170,11 +1100,6 @@
       "word": "worst"
     },
     {
-      "unit": 1,
-      "page": 2,
-      "word": "individual"
-    },
-    {
       "unit": 2,
       "page": 5,
       "word": "apparently"
@@ -1188,21 +1113,6 @@
       "unit": 3,
       "page": 9,
       "word": "outlet"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "alleged"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "potentially"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "frat"
     },
     {
       "unit": 3,
@@ -2072,101 +1982,6 @@
   ],
   "requires_human_review": [
     {
-      "unit": 1,
-      "page": 1,
-      "word": "accused"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "backpack"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "conclusion"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "filming"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "parking spot"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "pedestrian"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "recession"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "scenario"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "allegedly"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "anticlimactically"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "balance"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "banned"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "fiasco"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "aggressive"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "bizarre"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "investigation"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "loitering"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "prestigious"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "vehicle"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "atrium"
@@ -2307,16 +2122,6 @@
       "word": "speculations"
     },
     {
-      "unit": 1,
-      "page": 1,
-      "word": "bonk"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "screaming"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "protesters"
@@ -2342,11 +2147,6 @@
       "word": "president"
     },
     {
-      "unit": 1,
-      "page": 1,
-      "word": "campus"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor"
@@ -2367,11 +2167,6 @@
       "word": "worst"
     },
     {
-      "unit": 1,
-      "page": 2,
-      "word": "individual"
-    },
-    {
       "unit": 2,
       "page": 5,
       "word": "apparently"
@@ -2390,21 +2185,6 @@
       "unit": 3,
       "page": 9,
       "word": "outlet"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "alleged"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "potentially"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "frat"
     },
     {
       "unit": 3,
@@ -3678,50 +3458,6 @@
     }
   ],
   "transcript_segments_requiring_review": [
-    {
-      "page": 1,
-      "segment": 6
-    },
-    {
-      "page": 1,
-      "segment": 13
-    },
-    {
-      "page": 1,
-      "segment": 15
-    },
-    {
-      "page": 2,
-      "segment": 23
-    },
-    {
-      "page": 2,
-      "segment": 28
-    },
-    {
-      "page": 2,
-      "segment": 30
-    },
-    {
-      "page": 3,
-      "segment": 36
-    },
-    {
-      "page": 3,
-      "segment": 40
-    },
-    {
-      "page": 3,
-      "segment": 42
-    },
-    {
-      "page": 3,
-      "segment": 46
-    },
-    {
-      "page": 3,
-      "segment": 47
-    },
     {
       "page": 4,
       "segment": 52
@@ -5317,62 +5053,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 1,
-      "page": 1,
-      "word": "conclusion",
-      "ipa": "/kənkluʒən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "filming",
-      "ipa": "/fɪlmɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "balance",
-      "ipa": "/ˈbæləns/",
-      "source": "dictionaryapi.dev",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "banned",
-      "ipa": "/bænd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "aggressive",
-      "ipa": "/əɡrɛsɪv/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "investigation",
-      "ipa": "/ɪnvɛstəɡeɪʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "vehicle",
-      "ipa": "/ˈvɪː(ə).kəl/",
-      "source": "dictionaryapi.dev",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "atrium",
@@ -5485,22 +5165,6 @@
       "status": "external_dictionary_unreviewed"
     },
     {
-      "unit": 1,
-      "page": 1,
-      "word": "bonk",
-      "ipa": "/bɑŋk/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "screaming",
-      "ipa": "/skrimɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "protesters",
@@ -5529,14 +5193,6 @@
       "page": 4,
       "word": "president",
       "ipa": "/prɛzədɛnt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "campus",
-      "ipa": "/kæmpəs/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
     },
@@ -5573,14 +5229,6 @@
       "status": "external_dictionary_conversion_unreviewed"
     },
     {
-      "unit": 1,
-      "page": 2,
-      "word": "individual",
-      "ipa": "/ɪndəvɪdʒəwəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 2,
       "page": 5,
       "word": "apparently",
@@ -5603,30 +5251,6 @@
       "ipa": "/aʊtlɛt/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "alleged",
-      "ipa": "/əlɛdʒd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "potentially",
-      "ipa": "/pətɛnʃəli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "frat",
-      "ipa": "/fɹæt/",
-      "source": "freedictionaryapi.com (Wiktionary-derived)",
-      "status": "external_dictionary_unreviewed"
     },
     {
       "unit": 3,
@@ -7191,55 +6815,6 @@
   ],
   "externally_sourced_definition_requiring_review": [
     {
-      "unit": 1,
-      "page": 1,
-      "word": "conclusion",
-      "definition": "The end, finish, close or last part of something.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "filming",
-      "definition": "The action of the verb to film.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "balance",
-      "definition": "(uncountable) A state in which opposing forces harmonise; equilibrium.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "banned",
-      "definition": "Forbidden; not allowed.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "aggressive",
-      "definition": "Characterized by aggression; highly combative; prone to behave in a way that involves attacking (especially if unjustly) or arguing.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "investigation",
-      "definition": "The act of investigating; the process of inquiring into or following up; research, especially patient or thorough inquiry or examination",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "vehicle",
-      "definition": "A conveyance: a spacious device for carrying or transporting substances, objects, people or animals.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "atrium",
@@ -7338,20 +6913,6 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 1,
-      "page": 1,
-      "word": "bonk",
-      "definition": "(informal) To hit or strike; to collide with something.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "screaming",
-      "definition": "Loud, sharp, and piercing to the ear.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 2,
       "page": 4,
       "word": "protesters",
@@ -7377,13 +6938,6 @@
       "page": 4,
       "word": "president",
       "definition": "The head of state of a republic, sometimes also the head of government as well, particularly (US politics) the head of the executive branch of the federal government of the United States of America.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "campus",
-      "definition": "The grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures.",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
@@ -7415,13 +6969,6 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 1,
-      "page": 2,
-      "word": "individual",
-      "definition": "A person considered alone, rather than as belonging to a group of people.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 2,
       "page": 5,
       "word": "apparently",
@@ -7440,27 +6987,6 @@
       "page": 9,
       "word": "outlet",
       "definition": "A vent or similar passage to allow the escape of something.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "alleged",
-      "definition": "Asserted but not proved.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 2,
-      "word": "potentially",
-      "definition": "In a manner showing much potential; with the possibility of happening in a given way.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 1,
-      "page": 1,
-      "word": "frat",
-      "definition": "(often attributive) Shortened form of fraternity, college organization.",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {

@@ -6,8 +6,8 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 280,
-      "chunks": 116
+      "phrases": 281,
+      "chunks": 118
     },
     "source_candidate_totals": {
       "words": 321,
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 368,
-      "no_identified_barrier": 73,
-      "requires_review": 409
+      "covered": 376,
+      "no_identified_barrier": 76,
+      "requires_review": 398
     },
     "unresolved_counts": {
       "missing_ipa": 234,
@@ -171,8 +171,11 @@
       "page": 1,
       "segment": 6,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "no_identified_barrier",
+      "learning_item_ids": [],
+      "review_reason": "Date reference; no additional learning barrier.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 1,
@@ -238,8 +241,13 @@
       "page": 1,
       "segment": 13,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:back into"
+      ],
+      "review_reason": "Covered by the phrasal verb “back into.”",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 1,
@@ -255,8 +263,13 @@
       "page": 1,
       "segment": 15,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:bonk"
+      ],
+      "review_reason": "Covered by the informal impact word “bonk.”",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 1,
@@ -330,8 +343,13 @@
       "page": 2,
       "segment": 23,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:run over"
+      ],
+      "review_reason": "Covered by “run over”; profanity adds emotion but not a separate target.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 2,
@@ -378,8 +396,11 @@
       "page": 2,
       "segment": 28,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "no_identified_barrier",
+      "learning_item_ids": [],
+      "review_reason": "Simple quantity statement; nonstandard agreement is spontaneous speech, not a target model.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 2,
@@ -392,8 +413,14 @@
       "page": 2,
       "segment": 30,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:allegedly",
+        "phrase:0:run over"
+      ],
+      "review_reason": "Claim-status adverb and phrasal verb are both covered.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 2,
@@ -445,8 +472,14 @@
       "page": 3,
       "segment": 36,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:at fault",
+        "phrase:0:run over"
+      ],
+      "review_reason": "Responsibility and collision expressions are covered; “bumped/boomed” is contextual sound play.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 3,
@@ -484,8 +517,13 @@
       "page": 3,
       "segment": 40,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:0:is that what it is"
+      ],
+      "review_reason": "Added a reusable clarification/reaction chunk.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 3,
@@ -498,8 +536,13 @@
       "page": 3,
       "segment": 42,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:0:prevent from"
+      ],
+      "review_reason": "Added the reusable prevent + object + from + -ing pattern.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 3,
@@ -532,15 +575,23 @@
       "page": 3,
       "segment": 46,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "no_identified_barrier",
+      "learning_item_ids": [],
+      "review_reason": "Incomplete spontaneous false start; meaning continues in the next segment.",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 3,
       "segment": 47,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:0:back up"
+      ],
+      "review_reason": "Added the everyday phrasal verb “back up.”",
+      "review_status": "manually_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "page": 3,
