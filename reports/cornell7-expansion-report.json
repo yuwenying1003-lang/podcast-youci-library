@@ -19,8 +19,8 @@
       "unit": 1,
       "pages": "1-3",
       "words": 26,
-      "phrases": 31,
-      "chunks": 14
+      "phrases": 32,
+      "chunks": 16
     },
     {
       "unit": 2,
@@ -103,15 +103,17 @@
     "missing_english_definition": 0,
     "missing_example_translation": 0,
     "generated_spelling_context_memory": 0,
-    "requires_human_review": 290,
+    "requires_human_review": 265,
     "transcript_segments_requiring_review": 375,
-    "externally_sourced_ipa_requiring_review": 215,
-    "externally_sourced_definition_requiring_review": 197,
-    "machine_translations_requiring_review": 193,
-    "form_generated_memory_requiring_review": 192
+    "externally_sourced_ipa_requiring_review": 202,
+    "externally_sourced_definition_requiring_review": 184,
+    "machine_translations_requiring_review": 181,
+    "form_generated_memory_requiring_review": 180,
+    "fewer_than_two_collocations": 218
   },
   "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-  "reviewed_word_cards": 31,
+  "reviewed_word_cards": 56,
   "translated_word_examples": 321,
-  "upgraded_memory_tips": 80
+  "upgraded_memory_tips": 101,
+  "review_updated_on": "2026-10-22"
 }

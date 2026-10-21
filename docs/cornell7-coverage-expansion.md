@@ -15,7 +15,7 @@ The source provides no verified sentence-level audio start/end times. The import
 
 Automated import is not equivalent to human proofreading. Missing IPA, English definitions that could not be recovered from the existing course, generated spelling/context memory aids, and transcript segments without an identified learning item remain explicitly counted in the unresolved report. These entries must not be described as human-verified until reviewed.
 
-Re-run the deterministic import with:
+For a fresh import only (these commands overwrite subsequent editorial work; do not run them to refresh review reports):
 
 ```powershell
 node scripts/import_cornell7_source_library.mjs <path-to-cornell7-source-library.json>
@@ -23,5 +23,7 @@ node scripts/enrich_cornell7_dictionary.mjs
 ```
 
 The second command adds sourced IPA and English definitions. It should always run after the source-library import because the import is intentionally deterministic and does not depend on a network service.
+
+For ongoing editorial batches, use `node scripts/refresh_cornell7_review_reports.mjs` instead. It recomputes queues and counts without approving transcript coverage or replacing course content. The exact continuation point is maintained in `reports/cornell7-quality-audit.md`; individual Unit 2 decisions are in `reports/cornell7-unit2-editorial-review.json`.
 
 Pronunciation enrichment acknowledges the [CMU Pronouncing Dictionary](https://github.com/cmusphinx/cmudict), maintained by Carnegie Mellon University's Speech Group. Dictionary definitions and some direct IPA values are obtained through Free Dictionary APIs from Wiktionary-derived data; each enriched card records its source and unreviewed status.

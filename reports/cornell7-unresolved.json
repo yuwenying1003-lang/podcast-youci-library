@@ -5,101 +5,6 @@
   "generated_spelling_context_memory": [],
   "requires_human_review": [
     {
-      "unit": 2,
-      "page": 4,
-      "word": "atrium"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "incident"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "protester"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "rescind"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "accosted"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "disruptive"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "maneuver"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "volatile"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "compelled"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "harassment"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "hazardous"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "illuminated"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "intimidation"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "protest"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "reverse"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "allegation"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "doxxed"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "lawsuit"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "scandal"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "coercion"
@@ -135,26 +40,6 @@
       "word": "speculations"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "protesters"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "suspending"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "expelling"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "scandals"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor"
@@ -168,16 +53,6 @@
       "unit": 3,
       "page": 9,
       "word": "publicly"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "worst"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "traumatized"
     },
     {
       "unit": 3,
@@ -3801,78 +3676,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 2,
-      "page": 4,
-      "word": "atrium",
-      "ipa": "/eɪtriəm/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "incident",
-      "ipa": "/ɪnsədənt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "protester",
-      "ipa": "/proʊtɛstɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "compelled",
-      "ipa": "/kəmpɛld/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "protest",
-      "ipa": "/proʊtɛst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "allegation",
-      "ipa": "/æləɡeɪʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "doxxed",
-      "ipa": "/dɑks/",
-      "source": "CMU Pronouncing Dictionary + transparent inflection/abbreviation rule",
-      "status": "rule_derived_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "lawsuit",
-      "ipa": "/lɔsut/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "scandal",
-      "ipa": "/ˈskændəl/",
-      "source": "dictionaryapi.dev",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "endorsed",
@@ -3897,30 +3700,6 @@
       "status": "external_dictionary_unreviewed"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "protesters",
-      "ipa": "/proʊtɛstɚz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "suspending",
-      "ipa": "/səspɛndɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "scandals",
-      "ipa": "/skændəlz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor",
@@ -3941,14 +3720,6 @@
       "page": 9,
       "word": "publicly",
       "ipa": "/pʌblɪkli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "worst",
-      "ipa": "/wɝst/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
     },
@@ -5523,69 +5294,6 @@
   ],
   "externally_sourced_definition_requiring_review": [
     {
-      "unit": 2,
-      "page": 4,
-      "word": "atrium",
-      "definition": "(architecture) A central room or space in ancient Roman homes, open to the sky in the middle; a similar space in other buildings.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "incident",
-      "definition": "(countable, uncountable) An event or occurrence.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "protester",
-      "definition": "One who protests, either alone or in a public display of group feeling.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "compelled",
-      "definition": "Driven; forced.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "protest",
-      "definition": "(intransitive) To make a strong objection.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "allegation",
-      "definition": "An assertion, especially an accusation, not necessarily based on facts.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "doxxed",
-      "definition": "simple past and past participle of doxx",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "lawsuit",
-      "definition": "(law) In civil law, a case where two or more people disagree and one or more of the parties take the case to a court for resolution.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "scandal",
-      "definition": "An incident or event that disgraces or damages the reputation of the persons or organization involved.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "endorsed",
@@ -5607,27 +5315,6 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "protesters",
-      "definition": "plural of protester",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "suspending",
-      "definition": "present participle and gerund of suspend",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "scandals",
-      "definition": "plural of scandal",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor",
@@ -5646,13 +5333,6 @@
       "page": 9,
       "word": "publicly",
       "definition": "In public, openly, in an open and public manner.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "worst",
-      "definition": "(for non-slang definitions) superlative form of bad: most bad",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
@@ -6904,62 +6584,6 @@
   ],
   "machine_translations_requiring_review": [
     {
-      "unit": 2,
-      "page": 4,
-      "word": "atrium",
-      "example": "Now, nevertheless, as the president introduces the debate series, he's now leaving the atrium.",
-      "translation": "然而现在，当总统介绍辩论系列时，他即将离开中庭。"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "protester",
-      "example": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
-      "translation": "常春藤联盟学校惩罚抗议者、停学、开除学生、吊销学生签证的重大丑闻。"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "compelled",
-      "example": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?",
-      "translation": "我的意思是，当他知道他的车周围站着行人、康奈尔大学的学生时，是什么迫使他倒车呢？"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "protest",
-      "example": "He also says the behavior I experienced last night is not protest.",
-      "translation": "他还说我昨晚经历的行为并不是抗议。"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "allegation",
-      "example": "During Thanksgiving break, two days before Thanksgiving, actually, Cornell releases a statement very quietly, almost titled Update on Disturbing Allegations of Sexual Violence.",
-      "translation": "实际上，在感恩节假期期间，即感恩节前两天，康奈尔大学非常安静地发布了一份声明，几乎标题为“关于令人不安的性暴力指控的更新”。"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "doxxed",
-      "example": "People are getting doxxed.",
-      "translation": "人们正在被人肉搜索。"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "lawsuit",
-      "example": "Because a few months later, Jane Doe will file a civil lawsuit against Cornell University and seven fraternity brothers from Cornell, now dubbed the Cornell Seven.",
-      "translation": "因为几个月后，无名氏将对康奈尔大学和康奈尔大学的七位兄弟会兄弟（现在被称为康奈尔七人组）提起民事诉讼。"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "scandal",
-      "example": "And this was a huge scandal for Cornell earlier this year.",
-      "translation": "今年早些时候，这对康奈尔大学来说是一个巨大的丑闻。"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "endorsed",
@@ -6981,27 +6605,6 @@
       "translation": "由于目前处于待决状态，从法律上讲，我们用非常具体的词语来表示尚未判决。"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "protesters",
-      "example": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
-      "translation": "常春藤联盟学校惩罚抗议者、停学、开除学生、吊销学生签证的重大丑闻。"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "suspending",
-      "example": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
-      "translation": "常春藤联盟学校惩罚抗议者、停学、开除学生、吊销学生签证的重大丑闻。"
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "scandals",
-      "example": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
-      "translation": "常春藤联盟学校惩罚抗议者、停学、开除学生、吊销学生签证的重大丑闻。"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor",
@@ -7021,13 +6624,6 @@
       "word": "publicly",
       "example": "Any comments, theories, speculations, opinions, claims, or even leaked information online, we found publicly available online.",
       "translation": "任何评论、理论、猜测、意见、主张，甚至是网上泄露的信息，我们都可以在网上公开找到。"
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "worst",
-      "example": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year.",
-      "translation": "但这绝不是康奈尔大学今年卷入的最严重的调查和丑闻。"
     },
     {
       "unit": 3,
@@ -8257,1156 +7853,1996 @@
   ],
   "form_generated_memory_requiring_review": [
     {
-      "unit": 2,
-      "page": 4,
-      "word": "atrium",
-      "tip": "See atrium in two spelling blocks: atr + ium. Rejoin them while saying the podcast phrase “Now, nevertheless, as the president introduces the debate”."
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "protester",
-      "tip": "protester uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “Big scandals of Ivy League schools punishing protesters, suspending”."
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
     },
     {
-      "unit": 2,
-      "page": 6,
-      "word": "compelled",
-      "tip": "compelled is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “I mean, what compelled him to reverse his car”."
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "protest",
-      "tip": "See protest in two spelling blocks: prot + est. Rejoin them while saying the podcast phrase “He also says the behavior I experienced last”."
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "allegation",
-      "tip": "allegation ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “These are the allegations against the Cornell 7 from”."
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "doxxed",
-      "tip": "doxxed is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “People are getting doxxed.”."
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "lawsuit",
-      "tip": "See lawsuit in two spelling blocks: laws + uit. Rejoin them while saying the podcast phrase “Because a few months later, Jane Doe will”."
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "scandal",
-      "tip": "See scandal in two spelling blocks: scan + dal. Rejoin them while saying the podcast phrase “And this was a huge scandal for Cornell”."
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
     },
     {
       "unit": 3,
       "page": 8,
-      "word": "endorsed",
-      "tip": "endorsed is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “She does not have a personal GoFundMe, but there”."
+      "word": "survivor"
     },
     {
       "unit": 3,
       "page": 9,
-      "word": "lawyered up",
-      "tip": "Build the expression from its visible parts: lawyered + up. Recall the whole form through “Everybody's lawyered up.”."
+      "word": "leaked"
     },
     {
       "unit": 3,
       "page": 9,
-      "word": "pending",
-      "tip": "pending is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “Due to the current pending status, legally speaking, we”."
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "protesters",
-      "tip": "protesters uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “Big scandals of Ivy League schools punishing protesters, suspending”."
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "suspending",
-      "tip": "suspending is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “Big scandals of Ivy League schools punishing protesters, suspending”."
-    },
-    {
-      "unit": 2,
-      "page": 4,
-      "word": "scandals",
-      "tip": "See scandals in two spelling blocks: scan + dals. Rejoin them while saying the podcast phrase “Big scandals of Ivy League schools punishing protesters,”."
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor",
-      "tip": "See survivor in two spelling blocks: surv + ivor. Rejoin them while saying the podcast phrase “She does not have a personal GoFundMe, but”."
+      "word": "publicly"
     },
     {
       "unit": 3,
       "page": 9,
-      "word": "leaked",
-      "tip": "leaked is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “Any comments, theories, speculations, opinions, claims, or even leaked”."
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly",
-      "tip": "publicly ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “Any comments, theories, speculations, opinions, claims, or even leaked”."
-    },
-    {
-      "unit": 2,
-      "page": 7,
-      "word": "worst",
-      "tip": "See worst in two spelling blocks: wor + st. Rejoin them while saying the podcast phrase “But that will not, not even in the”."
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet",
-      "tip": "See outlet in two spelling blocks: out + let. Rejoin them while saying the podcast phrase “When we describe what happened that night, we're”."
+      "word": "outlet"
     },
     {
       "unit": 3,
       "page": 10,
-      "word": "threatened",
-      "tip": "threatened is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “And these lawyers are very passionate and they're very”."
+      "word": "threatened"
     },
     {
       "unit": 4,
       "page": 11,
-      "word": "contractor",
-      "tip": "See contractor in two spelling blocks: contr + actor. Rejoin them while saying the podcast phrase “There is a common statistic that's cited out”."
+      "word": "contractor"
     },
     {
       "unit": 4,
       "page": 11,
-      "word": "disposal",
-      "tip": "See disposal in two spelling blocks: disp + osal. Rejoin them while saying the podcast phrase “There is a common statistic that's cited out”."
+      "word": "disposal"
     },
     {
       "unit": 4,
       "page": 11,
-      "word": "hazardous waste",
-      "tip": "Build the expression from its visible parts: hazardous + waste. Recall the whole form through “There is a common statistic that's cited out there that”."
+      "word": "hazardous waste"
     },
     {
       "unit": 4,
       "page": 11,
-      "word": "risk",
-      "tip": "See risk in two spelling blocks: ri + sk. Rejoin them while saying the podcast phrase “It's not even worth the risk.”."
+      "word": "risk"
     },
     {
       "unit": 4,
       "page": 11,
-      "word": "statistic",
-      "tip": "See statistic in two spelling blocks: stati + stic. Rejoin them while saying the podcast phrase “There is a common statistic that's cited out”."
+      "word": "statistic"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "alcohol",
-      "tip": "See alcohol in two spelling blocks: alco + hol. Rejoin them while saying the podcast phrase “That fraternities usually get sued for, such as”."
+      "word": "alcohol"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "board member",
-      "tip": "Build the expression from its visible parts: board + member. Recall the whole form through “A board member states that they write liability coverage for”."
+      "word": "board member"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "chapter",
-      "tip": "chapter uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “And then I think for the chapter houses filled”."
+      "word": "chapter"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "insurance company",
-      "tip": "Build the expression from its visible parts: insurance + company. Recall the whole form through “Some big fraternities even came together to create their own”."
+      "word": "insurance company"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "national",
-      "tip": "See national in two spelling blocks: nati + onal. Rejoin them while saying the podcast phrase “So they need umbrella coverage usually for the”."
+      "word": "national"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "nightmare",
-      "tip": "See nightmare in two spelling blocks: night + mare. Rejoin them while saying the podcast phrase “And then I think for the chapter houses”."
+      "word": "nightmare"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "organization",
-      "tip": "organization ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “They run it probably like an organization, right?”."
+      "word": "organization"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "umbrella",
-      "tip": "See umbrella in two spelling blocks: umbr + ella. Rejoin them while saying the podcast phrase “I didn't know they need an umbrella coverage.”."
+      "word": "umbrella"
     },
     {
       "unit": 4,
       "page": 13,
-      "word": "blindfolds",
-      "tip": "See blindfolds in two spelling blocks: blind + folds. Rejoin them while saying the podcast phrase “Blindfolds.”."
+      "word": "blindfolds"
     },
     {
       "unit": 4,
       "page": 13,
-      "word": "interpersonal",
-      "tip": "See interpersonal in two spelling blocks: interpe + rsonal. Rejoin them while saying the podcast phrase “Weird power trip and that obviously can only”."
+      "word": "interpersonal"
     },
     {
       "unit": 4,
       "page": 13,
-      "word": "membership",
-      "tip": "See membership in two spelling blocks: membe + rship. Rejoin them while saying the podcast phrase “Your membership is rescinded, which means the minute”."
+      "word": "membership"
     },
     {
       "unit": 4,
       "page": 13,
-      "word": "power trip",
-      "tip": "Build the expression from its visible parts: power + trip. Recall the whole form through “Weird power trip and that obviously can only mean that”."
+      "word": "power trip"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "guest list",
-      "tip": "Build the expression from its visible parts: guest + list. Recall the whole form through “And it's like a guest list.”."
+      "word": "guest list"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "poetic",
-      "tip": "See poetic in two spelling blocks: poe + tic. Rejoin them while saying the podcast phrase “It's almost poetic actually.”."
+      "word": "poetic"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "third party",
-      "tip": "Build the expression from its visible parts: third + party. Recall the whole form through “Two usually approved ways of drinking at fraternity houses that”."
+      "word": "third party"
     },
     {
       "unit": 4,
       "page": 15,
-      "word": "bylaws",
-      "tip": "See bylaws in two spelling blocks: byl + aws. Rejoin them while saying the podcast phrase “The thing is, if you read the insurance”."
+      "word": "bylaws"
     },
     {
       "unit": 4,
       "page": 15,
-      "word": "homeowner's",
-      "tip": "See homeowner's in two spelling blocks: homeow + ner's. Rejoin them while saying the podcast phrase “Apparently a large number of payouts are made”."
+      "word": "homeowner's"
     },
     {
       "unit": 4,
       "page": 15,
-      "word": "industry",
-      "tip": "See industry in two spelling blocks: indu + stry. Rejoin them while saying the podcast phrase “There's some really big ones, like big names”."
+      "word": "industry"
     },
     {
       "unit": 4,
       "page": 15,
-      "word": "payouts",
-      "tip": "See payouts in two spelling blocks: payo + uts. Rejoin them while saying the podcast phrase “Apparently a large number of payouts are made”."
+      "word": "payouts"
     },
     {
       "unit": 4,
       "page": 15,
-      "word": "violation",
-      "tip": "violation ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “The thing is, if you read the insurance policy,”."
+      "word": "violation"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "absorb",
-      "tip": "See absorb in two spelling blocks: abs + orb. Rejoin them while saying the podcast phrase “You absorb the alcohol much quicker because you're”."
+      "word": "absorb"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "bypassing",
-      "tip": "bypassing is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “You absorb the alcohol much quicker because you're bypassing”."
+      "word": "bypassing"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "circumstantial",
-      "tip": "See circumstantial in two spelling blocks: circums + tantial. Rejoin them while saying the podcast phrase “However police found circumstantial evidence in the fraternity”."
+      "word": "circumstantial"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "claim",
-      "tip": "See claim in two spelling blocks: cla + im. Rejoin them while saying the podcast phrase “According to one insurance company who does insure”."
+      "word": "claim"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "enemas",
-      "tip": "See enemas in two spelling blocks: ene + mas. Rejoin them while saying the podcast phrase “But in a very rather uncomfortable turn of”."
+      "word": "enemas"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "injuries",
-      "tip": "See injuries in two spelling blocks: inju + ries. Rejoin them while saying the podcast phrase “And a lot of people assumed right off”."
+      "word": "injuries"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "rushed",
-      "tip": "rushed is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “Like there was this guy that was rushed to”."
+      "word": "rushed"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "sodomized",
-      "tip": "sodomized is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “Doctors initially thought that he was sodomized, that he”."
+      "word": "sodomized"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "terrifying",
-      "tip": "terrifying is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “Considering there's just a lot of bizarre and terrifying”."
+      "word": "terrifying"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "assault",
-      "tip": "See assault in two spelling blocks: assa + ult. Rejoin them while saying the podcast phrase “From this sample is assault and battery”."
+      "word": "assault"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "branding",
-      "tip": "branding is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “I mean, there are like a lot of branding”."
+      "word": "branding"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "emotional damage",
-      "tip": "Build the expression from its visible parts: emotional + damage. Recall the whole form through “Now they need new skin or paddling gone wrong, causing”."
+      "word": "emotional damage"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "grafts",
-      "tip": "See grafts in two spelling blocks: gra + fts. Rejoin them while saying the podcast phrase “I mean, there are like a lot of”."
+      "word": "grafts"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "hazing lawsuits",
-      "tip": "Build the expression from its visible parts: hazing + lawsuits. Recall the whole form through “And that's not saying that there aren't a lot of”."
+      "word": "hazing lawsuits"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "iron",
-      "tip": "See iron in two spelling blocks: ir + on. Rejoin them while saying the podcast phrase “I mean, there are like a lot of”."
+      "word": "iron"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "permanent",
-      "tip": "See permanent in two spelling blocks: perma + nent. Rejoin them while saying the podcast phrase “Now they need new skin or paddling gone”."
+      "word": "permanent"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "rectum",
-      "tip": "See rectum in two spelling blocks: rec + tum. Rejoin them while saying the podcast phrase “Also, you could tear your rectum and sustain”."
+      "word": "rectum"
     },
     {
       "unit": 5,
       "page": 17,
-      "word": "sustain",
-      "tip": "See sustain in two spelling blocks: sust + ain. Rejoin them while saying the podcast phrase “Also, you could tear your rectum and sustain”."
+      "word": "sustain"
     },
     {
       "unit": 5,
       "page": 18,
-      "word": "balconies",
-      "tip": "See balconies in two spelling blocks: balco + nies. Rejoin them while saying the podcast phrase “Sometimes there will be a bunk bed next”."
+      "word": "balconies"
     },
     {
       "unit": 3,
       "page": 10,
-      "word": "insurance",
-      "tip": "See insurance in two spelling blocks: insur + ance. Rejoin them while saying the podcast phrase “Insurance companies, at least in my personal experience,”."
+      "word": "insurance"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "lawsuits",
-      "tip": "See lawsuits in two spelling blocks: laws + uits. Rejoin them while saying the podcast phrase “Imagine the amount of- Lawsuits, liability.”."
+      "word": "lawsuits"
     },
     {
       "unit": 4,
       "page": 12,
-      "word": "sued",
-      "tip": "sued is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “That fraternities usually get sued for, such as hazing,”."
+      "word": "sued"
     },
     {
       "unit": 4,
       "page": 13,
-      "word": "organized",
-      "tip": "organized is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “You got hazed in ways that probably have a”."
+      "word": "organized"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "workarounds",
-      "tip": "See workarounds in two spelling blocks: workar + ounds. Rejoin them while saying the podcast phrase “There are two odd workarounds for this alcohol”."
+      "word": "workarounds"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "guest",
-      "tip": "See guest in two spelling blocks: gue + st. Rejoin them while saying the podcast phrase “And it's like a guest list.”."
+      "word": "guest"
     },
     {
       "unit": 5,
       "page": 18,
-      "word": "standard",
-      "tip": "See standard in two spelling blocks: stan + dard. Rejoin them while saying the podcast phrase “I mean, it's not, I don't know if”."
+      "word": "standard"
     },
     {
       "unit": 5,
       "page": 16,
-      "word": "process",
-      "tip": "See process in two spelling blocks: proc + ess. Rejoin them while saying the podcast phrase “However police found circumstantial evidence in the fraternity”."
+      "word": "process"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "beverages",
-      "tip": "See beverages in two spelling blocks: bever + ages. Rejoin them while saying the podcast phrase “You can only bring like six beverages, like”."
+      "word": "beverages"
     },
     {
       "unit": 5,
       "page": 18,
-      "word": "escape",
-      "tip": "See escape in two spelling blocks: esc + ape. Rejoin them while saying the podcast phrase “Sometimes there will be a bunk bed next”."
+      "word": "escape"
     },
     {
       "unit": 4,
       "page": 15,
-      "word": "drops",
-      "tip": "See drops in two spelling blocks: dro + ps. Rejoin them while saying the podcast phrase “If you sue a fraternity member and their”."
+      "word": "drops"
     },
     {
       "unit": 4,
       "page": 14,
-      "word": "assume",
-      "tip": "See assume in two spelling blocks: ass + ume. Rejoin them while saying the podcast phrase “Two usually approved ways of drinking at fraternity”."
+      "word": "assume"
     },
     {
       "unit": 5,
       "page": 19,
-      "word": "donation",
-      "tip": "donation ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “Is it donations?”."
+      "word": "donation"
     },
     {
       "unit": 5,
       "page": 19,
-      "word": "financially",
-      "tip": "financially ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “It's deeply financially beneficial for a lot of these”."
+      "word": "financially"
     },
     {
       "unit": 5,
       "page": 19,
-      "word": "Greek life",
-      "tip": "Build the expression from its visible parts: Greek + life. Recall the whole form through “Even Cornell University, a lot of students are trying to”."
+      "word": "Greek life"
     },
     {
       "unit": 5,
       "page": 19,
-      "word": "housing",
-      "tip": "housing is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “For student housing.”."
+      "word": "housing"
     },
     {
       "unit": 5,
       "page": 19,
-      "word": "institution",
-      "tip": "institution ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “It's deeply financially beneficial for a lot of these”."
+      "word": "institution"
     },
     {
       "unit": 5,
       "page": 19,
-      "word": "marketing",
-      "tip": "marketing is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “But there is also, some people say it could”."
+      "word": "marketing"
     },
     {
       "unit": 5,
       "page": 20,
-      "word": "chapter",
-      "tip": "chapter uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “So these institutions are now saving money since Greek”."
+      "word": "chapter"
     },
     {
       "unit": 5,
       "page": 20,
-      "word": "dorms",
-      "tip": "See dorms in two spelling blocks: dor + ms. Rejoin them while saying the podcast phrase “So that means less buildings, less insurance the”."
+      "word": "dorms"
     },
     {
       "unit": 5,
       "page": 20,
-      "word": "merged",
-      "tip": "merged is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “Apparently, it was three separate organizations that merged into”."
+      "word": "merged"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "active chapters",
-      "tip": "Build the expression from its visible parts: active + chapters. Recall the whole form through “The entire fraternity has about 48 active chapters across the”."
+      "word": "active chapters"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "deprived",
-      "tip": "deprived is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “He alleges that he's sleep deprived, physically exhausted, and”."
+      "word": "deprived"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "freshman",
-      "tip": "See freshman in two spelling blocks: fres + hman. Rejoin them while saying the podcast phrase “OK, and he says that when he was”."
+      "word": "freshman"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "physically exhausted",
-      "tip": "Build the expression from its visible parts: physically + exhausted. Recall the whole form through “He alleges that he's sleep deprived, physically exhausted, and quote,”."
+      "word": "physically exhausted"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "pledged",
-      "tip": "pledged is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “Fully fledged, fully pledged Chi Phi member if they”."
+      "word": "pledged"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "precipice",
-      "tip": "See precipice in two spelling blocks: preci + pice. Rejoin them while saying the podcast phrase “They're all on the precipice of becoming a.”."
+      "word": "precipice"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "relevant",
-      "tip": "See relevant in two spelling blocks: rele + vant. Rejoin them while saying the podcast phrase “So this is not even happening during this”."
+      "word": "relevant"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "ashamed",
-      "tip": "ashamed is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “But inside, I was ashamed of my vulnerability and”."
+      "word": "ashamed"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "cayenne",
-      "tip": "See cayenne in two spelling blocks: caye + nne. Rejoin them while saying the podcast phrase “He says mung consisted of cold oatmeal, vinegar,”."
+      "word": "cayenne"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "coffin",
-      "tip": "See coffin in two spelling blocks: cof + fin. Rejoin them while saying the podcast phrase “I was set in a coffin and lowered”."
+      "word": "coffin"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "inflicting",
-      "tip": "inflicting is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “Smeared all over his genitals but he did not”."
+      "word": "inflicting"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "trap door",
-      "tip": "Build the expression from its visible parts: trap + door. Recall the whole form through “I was set in a coffin and lowered through a”."
+      "word": "trap door"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "vinegar",
-      "tip": "See vinegar in two spelling blocks: vine + gar. Rejoin them while saying the podcast phrase “He says mung consisted of cold oatmeal, vinegar,”."
+      "word": "vinegar"
     },
     {
       "unit": 6,
       "page": 22,
-      "word": "waistband",
-      "tip": "See waistband in two spelling blocks: waist + band. Rejoin them while saying the podcast phrase “Hands reached under the waistband of my basketball”."
+      "word": "waistband"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "addiction",
-      "tip": "addiction ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “Along with the social license to frame addiction as”."
+      "word": "addiction"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "conquest",
-      "tip": "See conquest in two spelling blocks: conq + uest. Rejoin them while saying the podcast phrase “Along with the social license to frame addiction”."
+      "word": "conquest"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "glory",
-      "tip": "See glory in two spelling blocks: glo + ry. Rejoin them while saying the podcast phrase “Along with the social license to frame addiction”."
+      "word": "glory"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "offerings",
-      "tip": "See offerings in two spelling blocks: offer + ings. Rejoin them while saying the podcast phrase “I accepted the fraternity's offerings of access to”."
+      "word": "offerings"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "vacant",
-      "tip": "See vacant in two spelling blocks: vac + ant. Rejoin them while saying the podcast phrase “But it's interesting to know that the house”."
+      "word": "vacant"
     },
     {
       "unit": 7,
       "page": 24,
-      "word": "arrest",
-      "tip": "See arrest in two spelling blocks: arr + est. Rejoin them while saying the podcast phrase “There is an arrest made for ketamine at”."
+      "word": "arrest"
     },
     {
       "unit": 7,
       "page": 24,
-      "word": "ketamine",
-      "tip": "See ketamine in two spelling blocks: keta + mine. Rejoin them while saying the podcast phrase “There is an arrest made for ketamine at”."
+      "word": "ketamine"
     },
     {
       "unit": 7,
       "page": 24,
-      "word": "overdosed",
-      "tip": "overdosed is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “When you go through little snippets of the Title”."
+      "word": "overdosed"
     },
     {
       "unit": 7,
       "page": 25,
-      "word": "chivalrous",
-      "tip": "chivalrous ends in -ous, an adjective suffix meaning “having” or “full of” a quality. Anchor it in the podcast wording “Chivalrous behavior crosses the ages to touch the heart”."
+      "word": "chivalrous"
     },
     {
       "unit": 7,
       "page": 26,
-      "word": "community",
-      "tip": "community ends in -ity, a noun ending that names a state or quality. Anchor it in the podcast wording “So she joins the sorority because she felt like”."
+      "word": "community"
     },
     {
       "unit": 7,
       "page": 26,
-      "word": "promoting",
-      "tip": "promoting is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “So she joins the sorority because she felt like”."
+      "word": "promoting"
     },
     {
       "unit": 5,
       "page": 20,
-      "word": "generous",
-      "tip": "generous ends in -ous, an adjective suffix meaning “having” or “full of” a quality. Anchor it in the podcast wording “But also alumni who are part of Greek life”."
+      "word": "generous"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "physical",
-      "tip": "See physical in two spelling blocks: phys + ical. Rejoin them while saying the podcast phrase “OK, and he says that when he was”."
+      "word": "physical"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "barred",
-      "tip": "barred is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “The Xi chapter actually of Chi Phi at Cornell”."
+      "word": "barred"
     },
     {
       "unit": 7,
       "page": 24,
-      "word": "suspension",
-      "tip": "suspension ends in -sion, which often turns a verb into an action/result noun. Anchor it in the podcast wording “Now, the university does not place the fraternity on”."
+      "word": "suspension"
     },
     {
       "unit": 7,
       "page": 24,
-      "word": "supplying",
-      "tip": "supplying is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “They arrested someone, maybe like supplying or?”."
+      "word": "supplying"
     },
     {
       "unit": 7,
       "page": 26,
-      "word": "network",
-      "tip": "See network in two spelling blocks: netw + ork. Rejoin them while saying the podcast phrase “They were just, they made it seem like,”."
+      "word": "network"
     },
     {
       "unit": 6,
       "page": 21,
-      "word": "active",
-      "tip": "active ends in -ive, a common adjective ending for a quality or tendency. Anchor it in the podcast wording “The entire fraternity has about 48 active chapters across”."
+      "word": "active"
     },
     {
       "unit": 7,
       "page": 25,
-      "word": "investigate",
-      "tip": "See investigate in two spelling blocks: invest + igate. Rejoin them while saying the podcast phrase “We're not kicking people out, but we're just”."
+      "word": "investigate"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "sorority",
-      "tip": "sorority ends in -ity, a noun ending that names a state or quality. Anchor it in the podcast wording “There's this weird poster of a sorority.”."
+      "word": "sorority"
     },
     {
       "unit": 6,
       "page": 23,
-      "word": "fentanyl",
-      "tip": "See fentanyl in two spelling blocks: fent + anyl. Rejoin them while saying the podcast phrase “There's a fentanyl test.”."
+      "word": "fentanyl"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "hired professional",
-      "tip": "Build the expression from its visible parts: hired + professional. Recall the whole form through “This is a hired professional.”."
+      "word": "hired professional"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "house director",
-      "tip": "Build the expression from its visible parts: house + director. Recall the whole form through “No, a house mom is kind of like a house”."
+      "word": "house director"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "legal drinking age",
-      "tip": "Build the expression from its visible parts: legal + drinking + age. Recall the whole form through “She's not of legal drinking age, but she's completely intoxicated”."
+      "word": "legal drinking age"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "operational manager",
-      "tip": "Build the expression from its visible parts: operational + manager. Recall the whole form through “Who is like the operational manager.”."
+      "word": "operational manager"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "salaried",
-      "tip": "salaried is a past form: a base ending in y changes y to i before -ed. Anchor it in the podcast wording “This is somebody who is salaried, who lives inside”."
+      "word": "salaried"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "shots",
-      "tip": "See shots in two spelling blocks: sho + ts. Rejoin them while saying the podcast phrase “She's at the Tri Delta sorority house with”."
+      "word": "shots"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "vodka",
-      "tip": "See vodka in two spelling blocks: vod + ka. Rejoin them while saying the podcast phrase “She's at the Tri Delta sorority house with”."
+      "word": "vodka"
     },
     {
       "unit": 8,
       "page": 29,
-      "word": "bartender",
-      "tip": "bartender uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “The x's on her hands are to indicate to”."
+      "word": "bartender"
     },
     {
       "unit": 8,
       "page": 29,
-      "word": "establishment",
-      "tip": "establishment ends in -ment, a noun-forming suffix for a result, state, or process. Anchor it in the podcast wording “However the lawsuit alleges that mooney's is serving her”."
+      "word": "establishment"
     },
     {
       "unit": 8,
       "page": 29,
-      "word": "fraternity brother",
-      "tip": "Build the expression from its visible parts: fraternity + brother. Recall the whole form through “He's a fraternity brother at Chi Phi, and they have”."
+      "word": "fraternity brother"
     },
     {
       "unit": 8,
       "page": 29,
-      "word": "separate",
-      "tip": "See separate in two spelling blocks: sepa + rate. Rejoin them while saying the podcast phrase “Then around 10 p.m., Jane Doe and a”."
+      "word": "separate"
     },
     {
       "unit": 8,
       "page": 29,
-      "word": "under 21",
-      "tip": "Build the expression from its visible parts: under + 21. Recall the whole form through “She's given another under 21 wristband, and it would appear”."
+      "word": "under 21"
     },
     {
       "unit": 8,
       "page": 30,
-      "word": "awkwardly",
-      "tip": "awkwardly ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “And I guess they're just like awkwardly sitting on”."
+      "word": "awkwardly"
     },
     {
       "unit": 8,
       "page": 30,
-      "word": "couch",
-      "tip": "See couch in two spelling blocks: cou + ch. Rejoin them while saying the podcast phrase “And I guess they're just like awkwardly sitting”."
+      "word": "couch"
     },
     {
       "unit": 8,
       "page": 30,
-      "word": "dancing",
-      "tip": "dancing is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “He hands her a beer, and there's some sort”."
+      "word": "dancing"
     },
     {
       "unit": 8,
       "page": 30,
-      "word": "propositioned",
-      "tip": "propositioned is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “Matthew pulls Jane off to the side and she”."
+      "word": "propositioned"
     },
     {
       "unit": 8,
       "page": 30,
-      "word": "unclear",
-      "tip": "See unclear in two spelling blocks: uncl + ear. Rejoin them while saying the podcast phrase “But after dancing for what has been described”."
+      "word": "unclear"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "alumni room",
-      "tip": "Build the expression from its visible parts: alumni + room. Recall the whole form through “They're in what's called by the fraternity, the alumni room.”."
+      "word": "alumni room"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "high proof",
-      "tip": "Build the expression from its visible parts: high + proof. Recall the whole form through “The lawsuit says during this time, defendant Matthew and Jonathan”."
+      "word": "high proof"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "marijuana",
-      "tip": "See marijuana in two spelling blocks: marij + uana. Rejoin them while saying the podcast phrase “The lawsuit says during this time, defendant Matthew”."
+      "word": "marijuana"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "pressuring",
-      "tip": "pressuring is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “They start pressuring Jane into snorting ketamine with them.”."
+      "word": "pressuring"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "snorting",
-      "tip": "snorting is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “They start pressuring Jane into snorting ketamine with them.”."
+      "word": "snorting"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "substance",
-      "tip": "See substance in two spelling blocks: subst + ance. Rejoin them while saying the podcast phrase “According to the lawsuit, it seems Matthew is”."
+      "word": "substance"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "unlocked",
-      "tip": "unlocked is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “It's an unlocked space where people congregate.”."
+      "word": "unlocked"
     },
     {
       "unit": 8,
       "page": 32,
-      "word": "erection",
-      "tip": "erection ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “But at some point the lawsuit states that Matthew”."
+      "word": "erection"
     },
     {
       "unit": 8,
       "page": 32,
-      "word": "meanwhile",
-      "tip": "See meanwhile in two spelling blocks: meanw + hile. Rejoin them while saying the podcast phrase “Meanwhile, Jonathan keeps, according to the lawsuit, keeps”."
+      "word": "meanwhile"
     },
     {
       "unit": 8,
       "page": 33,
-      "word": "group message",
-      "tip": "Build the expression from its visible parts: group + message. Recall the whole form through “And Jonathan, the one that Matthew wanted to have a”."
+      "word": "group message"
     },
     {
       "unit": 8,
       "page": 33,
-      "word": "Snapchat",
-      "tip": "See Snapchat in two spelling blocks: Snap + chat. Rejoin them while saying the podcast phrase “Xi chapter Snapchat.”."
+      "word": "Snapchat"
     },
     {
       "unit": 9,
       "page": 34,
-      "word": "dense",
-      "tip": "See dense in two spelling blocks: den + se. Rejoin them while saying the podcast phrase “Maybe I'm dense, but like, I'm pretty sure”."
+      "word": "dense"
     },
     {
       "unit": 9,
       "page": 34,
-      "word": "morally",
-      "tip": "morally ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “Would that be morally reprehensible?”."
+      "word": "morally"
     },
     {
       "unit": 9,
       "page": 35,
-      "word": "AFK",
-      "tip": "See AFK in two spelling blocks: AF + K. Rejoin them while saying the podcast phrase “Scott K, who is a defendant says, Diego”."
+      "word": "AFK"
     },
     {
       "unit": 9,
       "page": 36,
-      "word": "all caps",
-      "tip": "Build the expression from its visible parts: all + caps. Recall the whole form through “Then Winston responds, Kai-Fai, like all caps.”."
+      "word": "all caps"
     },
     {
       "unit": 9,
       "page": 36,
-      "word": "respond",
-      "tip": "See respond in two spelling blocks: resp + ond. Rejoin them while saying the podcast phrase “Now, Matthew, the so-called friend of Jane Doe,”."
+      "word": "respond"
     },
     {
       "unit": 9,
       "page": 37,
-      "word": "POV",
-      "tip": "See POV in two spelling blocks: PO + V. Rejoin them while saying the podcast phrase “So scott k says the alumni shit is”."
+      "word": "POV"
     },
     {
       "unit": 9,
       "page": 38,
-      "word": "low-key",
-      "tip": "See low-key in two spelling blocks: low- + key. Rejoin them while saying the podcast phrase “Low key, he's cucking all of us.”."
+      "word": "low-key"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "onsite",
-      "tip": "See onsite in two spelling blocks: ons + ite. Rejoin them while saying the podcast phrase “They act as the onsite manager.”."
+      "word": "onsite"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "manager",
-      "tip": "manager uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “Who is like the operational manager.”."
+      "word": "manager"
     },
     {
       "unit": 8,
       "page": 28,
-      "word": "employees",
-      "tip": "See employees in two spelling blocks: emplo + yees. Rejoin them while saying the podcast phrase “Are they school employees?”."
+      "word": "employees"
     },
     {
       "unit": 8,
       "page": 27,
-      "word": "hired",
-      "tip": "hired is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “This is a hired professional.”."
+      "word": "hired"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "considers",
-      "tip": "considers uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “The fraternity apparently considers it a social room, but”."
+      "word": "considers"
     },
     {
       "unit": 8,
       "page": 33,
-      "word": "invited",
-      "tip": "invited is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “The one that invited her is now asleep on”."
+      "word": "invited"
     },
     {
       "unit": 9,
       "page": 37,
-      "word": "fake",
-      "tip": "See fake in two spelling blocks: fa + ke. Rejoin them while saying the podcast phrase “This is not fake.”."
+      "word": "fake"
     },
     {
       "unit": 9,
       "page": 38,
-      "word": "interaction",
-      "tip": "interaction ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “I mean, that means it seems like someone is”."
+      "word": "interaction"
     },
     {
       "unit": 8,
       "page": 31,
-      "word": "believed",
-      "tip": "believed is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “The lawsuit says during this time, defendant Matthew and”."
+      "word": "believed"
     },
     {
       "unit": 9,
       "page": 39,
-      "word": "upsetting",
-      "tip": "upsetting is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “She later states about that picture, the person that's”."
+      "word": "upsetting"
     },
     {
       "unit": 10,
       "page": 41,
-      "word": "findings",
-      "tip": "See findings in two spelling blocks: find + ings. Rejoin them while saying the podcast phrase “There's a whole chapter nine investigation and one”."
+      "word": "findings"
     },
     {
       "unit": 10,
       "page": 42,
-      "word": "Title IX",
-      "tip": "Build the expression from its visible parts: Title + IX. Recall the whole form through “So I do know that a lot of these big”."
+      "word": "Title IX"
     },
     {
       "unit": 10,
       "page": 44,
-      "word": "preemptive",
-      "tip": "preemptive ends in -ive, a common adjective ending for a quality or tendency. Anchor it in the podcast wording “She says that she notices this large bruise on”."
+      "word": "preemptive"
     },
     {
       "unit": 11,
       "page": 45,
-      "word": "allegation",
-      "tip": "allegation ends in -tion, a frequent noun ending for an action, process, or result. Anchor it in the podcast wording “During Thanksgiving break, two days before Thanksgiving, actually, Cornell”."
+      "word": "allegation"
     },
     {
       "unit": 11,
       "page": 45,
-      "word": "statement",
-      "tip": "statement ends in -ment, a noun-forming suffix for a result, state, or process. Anchor it in the podcast wording “The very first Cornell statement in 2024 about this”."
+      "word": "statement"
     },
     {
       "unit": 11,
       "page": 47,
-      "word": "federal",
-      "tip": "See federal in two spelling blocks: fede + ral. Rejoin them while saying the podcast phrase “Title IX is a federal law that in”."
+      "word": "federal"
     },
     {
       "unit": 11,
       "page": 48,
-      "word": "criminally",
-      "tip": "criminally ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “They have no authority to take this criminally in”."
+      "word": "criminally"
     },
     {
       "unit": 11,
       "page": 48,
-      "word": "victim",
-      "tip": "See victim in two spelling blocks: vic + tim. Rejoin them while saying the podcast phrase “These are not prosecutors who are equipped to”."
+      "word": "victim"
     },
     {
       "unit": 11,
       "page": 50,
-      "word": "academically",
-      "tip": "academically ends in -ically: adjective + -ly forms an adverb describing how something happens. Anchor it in the podcast wording “We're going to get into it, but exactly zero”."
+      "word": "academically"
     },
     {
       "unit": 11,
       "page": 50,
-      "word": "alleged assault",
-      "tip": "Build the expression from its visible parts: alleged + assault. Recall the whole form through “Meanwhile, Jane Doe drops out of school after the alleged”."
+      "word": "alleged assault"
     },
     {
       "unit": 11,
       "page": 50,
-      "word": "charged",
-      "tip": "charged is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “We're going to get into it, but exactly zero”."
+      "word": "charged"
     },
     {
       "unit": 11,
       "page": 50,
-      "word": "graduating",
-      "tip": "graduating is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “He's graduating.”."
+      "word": "graduating"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "emotionally",
-      "tip": "emotionally ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “More importantly, emotionally.”."
+      "word": "emotionally"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "haunt",
-      "tip": "See haunt in two spelling blocks: hau + nt. Rejoin them while saying the podcast phrase “It will haunt me and be part of”."
+      "word": "haunt"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "mainstream",
-      "tip": "See mainstream in two spelling blocks: mains + tream. Rejoin them while saying the podcast phrase “And this case gets picked up instantly after”."
+      "word": "mainstream"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "news outlet",
-      "tip": "Build the expression from its visible parts: news + outlet. Recall the whole form through “And this case gets picked up instantly after Jane Doe's”."
+      "word": "news outlet"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "recover",
-      "tip": "recover uses the person/thing ending -er; connect the ending to whoever or whatever performs the action. Anchor it in the podcast wording “I want to recover from this trauma but it”."
+      "word": "recover"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "trauma",
-      "tip": "See trauma in two spelling blocks: tra + uma. Rejoin them while saying the podcast phrase “I want to recover from this trauma but”."
+      "word": "trauma"
     },
     {
       "unit": 9,
       "page": 39,
-      "word": "retreat",
-      "tip": "See retreat in two spelling blocks: retr + eat. Rejoin them while saying the podcast phrase “Jane says that she's trying to retreat under”."
+      "word": "retreat"
     },
     {
       "unit": 11,
       "page": 47,
-      "word": "formal",
-      "tip": "See formal in two spelling blocks: for + mal. Rejoin them while saying the podcast phrase “Cornell commences a Title IX investigation into Jane”."
+      "word": "formal"
     },
     {
       "unit": 11,
       "page": 47,
-      "word": "complaint",
-      "tip": "See complaint in two spelling blocks: compl + aint. Rejoin them while saying the podcast phrase “Cornell commences a Title IX investigation into Jane”."
+      "word": "complaint"
     },
     {
       "unit": 11,
       "page": 47,
-      "word": "commences",
-      "tip": "See commences in two spelling blocks: comme + nces. Rejoin them while saying the podcast phrase “Cornell commences a Title IX investigation into Jane”."
+      "word": "commences"
     },
     {
       "unit": 11,
       "page": 48,
-      "word": "prosecutors",
-      "tip": "See prosecutors in two spelling blocks: prosec + utors. Rejoin them while saying the podcast phrase “But these are not federal prosecutors.”."
+      "word": "prosecutors"
     },
     {
       "unit": 11,
       "page": 48,
-      "word": "equipped",
-      "tip": "equipped is an -ed form; connect it back to the base verb to remember both spelling and meaning. Anchor it in the podcast wording “These are not prosecutors who are equipped to handle”."
+      "word": "equipped"
     },
     {
       "unit": 11,
       "page": 48,
-      "word": "healing",
-      "tip": "healing is the -ing form; identify the base verb, then add -ing to show an ongoing action. Anchor it in the podcast wording “It could be that Jane was busy with school”."
+      "word": "healing"
     },
     {
       "unit": 11,
       "page": 51,
-      "word": "instantly",
-      "tip": "instantly ends in -ly, marking the adverb form that tells how or with what degree. Anchor it in the podcast wording “And this case gets picked up instantly after Jane”."
+      "word": "instantly"
     },
     {
       "unit": 11,
       "page": 48,
-      "word": "victims",
-      "tip": "See victims in two spelling blocks: vict + ims. Rejoin them while saying the podcast phrase “These are not prosecutors who are equipped to”."
+      "word": "victims"
+    }
+  ],
+  "fewer_than_two_collocations": [
+    {
+      "unit": 1,
+      "page": 3,
+      "word": "bizarre"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "coercion"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "endorsed"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "adjudicated"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "lawyered up"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "pending"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "speculations"
+    },
+    {
+      "unit": 3,
+      "page": 8,
+      "word": "survivor"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "leaked"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "publicly"
+    },
+    {
+      "unit": 3,
+      "page": 9,
+      "word": "outlet"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "polarizing"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "threatened"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "contractor"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "disposal"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "hazardous waste"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "risk"
+    },
+    {
+      "unit": 4,
+      "page": 11,
+      "word": "statistic"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "alcohol"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "board member"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "chapter"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "insurance company"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "liability coverage"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "national"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "nightmare"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "organization"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "umbrella"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "blindfolds"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "interpersonal"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "membership"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "power trip"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest list"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "inebriated"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "poetic"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "third party"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "bylaws"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "homeowner's"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "industry"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "payouts"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "violation"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "absorb"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "bypassing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "categorizing"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "circumstantial evidence"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "claim"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "enemas"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "injuries"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "rushed"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "sodomized"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "terrifying"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "assault"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "branding"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "emotional damage"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "grafts"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "hazing lawsuits"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "iron"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "permanent"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "pledge"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "rectum"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "sustain"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "balconies"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "intoxicated"
+    },
+    {
+      "unit": 3,
+      "page": 10,
+      "word": "insurance"
+    },
+    {
+      "unit": 5,
+      "page": 17,
+      "word": "plaintiffs"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "lawsuits"
+    },
+    {
+      "unit": 4,
+      "page": 12,
+      "word": "sued"
+    },
+    {
+      "unit": 4,
+      "page": 13,
+      "word": "organized"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "workarounds"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "guest"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "standard"
+    },
+    {
+      "unit": 5,
+      "page": 16,
+      "word": "process"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "beverages"
+    },
+    {
+      "unit": 5,
+      "page": 18,
+      "word": "escape"
+    },
+    {
+      "unit": 4,
+      "page": 15,
+      "word": "drops"
+    },
+    {
+      "unit": 4,
+      "page": 14,
+      "word": "assume"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "donation"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "financially"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "Greek life"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "housing"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "institution"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "maintain"
+    },
+    {
+      "unit": 5,
+      "page": 19,
+      "word": "marketing"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "chapter"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "dorms"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "merged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active chapters"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "deprived"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "freshman"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physically exhausted"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "pledged"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "precipice"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "psychological"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "relevant"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "articulate"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "ashamed"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "cayenne"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "coffin"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inducted"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "inflicting"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "trap door"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vinegar"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "vulnerability"
+    },
+    {
+      "unit": 6,
+      "page": 22,
+      "word": "waistband"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "addiction"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "conquest"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "discarded"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "glory"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "offerings"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "vacant"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "arrest"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "crime log"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "interim"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "jurisdiction"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "ketamine"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "overdosed"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "possession"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "chivalrous"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "creed"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "personal integrity"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "privileges"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "community"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "promoting"
+    },
+    {
+      "unit": 5,
+      "page": 20,
+      "word": "generous"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "physical"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "barred"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "suspension"
+    },
+    {
+      "unit": 7,
+      "page": 24,
+      "word": "supplying"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "integrity"
+    },
+    {
+      "unit": 7,
+      "page": 26,
+      "word": "network"
+    },
+    {
+      "unit": 6,
+      "page": 21,
+      "word": "active"
+    },
+    {
+      "unit": 7,
+      "page": 25,
+      "word": "investigate"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "sorority"
+    },
+    {
+      "unit": 6,
+      "page": 23,
+      "word": "fentanyl"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "facilitate"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired professional"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "house director"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "legal drinking age"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "operational manager"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "salaried"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "shots"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "vodka"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "bartender"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "establishment"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "fraternity brother"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "separate"
+    },
+    {
+      "unit": 8,
+      "page": 29,
+      "word": "under 21"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "awkwardly"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "couch"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "dancing"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "propositioned"
+    },
+    {
+      "unit": 8,
+      "page": 30,
+      "word": "unclear"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "alumni room"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "high proof"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "marijuana"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "pressuring"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "snorting"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "substance"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "unlocked"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "erection"
+    },
+    {
+      "unit": 8,
+      "page": 32,
+      "word": "meanwhile"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "group message"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "Snapchat"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "dense"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "derogatory"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "morally"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "remotely"
+    },
+    {
+      "unit": 9,
+      "page": 34,
+      "word": "reprehensible"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "AFK"
+    },
+    {
+      "unit": 9,
+      "page": 35,
+      "word": "restating"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "all caps"
+    },
+    {
+      "unit": 9,
+      "page": 36,
+      "word": "respond"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "POV"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "low-key"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "redacted"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "onsite"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "manager"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "employees"
+    },
+    {
+      "unit": 8,
+      "page": 27,
+      "word": "hired"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "considers"
+    },
+    {
+      "unit": 8,
+      "page": 28,
+      "word": "defendant"
+    },
+    {
+      "unit": 8,
+      "page": 33,
+      "word": "invited"
+    },
+    {
+      "unit": 9,
+      "page": 37,
+      "word": "fake"
+    },
+    {
+      "unit": 9,
+      "page": 38,
+      "word": "interaction"
+    },
+    {
+      "unit": 8,
+      "page": 31,
+      "word": "believed"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "upsetting"
+    },
+    {
+      "unit": 10,
+      "page": 41,
+      "word": "findings"
+    },
+    {
+      "unit": 10,
+      "page": 42,
+      "word": "Title IX"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "alcove"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "cross-referencing"
+    },
+    {
+      "unit": 10,
+      "page": 43,
+      "word": "snippets"
+    },
+    {
+      "unit": 10,
+      "page": 44,
+      "word": "preemptive"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "allegation"
+    },
+    {
+      "unit": 11,
+      "page": 45,
+      "word": "statement"
+    },
+    {
+      "unit": 11,
+      "page": 46,
+      "word": "misconduct"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "federal"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "criminally"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victim"
+    },
+    {
+      "unit": 11,
+      "page": 49,
+      "word": "sanctions"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "academically"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "alleged assault"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "charged"
+    },
+    {
+      "unit": 11,
+      "page": 50,
+      "word": "graduating"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "emotionally"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "haunt"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "mainstream"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "news outlet"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "recover"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "trauma"
+    },
+    {
+      "unit": 9,
+      "page": 39,
+      "word": "retreat"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "formal"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "complaint"
+    },
+    {
+      "unit": 11,
+      "page": 47,
+      "word": "commences"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "prosecutors"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "equipped"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "healing"
+    },
+    {
+      "unit": 11,
+      "page": 51,
+      "word": "instantly"
+    },
+    {
+      "unit": 11,
+      "page": 48,
+      "word": "victims"
     }
   ]
 }
