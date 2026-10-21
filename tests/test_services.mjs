@@ -90,6 +90,10 @@ test('Cornell 7 expansion preserves units, provenance, deduplication, and unreso
   assert.equal(unresolved.missing_english_definition.length, 0);
   assert.equal(unresolved.externally_sourced_definition_requiring_review.length, course.vocab.filter(item => item.definition_status === 'external_dictionary_unreviewed').length);
   assert.equal(audit.missing.example_cn, unresolved.missing_example_translation.length);
+  assert.equal(audit.missing.example_cn, 0);
+  assert.equal(course.vocab.filter(item => item.tip?.startsWith('Spelling anchor:')).length, 0);
+  assert.equal(unresolved.machine_translations_requiring_review.length, course.vocab.filter(item => item.example_translation_status === 'machine_translated_requires_editorial_review').length);
+  assert.equal(unresolved.form_generated_memory_requiring_review.length, course.vocab.filter(item => item.mnemonic_status === 'form_specific_generated_requires_editorial_review').length);
   assert.equal(audit.technicalTips, 0);
   assert.equal(course.vocab.some(item => item.clip), false);
   assert.equal(course.expressions.some(item => item.clip), false);
