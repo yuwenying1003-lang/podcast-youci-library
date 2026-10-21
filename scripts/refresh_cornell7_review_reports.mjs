@@ -40,6 +40,7 @@ for (const [path, value] of [
 console.log(JSON.stringify({ reviewed: expansion.reviewed_word_cards, remaining: expansion.unresolved_counts, coverage: expansion.coverage_status }, null, 2));
 const pending = course.vocab.find(v => v.editorial_status !== 'reviewed_complete');
 const contextual = coverage.segments.filter(s => s.reviewer === 'Codex');
+const nextParagraph = coverage.segments.find(s => s.page > 3 && s.reviewer !== 'Codex');
 const audit = `# Cornell 7 quality and continuation audit
 
 Updated 2026-10-22. Reviews identify Codex as reviewer; completed contextual editorial review is not independent human sign-off or audio verification.
@@ -64,16 +65,17 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 ## Exact continuation
 
 - Next unreviewed Word: Unit ${pending.unit + 1}, ${pending.word}. Preserve all completed cards in earlier Units.
+- Next paragraph not yet individually read in this PDF pass: page ${nextParagraph.page}, segment ${nextParagraph.segment}. The continuous reviewed range is segments 50–${nextParagraph.segment - 1}; Unit 1's previous work is preserved.
 - Earliest remaining transcript barrier: page ${unresolved.transcript_segments_requiring_review[0].page}, segment ${unresolved.transcript_segments_requiring_review[0].segment}. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
-- Batch evidence: reports/cornell7-unit2-transcript-review.json, reports/cornell7-unit3-review-batch.json and reports/cornell7-unit4-review-batch.json; additional batches use the same explicit review format.
+- Batch evidence: reports/cornell7-unit2-transcript-review.json, reports/cornell7-unit3-review-batch.json, reports/cornell7-unit4-review-batch.json, reports/cornell7-unit5-words-review.json and reports/cornell7-unit5-transcript-review.json. Unit 3–4 speaking reviews are in the corresponding unit3-chunks-review and unit4-chunks-review JSON files.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.
 
 ## Validation and boundaries
 
-PDF/Unit 2–4 batches: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
+PDF/Unit 2–5 batches: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
 
 Only course content, editorial scripts, tests and reports are in scope. UI, CSS, player/audio controls, AI/login configuration, sentence checking and collections remain untouched. PR #16 only; no merge or deployment.
 

@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 306,
+      "phrases": 315,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -48,7 +48,7 @@
         "unit": 5,
         "pages": "16-20",
         "words": 45,
-        "phrases": 35,
+        "phrases": 44,
         "chunks": 16
       },
       {
@@ -95,27 +95,27 @@
       }
     ],
     "coverage_status": {
-      "covered": 400,
-      "no_identified_barrier": 101,
-      "requires_review": 349
+      "covered": 405,
+      "no_identified_barrier": 103,
+      "requires_review": 342
     },
     "unresolved_counts": {
       "missing_ipa": 0,
       "missing_english_definition": 0,
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
-      "requires_human_review": 202,
-      "transcript_segments_requiring_review": 349,
-      "externally_sourced_ipa_requiring_review": 151,
-      "externally_sourced_definition_requiring_review": 135,
-      "machine_translations_requiring_review": 139,
-      "form_generated_memory_requiring_review": 138,
-      "fewer_than_two_collocations": 170
+      "requires_human_review": 157,
+      "transcript_segments_requiring_review": 342,
+      "externally_sourced_ipa_requiring_review": 117,
+      "externally_sourced_definition_requiring_review": 103,
+      "machine_translations_requiring_review": 107,
+      "form_generated_memory_requiring_review": 106,
+      "fewer_than_two_collocations": 132
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-    "reviewed_word_cards": 119,
+    "reviewed_word_cards": 164,
     "translated_word_examples": 321,
-    "upgraded_memory_tips": 149,
+    "upgraded_memory_tips": 188,
     "review_updated_on": "2026-10-22"
   },
   "segments": [
@@ -3433,17 +3433,20 @@
       "page": 16,
       "segment": 241,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:4:according to",
+        "word:4:claim",
         "word:4:chapter"
       ],
       "candidate_learning_item_ids": [
         "word:4:chapter",
         "phrase:4:according to"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: according to."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Dense attributed account includes rammed in the head, full pledged, and same party on the same plan. Full pledged may be nonstandard/ASR; lack of coverage must not be converted into inability to sue.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But also, if you're with a bunch of fraternity brothers throwing a football around and then you get rammed in the head with a football in the front yard as a full pledged brother, well, according to the Redditor, quote, insurance does not cover brothers who sue the chapter or national organization for any reason as they are considered the same party on the same plan."
     },
     {
       "page": 16,
@@ -3452,8 +3455,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Speaker's can't sue them inference is not logically established by the preceding insurance exclusion claim. Explain the modal as the speaker's conclusion, not an actual legal prohibition.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So you can't sue them either."
     },
     {
       "page": 16,
@@ -3461,8 +3467,15 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:claim"
-      ]
+        "word:4:claim",
+        "word:3:liability",
+        "word:3:insurance company"
+      ],
+      "review_reason": "Sample is a subset of insurance claims, analyzed by kind; does insure emphasizes an insurer that actually offers this protection. Sample does not represent all possible incidents automatically.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "According to one insurance company who does insure fraternities, they took a sample of liability claims and they analyzed what kind of claims they were."
     },
     {
       "page": 16,
@@ -3471,7 +3484,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:categorizing"
-      ]
+      ],
+      "review_reason": "Them refers to claims; categorizing groups them by type, not proving their truth.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They were just categorizing them."
     },
     {
       "page": 16,
@@ -3479,19 +3497,28 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:4:right off the bat",
         "word:4:injuries",
-        "phrase:4:right off the bat"
-      ]
+        "word:3:hazing"
+      ],
+      "review_reason": "Immediately assumed ranking; sentence continues in 246. Assumed here means supposed, unlike assume liability in Unit 4.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And a lot of people assumed right off the bat that hazing injuries and deaths would be"
     },
     {
       "page": 16,
       "segment": 246,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Completes possible first/second rankings from 245; right seeks agreement, not a confirmed statistic.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Maybe number one, maybe number two, or alcohol-related deaths, right?"
     },
     {
       "page": 16,
@@ -3499,8 +3526,16 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:terrifying"
-      ]
+        "word:4:terrifying",
+        "word:4:pledge",
+        "word:0:bizarre",
+        "word:3:hazing"
+      ],
+      "review_reason": "Considering gives a reason for the assumption; terrifying news versus terrorizing newcomers distinguishes fear caused by reports from the actions reported.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Considering there's just a lot of bizarre and terrifying news all the time about the newest ways fraternities are terrorizing and hazing new pledges."
     },
     {
       "page": 16,
@@ -3509,7 +3544,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:rushed"
-      ]
+      ],
+      "review_reason": "Was rushed to hospital is urgent passive transport; like introduces an example rather than similarity.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Like there was this guy that was rushed to the hospital."
     },
     {
       "page": 16,
@@ -3517,58 +3557,94 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:sodomized"
-      ]
+        "word:4:sodomized",
+        "word:4:assault"
+      ],
+      "review_reason": "Initially thought labels a preliminary suspicion; SA'd is an abbreviation/euphemistic rendering of sexually assaulted, not a confirmed finding.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Doctors initially thought that he was sodomized, that he was SA'd."
     },
     {
       "page": 16,
       "segment": 250,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:4:enemas",
+        "word:4:pledge",
         "phrase:4:turn of events"
-      ]
+      ],
+      "review_reason": "Causative having someone do something plus plastic hoses and explicit anatomy still create barriers. Allegedly is a self-correction limiting the assertion; do not teach this as an instruction.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But in a very rather uncomfortable turn of events, I guess you could say, they discovered that the fraternity was actually having, well, allegedly, having their new pledges stick plastic hoses up their butts to give themselves enemas"
     },
     {
       "page": 16,
       "segment": 251,
       "source_unit": 2,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:alcohol",
+        "word:4:enemas"
+      ],
+      "review_reason": "With alcohol completes the preceding alleged nonmedical practice; retain original short fragment and no procedure details added.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "With alcohol"
     },
     {
       "page": 16,
       "segment": 252,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:in question"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Patient in question means the person being discussed; denies explicitly conflicts with the alleged account, so both must be retained.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The patient in question denies that this ever happened"
     },
     {
       "page": 16,
       "segment": 253,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:4:circumstantial",
         "word:4:circumstantial evidence",
-        "word:4:process"
-      ]
+        "word:4:process",
+        "phrase:4:no recollection of"
+      ],
+      "review_reason": "Bowels/defecated remain concrete vocabulary gaps. May have and indirect evidence indicate inference; the patient's reported lack of memory does not independently establish the narrative.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "However police found circumstantial evidence in the fraternity house including evidence that the patient may have lost control of his bowels in the process and defecated on himself which he also has no recollection of"
     },
     {
       "page": 16,
       "segment": 254,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:enemas",
+        "word:3:alcohol"
+      ],
       "candidate_learning_item_ids": [
         "word:4:enemas"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Super is an informal intensifier of dangerous. Language review preserves warning without providing instructions or assessing an individual exposure.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And alcohol enemas are super dangerous."
     },
     {
       "page": 16,
@@ -3578,7 +3654,12 @@
       "learning_item_ids": [
         "word:4:absorb",
         "word:4:bypassing"
-      ]
+      ],
+      "review_reason": "Because introduces the narrator's explanation; absorb and bypass now explicitly defined. Quicker is informal adverb use; the medical mechanism is not independently verified here.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You absorb the alcohol much quicker because you're bypassing your stomach."
     },
     {
       "page": 17,
@@ -3586,8 +3667,14 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "chunk:4:it's hard to gauge"
-      ]
+        "chunk:4:it's hard to gauge",
+        "phrase:4:to put it simply"
+      ],
+      "review_reason": "Gauge means estimate; to put it simply introduces plainer phrasing, and butt is informal anatomy. No measurement or how-to guidance added.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And it's hard to gauge how much is going up the butt, to put it simply."
     },
     {
       "page": 17,
@@ -3595,20 +3682,29 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:pledge",
         "word:4:rectum",
-        "word:4:sustain"
-      ]
+        "word:4:sustain",
+        "word:4:pledge",
+        "word:4:injuries"
+      ],
+      "review_reason": "Sustain means suffer, not maintain; tear means rip tissue, not tears from eyes. Very bright-minded is sarcasm, not praise or diagnosis.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Also, you could tear your rectum and sustain injuries like this very bright-minded pledge did."
     },
     {
       "page": 17,
       "segment": 258,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Future of our nation is sarcastic commentary following 257; they say is a generic distancing phrase, not a named source.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You know, future of our nation, they say."
     },
     {
       "page": 17,
@@ -3617,8 +3713,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Fragmented headline-like wording includes ER and alleged injury; bright-eyed is ironic. Do not reconstruct omitted punctuation into a verified quotation or teach the fragment as standard grammar.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Bright-eyed college student ends up in the er wine enema allegedly so"
     },
     {
       "page": 17,
@@ -3626,9 +3725,14 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:4:the biggest type of",
-        "phrase:4:biggest type of lawsuit"
-      ]
+        "word:4:hazing lawsuits",
+        "phrase:4:the biggest type of"
+      ],
+      "review_reason": "Contrasts initial expectation with a sample ranking; biggest type means most frequent category here, not largest individual legal case.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Everyone thought okay well hazing is going to be the biggest type of lawsuit but it's actually not the first one"
     },
     {
       "page": 17,
@@ -3637,7 +3741,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:assault"
-      ]
+      ],
+      "review_reason": "Assault and battery is a paired violence-related category; battery is not electricity. From this sample limits the comparison, with no jurisdiction-specific legal ruling.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "From this sample is assault and battery"
     },
     {
       "page": 17,
@@ -3646,8 +3755,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Essay is likely a euphemism or ASR rendering of SA in this list. Preserve the PDF, avoid teaching written essay as a lawsuit category, and await audio verification.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Then you have essay"
     },
     {
       "page": 17,
@@ -3656,23 +3768,39 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:4:slip and fall"
-      ]
+      ],
+      "review_reason": "Fixed injury/claim category; not two unrelated actions in a new narrative.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Then slip and fall"
     },
     {
       "page": 17,
       "segment": 264,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:4:fall from heights"
-      ]
+        "phrase:4:fall from heights",
+        "word:3:hazing"
+      ],
+      "review_reason": "Tied with fifth means equal rank, not physically tied. Auto accidents and sample percentage interpretation need explicit support; no general incident prevalence inferred.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The fourth is fall from heights and the fifth is auto accidents and tied with fifth is at just 7% hazing incidents."
     },
     {
       "page": 17,
       "segment": 265,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Brief evaluative reaction to the ranking, not independent endorsement.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Interesting."
     },
     {
       "page": 17,
@@ -3681,7 +3809,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:hazing lawsuits"
-      ]
+      ],
+      "review_reason": "That's not saying that there aren't... rejects the inference that a lower rank means few lawsuits. Double negatives have a specific logical scope.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And that's not saying that there aren't a lot of hazing lawsuits."
     },
     {
       "page": 17,
@@ -3690,22 +3823,33 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:branding",
+        "word:4:plaintiffs",
         "word:4:grafts",
         "word:4:iron",
-        "word:4:plaintiff",
-        "word:4:plaintiffs",
+        "phrase:4:gone wrong",
         "phrase:4:in extreme cases"
-      ]
+      ],
+      "review_reason": "Branding is physical marking, not marketing; skin grafts are tissue repair. Extreme cases qualifies severity; teaching examples do not supply injury instructions.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I mean, there are like a lot of branding gone wrong where plaintiffs need skin grafts in extreme cases because they were branded by some sort of hot iron tool."
     },
     {
       "page": 17,
       "segment": 268,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
+        "word:4:permanent",
         "word:4:emotional damage",
-        "word:4:permanent"
-      ]
+        "phrase:4:gone wrong"
+      ],
+      "review_reason": "Paddling and aesthetic remain gaps; bottom refers to buttocks rather than a financial bottom line. Distinguish physical appearance from emotional effects.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now they need new skin or paddling gone wrong, causing permanent aesthetic and emotional damage to one's bottom."
     },
     {
       "page": 17,
@@ -3714,15 +3858,23 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Light side means supposedly less severe end of the spectrum, not illumination or humor; irony and minimization need an explicit note/card.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And that's usually like the light side of hazing."
     },
     {
       "page": 17,
       "segment": 270,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Abandoned there is fragment, followed by a new construction in 271. No missing words inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There is."
     },
     {
       "page": 17,
@@ -3731,15 +3883,23 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Paddles are flat implements used for hitting in the account, not rowing activity. On there refers to written organization names; needs concrete vocabulary support.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They have these paddles in the fraternity houses that usually have like their fraternity names on there and then they hit you with it."
     },
     {
       "page": 17,
       "segment": 272,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "One-word reaction to the preceding explanation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Oh."
     },
     {
       "page": 18,
@@ -3748,39 +3908,61 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:standard",
-        "phrase:4:it seems to be a thing",
-        "chunk:4:i don't know if it's standard",
-        "chunk:4:it seems to be",
-        "chunk:4:it seems to be a thing"
-      ]
+        "phrase:4:it seems to be a thing"
+      ],
+      "review_reason": "Standard means usual; a thing means an existing practice. I don't know if and seems explicitly limit certainty.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
     },
     {
       "page": 18,
       "segment": 274,
       "source_unit": 2,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "requires_review",
+      "learning_item_ids": [],
+      "review_reason": "Spanking is an attempt to clarify the physical action. A one-word concrete vocabulary gap still needs support.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Like spanking?"
     },
     {
       "page": 18,
       "segment": 275,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Affirmative response confirming the previous clarification.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah."
     },
     {
       "page": 18,
       "segment": 276,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Acknowledgment of the explanation, with no new lexical target.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Okay."
     },
     {
       "page": 18,
       "segment": 277,
       "source_unit": 2,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Repeated affirmative response, with no new lexical target.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah."
     },
     {
       "page": 18,
@@ -3789,52 +3971,76 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Repeats light side as the allegedly less severe category; keep the unresolved figurative meaning connected to 269.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And that is usually considered the light side of hazing."
     },
     {
       "page": 18,
       "segment": 279,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:4:assault",
+        "word:3:hazing"
+      ],
       "candidate_learning_item_ids": [
         "word:4:assault"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Full-on is an intensifier meaning outright/complete; side means an aspect. The nouns alone do not teach these everyday-word combinations.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There is the full-on sexual assault side of hazing as well."
     },
     {
       "page": 18,
       "segment": 280,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:hazing lawsuits"
+      ],
       "candidate_learning_item_ids": [
         "word:4:hazing lawsuits"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Still a small percentage compares a subset with all claims; face lawsuits means have proceedings brought against an organization, not a physical face.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's a lot of hazing lawsuits, but it's crazy that it's still a small percentage of all the different types of lawsuits fraternities face."
     },
     {
       "page": 18,
       "segment": 281,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:fall from heights"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Fourth one refers back to the ranked category in 264; students fall from building locations detailed next.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And the fourth one, a lot of students also fall from fraternity houses."
     },
     {
       "page": 18,
       "segment": 282,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:looking into"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Looking into means researching; this refers to the falls category, not looking inside a house.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "When I was looking into this, I was very confused."
     },
     {
       "page": 18,
@@ -3842,52 +4048,78 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:intoxicated",
-        "phrase:4:fall off"
-      ]
+        "phrase:4:fall off",
+        "word:4:intoxicated"
+      ],
+      "review_reason": "Fall off a roof distinguishes movement from a surface; while intoxicated gives the reported state.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They fall off of roofs while intoxicated."
     },
     {
       "page": 18,
       "segment": 284,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:4:intoxicated"
+      ],
       "candidate_learning_item_ids": [
         "word:4:intoxicated"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Urinate remains an anatomical vocabulary gap; intoxicated alone is insufficient despite the obvious setting.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They fall out of open windows while trying to urinate out the window when they're intoxicated."
     },
     {
       "page": 18,
       "segment": 285,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:4:balconies",
+        "phrase:4:roll out of",
         "word:4:escape",
-        "phrase:4:roll out of"
-      ]
+        "word:4:balconies",
+        "word:4:intoxicated"
+      ],
+      "review_reason": "Fire escapes and balconies now defined, but bunk bed is another common-word compound needing support. Sequence lists several fall locations rather than one continuous fall.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Sometimes there will be a bunk bed next to an open window and they'll be intoxicated, roll out of the bed and then roll out the window, fall from fire escapes, fall from balconies."
     },
     {
       "page": 18,
       "segment": 286,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:way more often"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Way intensifies the frequency comparison with the speaker's expectation; no actual frequency statistic supplied.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It happens way more often than I ever imagined."
     },
     {
       "page": 18,
       "segment": 287,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:fall from heights"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "High falls is an informal recap of falls from elevated places, not highly ranked statistics.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Just a lot of high falls."
     },
     {
       "page": 18,
@@ -3896,9 +4128,14 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:4:one would think",
-        "chunk:4:one would think",
-        "chunk:4:one would think why"
-      ]
+        "word:3:fraternity",
+        "word:3:insurance company"
+      ],
+      "review_reason": "Rhetorical question uses insurers' supposed reluctance to challenge universities' acceptance; this is an argument, not verification of insurers' behavior.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
     },
     {
       "page": 18,
@@ -3907,7 +4144,12 @@
       "status": "covered",
       "learning_item_ids": [
         "chunk:4:it doesn't even make any sense"
-      ]
+      ],
+      "review_reason": "Even intensifies an apparent contradiction; make sense means be understandable, not manufacture something.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It doesn't even make any sense."
     },
     {
       "page": 19,
@@ -3917,26 +4159,42 @@
       "learning_item_ids": [
         "word:4:greek life",
         "phrase:4:ban greek life"
-      ]
+      ],
+      "review_reason": "Greek life is the fraternity/sorority system, not life in Greece. Students are trying to ban it, not a claim that a ban has taken effect.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Even Cornell University, a lot of students are trying to ban Greek life."
     },
     {
       "page": 19,
       "segment": 291,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:greek life",
+        "word:1:protest"
+      ],
       "candidate_learning_item_ids": [
         "word:4:greek life"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Protesting against expresses opposition; keeps means retains the system, not physically holds an object.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're protesting against Greek life and Cornell still keeps Greek life."
     },
     {
       "page": 19,
       "segment": 292,
       "source_unit": 3,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "One-word request for the reason answered in the next paragraph.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Why?"
     },
     {
       "page": 19,
@@ -3945,8 +4203,13 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:4:benefit a lot from",
-        "chunk:4:they benefit a lot from"
-      ]
+        "word:3:fraternity"
+      ],
+      "review_reason": "Benefit from means receive advantages; the following paragraphs propose financial mechanisms rather than proving each one.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Colleges and universities, they benefit a lot from fraternities."
     },
     {
       "page": 19,
@@ -3955,17 +4218,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:donation"
-      ]
+      ],
+      "review_reason": "Question proposes donations as an explanation; plural form recognized from the reviewed headword.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Is it donations?"
     },
     {
       "page": 19,
       "segment": 295,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:donation"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Response affirms the proposed source of benefit without giving verified amounts.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yes, a lot of donations."
     },
     {
       "page": 19,
@@ -3974,7 +4247,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:disclosed"
-      ]
+      ],
+      "review_reason": "Them refers to donations; not disclosed is not publicly revealed, not automatically illegal.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And most of them are not disclosed."
     },
     {
       "page": 19,
@@ -3983,16 +4261,24 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:marketing"
-      ]
+      ],
+      "review_reason": "Some people say and could be qualify a proposed promotional explanation; aspect means side of the issue.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But there is also, some people say it could be the marketing aspect."
     },
     {
       "page": 19,
       "segment": 298,
       "source_unit": 3,
-      "status": "covered",
-      "learning_item_ids": [
-        "phrase:4:the promise of"
-      ]
+      "status": "requires_review",
+      "learning_item_ids": [],
+      "review_reason": "Defy gravity and keg stand are distinct idiomatic/cultural barriers. Do not supply instructions for the hazardous drinking stunt; explain receptively if added.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The promise of being able to defy gravity and do a keg stand on a random Thursday night."
     },
     {
       "page": 19,
@@ -4003,7 +4289,12 @@
         "word:4:enticing",
         "phrase:4:getting student loans",
         "phrase:4:more enticing to"
-      ]
+      ],
+      "review_reason": "Comparative attraction to some people; than joins social appeal and the cost of education in a sarcastic contrast, not an endorsement.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "That is more enticing to someone than getting student loans for whatever degree that they want."
     },
     {
       "page": 19,
@@ -4012,25 +4303,38 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:4:built in marketing",
-        "chunk:4:it's kind of like"
-      ]
+        "word:4:marketing"
+      ],
+      "review_reason": "Built-in is inherent/already included, not physically installed software or hardware.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's kind of like built-in marketing."
     },
     {
       "page": 19,
       "segment": 301,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Imagined promotional message to a prospective student, not a guaranteed experience.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this is the fun college life you're going to get."
     },
     {
       "page": 19,
       "segment": 302,
       "source_unit": 3,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "I see acknowledges understanding, not literal sight.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I see."
     },
     {
       "page": 19,
@@ -4038,11 +4342,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:incentive",
-        "phrase:4:bottom line incentive",
         "phrase:4:on top of that",
-        "chunk:4:on top of that"
-      ]
+        "phrase:4:bottom line",
+        "word:4:incentive"
+      ],
+      "review_reason": "On top of that adds another reason; bottom line is financial interest, not a boundary or printed location.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And also on top of that, there is a bottom line incentive."
     },
     {
       "page": 19,
@@ -4050,11 +4358,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:beneficial",
         "word:4:financially",
-        "word:4:institution",
-        "phrase:4:financially beneficial"
-      ]
+        "word:4:beneficial",
+        "word:4:institution"
+      ],
+      "review_reason": "Financially limits the type of benefit to money; institutions refers to colleges and universities.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's deeply financially beneficial for a lot of these institutions."
     },
     {
       "page": 19,
@@ -4064,11 +4376,13 @@
       "learning_item_ids": [
         "word:4:maintain",
         "phrase:4:don't have to",
-        "phrase:4:they don't have to",
-        "chunk:4:i hadn't even thought of",
-        "chunk:4:one random one",
-        "chunk:4:one random one i hadn't thought of"
-      ]
+        "chunk:4:i hadn't even thought of"
+      ],
+      "review_reason": "Don't have to indicates no necessity, not prohibition; build and maintain separate construction from upkeep. One random one introduces an overlooked reason.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
     },
     {
       "page": 19,
@@ -4077,16 +4391,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:housing"
-      ]
+      ],
+      "review_reason": "Prepositional fragment specifies the buildings' purpose in 305; no standalone action invented.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "For student housing."
     },
     {
       "page": 19,
       "segment": 307,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
+        "word:4:greek life",
         "phrase:4:one in every eight"
-      ]
+      ],
+      "review_reason": "Sororities still needs its own lexical support; one in eight is a proportion attributed to some colleges, not a universal housing statistic.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Because when you have all these sororities and fraternities, like some colleges, one in every eight students lives in a Greek life house."
     },
     {
       "page": 20,
@@ -4095,31 +4420,47 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:dorms",
-        "phrase:4:by bed and by student",
-        "chunk:4:that means"
-      ]
+        "phrase:4:by bed and by student"
+      ],
+      "review_reason": "By means per-unit pricing in the speaker's explanation. Less buildings is retained only in source; standard teaching grammar would use fewer buildings.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student."
     },
     {
       "page": 20,
       "segment": 309,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:umbrella",
+        "word:2:coverage"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Speaker uses plural coverages to mean types of protection; learner model normally uses types of coverage, not an automatic plural rule.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's a lot of different umbrella coverages."
     },
     {
       "page": 20,
       "segment": 310,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:dorms",
+        "word:3:insurance company"
+      ],
       "candidate_learning_item_ids": [
         "word:4:dorms"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Millions of dollars is the narrator's unverified expenditure claim; just on limits the item of spending to dorm insurance.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I mean, one school is paying millions of dollars just on insurance for their dorms."
     },
     {
       "page": 20,
@@ -4127,27 +4468,45 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:4:burns down"
-      ]
+        "phrase:4:burns down",
+        "word:3:insured",
+        "word:2:coverage"
+      ],
+      "review_reason": "Burn down means be destroyed by fire; covered/insured concern financial protection. No guarantee about a specific policy is implied.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Because yeah, you want to make sure that everything is covered if there's a fire and the building is insured if it burns down."
     },
     {
       "page": 20,
       "segment": 312,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:4:slip on"
-      ]
+        "phrase:4:slip on",
+        "word:3:sued"
+      ],
+      "review_reason": "Puddle remains a concrete noun gap. Might sue is a possible legal claim, not a conclusion that the school is liable.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But also if someone walks into the building and they slip on a puddle of water, they might sue the school."
     },
     {
       "page": 20,
       "segment": 313,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:insured"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "That refers to the preceding possible liability; as well adds this risk to property loss. Treat necessity as narrator's explanation, not advice.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So you have to be insured for that as well."
     },
     {
       "page": 20,
@@ -4155,8 +4514,16 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:4:chapter"
-      ]
+        "word:4:institution",
+        "word:4:greek life",
+        "word:4:chapter",
+        "word:4:housing"
+      ],
+      "review_reason": "Since supplies a claimed reason; chapter houses are local organization housing and reduce need means fewer students need campus rooms.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So these institutions are now saving money since Greek life and the chapter houses typically reduce the number of students that need campus housing."
     },
     {
       "page": 20,
@@ -4165,8 +4532,14 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:tuition",
+        "word:4:institution",
         "phrase:4:expand the number"
-      ]
+      ],
+      "review_reason": "Admit means accept as students; more tuition means increased fee revenue, not more lectures. Which means links the proposed consequence.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It also allows institutions to expand the number of students they can admit, which means more tuition."
     },
     {
       "page": 20,
@@ -4176,11 +4549,15 @@
       "learning_item_ids": [
         "word:4:alumni",
         "word:4:generous",
-        "phrase:4:according to",
-        "phrase:4:at least according to",
-        "phrase:4:seem more financially generous",
-        "phrase:4:part of greek life"
-      ]
+        "word:4:financially",
+        "phrase:4:alma maters",
+        "phrase:4:at least according to"
+      ],
+      "review_reason": "Alumni are former students; alma maters their former schools. Seem/according to one research qualify a claimed association, not causation. Research is normally uncountable.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But also alumni who are part of Greek life seem to, at least according to one research done, seem more financially generous to their alma maters later in life if they were part of Greek life."
     },
     {
       "page": 20,
@@ -4188,10 +4565,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:4:coming up",
         "phrase:4:worth it",
-        "chunk:4:i guess the question",
         "chunk:4:i guess the question is"
-      ]
+      ],
+      "review_reason": "Coming up means emerging in discussion; profanity intensifies the value question, and the teaching model can omit it.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
     },
     {
       "page": 20,
@@ -4199,8 +4581,14 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:4:on campus"
-      ]
+        "phrase:4:worth it",
+        "word:3:fraternity"
+      ],
+      "review_reason": "Worth it weighs benefits against alleged danger; appear to be marks impression, not a proved general condition.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Is it worth it to keep fraternities on campus when they appear to be quite dangerous?"
     },
     {
       "page": 20,
@@ -4208,8 +4596,14 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:4:if not the oldest"
-      ]
+        "phrase:4:if not the oldest",
+        "word:3:fraternity"
+      ],
+      "review_reason": "One of the oldest, if not the oldest tentatively strengthens a superlative claim; no historical ranking independently verified.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Chi Phi is one of the oldest, if not the oldest American fraternity."
     },
     {
       "page": 20,
@@ -4218,30 +4612,45 @@
       "status": "covered",
       "learning_item_ids": [
         "word:4:merged",
-        "phrase:4:merged into one"
-      ]
+        "phrase:4:merged into one",
+        "word:1:apparently"
+      ],
+      "review_reason": "Apparently limits certainty; merged means combined organizations, not merely cooperated.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Apparently, it was three separate organizations that merged into one."
     },
     {
       "page": 20,
       "segment": 321,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:merged",
+        "word:3:organization"
+      ],
       "candidate_learning_item_ids": [
         "word:4:merged"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Oldest of the three selects within the prior group; date is a quoted historical claim and remains unchanged.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And the oldest of the three that merged was an organization from Princeton that started in 1824."
     },
     {
       "page": 20,
       "segment": 322,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Approximate age calculation relative to the recording date, not a request to update the transcript to today's date.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's like 201, 202 years old."
     },
     {
       "page": 21,

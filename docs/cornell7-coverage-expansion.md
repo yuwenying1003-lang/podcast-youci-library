@@ -26,4 +26,14 @@ The second command adds sourced IPA and English definitions. It should always ru
 
 For ongoing editorial batches, use `node scripts/refresh_cornell7_review_reports.mjs` instead. It recomputes queues and counts without approving transcript coverage or replacing course content. The exact continuation point is maintained in `reports/cornell7-quality-audit.md`; individual Unit 2 decisions are in `reports/cornell7-unit2-editorial-review.json`.
 
+## Recovered PDF and current review workflow
+
+The 51-page PDF in `source-materials` is now readable. `reports/cornell7-transcript-recovered.json` records its filename and SHA-256, every raw page, and all 850 historical paragraph IDs with page coordinates. Segment 1 is the title; the other 849 entries are transcript paragraphs. Page-level counts and ordering match the old index on all 51 pages. No exact audio timings can be recovered from this PDF.
+
+To reproduce extraction, install PyMuPDF into `.tools/pdf-extract` and run `python scripts/extract_cornell7_pdf.py`. The PDF itself remains local and is not added to Git. Preserve speech errors and uncertain ASR wording in quoted text; record any inferred reading separately.
+
+The explicit review batches in `reports/cornell7-unit*-review*.json` contain individual Word edits, Phrase additions, Chunk scenarios and paragraph decisions. Apply a new batch with `node scripts/apply_cornell7_editorial_batch.mjs <relative-batch-path>` and then refresh reports. Completed Word batches intentionally refuse to reapply, protecting previous review. Review status identifies Codex and must not be described as independent human approval.
+
+Units 3–5 Words are complete in this pass. All Unit 2–5 paragraphs (50–322) have individual context decisions, including unresolved barriers and demotions of previously automatic coverage. Unit 3–4 Chunks have new daily/social/work teaching scenarios; the original excerpts remain separate. Next Word is Unit 6 `active chapters`; next new paragraph is page 21, segment 323. Earlier unresolved paragraph barriers remain in the queue and must also be resolved.
+
 Pronunciation enrichment acknowledges the [CMU Pronouncing Dictionary](https://github.com/cmusphinx/cmudict), maintained by Carnegie Mellon University's Speech Group. Dictionary definitions and some direct IPA values are obtained through Free Dictionary APIs from Wiktionary-derived data; each enriched card records its source and unreviewed status.
