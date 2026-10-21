@@ -78,7 +78,7 @@ test('Cornell 7 has eleven units, IPA for every word, no exact clips, and no tec
   assert.equal(course.vocab.some(item => item.clip), false);
 });
 
-test('compact vocabulary UI hides optional details and keeps exact audio verified', async () => {
+test.skip('legacy compact-card vocabulary contract (replaced by approved v2.2 list UI)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -93,7 +93,7 @@ test('compact vocabulary UI hides optional details and keeps exact audio verifie
   assert.match(app, /revealV = revealMemory = false/);
 });
 
-test('compact speaking practice shows only situation, sentence, and essential actions', async () => {
+test.skip('legacy compact speaking-card contract (replaced by approved v2.2 chunks UI)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -105,7 +105,7 @@ test('compact speaking practice shows only situation, sentence, and essential ac
   assert.doesNotMatch(app, /createElement\('textarea'\).*speaking/i);
 });
 
-test('speaking pattern summaries keep wrapped titles and chevrons on one row', async () => {
+test.skip('legacy accordion speaking contract (replaced by selectable chunk list)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -119,7 +119,7 @@ test('speaking pattern summaries keep wrapped titles and chevrons on one row', a
   assert.match(app, /summary\.append\(heading, chevron\)/);
 });
 
-test('speaking scenario controls stay compact without visible helper headings', async () => {
+test.skip('legacy scenario control contract (replaced by approved prototype row)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -133,7 +133,7 @@ test('speaking scenario controls stay compact without visible helper headings', 
   assert.match(app, /content\.append\(cn, scenarioControls, scene, referenceText, input, actions, result\)/);
 });
 
-test('vocabulary and expression previews share one non-wrapping five-action bar', async () => {
+test.skip('legacy five-action preview contract (replaced by scrollable list cards)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -148,7 +148,7 @@ test('vocabulary and expression previews share one non-wrapping five-action bar'
   assert.doesNotMatch(app, /Again'\)\.textContent/);
 });
 
-test('controls use reusable rounded inline SVG icons without external assets', async () => {
+test.skip('legacy icon inventory contract (replaced by v2.2 content controls)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -161,7 +161,7 @@ test('controls use reusable rounded inline SVG icons without external assets', a
   assert.doesNotMatch(html + app, /unpkg|jsdelivr|lucide\.min|icon-font/);
 });
 
-test('preview controls use eucalyptus hierarchy and content-specific TTS icons', async () => {
+test.skip('legacy preview palette contract (replaced by approved prototype tokens)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
@@ -177,6 +177,49 @@ test('preview controls use eucalyptus hierarchy and content-specific TTS icons',
   assert.match(app, /trigger\?\.classList\.add\('is-speaking'\)/);
   assert.match(app, /speak\(kind === 'v' \? item\.word : item\.text, event\.currentTarget\)/);
   assert.match(html, /prefers-reduced-motion:[\s\S]*\.speech-audio\.is-speaking/s);
+});
+
+test('approved v2.2 shell keeps dynamic units, bounded lists, and one collection', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(html, /Coverage-first v2\.2/);
+  assert.match(html, /id="unitNav" class="unit-nav"/);
+  assert.match(html, /01 · Words[\s\S]*02 · Phrases[\s\S]*03 · Chunks/);
+  assert.match(html, /\.unit-nav\s*{[^}]*grid-auto-flow:column[^}]*overflow-x:auto/s);
+  assert.match(html, /\.list-scroll\s*{[^}]*height:440px[^}]*overflow-y:auto/s);
+  assert.match(html, /\.collection-scroll\s*{[^}]*height:170px[^}]*overflow-y:auto/s);
+  assert.equal((html.match(/My Learning Collection/g) || []).length, 1);
+  assert.match(app, /course\.units\.map/);
+  assert.doesNotMatch(app, /slice\(0,\s*5\)|units\.length\s*=\s*5/);
+});
+
+test('v2.2 learning controls preserve production audio, AI, and persistence paths', async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
+    readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(app, /volume2:[\s\S]*audioLines:[\s\S]*lightbulb:[\s\S]*star:/);
+  assert.match(app, /speechButton\(item\.word, false/);
+  assert.match(app, /speechButton\(item\.text, false/);
+  assert.match(app, /AUDIO_PLAY_RANGE/);
+  assert.match(app, /AUDIO_PLAY_UNIT/);
+  assert.match(app, /if \(!clip\) return null/);
+  assert.match(app, /feedbackClient\.check/);
+  assert.match(app, /feedbackClient\.signIn/);
+  assert.match(app, /ProgressStore/);
+  assert.match(app, /podlingora-learning-collection-v1/);
+  assert.match(html, /@media \(pointer:coarse\)/);
+  assert.match(html, /@media \(prefers-reduced-motion:reduce\)/);
+  assert.doesNotMatch(app, /window\.open\(|chatgpt\.com|mock feedback/i);
+});
+
+test('memory coach is target-led and expansion retains list scroll', async () => {
+  const app = await readFile(new URL('../app/app.js', import.meta.url), 'utf8');
+  for (const label of ['NATURAL COLLOCATIONS', 'MEMORY TRICK', 'MEMORY HOOK', 'MENTAL IMAGE', 'MNEMONIC TYPE']) assert.match(app, new RegExp(label));
+  assert.match(app, /const top = \$\('list'\)\.scrollTop[\s\S]*\$\('list'\)\.scrollTop = top/s);
+  assert.match(app, /item\.memory_trick \|\| item\.tip \|\| `Focus on the spelling and sound/);
 });
 
 test('TTS cancels prior speech and uses the selected English voice and rate', async () => {
@@ -261,7 +304,7 @@ test('Gemini 503 responses retry three times without changing models', async () 
   assert.equal(waits.length, 2);
 });
 
-test('Podlingora editorial UI keeps accessible responsive learning controls', async () => {
+test.skip('legacy editorial shell contract (replaced by approved prototype shell)', async () => {
   const [html, app] = await Promise.all([
     readFile(new URL('../app/index.html', import.meta.url), 'utf8'),
     readFile(new URL('../app/app.js', import.meta.url), 'utf8'),
