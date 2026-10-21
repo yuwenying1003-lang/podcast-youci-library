@@ -5,76 +5,6 @@
   "generated_spelling_context_memory": [],
   "requires_human_review": [
     {
-      "unit": 3,
-      "page": 8,
-      "word": "coercion"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "endorsed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "adjudicated"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "credibility"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "lawyered up"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "pending"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "speculations"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "leaked"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "coverage"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "polarizing"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "threatened"
-    },
-    {
       "unit": 4,
       "page": 11,
       "word": "contractor"
@@ -393,11 +323,6 @@
       "unit": 5,
       "page": 18,
       "word": "intoxicated"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "insurance"
     },
     {
       "unit": 5,
@@ -1333,309 +1258,170 @@
   "transcript_segments_requiring_review": [
     {
       "page": 4,
-      "segment": 52,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 51,
+      "reason": "Incident alone missed makes the news and strange conclusion; add those explanatory targets before calling the whole paragraph covered."
     },
     {
       "page": 4,
-      "segment": 54,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 56,
+      "reason": "Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches."
     },
     {
       "page": 4,
-      "segment": 55,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 61,
+      "reason": "Atrium and university president corrected, but nevertheless is a contrast marker worth teaching; a single matched noun never establishes complete coverage."
     },
     {
       "page": 4,
-      "segment": 58,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 4,
-      "segment": 60,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 63,
+      "reason": "Footage and that's been released are not explained by the matched negative impression pattern alone."
     },
     {
       "page": 5,
-      "segment": 65,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 5,
-      "segment": 66,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 5,
-      "segment": 67,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 5,
-      "segment": 70,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 5,
-      "segment": 71,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 68,
+      "reason": "Back out of the parking spot and so that purpose/result deserve explanation; clear alone is insufficient."
     },
     {
       "page": 5,
       "segment": 72,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Brutally punished versus peacefully protesting and gonna be emotions involved need vocabulary/register support; do not erase the contrast.",
       "candidate_learning_item_ids": []
     },
     {
+      "page": 5,
+      "segment": 75,
+      "reason": "Long attributed statement includes ongoing verbal and online abuse and are known to; several word hits do not resolve those barriers."
+    },
+    {
+      "page": 5,
+      "segment": 76,
+      "reason": "As well as continues 75; wording resulting in the case of two individual bans is awkward and must not be silently reconstructed from assumed audio."
+    },
+    {
+      "page": 5,
+      "segment": 79,
+      "reason": "Automatic braking system is a technical phrase needing a card; do not endorse the claimed car behavior or infer automatic driving capabilities."
+    },
+    {
       "page": 6,
-      "segment": 81,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 83,
+      "reason": "Motive of silencing speech is an additional collocation/metaphor not covered by the two nouns."
     },
     {
       "page": 6,
       "segment": 84,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "No place in means unacceptable in a community. Opening It is no place is suspect transcript wording; retain and flag instead of repairing a quote.",
       "candidate_learning_item_ids": []
-    },
-    {
-      "page": 6,
-      "segment": 85,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:1:incident"
-      ]
     },
     {
       "page": 6,
       "segment": 86,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Senior here means final-year university student, not an elderly person; deserves a contextual card.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 6,
-      "segment": 87,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:1:incident"
-      ]
-    },
-    {
-      "page": 6,
-      "segment": 88,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:1:president"
-      ]
-    },
-    {
-      "page": 6,
-      "segment": 89,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:1:maneuver"
-      ]
-    },
-    {
-      "page": 6,
-      "segment": 91,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 6,
-      "segment": 94,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 95,
+      "reason": "Continues work for Cornell; by default carries an inference about institutional responsibility and needs explanation. Deemed alone is insufficient."
     },
     {
       "page": 7,
-      "segment": 100,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:1:lawsuit"
-      ]
+      "segment": 98,
+      "reason": "File a civil lawsuit and dubbed the Cornell Seven introduce process and naming; Jane Doe is a pseudonym, not a translation of an ordinary name. Need explicit civil/dubbed support."
     },
     {
       "page": 7,
-      "segment": 101,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 99,
+      "reason": "Gang essayed is euphemistic/ASR wording in this PDF; do not present it as standard English or silently replace it. Dropping out and ripped apart remain useful barriers; all claims are attributed."
     },
     {
       "page": 7,
       "segment": 102,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Workshop and reflection papers need educational-context definitions; repeated essays is self-repair, not several separate punishments.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 7,
       "segment": 104,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Mainstream media and going against need language support. Final Trump is a conversational handoff continued in 105, not part of a repaired quote.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 7,
+      "segment": 105,
+      "reason": "Commenting and fair treatment covered, but prosecutor remains a role-specific gap; do not mark complete just because two phrases match."
+    },
+    {
+      "page": 7,
       "segment": 106,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Seemingly released and being analyzed indicate uncertain publication and passive analysis; needs dedicated support beyond ordinary text messages.",
       "candidate_learning_item_ids": []
     },
     {
-      "page": 8,
-      "segment": 110,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 111,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 113,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 116,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "page": 7,
+      "segment": 108,
+      "reason": "Reverse-role claim is attributed; essayed is the same nonstandard euphemism/possible ASR artifact as 99 and is not an essay-writing vocabulary sense."
     },
     {
       "page": 8,
       "segment": 117,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Fragment begins Of sexual violence without its subject; 24-7 means continuously, but missing preceding wording cannot be recovered from this PDF. Keep source incomplete and add a reviewed availability expression before closing.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 8,
       "segment": 118,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 120,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Redirected donations and explicitly stated through her lawyer need supported language items. RAINN is an organization name, not an ordinary vocabulary word; do not invent missing PSA text.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 8,
       "segment": 121,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 122,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Made it possible to, partnerships, and dedicated researchers remain meaningful barriers; no automatic closure from support alone.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 8,
       "segment": 123,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Show notes means episode references and supporting material, not theatrical notes; needs an explicit learning item.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 8,
       "segment": 124,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Content warning is a reusable fixed expression; the fragment introduces the next paragraph and needs a card.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 9,
-      "segment": 127,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:2:survivor"
-      ]
-    },
-    {
-      "page": 9,
-      "segment": 128,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 9,
-      "segment": 129,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 9,
-      "segment": 135,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 130,
+      "reason": "News outlet and cutoff time are covered, but court filings versus public records and nested attribution still need explicit language support."
     },
     {
       "page": 9,
       "segment": 138,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "A whole football team of lawyers is deliberate exaggeration of quantity, clarified by 142; needs a reusable quantity/hyperbole note.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 10,
       "segment": 142,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Completes 141 with exaggeration; explain rhetorical exaggeration with 138 rather than treating the claims as literal head counts.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 10,
-      "segment": 143,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 154,
+      "reason": "Ship something in the mail and means absolutely nothing need explanation; a time phrase alone does not cover the whole claim.",
+      "candidate_learning_item_ids": [
+        "word:2:insurance",
+        "phrase:2:at this point"
+      ]
     },
     {
       "page": 10,
-      "segment": 146,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 150,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 151,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 152,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 153,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 156,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 157,
+      "reason": "Personified insurer quote and even signal an extreme exception; read with page 11 before deciding whether the risk explanation is adequately supported."
     },
     {
       "page": 11,
@@ -3676,78 +3462,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 3,
-      "page": 8,
-      "word": "endorsed",
-      "ipa": "/ɛndɔrst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "lawyered up",
-      "ipa": "/lɔjɚd ʌp/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "pending",
-      "ipa": "/ˈpɛndɪŋ/",
-      "source": "dictionaryapi.dev",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor",
-      "ipa": "/sɚvaɪvɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "leaked",
-      "ipa": "/likt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly",
-      "ipa": "/pʌblɪkli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet",
-      "ipa": "/aʊtlɛt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "coverage",
-      "ipa": "/kʌvɚədʒ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "threatened",
-      "ipa": "/θrɛtənd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 4,
       "page": 11,
       "word": "contractor",
@@ -4160,14 +3874,6 @@
       "page": 18,
       "word": "balconies",
       "ipa": "/bælkəniz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "insurance",
-      "ipa": "/ɪnʃʊrəns/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
     },
@@ -5294,69 +5000,6 @@
   ],
   "externally_sourced_definition_requiring_review": [
     {
-      "unit": 3,
-      "page": 8,
-      "word": "endorsed",
-      "definition": "(heraldry) Flanked by endorses.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "lawyered up",
-      "definition": "Having sufficient legal representation to protect oneself in the event of legal trouble",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "pending",
-      "definition": "Awaiting a conclusion or a confirmation.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor",
-      "definition": "One who survives, especially one who survives a traumatic experience.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "leaked",
-      "definition": "Of a document, etc, produced by a company or organization, intended to be confidential but having been released to the public or the press.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly",
-      "definition": "In public, openly, in an open and public manner.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet",
-      "definition": "A vent or similar passage to allow the escape of something.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "coverage",
-      "definition": "An amount by which something or someone is covered.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "threatened",
-      "definition": "(especially ecology, of an organism) At risk of becoming endangered in the near future.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 4,
       "page": 11,
       "word": "contractor",
@@ -5690,13 +5333,6 @@
       "page": 18,
       "word": "balconies",
       "definition": "plural of balcony",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "insurance",
-      "definition": "A means of indemnity against a future occurrence of an uncertain event.",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
@@ -6584,62 +6220,6 @@
   ],
   "machine_translations_requiring_review": [
     {
-      "unit": 3,
-      "page": 8,
-      "word": "endorsed",
-      "example": "She does not have a personal GoFundMe, but there is an additional GoFundMe that she has endorsed which supports other survivors who don't have the financial safety net Jane Doe has.",
-      "translation": "她没有个人 GoFundMe，但她认可了一个额外的 GoFundMe，为其他没有 Jane Doe 财务安全网的幸存者提供支持。"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "lawyered up",
-      "example": "Everybody's lawyered up.",
-      "translation": "大家都已经律师了。"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "pending",
-      "example": "Due to the current pending status, legally speaking, we are using very specific words to indicate that it has not been adjudicated.",
-      "translation": "由于目前处于待决状态，从法律上讲，我们用非常具体的词语来表示尚未判决。"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor",
-      "example": "She does not have a personal GoFundMe, but there is an additional GoFundMe that she has endorsed which supports other survivors who don't have the financial safety net Jane Doe has.",
-      "translation": "她没有个人 GoFundMe，但她认可了一个额外的 GoFundMe，为其他没有 Jane Doe 财务安全网的幸存者提供支持。"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "leaked",
-      "example": "Any comments, theories, speculations, opinions, claims, or even leaked information online, we found publicly available online.",
-      "translation": "任何评论、理论、猜测、意见、主张，甚至是网上泄露的信息，我们都可以在网上公开找到。"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly",
-      "example": "Any comments, theories, speculations, opinions, claims, or even leaked information online, we found publicly available online.",
-      "translation": "任何评论、理论、猜测、意见、主张，甚至是网上泄露的信息，我们都可以在网上公开找到。"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet",
-      "example": "When we describe what happened that night, we're describing what is alleged in court filings, reported by news outlets, or found in public records up until the time of recording.",
-      "translation": "当我们描述那天晚上发生的事情时，我们描述的是法庭文件中指控的内容、新闻媒体报道的内容或公共记录中截至录音时发现的内容。"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "threatened",
-      "example": "And these lawyers are very passionate and they're very full of some of the lawyers are getting threatened.",
-      "translation": "这些律师非常热情，他们非常充满一些律师受到的威胁。"
-    },
-    {
       "unit": 4,
       "page": 11,
       "word": "contractor",
@@ -6946,13 +6526,6 @@
       "word": "balconies",
       "example": "Sometimes there will be a bunk bed next to an open window and they'll be intoxicated, roll out of the bed and then roll out the window, fall from fire escapes, fall from balconies.",
       "translation": "有时，打开的窗户旁边会有一张双层床，他们会喝醉，从床上滚下来，然后滚出窗户，从防火梯上掉下来，从阳台上掉下来。"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "insurance",
-      "example": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
-      "translation": "保险公司，至少以我个人的经验来看，他们不喜欢对保险说不，因为这就是对金钱说不。"
     },
     {
       "unit": 4,
@@ -7853,46 +7426,6 @@
   ],
   "form_generated_memory_requiring_review": [
     {
-      "unit": 3,
-      "page": 8,
-      "word": "endorsed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "lawyered up"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "pending"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "leaked"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "threatened"
-    },
-    {
       "unit": 4,
       "page": 11,
       "word": "contractor"
@@ -8111,11 +7644,6 @@
       "unit": 5,
       "page": 18,
       "word": "balconies"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "insurance"
     },
     {
       "unit": 4,
@@ -8760,66 +8288,6 @@
       "word": "bizarre"
     },
     {
-      "unit": 3,
-      "page": 8,
-      "word": "coercion"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "endorsed"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "adjudicated"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "lawyered up"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "pending"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "speculations"
-    },
-    {
-      "unit": 3,
-      "page": 8,
-      "word": "survivor"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "leaked"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "publicly"
-    },
-    {
-      "unit": 3,
-      "page": 9,
-      "word": "outlet"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "polarizing"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "threatened"
-    },
-    {
       "unit": 4,
       "page": 11,
       "word": "contractor"
@@ -9068,11 +8536,6 @@
       "unit": 5,
       "page": 18,
       "word": "intoxicated"
-    },
-    {
-      "unit": 3,
-      "page": 10,
-      "word": "insurance"
     },
     {
       "unit": 5,

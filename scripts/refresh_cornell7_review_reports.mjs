@@ -38,3 +38,45 @@ for (const [path, value] of [
   ['reports/cornell7-coverage-index.json', coverage],
 ]) await writeFile(new URL(path, root), `${JSON.stringify(value, null, 2)}\n`);
 console.log(JSON.stringify({ reviewed: expansion.reviewed_word_cards, remaining: expansion.unresolved_counts, coverage: expansion.coverage_status }, null, 2));
+const pending = course.vocab.find(v => v.editorial_status !== 'reviewed_complete');
+const contextual = coverage.segments.filter(s => s.reviewer === 'Codex');
+const audit = `# Cornell 7 quality and continuation audit
+
+Updated 2026-10-22. Reviews identify Codex as reviewer; completed contextual editorial review is not independent human sign-off or audio verification.
+
+## Recovered source
+
+The local Cornell PDF has 51 pages. All pages were extracted into reports/cornell7-transcript-recovered.json with raw page text, paragraph text, page coordinates and SHA-256 provenance. The 850 historical IDs align page by page: one title plus 849 spoken-text paragraphs. Paragraph count/order alignment is not a claim of audio accuracy. Original disfluencies and possible transcription errors remain unchanged; no timestamps or clips were invented.
+
+## Current counts
+
+- Library: ${expansion.totals.words} Words / ${expansion.totals.phrases} Phrases / ${expansion.totals.chunks} Chunks.
+- Word cards carrying reviewed_complete: ${expansion.reviewed_word_cards}; remaining: ${unresolved.requires_human_review.length}.
+- Machine translations awaiting context review: ${unresolved.machine_translations_requiring_review.length}.
+- Generated memory aids awaiting refinement: ${unresolved.form_generated_memory_requiring_review.length}.
+- External definitions awaiting review: ${unresolved.externally_sourced_definition_requiring_review.length}; external IPA: ${unresolved.externally_sourced_ipa_requiring_review.length}.
+- Cards with fewer than two populated collocations: ${unresolved.fewer_than_two_collocations.length}. This measures completeness, not independent human approval.
+- Transcript statuses: ${expansion.coverage_status.covered} covered / ${expansion.coverage_status.no_identified_barrier} no identified barrier / ${expansion.coverage_status.requires_review} requires review.
+- This PDF review has individual decisions for ${contextual.length} paragraphs; ${contextual.filter(s => s.status === 'requires_review').length} still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Phrases without reviewed_complete: ${course.expressions.filter(x => x.editorial_status !== 'reviewed_complete').length}; Chunks: ${course.patterns.flat().filter(x => x.editorial_status !== 'reviewed_complete').length}.
+- Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
+
+## Exact continuation
+
+- Next unreviewed Word: Unit ${pending.unit + 1}, ${pending.word}. Preserve all completed cards in earlier Units.
+- Earliest remaining transcript barrier: page ${unresolved.transcript_segments_requiring_review[0].page}, segment ${unresolved.transcript_segments_requiring_review[0].segment}. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
+- Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
+- Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
+- Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
+- Batch evidence: reports/cornell7-unit2-transcript-review.json and reports/cornell7-unit3-review-batch.json; additional batches use the same explicit review format.
+- Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.
+
+## Validation and boundaries
+
+Latest tested PDF/Unit 2–3 batch: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
+
+Only course content, editorial scripts, tests and reports are in scope. UI, CSS, player/audio controls, AI/login configuration, sentence checking and collections remain untouched. PR #16 only; no merge or deployment.
+
+Original Chunk reconciliation remains 127 candidates - 11 within-Unit duplicates + 2 Unit 1 additions = 118; any later additions are counted separately in batch records.
+`;
+await writeFile(new URL('reports/cornell7-quality-audit.md', root), audit);

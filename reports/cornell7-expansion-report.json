@@ -5,7 +5,7 @@
   "transcript_segments": 850,
   "totals": {
     "words": 321,
-    "phrases": 281,
+    "phrases": 302,
     "chunks": 118
   },
   "source_candidate_totals": {
@@ -26,14 +26,14 @@
       "unit": 2,
       "pages": "4-7",
       "words": 30,
-      "phrases": 12,
+      "phrases": 24,
       "chunks": 13
     },
     {
       "unit": 3,
       "pages": "8-10",
       "words": 15,
-      "phrases": 22,
+      "phrases": 31,
       "chunks": 5
     },
     {
@@ -94,26 +94,26 @@
     }
   ],
   "coverage_status": {
-    "covered": 399,
-    "no_identified_barrier": 76,
-    "requires_review": 375
+    "covered": 404,
+    "no_identified_barrier": 90,
+    "requires_review": 356
   },
   "unresolved_counts": {
     "missing_ipa": 0,
     "missing_english_definition": 0,
     "missing_example_translation": 0,
     "generated_spelling_context_memory": 0,
-    "requires_human_review": 265,
-    "transcript_segments_requiring_review": 375,
-    "externally_sourced_ipa_requiring_review": 202,
-    "externally_sourced_definition_requiring_review": 184,
-    "machine_translations_requiring_review": 181,
-    "form_generated_memory_requiring_review": 180,
-    "fewer_than_two_collocations": 218
+    "requires_human_review": 250,
+    "transcript_segments_requiring_review": 356,
+    "externally_sourced_ipa_requiring_review": 192,
+    "externally_sourced_definition_requiring_review": 174,
+    "machine_translations_requiring_review": 172,
+    "form_generated_memory_requiring_review": 171,
+    "fewer_than_two_collocations": 205
   },
   "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-  "reviewed_word_cards": 56,
+  "reviewed_word_cards": 71,
   "translated_word_examples": 321,
-  "upgraded_memory_tips": 101,
+  "upgraded_memory_tips": 114,
   "review_updated_on": "2026-10-22"
 }

@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 281,
+      "phrases": 302,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -27,14 +27,14 @@
         "unit": 2,
         "pages": "4-7",
         "words": 30,
-        "phrases": 12,
+        "phrases": 24,
         "chunks": 13
       },
       {
         "unit": 3,
         "pages": "8-10",
         "words": 15,
-        "phrases": 22,
+        "phrases": 31,
         "chunks": 5
       },
       {
@@ -95,27 +95,27 @@
       }
     ],
     "coverage_status": {
-      "covered": 399,
-      "no_identified_barrier": 76,
-      "requires_review": 375
+      "covered": 404,
+      "no_identified_barrier": 90,
+      "requires_review": 356
     },
     "unresolved_counts": {
       "missing_ipa": 0,
       "missing_english_definition": 0,
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
-      "requires_human_review": 265,
-      "transcript_segments_requiring_review": 375,
-      "externally_sourced_ipa_requiring_review": 202,
-      "externally_sourced_definition_requiring_review": 184,
-      "machine_translations_requiring_review": 181,
-      "form_generated_memory_requiring_review": 180,
-      "fewer_than_two_collocations": 218
+      "requires_human_review": 250,
+      "transcript_segments_requiring_review": 356,
+      "externally_sourced_ipa_requiring_review": 192,
+      "externally_sourced_definition_requiring_review": 174,
+      "machine_translations_requiring_review": 172,
+      "form_generated_memory_requiring_review": 171,
+      "fewer_than_two_collocations": 205
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-    "reviewed_word_cards": 56,
+    "reviewed_word_cards": 71,
     "translated_word_examples": 321,
-    "upgraded_memory_tips": 101,
+    "upgraded_memory_tips": 114,
     "review_updated_on": "2026-10-22"
   },
   "segments": [
@@ -622,28 +622,41 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "chunk:1:there's got to be",
-        "chunk:1:there's got to be a better way"
-      ]
+        "chunk:1:there's got to be a better way",
+        "word:0:parking spot"
+      ],
+      "review_reason": "There's got to be expresses strong belief that an alternative exists; get out of the parking spot is literal movement, right seeks agreement.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But there's got to be a better way to get out of the parking spot, right?"
     },
     {
       "page": 4,
       "segment": 51,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:incident"
-      ]
+      ],
+      "review_reason": "Incident alone missed makes the news and strange conclusion; add those explanatory targets before calling the whole paragraph covered.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But the reason that this makes the news is because, well, like I said, it's Cornell University and it's such a strange, bizarre incident with a strange conclusion."
     },
     {
       "page": 4,
       "segment": 52,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Incomplete subject phrase continued by Is the president in 53; no missing words invented.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But also, the person driving the vehicle..."
     },
     {
       "page": 4,
@@ -651,39 +664,62 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:1:president"
-      ]
+        "word:1:president",
+        "phrase:0:back up",
+        "phrase:0:run over",
+        "word:0:potentially"
+      ],
+      "review_reason": "Read with 52: president is university leader; backed up into and potentially ran over distinguish movement and uncertain injury.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Is the president of Cornell, who just backed up into a student and potentially ran over another student's foot."
     },
     {
       "page": 4,
       "segment": 54,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:investigation",
+        "phrase:0:at fault"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Passive it is decided attributes the responsibility finding; all the student's fault means entirely the student's responsibility, not a narrator-verified finding.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And a week later, after an investigation, it is decided that it was all the student's fault."
     },
     {
       "page": 4,
       "segment": 55,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:responsible for"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "The ones responsible identifies those blamed; they refers to the students, continuing the reported decision.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They were the ones responsible for this event."
     },
     {
       "page": 4,
       "segment": 56,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:1:right before",
         "phrase:1:to give some context",
-        "chunk:1:to give some context"
-      ]
+        "phrase:1:right before"
+      ],
+      "review_reason": "Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty"
     },
     {
       "page": 4,
@@ -691,23 +727,32 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:1:protester",
-        "word:1:rescind",
+        "word:1:scandals",
         "word:1:protesters",
         "word:1:suspending",
         "word:1:expelling",
-        "word:1:scandals"
-      ]
+        "word:1:rescind"
+      ],
+      "review_reason": "Completes some pretty big scandals from 56. Distinguishes suspension, expulsion and rescinding visas; allegations remain attributed to narration.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas."
     },
     {
       "page": 4,
       "segment": 58,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:a fucking mess"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Strong profanity intensifies a mess; register and a neutral alternative are explicitly taught.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It was a fucking mess."
     },
     {
       "page": 4,
@@ -715,28 +760,41 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "chunk:1:i guess",
         "chunk:1:so i guess"
-      ]
+      ],
+      "review_reason": "I guess marks inference; shit responses is a vulgar negative evaluation, related to the register note in 58, not literal waste.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So I guess this was Cornell's response to their other shit responses."
     },
     {
       "page": 4,
       "segment": 60,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Imagined response in direct-speech style: now we're going to announces the debate series, not a second speaker attribution.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Well, now we're going to have a debate series."
     },
     {
       "page": 4,
       "segment": 61,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:1:atrium"
-      ]
+        "word:1:atrium",
+        "word:1:president"
+      ],
+      "review_reason": "Atrium and university president corrected, but nevertheless is a contrast marker worth teaching; a single matched noun never establishes complete coverage.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now, nevertheless, as the president introduces the debate series, he's now leaving the atrium."
     },
     {
       "page": 4,
@@ -746,17 +804,26 @@
       "learning_item_ids": [
         "phrase:1:a handful of",
         "phrase:1:end up following"
-      ]
+      ],
+      "review_reason": "A handful of is a small number; end up following describes the outcome. Dislocated students, they is spontaneous speech, not a teaching grammar model.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And a handful of students, they start questioning Michael Kotlikoff in the hallway and they end up following him to the parking lot to his car."
     },
     {
       "page": 4,
       "segment": 63,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:1:it doesn't look like",
-        "chunk:1:it doesn't look like"
-      ]
+        "phrase:1:it doesn't look like"
+      ],
+      "review_reason": "Footage and that's been released are not explained by the matched negative impression pattern alone.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car."
     },
     {
       "page": 4,
@@ -764,54 +831,78 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:1:it doesn't look like",
-        "chunk:1:it doesn't look like"
+        "phrase:1:it doesn't look like"
       ],
       "candidate_learning_item_ids": [
         "phrase:1:it doesn't look like",
         "chunk:1:it doesn't look like"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: it doesn't look like; it doesn't look like."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Continuation contrasts what the footage appears to show; banging on windows means striking them repeatedly, a literal action explained in this decision.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It doesn't look like they're banging on his windows."
     },
     {
       "page": 5,
       "segment": 65,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:filming",
+        "word:0:loitering",
+        "chunk:0:prevent from"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Three simultaneous activities; preventing him from leaving is the previously reviewed prevent + object + from + -ing pattern.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're just kind of filming and loitering and preventing him from leaving."
     },
     {
       "page": 5,
       "segment": 66,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:follow up questions"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Follow-up questions means additional questions after an answer; target now has a dedicated card.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're asking him follow-up questions."
     },
     {
       "page": 5,
       "segment": 67,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:driver's side"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Gets in means enters the car; source ends at side, so do not fabricate a door phrase.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He gets in the driver's side"
     },
     {
       "page": 5,
       "segment": 68,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "chunk:1:it's very clear"
-      ]
+      ],
+      "review_reason": "Back out of the parking spot and so that purpose/result deserve explanation; clear alone is insufficient.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot."
     },
     {
       "page": 5,
@@ -819,29 +910,42 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:1:all things considered",
-        "chunk:1:all things considered"
-      ]
+        "phrase:1:all things considered"
+      ],
+      "review_reason": "Overall assessment after considering circumstances; not that intense uses that as degree, while I mean is a self-editing filler.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And it honestly, I mean, it's not that intense, all things considered."
     },
     {
       "page": 5,
       "segment": 70,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:human chain",
+        "phrase:1:bodily harm"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "It's not like rejects the imagined threatening scenario; like is also a filler before threatening. Human chain and bodily harm now explicit.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's not like the students created some sort of scary human chain where they're just like threatening bodily harm."
     },
     {
       "page": 5,
       "segment": 71,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Adds debate topic as context; literal talking about, with no special phrasal-verb meaning.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And you're also talking about an Israel-Palestinian debate series."
     },
     {
       "page": 5,
@@ -850,8 +954,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Brutally punished versus peacefully protesting and gonna be emotions involved need vocabulary/register support; do not erase the contrast.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "After Cornell students felt like they've been brutally punished for peacefully protesting, there's gonna be a lot of emotions involved."
     },
     {
       "page": 5,
@@ -860,9 +967,13 @@
       "status": "covered",
       "learning_item_ids": [
         "word:1:volatile",
-        "chunk:1:it doesn't seem",
         "chunk:1:it doesn't seem that"
-      ]
+      ],
+      "review_reason": "That is a degree word before volatile. Speaker's impression from footage, not an established factual account.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And from the footage I saw, it doesn't seem that volatile."
     },
     {
       "page": 5,
@@ -870,28 +981,45 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:1:apparently"
-      ]
+        "word:1:apparently",
+        "phrase:0:back up",
+        "phrase:0:run over"
+      ],
+      "review_reason": "Apparently signals reported or inferred information; separate reverse motion from alleged foot injury.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But he still backs up into them and apparently runs over a foot."
     },
     {
       "page": 5,
       "segment": 75,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:administration",
         "word:1:conduct",
         "phrase:1:release a public statement"
-      ]
+      ],
+      "review_reason": "Long attributed statement includes ongoing verbal and online abuse and are known to; several word hits do not resolve those barriers.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The whole situation gets so big that the president of Cornell has to release a public statement where he says, these individuals are known to Cornell for their past conduct, including a long history of ongoing verbal and online abuse towards numerous members of Cornell's administration and staff."
     },
     {
       "page": 5,
       "segment": 76,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:disruptive"
-      ]
+      ],
+      "review_reason": "As well as continues 75; wording resulting in the case of two individual bans is awkward and must not be silently reconstructed from assumed audio.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "As well as disruptive protests resulting in the case of two individual bans from the campus."
     },
     {
       "page": 5,
@@ -901,40 +1029,63 @@
       "learning_item_ids": [
         "word:1:accosted",
         "phrase:1:blocked the car"
-      ]
+      ],
+      "review_reason": "He says frames the whole list as his account. Followed, surrounded, banged on and shouted describe literal actions rather than separate idioms.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He says that he was accosted in the hallway, that they continued to follow him to his car, surrounded him, banged on the windows, blocked the car, and they were shouting."
     },
     {
       "page": 5,
       "segment": 78,
       "source_unit": 1,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Quotation introducer completed in 79.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He says,"
     },
     {
       "page": 5,
       "segment": 79,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:maneuver"
-      ]
+      ],
+      "review_reason": "Automatic braking system is a technical phrase needing a card; do not endorse the claimed car behavior or infer automatic driving capabilities.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "An automatic braking system was able to slowly maneuver my car from the parking space and exit the parking lot."
     },
     {
       "page": 6,
       "segment": 80,
       "source_unit": 1,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "One-word incredulous reaction to the preceding claim.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "What?"
     },
     {
       "page": 6,
       "segment": 81,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Kind of softens the speaker's negative evaluation; crazy is evaluative here, not a diagnosis.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah, his statement is kind of crazy."
     },
     {
       "page": 6,
@@ -943,17 +1094,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:1:protest"
-      ]
+      ],
+      "review_reason": "Reported speaker rejects labeling the behavior as protest; past experience is framed by he says.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He also says the behavior I experienced last night is not protest."
     },
     {
       "page": 6,
       "segment": 83,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:harassment",
         "word:1:intimidation"
-      ]
+      ],
+      "review_reason": "Motive of silencing speech is an additional collocation/metaphor not covered by the two nouns.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It is harassment and intimidation with the direct motive of silencing speech."
     },
     {
       "page": 6,
@@ -962,20 +1123,30 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "No place in means unacceptable in a community. Opening It is no place is suspect transcript wording; retain and flag instead of repairing a quote.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It is no place in an academic community, no place in a democracy and can have no place at Cornell."
     },
     {
       "page": 6,
       "segment": 85,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:end up getting",
+        "word:0:allegedly",
+        "phrase:0:run over"
+      ],
       "candidate_learning_item_ids": [
         "word:1:incident"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Did end up emphasizes graduation despite the incident; had his foot run over is a passive experience, not intentional causation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The student who had his foot allegedly run over, he did end up getting his degree the month after the incident."
     },
     {
       "page": 6,
@@ -984,44 +1155,66 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Senior here means final-year university student, not an elderly person; deserves a contextual card.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So he was a senior and he graduated."
     },
     {
       "page": 6,
       "segment": 87,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:banned",
+        "word:0:campus"
+      ],
       "candidate_learning_item_ids": [
         "word:1:incident"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Banned from going on campus is prohibition on entry; entire year is duration. Temporal sequence follows graduation, without adding a new timeline.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "However, right after graduation, he was banned from going on campus for an entire year because of this incident."
     },
     {
       "page": 6,
       "segment": 88,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:allegedly",
+        "phrase:0:run over",
+        "word:1:president"
+      ],
       "candidate_learning_item_ids": [
         "word:1:president"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Gets run over is passive; allegedly scopes the injury claim and president is the university leader.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So his foot allegedly gets run over by Cornell's president."
     },
     {
       "page": 6,
       "segment": 89,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:maneuver",
+        "phrase:1:in motion"
+      ],
       "candidate_learning_item_ids": [
         "word:1:maneuver"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "The notice reads introduces written wording; restricted its ability to maneuver means prevented free movement, and in motion means moving.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And the notice of the ban reads, quote, while in the day hall parking lot, you restricted a motor vehicle's ability to maneuver while it was in motion."
     },
     {
       "page": 6,
@@ -1029,20 +1222,30 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:1:hazardous",
+        "word:1:reverse",
         "word:1:illuminated",
-        "word:1:reverse"
-      ]
+        "word:1:hazardous"
+      ],
+      "review_reason": "Reverse lights illuminated means lights on, not information clarified. Intentional act is what the notice attributes to the student.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "As the reverse lights of the vehicle were illuminated, your intentional act created a hazardous condition."
     },
     {
       "page": 6,
       "segment": 91,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:overkill"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "All of this seems so overkill is informal evaluative speech; teaching example uses the natural noun predicate would be overkill.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Which, like, all of this seems so overkill."
     },
     {
       "page": 6,
@@ -1050,15 +1253,18 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:1:reverse",
-        "word:1:president"
+        "word:0:campus",
+        "word:1:reverse"
       ],
       "candidate_learning_item_ids": [
         "word:1:reverse",
         "word:1:president"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Rhetorical question proposes calling police; so that gives purpose and reverse out means drive backward out of the space.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Why didn't Cornell's president just call campus police to come help him so that he could safely reverse his car out of there and go home?"
     },
     {
       "page": 6,
@@ -1067,27 +1273,41 @@
       "status": "covered",
       "learning_item_ids": [
         "word:1:compelled",
+        "word:0:pedestrian",
         "chunk:1:what compelled someone to"
-      ]
+      ],
+      "review_reason": "Question asks motivation; Cornell students restates pedestrians, not a different group.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?"
     },
     {
       "page": 6,
       "segment": 94,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Expands CUPD and leaves relative clause who work unfinished until 95; acronym and full name are both supplied.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And now the campus police, CUPD, Cornell University Police Department, who work..."
     },
     {
       "page": 6,
       "segment": 95,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:deemed"
-      ]
+      ],
+      "review_reason": "Continues work for Cornell; by default carries an inference about institutional responsibility and needs explanation. Deemed alone is insufficient.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "For Cornell and by default, Michael Kotlikoff, the president, has now deemed that it's the student's fault and he can't come back to campus for a full year."
     },
     {
       "page": 7,
@@ -1096,7 +1316,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:1:scandal"
-      ]
+      ],
+      "review_reason": "Simple recap of the preceding controversy; earlier this year is relative to recording, not today's date.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And this was a huge scandal for Cornell earlier this year."
     },
     {
       "page": 7,
@@ -1106,48 +1331,75 @@
       "learning_item_ids": [
         "word:1:worst",
         "phrase:1:caught up in",
-        "chunk:1:that will not"
-      ]
+        "phrase:1:not even in the slightest"
+      ],
+      "review_reason": "Parenthetical emphasis interrupts will not be; caught up in means become involved in trouble. Repeated in is a disfluency retained in source.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year."
     },
     {
       "page": 7,
       "segment": 98,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:1:lawsuit"
-      ]
+        "word:1:lawsuit",
+        "word:0:frat"
+      ],
+      "review_reason": "File a civil lawsuit and dubbed the Cornell Seven introduce process and naming; Jane Doe is a pseudonym, not a translation of an ordinary name. Need explicit civil/dubbed support.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Because a few months later, Jane Doe will file a civil lawsuit against Cornell University and seven fraternity brothers from Cornell, now dubbed the Cornell Seven."
     },
     {
       "page": 7,
       "segment": 99,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:1:traumatized"
-      ]
+      ],
+      "review_reason": "Gang essayed is euphemistic/ASR wording in this PDF; do not present it as standard English or silently replace it. Dropping out and ripped apart remain useful barriers; all claims are attributed.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Jane Doe alleges that as a student at Cornell, she went to a fraternity party where she was gang essayed for seven hours, traumatized to the point of dropping out of her dream university and her entire life has been ripped apart"
     },
     {
       "page": 7,
       "segment": 100,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:accused",
+        "word:1:lawsuit"
+      ],
       "candidate_learning_item_ids": [
         "word:1:lawsuit"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "While contrasts the complainant's situation with the accused's continued attendance; according to attributes the account. Our lawsuit is retained as printed.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "While some of the accused, according to our lawsuit, are still going to school."
     },
     {
       "page": 7,
       "segment": 101,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:on their way to"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Progress toward graduating, not physical travel; the following -ing form is explicitly taught.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're on their way to graduating."
     },
     {
       "page": 7,
@@ -1156,8 +1408,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Workshop and reflection papers need educational-context definitions; repeated essays is self-repair, not several separate punishments.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And some of the accused, their punishment for the events of that night was to attend a workshop and write essays, reflection essays, reflection papers."
     },
     {
       "page": 7,
@@ -1167,7 +1422,12 @@
       "learning_item_ids": [
         "word:1:allegation",
         "chunk:1:it seems like"
-      ]
+      ],
+      "review_reason": "Allegations are claims in the lawsuit; everybody is divided means opinions differ, not literal separation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "These are the allegations against the Cornell 7 from the Jane Doe lawsuit and why it seems like everybody is divided."
     },
     {
       "page": 7,
@@ -1176,17 +1436,26 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Mainstream media and going against need language support. Final Trump is a conversational handoff continued in 105, not part of a repaired quote.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There are people in mainstream media who are going on talk shows like The View going against Jane Doe, Trump."
     },
     {
       "page": 7,
       "segment": 105,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
+        "phrase:1:weighing in",
         "phrase:1:get a fair shake"
-      ]
+      ],
+      "review_reason": "Commenting and fair treatment covered, but prosecutor remains a role-specific gap; do not mark complete just because two phrases match.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah, Trump is weighing in, stating that the accused aren't going to get a fair shake if a certain prosecutor is investigating the case."
     },
     {
       "page": 7,
@@ -1195,8 +1464,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Seemingly released and being analyzed indicate uncertain publication and passive analysis; needs dedicated support beyond ordinary text messages.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There are Snapchat messages that are being analyzed, new text messages seemingly released like every single day,"
     },
     {
       "page": 7,
@@ -1204,17 +1476,28 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:1:at least"
-      ]
+        "phrase:1:at least",
+        "word:0:accused"
+      ],
+      "review_reason": "One accused is a nominal adjective meaning one accused person; stating that continues into 108.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Recorded phone calls are slowly getting released, with at least one accused stating that"
     },
     {
       "page": 7,
       "segment": 108,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:1:not the other way around"
-      ]
+      ],
+      "review_reason": "Reverse-role claim is attributed; essayed is the same nonstandard euphemism/possible ASR artifact as 99 and is not an essay-writing vocabulary sense.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Maybe he was the one who was essayed by Jane Doe, not the other way around."
     },
     {
       "page": 7,
@@ -1223,44 +1506,65 @@
       "status": "covered",
       "learning_item_ids": [
         "word:1:doxxed"
-      ]
+      ],
+      "review_reason": "Getting doxxed is passive exposure of private information; reviewed word includes meaning and /t/ past-participle ending.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "People are getting doxxed."
     },
     {
       "page": 8,
       "segment": 110,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:step up"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Read with 111–113: step up means intervene; got the wrong guy means mistaken identity, clarified explicitly by the following same-name explanation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The U.S. Marine Corps is having to step up to tell the Internet, wait, you've got the wrong guy like that."
     },
     {
       "page": 8,
       "segment": 111,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Short clarification of identity; Marines is the military service named immediately before.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "That's a guy from the Marines."
     },
     {
       "page": 8,
       "segment": 112,
       "source_unit": 1,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Repetition of the identity clarification, not a new language barrier.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He's a Marine."
     },
     {
       "page": 8,
       "segment": 113,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explains the mistaken identity through the same name; you guys is informal plural address.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You guys think he's one of the Cornell seven because he has the same name, but he's a Marine."
     },
     {
       "page": 8,
@@ -1269,7 +1573,12 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:2:pick a side"
-      ]
+      ],
+      "review_reason": "Pick a side means support one party, not choose a physical side. Like is a discourse filler here.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And in like most cases, everyone's trying to pick a side."
     },
     {
       "page": 8,
@@ -1278,17 +1587,25 @@
       "status": "covered",
       "learning_item_ids": [
         "chunk:2:it is not that simple"
-      ]
+      ],
+      "review_reason": "Not that simple rejects an oversimplified choice; that marks degree.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But like I said, with most cases, it's just really not that simple."
     },
     {
       "page": 8,
       "segment": 116,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Episode-topic announcement; Cornell 7 is the established label.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is the case of the Cornell 7."
     },
     {
       "page": 8,
@@ -1297,8 +1614,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Fragment begins Of sexual violence without its subject; 24-7 means continuously, but missing preceding wording cannot be recovered from this PDF. Keep source incomplete and add a reviewed availability expression before closing.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Of sexual violence available 24-7 by phone chat or text"
     },
     {
       "page": 8,
@@ -1307,8 +1627,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Redirected donations and explicitly stated through her lawyer need supported language items. RAINN is an organization name, not an ordinary vocabulary word; do not invent missing PSA text.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Jane Doe has also explicitly stated through her lawyer that any donations meant for her should be redirected to RAINN."
     },
     {
       "page": 8,
@@ -1317,18 +1640,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:2:endorsed",
-        "word:2:survivor"
-      ]
+        "word:2:survivor",
+        "phrase:2:financial safety net"
+      ],
+      "review_reason": "Contrast her own fundraiser with one she supports; financial safety net is family/personal financial support. Relative clauses identify the fundraiser and beneficiaries.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She does not have a personal GoFundMe, but there is an additional GoFundMe that she has endorsed which supports other survivors who don't have the financial safety net Jane Doe has."
     },
     {
       "page": 8,
       "segment": 120,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Their link refers to the fundraiser described immediately before; straightforward description-link notice.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Their link will also be included in the description."
     },
     {
       "page": 8,
@@ -1337,18 +1669,24 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Made it possible to, partnerships, and dedicated researchers remain meaningful barriers; no automatic closure from support alone.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This episode's partnerships have also made it possible to support Rotten Mango's team of dedicated researchers."
     },
     {
       "page": 8,
       "segment": 122,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Routine thanks for continued support; we'd like to is a polite would like to.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And we'd also like to thank you guys for your continued support."
     },
     {
       "page": 8,
@@ -1357,8 +1695,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Show notes means episode references and supporting material, not theatrical notes; needs an explicit learning item.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "As always, full show notes are available at rottenmangopodcast.com."
     },
     {
       "page": 8,
@@ -1367,8 +1708,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Content warning is a reusable fixed expression; the fragment introduces the next paragraph and needs a card.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Before we begin a big content warning,"
     },
     {
       "page": 8,
@@ -1376,59 +1720,90 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:2:coercion"
-      ]
+        "word:2:coercion",
+        "phrase:2:ripple effects",
+        "word:0:alleged",
+        "word:1:allegation"
+      ],
+      "review_reason": "Content warning labels the assault as alleged and coercion as potential. Ripple effects covers consequences extending beyond the incident; 126 completes the positive/negative contrast.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This episode discusses an alleged sexual assault, including drug and alcohol usage, potential coercion, as well as the greater ripple effects that have resulted from this case."
     },
     {
       "page": 9,
       "segment": 126,
       "source_unit": 1,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Paired adjectives qualify ripple effects in 125; not a standalone assertion about the events.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Positive and negative."
     },
     {
       "page": 9,
       "segment": 127,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:survivor",
+        "phrase:2:take care of yourself"
+      ],
       "candidate_learning_item_ids": [
         "word:2:survivor"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Find this subject hard to hear means find it emotionally difficult, not a hearing problem; self-care instruction now has a dedicated phrase.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "If you are a survivor or you find this subject hard to hear, please take care of yourself."
     },
     {
       "page": 9,
       "segment": 128,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Next one refers to another episode; straightforward permission to skip the material.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Skip to the next one if you need to."
     },
     {
       "page": 9,
       "segment": 129,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:cannot stress enough",
+        "word:2:pending"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Stress is emphasize; ongoing describes the case at recording time, not its current status.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And I also cannot stress enough, this case is currently ongoing."
     },
     {
       "page": 9,
       "segment": 130,
       "source_unit": 1,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:2:outlet",
-        "phrase:2:up until the time",
-        "phrase:2:up until the time of recording",
-        "phrase:2:news outlet"
-      ]
+        "phrase:2:up until the time of recording"
+      ],
+      "review_reason": "News outlet and cutoff time are covered, but court filings versus public records and nested attribution still need explicit language support.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "When we describe what happened that night, we're describing what is alleged in court filings, reported by news outlets, or found in public records up until the time of recording."
     },
     {
       "page": 9,
@@ -1436,10 +1811,15 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:2:adjudicated",
         "word:2:pending",
+        "word:2:adjudicated",
         "phrase:2:due to"
-      ]
+      ],
+      "review_reason": "Due to gives the reason for cautious wording; not adjudicated explicitly means no formal decision yet. This is analysis of recorded language, not current case reporting.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Due to the current pending status, legally speaking, we are using very specific words to indicate that it has not been adjudicated."
     },
     {
       "page": 9,
@@ -1449,7 +1829,12 @@
       "learning_item_ids": [
         "phrase:2:in the court of law",
         "phrase:2:innocent until"
-      ]
+      ],
+      "review_reason": "Until and unless combines time and condition; the sentence expressly contrasts unproven guilt with presumed innocence. No actual verdict inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Nobody has been proven guilty in the court of law and everybody remains innocent until and unless they are proven guilty in court."
     },
     {
       "page": 9,
@@ -1457,8 +1842,14 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:2:credibility"
-      ]
+        "word:2:credibility",
+        "phrase:2:neither a judgment"
+      ],
+      "review_reason": "Neither...nor...nor denies three interpretations: assessment of case, complainant credibility, and accused credibility. Source's missing possessive is retained, not copied as a grammar model.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And us having to state that is neither a judgment of the case, nor is it a judgment of Jane Doe's credibility, nor is it a judgment of the accused credibility."
     },
     {
       "page": 9,
@@ -1469,17 +1860,25 @@
         "word:2:speculations",
         "word:2:leaked",
         "word:2:publicly"
-      ]
+      ],
+      "review_reason": "Fronted list is the object of found; publicly available does not mean verified, and the next sentence disclaims endorsement.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Any comments, theories, speculations, opinions, claims, or even leaked information online, we found publicly available online."
     },
     {
       "page": 9,
       "segment": 135,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "They refers to the preceding comments/claims; reflect means represent the speakers' beliefs, not mirror physically.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They do not reflect our beliefs."
     },
     {
       "page": 9,
@@ -1487,8 +1886,14 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:2:do our best"
-      ]
+        "phrase:2:do our best",
+        "phrase:2:keep you guys updated"
+      ],
+      "review_reason": "Conditional promise to provide developments; updated means informed, not software-updated.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "If there are any massive developments or changes, we will do our best to keep you guys updated."
     },
     {
       "page": 9,
@@ -1496,9 +1901,14 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:2:do your own research",
-        "phrase:2:with that being said"
-      ]
+        "phrase:2:with that being said",
+        "phrase:2:do your own research"
+      ],
+      "review_reason": "Transition qualifies the promise with advice to check information independently.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But with that being said, always do your own research."
     },
     {
       "page": 9,
@@ -1507,8 +1917,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "A whole football team of lawyers is deliberate exaggeration of quantity, clarified by 142; needs a reusable quantity/hyperbole note.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And I will say there is like a whole football team of lawyers involved."
     },
     {
       "page": 9,
@@ -1516,9 +1929,13 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "word:2:lawyered up",
-        "phrase:2:lawyered up"
-      ]
+        "word:2:lawyered up"
+      ],
+      "review_reason": "Everybody's = everybody has; the whole sentence is the informal verb phrase, now corrected and taught.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Everybody's lawyered up."
     },
     {
       "page": 9,
@@ -1526,15 +1943,26 @@
       "source_unit": 1,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:2:at this point"
-      ]
+        "phrase:2:at this point",
+        "word:2:lawyered up"
+      ],
+      "review_reason": "Lawyers getting lawyers means obtaining their own representation; humorous escalation, not hiring new coworkers.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "At this point, lawyers are getting lawyers."
     },
     {
       "page": 9,
       "segment": 141,
       "source_unit": 1,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "False start continues into 142; retain both paragraphs and no invented completion.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And that's."
     },
     {
       "page": 10,
@@ -1543,18 +1971,26 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Completes 141 with exaggeration; explain rhetorical exaggeration with 138 rather than treating the claims as literal head counts.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Obviously an exaggeration, but it just feels like that."
     },
     {
       "page": 10,
       "segment": 143,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:spawning"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Metaphorical spawning means new lawyers seem to appear rapidly; interview with ABC News is ordinary media context.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It just feels like new lawyers are spawning every week to do an interview with ABC News."
     },
     {
       "page": 10,
@@ -1562,9 +1998,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:2:threatened",
-        "phrase:2:getting threatened"
-      ]
+        "word:2:threatened"
+      ],
+      "review_reason": "They're very full of is abandoned mid-thought; do not supply a missing insult. Completed clause reports threats against lawyers.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And these lawyers are very passionate and they're very full of some of the lawyers are getting threatened."
     },
     {
       "page": 10,
@@ -1573,17 +2013,27 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:2:death threats"
-      ]
+      ],
+      "review_reason": "Reports what lawyers say they received; threat is not an actual death or proof of one.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They say that they're getting death threats."
     },
     {
       "page": 10,
       "segment": 146,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:threatened"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Threats to their family's safety extends 145 to relatives; no additional idiom beyond threat + to.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're getting threats to their family's safety."
     },
     {
       "page": 10,
@@ -1594,7 +2044,12 @@
         "word:2:polarizing",
         "phrase:2:keep in mind",
         "chunk:2:just something to keep in mind"
-      ]
+      ],
+      "review_reason": "Polarizing means divided opinions; keep in mind introduces a caution before posting. Like and all I'm saying soften the warning.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying."
     },
     {
       "page": 10,
@@ -1602,9 +2057,14 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:2:let's get started",
-        "chunk:2:with that being said"
-      ]
+        "phrase:2:with that being said",
+        "phrase:2:let's get started"
+      ],
+      "review_reason": "Transition closes the disclaimer and begins the discussion.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So with that being said, let's get started."
     },
     {
       "page": 10,
@@ -1612,71 +2072,92 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
-        "word:2:coverage",
         "word:2:insurance",
+        "word:2:coverage",
         "phrase:2:at least in my personal experience",
-        "phrase:2:in my personal experience",
-        "phrase:2:say no to coverage",
-        "phrase:2:that's saying no to",
-        "chunk:2:at least in my personal experience",
-        "chunk:2:they don't like to"
-      ]
+        "phrase:2:that's saying no to"
+      ],
+      "review_reason": "Personal-experience qualifier limits the generalization; saying no to coverage is compared with refusing money, not a literal speech rule.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
     },
     {
       "page": 10,
       "segment": 150,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Imagined insurer's reply continues the narrator's example; accept you means accept as a customer.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So they'll say, yes, we will accept you."
     },
     {
       "page": 10,
       "segment": 151,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:cover you"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Insurance protection sense of cover, not physically covering someone.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We will cover you."
     },
     {
       "page": 10,
       "segment": 152,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:coverage",
+        "phrase:2:do our best",
+        "phrase:2:cover you"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Try their absolute best intensifies effort; irony contrasts promising coverage with declining payments. This is the narrator's criticism.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And then they will try their absolute best to not cover anything."
     },
     {
       "page": 10,
       "segment": 153,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Take your money means collect payments in the preceding insurance example; typically marks usual behavior as claimed by the speaker.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But they'll typically take your money."
     },
     {
       "page": 10,
       "segment": 154,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:2:at this point",
-        "word:2:insurance"
+        "phrase:2:at this point"
       ],
       "candidate_learning_item_ids": [
         "word:2:insurance",
         "phrase:2:at this point"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: at this point."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Ship something in the mail and means absolutely nothing need explanation; a time phrase alone does not cover the whole claim.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They'll ship you one of those like plastic insurance cards in the mail that means absolutely nothing at this point."
     },
     {
       "page": 10,
@@ -1685,26 +2166,43 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:2:might as well"
-      ]
+      ],
+      "review_reason": "Ironic comparison: toy Barbie dollars would be equally useless, not a recommendation to pay with them.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "You might as well be paying with Barbie dollars at the doctor's office."
     },
     {
       "page": 10,
       "segment": 156,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:2:coverage",
+        "phrase:2:cover you",
+        "phrase:2:might as well"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Monopoly money continues the toy-money comparison in 155; covered means paid by insurance. The claim is hyperbole, not verified policy behavior.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Monopoly money because nothing ever gets covered."
     },
     {
       "page": 10,
       "segment": 157,
       "source_unit": 2,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:2:we don't even want"
-      ]
+      ],
+      "review_reason": "Personified insurer quote and even signal an extreme exception; read with page 11 before deciding whether the risk explanation is adequately supported.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But there are some individuals and organizations that even insurance companies are like, we don't even want your money."
     },
     {
       "page": 11,
