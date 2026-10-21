@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 315,
+      "phrases": 320,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -55,7 +55,7 @@
         "unit": 6,
         "pages": "21-23",
         "words": 32,
-        "phrases": 16,
+        "phrases": 21,
         "chunks": 3
       },
       {
@@ -95,27 +95,27 @@
       }
     ],
     "coverage_status": {
-      "covered": 405,
-      "no_identified_barrier": 103,
-      "requires_review": 342
+      "covered": 406,
+      "no_identified_barrier": 108,
+      "requires_review": 336
     },
     "unresolved_counts": {
       "missing_ipa": 0,
       "missing_english_definition": 0,
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
-      "requires_human_review": 157,
-      "transcript_segments_requiring_review": 342,
-      "externally_sourced_ipa_requiring_review": 117,
-      "externally_sourced_definition_requiring_review": 103,
-      "machine_translations_requiring_review": 107,
-      "form_generated_memory_requiring_review": 106,
-      "fewer_than_two_collocations": 132
+      "requires_human_review": 125,
+      "transcript_segments_requiring_review": 336,
+      "externally_sourced_ipa_requiring_review": 93,
+      "externally_sourced_definition_requiring_review": 81,
+      "machine_translations_requiring_review": 83,
+      "form_generated_memory_requiring_review": 82,
+      "fewer_than_two_collocations": 103
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-    "reviewed_word_cards": 164,
+    "reviewed_word_cards": 196,
     "translated_word_examples": 321,
-    "upgraded_memory_tips": 188,
+    "upgraded_memory_tips": 217,
     "review_updated_on": "2026-10-22"
   },
   "segments": [
@@ -4656,11 +4656,14 @@
       "page": 21,
       "segment": 323,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Turned 250 uses an age verb for the country; age is relative to recording, not a request to alter original wording.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "America just turned 250."
     },
     {
       "page": 21,
@@ -4670,27 +4673,42 @@
       "learning_item_ids": [
         "word:5:active chapters",
         "word:5:active"
-      ]
+      ],
+      "review_reason": "Active means operating local branches; about marks an approximate narrated count, not a live total.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The entire fraternity has about 48 active chapters across the United States."
     },
     {
       "page": 21,
       "segment": 325,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:close to"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "It's said attributes the approximate count; living members includes alumni still alive, clarified in 329–331.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's said that they have close to 50,000 living members."
     },
     {
       "page": 21,
       "segment": 326,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:chapter"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Introduces presence of a local branch at Cornell, continued with the founding date in 327.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And a chapter has been at Cornell."
     },
     {
       "page": 21,
@@ -4699,7 +4717,12 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:5:has been there since"
-      ]
+      ],
+      "review_reason": "Present perfect plus since marks duration from a starting year; Xi is the branch's name, not an ordinary English word.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The Xi chapter has been there since 1891."
     },
     {
       "page": 21,
@@ -4708,37 +4731,51 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:5:been around"
-      ]
+      ],
+      "review_reason": "Been around means existed for a long time, not traveled around physically.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's been around."
     },
     {
       "page": 21,
       "segment": 329,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Question checks whether the count means simultaneous students; the next answers explicitly correct this interpretation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "50,000 members at one time?"
     },
     {
       "page": 21,
       "segment": 330,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Living means alive, not living together in one house; clarification answers 329.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "No, they're all living members."
     },
     {
       "page": 21,
       "segment": 331,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explains that the living-member total includes people who are no longer students.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So they're not all students."
     },
     {
       "page": 21,
@@ -4746,8 +4783,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "word:4:pledge",
+        "word:4:chapter",
         "phrase:5:years ago"
-      ]
+      ],
+      "review_reason": "Introduces a separate older account; pledge is a prospective member, not a monetary promise.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now, Jared Hoffman was a Chi Phi pledge at the Cornell chapter years ago."
     },
     {
       "page": 21,
@@ -4756,37 +4800,57 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:relevant"
-      ]
+      ],
+      "review_reason": "Explicitly separates the historical account from the Jane Doe case while asserting a connection in topic.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this is not even happening during this Jane Doe case, but this is highly relevant."
     },
     {
       "page": 21,
       "segment": 334,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:3:hazing"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Recounts means tells a past experience; this remains a useful reporting-verb gap rather than automatic coverage from hazing.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And he recounts his hazing experience."
     },
     {
       "page": 21,
       "segment": 335,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:pledge"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "He's like introduces reported speech informally; not a statement about similarity.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So he's like, I was a pledge."
     },
     {
       "page": 21,
       "segment": 336,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:membership"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Locates the earlier membership at the same institution; does not merge the two time periods or allegations.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I was a member of Chi Phi at Cornell where all of this is happening."
     },
     {
       "page": 21,
@@ -4795,11 +4859,15 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:freshman",
-        "word:5:psychological",
+        "word:5:endure",
         "word:5:physical",
-        "phrase:5:when he was a freshman",
-        "phrase:5:had endured months of"
-      ]
+        "word:5:psychological"
+      ],
+      "review_reason": "He says attributes the list of harms; physical and psychological are distinguished, and freshman is first-year student.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "OK, and he says that when he was a freshman, he had endured months of physical, emotional and psychological damage."
     },
     {
       "page": 21,
@@ -4809,7 +4877,12 @@
       "learning_item_ids": [
         "word:5:initiation",
         "phrase:5:the night of"
-      ]
+      ],
+      "review_reason": "Self-repair on the this is is retained in source; completed thought identifies the initiation night.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And I guess they're all like on the this is the night of the initiation."
     },
     {
       "page": 21,
@@ -4819,28 +4892,43 @@
       "learning_item_ids": [
         "word:5:precipice",
         "phrase:5:on the precipice of"
-      ]
+      ],
+      "review_reason": "Metaphorical brink, not a cliff; a is completed by member in 340. Do not turn the fragment into an invented standalone sentence.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're all on the precipice of becoming a."
     },
     {
       "page": 21,
       "segment": 340,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:5:endure",
-        "word:5:pledged"
-      ]
+        "word:5:pledged",
+        "word:5:endure"
+      ],
+      "review_reason": "Fully fledged versus fully pledged is a spoken correction/play on words; the fixed fully fledged adjective needs explicit teaching beyond pledged alone.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Fully fledged, fully pledged Chi Phi member if they can just endure the next few hours."
     },
     {
       "page": 21,
       "segment": 341,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:5:blindfolded",
         "word:5:deprived",
-        "word:5:physically exhausted"
-      ]
+        "word:5:physically exhausted",
+        "word:5:blindfolded"
+      ],
+      "review_reason": "Tossed onto a sheet and flinging up and down remain physical-action barriers; the account is introduced as an allegation.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He alleges that he's sleep deprived, physically exhausted, and quote, I was blindfolded and tossed onto a sheet, flinging me up and down."
     },
     {
       "page": 22,
@@ -4849,92 +4937,138 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Tossing him up illustrates prior physical action, but gesture-dependent like this cannot be reconstructed from the PDF.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Like they were just like tossing him up like this."
     },
     {
       "page": 22,
       "segment": 343,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:5:for the first time"
-      ]
+      ],
+      "review_reason": "Essayed is euphemistic/ASR wording in the source, not essay writing; do not silently normalize the quoted allegation without audio.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And there, for the first time in my life, I was essayed."
     },
     {
       "page": 22,
       "segment": 344,
       "source_unit": 3,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short temporal description continuing the attributed account; no additional lexical barrier.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It happened quickly."
     },
     {
       "page": 22,
       "segment": 345,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:5:waistband",
         "phrase:5:all over"
-      ]
+      ],
+      "review_reason": "Slathered, fistfuls, genitals and the locally named mixture mung create barriers beyond waistband; keep explicit account attributed and avoid instructional examples.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Hands reached under the waistband of my basketball shorts and slathered fistfuls of spicy mung all over my genitals."
     },
     {
       "page": 22,
       "segment": 346,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "First-person feeling statement within the quotation; no new idiom.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I felt shock and pain."
     },
     {
       "page": 22,
       "segment": 347,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Rhetorical question introduces the explanation in 348; mung is a local label, not automatically mung beans.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "What is mung, you ask?"
     },
     {
       "page": 22,
       "segment": 348,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:5:cayenne",
-        "word:5:vinegar"
-      ]
+        "word:5:vinegar",
+        "word:5:cayenne"
+      ],
+      "review_reason": "Oatmeal and consisted of remain learner targets; source lists contents, but the lesson must not turn it into a recipe for abuse.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He says mung consisted of cold oatmeal, vinegar, hot sauce, and cayenne pepper."
     },
     {
       "page": 22,
       "segment": 349,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:5:inflicting"
-      ]
+        "word:5:inflicting",
+        "phrase:5:screamed bloody murder"
+      ],
+      "review_reason": "Consent to + -ing and smeared still need support; screamed bloody murder is an idiom for loud distress, not literal murder. Explicit absence of consent preserved.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Smeared all over his genitals but he did not consent to anyone touching him or inflicting this amount of pain he says i screamed bloody murder"
     },
     {
       "page": 22,
       "segment": 350,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:5:wash off"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Junk is slang for genitals here, not rubbish, and gallon is a volume measure. Reported response is not promoted as treatment advice.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "A few minutes later i was given a half gallon of milk to wash off my spicy junk"
     },
     {
       "page": 22,
       "segment": 351,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
+        "word:5:blindfolded",
         "phrase:5:on my elbows and knees"
-      ]
+      ],
+      "review_reason": "Made to crawl is passive compulsion; crawl needs a clear physical-action definition. Source has no explicit new subject supplied by us.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Then i was blindfolded again made to crawl on my elbows and knees on hard wooden floors"
     },
     {
       "page": 22,
@@ -4942,17 +5076,26 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:5:as it turned out",
-        "phrase:5:no actual answer",
-        "chunk:5:as it turned out"
-      ]
+        "chunk:5:as it turned out",
+        "phrase:5:no actual answer"
+      ],
+      "review_reason": "Pressured to solve a riddle contrasts expected puzzle solution with the later discovery that none existed; as it turned out reports later information.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And pressured to solve a riddle that, as it turned out, had no actual answer."
     },
     {
       "page": 22,
       "segment": 353,
       "source_unit": 3,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "requires_review",
+      "learning_item_ids": [],
+      "review_reason": "Collapsed is a physical-action/medical-state verb needing a contextual definition; do not infer cause or diagnosis from one sentence.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Finally, I collapsed."
     },
     {
       "page": 22,
@@ -4961,19 +5104,30 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:coffin",
+        "word:5:trap door",
         "word:5:inducted",
-        "word:5:trap door"
-      ]
+        "word:4:chapter"
+      ],
+      "review_reason": "Passive sequence: placed, lowered, formally admitted. Coffin is a prop in the account, not evidence of death; chapter room belongs to the local group.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I was set in a coffin and lowered through a trap door into a secret chapter room where I was officially inducted into the fraternity."
     },
     {
       "page": 22,
       "segment": 355,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:5:initiation"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Infamous and inconsistent Kai-Fi versus Chi Phi spelling remain issues. Preserve printed proper name and avoid inventing an official spelling correction in the quotation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He says he was initiated and he starts living at the now infamous Kai-Fi house at Cornell."
     },
     {
       "page": 22,
@@ -4982,8 +5136,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Like the houses is unclear after made posters for parties; preserve possible disfluency/ASR error without inventing the intended clause.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He says, I made posters for parties, like the houses."
     },
     {
       "page": 22,
@@ -4992,8 +5149,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Great Fratsby is a fraternity-themed pun on The Great Gatsby; needs a cultural reference note rather than treating it as a normal adjective+noun phrase.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We had a great Fratsby party."
     },
     {
       "page": 22,
@@ -5001,11 +5161,16 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:5:articulate",
         "word:5:ashamed",
         "word:5:vulnerability",
-        "phrase:5:unable to articulate"
-      ]
+        "word:5:articulate",
+        "word:4:process"
+      ],
+      "review_reason": "Articulate means express verbally; process pain here means make sense of an emotional experience, distinct from the Unit 5 noun process. Shame is reported, not blame assigned by the lesson.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But inside, I was ashamed of my vulnerability and unable to articulate or process the pain I was in."
     },
     {
       "page": 23,
@@ -5014,7 +5179,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:offerings"
-      ]
+      ],
+      "review_reason": "Offerings are things made available; accepted access to is the quoted speaker's retrospective account. But continues the contrast into 360; girls wording is not adopted as an endorsed way to describe people.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I accepted the fraternity's offerings of access to drugs, alcohol, and girls, but"
     },
     {
       "page": 23,
@@ -5022,10 +5192,16 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:5:frame addiction as valor",
         "word:5:addiction",
         "word:5:conquest",
         "word:5:glory"
-      ]
+      ],
+      "review_reason": "Social license means group permission/acceptance, not a legal license. Frame A as B critically describes presenting harmful behavior as admirable; valor explained in the phrase note.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Along with the social license to frame addiction as valor and sexual conquest as glory."
     },
     {
       "page": 23,
@@ -5034,8 +5210,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Piece means an article, not a physical piece; Cornell Sun is the named publication. Published recently is relative to recording time.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's a whole piece on this that Jared shares in the Cornell Sun, which was published recently."
     },
     {
       "page": 23,
@@ -5044,9 +5223,13 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:5:worth reading",
-        "chunk:5:it's worth",
         "chunk:5:it's worth reading"
-      ]
+      ],
+      "review_reason": "Worth + -ing recommends the article; not worth to read or a monetary price.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's worth reading."
     },
     {
       "page": 23,
@@ -5055,7 +5238,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:vacant"
-      ]
+      ],
+      "review_reason": "Long relative clause identifies the house; now vacant means unoccupied at the described time, not that its history is erased.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But it's interesting to know that the house that Jared helped plan this great fratsby party, the Kai-Fi house, is now vacant."
     },
     {
       "page": 23,
@@ -5063,9 +5251,13 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:5:has been shut down",
-        "phrase:5:shut down"
-      ]
+        "phrase:5:has been shut down"
+      ],
+      "review_reason": "Present perfect since gives a continuing closure state; reported year is preserved rather than reconciled against external case history.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this house that everybody's talking about now with the Jane Doe case has been shut down since 2024."
     },
     {
       "page": 23,
@@ -5073,25 +5265,39 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:5:barred"
-      ]
+        "word:5:barred",
+        "word:4:chapter"
+      ],
+      "review_reason": "Barred from campus means excluded; chapter is the branch, not the entire national organization, and chronology is attributed to the narrator.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The Xi chapter actually of Chi Phi at Cornell has been barred from campus after Jane Doe's incident."
     },
     {
       "page": 23,
       "segment": 366,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Reaction checks causal connection with the previously mentioned case, not a new factual assertion.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Oh, all from this."
     },
     {
       "page": 23,
       "segment": 367,
       "source_unit": 3,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short confirmation of the narrated date; not independent verification of the closure.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yes, from 2024."
     },
     {
       "page": 23,
@@ -5099,8 +5305,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:5:discarded"
-      ]
+        "word:5:vacant",
+        "word:5:discarded",
+        "phrase:5:leftover food"
+      ],
+      "review_reason": "Video description of a now-empty room; discarded furniture and leftover food name objects, not evidence establishing who left them.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And now in one of the now-vacant rooms, a very important room for this case, one video shows someone walking through this empty room and there's garbage, leftover food everywhere, discarded furniture."
     },
     {
       "page": 23,
@@ -5109,19 +5322,29 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:sorority"
-      ]
+      ],
+      "review_reason": "Sorority is a female student organization; a poster depicting members does not implicate them in the case.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's this weird poster of a sorority."
     },
     {
       "page": 23,
       "segment": 370,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:sorority"
+      ],
       "candidate_learning_item_ids": [
         "word:5:sorority"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Self-repair all of their, it's like clarifies a group photograph; no additional people or ownership details invented.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's a bunch of girls and all of their, it's like a class sorority photo."
     },
     {
       "page": 23,
@@ -5130,46 +5353,73 @@
       "status": "covered",
       "learning_item_ids": [
         "word:5:fentanyl"
-      ]
+      ],
+      "review_reason": "A test object is named; this does not establish a result, substance use or ownership.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's a fentanyl test."
     },
     {
       "page": 23,
       "segment": 372,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:fentanyl"
+      ],
       "candidate_learning_item_ids": [
         "word:5:fentanyl"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Rhetorical question expresses surprise at the object; no answer about actual drug use or test interpretation inferred.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Why do you need a fentanyl test?"
     },
     {
       "page": 23,
       "segment": 373,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:3:alcohol"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Liquor bottles adds the spirits sense of liquor; alcohol alone does not teach the beer-versus-liquor distinction.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's beer cans, liquor bottles."
     },
     {
       "page": 23,
       "segment": 374,
       "source_unit": 3,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:vacant"
+      ],
+      "review_reason": "Reiterates present emptiness, in contrast with the past occupancy stated next.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's now empty."
     },
     {
       "page": 23,
       "segment": 375,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:allegedly"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Not empty contrasts with now; allegedly scopes the case occurrence and October 2024 is quoted chronology, not independently verified.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But this house was not empty October of 2024 when this case allegedly occurs."
     },
     {
       "page": 24,

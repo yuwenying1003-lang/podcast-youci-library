@@ -8,31 +8,31 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 315 Phrases / 118 Chunks.
-- Word cards carrying reviewed_complete: 164; remaining: 157.
-- Machine translations awaiting context review: 107.
-- Generated memory aids awaiting refinement: 106.
-- External definitions awaiting review: 103; external IPA: 117.
-- Cards with fewer than two populated collocations: 132. This measures completeness, not independent human approval.
-- Transcript statuses: 405 covered / 103 no identified barrier / 342 requires review.
-- This PDF review has individual decisions for 273 paragraphs; 69 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Library: 321 Words / 320 Phrases / 118 Chunks.
+- Word cards carrying reviewed_complete: 196; remaining: 125.
+- Machine translations awaiting context review: 83.
+- Generated memory aids awaiting refinement: 82.
+- External definitions awaiting review: 81; external IPA: 93.
+- Cards with fewer than two populated collocations: 103. This measures completeness, not independent human approval.
+- Transcript statuses: 406 covered / 108 no identified barrier / 336 requires review.
+- This PDF review has individual decisions for 326 paragraphs; 85 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
 - Phrases without reviewed_complete: 278; Chunks: 101.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
 
-- Next unreviewed Word: Unit 6, active chapters. Preserve all completed cards in earlier Units.
-- Next paragraph not yet individually read in this PDF pass: page 21, segment 323. The continuous reviewed range is segments 50–322; Unit 1's previous work is preserved.
+- Next unreviewed Word: Unit 7, arrest. Preserve all completed cards in earlier Units.
+- Next paragraph not yet individually read in this PDF pass: page 24, segment 376. The continuous reviewed range is segments 50–375; Unit 1's previous work is preserved.
 - Earliest remaining transcript barrier: page 4, segment 51. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
-- Batch evidence: reports/cornell7-unit2-transcript-review.json, reports/cornell7-unit3-review-batch.json, reports/cornell7-unit4-review-batch.json, reports/cornell7-unit5-words-review.json and reports/cornell7-unit5-transcript-review.json. Unit 3–4 speaking reviews are in the corresponding unit3-chunks-review and unit4-chunks-review JSON files.
+- Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.
 
 ## Validation and boundaries
 
-PDF/Unit 2–5 batches: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
+Validated PDF/editorial batches: 20 tests passed, 8 pre-existing skips, 0 failed; both courses pass python scripts/validate_courses.py. Added regression checks cover page/segment alignment, raw-source preservation, learning-item references, and report/queue consistency. Later batches must rerun these checks.
 
 Only course content, editorial scripts, tests and reports are in scope. UI, CSS, player/audio controls, AI/login configuration, sentence checking and collections remain untouched. PR #16 only; no merge or deployment.
 
