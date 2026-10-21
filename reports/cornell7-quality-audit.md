@@ -16,7 +16,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - Cards with fewer than two populated collocations: 170. This measures completeness, not independent human approval.
 - Transcript statuses: 400 covered / 101 no identified barrier / 349 requires review.
 - This PDF review has individual decisions for 191 paragraphs; 51 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
-- Phrases without reviewed_complete: 278; Chunks: 116.
+- Phrases without reviewed_complete: 278; Chunks: 101.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation

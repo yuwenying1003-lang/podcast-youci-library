@@ -30,6 +30,22 @@ for (const [text, segment, definition, cn, example, example_cn, note] of batch.p
     source_verification: 'verified_transcript_match', extraction_confidence: 'high',
     editorial_status: 'reviewed_complete', reviewer: 'Codex', review_date: '2026-10-22', context_review_note: note });
 }
+for (const [text, cn, function_en, replaceable_parts, note, scenes] of batch.chunks || []) {
+  const item = course.patterns[unit].find(v => v.text === text);
+  if (!item || !compact(source.pages[item.source_page - 1].raw_text).includes(compact(item.source_excerpt))) throw new Error(`Chunk source mismatch: ${text}`);
+  const scenarios = scenes.map(([scene_zh, keywords, starter, reference_answer, reference_answer_zh], i) => ({
+    type: ['daily', 'social', 'work'][i], label: ['Daily life', 'Friends', 'Work'][i],
+    scene_zh, goal_en: function_en, keywords, starter, reference_answer, reference_answer_zh,
+    source_kind: 'teaching',
+  }));
+  Object.assign(item, { cn, communicative_function: function_en, replaceable_parts,
+    prompt: function_en, example: scenarios[0].reference_answer, example_cn: scenarios[0].reference_answer_zh,
+    example_source: 'adapted', original_en: item.source_excerpt,
+    everyday_example: scenarios[0].reference_answer, everyday_example_zh: scenarios[0].reference_answer_zh,
+    workplace_example: scenarios[2].reference_answer, workplace_example_zh: scenarios[2].reference_answer_zh,
+    scenarios, context_review_note: note, editorial_status: 'reviewed_complete',
+    reviewer: 'Codex', review_date: '2026-10-22', review_method: 'individual_pdf_contextual_review' });
+}
 const allIds = new Set([
   ...course.vocab.map(v => `word:${v.unit}:${normalize(v.word)}`),
   ...course.expressions.map(v => `phrase:${v.unit}:${normalize(v.text)}`),
@@ -47,4 +63,4 @@ for (const [segment, status, ids, reason] of batch.segments || []) {
 }
 await writeFile(new URL('courses/8b77ac948ba43d5d084d03e194ce7ecb.json', root), JSON.stringify(course, null, 2) + '\n');
 await writeFile(new URL('reports/cornell7-coverage-index.json', root), JSON.stringify(coverage, null, 2) + '\n');
-console.log(JSON.stringify({ unit: batch.unit, words: batch.words?.length || 0, phrases: batch.phrases?.length || 0, segments: batch.segments?.length || 0 }));
+console.log(JSON.stringify({ unit: batch.unit, words: batch.words?.length || 0, phrases: batch.phrases?.length || 0, chunks: batch.chunks?.length || 0, segments: batch.segments?.length || 0 }));

@@ -19436,872 +19436,1055 @@
     [
       {
         "text": "It is not that simple.",
-        "cn": "事情没那么简单",
-        "example": "But like I said, with most cases, it's just really not that simple.",
-        "prompt": "Use “It is not that simple.” in a complete sentence.",
+        "cn": "事情没那么简单。",
+        "example": "It is not that simple. The cheaper apartment is two hours from work.",
+        "prompt": "Explain why a proposed solution overlooks a complication.",
         "source_page": 8,
         "source_segment": "page-8",
         "source_excerpt": "But like I said, with most cases, it's just really not that simple.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "事情没那么简单",
+        "communicative_function": "Explain why a proposed solution overlooks a complication.",
         "original_en": "But like I said, with most cases, it's just really not that simple.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It is not that simple. The cheaper apartment is two hours from work.",
+        "everyday_example_zh": "事情没那么简单。便宜的那套公寓离工作地点有两小时路程。",
+        "workplace_example": "It is not that simple. We still need to finish the security checks.",
+        "replaceable_parts": "It/That + is not that simple; follow with the overlooked reason.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“事情没那么简单”这一表达。",
-            "goal_en": "It is not that simple.",
+            "scene_zh": "家人建议直接搬到便宜的公寓，但你还要考虑通勤时间。",
+            "goal_en": "Explain why a proposed solution overlooks a complication.",
             "keywords": [
-              "today",
-              "plan"
+              "rent",
+              "commute"
             ],
             "starter": "It is not that simple.",
-            "reference_answer": "But like I said, with most cases, it's just really not that simple."
+            "reference_answer": "It is not that simple. The cheaper apartment is two hours from work.",
+            "reference_answer_zh": "事情没那么简单。便宜的那套公寓离工作地点有两小时路程。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“事情没那么简单”这一表达。",
-            "goal_en": "It is not that simple.",
+            "scene_zh": "朋友说取消旅行就行，但其他朋友已经付了不可退的订金。",
+            "goal_en": "Explain why a proposed solution overlooks a complication.",
             "keywords": [
-              "friend",
-              "situation"
+              "trip",
+              "deposit"
             ],
             "starter": "It is not that simple.",
-            "reference_answer": "But like I said, with most cases, it's just really not that simple."
+            "reference_answer": "It is not that simple. Some of us have already paid a nonrefundable deposit.",
+            "reference_answer_zh": "事情没那么简单。我们中有些人已经交了不可退的订金。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“事情没那么简单”这一表达。",
-            "goal_en": "It is not that simple.",
+            "scene_zh": "同事建议今天就上线新功能，但安全检查还没有完成。",
+            "goal_en": "Explain why a proposed solution overlooks a complication.",
             "keywords": [
-              "project",
-              "team"
+              "launch",
+              "checks"
             ],
             "starter": "It is not that simple.",
-            "reference_answer": "But like I said, with most cases, it's just really not that simple."
+            "reference_answer": "It is not that simple. We still need to finish the security checks.",
+            "reference_answer_zh": "事情没那么简单。我们还需要完成安全检查。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "事情没那么简单。便宜的那套公寓离工作地点有两小时路程。",
+        "example_source": "adapted",
+        "workplace_example_zh": "事情没那么简单。我们还需要完成安全检查。",
+        "context_review_note": "That expresses degree. Source rejects choosing sides too easily; everyday examples transfer the same function without borrowing case allegations.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "at least in my personal experience",
-        "cn": "至少依照我的个人经验",
-        "example": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
-        "prompt": "Use “at least in my personal experience” in a complete sentence.",
+        "cn": "至少就我的个人经验而言",
+        "example": "At least in my personal experience, the store is quieter in the morning.",
+        "prompt": "Limit a general statement to your own experience.",
         "source_page": 10,
         "source_segment": "page-10",
         "source_excerpt": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "至少依照我的个人经验",
+        "communicative_function": "Limit a general statement to your own experience.",
         "original_en": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "At least in my personal experience, the store is quieter in the morning.",
+        "everyday_example_zh": "至少就我的个人经验而言，这家店早上比较清静。",
+        "workplace_example": "At least in my personal experience, meetings are shorter when we share an agenda first.",
+        "replaceable_parts": "Place the phrase before or after a claim; it limits evidence, not numerical quantity.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“至少依照我的个人经验”这一表达。",
-            "goal_en": "at least in my personal experience",
+            "scene_zh": "家人问早上去超市是否更清静，你只根据自己的几次经历回答。",
+            "goal_en": "Limit a general statement to your own experience.",
             "keywords": [
-              "today",
-              "plan"
+              "shopping",
+              "morning"
             ],
-            "starter": "at least in my personal experience",
-            "reference_answer": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
+            "starter": "At least in my personal experience,",
+            "reference_answer": "At least in my personal experience, the store is quieter in the morning.",
+            "reference_answer_zh": "至少就我的个人经验而言，这家店早上比较清静。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“至少依照我的个人经验”这一表达。",
-            "goal_en": "at least in my personal experience",
+            "scene_zh": "朋友问学习小组有没有帮助，你想说明这只是自己的体验。",
+            "goal_en": "Limit a general statement to your own experience.",
             "keywords": [
-              "friend",
-              "situation"
+              "study",
+              "group"
             ],
-            "starter": "at least in my personal experience",
-            "reference_answer": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
+            "starter": "At least in my personal experience,",
+            "reference_answer": "At least in my personal experience, studying with one friend works better than a large group.",
+            "reference_answer_zh": "至少就我的个人经验而言，和一个朋友一起学比参加大组学习效果好。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“至少依照我的个人经验”这一表达。",
-            "goal_en": "at least in my personal experience",
+            "scene_zh": "团队讨论开会方式，你想分享自己的体会而不替所有人下结论。",
+            "goal_en": "Limit a general statement to your own experience.",
             "keywords": [
-              "project",
-              "team"
+              "meetings",
+              "agenda"
             ],
-            "starter": "at least in my personal experience",
-            "reference_answer": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
+            "starter": "At least in my personal experience,",
+            "reference_answer": "At least in my personal experience, meetings are shorter when we share an agenda first.",
+            "reference_answer_zh": "至少就我的个人经验而言，提前发议程能让会议更简短。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "至少就我的个人经验而言，这家店早上比较清静。",
+        "example_source": "adapted",
+        "workplace_example_zh": "至少就我的个人经验而言，提前发议程能让会议更简短。",
+        "context_review_note": "The insurance claim is explicitly personal experience. New examples do not present broad claims as established facts.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "Just something to keep in mind",
-        "cn": "有件事值得注意",
-        "example": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying.",
-        "prompt": "Use “Just something to keep in mind” in a complete sentence.",
+        "cn": "有一点供你参考／提醒你留意",
+        "example": "The store closes early on Sundays—just something to keep in mind.",
+        "prompt": "Offer a relevant caution without issuing a direct command.",
         "source_page": 10,
         "source_segment": "page-10",
         "source_excerpt": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "有件事值得注意",
+        "communicative_function": "Offer a relevant caution without issuing a direct command.",
         "original_en": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "The store closes early on Sundays—just something to keep in mind.",
+        "everyday_example_zh": "这家店周日关门早，提醒你留意一下。",
+        "workplace_example": "Our reviewer is away on Friday—just something to keep in mind.",
+        "replaceable_parts": "State a fact, then add just something to keep in mind; keep in mind means remember when deciding.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“有件事值得注意”这一表达。",
-            "goal_en": "Just something to keep in mind",
+            "scene_zh": "家人准备周日晚去买东西，你提醒他附近商店那天会提早关门。",
+            "goal_en": "Offer a relevant caution without issuing a direct command.",
             "keywords": [
-              "today",
-              "plan"
+              "store",
+              "Sunday"
             ],
-            "starter": "Just something to keep in mind",
-            "reference_answer": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying."
+            "starter": "The store closes early on Sundays—",
+            "reference_answer": "The store closes early on Sundays—just something to keep in mind.",
+            "reference_answer_zh": "这家店周日关门早，提醒你留意一下。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“有件事值得注意”这一表达。",
-            "goal_en": "Just something to keep in mind",
+            "scene_zh": "朋友计划坐末班车回家，你想轻轻提醒他路上可能需要更多时间。",
+            "goal_en": "Offer a relevant caution without issuing a direct command.",
             "keywords": [
-              "friend",
-              "situation"
+              "bus",
+              "traffic"
             ],
-            "starter": "Just something to keep in mind",
-            "reference_answer": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying."
+            "starter": "Traffic can be slow after the concert—",
+            "reference_answer": "Traffic can be slow after the concert—just something to keep in mind.",
+            "reference_answer_zh": "音乐会结束后交通可能很慢，提醒你考虑到这一点。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“有件事值得注意”这一表达。",
-            "goal_en": "Just something to keep in mind",
+            "scene_zh": "同事安排周五交稿，你提醒他负责审批的人当天不在办公室。",
+            "goal_en": "Offer a relevant caution without issuing a direct command.",
             "keywords": [
-              "project",
-              "team"
+              "approval",
+              "Friday"
             ],
-            "starter": "Just something to keep in mind",
-            "reference_answer": "It's become a very polarizing case, but because there's so many lawyers involved, just something to keep in mind before we go and post some crazy TikToks, like don't say anything too crazy is all I'm saying."
+            "starter": "Our reviewer is away on Friday—",
+            "reference_answer": "Our reviewer is away on Friday—just something to keep in mind.",
+            "reference_answer_zh": "审批人周五不在，提醒你安排时留意一下。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这家店周日关门早，提醒你留意一下。",
+        "example_source": "adapted",
+        "workplace_example_zh": "审批人周五不在，提醒你安排时留意一下。",
+        "context_review_note": "Fragment works as a conversational aside. Complete teaching examples provide the actual caution missing from generic prompts.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "They don't like to ...",
-        "cn": "他们不愿意……",
-        "example": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
-        "prompt": "Use “They don't like to ...” in a complete sentence.",
+        "cn": "他们不愿意／不喜欢……",
+        "example": "They don't like to eat dinner late.",
+        "prompt": "Describe someone's usual reluctance or preference.",
         "source_page": 10,
         "source_segment": "page-10",
         "source_excerpt": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "他们不愿意……",
+        "communicative_function": "Describe someone's usual reluctance or preference.",
         "original_en": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "They don't like to eat dinner late.",
+        "everyday_example_zh": "他们不喜欢很晚才吃晚饭。",
+        "workplace_example": "They don't like to change plans at the last minute.",
+        "replaceable_parts": "They/we/I don't like to + base verb; he/she doesn't like to + base verb.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“他们不愿意……”这一表达。",
-            "goal_en": "They don't like to ...",
+            "scene_zh": "家人问孩子为什么想早点回家，你解释他们不喜欢太晚吃晚饭。",
+            "goal_en": "Describe someone's usual reluctance or preference.",
             "keywords": [
-              "today",
-              "plan"
+              "children",
+              "dinner"
             ],
-            "starter": "They don't like to ...",
-            "reference_answer": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
+            "starter": "They don't like to",
+            "reference_answer": "They don't like to eat dinner late.",
+            "reference_answer_zh": "他们不喜欢很晚才吃晚饭。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“他们不愿意……”这一表达。",
-            "goal_en": "They don't like to ...",
+            "scene_zh": "朋友想给共同好友办大型派对，你说明那两位朋友不喜欢当众讲话。",
+            "goal_en": "Describe someone's usual reluctance or preference.",
             "keywords": [
-              "friend",
-              "situation"
+              "friends",
+              "speeches"
             ],
-            "starter": "They don't like to ...",
-            "reference_answer": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
+            "starter": "They don't like to",
+            "reference_answer": "They don't like to give speeches in front of a crowd.",
+            "reference_answer_zh": "他们不喜欢在人群面前讲话。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“他们不愿意……”这一表达。",
-            "goal_en": "They don't like to ...",
+            "scene_zh": "同事建议临时改会，你解释客户通常不愿意临时更改计划。",
+            "goal_en": "Describe someone's usual reluctance or preference.",
             "keywords": [
-              "project",
-              "team"
+              "clients",
+              "plans"
             ],
-            "starter": "They don't like to ...",
-            "reference_answer": "Insurance companies, at least in my personal experience, they don't like to say no to coverage because that's saying no to money."
+            "starter": "They don't like to",
+            "reference_answer": "They don't like to change plans at the last minute.",
+            "reference_answer_zh": "他们不喜欢在最后一刻更改计划。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "他们不喜欢很晚才吃晚饭。",
+        "example_source": "adapted",
+        "workplace_example_zh": "他们不喜欢在最后一刻更改计划。",
+        "context_review_note": "A preference, not an inability or prohibition. Don't expands to do not; the verb after to stays in base form.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "With that being said",
-        "cn": "话虽如此",
-        "example": "With that being said, we still need more data.",
-        "prompt": "Introduce a qualification.",
+        "cn": "话虽如此；说完这些",
+        "example": "We are short on time. With that being said, we can still cook something simple.",
+        "prompt": "Move on after acknowledging the preceding point, sometimes adding a contrast.",
         "source_page": 10,
         "source_segment": "page-10",
         "source_excerpt": "So with that being said, let's get started.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "话虽如此",
+        "communicative_function": "Move on after acknowledging the preceding point, sometimes adding a contrast.",
         "original_en": "So with that being said, let's get started.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "We are short on time. With that being said, we can still cook something simple.",
+        "everyday_example_zh": "我们时间不多。话虽如此，还是可以做点简单的饭菜。",
+        "workplace_example": "There are still risks. With that being said, a small pilot would help us learn more.",
+        "replaceable_parts": "With that being said, + a complete clause. It can signal transition as well as concession.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "周末出行时改变了原计划：请用“话虽如此……”组织一句完整英语。",
-            "goal_en": "Introduce a qualification.",
+            "label": "Daily life",
+            "scene_zh": "你已说明今天时间紧张，接着提出仍然可以做一顿简单晚饭。",
+            "goal_en": "Move on after acknowledging the preceding point, sometimes adding a contrast.",
             "keywords": [
-              "said",
-              "need",
-              "more",
-              "data"
+              "time",
+              "dinner"
             ],
-            "starter": "with that being said",
-            "reference_answer": "With that being said, we still need more data."
+            "starter": "With that being said,",
+            "reference_answer": "We are short on time. With that being said, we can still cook something simple.",
+            "reference_answer_zh": "我们时间不多。话虽如此，还是可以做点简单的饭菜。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "回应朋友对周末计划的看法：请用“话虽如此……”组织一句完整英语。",
-            "goal_en": "Introduce a qualification.",
+            "label": "Friends",
+            "scene_zh": "你向朋友讲完出游注意事项，现在准备开始愉快的行程。",
+            "goal_en": "Move on after acknowledging the preceding point, sometimes adding a contrast.",
             "keywords": [
-              "said",
-              "need",
-              "more",
-              "data"
+              "trip",
+              "start"
             ],
-            "starter": "with that being said",
-            "reference_answer": "With that being said, we still need more data."
+            "starter": "With that being said,",
+            "reference_answer": "Those are the main things to remember. With that being said, let's enjoy the trip.",
+            "reference_answer_zh": "要注意的主要就是这些。说完这些，我们好好享受旅行吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "更新团队目前已经确认的信息：请用“话虽如此……”组织一句完整英语。",
-            "goal_en": "Introduce a qualification.",
+            "label": "Work",
+            "scene_zh": "你说明方案还有风险，但认为可以先做一个小规模试验。",
+            "goal_en": "Move on after acknowledging the preceding point, sometimes adding a contrast.",
             "keywords": [
-              "said",
-              "need",
-              "more",
-              "data"
+              "risks",
+              "pilot"
             ],
-            "starter": "with that being said",
-            "reference_answer": "With that being said, we still need more data."
+            "starter": "With that being said,",
+            "reference_answer": "There are still risks. With that being said, a small pilot would help us learn more.",
+            "reference_answer_zh": "仍然存在风险。话虽如此，小规模试验能帮助我们了解更多。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我们时间不多。话虽如此，还是可以做点简单的饭菜。",
+        "example_source": "adapted",
+        "workplace_example_zh": "仍然存在风险。话虽如此，小规模试验能帮助我们了解更多。",
+        "context_review_note": "At segment 148 it resumes the main discussion rather than contradicting the disclaimer. Do not teach every occurrence as however.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
       {
         "text": "It's not even worth the risk",
-        "cn": "甚至不值得冒险",
-        "example": "It's not even worth the risk.",
-        "prompt": "Use “It's not even worth the risk” in a complete sentence.",
+        "cn": "连这个风险都不值得冒",
+        "example": "It's not even worth the risk. Let's get a ladder.",
+        "prompt": "Reject an option because the potential benefit is too small for the risk.",
         "source_page": 11,
         "source_segment": "page-11",
         "source_excerpt": "It's not even worth the risk.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "甚至不值得冒险",
+        "communicative_function": "Reject an option because the potential benefit is too small for the risk.",
         "original_en": "It's not even worth the risk.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's not even worth the risk. Let's get a ladder.",
+        "everyday_example_zh": "根本不值得冒险。我们去拿梯子吧。",
+        "workplace_example": "It's not even worth the risk. Backing up the files takes a minute.",
+        "replaceable_parts": "It/That is not worth + noun/-ing; even adds emphasis.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“甚至不值得冒险”这一表达。",
-            "goal_en": "It's not even worth the risk",
+            "scene_zh": "家人想踩着摇晃的椅子换灯泡，你建议等拿到梯子再换。",
+            "goal_en": "Reject an option because the potential benefit is too small for the risk.",
             "keywords": [
-              "today",
-              "plan"
+              "chair",
+              "ladder"
             ],
-            "starter": "It's not even worth the risk",
-            "reference_answer": "It's not even worth the risk."
+            "starter": "It's not even worth the risk.",
+            "reference_answer": "It's not even worth the risk. Let's get a ladder.",
+            "reference_answer_zh": "根本不值得冒险。我们去拿梯子吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“甚至不值得冒险”这一表达。",
-            "goal_en": "It's not even worth the risk",
+            "scene_zh": "朋友想在手机快没电时走陌生的小路，你建议走熟悉的大路。",
+            "goal_en": "Reject an option because the potential benefit is too small for the risk.",
             "keywords": [
-              "friend",
-              "situation"
+              "shortcut",
+              "battery"
             ],
-            "starter": "It's not even worth the risk",
-            "reference_answer": "It's not even worth the risk."
+            "starter": "It's not even worth the risk.",
+            "reference_answer": "It's not even worth the risk. The shortcut only saves two minutes.",
+            "reference_answer_zh": "根本不值得冒险。抄近路也就省两分钟。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“甚至不值得冒险”这一表达。",
-            "goal_en": "It's not even worth the risk",
+            "scene_zh": "同事想跳过备份直接更新重要文件，你提醒这省不了多少时间。",
+            "goal_en": "Reject an option because the potential benefit is too small for the risk.",
             "keywords": [
-              "project",
-              "team"
+              "backup",
+              "files"
             ],
-            "starter": "It's not even worth the risk",
-            "reference_answer": "It's not even worth the risk."
+            "starter": "It's not even worth the risk.",
+            "reference_answer": "It's not even worth the risk. Backing up the files takes a minute.",
+            "reference_answer_zh": "根本不值得冒险。备份文件只要一分钟。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "根本不值得冒险。我们去拿梯子吧。",
+        "example_source": "adapted",
+        "workplace_example_zh": "根本不值得冒险。备份文件只要一分钟。",
+        "context_review_note": "Source is an imagined insurer's assessment, not an actual underwriting rule.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "Imagine the amount of",
-        "cn": "想象一下……的数量",
-        "example": "Imagine the amount of- Lawsuits, liability.",
-        "prompt": "Use “Imagine the amount of” in a complete sentence.",
+        "cn": "想想……会有多少",
+        "example": "Imagine the amount of time we would need to repaint every room.",
+        "prompt": "Draw attention to a large quantity of something.",
         "source_page": 12,
         "source_segment": "page-12",
         "source_excerpt": "Imagine the amount of- Lawsuits, liability.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "想象一下……的数量",
+        "communicative_function": "Draw attention to a large quantity of something.",
         "original_en": "Imagine the amount of- Lawsuits, liability.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "Imagine the amount of time we would need to repaint every room.",
+        "everyday_example_zh": "想想重新粉刷每个房间需要多少时间。",
+        "workplace_example": "Imagine the amount of work it would take to check every record by hand.",
+        "replaceable_parts": "Imagine the amount of + uncountable noun; use the number of with countable plural nouns.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“想象一下……的数量”这一表达。",
-            "goal_en": "Imagine the amount of",
+            "scene_zh": "家人想自己重新装修整个房间，你提醒他先考虑所需时间。",
+            "goal_en": "Draw attention to a large quantity of something.",
             "keywords": [
-              "today",
-              "plan"
+              "room",
+              "time"
             ],
             "starter": "Imagine the amount of",
-            "reference_answer": "Imagine the amount of- Lawsuits, liability."
+            "reference_answer": "Imagine the amount of time we would need to repaint every room.",
+            "reference_answer_zh": "想想重新粉刷每个房间需要多少时间。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“想象一下……的数量”这一表达。",
-            "goal_en": "Imagine the amount of",
+            "scene_zh": "朋友想组织二十个人一起旅行，你提醒他安排起来不简单。",
+            "goal_en": "Draw attention to a large quantity of something.",
             "keywords": [
-              "friend",
-              "situation"
+              "trip",
+              "planning"
             ],
             "starter": "Imagine the amount of",
-            "reference_answer": "Imagine the amount of- Lawsuits, liability."
+            "reference_answer": "Imagine the amount of planning a trip for twenty people would take.",
+            "reference_answer_zh": "想想组织二十人旅行需要做多少安排。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“想象一下……的数量”这一表达。",
-            "goal_en": "Imagine the amount of",
+            "scene_zh": "同事提议手动整理几千条记录，你提醒他考虑工作量。",
+            "goal_en": "Draw attention to a large quantity of something.",
             "keywords": [
-              "project",
-              "team"
+              "records",
+              "work"
             ],
             "starter": "Imagine the amount of",
-            "reference_answer": "Imagine the amount of- Lawsuits, liability."
+            "reference_answer": "Imagine the amount of work it would take to check every record by hand.",
+            "reference_answer_zh": "想想逐条手动检查所有记录需要多少工作。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "想想重新粉刷每个房间需要多少时间。",
+        "example_source": "adapted",
+        "workplace_example_zh": "想想逐条手动检查所有记录需要多少工作。",
+        "context_review_note": "Source has a false start before lawsuits and liability. Teaching examples use uncountable time, planning and work rather than copying that disfluency.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's to the point where",
-        "cn": "到了……的程度",
-        "example": "It's to the point where a lot of the fraternities have resulted in self-insuring.",
-        "prompt": "Use “It's to the point where” in a complete sentence.",
+        "cn": "已经到了……的程度",
+        "example": "It's to the point where the fridge keeps us awake at night.",
+        "prompt": "Describe a situation that has become severe enough to produce a consequence.",
         "source_page": 12,
         "source_segment": "page-12",
         "source_excerpt": "It's to the point where a lot of the fraternities have resulted in self-insuring.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "到了……的程度",
+        "communicative_function": "Describe a situation that has become severe enough to produce a consequence.",
         "original_en": "It's to the point where a lot of the fraternities have resulted in self-insuring.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's to the point where the fridge keeps us awake at night.",
+        "everyday_example_zh": "已经到了冰箱吵得我们晚上睡不着的程度。",
+        "workplace_example": "It's to the point where we need someone working on this full-time.",
+        "replaceable_parts": "It is/has got to the point where + clause describing a consequence.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“到了……的程度”这一表达。",
-            "goal_en": "It's to the point where",
+            "scene_zh": "家里的旧冰箱噪音越来越大，现在已经影响晚上睡觉。",
+            "goal_en": "Describe a situation that has become severe enough to produce a consequence.",
             "keywords": [
-              "today",
-              "plan"
+              "fridge",
+              "sleep"
             ],
             "starter": "It's to the point where",
-            "reference_answer": "It's to the point where a lot of the fraternities have resulted in self-insuring."
+            "reference_answer": "It's to the point where the fridge keeps us awake at night.",
+            "reference_answer_zh": "已经到了冰箱吵得我们晚上睡不着的程度。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“到了……的程度”这一表达。",
-            "goal_en": "It's to the point where",
+            "scene_zh": "朋友群消息太多，你发现自己已经跟不上重要的活动通知。",
+            "goal_en": "Describe a situation that has become severe enough to produce a consequence.",
             "keywords": [
-              "friend",
-              "situation"
+              "messages",
+              "plans"
             ],
             "starter": "It's to the point where",
-            "reference_answer": "It's to the point where a lot of the fraternities have resulted in self-insuring."
+            "reference_answer": "It's to the point where I miss plans because there are so many messages.",
+            "reference_answer_zh": "消息多到我已经会漏看活动安排了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“到了……的程度”这一表达。",
-            "goal_en": "It's to the point where",
+            "scene_zh": "团队的手工处理工作不断增加，现在需要专门安排一人负责。",
+            "goal_en": "Describe a situation that has become severe enough to produce a consequence.",
             "keywords": [
-              "project",
-              "team"
+              "workload",
+              "person"
             ],
             "starter": "It's to the point where",
-            "reference_answer": "It's to the point where a lot of the fraternities have resulted in self-insuring."
+            "reference_answer": "It's to the point where we need someone working on this full-time.",
+            "reference_answer_zh": "已经到了需要有人全职处理这件事的程度。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "已经到了冰箱吵得我们晚上睡不着的程度。",
+        "example_source": "adapted",
+        "workplace_example_zh": "已经到了需要有人全职处理这件事的程度。",
+        "context_review_note": "Keep source resulted in unchanged; teaching clauses avoid that possible transcription problem.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "That makes sense",
-        "cn": "这样就说得通",
-        "example": "That makes sense.",
-        "prompt": "Use “That makes sense” in a complete sentence.",
+        "cn": "这样就说得通了",
+        "example": "That makes sense. Electricity is cheaper in the evening.",
+        "prompt": "Acknowledge that an explanation or proposal is understandable.",
         "source_page": 12,
         "source_segment": "page-12",
         "source_excerpt": "That makes sense.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "这样就说得通",
+        "communicative_function": "Acknowledge that an explanation or proposal is understandable.",
         "original_en": "That makes sense.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "That makes sense. Electricity is cheaper in the evening.",
+        "everyday_example_zh": "这样就说得通了。晚上电价更便宜。",
+        "workplace_example": "That makes sense. A small test will help us catch errors early.",
+        "replaceable_parts": "That makes sense; something makes sense to someone; negative: that doesn't make sense.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这样就说得通”这一表达。",
-            "goal_en": "That makes sense",
+            "scene_zh": "家人解释洗衣机为何要等到晚上才开，你听懂了电价原因。",
+            "goal_en": "Acknowledge that an explanation or proposal is understandable.",
             "keywords": [
-              "today",
-              "plan"
+              "electricity",
+              "evening"
             ],
-            "starter": "That makes sense",
-            "reference_answer": "That makes sense."
+            "starter": "That makes sense.",
+            "reference_answer": "That makes sense. Electricity is cheaper in the evening.",
+            "reference_answer_zh": "这样就说得通了。晚上电价更便宜。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这样就说得通”这一表达。",
-            "goal_en": "That makes sense",
+            "scene_zh": "朋友解释为何把聚会提前到周六，你理解他周日要出差。",
+            "goal_en": "Acknowledge that an explanation or proposal is understandable.",
             "keywords": [
-              "friend",
-              "situation"
+              "Saturday",
+              "travel"
             ],
-            "starter": "That makes sense",
-            "reference_answer": "That makes sense."
+            "starter": "That makes sense.",
+            "reference_answer": "That makes sense. You'll need Sunday to get ready for your trip.",
+            "reference_answer_zh": "这样安排有道理。你需要周日为出差做准备。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这样就说得通”这一表达。",
-            "goal_en": "That makes sense",
+            "scene_zh": "同事解释为何先测试小样本再处理全部数据，你认同这个步骤。",
+            "goal_en": "Acknowledge that an explanation or proposal is understandable.",
             "keywords": [
-              "project",
-              "team"
+              "sample",
+              "errors"
             ],
-            "starter": "That makes sense",
-            "reference_answer": "That makes sense."
+            "starter": "That makes sense.",
+            "reference_answer": "That makes sense. A small test will help us catch errors early.",
+            "reference_answer_zh": "这样做有道理。小规模测试能帮助我们早点发现错误。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这样就说得通了。晚上电价更便宜。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这样做有道理。小规模测试能帮助我们早点发现错误。",
+        "context_review_note": "Understanding does not necessarily mean agreeing that every detail is true.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "The minute you ..., ...",
         "cn": "你一……就……",
-        "example": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member.",
-        "prompt": "Use “The minute you ..., ...” in a complete sentence.",
+        "example": "The minute you arrive, give me a call.",
+        "prompt": "Describe what happens immediately after a trigger.",
         "source_page": 13,
         "source_segment": "page-13",
         "source_excerpt": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "你一……就……",
+        "communicative_function": "Describe what happens immediately after a trigger.",
         "original_en": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "The minute you arrive, give me a call.",
+        "everyday_example_zh": "你一到就给我打电话。",
+        "workplace_example": "The minute you get approval, we can confirm the schedule.",
+        "replaceable_parts": "The minute + present-tense clause, + main clause; for future time use arrive, not will arrive, in the time clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“你一……就……”这一表达。",
-            "goal_en": "The minute you ..., ...",
+            "scene_zh": "家人要来接你，你希望自己一到车站就告诉他。",
+            "goal_en": "Describe what happens immediately after a trigger.",
             "keywords": [
-              "today",
-              "plan"
+              "station",
+              "call"
             ],
-            "starter": "The minute you ..., ...",
-            "reference_answer": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member."
+            "starter": "The minute you arrive,",
+            "reference_answer": "The minute you arrive, give me a call.",
+            "reference_answer_zh": "你一到就给我打电话。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“你一……就……”这一表达。",
-            "goal_en": "The minute you ..., ...",
+            "scene_zh": "朋友等待抢票结果，你希望他一听到消息就通知大家。",
+            "goal_en": "Describe what happens immediately after a trigger.",
             "keywords": [
-              "friend",
-              "situation"
+              "tickets",
+              "news"
             ],
-            "starter": "The minute you ..., ...",
-            "reference_answer": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member."
+            "starter": "The minute you hear anything,",
+            "reference_answer": "The minute you hear anything, send us a message.",
+            "reference_answer_zh": "你一听到消息就给我们发信息。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“你一……就……”这一表达。",
-            "goal_en": "The minute you ..., ...",
+            "scene_zh": "同事等待客户确认，你希望确认一到就启动下一步。",
+            "goal_en": "Describe what happens immediately after a trigger.",
             "keywords": [
-              "project",
-              "team"
+              "approval",
+              "schedule"
             ],
-            "starter": "The minute you ..., ...",
-            "reference_answer": "Well, the fine print says the minute you start drinking under certain circumstances, you are no longer a member."
+            "starter": "The minute you get approval,",
+            "reference_answer": "The minute you get approval, we can confirm the schedule.",
+            "reference_answer_zh": "你一拿到批准，我们就能确认日程。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "你一到就给我打电话。",
+        "example_source": "adapted",
+        "workplace_example_zh": "你一拿到批准，我们就能确认日程。",
+        "context_review_note": "Minute is figurative immediacy, not exactly sixty seconds. Source concerns a hypothetical policy scenario.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "If all else fails",
-        "cn": "如果别的办法都不奏效",
-        "example": "If all else fails, we can revert to the backup.",
-        "prompt": "Suggest a backup plan.",
+        "cn": "如果其他办法都不奏效",
+        "example": "If all else fails, we can print the tickets at the shop.",
+        "prompt": "Introduce a fallback option after other attempts fail.",
         "source_page": 15,
         "source_segment": "page-15",
         "source_excerpt": "But if all else fails,",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "如果别的办法都不奏效",
+        "communicative_function": "Introduce a fallback option after other attempts fail.",
         "original_en": "But if all else fails,",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "If all else fails, we can print the tickets at the shop.",
+        "everyday_example_zh": "如果其他办法都不行，我们可以去店里打印票。",
+        "workplace_example": "If all else fails, we can use the slides for the presentation.",
+        "replaceable_parts": "If all else fails, + can/will/could + backup action.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "做饭时发现结果和预想不同：请用“如果其他办法都不行”组织一句完整英语。",
-            "goal_en": "Suggest a backup plan.",
+            "label": "Daily life",
+            "scene_zh": "家里的打印机坏了，你想先修一修，同时保留去打印店的办法。",
+            "goal_en": "Introduce a fallback option after other attempts fail.",
             "keywords": [
-              "else",
-              "fails",
-              "revert",
-              "backup"
+              "printer",
+              "shop"
             ],
-            "starter": "if all else fails",
-            "reference_answer": "If all else fails, we can revert to the backup."
+            "starter": "If all else fails,",
+            "reference_answer": "If all else fails, we can print the tickets at the shop.",
+            "reference_answer_zh": "如果其他办法都不行，我们可以去店里打印票。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "分享一次旅行中的意外经历：请用“如果其他办法都不行”组织一句完整英语。",
-            "goal_en": "Suggest a backup plan.",
+            "label": "Friends",
+            "scene_zh": "朋友们一直订不到合适的餐馆，你提出最后可以在家做饭。",
+            "goal_en": "Introduce a fallback option after other attempts fail.",
             "keywords": [
-              "else",
-              "fails",
-              "revert",
-              "backup"
+              "restaurant",
+              "cook"
             ],
-            "starter": "if all else fails",
-            "reference_answer": "If all else fails, we can revert to the backup."
+            "starter": "If all else fails,",
+            "reference_answer": "If all else fails, we can cook dinner at my place.",
+            "reference_answer_zh": "如果实在订不到，我们可以在我家做晚饭。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "说明一个决定可能带来的风险：请用“如果其他办法都不行”组织一句完整英语。",
-            "goal_en": "Suggest a backup plan.",
+            "label": "Work",
+            "scene_zh": "团队正在修复展示软件，你提出可用静态幻灯片作为备用。",
+            "goal_en": "Introduce a fallback option after other attempts fail.",
             "keywords": [
-              "else",
-              "fails",
-              "revert",
-              "backup"
+              "demo",
+              "slides"
             ],
-            "starter": "if all else fails",
-            "reference_answer": "If all else fails, we can revert to the backup."
+            "starter": "If all else fails,",
+            "reference_answer": "If all else fails, we can use the slides for the presentation.",
+            "reference_answer_zh": "如果其他办法都不行，我们可以用幻灯片做展示。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "如果其他办法都不行，我们可以去店里打印票。",
+        "example_source": "adapted",
+        "workplace_example_zh": "如果其他办法都不行，我们可以用幻灯片做展示。",
+        "context_review_note": "Source is a transition into another alleged source of payments, not a guaranteed remedy.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "In which case, ...",
-        "cn": "在这种情况下……",
-        "example": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
-        "prompt": "Use “In which case, ...” in a complete sentence.",
+        "cn": "如果是那样的话／在那种情况下……",
+        "example": "It might rain, in which case we'll exercise indoors.",
+        "prompt": "State a consequence of the situation just mentioned.",
         "source_page": 15,
         "source_segment": "page-15",
         "source_excerpt": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "在这种情况下……",
+        "communicative_function": "State a consequence of the situation just mentioned.",
         "original_en": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It might rain, in which case we'll exercise indoors.",
+        "everyday_example_zh": "可能会下雨，如果那样我们就在室内运动。",
+        "workplace_example": "The client may approve it today, in which case we can start testing.",
+        "replaceable_parts": "State the possible condition first, then , in which case + clause. Which refers back to that whole situation.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“在这种情况下……”这一表达。",
-            "goal_en": "In which case, ...",
+            "scene_zh": "你准备出门散步，想到可能下雨，并提出下雨时就在家运动。",
+            "goal_en": "State a consequence of the situation just mentioned.",
             "keywords": [
-              "today",
-              "plan"
+              "rain",
+              "indoors"
             ],
-            "starter": "In which case, ...",
-            "reference_answer": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
+            "starter": "It might rain, in which case",
+            "reference_answer": "It might rain, in which case we'll exercise indoors.",
+            "reference_answer_zh": "可能会下雨，如果那样我们就在室内运动。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“在这种情况下……”这一表达。",
-            "goal_en": "In which case, ...",
+            "scene_zh": "朋友可能加班到很晚，你们准备在这种情况下另约时间。",
+            "goal_en": "State a consequence of the situation just mentioned.",
             "keywords": [
-              "friend",
-              "situation"
+              "work",
+              "tomorrow"
             ],
-            "starter": "In which case, ...",
-            "reference_answer": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
+            "starter": "You might have to work late, in which case",
+            "reference_answer": "You might have to work late, in which case we can meet tomorrow.",
+            "reference_answer_zh": "你可能得加班，如果那样我们可以明天见。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“在这种情况下……”这一表达。",
-            "goal_en": "In which case, ...",
+            "scene_zh": "你不确定客户今天能否批准，说明若批准了就可以开始测试。",
+            "goal_en": "State a consequence of the situation just mentioned.",
             "keywords": [
-              "project",
-              "team"
+              "approval",
+              "testing"
             ],
-            "starter": "In which case, ...",
-            "reference_answer": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
+            "starter": "The client may approve it today, in which case",
+            "reference_answer": "The client may approve it today, in which case we can start testing.",
+            "reference_answer_zh": "客户今天可能会批准，如果那样我们就可以开始测试。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "可能会下雨，如果那样我们就在室内运动。",
+        "example_source": "adapted",
+        "workplace_example_zh": "客户今天可能会批准，如果那样我们就可以开始测试。",
+        "context_review_note": "Not a vague replacement for therefore; it needs an antecedent situation. Source links an alleged breach to claimed lack of coverage.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "The thing is",
-        "cn": "问题在于",
-        "example": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
-        "prompt": "Use “The thing is” in a complete sentence.",
+        "cn": "问题在于；实际情况是",
+        "example": "The thing is, I haven't received the pickup code yet.",
+        "prompt": "Introduce an important explanation or complication.",
         "source_page": 15,
         "source_segment": "page-15",
         "source_excerpt": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "问题在于",
+        "communicative_function": "Introduce an important explanation or complication.",
         "original_en": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "The thing is, I haven't received the pickup code yet.",
+        "everyday_example_zh": "问题在于，我还没有收到取件码。",
+        "workplace_example": "The thing is, we haven't confirmed the delivery costs yet.",
+        "replaceable_parts": "The thing is, + clause; optional that: the thing is that + clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“问题在于”这一表达。",
-            "goal_en": "The thing is",
+            "scene_zh": "家人希望你今天取快递，你解释自己还没有收到取件码。",
+            "goal_en": "Introduce an important explanation or complication.",
             "keywords": [
-              "today",
-              "plan"
+              "parcel",
+              "code"
             ],
-            "starter": "The thing is",
-            "reference_answer": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
+            "starter": "The thing is,",
+            "reference_answer": "The thing is, I haven't received the pickup code yet.",
+            "reference_answer_zh": "问题在于，我还没有收到取件码。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“问题在于”这一表达。",
-            "goal_en": "The thing is",
+            "scene_zh": "朋友邀请你周末出去，你解释自己已经答应帮别人搬家。",
+            "goal_en": "Introduce an important explanation or complication.",
             "keywords": [
-              "friend",
-              "situation"
+              "weekend",
+              "moving"
             ],
-            "starter": "The thing is",
-            "reference_answer": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
+            "starter": "The thing is,",
+            "reference_answer": "The thing is, I already promised to help someone move.",
+            "reference_answer_zh": "问题在于，我已经答应帮别人搬家了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“问题在于”这一表达。",
-            "goal_en": "The thing is",
+            "scene_zh": "同事问为什么不能马上发报价，你解释关键成本还没有确认。",
+            "goal_en": "Introduce an important explanation or complication.",
             "keywords": [
-              "project",
-              "team"
+              "quote",
+              "costs"
             ],
-            "starter": "The thing is",
-            "reference_answer": "The thing is, if you read the insurance policy, anything that could result in a chapter or national organization being sued was either a violation of fraternity bylaws or the insurance policy itself, in which case no coverage is offered."
+            "starter": "The thing is,",
+            "reference_answer": "The thing is, we haven't confirmed the delivery costs yet.",
+            "reference_answer_zh": "问题在于，我们还没有确认配送成本。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "问题在于，我还没有收到取件码。",
+        "example_source": "adapted",
+        "workplace_example_zh": "问题在于，我们还没有确认配送成本。",
+        "context_review_note": "Thing is a discourse placeholder, not a physical object; source introduces a qualification about policy wording.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's very hard to say",
-        "cn": "很难说",
-        "example": "So it's very hard to say if they're the sixth worst.",
-        "prompt": "Use “It's very hard to say” in a complete sentence.",
+        "cn": "很难判断；很难确定",
+        "example": "It's very hard to say how long this computer will last.",
+        "prompt": "Express uncertainty when there is not enough information.",
         "source_page": 11,
         "source_segment": "page-11",
         "source_excerpt": "So it's very hard to say if they're the sixth worst.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "很难说",
+        "communicative_function": "Express uncertainty when there is not enough information.",
         "original_en": "So it's very hard to say if they're the sixth worst.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "It's very hard to say how long this computer will last.",
+        "everyday_example_zh": "很难说这台电脑还能用多久。",
+        "workplace_example": "It's very hard to say how much time we'll save before we run a trial.",
+        "replaceable_parts": "It's very hard to say + if/whether/what/how clause; it refers to making a judgment, not speaking physically.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“很难说”这一表达。",
-            "goal_en": "It's very hard to say",
+            "scene_zh": "家人问旧电脑还能用多久，你没有足够信息给出准确判断。",
+            "goal_en": "Express uncertainty when there is not enough information.",
             "keywords": [
-              "today",
-              "plan"
+              "computer",
+              "last"
             ],
             "starter": "It's very hard to say",
-            "reference_answer": "So it's very hard to say if they're the sixth worst."
+            "reference_answer": "It's very hard to say how long this computer will last.",
+            "reference_answer_zh": "很难说这台电脑还能用多久。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“很难说”这一表达。",
-            "goal_en": "It's very hard to say",
+            "scene_zh": "朋友问户外活动能否照常举行，你觉得现在的天气信息还不够。",
+            "goal_en": "Express uncertainty when there is not enough information.",
             "keywords": [
-              "friend",
-              "situation"
+              "weather",
+              "event"
             ],
             "starter": "It's very hard to say",
-            "reference_answer": "So it's very hard to say if they're the sixth worst."
+            "reference_answer": "It's very hard to say whether the weather will hold.",
+            "reference_answer_zh": "很难说天气能不能一直保持这样。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“很难说”这一表达。",
-            "goal_en": "It's very hard to say",
+            "scene_zh": "主管问新方案能节省多少时间，但团队还没有做过试验。",
+            "goal_en": "Express uncertainty when there is not enough information.",
             "keywords": [
-              "project",
-              "team"
+              "trial",
+              "time"
             ],
             "starter": "It's very hard to say",
-            "reference_answer": "So it's very hard to say if they're the sixth worst."
+            "reference_answer": "It's very hard to say how much time we'll save before we run a trial.",
+            "reference_answer_zh": "在试验之前，很难说能节省多少时间。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "很难说这台电脑还能用多久。",
+        "example_source": "adapted",
+        "workplace_example_zh": "在试验之前，很难说能节省多少时间。",
+        "context_review_note": "Source questions the unverified sixth-worst ranking; retain uncertainty.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "What happens then",
-        "cn": "那之后会怎样",
-        "example": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?",
-        "prompt": "Use “What happens then” in a complete sentence.",
+        "cn": "那接下来会怎样？",
+        "example": "If nobody is home when the delivery arrives, what happens then?",
+        "prompt": "Ask about the next consequence of a proposed situation.",
         "source_page": 15,
         "source_segment": "page-15",
         "source_excerpt": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "那之后会怎样",
+        "communicative_function": "Ask about the next consequence of a proposed situation.",
         "original_en": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "If nobody is home when the delivery arrives, what happens then?",
+        "everyday_example_zh": "如果送货到时家里没人，那会怎样处理？",
+        "workplace_example": "If the client misses the deadline, what happens then?",
+        "replaceable_parts": "If + condition, what happens then? Then refers to the consequence or next step.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“那之后会怎样”这一表达。",
-            "goal_en": "What happens then",
+            "scene_zh": "你准备预约送货，想知道如果到时家里没人会怎样处理。",
+            "goal_en": "Ask about the next consequence of a proposed situation.",
             "keywords": [
-              "today",
-              "plan"
+              "delivery",
+              "home"
             ],
-            "starter": "What happens then",
-            "reference_answer": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?"
+            "starter": "If nobody is home,",
+            "reference_answer": "If nobody is home when the delivery arrives, what happens then?",
+            "reference_answer_zh": "如果送货到时家里没人，那会怎样处理？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“那之后会怎样”这一表达。",
-            "goal_en": "What happens then",
+            "scene_zh": "朋友组织露营，你想了解如果晚上下大雨有什么后续安排。",
+            "goal_en": "Ask about the next consequence of a proposed situation.",
             "keywords": [
-              "friend",
-              "situation"
+              "camping",
+              "rain"
             ],
-            "starter": "What happens then",
-            "reference_answer": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?"
+            "starter": "If it starts raining heavily,",
+            "reference_answer": "If it starts raining heavily, what happens then?",
+            "reference_answer_zh": "如果开始下大雨，那接下来怎么办？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“那之后会怎样”这一表达。",
-            "goal_en": "What happens then",
+            "scene_zh": "同事介绍审批流程，你想了解客户未按时回复时的下一步。",
+            "goal_en": "Ask about the next consequence of a proposed situation.",
             "keywords": [
-              "project",
-              "team"
+              "client",
+              "deadline"
             ],
-            "starter": "What happens then",
-            "reference_answer": "If you sue a fraternity member and their fraternity drops them from their insurance, what happens then?"
+            "starter": "If the client misses the deadline,",
+            "reference_answer": "If the client misses the deadline, what happens then?",
+            "reference_answer_zh": "如果客户错过回复截止时间，那接下来怎么办？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "如果送货到时家里没人，那会怎样处理？",
+        "example_source": "adapted",
+        "workplace_example_zh": "如果客户错过回复截止时间，那接下来怎么办？",
+        "context_review_note": "Source asks about loss of insurance, rather than providing an answer or recommending an action.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
