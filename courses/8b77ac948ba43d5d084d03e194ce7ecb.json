@@ -1039,9 +1039,9 @@
     },
     {
       "word": "administration",
-      "definition": "(uncountable) The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction.",
+      "definition": "the people who manage a university or other institution",
       "cn": "行政部门",
-      "ipa": "/ədˌmɪnəˈstɹeɪʃən/",
+      "ipa": "/ədˌmɪnəˈstreɪʃən/",
       "difficulty": "Advanced",
       "unit": 1,
       "source_page": 5,
@@ -1050,21 +1050,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “administration” visible, then recall it through the podcast phrase “of Cornell's administration and staff”.",
-      "memory_hook": "administration: of Cornell's administration and staff",
-      "mental_image_zh": "想象原文场景，并把 “administration” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "university administration",
+          "meaning_zh": "大学行政部门",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "administration and staff",
+          "meaning_zh": "行政部门与工作人员",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "administer → administration: drop final -er and add -ation for the managing body or process.",
+      "memory_hook": "People who administer the university form its administration.",
+      "mental_image_zh": "一群负责 administer 校务的人站在 administration 办公室里。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "The whole situation gets so big that the president of Cornell has to release a public statement where he says, these individuals are known to Cornell for their past conduct, including a long history of ongoing verbal and online abuse towards numerous members of Cornell's administration and staff.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "The university administration released a public statement.",
+      "example_cn": "大学行政部门发布了一份公开声明。",
+      "example_source": "adapted",
       "source": "verified transcript page 5",
       "ipa_source": "dictionaryapi.dev",
-      "ipa_status": "external_dictionary_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "disruptive",
@@ -1172,7 +1184,7 @@
     },
     {
       "word": "deemed",
-      "definition": "An accreditation awarded to higher educational institutions in India.",
+      "definition": "formally judged or considered to be something",
       "cn": "被认定为",
       "ipa": "/dimd/",
       "difficulty": "Useful",
@@ -1183,21 +1195,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "medium",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “deemed” visible, then recall it through the podcast phrase “has now deemed that it's the”.",
-      "memory_hook": "deemed: has now deemed that it's the",
-      "mental_image_zh": "想象原文场景，并把 “deemed” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "be deemed responsible",
+          "meaning_zh": "被认定负有责任",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "be deemed unsafe",
+          "meaning_zh": "被认定不安全",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "deem + -ed → deemed. Deem already ends in m, so the past form keeps one m and adds -ed.",
+      "memory_hook": "Officials deem it unsafe; it is deemed unsafe.",
+      "mental_image_zh": "文件上盖章写着 deemed responsible，表示已经作出认定。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "not_generated_requires_verified_wordform_based_review",
-      "editorial_status": "requires_human_review",
-      "example": "For Cornell and by default, Michael Kotlikoff, the president, has now deemed that it's the student's fault and he can't come back to campus for a full year.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "The building was deemed unsafe after the inspection.",
+      "example_cn": "检查后，这栋楼被认定为不安全。",
+      "example_source": "adapted",
       "source": "verified transcript page 6",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "harassment",
@@ -1885,9 +1909,9 @@
     },
     {
       "word": "president",
-      "definition": "The head of state of a republic, sometimes also the head of government as well, particularly (US politics) the head of the executive branch of the federal government of the United States of America.",
+      "definition": "the person in charge of a university or organization",
       "cn": "校长；主席",
-      "ipa": "/prɛzədɛnt/",
+      "ipa": "/ˈprɛzɪdənt/",
       "difficulty": "Useful",
       "unit": 1,
       "source_page": 4,
@@ -1896,21 +1920,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “president” visible, then recall it through the podcast phrase “Is the president of Cornell, who”.",
-      "memory_hook": "president: Is the president of Cornell, who",
-      "mental_image_zh": "想象原文场景，并把 “president” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "university president",
+          "meaning_zh": "大学校长",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "company president",
+          "meaning_zh": "公司总裁",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "preside means “lead a meeting”; the person who presides is the president.",
+      "memory_hook": "The president presides over the institution.",
+      "mental_image_zh": "校长站在会议桌首位主持会议，preside 与 president 连在一起。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "Is the president of Cornell, who just backed up into a student and potentially ran over another student's foot.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "The university president addressed the students.",
+      "example_cn": "大学校长向学生发表了讲话。",
+      "example_source": "adapted",
       "source": "verified transcript page 4",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "campus",
@@ -2112,9 +2148,9 @@
     },
     {
       "word": "apparently",
-      "definition": "(rare) Plainly; clearly; manifestly; evidently.",
+      "definition": "according to what seems true or what has been reported, though it may not be certain",
       "cn": "显然；据说",
-      "ipa": "/əpɛrəntli/",
+      "ipa": "/əˈpɛrəntli/",
       "difficulty": "Useful",
       "unit": 1,
       "source_page": 5,
@@ -2123,21 +2159,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “apparently” visible, then recall it through the podcast phrase “them and apparently runs over a”.",
-      "memory_hook": "apparently: them and apparently runs over a",
-      "mental_image_zh": "想象原文场景，并把 “apparently” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "apparently true",
+          "meaning_zh": "看起来是真的",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "apparently unaware",
+          "meaning_zh": "似乎并不知情",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "apparent + -ly → apparently. Drop no letters: keep apparent, then add -ly.",
+      "memory_hook": "If something is only apparent, say apparently rather than certainly.",
+      "mental_image_zh": "事实前蒙着一层薄雾，只能写 apparently，不能写 certainly。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "But he still backs up into them and apparently runs over a foot.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "Apparently, the meeting was moved to Friday.",
+      "example_cn": "听说会议改到星期五了。",
+      "example_source": "adapted",
       "source": "verified transcript page 5",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "traumatized",
@@ -2166,9 +2214,9 @@
     },
     {
       "word": "conduct",
-      "definition": "The act or method of controlling or directing.",
+      "definition": "the way a person behaves, especially in an official or public setting",
       "cn": "行为",
-      "ipa": "/kɑndəkt/",
+      "ipa": "/ˈkɑndʌkt/",
       "difficulty": "Useful",
       "unit": 1,
       "source_page": 5,
@@ -2177,21 +2225,33 @@
       "source_kind": "original",
       "source_verification": "verified_transcript_match",
       "extraction_confidence": "high",
-      "collocations": [],
-      "tip": "Spelling anchor: keep “conduct” visible, then recall it through the podcast phrase “their past conduct, including a long”.",
-      "memory_hook": "conduct: their past conduct, including a long",
-      "mental_image_zh": "想象原文场景，并把 “conduct” 写在画面中央。",
+      "collocations": [
+        {
+          "text": "past conduct",
+          "meaning_zh": "以往行为",
+          "source_kind": "teaching"
+        },
+        {
+          "text": "code of conduct",
+          "meaning_zh": "行为准则",
+          "source_kind": "teaching"
+        }
+      ],
+      "tip": "The noun CONduct stresses the first syllable; the verb conDUCT stresses the second.",
+      "memory_hook": "A code of conduct guides how people conduct themselves.",
+      "mental_image_zh": "行为准则上把名词 CONduct 的重音标在第一个音节。",
       "mnemonic_type": "spelling-and-context",
-      "mnemonic_status": "needs_editorial_work",
-      "editorial_status": "requires_human_review",
-      "example": "The whole situation gets so big that the president of Cornell has to release a public statement where he says, these individuals are known to Cornell for their past conduct, including a long history of ongoing verbal and online abuse towards numerous members of Cornell's administration and staff.",
-      "example_cn": "",
-      "example_source": "transcript",
+      "mnemonic_status": "editorially_curated_complete_card",
+      "editorial_status": "reviewed_complete",
+      "example": "The complaint described a pattern of inappropriate conduct.",
+      "example_cn": "投诉描述了一系列不当行为。",
+      "example_source": "adapted",
       "source": "verified transcript page 5",
       "ipa_source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "ipa_status": "external_dictionary_conversion_unreviewed",
+      "ipa_status": "american_ipa_reviewed",
       "definition_source": "freedictionaryapi.com (Wiktionary-derived)",
-      "definition_status": "external_dictionary_unreviewed"
+      "definition_status": "context_reviewed",
+      "review_date": "2026-10-22"
     },
     {
       "word": "outlet",

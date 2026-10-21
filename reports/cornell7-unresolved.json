@@ -14,18 +14,8 @@
     },
     {
       "unit": 2,
-      "page": 5,
-      "word": "administration"
-    },
-    {
-      "unit": 2,
       "page": 6,
       "word": "compelled"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "deemed"
     },
     {
       "unit": 2,
@@ -83,11 +73,6 @@
       "word": "scandals"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "president"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor"
@@ -106,16 +91,6 @@
       "unit": 2,
       "page": 7,
       "word": "worst"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "apparently"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "conduct"
     },
     {
       "unit": 3,
@@ -1006,18 +981,8 @@
     },
     {
       "unit": 2,
-      "page": 5,
-      "word": "administration"
-    },
-    {
-      "unit": 2,
       "page": 6,
       "word": "compelled"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "deemed"
     },
     {
       "unit": 2,
@@ -1075,11 +1040,6 @@
       "word": "scandals"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "president"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor"
@@ -1098,16 +1058,6 @@
       "unit": 2,
       "page": 7,
       "word": "worst"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "apparently"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "conduct"
     },
     {
       "unit": 3,
@@ -2009,11 +1959,6 @@
     {
       "unit": 2,
       "page": 5,
-      "word": "administration"
-    },
-    {
-      "unit": 2,
-      "page": 5,
       "word": "disruptive"
     },
     {
@@ -2030,11 +1975,6 @@
       "unit": 2,
       "page": 6,
       "word": "compelled"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "deemed"
     },
     {
       "unit": 2,
@@ -2142,11 +2082,6 @@
       "word": "scandals"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "president"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor"
@@ -2168,18 +2103,8 @@
     },
     {
       "unit": 2,
-      "page": 5,
-      "word": "apparently"
-    },
-    {
-      "unit": 2,
       "page": 7,
       "word": "traumatized"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "conduct"
     },
     {
       "unit": 3,
@@ -5078,25 +5003,9 @@
     },
     {
       "unit": 2,
-      "page": 5,
-      "word": "administration",
-      "ipa": "/ədˌmɪnəˈstɹeɪʃən/",
-      "source": "dictionaryapi.dev",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
-      "unit": 2,
       "page": 6,
       "word": "compelled",
       "ipa": "/kəmpɛld/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "deemed",
-      "ipa": "/dimd/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
     },
@@ -5189,14 +5098,6 @@
       "status": "external_dictionary_conversion_unreviewed"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "president",
-      "ipa": "/prɛzədɛnt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor",
@@ -5225,22 +5126,6 @@
       "page": 7,
       "word": "worst",
       "ipa": "/wɝst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "apparently",
-      "ipa": "/əpɛrəntli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "conduct",
-      "ipa": "/kɑndəkt/",
       "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
       "status": "external_dictionary_conversion_unreviewed"
     },
@@ -6837,23 +6722,9 @@
     },
     {
       "unit": 2,
-      "page": 5,
-      "word": "administration",
-      "definition": "(uncountable) The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
       "page": 6,
       "word": "compelled",
       "definition": "Driven; forced.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 6,
-      "word": "deemed",
-      "definition": "An accreditation awarded to higher educational institutions in India.",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
@@ -6934,13 +6805,6 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 2,
-      "page": 4,
-      "word": "president",
-      "definition": "The head of state of a republic, sometimes also the head of government as well, particularly (US politics) the head of the executive branch of the federal government of the United States of America.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 3,
       "page": 8,
       "word": "survivor",
@@ -6966,20 +6830,6 @@
       "page": 7,
       "word": "worst",
       "definition": "(for non-slang definitions) superlative form of bad: most bad",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "apparently",
-      "definition": "(rare) Plainly; clearly; manifestly; evidently.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 2,
-      "page": 5,
-      "word": "conduct",
-      "definition": "The act or method of controlling or directing.",
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {

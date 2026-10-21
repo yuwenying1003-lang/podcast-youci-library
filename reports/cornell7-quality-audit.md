@@ -17,9 +17,9 @@ Generated from source schema `2.4-expanded-fourth-pass` on 2026-10-22.
 - Unit 1 transcript review is complete: all eleven formerly unresolved segments on pages 1–3 now have a documented disposition. This added `back up`, `Is that what it is?`, and `prevent ... from ...` as practical spoken-English items.
 - All 234 former IPA gaps now have externally sourced pronunciations: 12 direct dictionary IPA, 217 CMUdict ARPABET-to-broad-IPA conversions, and 5 transparent inflection/abbreviation rules. They remain flagged for editorial review.
 - All 234 former English-definition gaps are filled: 216 use Wiktionary-derived definitions and 18 multiword terms use a context-matched Podlingora editorial definition. Externally sourced definitions remain flagged for final contextual review.
-- 198 Word examples still have no complete Chinese sentence translation.
-- 197 Words still use generated spelling/context memory anchors and require editorial improvement.
-- 26 Word cards are fully reviewed; 295 remain in the human-review queue.
+- 193 Word examples still have no complete Chinese sentence translation.
+- 192 Words still use generated spelling/context memory anchors and require editorial improvement.
+- 31 Word cards are fully reviewed; 290 remain in the human-review queue. Unit 2 has begun with five high-risk dictionary mismatches corrected (`administration`, `deemed`, `president`, `apparently`, and `conduct`).
 - 398 transcript segments remain in `requires_review`; this work is therefore not described as 100% comprehension coverage.
 
 The complete machine-readable queues are in `cornell7-unresolved.json` and `cornell7-coverage-index.json`.
