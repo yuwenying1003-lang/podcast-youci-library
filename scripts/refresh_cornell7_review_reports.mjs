@@ -63,6 +63,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - Transcript statuses: ${expansion.coverage_status.covered} covered / ${expansion.coverage_status.no_identified_barrier} no identified barrier / ${expansion.coverage_status.requires_review} requires review.
 - This PDF review has individual decisions for ${contextual.length} paragraphs; ${contextual.filter(s => s.status === 'requires_review').length} still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
 - Phrases without reviewed_complete: ${course.expressions.filter(x => x.editorial_status !== 'reviewed_complete').length}; Chunks: ${course.patterns.flat().filter(x => x.editorial_status !== 'reviewed_complete').length}.
+- The 85 expressions added between 416866a and 8458263 received a separate 2026-10-23 second reading: 82 retained, three corrected. Per-entry rationale is in reports/cornell7-added85-quality-20261023-review.json. This is a Phrase-content audit, not certification of Word-card IPA or independent human approval.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
@@ -78,6 +79,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - Follow the remaining Phrase/Chunk counts above, not historical queues. All previously completed cards are preserved; this follow-up also reviewed the previously pending Unit 1 entries, without repeating its completed reviews. A segment-level comprehension decision does not certify unrelated source claims.
 - The source-ambiguous Phrase who pays them out remains explicitly deferred; its existing Chinese gloss is provisional. See reports/cornell7-unit4-deferred-phrase-review.json before editing or approving it.
 - Follow-up continuation and baseline-preservation checks are recorded in reports/cornell7-followup-continuation.md. Do not reapply completed batches simply to clear a queue.
+- For the current listening follow-up after 8458263, use reports/cornell7-listening-continuation-20261023.md; its batch boundaries distinguish newly read/revisited paragraphs from the earlier full pass.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
 - Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.

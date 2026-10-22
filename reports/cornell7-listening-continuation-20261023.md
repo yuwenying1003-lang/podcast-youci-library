@@ -12,7 +12,7 @@ Baseline: 8458263, PR #16, existing feature/cornell7-coverage-expansion branch.
 ## Next
 
 - Unit 7, page 24, segment 376, with later pending paragraphs and covered sentences in the same passage.
-- Separate second-pass quality audit of the 85 entries added between 416866a and 8458263 is in progress; do not infer approval from their existing reviewed_complete flag. Unit 2 entries have been read; per-entry evidence and any corrections still need recording.
+- Separate second-pass quality audit of all 85 entries added between 416866a and 8458263 is recorded in cornell7-added85-quality-20261023-review.json: 82 retained with individual rationale, three corrected (American football translation, unsupported 专职 inference, and a stiff light-side example). This checks the existing Phrase schema, not IPA/mnemonic fields for single-word entries stored as Phrases; it is not independent human approval.
 - Remaining barriers: 163. Current library: 321 Words / 471 Phrases / 118 Chunks.
 - Earlier source ambiguities, including who pays them out, remain pending. Source PDF/index, audio timestamps and application/UI files are unchanged.
 

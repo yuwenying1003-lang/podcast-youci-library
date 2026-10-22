@@ -28,6 +28,23 @@ test('contextual coverage references real items and review summaries agree with 
   const report = await read('reports/cornell7-expansion-report.json');
   const unresolved = await read('reports/cornell7-unresolved.json');
   const source = await read('reports/cornell7-transcript-recovered.json');
+  const recheck = await read('reports/cornell7-added85-quality-20261023-review.json');
+  assert.equal(recheck.entries.length, 85);
+  assert.equal(new Set(recheck.entries.map(([u, text]) => `${u}:${text}`)).size, 85);
+  assert.equal(recheck.independent_human_signoff, false);
+  for (const [unit, text, decision, rationale] of recheck.entries) {
+    const item = course.expressions.find(x => x.unit === unit - 1 && x.text === text);
+    assert.ok(item, text);
+    assert.ok(['retain', 'corrected'].includes(decision));
+    assert.ok(rationale.length > 50, text);
+    assert.equal(item.example_source, 'adapted');
+    assert.ok(item.definition && item.cn && item.example_cn && item.context_review_note);
+    assert.ok(normalized(item.source_excerpt).includes(normalized(text)), text);
+  }
+  for (const correction of recheck.corrections) {
+    const item = course.expressions.find(x => x.unit === correction.unit - 1 && x.text === correction.text);
+    for (const [field, value] of Object.entries(correction.fields)) assert.equal(item[field], value);
+  }
   for (const p of course.expressions.filter(x => x.review_status === 'context_reviewed_source_ambiguous')) {
     assert.notEqual(p.editorial_status, 'reviewed_complete');
     assert.equal(p.independent_human_signoff, false);
