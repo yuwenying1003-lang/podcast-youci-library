@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 471,
+      "phrases": 481,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -62,7 +62,7 @@
         "unit": 7,
         "pages": "24-26",
         "words": 20,
-        "phrases": 26,
+        "phrases": 36,
         "chunks": 5
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 510,
+      "covered": 515,
       "no_identified_barrier": 177,
-      "requires_review": 163
+      "requires_review": 158
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 163,
+      "transcript_segments_requiring_review": 158,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -5663,16 +5663,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:6:snippets",
         "phrase:6:go through",
-        "word:9:snippets",
-        "word:9:title ix",
         "phrase:6:in a second",
-        "chunk:6:we're going to get into"
+        "word:6:overdosed"
       ],
-      "review_reason": "Reviewing excerpts, the institutional framework and the preview expression are all linked. The which-clause identifies the investigation, and there are allegations prevents overdose being treated as a proven event.",
+      "review_reason": "Snippets now has explicit support; go through is examine, get into previews later discussion, and in a second is informal soon. The parenthetical identifies the investigation while allegations limits the claim's evidentiary status.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "When you go through little snippets of the Title IX investigation, which is the Jane Doe investigation that we're going to kind of get into in a second, there are allegations that someone overdosed."
     },
     {
@@ -5866,16 +5865,19 @@
       "page": 25,
       "segment": 395,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:6:kicking people out",
+        "phrase:6:throwing",
+        "phrase:6:ragers",
+        "phrase:4:keg stand",
         "word:6:privileges",
-        "word:6:investigate",
-        "phrase:6:kicking people out"
+        "word:6:investigate"
       ],
-      "review_reason": "Ragers and keg stands remain cultural/slang gaps; profanity intensifies partying. Imagined sanction distinguishes lost event privileges from eviction.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Not kicking people out contrasts eviction with removal of event privileges in imagined institutional speech. Throwing means hosting, ragers is party slang and keg stands is the plural of the previously taught stunt; profanity adds intensity, not a separate action.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "We're not kicking people out, but we're just going to investigate and you guys lose your privileges of throwing fucking ragers and doing keg stands."
     },
     {
@@ -5924,13 +5926,16 @@
       "page": 25,
       "segment": 399,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:touts itself",
+        "phrase:6:motto"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Touts itself and motto are useful vocabulary gaps; building better men is a quoted slogan contrasted with allegations, not endorsed by the lesson.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Self-promotion and guiding-slogan meanings are now taught. Their whole mission restarts the clause; building better men is quoted institutional rhetoric contrasted with allegations, not an assertion that the ideal is met.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The same Chi Phi, the fraternity that touts itself, their whole mission, their motto is building better men."
     },
     {
@@ -5951,15 +5956,17 @@
       "page": 25,
       "segment": 401,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "word:6:creed",
+        "phrase:6:whether on the road or in the chapter house",
+        "phrase:6:the hand of brotherhood is always extended",
         "chunk:6:in short"
       ],
-      "review_reason": "Whether...or and hand of brotherhood is extended are rhetorical patterns still needing support; literal hand extension alone misses welcoming assistance metaphor.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Whether/or covers both settings and the extended-hand metaphor now conveys offered welcome/support. The organization's published creed supports the quoted line, but PDF Kai-Fai spelling is retained and not treated as audio-verified. This is a stated ideal, not proof of actual assistance.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended."
     },
     {
@@ -6016,14 +6023,16 @@
       "page": 25,
       "segment": 405,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:6:chivalrous"
+        "word:6:chivalrous",
+        "phrase:6:crosses the ages",
+        "phrase:6:touch the heart"
       ],
-      "review_reason": "Crosses the ages and touch the heart are figurative rhetoric; chivalrous alone does not resolve the whole line.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Published creed confirms this rhetorical line. Ages are eras, crossing is endurance through time, and heart personifies the organization's inner spirit/feelings. These are ideals, not observed conduct; no literal time travel or bodily contact is inferred.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Chivalrous behavior crosses the ages to touch the heart of Chi Phi."
     },
     {
@@ -6046,13 +6055,15 @@
       "page": 26,
       "segment": 407,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:lawsuit dropped"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Lawsuit dropped here likely means released/filed, unlike drop a lawsuit meaning withdraw it. Needs a context-specific explanation before closure.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Following 409–414 distinguishes newly public allegations and a decision to sue from withdrawal. The informal release sense is now taught with a specific warning against confuse-with-drop-a-lawsuit; neither the exact filing date nor legal validity is verified by this language decision.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So this civil lawsuit dropped September of 2026."
     },
     {
@@ -6254,14 +6265,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:6:they made it seem like",
         "word:6:network",
         "phrase:6:make so many friends",
         "phrase:6:safe environment"
       ],
-      "review_reason": "Network is build relationships; made it seem like and seems frame an impression of safety, not proof that the environment was safe.",
+      "review_reason": "Impression-creating construction is now learner-facing support. Where you network refers to a social setting; seems safe reports perception, not a guarantee. Repeated they were just/they made is a spoken restart.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "They were just, they made it seem like, oh, this is where you network and you make so many friends and it seems like a safe environment."
     },
     {
@@ -6269,14 +6281,12 @@
       "segment": 422,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [
-        "word:5:sorority"
-      ],
+      "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Abrupt joins Tri Delta October 19th wording may fuse prior enrollment with the incident date. Preserve the transcript but do not assert a verified joining date without audio/context confirmation.",
+      "review_reason": "Read with 416–421 and the party scene starting in 423: the date may introduce the incident rather than sorority enrollment. No new punctuation or joining-date assertion is justified from the PDF; retain this chronological/source ambiguity.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So she joins Tri Delta October 19th of 2024."
     },
     {
