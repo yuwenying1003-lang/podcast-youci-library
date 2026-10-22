@@ -8,25 +8,25 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 342 Phrases / 118 Chunks.
-- Word cards carrying reviewed_complete: 294; remaining: 27.
-- Machine translations awaiting context review: 23.
-- Generated memory aids awaiting refinement: 23.
-- External definitions awaiting review: 22; external IPA: 24.
-- Cards with fewer than two populated collocations: 26. This measures completeness, not independent human approval.
-- Transcript statuses: 427 covered / 159 no identified barrier / 264 requires review.
-- This PDF review has individual decisions for 684 paragraphs; 187 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
-- Phrases without reviewed_complete: 267; Chunks: 101.
+- Library: 321 Words / 350 Phrases / 118 Chunks.
+- Word cards carrying reviewed_complete: 321; remaining: 0.
+- Machine translations awaiting context review: 0.
+- Generated memory aids awaiting refinement: 0.
+- External definitions awaiting review: 0; external IPA: 0.
+- Cards with fewer than two populated collocations: 1. This measures completeness, not independent human approval.
+- Transcript statuses: 430 covered / 179 no identified barrier / 241 requires review.
+- This PDF review has individual decisions for 801 paragraphs; 241 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Phrases without reviewed_complete: 263; Chunks: 101.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
 
-- Next unreviewed Word: Unit 11, allegation. Preserve all completed cards in earlier Units.
-- Next paragraph not yet individually read in this PDF pass: page 45, segment 734. The continuous reviewed range is segments 50–733; Unit 1's previous work is preserved.
+- All 321 Word cards now carry completed editorial review; no pending Word remains. Preserve completed cards; independent human sign-off is not implied.
+- The continuous individual PDF review covers segments 50–850 (Units 2–11); no unread paragraph remains in that range. Unit 1's previous work is preserved.
 - Earliest remaining transcript barrier: page 4, segment 51. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
-- Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
+- Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
 - Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.
 

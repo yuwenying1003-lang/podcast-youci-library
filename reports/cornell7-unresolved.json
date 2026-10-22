@@ -3,143 +3,7 @@
   "missing_english_definition": [],
   "missing_example_translation": [],
   "generated_spelling_context_memory": [],
-  "requires_human_review": [
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "allegation"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "statement"
-    },
-    {
-      "unit": 11,
-      "page": 46,
-      "word": "misconduct"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "federal"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "intentional"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "criminally"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutor"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victim"
-    },
-    {
-      "unit": 11,
-      "page": 49,
-      "word": "sanctions"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "academically"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "alleged assault"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "charged"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "graduating"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "emotionally"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "haunt"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "mainstream"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "news outlet"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "recover"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "trauma"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "formal"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "complaint"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "commences"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutors"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "equipped"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "healing"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "instantly"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victims"
-    }
-  ],
+  "requires_human_review": [],
   "transcript_segments_requiring_review": [
     {
       "page": 4,
@@ -1226,117 +1090,85 @@
     {
       "page": 45,
       "segment": 734,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 735,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 737,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Continuation of the prior page's name list; spellings and full list boundaries require source tracking rather than lexical matching.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 45,
       "segment": 738,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 739,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 740,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 741,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Afforded the opportunity and mitigate their conduct are formal and potentially awkward legal-reporting phrases; no keyword hit resolves their scope.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 45,
       "segment": 744,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "As much of a non-statement as a statement can be is a rhetorical comparison criticizing lack of substance; statement alone does not teach this structure.",
       "candidate_learning_item_ids": [
         "word:10:statement"
       ]
     },
     {
       "page": 45,
-      "segment": 745,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
       "segment": 746,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Office of Student Conduct and diligently add institutional-role and manner meanings not covered by the allegation card alone.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 45,
       "segment": 747,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Including what addressing is a disfluent boundary between commentary and reported statement; scope of the list needs annotation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 45,
       "segment": 748,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Suspensions are linked, but whatever that means inserts a skeptical aside into reported institutional wording and needs pragmatic explanation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
+      "segment": 750,
+      "reason": "Quoted abstract challenged how we see each other uses see figuratively and embeds two coordinated clauses; requires sentence-level explanation."
+    },
+    {
+      "page": 46,
       "segment": 751,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Profanity intensifies the rhetorical demand for meaning; it needs an explicit register note, not just a basic question-word match.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
       "segment": 752,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "The challenge idiom is taught, but as it has to others is ellipsis and individual and collective goals adds formal contrast; further annotation is needed.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
       "segment": 753,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Cornelians is a community demonym and restful/loved ones are additional lexical targets; a holiday-name hit would not certify coverage.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
       "segment": 755,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Interim president is a temporary office-holder title requiring a contextual gloss; preserve the historical title rather than updating personnel.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
-      "segment": 757,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 756,
+      "reason": "At the time is clear, but interim and the unfinished before he becomes clause leave both role and structure unresolved."
     },
     {
       "page": 46,
       "segment": 759,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Reverses out of parking spots and the allusion to an earlier event require phrasal-verb and contextual explanation; sarcasm is not a new verified claim.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
       "segment": 761,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "Intriguing conveys interest or suspicion in this comment; the timing observation needs vocabulary support beyond statement.",
       "candidate_learning_item_ids": [
         "word:10:statement"
       ]
@@ -1344,1120 +1176,248 @@
     {
       "page": 46,
       "segment": 762,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Off campus and block his car refer to location and an earlier event, while perhaps marks speculation; the allusion remains unresolved.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
       "segment": 763,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 764,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 765,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Speculating is an important evidentiary qualifier requiring a contextual gloss; it explicitly denies certainty about the proposed motive.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 47,
-      "segment": 768,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 766,
+      "reason": "Careful-search idiom and strong doubt are covered, but festivities and the nested claim about reporters still need sentence-level support."
     },
     {
       "page": 47,
-      "segment": 769,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 770,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 773,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 767,
+      "reason": "Deliberateness and involuntary thought are taught, but vagueness and the disfluent repeated noun phrase require additional explanation; intent remains speculation."
     },
     {
       "page": 47,
       "segment": 774,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Extensive describes the law's broad scope; it is not merely a long physical object and needs contextual vocabulary support.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 47,
       "segment": 775,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "Essay appears to be a transcription error in a list of sexual harms; do not silently replace it. Discrimination and harassment also require explicit contextual teaching.",
       "candidate_learning_item_ids": [
         "word:10:federal"
-      ]
-    },
-    {
-      "page": 47,
-      "segment": 776,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:10:federal"
-      ]
-    },
-    {
-      "page": 47,
-      "segment": 777,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 778,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:10:commences"
       ]
     },
     {
       "page": 47,
       "segment": 779,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Put together means assemble people, but panel needs the group-of-reviewers sense; the phrasal verb alone does not explain the role.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 47,
       "segment": 780,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 781,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 782,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 783,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Narrator uses panel as shorthand for this investigation; a panel is not universally synonymous with the whole Title IX process.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 48,
-      "segment": 784,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 787,
+      "reason": "Themselves is an isolated reflexive used rhetorically to allege self-investigation; its referent and scope need annotation."
     },
     {
       "page": 48,
       "segment": 789,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Panel means an assembled group here, and little can be dismissive; it needs a contextual teaching entry.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 48,
-      "segment": 790,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 48,
-      "segment": 794,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 793,
+      "reason": "Subpoena power, search warrant and DA need precise legal-role glosses; probably marks speculation and a prosecutor card cannot validate the powers described."
     },
     {
       "page": 48,
       "segment": 795,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "No matter what they find is a concessive fragment leading into a legal-authority claim; the sentence must be explained across the boundary.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 48,
       "segment": 796,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "The everyday phrase is taught, but who they refers to and the legal scope of cannot need contextual verification rather than blanket approval.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 48,
+      "segment": 797,
+      "reason": "Criminally is reviewed, but take this criminally is nonstandard wording attached to a sweeping authority claim; preserve and annotate, not endorse as a legal rule."
+    },
+    {
+      "page": 48,
       "segment": 800,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Several hedges end in an unfinished there's clause; do not certify the fragment without its continuation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 48,
       "segment": 801,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 803,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Gap completes the previous sentence and refers to elapsed time; isolated treatment would hide the cross-paragraph syntax.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 804,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Hearings is a procedural-event noun needing distinction from ordinary listening; the numeric claim remains attributed.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 805,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Expelled must be distinguished from suspended, and it appears qualifies the outcome; investigation vocabulary alone does not explain the sanction.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
+      "segment": 806,
+      "reason": "Run-on combines suspension, return timing and a question about expulsion; different penalties and speaker turns still need annotation."
+    },
+    {
+      "page": 49,
       "segment": 807,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Expelled versus suspended and uncertain Jillio name rendering are unresolved; do not silently normalize identities or merge sanctions.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 808,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 809,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Involved in sexual activity is reported as others' wording; the phrase can obscure allegations and requires careful attribution rather than unqualified teaching.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 810,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Initiated it needs a precise antecedent and contextual verb gloss; invited her does not establish consent to later acts.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 811,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Crude quoted message ends in alum and needs register/abbreviation support; sending it remains an attributed allegation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 812,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Tied to means associated with in reports, not physically bound; the drug card alone does not cover the figurative relation or attribution.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 813,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Conduct is a vague reference to alleged acts and the name variant Jillia remains uncertain; preserve source spellings.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
+      "segment": 814,
+      "reason": "Sanctions are penalties, but egregious and multiple speculative hedges require explanation; the reason for different outcomes is not established."
+    },
+    {
+      "page": 49,
       "segment": 815,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "So why are people so is abandoned before a new question; sentence repair and expulsion terminology remain barriers.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 816,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 817,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 818,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Expelled, suspended and back are combined in a broken correction; do not assign a definite outcome to a named person from this fragment.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 819,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Repeated could have been is a false start and Jillio is an uncertain spelling; separate possibility for one person from assertion about another.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
-      "segment": 820,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 823,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 824,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:10:sanctions"
-      ]
+      "segment": 825,
+      "reason": "Charged academically is nonstandard and sits awkwardly beside academic sanctions; retain source and verify audio instead of silently changing it to criminally."
     },
     {
       "page": 50,
       "segment": 826,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 828,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 829,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 830,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "DA's office abbreviation and the difference between investigated and charged need contextual legal-role support; zero is the narrator's claim.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 831,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "DA abbreviation plus a relative clause ending at that need continuation and role explanation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
+      "segment": 832,
+      "reason": "At the time is clear but get attention completes the prior relative clause; standalone status must not conceal the boundary.",
+      "candidate_learning_item_ids": [
+        "phrase:10:at the time"
+      ]
+    },
+    {
+      "page": 50,
       "segment": 833,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Long sentence combines allegations, relative dates, civil action and organizations; it requires clause/reference annotation, not a single lawsuit match.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 834,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Continuation of the list of defendants; the bar name and organizational role need linkage to the preceding sentence.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 835,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Jane does states appears to be a transcription problem introducing a personal quotation; preserve the wording and verify attribution before normalizing.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 836,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Brutalized is a strong harm verb and the sentence ends at perhaps; the continuation on page 51 is necessary.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 51,
-      "segment": 842,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 51,
-      "segment": 843,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 844,
+      "reason": "DA's office still needs a contextual institutional gloss; go through means discuss the statements, not physically pass through an office."
     },
     {
       "page": 51,
       "segment": 846,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 51,
-      "segment": 847,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "DA role and handling it need explanation; now in 2026 belongs to the recording and the unprecedented claim is the narrator's personal judgment.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 51,
       "segment": 850,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "The time connector is taught, but come up ambiguously refers to the next release and edit has an implicit object; no release date or timestamp may be invented.",
       "candidate_learning_item_ids": []
     }
   ],
-  "externally_sourced_ipa_requiring_review": [
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "allegation",
-      "ipa": "/æləɡeɪʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "statement",
-      "ipa": "/steɪtmənt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "federal",
-      "ipa": "/fɛdɚəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "intentional",
-      "ipa": "/ɪntɛnʃənəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "criminally",
-      "ipa": "/krɪmənəli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victim",
-      "ipa": "/vɪktəm/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "academically",
-      "ipa": "/ækədɛmɪkli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "alleged assault",
-      "ipa": "/əlɛdʒd əsɔlt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "charged",
-      "ipa": "/tʃɑrdʒd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "graduating",
-      "ipa": "/ɡrædʒəweɪtɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "emotionally",
-      "ipa": "/ɪmoʊʃnəli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "haunt",
-      "ipa": "/hɔnt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "mainstream",
-      "ipa": "/meɪnstrim/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "news outlet",
-      "ipa": "/nuz aʊtlɛt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "recover",
-      "ipa": "/rɪkʌvɚ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "trauma",
-      "ipa": "/trɔmə/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "formal",
-      "ipa": "/fɔrməl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "complaint",
-      "ipa": "/kəmpleɪnt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "commences",
-      "ipa": "/kəmɛnsəz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutors",
-      "ipa": "/prɑsɪkjutɚz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "equipped",
-      "ipa": "/ɪkwɪpt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "healing",
-      "ipa": "/hilɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "instantly",
-      "ipa": "/ɪnstəntli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victims",
-      "ipa": "/vɪktəmz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    }
-  ],
-  "externally_sourced_definition_requiring_review": [
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "allegation",
-      "definition": "An assertion, especially an accusation, not necessarily based on facts.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "statement",
-      "definition": "A declaration or remark.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "federal",
-      "definition": "Pertaining to a league or treaty; derived from an agreement or covenant between parties, especially between nations.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "intentional",
-      "definition": "Intended or planned; done deliberately or voluntarily.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "criminally",
-      "definition": "In a criminal manner.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victim",
-      "definition": "One that is harmed—killed, injured, subjected to oppression, deceit, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition; in particular:",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "academically",
-      "definition": "In an academic style or way; from an academic perspective.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "charged",
-      "definition": "Arousing strong emotion.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "graduating",
-      "definition": "present participle and gerund of graduate",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "emotionally",
-      "definition": "In an emotional manner; displaying emotion.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "haunt",
-      "definition": "(transitive) To inhabit or to visit frequently (most often used in reference to ghosts).",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "mainstream",
-      "definition": "Used or accepted broadly rather than by small portions of population, market, scientific community, etc.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "recover",
-      "definition": "(transitive) To get back, to regain (a physical thing; in astronomy and navigation, sight of a thing or a signal).",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "trauma",
-      "definition": "Any injury to the body of a living thing.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "formal",
-      "definition": "In accordance with established forms.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "complaint",
-      "definition": "The act of complaining.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "commences",
-      "definition": "third-person singular simple present indicative of commence",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutors",
-      "definition": "plural of prosecutor",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "equipped",
-      "definition": "Having the equipment, resources, and skills one needs; prepared.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "healing",
-      "definition": "The process where the cells in the body regenerate and repair themselves.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "instantly",
-      "definition": "At once; without delay.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victims",
-      "definition": "plural of victim",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    }
-  ],
-  "machine_translations_requiring_review": [
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "allegation",
-      "example": "During Thanksgiving break, two days before Thanksgiving, actually, Cornell releases a statement very quietly, almost titled Update on Disturbing Allegations of Sexual Violence.",
-      "translation": "实际上，在感恩节假期期间，即感恩节前两天，康奈尔大学非常安静地发布了一份声明，几乎标题为“关于令人不安的性暴力指控的更新”。"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "statement",
-      "example": "The very first Cornell statement in 2024 about this incident is November 26th.",
-      "translation": "康奈尔大学 2024 年关于这一事件的第一份声明是在 11 月 26 日。"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "federal",
-      "example": "Title IX is a federal law that in short...",
-      "translation": "简而言之，第九条是一项联邦法律……"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "criminally",
-      "example": "They have no authority to take this criminally in any way.",
-      "translation": "他们无权以任何方式将此视为刑事犯罪。"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victim",
-      "example": "These are not prosecutors who are equipped to handle victims who might have been sexually assaulted and know how to investigate these things.",
-      "translation": "这些检察官没有能力处理可能遭受性侵犯的受害者，也不知道如何调查这些事情。"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "academically",
-      "example": "We're going to get into it, but exactly zero are charged academically.",
-      "translation": "我们将深入探讨它，但学术费用恰好为零。"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "alleged assault",
-      "example": "Meanwhile, Jane Doe drops out of school after the alleged assault.",
-      "translation": "与此同时，简·多伊 (Jane Doe) 在遭受所谓的袭击后辍学。"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "charged",
-      "example": "We're going to get into it, but exactly zero are charged academically.",
-      "translation": "我们将深入探讨它，但学术费用恰好为零。"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "graduating",
-      "example": "He's graduating.",
-      "translation": "他要毕业了。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "emotionally",
-      "example": "More importantly, emotionally.",
-      "translation": "更重要的是，情感上的。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "haunt",
-      "example": "It will haunt me and be part of me for the rest of my life.",
-      "translation": "它将困扰我并成为我余生的一部分。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "mainstream",
-      "example": "And this case gets picked up instantly after Jane Doe's lawsuit by almost every single mainstream media news outlet in the United States.",
-      "translation": "在无名氏提起诉讼后，美国几乎所有主流媒体新闻机构都立即报道了此案。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "news outlet",
-      "example": "And this case gets picked up instantly after Jane Doe's lawsuit by almost every single mainstream media news outlet in the United States.",
-      "translation": "在无名氏提起诉讼后，美国几乎所有主流媒体新闻机构都立即报道了此案。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "recover",
-      "example": "I want to recover from this trauma but it is extremely difficult.",
-      "translation": "我想从这次创伤中恢复过来，但这非常困难。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "trauma",
-      "example": "I want to recover from this trauma but it is extremely difficult.",
-      "translation": "我想从这次创伤中恢复过来，但这非常困难。"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "formal",
-      "example": "Cornell commences a Title IX investigation into Jane Doe's formal complaint.",
-      "translation": "康奈尔大学开始对无名氏的正式投诉进行第九条调查。"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "complaint",
-      "example": "Cornell commences a Title IX investigation into Jane Doe's formal complaint.",
-      "translation": "康奈尔大学开始对无名氏的正式投诉进行第九条调查。"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "commences",
-      "example": "Cornell commences a Title IX investigation into Jane Doe's formal complaint.",
-      "translation": "康奈尔大学开始对无名氏的正式投诉进行第九条调查。"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutors",
-      "example": "But these are not federal prosecutors.",
-      "translation": "但他们不是联邦检察官。"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "equipped",
-      "example": "These are not prosecutors who are equipped to handle victims who might have been sexually assaulted and know how to investigate these things.",
-      "translation": "这些检察官没有能力处理可能遭受性侵犯的受害者，也不知道如何调查这些事情。"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "healing",
-      "example": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone.",
-      "translation": "可能是简正忙于学业或治疗，或者因为受到了太大的创伤而无法与任何人交谈。"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "instantly",
-      "example": "And this case gets picked up instantly after Jane Doe's lawsuit by almost every single mainstream media news outlet in the United States.",
-      "translation": "在无名氏提起诉讼后，美国几乎所有主流媒体新闻机构都立即报道了此案。"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victims",
-      "example": "These are not prosecutors who are equipped to handle victims who might have been sexually assaulted and know how to investigate these things.",
-      "translation": "这些检察官没有能力处理可能遭受性侵犯的受害者，也不知道如何调查这些事情。"
-    }
-  ],
-  "form_generated_memory_requiring_review": [
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "allegation"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "statement"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "federal"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "criminally"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victim"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "academically"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "alleged assault"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "charged"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "graduating"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "emotionally"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "haunt"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "mainstream"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "news outlet"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "recover"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "trauma"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "formal"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "complaint"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "commences"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutors"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "equipped"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "healing"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "instantly"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victims"
-    }
-  ],
+  "externally_sourced_ipa_requiring_review": [],
+  "externally_sourced_definition_requiring_review": [],
+  "machine_translations_requiring_review": [],
+  "form_generated_memory_requiring_review": [],
   "fewer_than_two_collocations": [
     {
       "unit": 1,
       "page": 3,
       "word": "bizarre"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "allegation"
-    },
-    {
-      "unit": 11,
-      "page": 45,
-      "word": "statement"
-    },
-    {
-      "unit": 11,
-      "page": 46,
-      "word": "misconduct"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "federal"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "criminally"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victim"
-    },
-    {
-      "unit": 11,
-      "page": 49,
-      "word": "sanctions"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "academically"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "alleged assault"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "charged"
-    },
-    {
-      "unit": 11,
-      "page": 50,
-      "word": "graduating"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "emotionally"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "haunt"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "mainstream"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "news outlet"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "recover"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "trauma"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "formal"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "complaint"
-    },
-    {
-      "unit": 11,
-      "page": 47,
-      "word": "commences"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "prosecutors"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "equipped"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "healing"
-    },
-    {
-      "unit": 11,
-      "page": 51,
-      "word": "instantly"
-    },
-    {
-      "unit": 11,
-      "page": 48,
-      "word": "victims"
     }
   ]
 }

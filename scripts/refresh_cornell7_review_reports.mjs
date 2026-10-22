@@ -64,12 +64,12 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Exact continuation
 
-- Next unreviewed Word: Unit ${pending.unit + 1}, ${pending.word}. Preserve all completed cards in earlier Units.
-- Next paragraph not yet individually read in this PDF pass: page ${nextParagraph.page}, segment ${nextParagraph.segment}. The continuous reviewed range is segments 50–${nextParagraph.segment - 1}; Unit 1's previous work is preserved.
-- Earliest remaining transcript barrier: page ${unresolved.transcript_segments_requiring_review[0].page}, segment ${unresolved.transcript_segments_requiring_review[0].segment}. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
+- ${pending ? `Next unreviewed Word: Unit ${pending.unit + 1}, ${pending.word}.` : 'All 321 Word cards now carry completed editorial review; no pending Word remains.'} Preserve completed cards; independent human sign-off is not implied.
+- ${nextParagraph ? `Next paragraph not yet individually read in this PDF pass: page ${nextParagraph.page}, segment ${nextParagraph.segment}. The continuous reviewed range is segments 50–${nextParagraph.segment - 1}.` : 'The continuous individual PDF review covers segments 50–850 (Units 2–11); no unread paragraph remains in that range.'} Unit 1's previous work is preserved.
+- ${unresolved.transcript_segments_requiring_review.length ? `Earliest remaining transcript barrier: page ${unresolved.transcript_segments_requiring_review[0].page}, segment ${unresolved.transcript_segments_requiring_review[0].segment}.` : 'No transcript barrier is currently queued.'} Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
-- Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
+- Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
 - Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.
 
