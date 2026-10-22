@@ -26825,696 +26825,843 @@
     [
       {
         "text": "trying to figure out",
-        "cn": "试图弄清楚",
-        "example": "This is another undergraduate student who's also just trying to figure out college.",
-        "prompt": "Use “trying to figure out” in a complete sentence.",
+        "cn": "正在努力弄明白；设法解决",
+        "example": "I'm trying to figure out which setting to use.",
+        "prompt": "Describe an ongoing attempt to understand or solve something.",
         "source_page": 27,
         "source_segment": "page-27",
         "source_excerpt": "This is another undergraduate student who's also just trying to figure out college.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "试图弄清楚",
+        "communicative_function": "Describe an ongoing attempt to understand or solve something.",
         "original_en": "This is another undergraduate student who's also just trying to figure out college.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I'm trying to figure out which setting to use.",
+        "everyday_example_zh": "我正在弄清楚该用哪一个设置。",
+        "workplace_example": "I'm trying to figure out why the numbers are different.",
+        "replaceable_parts": "Subject + be + trying to figure out + noun or embedded question; figure it out, not figure out it.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“试图弄清楚”这一表达。",
-            "goal_en": "trying to figure out",
+            "scene_zh": "你新买的洗衣机有很多按钮，向家人解释自己正在研究操作。",
+            "goal_en": "Describe an ongoing attempt to understand or solve something.",
             "keywords": [
-              "today",
-              "plan"
+              "settings",
+              "washing machine"
             ],
-            "starter": "trying to figure out",
-            "reference_answer": "This is another undergraduate student who's also just trying to figure out college."
+            "starter": "I'm trying to figure out",
+            "reference_answer": "I'm trying to figure out which setting to use.",
+            "reference_answer_zh": "我正在弄清楚该用哪一个设置。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“试图弄清楚”这一表达。",
-            "goal_en": "trying to figure out",
+            "scene_zh": "你和朋友计划旅行，仍在比较哪条路线最适合大家。",
+            "goal_en": "Describe an ongoing attempt to understand or solve something.",
             "keywords": [
-              "friend",
-              "situation"
+              "route",
+              "everyone"
             ],
-            "starter": "trying to figure out",
-            "reference_answer": "This is another undergraduate student who's also just trying to figure out college."
+            "starter": "We're trying to figure out",
+            "reference_answer": "We're trying to figure out which route works for everyone.",
+            "reference_answer_zh": "我们正设法弄清哪条路线适合所有人。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“试图弄清楚”这一表达。",
-            "goal_en": "trying to figure out",
+            "scene_zh": "你向同事说明报表异常尚未解决，正在查找原因。",
+            "goal_en": "Describe an ongoing attempt to understand or solve something.",
             "keywords": [
-              "project",
-              "team"
+              "numbers",
+              "different"
             ],
-            "starter": "trying to figure out",
-            "reference_answer": "This is another undergraduate student who's also just trying to figure out college."
+            "starter": "I'm trying to figure out",
+            "reference_answer": "I'm trying to figure out why the numbers are different.",
+            "reference_answer_zh": "我正在弄清这些数字为什么不一样。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我正在弄清楚该用哪一个设置。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我正在弄清这些数字为什么不一样。",
+        "context_review_note": "Figure out college means learn how to navigate college life, not calculate a numerical answer.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I'm assuming ...",
-        "cn": "我猜……",
-        "example": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID.",
-        "prompt": "Use “I'm assuming ...” in a complete sentence.",
+        "cn": "我暂且认为；我推测……",
+        "example": "I'm assuming dinner is still at seven. Is that right?",
+        "prompt": "State an assumption openly so others can confirm or correct it.",
         "source_page": 28,
         "source_segment": "page-28",
         "source_excerpt": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我猜……",
+        "communicative_function": "State an assumption openly so others can confirm or correct it.",
         "original_en": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "I'm assuming dinner is still at seven. Is that right?",
+        "everyday_example_zh": "我先按晚餐还是七点来安排，对吗？",
+        "workplace_example": "I'm assuming the budget is unchanged. Please confirm before I proceed.",
+        "replaceable_parts": "I'm assuming + clause; optionally follow with is that right? Do not present an assumption as verified knowledge.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我猜……”这一表达。",
-            "goal_en": "I'm assuming ...",
+            "scene_zh": "家人没有更改晚餐时间，你先说明自己仍按七点来安排。",
+            "goal_en": "State an assumption openly so others can confirm or correct it.",
             "keywords": [
-              "today",
-              "plan"
+              "dinner",
+              "seven"
             ],
-            "starter": "I'm assuming ...",
-            "reference_answer": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID."
+            "starter": "I'm assuming",
+            "reference_answer": "I'm assuming dinner is still at seven. Is that right?",
+            "reference_answer_zh": "我先按晚餐还是七点来安排，对吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我猜……”这一表达。",
-            "goal_en": "I'm assuming ...",
+            "scene_zh": "朋友说大家一起去看电影，你想确认他是否已经订好了票。",
+            "goal_en": "State an assumption openly so others can confirm or correct it.",
             "keywords": [
-              "friend",
-              "situation"
+              "tickets",
+              "booked"
             ],
-            "starter": "I'm assuming ...",
-            "reference_answer": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID."
+            "starter": "I'm assuming",
+            "reference_answer": "I'm assuming you've booked the tickets, but please correct me if not.",
+            "reference_answer_zh": "我以为你已经订好票了，如果没有请告诉我。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我猜……”这一表达。",
-            "goal_en": "I'm assuming ...",
+            "scene_zh": "任务说明没提预算变化，你向经理明确说出当前采用的前提。",
+            "goal_en": "State an assumption openly so others can confirm or correct it.",
             "keywords": [
-              "project",
-              "team"
+              "budget",
+              "unchanged"
             ],
-            "starter": "I'm assuming ...",
-            "reference_answer": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID."
+            "starter": "I'm assuming",
+            "reference_answer": "I'm assuming the budget is unchanged. Please confirm before I proceed.",
+            "reference_answer_zh": "我暂且认为预算没有变化，请在我继续之前确认。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我先按晚餐还是七点来安排，对吗？",
+        "example_source": "adapted",
+        "workplace_example_zh": "我暂且认为预算没有变化，请在我继续之前确认。",
+        "context_review_note": "The narrator assumes an ID check; source does not establish that it occurred.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "By this point",
-        "cn": "到了这个时候",
-        "example": "By this point, we had finished testing.",
-        "prompt": "Describe a timeline.",
+        "cn": "到这个时候；截至这一步",
+        "example": "By this point, we had packed most of the boxes.",
+        "prompt": "Locate an accumulated result at a particular stage of a narrative.",
         "source_page": 29,
         "source_segment": "page-29",
         "source_excerpt": "By this point, Jane thinks that she's probably had like 10 drinks in the past three hours.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "到了这个时候",
+        "communicative_function": "Locate an accumulated result at a particular stage of a narrative.",
         "original_en": "By this point, Jane thinks that she's probably had like 10 drinks in the past three hours.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "By this point, we had packed most of the boxes.",
+        "everyday_example_zh": "到这个时候，我们已经装好了大部分箱子。",
+        "workplace_example": "By this point, we had completed all the planned tests.",
+        "replaceable_parts": "By this point, + clause; often had + past participle when looking back within a past narrative.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "做饭时发现结果和预想不同：请用“到了这个时候……”组织一句完整英语。",
-            "goal_en": "Describe a timeline.",
+            "label": "Daily life",
+            "scene_zh": "你向家人回忆搬家过程，说明到下午时已经打包完大部分物品。",
+            "goal_en": "Locate an accumulated result at a particular stage of a narrative.",
             "keywords": [
-              "point",
-              "finished",
-              "testing"
+              "packed",
+              "boxes"
             ],
-            "starter": "by this point",
-            "reference_answer": "By this point, we had finished testing."
+            "starter": "By this point,",
+            "reference_answer": "By this point, we had packed most of the boxes.",
+            "reference_answer_zh": "到这个时候，我们已经装好了大部分箱子。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "分享一次旅行中的意外经历：请用“到了这个时候……”组织一句完整英语。",
-            "goal_en": "Describe a timeline.",
+            "label": "Friends",
+            "scene_zh": "你向朋友讲徒步经历，说明走到山脚时大家已经很累了。",
+            "goal_en": "Locate an accumulated result at a particular stage of a narrative.",
             "keywords": [
-              "point",
-              "finished",
-              "testing"
+              "tired",
+              "walking"
             ],
-            "starter": "by this point",
-            "reference_answer": "By this point, we had finished testing."
+            "starter": "By this point,",
+            "reference_answer": "By this point, everyone was tired from walking.",
+            "reference_answer_zh": "到这个时候，大家都走累了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "说明一个决定可能带来的风险：请用“到了这个时候……”组织一句完整英语。",
-            "goal_en": "Describe a timeline.",
+            "label": "Work",
+            "scene_zh": "你复盘项目进度，说明进入发布阶段前测试已全部完成。",
+            "goal_en": "Locate an accumulated result at a particular stage of a narrative.",
             "keywords": [
-              "point",
-              "finished",
-              "testing"
+              "tests",
+              "completed"
             ],
-            "starter": "by this point",
-            "reference_answer": "By this point, we had finished testing."
+            "starter": "By this point,",
+            "reference_answer": "By this point, we had completed all the planned tests.",
+            "reference_answer_zh": "截至这一步，我们已经完成了所有计划内测试。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "到这个时候，我们已经装好了大部分箱子。",
+        "example_source": "adapted",
+        "workplace_example_zh": "截至这一步，我们已经完成了所有计划内测试。",
+        "context_review_note": "Source introduces an approximate self-reported drink count; the phrase does not verify the count.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "it would appear",
-        "cn": "看起来似乎",
-        "example": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here.",
-        "prompt": "Use “it would appear” in a complete sentence.",
+        "cn": "看来似乎……",
+        "example": "It would appear that the opening hours have changed.",
+        "prompt": "Offer a cautious conclusion from available information.",
         "source_page": 29,
         "source_segment": "page-29",
         "source_excerpt": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "看起来似乎",
+        "communicative_function": "Offer a cautious conclusion from available information.",
         "original_en": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It would appear that the opening hours have changed.",
+        "everyday_example_zh": "看来营业时间似乎改了。",
+        "workplace_example": "It would appear that the connection failed before the upload finished.",
+        "replaceable_parts": "It would appear that + clause; would softens the inference and need not refer to a hypothetical future.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“看起来似乎”这一表达。",
-            "goal_en": "it would appear",
+            "scene_zh": "你查看门口纸条，谨慎告诉家人今天的营业时间可能改了。",
+            "goal_en": "Offer a cautious conclusion from available information.",
             "keywords": [
-              "today",
-              "plan"
+              "hours",
+              "changed"
             ],
-            "starter": "it would appear",
-            "reference_answer": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here."
+            "starter": "It would appear",
+            "reference_answer": "It would appear that the opening hours have changed.",
+            "reference_answer_zh": "看来营业时间似乎改了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“看起来似乎”这一表达。",
-            "goal_en": "it would appear",
+            "scene_zh": "朋友迟迟未到，你根据公交应用信息判断可能有延误。",
+            "goal_en": "Offer a cautious conclusion from available information.",
             "keywords": [
-              "friend",
-              "situation"
+              "bus",
+              "delayed"
             ],
-            "starter": "it would appear",
-            "reference_answer": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here."
+            "starter": "It would appear",
+            "reference_answer": "It would appear that her bus has been delayed.",
+            "reference_answer_zh": "看来她乘坐的公交似乎晚点了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“看起来似乎”这一表达。",
-            "goal_en": "it would appear",
+            "scene_zh": "你查看日志后向团队报告初步推断，尚未完成根因调查。",
+            "goal_en": "Offer a cautious conclusion from available information.",
             "keywords": [
-              "project",
-              "team"
+              "connection",
+              "failed"
             ],
-            "starter": "it would appear",
-            "reference_answer": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here."
+            "starter": "It would appear",
+            "reference_answer": "It would appear that the connection failed before the upload finished.",
+            "reference_answer_zh": "看来连接似乎在上传完成之前中断了。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看来营业时间似乎改了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "看来连接似乎在上传完成之前中断了。",
+        "context_review_note": "At least from the filing limits the source's conclusion; a filed account is not automatically a verified finding.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "According to the lawsuit",
-        "cn": "根据诉状",
-        "example": "According to the report, the device stopped responding.",
-        "prompt": "Report what a source claims.",
+        "cn": "根据诉状所述",
+        "example": "According to the lawsuit in this example, the customer never received a refund.",
+        "prompt": "Attribute a claim to a legal filing rather than assert it as a proven fact.",
         "source_page": 30,
         "source_segment": "page-30",
         "source_excerpt": "Matthew pulls Jane off to the side and she says, according to the lawsuit, he propositioned her, asks her if she wants to have a threesome with another one of his fraternity brothers.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "根据诉状",
+        "communicative_function": "Attribute a claim to a legal filing rather than assert it as a proven fact.",
         "original_en": "Matthew pulls Jane off to the side and she says, according to the lawsuit, he propositioned her, asks her if she wants to have a threesome with another one of his fraternity brothers.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "According to the lawsuit in this example, the customer never received a refund.",
+        "everyday_example_zh": "根据这个例子中的诉状所述，顾客一直没有收到退款。",
+        "workplace_example": "According to the report, costs fell last quarter.",
+        "replaceable_parts": "According to + identified source, + clause. Transfer to a report, instructions or schedule in ordinary contexts.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "周末出行时改变了原计划：请用“根据诉状所称……”组织一句完整英语。",
-            "goal_en": "Report what a source claims.",
+            "label": "Daily life",
+            "scene_zh": "你在阅读一个虚构的消费纠纷案例，向家人转述诉状声称的情况。",
+            "goal_en": "Attribute a claim to a legal filing rather than assert it as a proven fact.",
             "keywords": [
-              "according",
-              "report",
-              "device",
-              "stopped"
+              "lawsuit",
+              "refund"
             ],
-            "starter": "according to the lawsuit",
-            "reference_answer": "According to the report, the device stopped responding."
+            "starter": "According to the lawsuit,",
+            "reference_answer": "According to the lawsuit in this example, the customer never received a refund.",
+            "reference_answer_zh": "根据这个例子中的诉状所述，顾客一直没有收到退款。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "回应朋友对周末计划的看法：请用“根据诉状所称……”组织一句完整英语。",
-            "goal_en": "Report what a source claims.",
+            "label": "Friends",
+            "scene_zh": "朋友问集合时间，你按活动日程转述信息，不凭记忆猜测。",
+            "goal_en": "Attribute a claim to a legal filing rather than assert it as a proven fact.",
             "keywords": [
-              "according",
-              "report",
-              "device",
-              "stopped"
+              "schedule",
+              "noon"
             ],
-            "starter": "according to the lawsuit",
-            "reference_answer": "According to the report, the device stopped responding."
+            "starter": "According to the schedule,",
+            "reference_answer": "According to the schedule, the tour starts at noon.",
+            "reference_answer_zh": "根据日程，游览中午开始。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "更新团队目前已经确认的信息：请用“根据诉状所称……”组织一句完整英语。",
-            "goal_en": "Report what a source claims.",
+            "label": "Work",
+            "scene_zh": "你在工作会上转述报告数据，明确指出信息来自报告。",
+            "goal_en": "Attribute a claim to a legal filing rather than assert it as a proven fact.",
             "keywords": [
-              "according",
               "report",
-              "device",
-              "stopped"
+              "costs"
             ],
-            "starter": "according to the lawsuit",
-            "reference_answer": "According to the report, the device stopped responding."
+            "starter": "According to the report,",
+            "reference_answer": "According to the report, costs fell last quarter.",
+            "reference_answer_zh": "根据报告，上季度成本下降了。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "根据这个例子中的诉状所述，顾客一直没有收到退款。",
+        "example_source": "adapted",
+        "workplace_example_zh": "根据报告，上季度成本下降了。",
+        "context_review_note": "Lawsuit attribution matters in the source. Teaching scenarios below are hypothetical readings of documents, not claims about the real case.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "it appears that",
-        "cn": "看起来",
-        "example": "And it appears that Matthew eventually comes back.",
-        "prompt": "Use “it appears that” in a complete sentence.",
+        "cn": "看来；似乎……",
+        "example": "It appears that we've run out of milk.",
+        "prompt": "Report an apparent situation while keeping uncertainty visible.",
         "source_page": 30,
         "source_segment": "page-30",
         "source_excerpt": "And it appears that Matthew eventually comes back.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "看起来",
+        "communicative_function": "Report an apparent situation while keeping uncertainty visible.",
         "original_en": "And it appears that Matthew eventually comes back.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It appears that we've run out of milk.",
+        "everyday_example_zh": "看来我们的牛奶用完了。",
+        "workplace_example": "It appears that we edited different versions of the file.",
+        "replaceable_parts": "It appears that + full clause; do not omit the subject inside the clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“看起来”这一表达。",
-            "goal_en": "it appears that",
+            "scene_zh": "你检查冰箱后发现牛奶没有了，向家人说明目前看到的情况。",
+            "goal_en": "Report an apparent situation while keeping uncertainty visible.",
             "keywords": [
-              "today",
-              "plan"
+              "milk",
+              "run out"
             ],
-            "starter": "it appears that",
-            "reference_answer": "And it appears that Matthew eventually comes back."
+            "starter": "It appears that",
+            "reference_answer": "It appears that we've run out of milk.",
+            "reference_answer_zh": "看来我们的牛奶用完了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“看起来”这一表达。",
-            "goal_en": "it appears that",
+            "scene_zh": "朋友发来的地图显示路线封闭，你提出一个待确认的判断。",
+            "goal_en": "Report an apparent situation while keeping uncertainty visible.",
             "keywords": [
-              "friend",
-              "situation"
+              "road",
+              "closed"
             ],
-            "starter": "it appears that",
-            "reference_answer": "And it appears that Matthew eventually comes back."
+            "starter": "It appears that",
+            "reference_answer": "It appears that the road is closed, so let's check another route.",
+            "reference_answer_zh": "看来这条路封了，我们查一下其他路线吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“看起来”这一表达。",
-            "goal_en": "it appears that",
+            "scene_zh": "你查看共享文件，向同事说明两人可能编辑了不同版本。",
+            "goal_en": "Report an apparent situation while keeping uncertainty visible.",
             "keywords": [
-              "project",
-              "team"
+              "versions",
+              "different"
             ],
-            "starter": "it appears that",
-            "reference_answer": "And it appears that Matthew eventually comes back."
+            "starter": "It appears that",
+            "reference_answer": "It appears that we edited different versions of the file.",
+            "reference_answer_zh": "看来我们编辑的是不同版本的文件。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看来我们的牛奶用完了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "看来我们编辑的是不同版本的文件。",
+        "context_review_note": "Source says appears rather than independently confirming a person's return.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's unclear how ...",
-        "cn": "不清楚如何……",
-        "example": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –",
-        "prompt": "Use “It's unclear how ...” in a complete sentence.",
+        "cn": "尚不清楚如何……或有多……",
+        "example": "It's unclear how the water got in.",
+        "prompt": "Identify an unanswered question about method, cause or degree.",
         "source_page": 30,
         "source_segment": "page-30",
         "source_excerpt": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "不清楚如何……",
+        "communicative_function": "Identify an unanswered question about method, cause or degree.",
         "original_en": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It's unclear how the water got in.",
+        "everyday_example_zh": "目前还不清楚水是怎么进来的。",
+        "workplace_example": "It's unclear how much support the team will need.",
+        "replaceable_parts": "It's unclear how + subject + verb; how long/much/many adds a specific dimension. Use statement order, not question inversion.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“不清楚如何……”这一表达。",
-            "goal_en": "It's unclear how ...",
+            "scene_zh": "家里的水渍来源还没有找到，你说明目前不清楚水是怎么进来的。",
+            "goal_en": "Identify an unanswered question about method, cause or degree.",
             "keywords": [
-              "today",
-              "plan"
+              "water",
+              "got in"
             ],
-            "starter": "It's unclear how ...",
-            "reference_answer": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
+            "starter": "It's unclear how",
+            "reference_answer": "It's unclear how the water got in.",
+            "reference_answer_zh": "目前还不清楚水是怎么进来的。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“不清楚如何……”这一表达。",
-            "goal_en": "It's unclear how ...",
+            "scene_zh": "朋友计划聚会但还没有确定交通方式，你指出人数安排仍不明朗。",
+            "goal_en": "Identify an unanswered question about method, cause or degree.",
             "keywords": [
-              "friend",
-              "situation"
+              "many",
+              "coming"
             ],
-            "starter": "It's unclear how ...",
-            "reference_answer": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
+            "starter": "It's unclear how",
+            "reference_answer": "It's unclear how many people are coming.",
+            "reference_answer_zh": "目前还不清楚会来多少人。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“不清楚如何……”这一表达。",
-            "goal_en": "It's unclear how ...",
+            "scene_zh": "项目刚开始评估，你向经理说明暂时无法确定所需资源。",
+            "goal_en": "Identify an unanswered question about method, cause or degree.",
             "keywords": [
-              "project",
-              "team"
+              "resources",
+              "need"
             ],
-            "starter": "It's unclear how ...",
-            "reference_answer": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
+            "starter": "It's unclear how",
+            "reference_answer": "It's unclear how much support the team will need.",
+            "reference_answer_zh": "目前还不清楚团队需要多少支持。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "目前还不清楚水是怎么进来的。",
+        "example_source": "adapted",
+        "workplace_example_zh": "目前还不清楚团队需要多少支持。",
+        "context_review_note": "Source uses how long for uncertain duration; broader method examples are labeled teaching adaptations.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's unclear how long",
-        "cn": "不清楚究竟多久",
-        "example": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –",
-        "prompt": "Use “It's unclear how long” in a complete sentence.",
+        "cn": "尚不清楚要多久或持续了多久",
+        "example": "It's unclear how long the water will be off.",
+        "prompt": "State uncertainty about duration.",
         "source_page": 30,
         "source_segment": "page-30",
         "source_excerpt": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "不清楚究竟多久",
+        "communicative_function": "State uncertainty about duration.",
         "original_en": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's unclear how long the water will be off.",
+        "everyday_example_zh": "目前还不清楚会停水多久。",
+        "workplace_example": "It's unclear how long the issue lasted before it was reported.",
+        "replaceable_parts": "It's unclear how long + clause; keep ordinary statement word order after how long.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“不清楚究竟多久”这一表达。",
-            "goal_en": "It's unclear how long",
+            "scene_zh": "维修人员还没给出时间，你向家人说明停水会持续多久还不知道。",
+            "goal_en": "State uncertainty about duration.",
             "keywords": [
-              "today",
-              "plan"
+              "water",
+              "off"
             ],
             "starter": "It's unclear how long",
-            "reference_answer": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
+            "reference_answer": "It's unclear how long the water will be off.",
+            "reference_answer_zh": "目前还不清楚会停水多久。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“不清楚究竟多久”这一表达。",
-            "goal_en": "It's unclear how long",
+            "scene_zh": "朋友担心排队耽误行程，你说明还不知道具体等待时间。",
+            "goal_en": "State uncertainty about duration.",
             "keywords": [
-              "friend",
-              "situation"
+              "wait",
+              "queue"
             ],
             "starter": "It's unclear how long",
-            "reference_answer": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
+            "reference_answer": "It's unclear how long we'll have to wait.",
+            "reference_answer_zh": "现在还不清楚我们要等多久。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“不清楚究竟多久”这一表达。",
-            "goal_en": "It's unclear how long",
+            "scene_zh": "你在故障报告中说明开始时间还待核实，不能给出持续时长。",
+            "goal_en": "State uncertainty about duration.",
             "keywords": [
-              "project",
-              "team"
+              "issue",
+              "lasted"
             ],
             "starter": "It's unclear how long",
-            "reference_answer": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
+            "reference_answer": "It's unclear how long the issue lasted before it was reported.",
+            "reference_answer_zh": "还不清楚这个问题在被报告之前已经持续了多久。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "目前还不清楚会停水多久。",
+        "example_source": "adapted",
+        "workplace_example_zh": "还不清楚这个问题在被报告之前已经持续了多久。",
+        "context_review_note": "Source contrasts a reported three-to-five-minute estimate with uncertain actual duration; do not invent a precise time.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "as alleged in the lawsuit",
-        "cn": "按诉状所称",
-        "example": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell.",
-        "prompt": "Use “as alleged in the lawsuit” in a complete sentence.",
+        "cn": "如诉状所指称的那样",
+        "example": "As alleged in the lawsuit in this exercise, the fence crossed the boundary.",
+        "prompt": "Mark a description as an allegation contained in a filing.",
         "source_page": 31,
         "source_segment": "page-31",
         "source_excerpt": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "按诉状所称",
+        "communicative_function": "Mark a description as an allegation contained in a filing.",
         "original_en": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "As alleged in the lawsuit in this exercise, the fence crossed the boundary.",
+        "everyday_example_zh": "如本练习的诉状所指称的那样，围栏越过了边界。",
+        "workplace_example": "As alleged in the lawsuit, the supplier missed the deadline; the supplier disputes this.",
+        "replaceable_parts": "As alleged in + document, + clause. For non-legal reporting use as described/reported in, not alleged for neutral facts.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“按诉状所称”这一表达。",
-            "goal_en": "as alleged in the lawsuit",
+            "scene_zh": "在虚构的邻里纠纷阅读练习中，你说明某项说法仅来自诉状。",
+            "goal_en": "Mark a description as an allegation contained in a filing.",
             "keywords": [
-              "today",
-              "plan"
+              "lawsuit",
+              "fence"
             ],
-            "starter": "as alleged in the lawsuit",
-            "reference_answer": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell."
+            "starter": "As alleged in the lawsuit,",
+            "reference_answer": "As alleged in the lawsuit in this exercise, the fence crossed the boundary.",
+            "reference_answer_zh": "如本练习的诉状所指称的那样，围栏越过了边界。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“按诉状所称”这一表达。",
-            "goal_en": "as alleged in the lawsuit",
+            "scene_zh": "朋友讨论一个虚构的新闻案例，你提醒他赔偿要求来自未证实的指控。",
+            "goal_en": "Mark a description as an allegation contained in a filing.",
             "keywords": [
-              "friend",
-              "situation"
+              "claim",
+              "unproven"
             ],
-            "starter": "as alleged in the lawsuit",
-            "reference_answer": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell."
+            "starter": "As alleged in the lawsuit,",
+            "reference_answer": "As alleged in the lawsuit, the seller concealed the damage; that claim is still unproven.",
+            "reference_answer_zh": "诉状指称卖家隐瞒了损坏情况，但这一说法仍未经证实。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“按诉状所称”这一表达。",
-            "goal_en": "as alleged in the lawsuit",
+            "scene_zh": "你在模拟合规讨论中区分对方诉状主张和已经确认的事实。",
+            "goal_en": "Mark a description as an allegation contained in a filing.",
             "keywords": [
-              "project",
-              "team"
+              "lawsuit",
+              "disputed"
             ],
-            "starter": "as alleged in the lawsuit",
-            "reference_answer": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell."
+            "starter": "As alleged in the lawsuit,",
+            "reference_answer": "As alleged in the lawsuit, the supplier missed the deadline; the supplier disputes this.",
+            "reference_answer_zh": "诉状指称供应商错过了截止日期，供应商对此有异议。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "如本练习的诉状所指称的那样，围栏越过了边界。",
+        "example_source": "adapted",
+        "workplace_example_zh": "诉状指称供应商错过了截止日期，供应商对此有异议。",
+        "context_review_note": "Alleged is not proven. Source anchors a disputed account to a filing; the phrase itself does not authenticate the account.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It seems like ...",
-        "cn": "似乎……",
-        "example": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine.",
-        "prompt": "Use “It seems like ...” in a complete sentence.",
+        "cn": "看起来似乎……",
+        "example": "It seems like dinner is almost ready.",
+        "prompt": "Describe an impression or apparent explanation.",
         "source_page": 31,
         "source_segment": "page-31",
         "source_excerpt": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "似乎……",
+        "communicative_function": "Describe an impression or apparent explanation.",
         "original_en": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It seems like dinner is almost ready.",
+        "everyday_example_zh": "看起来晚饭快准备好了。",
+        "workplace_example": "It seems like there's a misunderstanding about the scope.",
+        "replaceable_parts": "It seems like + clause or noun phrase. The source says it seems + clause without like; this heading is a pedagogical adaptation.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“似乎……”这一表达。",
-            "goal_en": "It seems like ...",
+            "scene_zh": "你看到家人已经准备好饭菜，表达事情进展比预期快的印象。",
+            "goal_en": "Describe an impression or apparent explanation.",
             "keywords": [
-              "today",
-              "plan"
+              "dinner",
+              "ready"
             ],
-            "starter": "It seems like ...",
-            "reference_answer": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
+            "starter": "It seems like",
+            "reference_answer": "It seems like dinner is almost ready.",
+            "reference_answer_zh": "看起来晚饭快准备好了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“似乎……”这一表达。",
-            "goal_en": "It seems like ...",
+            "scene_zh": "朋友讲述最近的变化，你谨慎表达他似乎过得更轻松了。",
+            "goal_en": "Describe an impression or apparent explanation.",
             "keywords": [
-              "friend",
-              "situation"
+              "relaxed",
+              "lately"
             ],
-            "starter": "It seems like ...",
-            "reference_answer": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
+            "starter": "It seems like",
+            "reference_answer": "It seems like you've been more relaxed lately.",
+            "reference_answer_zh": "感觉你最近似乎放松了一些。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“似乎……”这一表达。",
-            "goal_en": "It seems like ...",
+            "scene_zh": "你发现多人对同一任务理解不同，在会议上提出初步判断。",
+            "goal_en": "Describe an impression or apparent explanation.",
             "keywords": [
-              "project",
-              "team"
+              "misunderstanding",
+              "scope"
             ],
-            "starter": "It seems like ...",
-            "reference_answer": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
+            "starter": "It seems like",
+            "reference_answer": "It seems like there's a misunderstanding about the scope.",
+            "reference_answer_zh": "看起来大家对范围有些误解。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看起来晚饭快准备好了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "看起来大家对范围有些误解。",
+        "context_review_note": "Source attribution nests a lawsuit account and Jane's report of what others said; it does not establish the substance's identity independently.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "at some point",
-        "cn": "在某个时候",
-        "example": "But at some point the lawsuit states that Matthew could no longer maintain an erection.",
-        "prompt": "Use “at some point” in a complete sentence.",
+        "cn": "在某个时候；到了某个阶段",
+        "example": "At some point during the afternoon, I lost my phone.",
+        "prompt": "Mention an unspecified time without inventing precision.",
         "source_page": 32,
         "source_segment": "page-32",
         "source_excerpt": "But at some point the lawsuit states that Matthew could no longer maintain an erection.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "在某个时候",
+        "communicative_function": "Mention an unspecified time without inventing precision.",
         "original_en": "But at some point the lawsuit states that Matthew could no longer maintain an erection.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "At some point during the afternoon, I lost my phone.",
+        "everyday_example_zh": "下午的某个时候，我把手机弄丢了。",
+        "workplace_example": "At some point, we'll need to update this process.",
+        "replaceable_parts": "At some point + clause; add in/during + period when known. Not the same as by this point.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“在某个时候”这一表达。",
-            "goal_en": "at some point",
+            "scene_zh": "你知道手机是在下午丢的，但无法确定具体时间。",
+            "goal_en": "Mention an unspecified time without inventing precision.",
             "keywords": [
-              "today",
-              "plan"
+              "phone",
+              "afternoon"
             ],
-            "starter": "at some point",
-            "reference_answer": "But at some point the lawsuit states that Matthew could no longer maintain an erection."
+            "starter": "At some point",
+            "reference_answer": "At some point during the afternoon, I lost my phone.",
+            "reference_answer_zh": "下午的某个时候，我把手机弄丢了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“在某个时候”这一表达。",
-            "goal_en": "at some point",
+            "scene_zh": "你想和朋友找时间认真聊聊，但暂时还没有约定日期。",
+            "goal_en": "Mention an unspecified time without inventing precision.",
             "keywords": [
-              "friend",
-              "situation"
+              "catch up",
+              "soon"
             ],
-            "starter": "at some point",
-            "reference_answer": "But at some point the lawsuit states that Matthew could no longer maintain an erection."
+            "starter": "At some point",
+            "reference_answer": "We should catch up at some point soon.",
+            "reference_answer_zh": "我们近期应该找个时间聊聊。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“在某个时候”这一表达。",
-            "goal_en": "at some point",
+            "scene_zh": "你提醒团队将来需要更新流程，但当前还没安排具体时间。",
+            "goal_en": "Mention an unspecified time without inventing precision.",
             "keywords": [
-              "project",
-              "team"
+              "update",
+              "process"
             ],
-            "starter": "at some point",
-            "reference_answer": "But at some point the lawsuit states that Matthew could no longer maintain an erection."
+            "starter": "At some point,",
+            "reference_answer": "At some point, we'll need to update this process.",
+            "reference_answer_zh": "到了某个阶段，我们需要更新这个流程。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "下午的某个时候，我把手机弄丢了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "到了某个阶段，我们需要更新这个流程。",
+        "context_review_note": "Source gives no exact moment for the described event; do not convert this phrase into a timestamp.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "The lawsuit says",
-        "cn": "诉状称……",
-        "example": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum.",
-        "prompt": "Use “The lawsuit says” in a complete sentence.",
+        "cn": "诉状称；诉状中写道",
+        "example": "The lawsuit in this example says the repairs were never completed.",
+        "prompt": "Identify the document that makes a claim.",
         "source_page": 31,
         "source_segment": "page-31",
         "source_excerpt": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "诉状称……",
+        "communicative_function": "Identify the document that makes a claim.",
         "original_en": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "The lawsuit in this example says the repairs were never completed.",
+        "everyday_example_zh": "这个例子中的诉状称，维修一直没有完成。",
+        "workplace_example": "The contract says delivery is due by the end of the month.",
+        "replaceable_parts": "The lawsuit says + clause; for more precise formal writing, the complaint alleges. Transfer source + says to ordinary documents.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“诉状称……”这一表达。",
-            "goal_en": "The lawsuit says",
+            "scene_zh": "你阅读一个虚构的房屋维修案例，向家人转述诉状中的一项主张。",
+            "goal_en": "Identify the document that makes a claim.",
             "keywords": [
-              "today",
-              "plan"
+              "lawsuit",
+              "repairs"
             ],
             "starter": "The lawsuit says",
-            "reference_answer": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum."
+            "reference_answer": "The lawsuit in this example says the repairs were never completed.",
+            "reference_answer_zh": "这个例子中的诉状称，维修一直没有完成。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“诉状称……”这一表达。",
-            "goal_en": "The lawsuit says",
+            "scene_zh": "朋友问门票能不能退款，你明确根据票面文字来回答。",
+            "goal_en": "Identify the document that makes a claim.",
             "keywords": [
-              "friend",
-              "situation"
+              "ticket",
+              "refunds"
             ],
-            "starter": "The lawsuit says",
-            "reference_answer": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum."
+            "starter": "The ticket says",
+            "reference_answer": "The ticket says refunds are available until Friday.",
+            "reference_answer_zh": "票面上写着，周五之前可以退款。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“诉状称……”这一表达。",
-            "goal_en": "The lawsuit says",
+            "scene_zh": "同事问交付日期，你转述合同条款而不是凭个人猜测回答。",
+            "goal_en": "Identify the document that makes a claim.",
             "keywords": [
-              "project",
-              "team"
+              "contract",
+              "delivery"
             ],
-            "starter": "The lawsuit says",
-            "reference_answer": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum."
+            "starter": "The contract says",
+            "reference_answer": "The contract says delivery is due by the end of the month.",
+            "reference_answer_zh": "合同写明，应在月底之前交付。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这个例子中的诉状称，维修一直没有完成。",
+        "example_source": "adapted",
+        "workplace_example_zh": "合同写明，应在月底之前交付。",
+        "context_review_note": "Says personifies the document; a party's filing is not a court finding. Graphic source material remains separate from neutral practice.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [

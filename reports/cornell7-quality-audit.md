@@ -16,7 +16,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - Cards with fewer than two populated collocations: 0. This measures completeness, not independent human approval.
 - Transcript statuses: 445 covered / 179 no identified barrier / 226 requires review.
 - This PDF review has individual decisions for 801 paragraphs; 226 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
-- Phrases without reviewed_complete: 230; Chunks: 64.
+- Phrases without reviewed_complete: 230; Chunks: 52.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
@@ -26,7 +26,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - Earliest remaining transcript barrier: page 4, segment 56. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - The initial Unit 2–11 paragraph pass is complete; the next coverage work is resolving documented barriers, not rereading or auto-approving all matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Next in-scope barrier after preserved Unit 1: page 4, segment 56: Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches.
-- Next pending Chunk after preserved Unit 1: Unit 8, trying to figure out.
+- Next pending Chunk after preserved Unit 1: Unit 9, I don't know what ....
 - Next pending Phrase after preserved Unit 1: Unit 4, don't want to cover.
 - The explicitly requested Unit 1 bizarre collocation repair is complete: bizarre behavior / a bizarre situation. The original excerpt and prior review remain unchanged.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.

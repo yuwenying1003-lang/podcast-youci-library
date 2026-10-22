@@ -1,0 +1,67 @@
+{
+  "unit": 8,
+  "reviewer": "Codex",
+  "method": "Individual contextual review of all 12 pending patterns on pages 27–33. Preserve source quotations, distinguish inference from allegation and replace generic exercises with three transferable teaching contexts per pattern.",
+  "chunks": [
+    ["trying to figure out","正在努力弄明白；设法解决","Describe an ongoing attempt to understand or solve something.","Subject + be + trying to figure out + noun or embedded question; figure it out, not figure out it.","Figure out college means learn how to navigate college life, not calculate a numerical answer.",[
+      ["你新买的洗衣机有很多按钮，向家人解释自己正在研究操作。",["settings","washing machine"],"I'm trying to figure out","I'm trying to figure out which setting to use.","我正在弄清楚该用哪一个设置。"],
+      ["你和朋友计划旅行，仍在比较哪条路线最适合大家。",["route","everyone"],"We're trying to figure out","We're trying to figure out which route works for everyone.","我们正设法弄清哪条路线适合所有人。"],
+      ["你向同事说明报表异常尚未解决，正在查找原因。",["numbers","different"],"I'm trying to figure out","I'm trying to figure out why the numbers are different.","我正在弄清这些数字为什么不一样。"]
+    ]],
+    ["I'm assuming ...","我暂且认为；我推测……","State an assumption openly so others can confirm or correct it.","I'm assuming + clause; optionally follow with is that right? Do not present an assumption as verified knowledge.","The narrator assumes an ID check; source does not establish that it occurred.",[
+      ["家人没有更改晚餐时间，你先说明自己仍按七点来安排。",["dinner","seven"],"I'm assuming","I'm assuming dinner is still at seven. Is that right?","我先按晚餐还是七点来安排，对吗？"],
+      ["朋友说大家一起去看电影，你想确认他是否已经订好了票。",["tickets","booked"],"I'm assuming","I'm assuming you've booked the tickets, but please correct me if not.","我以为你已经订好票了，如果没有请告诉我。"],
+      ["任务说明没提预算变化，你向经理明确说出当前采用的前提。",["budget","unchanged"],"I'm assuming","I'm assuming the budget is unchanged. Please confirm before I proceed.","我暂且认为预算没有变化，请在我继续之前确认。"]
+    ]],
+    ["By this point","到这个时候；截至这一步","Locate an accumulated result at a particular stage of a narrative.","By this point, + clause; often had + past participle when looking back within a past narrative.","Source introduces an approximate self-reported drink count; the phrase does not verify the count.",[
+      ["你向家人回忆搬家过程，说明到下午时已经打包完大部分物品。",["packed","boxes"],"By this point,","By this point, we had packed most of the boxes.","到这个时候，我们已经装好了大部分箱子。"],
+      ["你向朋友讲徒步经历，说明走到山脚时大家已经很累了。",["tired","walking"],"By this point,","By this point, everyone was tired from walking.","到这个时候，大家都走累了。"],
+      ["你复盘项目进度，说明进入发布阶段前测试已全部完成。",["tests","completed"],"By this point,","By this point, we had completed all the planned tests.","截至这一步，我们已经完成了所有计划内测试。"]
+    ]],
+    ["it would appear","看来似乎……","Offer a cautious conclusion from available information.","It would appear that + clause; would softens the inference and need not refer to a hypothetical future.","At least from the filing limits the source's conclusion; a filed account is not automatically a verified finding.",[
+      ["你查看门口纸条，谨慎告诉家人今天的营业时间可能改了。",["hours","changed"],"It would appear","It would appear that the opening hours have changed.","看来营业时间似乎改了。"],
+      ["朋友迟迟未到，你根据公交应用信息判断可能有延误。",["bus","delayed"],"It would appear","It would appear that her bus has been delayed.","看来她乘坐的公交似乎晚点了。"],
+      ["你查看日志后向团队报告初步推断，尚未完成根因调查。",["connection","failed"],"It would appear","It would appear that the connection failed before the upload finished.","看来连接似乎在上传完成之前中断了。"]
+    ]],
+    ["According to the lawsuit","根据诉状所述","Attribute a claim to a legal filing rather than assert it as a proven fact.","According to + identified source, + clause. Transfer to a report, instructions or schedule in ordinary contexts.","Lawsuit attribution matters in the source. Teaching scenarios below are hypothetical readings of documents, not claims about the real case.",[
+      ["你在阅读一个虚构的消费纠纷案例，向家人转述诉状声称的情况。",["lawsuit","refund"],"According to the lawsuit,","According to the lawsuit in this example, the customer never received a refund.","根据这个例子中的诉状所述，顾客一直没有收到退款。"],
+      ["朋友问集合时间，你按活动日程转述信息，不凭记忆猜测。",["schedule","noon"],"According to the schedule,","According to the schedule, the tour starts at noon.","根据日程，游览中午开始。"],
+      ["你在工作会上转述报告数据，明确指出信息来自报告。",["report","costs"],"According to the report,","According to the report, costs fell last quarter.","根据报告，上季度成本下降了。"]
+    ]],
+    ["it appears that","看来；似乎……","Report an apparent situation while keeping uncertainty visible.","It appears that + full clause; do not omit the subject inside the clause.","Source says appears rather than independently confirming a person's return.",[
+      ["你检查冰箱后发现牛奶没有了，向家人说明目前看到的情况。",["milk","run out"],"It appears that","It appears that we've run out of milk.","看来我们的牛奶用完了。"],
+      ["朋友发来的地图显示路线封闭，你提出一个待确认的判断。",["road","closed"],"It appears that","It appears that the road is closed, so let's check another route.","看来这条路封了，我们查一下其他路线吧。"],
+      ["你查看共享文件，向同事说明两人可能编辑了不同版本。",["versions","different"],"It appears that","It appears that we edited different versions of the file.","看来我们编辑的是不同版本的文件。"]
+    ]],
+    ["It's unclear how ...","尚不清楚如何……或有多……","Identify an unanswered question about method, cause or degree.","It's unclear how + subject + verb; how long/much/many adds a specific dimension. Use statement order, not question inversion.","Source uses how long for uncertain duration; broader method examples are labeled teaching adaptations.",[
+      ["家里的水渍来源还没有找到，你说明目前不清楚水是怎么进来的。",["water","got in"],"It's unclear how","It's unclear how the water got in.","目前还不清楚水是怎么进来的。"],
+      ["朋友计划聚会但还没有确定交通方式，你指出人数安排仍不明朗。",["many","coming"],"It's unclear how","It's unclear how many people are coming.","目前还不清楚会来多少人。"],
+      ["项目刚开始评估，你向经理说明暂时无法确定所需资源。",["resources","need"],"It's unclear how","It's unclear how much support the team will need.","目前还不清楚团队需要多少支持。"]
+    ]],
+    ["It's unclear how long","尚不清楚要多久或持续了多久","State uncertainty about duration.","It's unclear how long + clause; keep ordinary statement word order after how long.","Source contrasts a reported three-to-five-minute estimate with uncertain actual duration; do not invent a precise time.",[
+      ["维修人员还没给出时间，你向家人说明停水会持续多久还不知道。",["water","off"],"It's unclear how long","It's unclear how long the water will be off.","目前还不清楚会停水多久。"],
+      ["朋友担心排队耽误行程，你说明还不知道具体等待时间。",["wait","queue"],"It's unclear how long","It's unclear how long we'll have to wait.","现在还不清楚我们要等多久。"],
+      ["你在故障报告中说明开始时间还待核实，不能给出持续时长。",["issue","lasted"],"It's unclear how long","It's unclear how long the issue lasted before it was reported.","还不清楚这个问题在被报告之前已经持续了多久。"]
+    ]],
+    ["as alleged in the lawsuit","如诉状所指称的那样","Mark a description as an allegation contained in a filing.","As alleged in + document, + clause. For non-legal reporting use as described/reported in, not alleged for neutral facts.","Alleged is not proven. Source anchors a disputed account to a filing; the phrase itself does not authenticate the account.",[
+      ["在虚构的邻里纠纷阅读练习中，你说明某项说法仅来自诉状。",["lawsuit","fence"],"As alleged in the lawsuit,","As alleged in the lawsuit in this exercise, the fence crossed the boundary.","如本练习的诉状所指称的那样，围栏越过了边界。"],
+      ["朋友讨论一个虚构的新闻案例，你提醒他赔偿要求来自未证实的指控。",["claim","unproven"],"As alleged in the lawsuit,","As alleged in the lawsuit, the seller concealed the damage; that claim is still unproven.","诉状指称卖家隐瞒了损坏情况，但这一说法仍未经证实。"],
+      ["你在模拟合规讨论中区分对方诉状主张和已经确认的事实。",["lawsuit","disputed"],"As alleged in the lawsuit,","As alleged in the lawsuit, the supplier missed the deadline; the supplier disputes this.","诉状指称供应商错过了截止日期，供应商对此有异议。"]
+    ]],
+    ["It seems like ...","看起来似乎……","Describe an impression or apparent explanation.","It seems like + clause or noun phrase. The source says it seems + clause without like; this heading is a pedagogical adaptation.","Source attribution nests a lawsuit account and Jane's report of what others said; it does not establish the substance's identity independently.",[
+      ["你看到家人已经准备好饭菜，表达事情进展比预期快的印象。",["dinner","ready"],"It seems like","It seems like dinner is almost ready.","看起来晚饭快准备好了。"],
+      ["朋友讲述最近的变化，你谨慎表达他似乎过得更轻松了。",["relaxed","lately"],"It seems like","It seems like you've been more relaxed lately.","感觉你最近似乎放松了一些。"],
+      ["你发现多人对同一任务理解不同，在会议上提出初步判断。",["misunderstanding","scope"],"It seems like","It seems like there's a misunderstanding about the scope.","看起来大家对范围有些误解。"]
+    ]],
+    ["at some point","在某个时候；到了某个阶段","Mention an unspecified time without inventing precision.","At some point + clause; add in/during + period when known. Not the same as by this point.","Source gives no exact moment for the described event; do not convert this phrase into a timestamp.",[
+      ["你知道手机是在下午丢的，但无法确定具体时间。",["phone","afternoon"],"At some point","At some point during the afternoon, I lost my phone.","下午的某个时候，我把手机弄丢了。"],
+      ["你想和朋友找时间认真聊聊，但暂时还没有约定日期。",["catch up","soon"],"At some point","We should catch up at some point soon.","我们近期应该找个时间聊聊。"],
+      ["你提醒团队将来需要更新流程，但当前还没安排具体时间。",["update","process"],"At some point,","At some point, we'll need to update this process.","到了某个阶段，我们需要更新这个流程。"]
+    ]],
+    ["The lawsuit says","诉状称；诉状中写道","Identify the document that makes a claim.","The lawsuit says + clause; for more precise formal writing, the complaint alleges. Transfer source + says to ordinary documents.","Says personifies the document; a party's filing is not a court finding. Graphic source material remains separate from neutral practice.",[
+      ["你阅读一个虚构的房屋维修案例，向家人转述诉状中的一项主张。",["lawsuit","repairs"],"The lawsuit says","The lawsuit in this example says the repairs were never completed.","这个例子中的诉状称，维修一直没有完成。"],
+      ["朋友问门票能不能退款，你明确根据票面文字来回答。",["ticket","refunds"],"The ticket says","The ticket says refunds are available until Friday.","票面上写着，周五之前可以退款。"],
+      ["同事问交付日期，你转述合同条款而不是凭个人猜测回答。",["contract","delivery"],"The contract says","The contract says delivery is due by the end of the month.","合同写明，应在月底之前交付。"]
+    ]]
+  ]
+}
