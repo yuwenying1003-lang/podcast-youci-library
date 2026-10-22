@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 405,
+      "phrases": 407,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -76,7 +76,7 @@
         "unit": 9,
         "pages": "34-40",
         "words": 22,
-        "phrases": 37,
+        "phrases": 39,
         "chunks": 17
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 477,
+      "covered": 480,
       "no_identified_barrier": 179,
-      "requires_review": 194
+      "requires_review": 191
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 194,
+      "transcript_segments_requiring_review": 191,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -8614,10 +8614,13 @@
       "page": 36,
       "segment": 590,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Legit and the layered imagined quotation need explanation; the narrator is modeling a reading of the message, not proving eyewitness presence.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:legit",
+        "phrase:8:i haven't seen him since"
+      ],
+      "review_reason": "Legit and the since time boundary are now explicit. I'm reading this as frames an imagined interpretation, because offers that imagined speaker's reasoning, and it does not prove location or actions.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "However, when I'm reading this, I'm reading this as like, no, this must be legit because my buddy just went in there and he, I haven't seen him since."
@@ -9284,11 +9287,13 @@
       "page": 39,
       "segment": 638,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:hammered"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Hammered means very drunk here; a literal tool meaning would mislead, and no linked contextual card covers it in this batch.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The intoxication slang is now explicitly defined; I look makes this the quoted person's impression of the image rather than a measured clinical state.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "I look hammered in it."
@@ -9311,11 +9316,14 @@
       "page": 39,
       "segment": 640,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:hammered",
+        "phrase:3:sororities"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Hammered and sorority girl combine intoxication slang with an organizational label; repeated look is disfluency, not proof that these barriers are covered.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Intoxication slang and the women's campus-organization label are covered. Repeated look is a spoken repair, and the description is self-attributed rather than a generalization about all members.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "My eyes are closed and I looked like I look like a hammered sorority girl is what I call this image."

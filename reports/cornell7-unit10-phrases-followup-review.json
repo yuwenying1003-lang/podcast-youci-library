@@ -1,0 +1,22 @@
+{
+  "unit": 10,
+  "reviewer": "Codex",
+  "method": "Review all 15 pending phrases using the existing page 41–44 index. Do not resolve unclear room names, recording-relative dates or incomplete source clauses by editing the quotation.",
+  "phrases": [
+    ["context clues",672,"surrounding information that helps someone infer a meaning or fact","上下文线索","Use context clues to work out the unfamiliar word.","利用上下文线索来理解那个生词。","Clues support inference, not proof; source expressly disclaims certainty about an identity."],
+    ["I cannot say with certainty",671,"I cannot state something without doubt","我无法确定地说","I cannot say with certainty when the parcel will arrive.","我无法确定包裹什么时候到。","A formal confidence disclaimer, not a statement that no evidence exists. Source does not identify which person uses the pseudonym."],
+    ["not a lot of people",680,"relatively few people","没有多少人","Not a lot of people attended the early session.","参加早场活动的人不多。","Few, not none. Source concerns discussion of a lawsuit, not a measured audience count."],
+    ["with certainty",671,"without doubt or hesitation about truth","确定地；有把握地","We can't predict the result with certainty.","我们无法确定地预测结果。","Usually modifies know, say or predict. Source negative cannot limits confidence rather than declaring a fact."],
+    ["not publicly available",700,"not accessible to the public","不对公众开放；无法公开获取","The draft is not publicly available yet.","草稿暂时没有公开。","Access status, not necessarily secrecy or illegality. Source speculates about availability of records; current access is not verified here."],
+    ["publicly available",700,"accessible to members of the public","可公开获取的","We used publicly available data for the analysis.","我们用公开数据做了分析。","Source contains not publicly available, so this headword's meaning is negated in context. Public availability alone does not guarantee accuracy or unrestricted reuse."],
+    ["the outcome",691,"the result of a process or event","结果；最终结局","We discussed the outcome of the meeting.","我们讨论了会议的结果。","Outcome here is a school investigation result, not automatically a criminal verdict. The claimed motive for suing remains attributed."],
+    ["a hundred page lawsuit",706,"a lawsuit document described as about one hundred pages long","一份约一百页的诉讼文书","The exercise refers to a hundred-page lawsuit document.","练习提到一份一百页的诉讼文书。","Edited form uses hundred-page before the noun and page stays singular. Source like makes the length approximate; a lawsuit itself is a proceeding, with document implied here."],
+    ["cross-referencing",707,"comparing related information across sources or entries","交叉核对；对照查证","We're cross-referencing the dates in both reports.","我们正在对照核查两份报告中的日期。","Reference changes final e to -ing; the task is comparison, not just rereading one source. Source focuses on who is who."],
+    ["get into all the cross-referencing",707,"discuss in detail the comparisons among the sources","详细讲解各项交叉核对","We'll get into all the cross-referencing after the overview.","概述之后，我们会详细讲解各项交叉核对。","Get into means discuss; this is a compositional phrase, not a special legal term. Source's final because remains unfinished."],
+    ["it's not even an office",716,"it does not meet even the description of an office","它甚至算不上办公室","It's not even an office; it's a small storage space.","它甚至算不上办公室，只是一小块储物空间。","Even emphasizes the rejection of a label. Source is the narrator's description, not an independently measured architectural classification."],
+    ["next to that room",712,"immediately beside the room already mentioned","紧挨着那间房","The kitchen is next to that room.","厨房紧挨着那间房。","Next to is location, not sequence in time. The uncertain proper name in the source remains unresolved."],
+    ["by this point",721,"by the stage already reached in the account","到这个时候；截至这一阶段","By this point, the team had finished the first review.","截至这一阶段，团队已经完成了第一轮审核。","Narrative-stage marker, not an exact time. Source's incapacitated remains a separate consequential vocabulary/capacity issue."],
+    ["out of fear",724,"because of feeling afraid","出于恐惧；因为害怕","He avoided the conversation out of fear of conflict.","他因为害怕冲突而避开了那次谈话。","Out of gives motive, not physical movement. Source's reported medication use is not endorsed as an effective or appropriate precaution."],
+    ["more on it later",673,"more information about that topic will follow","稍后再详细说","There's a change to the schedule; more on it later.","日程有一项变化，稍后再详细说。","Elliptical presentation signpost with a clear antecedent for it; not a promise of a specific publication date."]
+  ]
+}
