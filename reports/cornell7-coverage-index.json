@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 325,
+      "phrases": 333,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -69,7 +69,7 @@
         "unit": 8,
         "pages": "27-33",
         "words": 47,
-        "phrases": 38,
+        "phrases": 46,
         "chunks": 12
       },
       {
@@ -95,27 +95,27 @@
       }
     ],
     "coverage_status": {
-      "covered": 412,
-      "no_identified_barrier": 116,
-      "requires_review": 322
+      "covered": 430,
+      "no_identified_barrier": 128,
+      "requires_review": 292
     },
     "unresolved_counts": {
       "missing_ipa": 0,
       "missing_english_definition": 0,
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
-      "requires_human_review": 105,
-      "transcript_segments_requiring_review": 322,
-      "externally_sourced_ipa_requiring_review": 82,
-      "externally_sourced_definition_requiring_review": 70,
-      "machine_translations_requiring_review": 73,
-      "form_generated_memory_requiring_review": 72,
-      "fewer_than_two_collocations": 85
+      "requires_human_review": 58,
+      "transcript_segments_requiring_review": 292,
+      "externally_sourced_ipa_requiring_review": 41,
+      "externally_sourced_definition_requiring_review": 38,
+      "machine_translations_requiring_review": 38,
+      "form_generated_memory_requiring_review": 37,
+      "fewer_than_two_collocations": 48
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-    "reviewed_word_cards": 216,
+    "reviewed_word_cards": 263,
     "translated_word_examples": 321,
-    "upgraded_memory_tips": 235,
+    "upgraded_memory_tips": 273,
     "review_updated_on": "2026-10-22"
   },
   "segments": [
@@ -6131,18 +6131,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:shots",
-        "word:7:vodka"
-      ]
+        "word:7:vodka",
+        "word:5:sorority"
+      ],
+      "review_reason": "Doing shots means drinking small servings of spirits; sisters are sorority members, not biological siblings. Still part of the attributed account.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She's at the Tri Delta sorority house with her sorority sisters and they're just doing shots of vodka."
     },
     {
       "page": 27,
       "segment": 424,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Simple age statement used in the following comparison; no new language barrier.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Jane Doe is 20."
     },
     {
       "page": 27,
@@ -6151,29 +6160,45 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:legal drinking age",
-        "phrase:7:as per her lawsuit",
-        "phrase:7:legal drinking age"
-      ]
+        "word:4:intoxicated",
+        "phrase:7:as per her lawsuit"
+      ],
+      "review_reason": "As per means according to; not of legal drinking age and alleged intoxication are separate claims. No current legal advice or diagnosis inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She's not of legal drinking age, but she's completely intoxicated as per her lawsuit, she alleges."
     },
     {
       "page": 27,
       "segment": 426,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:house mom"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "She states in her lawsuit attributes the ride; 8.30 p.m. is narrated event time, not an audio timestamp.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Then at 8.30 p.m., she states in her lawsuit that she gets into an Uber with her house mom, Jade."
     },
     {
       "page": 27,
       "segment": 427,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:7:side note",
+        "phrase:7:house mom"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Big and little are mentorship labels in Greek life, not size or age alone; explanation continues with a student peer in 428. Needs explicit role distinction.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now, side note, house moms of sororities are not like your big sisters, which is like you have a big and you have a little and..."
     },
     {
       "page": 27,
@@ -6182,10 +6207,13 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:undergraduate",
-        "phrase:7:figure out",
-        "phrase:7:figure out college",
-        "chunk:7:trying to figure out"
-      ]
+        "phrase:7:figure out college"
+      ],
+      "review_reason": "This refers to student big-sister role in the digression, not house director. Figure out college means learn to navigate college life.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is another undergraduate student who's also just trying to figure out college."
     },
     {
       "page": 27,
@@ -6193,18 +6221,27 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:house director"
-      ]
+        "word:7:house director",
+        "phrase:7:house mom"
+      ],
+      "review_reason": "No corrects a role comparison; house mom is a director rather than a fellow student.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "No, a house mom is kind of like a house director for a sorority."
     },
     {
       "page": 27,
       "segment": 430,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explicit negation of student status for house directors; keep referent from 429.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're not college students."
     },
     {
       "page": 27,
@@ -6213,7 +6250,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:salaried"
-      ]
+      ],
+      "review_reason": "Salaried means regularly paid; lives inside the house adds residence, and relative clauses continue in 432.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is somebody who is salaried, who lives inside the house,"
     },
     {
       "page": 27,
@@ -6221,10 +6263,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:operational",
         "word:7:operational manager",
-        "word:7:manager"
-      ]
+        "word:7:operational"
+      ],
+      "review_reason": "Who continues the relative clause from 431; like marks an approximate role comparison.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Who is like the operational manager."
     },
     {
       "page": 27,
@@ -6234,7 +6280,12 @@
       "learning_item_ids": [
         "word:7:hired professional",
         "word:7:hired"
-      ]
+      ],
+      "review_reason": "Emphasizes paid staff role rather than a peer; not a separate claim of verified qualifications.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is a hired professional."
     },
     {
       "page": 27,
@@ -6244,7 +6295,12 @@
       "learning_item_ids": [
         "word:7:oversee",
         "word:7:upkeep"
-      ]
+      ],
+      "review_reason": "Oversee means supervise, upkeep means maintenance; no physical-overhead interpretation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They oversee the building upkeep."
     },
     {
       "page": 27,
@@ -6252,25 +6308,44 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:onsite"
-      ]
+        "word:7:onsite",
+        "word:7:manager"
+      ],
+      "review_reason": "Act as means perform the role, not pretend to be an actor; onsite means at the property.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They act as the onsite manager."
     },
     {
       "page": 27,
       "segment": 436,
       "source_unit": 4,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:caretaker"
+      ],
+      "review_reason": "Plural form of caretaker; physical/residential care role, not automatically a medical provider.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They are caretakers."
     },
     {
       "page": 27,
       "segment": 437,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:sorority",
+        "word:7:caretaker"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Order food is arrange its supply; whoever broadens beneficiaries to all residents.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They order food for the sorority sisters or whoever lives in the house."
     },
     {
       "page": 27,
@@ -6278,38 +6353,56 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:facilitate"
-      ]
+        "word:7:facilitate",
+        "word:3:vendor",
+        "word:7:hired"
+      ],
+      "review_reason": "List of operational tasks; facilitate has an unstated object in speech and is taught with a complete object in the adapted example.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They help operate the sorority house, plan the parties, facilitate, hire vendors."
     },
     {
       "page": 27,
       "segment": 439,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:hired professional"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Repetition emphasizes employment status; no new expertise guarantee.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is a professional."
     },
     {
       "page": 27,
       "segment": 440,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Emphatic short sentence about adulthood, not a different participant.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is an adult."
     },
     {
       "page": 28,
       "segment": 441,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Reiterates contrast with college student; you know is a discourse filler.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is someone who is, you know, not a college kid."
     },
     {
       "page": 28,
@@ -6318,17 +6411,29 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:employees"
-      ]
+      ],
+      "review_reason": "Question about employer identity, answered negatively next; do not store school employee as established.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Are they school employees?"
     },
     {
       "page": 28,
       "segment": 443,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:employees",
+        "word:3:national",
+        "word:3:organization"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Narrator identifies national organizations as employers; statement remains attributed, not a verified contract.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "No, they're employed by the national organization of each sorority and fraternity."
     },
     {
       "page": 28,
@@ -6337,24 +6442,40 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:7:not associated with"
-      ]
+      ],
+      "review_reason": "Associated with concerns institutional affiliation in this exchange, not social acquaintance.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Okay, so they're not associated with the school."
     },
     {
       "page": 28,
       "segment": 445,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Yes affirms the negative proposition in 444; they are not associated is the intended continuation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yes, they're not."
     },
     {
       "page": 28,
       "segment": 446,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:1:president",
+        "word:4:chapter"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "President here is student leader of a local sorority chapter, not university president; phrase distinguishes paid director from elected member role.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And they're also not like the president of the sorority chapter because that would be a student."
     },
     {
       "page": 28,
@@ -6367,8 +6488,11 @@
       "candidate_learning_item_ids": [
         "phrase:7:not associated with"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: not associated with."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Repetition of the affiliation distinction, not additional evidence.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So they're not associated with the school."
     },
     {
       "page": 28,
@@ -6377,7 +6501,12 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:7:not even former members"
-      ]
+      ],
+      "review_reason": "Sometimes limits the claim; former means previously belonged, so membership history is not assumed as a job requirement.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Sometimes they're not even former members of the sorority or fraternity."
     },
     {
       "page": 28,
@@ -6385,28 +6514,45 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:7:get hired"
-      ]
+        "phrase:7:get hired",
+        "word:7:hired"
+      ],
+      "review_reason": "Get hired is passive employment, not doing the hiring themselves.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They just get hired."
     },
     {
       "page": 28,
       "segment": 450,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:hired professional"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Hiring a professional position is loose speech for hiring a person into a role; adapted examples use natural person/object selection.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's like, you know, hiring a professional position."
     },
     {
       "page": 28,
       "segment": 451,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:house mom",
+        "word:1:allegation"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Returns from role digression to lawsuit allegation about the ride, not a new event.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The lawsuit alleges that she gets into an Uber with the house mom."
     },
     {
       "page": 28,
@@ -6415,24 +6561,31 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:shots",
-        "word:7:vodka"
+        "word:7:vodka",
+        "phrase:7:house mom"
       ],
       "candidate_learning_item_ids": [
         "word:7:shots",
         "word:7:vodka"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by 2 distinct context-linked Word items; no single-word-only approval was used."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Recaps sequence of drinking then ride; like is a filler and no extra drinks or quantities added.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So she's already like taking shots of vodka at the sorority house, getting into an Uber with her house mom."
     },
     {
       "page": 28,
       "segment": 453,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "This refers to house mom; contrasts her role with another student, not her exact age.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this is not like another 20-year-old college kid."
     },
     {
       "page": 28,
@@ -6440,40 +6593,57 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:7:legal drinking age",
         "word:7:legal drinking age"
       ],
       "candidate_learning_item_ids": [
         "word:7:legal drinking age",
         "phrase:7:legal drinking age"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: legal drinking age."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Begins a relative clause completed by supposed to be a caretaker; source supplies eligibility assertion, not exact age.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is someone who is of legal drinking age who is..."
     },
     {
       "page": 28,
       "segment": 455,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:7:caretaker"
-      ]
+      ],
+      "review_reason": "Supposed to be expresses expected responsibility; kind of hedges. Fixed supposed to needs explicit support rather than caregiver noun alone.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Supposed to kind of be a caretaker."
     },
     {
       "page": 28,
       "segment": 456,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short affirmation of the role explanation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah."
     },
     {
       "page": 28,
       "segment": 457,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:7:go off campus"
-      ]
+      ],
+      "review_reason": "Subaru differs from prior Uber wording but could be a car make; do not silently repair either. Off campus means outside campus, and venue is named.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She gets in the Subaru and they go off campus to a bar called Mooney's."
     },
     {
       "page": 28,
@@ -6481,10 +6651,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:bouncer",
         "word:7:defendant",
-        "chunk:7:i'm assuming"
-      ]
+        "word:7:bouncer"
+      ],
+      "review_reason": "Venue is named as defendant; I'm assuming explicitly qualifies the ID-check detail. No assertion that an assumed check is verified.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now, Mooney's is also a defendant in this civil lawsuit where the bouncer and I'm assuming they asked for her ID."
     },
     {
       "page": 29,
@@ -6493,22 +6667,35 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Stamp X's on hands is an entry/age marking action; needs support for stamp/marking rather than treating giant literally.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They stamp these giant X's on both of Jane's hands."
     },
     {
       "page": 29,
       "segment": 460,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Abandoned which I mean fragment; no reconstructed wording added.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Which i mean"
     },
     {
       "page": 29,
       "segment": 461,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Attribution fragment introducing the next clause; confirms is the narrator's verb, not independent verification by this review.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The lawsuit confirms"
     },
     {
       "page": 29,
@@ -6516,8 +6703,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:bartender"
-      ]
+        "word:7:bartender",
+        "word:7:legal drinking age"
+      ],
+      "review_reason": "Hand marks indicate age to drink-service staff; to indicate expresses purpose, not proof of what anyone noticed.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The x's on her hands are to indicate to bartenders that jane doe is not of drinking age she's 20"
     },
     {
       "page": 29,
@@ -6525,8 +6718,15 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:establishment"
-      ]
+        "word:7:establishment",
+        "word:3:beverages",
+        "word:7:legal drinking age"
+      ],
+      "review_reason": "Despite the fact that contrasts alleged service with underage status; the sentence is explicitly an allegation. Ends with and, a retained false start.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "However the lawsuit alleges that mooney's is serving her drinks alcoholic beverages and there's like a whole there's a bunch of sorority sisters at this event at mooney's and they're all drinking despite the fact that she's under age at this establishment and"
     },
     {
       "page": 29,
@@ -6536,19 +6736,29 @@
       "learning_item_ids": [
         "word:7:separate",
         "phrase:7:around 10 p m"
-      ]
+      ],
+      "review_reason": "Separate bar is a different venue; around gives an approximate event time, not playback timing.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Then around 10 p.m., Jane Doe and a few of her sorority sisters, they walk over to a separate bar called Lot 10."
     },
     {
       "page": 29,
       "segment": 465,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explicit negative: the second venue is not named as defendant. Do not transfer the first venue's allegations to it.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Lot 10 is not listed as a defendant."
     },
     {
       "page": 29,
@@ -6558,19 +6768,28 @@
       "learning_item_ids": [
         "word:7:under 21",
         "word:7:wristband",
-        "phrase:7:at least from the filing",
-        "chunk:7:it would appear"
-      ]
+        "phrase:7:at least from the filing"
+      ],
+      "review_reason": "Would appear and at least from filing hedge the inference; do not serve any is negative. Wristband alone does not prove the venue's actions.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here."
     },
     {
       "page": 29,
       "segment": 467,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:heads out"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Heads out means leaves; about an hour remains approximate and walking back gives direction.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She's here for about an hour before she heads out and starts walking back to campus."
     },
     {
       "page": 29,
@@ -6579,17 +6798,25 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:7:meet up with"
-      ]
+      ],
+      "review_reason": "Infinitive purpose fragment completes walking back in 467; meet up with is an arranged social meeting.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "To meet up with a friend."
     },
     {
       "page": 29,
       "segment": 469,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Names the friend referred to in 468; no added role or allegation inferred from the name.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This friend is Matthew Ingalls."
     },
     {
       "page": 29,
@@ -6597,8 +6824,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:fraternity brother"
-      ]
+        "word:7:fraternity brother",
+        "word:0:campus"
+      ],
+      "review_reason": "Organizational brother, not sibling; huge big is redundant emphasis and the house destination is clarified.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He's a fraternity brother at Chi Phi, and they have this huge, big fraternity house on campus at Cornell, the Chi Phi house, and she starts walking to the house."
     },
     {
       "page": 29,
@@ -6607,30 +6840,44 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:7:by this point",
-        "chunk:7:by this point"
-      ]
+        "word:7:shots"
+      ],
+      "review_reason": "Thinks, probably and like mark an estimated count over a stated period. No conversion to precise alcohol dose or impairment level.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "By this point, Jane thinks that she's probably had like 10 drinks in the past three hours."
     },
     {
       "page": 29,
       "segment": 472,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Repetition reacts to the reported number; does not add a further ten drinks.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah, and 10 drinks."
     },
     {
       "page": 29,
       "segment": 473,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:vodka",
+        "word:1:lawsuit"
+      ],
       "candidate_learning_item_ids": [
         "word:7:vodka"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Attributes drink type at one location to the pleading, not all drinks across the evening.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I mean, because her lawsuit specified that at the sorority house, it was vodka."
     },
     {
       "page": 29,
@@ -6638,40 +6885,57 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "chunk:7:i'm assuming"
+        "word:7:shots",
+        "word:7:vodka"
       ],
       "candidate_learning_item_ids": [
         "chunk:7:i'm assuming"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: i'm assuming."
+      "review_status": "contextually_reviewed",
+      "review_reason": "I'm assuming identifies the beer comparison as narrator speculation; not a verified breakdown of drink types or quantities.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So I'm assuming it's not like, oh, I had 10 beers, which was also crazy."
     },
     {
       "page": 29,
       "segment": 475,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short response without a new lexical target.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Yeah."
     },
     {
       "page": 30,
       "segment": 476,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:intoxicated"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "She states preserves attribution; visibly means outwardly apparent as claimed, not an independent clinical assessment.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She states that she is visibly intoxicated when she gets to the Chi Phi fraternity house."
     },
     {
       "page": 30,
       "segment": 477,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "General party-night setup, with very as an intensifier.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's clearly a very busy night for the college students."
     },
     {
       "page": 30,
@@ -6680,38 +6944,54 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Hawaii themed is a common -themed event construction needing a reusable note; narrator's interesting choice is commentary, not an event-date correction.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The Chi Phi fraternity house is hosting a Hawaii themed party, which is an interesting choice for October 19th, but it's Hawaii themed."
     },
     {
       "page": 30,
       "segment": 479,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:fraternity brother"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "About three to four is approximate; by the front door specifies position, not responsibility or involvement.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And there's about three to four fraternity brothers standing outside by the front door."
     },
     {
       "page": 30,
       "segment": 480,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:let jane in"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Let someone in means allow entry; spots means notices in this context, not stains or locations.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They let Jane in and she spots her friend Matthew, right?"
     },
     {
       "page": 30,
       "segment": 481,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Identifies the meeting's purpose/person; not consent to later events.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "This is the friend that she came for."
     },
     {
       "page": 30,
@@ -6720,17 +7000,27 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:dancing"
-      ]
+      ],
+      "review_reason": "Hands her means gives to her; going on means happening. Drink offered is a narrated event, not independent verification.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He hands her a beer, and there's some sort of dancing going on."
     },
     {
       "page": 30,
       "segment": 483,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:having a good time"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "General enjoyment phrase does not establish any person's consent to later conduct.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Everybody's having a good time."
     },
     {
       "page": 30,
@@ -6738,8 +7028,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
+        "word:7:dancing",
         "phrase:7:start dancing"
-      ]
+      ],
+      "review_reason": "Start + -ing; source says on the main room, a nonstandard preposition retained only in quotation, not copied into a model.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And Jane and Matthew, they start dancing on the main room together."
     },
     {
       "page": 30,
@@ -6748,31 +7044,43 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:unclear",
-        "phrase:7:three to five minutes",
-        "chunk:7:it's unclear how",
-        "chunk:7:it's unclear how long"
-      ]
+        "phrase:7:three to five minutes"
+      ],
+      "review_reason": "Duration is attributed to Matthew and immediately qualified as unclear; do not resolve disagreement by treating the estimate as fact.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But after dancing for what has been described by Matthew as three to five minutes – it's unclear how long it really was –"
     },
     {
       "page": 30,
       "segment": 486,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:7:propositioned",
-        "phrase:7:according to the lawsuit",
-        "phrase:7:pulls jane off to the side",
-        "chunk:7:according to the lawsuit"
-      ]
+        "phrase:7:pulls jane off to the side"
+      ],
+      "review_reason": "Threesome remains an explicit receptive vocabulary gap; proposition is attributed to the lawsuit. Do not infer agreement from a proposal.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Matthew pulls Jane off to the side and she says, according to the lawsuit, he propositioned her, asks her if she wants to have a threesome with another one of his fraternity brothers."
     },
     {
       "page": 30,
       "segment": 487,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
+        "phrase:7:according to the lawsuit",
         "phrase:7:at this point"
-      ]
+      ],
+      "review_reason": "Capable of consenting is a central structure needing direct support; reported inability is a pleading claim, not a capacity determination by this review.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now, according to the lawsuit, Jane at this point is so drunk, she's not even capable of consenting to any of this."
     },
     {
       "page": 30,
@@ -6782,31 +7090,47 @@
       "learning_item_ids": [
         "phrase:7:leads her upstairs",
         "phrase:7:leaves her alone"
-      ]
+      ],
+      "review_reason": "Leads is guides/takes along, and leaves alone means goes away; no consent implied by accompanying someone.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But Matthew just leads her upstairs, leaves her alone with one of the fraternity brothers."
     },
     {
       "page": 30,
       "segment": 489,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explicitly excludes this person from named defendants; keep distinct from the next room's participant.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He's not a defendant in the lawsuit."
     },
     {
       "page": 30,
       "segment": 490,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:leaves her alone",
+        "word:7:fraternity brother"
+      ],
       "candidate_learning_item_ids": [
         "word:7:fraternity brother"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Random is casual unspecified/unfamiliar, not statistically random; identifies the same temporary companion.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So he just kind of leaves her with this random fraternity brother."
     },
     {
       "page": 30,
@@ -6815,10 +7139,13 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:awkwardly",
-        "word:7:couch",
-        "phrase:7:on the couch",
-        "phrase:7:sitting on the couch"
-      ]
+        "word:7:couch"
+      ],
+      "review_reason": "I guess hedges the narrator's description; awkwardly expresses social unease rather than physical inability to sit.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And I guess they're just like awkwardly sitting on the couch."
     },
     {
       "page": 30,
@@ -6826,10 +7153,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:7:eventually comes back",
         "phrase:7:it appears that",
-        "chunk:7:it appears that"
-      ]
+        "phrase:7:eventually comes back"
+      ],
+      "review_reason": "Appears hedges and eventually indicates later return; no precise delay inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And it appears that Matthew eventually comes back."
     },
     {
       "page": 31,
@@ -6839,20 +7170,30 @@
       "learning_item_ids": [
         "phrase:7:as alleged",
         "phrase:7:a separate room",
-        "chunk:7:as alleged in the lawsuit"
-      ]
+        "word:7:couch"
+      ],
+      "review_reason": "Down the hall means farther along the corridor, not necessarily downstairs. New room/person introduced with explicit allegation framing.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And as alleged in the lawsuit, he gets Jane and leads her to a separate room down the hall where there's a separate fraternity brother sitting on a couch, Jonathan Newell."
     },
     {
       "page": 31,
       "segment": 494,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Contrasts Jonathan's named-defendant role with the earlier person's non-defendant status; no finding of liability.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He is another defendant in this lawsuit."
     },
     {
       "page": 31,
@@ -6861,31 +7202,47 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:alumni room"
-      ]
+      ],
+      "review_reason": "What's called reports the fraternity's name for the room; not a standard definition of actual use.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They're in what's called by the fraternity, the alumni room."
     },
     {
       "page": 31,
       "segment": 496,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:alumni room"
+      ],
       "candidate_learning_item_ids": [
         "word:7:alumni room"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Weird is narrator evaluation, followed by specific furniture/use description.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The alumni room is a weird room."
     },
     {
       "page": 31,
       "segment": 497,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:couch",
+        "word:1:apparently"
+      ],
       "candidate_learning_item_ids": [
         "word:7:couch"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Apparently and at least mark uncertainty and lower bound; nonstandard there's three remains source speech.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's apparently three beds, a couch, and at least one chair."
     },
     {
       "page": 31,
@@ -6893,8 +7250,14 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:considers"
-      ]
+        "word:7:considers",
+        "word:7:alumni room"
+      ],
+      "review_reason": "Considers it a social room is regard-as construction; but introduces mixed bedroom use, not contradictory names requiring correction.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The fraternity apparently considers it a social room, but it's also like a bedroom for members."
     },
     {
       "page": 31,
@@ -6904,7 +7267,12 @@
       "learning_item_ids": [
         "phrase:7:in the sense that",
         "phrase:7:nobody locks it"
-      ]
+      ],
+      "review_reason": "In the sense that specifies the aspect of social access; dislocated people that's their room is spontaneous speech, not a model sentence.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So there are people that's their room, but it's kind of a social room in the sense that nobody locks it."
     },
     {
       "page": 31,
@@ -6912,28 +7280,42 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:congregate",
-        "word:7:unlocked"
-      ]
+        "word:7:unlocked",
+        "word:7:congregate"
+      ],
+      "review_reason": "Unlocked is access state and congregate means gather; neither establishes permission for later actions.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It's an unlocked space where people congregate."
     },
     {
       "page": 31,
       "segment": 501,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Nonlexical reaction; no sentence reconstructed.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Hmm."
     },
     {
       "page": 31,
       "segment": 502,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:7:powdery",
         "word:7:substance",
-        "phrase:7:passing around",
-        "chunk:7:it seems like"
-      ]
+        "phrase:7:passing around"
+      ],
+      "review_reason": "Plopped up is suspect or unusual phrasing; retain rather than replace with propped up. Nested attribution Jane says they said separates apparent powder from chemical identification.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
     },
     {
       "page": 31,
@@ -6942,8 +7324,14 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:pressuring",
-        "word:7:snorting"
-      ]
+        "word:7:snorting",
+        "word:6:ketamine"
+      ],
+      "review_reason": "Pressure someone into + -ing is coercive influence as alleged; does not imply willing agreement or supply any drug-use procedure.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They start pressuring Jane into snorting ketamine with them."
     },
     {
       "page": 31,
@@ -6951,50 +7339,75 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:7:has never done"
-      ]
+        "phrase:7:has never done",
+        "word:6:ketamine"
+      ],
+      "review_reason": "Done a drug is informal used it; never before contrasts claimed past experience with the alleged event.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Jane has never done ketamine before."
     },
     {
       "page": 31,
       "segment": 505,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "word:7:high proof",
-        "word:7:marijuana",
         "word:7:plaintiff",
-        "word:7:believed",
-        "chunk:7:the lawsuit says"
-      ]
+        "word:7:marijuana",
+        "word:7:high proof",
+        "word:7:believed"
+      ],
+      "review_reason": "Plied someone with needs an explicit vocabulary item; believed to be qualifies rum identification. Source claims remain from pleading, not chemical confirmation.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum."
     },
     {
       "page": 31,
       "segment": 506,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
-        "phrase:7:soon after",
         "phrase:7:without her consent"
-      ]
+      ],
+      "review_reason": "Engaging in sexual acts and without consent are central structures; a temporal phrase or isolated consent match should not auto-close the sentence.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Soon after defendant Matthew and Jonathan began engaging in sexual acts with plaintiff all without her consent."
     },
     {
       "page": 31,
       "segment": 507,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:assault",
+        "phrase:7:according to the lawsuit"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Attribution fragment carries into the next paragraph; no omitted acts added.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The lawsuit alleges that during the assault,"
     },
     {
       "page": 31,
       "segment": 508,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:7:so called friend"
-      ]
+      ],
+      "review_reason": "Elliptical forces oral and forcing intercourse require precise receptive definitions; no graphic expansion or silent repair. Source clearly attributes coercion.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Matthew, her so-called friend that she came for, forces oral, and Jonathan is behind her, forcing intercourse from behind."
     },
     {
       "page": 32,
@@ -7005,8 +7418,11 @@
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Buttocks, slapping and bruising remain physical-action/injury vocabulary gaps. Multiple times and resulted in distinguish repetition and claimed consequence.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The filing states that throughout the entire assault, defendant Jonathan kept slapping Jane Doe on the buttocks multiple times that resulted in bruising."
     },
     {
       "page": 32,
@@ -7015,19 +7431,28 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:erection",
-        "phrase:7:at some point",
-        "chunk:7:at some point"
-      ]
+        "phrase:7:at some point"
+      ],
+      "review_reason": "No longer maintain is cessation; exact moment unknown. Anatomical statement remains attributed, with no cause inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But at some point the lawsuit states that Matthew could no longer maintain an erection."
     },
     {
       "page": 32,
       "segment": 511,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:take a nap"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Reports his stated intention to sleep briefly; ordinary phrase taught with a neutral daily-life example.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So he tells Jane Doe that he's going to take a nap."
     },
     {
       "page": 32,
@@ -7036,18 +7461,24 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Hops onto a bed is informal movement and leaves this has an unclear object; retain ambiguity rather than inventing what exactly he leaves.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So he just leaves this and hops onto a bed."
     },
     {
       "page": 32,
       "segment": 513,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explicitly says he remains in the room; resolves potential physical-location misunderstanding from leaves in 512.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So he doesn't leave the room."
     },
     {
       "page": 32,
@@ -7055,39 +7486,59 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:7:falls asleep"
-      ]
+        "phrase:7:falls asleep",
+        "phrase:7:take a nap"
+      ],
+      "review_reason": "Falls asleep means begins sleeping; one of three beds specifies a location, not leaving the room.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He just hops onto one of the three beds and he falls asleep."
     },
     {
       "page": 32,
       "segment": 515,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:7:meanwhile",
-        "phrase:7:keeps trying to",
-        "phrase:7:meanwhile"
-      ]
+        "phrase:7:keeps trying to"
+      ],
+      "review_reason": "Reach for and euphemistic private parts need support. According to lawsuit scopes the continued attempts; meanwhile marks simultaneous timeline.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Meanwhile, Jonathan keeps, according to the lawsuit, keeps trying to reach for her private parts down there."
     },
     {
       "page": 32,
       "segment": 516,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:7:pushing his hand away"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Pushing away now supported, but swatting remains a distinct quick striking motion; source describes resistance, not consent.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And she's swatting and like pushing his hand away."
     },
     {
       "page": 32,
       "segment": 517,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:keeps trying to"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Keeps trying is persistence despite resistance in 516; omitted complement refers to the preceding conduct.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But he keeps trying."
     },
     {
       "page": 32,
@@ -7102,8 +7553,11 @@
         "word:7:fraternity brother",
         "phrase:7:soon after"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: soon after."
+      "review_status": "contextually_reviewed",
+      "review_reason": "It's alleged marks source status; another participant enters. Jillio spelling retained without silently harmonizing later Giglio.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Soon after, it's alleged that another fraternity brother walks in, Jillio Lopes."
     },
     {
       "page": 32,
@@ -7112,27 +7566,38 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Grabs someone from someone needs contextual explanation; no rescue motive inferred because later paragraphs explicitly negate it.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Jane alleges that Jillio just grabs Jane from Jonathan."
     },
     {
       "page": 32,
       "segment": 520,
       "source_unit": 4,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "phrase:7:according to the sequence"
-      ]
+      ],
+      "review_reason": "Perhaps and rhetorical right introduce narrator's temporary hope; decent/uncovered are additional gaps. Do not label the entrant a rescuer.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Okay, perhaps this is like the first decent individual that's going to be uncovered according to the sequence of events in this lawsuit, right?"
     },
     {
       "page": 32,
       "segment": 521,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Negates the narrator's hypothetical favorable interpretation in 520, not a new event.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But no, he's not."
     },
     {
       "page": 32,
@@ -7141,8 +7606,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "So that gives purpose in the attributed act; grabs remains unsupported and the next action is not permission for further contact.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "It states that he grabs Jane so that he can just start kissing her."
     },
     {
       "page": 32,
@@ -7151,50 +7619,70 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Groping and reaching for private parts are central receptive vocabulary gaps; no euphemistic omission or erotic elaboration supplied.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And then Jonathan gets up and comes up behind her and starts groping her from behind, again, specifically reaching for her private parts."
     },
     {
       "page": 32,
       "segment": 524,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:7:defendant",
+        "phrase:7:without her consent"
+      ],
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Continues attributed assault account; initiating another assault and inconsistent Giglio/Jillio spelling remain explicit review issues, not reasons to merge identities silently.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And the lawsuit continues to state, defendant Giglio and Jonathan then placed Jane on a bed and the two men begin having sex with Jane, initiating another assault, all without Jane's consent."
     },
     {
       "page": 33,
       "segment": 525,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Time-and-name fragment continues across following clarifications; 1.42 a.m. is event time, not audio location.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "At 1.42 a.m., Jonathan."
     },
     {
       "page": 33,
       "segment": 526,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Clarifies Jonathan is not the friend who invited her; preserve identity distinction.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this is not her friend."
     },
     {
       "page": 33,
       "segment": 527,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:falls asleep"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Matthew is identified as sleeping, separate from Jonathan's next reported action.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So Matthew, her friend, is asleep."
     },
     {
       "page": 33,
@@ -7203,7 +7691,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:invited"
-      ]
+      ],
+      "review_reason": "The one that invited her refers back to Matthew; invitation is not consent to later conduct.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The one that invited her is now asleep on a bed."
     },
     {
       "page": 33,
@@ -7212,7 +7705,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:7:group message"
-      ]
+      ],
+      "review_reason": "Relative clause identifies Jonathan and allegedly limits the reported account; destination is completed in 530.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And Jonathan, the one that Matthew wanted to have a threesome with, allegedly, right, sends a group message to the…"
     },
     {
       "page": 33,
@@ -7220,57 +7718,90 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "word:7:snapchat"
-      ]
+        "word:7:snapchat",
+        "word:4:chapter"
+      ],
+      "review_reason": "Fragment identifies a platform/group destination, not a standalone message content.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Xi chapter Snapchat."
     },
     {
       "page": 33,
       "segment": 531,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Clarifies parent organization after branch-chat reference.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this is the Chi Phi fraternity."
     },
     {
       "page": 33,
       "segment": 532,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:4:chapter"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Clarifies Xi as local Cornell branch, not the national organization's entire membership.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The Xi chapter is Cornell's chapter."
     },
     {
       "page": 33,
       "segment": 533,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:active",
+        "phrase:7:group chat"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Actives is an informal plural noun for current members, explicitly explained in source; group membership does not prove reading or participation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's called like a Xi actives, which means all of the active fraternity members at Chi Phi at Cornell are in this group chat."
     },
     {
       "page": 33,
       "segment": 534,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:snapchat",
+        "phrase:7:group chat"
+      ],
       "candidate_learning_item_ids": [
         "word:7:snapchat"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Reported group size, not a count of people who saw or responded to the message.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And it's a 57 member Snapchat group."
     },
     {
       "page": 33,
       "segment": 535,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Brief acknowledgment sound with no lexical target.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Mm hmm."
     },
     {
       "page": 33,
@@ -7279,8 +7810,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Quoted vulgar sexual wording objectifies a person; requires a receptive register/meaning note and must not become an endorsed everyday speaking example.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He sends a message where he claims there is, quote, free pussy."
     },
     {
       "page": 33,
@@ -7289,8 +7823,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Repeats the vulgar phrase to check message content; no new factual confirmation or implication of consent.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Is that the only thing, like, just free pussy?"
     },
     {
       "page": 33,
@@ -7299,34 +7836,52 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Alum is interpreted as room shorthand later, not necessarily an alumnus; quotation needs explicit uncertainty and register treatment.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "He says free pussy alum."
     },
     {
       "page": 33,
       "segment": 539,
       "source_unit": 4,
-      "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "status": "requires_review",
+      "learning_item_ids": [],
+      "review_reason": "PU is an abbreviation fragment; do not silently expand it as original message text.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "PU."
     },
     {
       "page": 33,
       "segment": 540,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:7:alumni room"
+      ],
       "candidate_learning_item_ids": [
         "word:7:alumni room"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "I think marks the narrator's inference that alum names the room. Abbreviated vulgar message still needs a dedicated receptive note, not automatic expansion.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So free pussy alum, because I think it means they're in the alumni room."
     },
     {
       "page": 33,
       "segment": 541,
       "source_unit": 4,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short acknowledgment of the proposed interpretation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Okay."
     },
     {
       "page": 33,
@@ -7335,17 +7890,25 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:7:pull up"
-      ]
+      ],
+      "review_reason": "Typically stands for offers a common possible expansion. Phrase card explicitly says this is not verified for this message.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And then PU typically stands for pull up."
     },
     {
       "page": 33,
       "segment": 543,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explicit uncertainty about the abbreviation must remain connected to 542; no claim that pull up is definitively intended.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Maybe it means something else."
     },
     {
       "page": 34,
