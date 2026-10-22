@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 379,
+      "phrases": 385,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -48,7 +48,7 @@
         "unit": 5,
         "pages": "16-20",
         "words": 45,
-        "phrases": 44,
+        "phrases": 50,
         "chunks": 16
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 451,
+      "covered": 458,
       "no_identified_barrier": 179,
-      "requires_review": 220
+      "requires_review": 213
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 220,
+      "transcript_segments_requiring_review": 213,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -3819,13 +3819,14 @@
       "page": 17,
       "segment": 264,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:4:fall from heights",
-        "word:3:hazing"
+        "phrase:4:auto accidents",
+        "phrase:4:tied with"
       ],
-      "review_reason": "Tied with fifth means equal rank, not physically tied. Auto accidents and sample percentage interpretation need explicit support; no general incident prevalence inferred.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Fall category, vehicle accidents and equal ranking are explicitly taught. Seven percent is retained as the narrator's sample-based figure, not a universal rate; ranked items are not confused with physical tying.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "The fourth is fall from heights and the fifth is auto accidents and tied with fifth is at just 7% hazing incidents."
@@ -3895,11 +3896,13 @@
       "page": 17,
       "segment": 269,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:the light side"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Light side means supposedly less severe end of the spectrum, not illumination or humor; irony and minimization need an explicit note/card.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Figurative lesser-severity meaning and the narrator's minimizing comparison are explicit; covered means understandable, not harmless or endorsed.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And that's usually like the light side of hazing."
@@ -4008,11 +4011,13 @@
       "page": 18,
       "segment": 278,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:the light side"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Repeats light side as the allegedly less severe category; keep the unresolved figurative meaning connected to 269.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The repeated comparison now links to the same contextual warning that supposedly less severe harm remains harmful.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And that is usually considered the light side of hazing."
@@ -4021,16 +4026,16 @@
       "page": 18,
       "segment": 279,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:4:assault",
-        "word:3:hazing"
+        "phrase:4:full on",
+        "word:10:alleged assault"
       ],
       "candidate_learning_item_ids": [
         "word:4:assault"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Full-on is an intensifier meaning outright/complete; side means an aspect. The nouns alone do not teach these everyday-word combinations.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Full-on is taught as outright/intense, and side means an aspect of the practice; the linked assault vocabulary explains the harm without adding instructions or case findings.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "There is the full-on sexual assault side of hazing as well."
@@ -4118,15 +4123,15 @@
       "page": 18,
       "segment": 285,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:4:a bunk bed",
         "phrase:4:roll out of",
         "word:4:escape",
-        "word:4:balconies",
-        "word:4:intoxicated"
+        "word:4:balconies"
       ],
-      "review_reason": "Fire escapes and balconies now defined, but bunk bed is another common-word compound needing support. Sequence lists several fall locations rather than one continuous fall.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Bunk-bed compound and rolling movement are now explicit alongside the escape card's fire-escape sense and the balcony definition. The disfluent list gives several fall locations rather than one person falling through every location in sequence.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Sometimes there will be a bunk bed next to an open window and they'll be intoxicated, roll out of the bed and then roll out the window, fall from fire escapes, fall from balconies."
@@ -4442,13 +4447,14 @@
       "page": 19,
       "segment": 307,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:4:greek life",
+        "phrase:3:sororities",
+        "phrase:3:greek life",
         "phrase:4:one in every eight"
       ],
-      "review_reason": "Sororities still needs its own lexical support; one in eight is a proportion attributed to some colleges, not a universal housing statistic.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Organization types and the proportional expression are all explained. Some colleges limits the narrator's statistic, and lives agrees with one.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Because when you have all these sororities and fraternities, like some colleges, one in every eight students lives in a Greek life house."
@@ -4522,13 +4528,13 @@
       "page": 20,
       "segment": 312,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:4:slip on",
-        "word:3:sued"
+        "phrase:4:puddle of water"
       ],
-      "review_reason": "Puddle remains a concrete noun gap. Might sue is a possible legal claim, not a conclusion that the school is liable.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The slippery-surface sense and shallow-pool noun are taught; might sue indicates possible action, not automatic legal responsibility.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "But also if someone walks into the building and they slip on a puddle of water, they might sue the school."

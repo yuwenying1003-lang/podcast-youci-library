@@ -214,19 +214,8 @@
     },
     {
       "page": 17,
-      "segment": 264,
-      "reason": "Tied with fifth means equal rank, not physically tied. Auto accidents and sample percentage interpretation need explicit support; no general incident prevalence inferred."
-    },
-    {
-      "page": 17,
       "segment": 268,
       "reason": "Paddling and aesthetic remain gaps; bottom refers to buttocks rather than a financial bottom line. Distinguish physical appearance from emotional effects."
-    },
-    {
-      "page": 17,
-      "segment": 269,
-      "reason": "Light side means supposedly less severe end of the spectrum, not illumination or humor; irony and minimization need an explicit note/card.",
-      "candidate_learning_item_ids": []
     },
     {
       "page": 17,
@@ -241,20 +230,6 @@
     },
     {
       "page": 18,
-      "segment": 278,
-      "reason": "Repeats light side as the allegedly less severe category; keep the unresolved figurative meaning connected to 269.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 18,
-      "segment": 279,
-      "reason": "Full-on is an intensifier meaning outright/complete; side means an aspect. The nouns alone do not teach these everyday-word combinations.",
-      "candidate_learning_item_ids": [
-        "word:4:assault"
-      ]
-    },
-    {
-      "page": 18,
       "segment": 284,
       "reason": "Urinate remains an anatomical vocabulary gap; intoxicated alone is insufficient despite the obvious setting.",
       "candidate_learning_item_ids": [
@@ -262,24 +237,9 @@
       ]
     },
     {
-      "page": 18,
-      "segment": 285,
-      "reason": "Fire escapes and balconies now defined, but bunk bed is another common-word compound needing support. Sequence lists several fall locations rather than one continuous fall."
-    },
-    {
       "page": 19,
       "segment": 298,
       "reason": "Defy gravity and keg stand are distinct idiomatic/cultural barriers. Do not supply instructions for the hazardous drinking stunt; explain receptively if added."
-    },
-    {
-      "page": 19,
-      "segment": 307,
-      "reason": "Sororities still needs its own lexical support; one in eight is a proportion attributed to some colleges, not a universal housing statistic."
-    },
-    {
-      "page": 20,
-      "segment": 312,
-      "reason": "Puddle remains a concrete noun gap. Might sue is a possible legal claim, not a conclusion that the school is liable."
     },
     {
       "page": 21,
