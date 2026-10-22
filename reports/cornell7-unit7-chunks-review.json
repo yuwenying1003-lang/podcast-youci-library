@@ -1,0 +1,31 @@
+{
+  "unit": 7,
+  "reviewer": "Codex",
+  "chunks": [
+    ["We don't know if ...","我们不知道是否……","State a gap in shared knowledge without choosing an unsupported explanation.","We don't know if + statement-order clause; if means whether, not a conditional here.","Source lists alternative accounts; none becomes a fact merely because it is mentioned.",[
+      ["你和家人还没收到快递通知，说明目前不确定包裹是否到了。",["package","arrived"],"We don't know if","We don't know if the package has arrived yet.","我们还不知道包裹是否已经到了。"],
+      ["你和朋友等另一位朋友确认行程，说明现在不能确定人数。",["joining","weekend"],"We don't know if","We don't know if Maya is joining us this weekend.","我们还不知道玛雅这周末是否和我们一起去。"],
+      ["团队尚未完成测试，你提醒同事不要断言修复已经有效。",["fix","works"],"We don't know if","We don't know if the fix works until we finish testing.","测试完成之前，我们还不知道修复是否有效。"]
+    ]],
+    ["in short","简而言之","Summarize the main point after or before a longer explanation.","In short, + concise complete clause; it introduces a summary, not a verbatim full quotation.","Source announces an abbreviated rendering of a creed; preserve the distinction between summary and complete original wording.",[
+      ["你比较了几个交通方案后，用一句话向家人总结最佳选择。",["train","easiest"],"In short,","In short, taking the train is the easiest option.","简而言之，坐火车最方便。"],
+      ["你讲完旅行中的曲折经历后，向朋友概括最终的感受。",["trip","worth"],"In short,","In short, the trip was difficult but worth it.","简而言之，这趟旅行虽然辛苦，但很值得。"],
+      ["你汇报了详细测试结果后，向经理简洁说明当前结论。",["ready","release"],"In short,","In short, we're not ready to release yet.","简而言之，我们还没准备好发布。"]
+    ]],
+    ["unless you were","除非你当时是……；如果你当时不是……","Describe an exception or necessary condition in a past situation.","Unless you were + noun/adjective/location, + main clause; unless generally means if not.","Source sets an exception to awareness of events; were is ordinary past tense in this context, not automatically a hypothetical subjunctive.",[
+      ["你解释昨晚公寓停电时为什么只有在家的人注意到了问题。",["home","outage"],"Unless you were","Unless you were at home last night, you probably missed the power outage.","如果你昨晚不在家，大概就没注意到停电。"],
+      ["朋友问演出结尾发生了什么，你说明只有留到最后的人才看到了。",["there","end"],"Unless you were","Unless you were there at the end, you probably missed the surprise.","如果你没有留到最后，大概就错过了那个惊喜。"],
+      ["你向错过会议的同事解释为什么他不知道临时变更的要求。",["meeting","change"],"Unless you were","Unless you were in the meeting, you wouldn't have heard about the change.","如果你没参加会议，就不会听说那项变更。"]
+    ]],
+    ["We're going to get into","我们接下来要详细谈……","Preview a topic that will be discussed in detail.","We're going to get into + topic; get into means discuss here, not physically enter.","Source previews later discussion and does not itself supply the promised evidence.",[
+      ["你和家人商量旅行，先说明接下来会具体讨论预算。",["budget","next"],"We're going to get into","We're going to get into the budget after we choose the dates.","选好日期之后，我们再具体讨论预算。"],
+      ["你组织读书会，告诉朋友们接下来会讨论故事的结尾。",["ending","discussion"],"We're going to get into","We're going to get into the ending, so there will be spoilers.","我们接下来要详细谈结尾，所以会涉及剧透。"],
+      ["你主持项目会议，向团队说明技术细节会在下一部分讨论。",["technical details","next section"],"We're going to get into","We're going to get into the technical details in the next section.","我们会在下一部分详细讨论技术细节。"]
+    ]],
+    ["The university does not","这所大学不……","State a present institutional practice or policy with a negative verb.","The university does not + base verb; replace the institution as needed, and verify any real policy claim.","Basic grammatical frame, not a complete idiom. Source concerns one narrated decision; teaching examples are hypothetical and do not assert Cornell policy.",[
+      ["在虚构情景中，你查看校园访客说明，告诉家人学校不提供周日停车位。",["parking","Sundays"],"The university does not","The university does not offer visitor parking on Sundays in this example.","在这个例子中，这所大学周日不提供访客停车位。"],
+      ["在假设的校园情景中，你向朋友说明学校不组织毕业后的聚会。",["organize","reunions"],"The university does not","The university does not organize these reunions; the graduates do.","这些聚会不是大学组织的，而是毕业生组织的。"],
+      ["在模拟行政讨论中，你说明这所虚构学校不保存纸质申请表。",["keep","paper forms"],"The university does not","The university does not keep paper application forms in this scenario.","在这个情景中，这所大学不保存纸质申请表。"]
+    ]]
+  ]
+}

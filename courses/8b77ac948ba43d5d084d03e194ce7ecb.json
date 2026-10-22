@@ -25595,464 +25595,565 @@
     [
       {
         "text": "As it turned out",
-        "cn": "结果发现",
-        "example": "As it turned out, the assumption was incorrect.",
-        "prompt": "Tell an unexpected outcome.",
+        "cn": "后来发现；结果却是",
+        "example": "As it turned out, my keys were in my coat pocket.",
+        "prompt": "Introduce a fact discovered later, often contrary to expectations.",
         "source_page": 22,
         "source_segment": "page-22",
         "source_excerpt": "And pressured to solve a riddle that, as it turned out, had no actual answer.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "结果发现",
+        "communicative_function": "Introduce a fact discovered later, often contrary to expectations.",
         "original_en": "And pressured to solve a riddle that, as it turned out, had no actual answer.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "As it turned out, my keys were in my coat pocket.",
+        "everyday_example_zh": "后来发现，我的钥匙就在外套口袋里。",
+        "workplace_example": "As it turned out, the input file was in the wrong format.",
+        "replaceable_parts": "As it turned out, + past-tense clause; can also interrupt a clause between commas.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "去超市购物时临时换了选择：请用“结果发现”组织一句完整英语。",
-            "goal_en": "Tell an unexpected outcome.",
+            "label": "Daily life",
+            "scene_zh": "你原以为丢了钥匙，后来才发现钥匙在外套口袋里。",
+            "goal_en": "Introduce a fact discovered later, often contrary to expectations.",
             "keywords": [
-              "turned",
-              "assumption",
-              "incorrect"
+              "keys",
+              "pocket"
             ],
-            "starter": "as it turned out",
-            "reference_answer": "As it turned out, the assumption was incorrect."
+            "starter": "As it turned out,",
+            "reference_answer": "As it turned out, my keys were in my coat pocket.",
+            "reference_answer_zh": "后来发现，我的钥匙就在外套口袋里。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "聊一部电影带来的不同感受：请用“结果发现”组织一句完整英语。",
-            "goal_en": "Tell an unexpected outcome.",
+            "label": "Friends",
+            "scene_zh": "你以为聚会只有熟人，后来发现一位老同学也来参加。",
+            "goal_en": "Introduce a fact discovered later, often contrary to expectations.",
             "keywords": [
-              "turned",
-              "assumption",
-              "incorrect"
+              "classmate",
+              "party"
             ],
-            "starter": "as it turned out",
-            "reference_answer": "As it turned out, the assumption was incorrect."
+            "starter": "As it turned out,",
+            "reference_answer": "As it turned out, an old classmate was at the party too.",
+            "reference_answer_zh": "后来发现，一位老同学也参加了聚会。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "讨论截止时间和备选方案：请用“结果发现”组织一句完整英语。",
-            "goal_en": "Tell an unexpected outcome.",
+            "label": "Work",
+            "scene_zh": "团队以为问题出在代码，检查后发现是输入文件格式错误。",
+            "goal_en": "Introduce a fact discovered later, often contrary to expectations.",
             "keywords": [
-              "turned",
-              "assumption",
-              "incorrect"
+              "input file",
+              "format"
             ],
-            "starter": "as it turned out",
-            "reference_answer": "As it turned out, the assumption was incorrect."
+            "starter": "As it turned out,",
+            "reference_answer": "As it turned out, the input file was in the wrong format.",
+            "reference_answer_zh": "后来发现，是输入文件的格式不对。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "后来发现，我的钥匙就在外套口袋里。",
+        "example_source": "adapted",
+        "workplace_example_zh": "后来发现，是输入文件的格式不对。",
+        "context_review_note": "Source reveals that the riddle lacked an answer, distinguishing later discovery from initial expectations.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's worth ...",
         "cn": "值得……",
-        "example": "It's worth reading.",
-        "prompt": "Use “It's worth ...” in a complete sentence.",
+        "example": "It's worth checking the opening hours before we leave.",
+        "prompt": "Recommend an action as valuable enough to justify the effort.",
         "source_page": 23,
         "source_segment": "page-23",
         "source_excerpt": "It's worth reading.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "值得……",
+        "communicative_function": "Recommend an action as valuable enough to justify the effort.",
         "original_en": "It's worth reading.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It's worth checking the opening hours before we leave.",
+        "everyday_example_zh": "出发前值得先查一下营业时间。",
+        "workplace_example": "It's worth clarifying this requirement before we start.",
+        "replaceable_parts": "It's worth + -ing form or noun phrase; not worth to + verb.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“值得……”这一表达。",
-            "goal_en": "It's worth ...",
+            "scene_zh": "你准备出门买东西，提醒家人先检查一下商店营业时间。",
+            "goal_en": "Recommend an action as valuable enough to justify the effort.",
             "keywords": [
-              "today",
-              "plan"
+              "checking",
+              "hours"
             ],
-            "starter": "It's worth ...",
-            "reference_answer": "It's worth reading."
+            "starter": "It's worth",
+            "reference_answer": "It's worth checking the opening hours before we leave.",
+            "reference_answer_zh": "出发前值得先查一下营业时间。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“值得……”这一表达。",
-            "goal_en": "It's worth ...",
+            "scene_zh": "朋友犹豫是否尝试新餐厅，你认为值得去试一次。",
+            "goal_en": "Recommend an action as valuable enough to justify the effort.",
             "keywords": [
-              "friend",
-              "situation"
+              "trying",
+              "restaurant"
             ],
-            "starter": "It's worth ...",
-            "reference_answer": "It's worth reading."
+            "starter": "It's worth",
+            "reference_answer": "It's worth trying the new restaurant at least once.",
+            "reference_answer_zh": "那家新餐厅至少值得去试一次。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“值得……”这一表达。",
-            "goal_en": "It's worth ...",
+            "scene_zh": "你发现一项需求含糊，建议团队正式开始前先澄清。",
+            "goal_en": "Recommend an action as valuable enough to justify the effort.",
             "keywords": [
-              "project",
-              "team"
+              "clarifying",
+              "requirement"
             ],
-            "starter": "It's worth ...",
-            "reference_answer": "It's worth reading."
+            "starter": "It's worth",
+            "reference_answer": "It's worth clarifying this requirement before we start.",
+            "reference_answer_zh": "开始之前，值得先把这项需求弄清楚。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "出发前值得先查一下营业时间。",
+        "example_source": "adapted",
+        "workplace_example_zh": "开始之前，值得先把这项需求弄清楚。",
+        "context_review_note": "Source recommends reading; it does not claim the document is unbiased or independently verified.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's worth reading",
-        "cn": "值得阅读",
-        "example": "It's worth reading.",
-        "prompt": "Use “It's worth reading” in a complete sentence.",
+        "cn": "值得一读",
+        "example": "It's worth reading the safety section before using the appliance.",
+        "prompt": "Recommend reading a particular text and explain its value.",
         "source_page": 23,
         "source_segment": "page-23",
         "source_excerpt": "It's worth reading.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "值得阅读",
+        "communicative_function": "Recommend reading a particular text and explain its value.",
         "original_en": "It's worth reading.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's worth reading the safety section before using the appliance.",
+        "everyday_example_zh": "使用电器前，说明书中的安全部分值得读一读。",
+        "workplace_example": "It's worth reading the report for the lessons from the last release.",
+        "replaceable_parts": "It's worth reading + optional because clause; it must refer to an identified text.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“值得阅读”这一表达。",
-            "goal_en": "It's worth reading",
+            "scene_zh": "家人准备使用新设备，你提醒他说明书中的安全部分很有用。",
+            "goal_en": "Recommend reading a particular text and explain its value.",
             "keywords": [
-              "today",
-              "plan"
+              "manual",
+              "safety"
             ],
             "starter": "It's worth reading",
-            "reference_answer": "It's worth reading."
+            "reference_answer": "It's worth reading the safety section before using the appliance.",
+            "reference_answer_zh": "使用电器前，说明书中的安全部分值得读一读。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“值得阅读”这一表达。",
-            "goal_en": "It's worth reading",
+            "scene_zh": "朋友问你推荐的旅行随笔怎么样，你指出它介绍了当地生活。",
+            "goal_en": "Recommend reading a particular text and explain its value.",
             "keywords": [
-              "friend",
-              "situation"
+              "essay",
+              "local life"
             ],
             "starter": "It's worth reading",
-            "reference_answer": "It's worth reading."
+            "reference_answer": "It's worth reading because it gives a vivid picture of local life.",
+            "reference_answer_zh": "它值得一读，因为它生动地描绘了当地生活。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“值得阅读”这一表达。",
-            "goal_en": "It's worth reading",
+            "scene_zh": "你向新同事推荐一份复盘报告，说明其中有可借鉴的经验。",
+            "goal_en": "Recommend reading a particular text and explain its value.",
             "keywords": [
-              "project",
-              "team"
+              "report",
+              "lessons"
             ],
             "starter": "It's worth reading",
-            "reference_answer": "It's worth reading."
+            "reference_answer": "It's worth reading the report for the lessons from the last release.",
+            "reference_answer_zh": "这份报告值得读一读，可以了解上次发布的经验教训。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "使用电器前，说明书中的安全部分值得读一读。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这份报告值得读一读，可以了解上次发布的经验教训。",
+        "context_review_note": "The original is a brief recommendation, while the teaching scenes use neutral documents rather than repeat distressing case material.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
       {
         "text": "We don't know if ...",
         "cn": "我们不知道是否……",
-        "example": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine.",
-        "prompt": "Use “We don't know if ...” in a complete sentence.",
+        "example": "We don't know if the package has arrived yet.",
+        "prompt": "State a gap in shared knowledge without choosing an unsupported explanation.",
         "source_page": 24,
         "source_segment": "page-24",
         "source_excerpt": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我们不知道是否……",
+        "communicative_function": "State a gap in shared knowledge without choosing an unsupported explanation.",
         "original_en": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "We don't know if the package has arrived yet.",
+        "everyday_example_zh": "我们还不知道包裹是否已经到了。",
+        "workplace_example": "We don't know if the fix works until we finish testing.",
+        "replaceable_parts": "We don't know if + statement-order clause; if means whether, not a conditional here.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我们不知道是否……”这一表达。",
-            "goal_en": "We don't know if ...",
+            "scene_zh": "你和家人还没收到快递通知，说明目前不确定包裹是否到了。",
+            "goal_en": "State a gap in shared knowledge without choosing an unsupported explanation.",
             "keywords": [
-              "today",
-              "plan"
+              "package",
+              "arrived"
             ],
-            "starter": "We don't know if ...",
-            "reference_answer": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine."
+            "starter": "We don't know if",
+            "reference_answer": "We don't know if the package has arrived yet.",
+            "reference_answer_zh": "我们还不知道包裹是否已经到了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我们不知道是否……”这一表达。",
-            "goal_en": "We don't know if ...",
+            "scene_zh": "你和朋友等另一位朋友确认行程，说明现在不能确定人数。",
+            "goal_en": "State a gap in shared knowledge without choosing an unsupported explanation.",
             "keywords": [
-              "friend",
-              "situation"
+              "joining",
+              "weekend"
             ],
-            "starter": "We don't know if ...",
-            "reference_answer": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine."
+            "starter": "We don't know if",
+            "reference_answer": "We don't know if Maya is joining us this weekend.",
+            "reference_answer_zh": "我们还不知道玛雅这周末是否和我们一起去。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我们不知道是否……”这一表达。",
-            "goal_en": "We don't know if ...",
+            "scene_zh": "团队尚未完成测试，你提醒同事不要断言修复已经有效。",
+            "goal_en": "State a gap in shared knowledge without choosing an unsupported explanation.",
             "keywords": [
-              "project",
-              "team"
+              "fix",
+              "works"
             ],
-            "starter": "We don't know if ...",
-            "reference_answer": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine."
+            "starter": "We don't know if",
+            "reference_answer": "We don't know if the fix works until we finish testing.",
+            "reference_answer_zh": "测试完成之前，我们还不知道修复是否有效。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我们还不知道包裹是否已经到了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "测试完成之前，我们还不知道修复是否有效。",
+        "context_review_note": "Source lists alternative accounts; none becomes a fact merely because it is mentioned.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "in short",
         "cn": "简而言之",
-        "example": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended.",
-        "prompt": "Use “in short” in a complete sentence.",
+        "example": "In short, taking the train is the easiest option.",
+        "prompt": "Summarize the main point after or before a longer explanation.",
         "source_page": 25,
         "source_segment": "page-25",
         "source_excerpt": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "简而言之",
+        "communicative_function": "Summarize the main point after or before a longer explanation.",
         "original_en": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "In short, taking the train is the easiest option.",
+        "everyday_example_zh": "简而言之，坐火车最方便。",
+        "workplace_example": "In short, we're not ready to release yet.",
+        "replaceable_parts": "In short, + concise complete clause; it introduces a summary, not a verbatim full quotation.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“简而言之”这一表达。",
-            "goal_en": "in short",
+            "scene_zh": "你比较了几个交通方案后，用一句话向家人总结最佳选择。",
+            "goal_en": "Summarize the main point after or before a longer explanation.",
             "keywords": [
-              "today",
-              "plan"
+              "train",
+              "easiest"
             ],
-            "starter": "in short",
-            "reference_answer": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended."
+            "starter": "In short,",
+            "reference_answer": "In short, taking the train is the easiest option.",
+            "reference_answer_zh": "简而言之，坐火车最方便。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“简而言之”这一表达。",
-            "goal_en": "in short",
+            "scene_zh": "你讲完旅行中的曲折经历后，向朋友概括最终的感受。",
+            "goal_en": "Summarize the main point after or before a longer explanation.",
             "keywords": [
-              "friend",
-              "situation"
+              "trip",
+              "worth"
             ],
-            "starter": "in short",
-            "reference_answer": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended."
+            "starter": "In short,",
+            "reference_answer": "In short, the trip was difficult but worth it.",
+            "reference_answer_zh": "简而言之，这趟旅行虽然辛苦，但很值得。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“简而言之”这一表达。",
-            "goal_en": "in short",
+            "scene_zh": "你汇报了详细测试结果后，向经理简洁说明当前结论。",
+            "goal_en": "Summarize the main point after or before a longer explanation.",
             "keywords": [
-              "project",
-              "team"
+              "ready",
+              "release"
             ],
-            "starter": "in short",
-            "reference_answer": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended."
+            "starter": "In short,",
+            "reference_answer": "In short, we're not ready to release yet.",
+            "reference_answer_zh": "简而言之，我们还没准备好发布。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "简而言之，坐火车最方便。",
+        "example_source": "adapted",
+        "workplace_example_zh": "简而言之，我们还没准备好发布。",
+        "context_review_note": "Source announces an abbreviated rendering of a creed; preserve the distinction between summary and complete original wording.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "unless you were",
-        "cn": "除非你是",
-        "example": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it.",
-        "prompt": "Use “unless you were” in a complete sentence.",
+        "cn": "除非你当时是……；如果你当时不是……",
+        "example": "Unless you were at home last night, you probably missed the power outage.",
+        "prompt": "Describe an exception or necessary condition in a past situation.",
         "source_page": 26,
         "source_segment": "page-26",
         "source_excerpt": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "除非你是",
+        "communicative_function": "Describe an exception or necessary condition in a past situation.",
         "original_en": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "Unless you were at home last night, you probably missed the power outage.",
+        "everyday_example_zh": "如果你昨晚不在家，大概就没注意到停电。",
+        "workplace_example": "Unless you were in the meeting, you wouldn't have heard about the change.",
+        "replaceable_parts": "Unless you were + noun/adjective/location, + main clause; unless generally means if not.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“除非你是”这一表达。",
-            "goal_en": "unless you were",
+            "scene_zh": "你解释昨晚公寓停电时为什么只有在家的人注意到了问题。",
+            "goal_en": "Describe an exception or necessary condition in a past situation.",
             "keywords": [
-              "today",
-              "plan"
+              "home",
+              "outage"
             ],
-            "starter": "unless you were",
-            "reference_answer": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it."
+            "starter": "Unless you were",
+            "reference_answer": "Unless you were at home last night, you probably missed the power outage.",
+            "reference_answer_zh": "如果你昨晚不在家，大概就没注意到停电。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“除非你是”这一表达。",
-            "goal_en": "unless you were",
+            "scene_zh": "朋友问演出结尾发生了什么，你说明只有留到最后的人才看到了。",
+            "goal_en": "Describe an exception or necessary condition in a past situation.",
             "keywords": [
-              "friend",
-              "situation"
+              "there",
+              "end"
             ],
-            "starter": "unless you were",
-            "reference_answer": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it."
+            "starter": "Unless you were",
+            "reference_answer": "Unless you were there at the end, you probably missed the surprise.",
+            "reference_answer_zh": "如果你没有留到最后，大概就错过了那个惊喜。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“除非你是”这一表达。",
-            "goal_en": "unless you were",
+            "scene_zh": "你向错过会议的同事解释为什么他不知道临时变更的要求。",
+            "goal_en": "Describe an exception or necessary condition in a past situation.",
             "keywords": [
-              "project",
-              "team"
+              "meeting",
+              "change"
             ],
-            "starter": "unless you were",
-            "reference_answer": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it."
+            "starter": "Unless you were",
+            "reference_answer": "Unless you were in the meeting, you wouldn't have heard about the change.",
+            "reference_answer_zh": "如果你没参加会议，就不会听说那项变更。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "如果你昨晚不在家，大概就没注意到停电。",
+        "example_source": "adapted",
+        "workplace_example_zh": "如果你没参加会议，就不会听说那项变更。",
+        "context_review_note": "Source sets an exception to awareness of events; were is ordinary past tense in this context, not automatically a hypothetical subjunctive.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "We're going to get into",
-        "cn": "接下来深入讨论",
-        "example": "We're going to get into all the cross-referencing of who is who because",
-        "prompt": "Use “We're going to get into” in a complete sentence.",
+        "cn": "我们接下来要详细谈……",
+        "example": "We're going to get into the budget after we choose the dates.",
+        "prompt": "Preview a topic that will be discussed in detail.",
         "source_page": 26,
         "source_segment": "page-26",
         "source_excerpt": "We're going to get into all of it.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "接下来深入讨论",
+        "communicative_function": "Preview a topic that will be discussed in detail.",
         "original_en": "We're going to get into all of it.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "We're going to get into the budget after we choose the dates.",
+        "everyday_example_zh": "选好日期之后，我们再具体讨论预算。",
+        "workplace_example": "We're going to get into the technical details in the next section.",
+        "replaceable_parts": "We're going to get into + topic; get into means discuss here, not physically enter.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我们接下来会讨论”这一表达。",
-            "goal_en": "We're going to get into",
+            "scene_zh": "你和家人商量旅行，先说明接下来会具体讨论预算。",
+            "goal_en": "Preview a topic that will be discussed in detail.",
             "keywords": [
-              "today",
-              "plan"
+              "budget",
+              "next"
             ],
             "starter": "We're going to get into",
-            "reference_answer": "We're going to get into all the cross-referencing of who is who because"
+            "reference_answer": "We're going to get into the budget after we choose the dates.",
+            "reference_answer_zh": "选好日期之后，我们再具体讨论预算。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我们接下来会讨论”这一表达。",
-            "goal_en": "We're going to get into",
+            "scene_zh": "你组织读书会，告诉朋友们接下来会讨论故事的结尾。",
+            "goal_en": "Preview a topic that will be discussed in detail.",
             "keywords": [
-              "friend",
-              "situation"
+              "ending",
+              "discussion"
             ],
             "starter": "We're going to get into",
-            "reference_answer": "We're going to get into all the cross-referencing of who is who because"
+            "reference_answer": "We're going to get into the ending, so there will be spoilers.",
+            "reference_answer_zh": "我们接下来要详细谈结尾，所以会涉及剧透。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我们接下来会讨论”这一表达。",
-            "goal_en": "We're going to get into",
+            "scene_zh": "你主持项目会议，向团队说明技术细节会在下一部分讨论。",
+            "goal_en": "Preview a topic that will be discussed in detail.",
             "keywords": [
-              "project",
-              "team"
+              "technical details",
+              "next section"
             ],
             "starter": "We're going to get into",
-            "reference_answer": "We're going to get into all the cross-referencing of who is who because"
+            "reference_answer": "We're going to get into the technical details in the next section.",
+            "reference_answer_zh": "我们会在下一部分详细讨论技术细节。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "选好日期之后，我们再具体讨论预算。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们会在下一部分详细讨论技术细节。",
+        "context_review_note": "Source previews later discussion and does not itself supply the promised evidence.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "The university does not",
-        "cn": "大学并没有……",
-        "example": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day.",
-        "prompt": "Use “The university does not” in a complete sentence.",
+        "cn": "这所大学不……",
+        "example": "The university does not offer visitor parking on Sundays in this example.",
+        "prompt": "State a present institutional practice or policy with a negative verb.",
         "source_page": 24,
         "source_segment": "page-24",
         "source_excerpt": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "大学并没有……",
+        "communicative_function": "State a present institutional practice or policy with a negative verb.",
         "original_en": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "The university does not offer visitor parking on Sundays in this example.",
+        "everyday_example_zh": "在这个例子中，这所大学周日不提供访客停车位。",
+        "workplace_example": "The university does not keep paper application forms in this scenario.",
+        "replaceable_parts": "The university does not + base verb; replace the institution as needed, and verify any real policy claim.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“大学并没有……”这一表达。",
-            "goal_en": "The university does not",
+            "scene_zh": "在虚构情景中，你查看校园访客说明，告诉家人学校不提供周日停车位。",
+            "goal_en": "State a present institutional practice or policy with a negative verb.",
             "keywords": [
-              "today",
-              "plan"
+              "parking",
+              "Sundays"
             ],
             "starter": "The university does not",
-            "reference_answer": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day."
+            "reference_answer": "The university does not offer visitor parking on Sundays in this example.",
+            "reference_answer_zh": "在这个例子中，这所大学周日不提供访客停车位。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“大学并没有……”这一表达。",
-            "goal_en": "The university does not",
+            "scene_zh": "在假设的校园情景中，你向朋友说明学校不组织毕业后的聚会。",
+            "goal_en": "State a present institutional practice or policy with a negative verb.",
             "keywords": [
-              "friend",
-              "situation"
+              "organize",
+              "reunions"
             ],
             "starter": "The university does not",
-            "reference_answer": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day."
+            "reference_answer": "The university does not organize these reunions; the graduates do.",
+            "reference_answer_zh": "这些聚会不是大学组织的，而是毕业生组织的。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“大学并没有……”这一表达。",
-            "goal_en": "The university does not",
+            "scene_zh": "在模拟行政讨论中，你说明这所虚构学校不保存纸质申请表。",
+            "goal_en": "State a present institutional practice or policy with a negative verb.",
             "keywords": [
-              "project",
-              "team"
+              "keep",
+              "paper forms"
             ],
             "starter": "The university does not",
-            "reference_answer": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day."
+            "reference_answer": "The university does not keep paper application forms in this scenario.",
+            "reference_answer_zh": "在这个情景中，这所大学不保存纸质申请表。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "在这个例子中，这所大学周日不提供访客停车位。",
+        "example_source": "adapted",
+        "workplace_example_zh": "在这个情景中，这所大学不保存纸质申请表。",
+        "context_review_note": "Basic grammatical frame, not a complete idiom. Source concerns one narrated decision; teaching examples are hypothetical and do not assert Cornell policy.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [

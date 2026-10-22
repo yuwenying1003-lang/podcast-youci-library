@@ -41,6 +41,9 @@ console.log(JSON.stringify({ reviewed: expansion.reviewed_word_cards, remaining:
 const pending = course.vocab.find(v => v.editorial_status !== 'reviewed_complete');
 const contextual = coverage.segments.filter(s => s.reviewer === 'Codex');
 const nextParagraph = coverage.segments.find(s => s.page > 3 && s.reviewer !== 'Codex');
+const nextChunk = course.patterns.flatMap((group, unit) => group.map(item => ({ ...item, unit }))).find(item => item.unit > 0 && item.editorial_status !== 'reviewed_complete');
+const nextPhrase = course.expressions.find(item => item.unit > 0 && item.editorial_status !== 'reviewed_complete');
+const nextBarrier = coverage.segments.find(item => item.page > 3 && item.status === 'requires_review');
 const audit = `# Cornell 7 quality and continuation audit
 
 Updated 2026-10-22. Reviews identify Codex as reviewer; completed contextual editorial review is not independent human sign-off or audio verification.
@@ -67,7 +70,11 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - ${pending ? `Next unreviewed Word: Unit ${pending.unit + 1}, ${pending.word}.` : 'All 321 Word cards now carry completed editorial review; no pending Word remains.'} Preserve completed cards; independent human sign-off is not implied.
 - ${nextParagraph ? `Next paragraph not yet individually read in this PDF pass: page ${nextParagraph.page}, segment ${nextParagraph.segment}. The continuous reviewed range is segments 50–${nextParagraph.segment - 1}.` : 'The continuous individual PDF review covers segments 50–850 (Units 2–11); no unread paragraph remains in that range.'} Unit 1's previous work is preserved.
 - ${unresolved.transcript_segments_requiring_review.length ? `Earliest remaining transcript barrier: page ${unresolved.transcript_segments_requiring_review[0].page}, segment ${unresolved.transcript_segments_requiring_review[0].segment}.` : 'No transcript barrier is currently queued.'} Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
-- Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
+- ${nextParagraph ? 'Continue detailed PDF review beyond the latest recorded batch.' : 'The initial Unit 2–11 paragraph pass is complete; the next coverage work is resolving documented barriers, not rereading or auto-approving all matches.'} Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
+- ${nextBarrier ? `Next in-scope barrier after preserved Unit 1: page ${nextBarrier.page}, segment ${nextBarrier.segment}: ${nextBarrier.review_reason}` : 'No in-scope barrier remains after Unit 1.'}
+- ${nextChunk ? `Next pending Chunk after preserved Unit 1: Unit ${nextChunk.unit + 1}, ${nextChunk.text}.` : 'No pending Chunk remains after Unit 1.'}
+- ${nextPhrase ? `Next pending Phrase after preserved Unit 1: Unit ${nextPhrase.unit + 1}, ${nextPhrase.text}.` : 'No pending Phrase remains after Unit 1.'}
+- The historical Unit 1 bizarre card still lacks two populated collocations; it is queued rather than silently changed because Unit 1 was explicitly preserved. Its existing reviewed_complete label predates this pass.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
 - Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.
