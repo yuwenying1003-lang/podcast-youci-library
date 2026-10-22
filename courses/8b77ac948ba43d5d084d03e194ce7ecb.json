@@ -29515,1211 +29515,1475 @@
     [
       {
         "text": "I cannot say with certainty",
-        "cn": "我无法肯定地说",
-        "example": "Though I cannot say with certainty, legally speaking, which one it is.",
-        "prompt": "Use “I cannot say with certainty” in a complete sentence.",
+        "cn": "我无法确定地说……",
+        "example": "I cannot say with certainty when the repair will be finished.",
+        "prompt": "State explicitly that available knowledge is insufficient for certainty.",
         "source_page": 41,
         "source_segment": "page-41",
         "source_excerpt": "Though I cannot say with certainty, legally speaking, which one it is.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我无法肯定地说",
+        "communicative_function": "State explicitly that available knowledge is insufficient for certainty.",
         "original_en": "Though I cannot say with certainty, legally speaking, which one it is.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I cannot say with certainty when the repair will be finished.",
+        "everyday_example_zh": "我无法确定维修什么时候能完成。",
+        "workplace_example": "I cannot say with certainty which change caused the error.",
+        "replaceable_parts": "I cannot say with certainty + whether/how/which clause; use statement word order.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我无法肯定地说”这一表达。",
-            "goal_en": "I cannot say with certainty",
+            "scene_zh": "你还没收到维修通知，向家人说明无法确定设备何时能修好。",
+            "goal_en": "State explicitly that available knowledge is insufficient for certainty.",
             "keywords": [
-              "today",
-              "plan"
+              "repair",
+              "ready"
             ],
             "starter": "I cannot say with certainty",
-            "reference_answer": "Though I cannot say with certainty, legally speaking, which one it is."
+            "reference_answer": "I cannot say with certainty when the repair will be finished.",
+            "reference_answer_zh": "我无法确定维修什么时候能完成。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我无法肯定地说”这一表达。",
-            "goal_en": "I cannot say with certainty",
+            "scene_zh": "朋友问你是否能参加周末聚会，但你的行程还没有确定。",
+            "goal_en": "State explicitly that available knowledge is insufficient for certainty.",
             "keywords": [
-              "friend",
-              "situation"
+              "attend",
+              "weekend"
             ],
             "starter": "I cannot say with certainty",
-            "reference_answer": "Though I cannot say with certainty, legally speaking, which one it is."
+            "reference_answer": "I cannot say with certainty whether I'll be free this weekend.",
+            "reference_answer_zh": "我无法确定这周末是否有空。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我无法肯定地说”这一表达。",
-            "goal_en": "I cannot say with certainty",
+            "scene_zh": "你向团队汇报初步调查，说明目前无法断言哪个因素导致错误。",
+            "goal_en": "State explicitly that available knowledge is insufficient for certainty.",
             "keywords": [
-              "project",
-              "team"
+              "cause",
+              "error"
             ],
             "starter": "I cannot say with certainty",
-            "reference_answer": "Though I cannot say with certainty, legally speaking, which one it is."
+            "reference_answer": "I cannot say with certainty which change caused the error.",
+            "reference_answer_zh": "我无法确定是哪项修改导致了错误。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我无法确定维修什么时候能完成。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我无法确定是哪项修改导致了错误。",
+        "context_review_note": "Source declines to identify a pseudonymous party; do not supply the missing identity.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't think I did anything wrong",
-        "cn": "我不认为我做错什么",
-        "example": "It was like, I don't like the fact that I'm being punished for this because I don't think I did anything wrong.",
-        "prompt": "Use “I don't think I did anything wrong” in a complete sentence.",
+        "cn": "我不认为自己做错了什么",
+        "example": "I don't think I did anything wrong, but let's check the instructions together.",
+        "prompt": "Express your assessment of your own conduct while allowing discussion.",
         "source_page": 41,
         "source_segment": "page-41",
         "source_excerpt": "It was like, I don't like the fact that I'm being punished for this because I don't think I did anything wrong.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我不认为我做错什么",
+        "communicative_function": "Express your assessment of your own conduct while allowing discussion.",
         "original_en": "It was like, I don't like the fact that I'm being punished for this because I don't think I did anything wrong.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I don't think I did anything wrong, but let's check the instructions together.",
+        "everyday_example_zh": "我不觉得自己做错了什么，不过我们一起查查说明吧。",
+        "workplace_example": "I don't think I did anything wrong, but please show me which step I missed.",
+        "replaceable_parts": "I don't think + clause; anything follows the negative. Can sound defensive, so invite specific feedback when appropriate.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不认为我做错什么”这一表达。",
-            "goal_en": "I don't think I did anything wrong",
+            "scene_zh": "家人误以为你没有按说明安装家具，你说明自己的看法并愿意检查。",
+            "goal_en": "Express your assessment of your own conduct while allowing discussion.",
             "keywords": [
-              "today",
-              "plan"
+              "instructions",
+              "check"
             ],
             "starter": "I don't think I did anything wrong",
-            "reference_answer": "It was like, I don't like the fact that I'm being punished for this because I don't think I did anything wrong."
+            "reference_answer": "I don't think I did anything wrong, but let's check the instructions together.",
+            "reference_answer_zh": "我不觉得自己做错了什么，不过我们一起查查说明吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不认为我做错什么”这一表达。",
-            "goal_en": "I don't think I did anything wrong",
+            "scene_zh": "朋友因你提前离开聚会不高兴，你表达看法并愿意听取他的感受。",
+            "goal_en": "Express your assessment of your own conduct while allowing discussion.",
             "keywords": [
-              "friend",
-              "situation"
+              "leaving",
+              "explain"
             ],
             "starter": "I don't think I did anything wrong",
-            "reference_answer": "It was like, I don't like the fact that I'm being punished for this because I don't think I did anything wrong."
+            "reference_answer": "I don't think I did anything wrong by leaving early, but I should have explained.",
+            "reference_answer_zh": "我不觉得提前离开本身有什么错，不过我应该解释一下。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不认为我做错什么”这一表达。",
-            "goal_en": "I don't think I did anything wrong",
+            "scene_zh": "同事指出流程可能有误，你表达当前理解并请对方指出具体问题。",
+            "goal_en": "Express your assessment of your own conduct while allowing discussion.",
             "keywords": [
-              "project",
-              "team"
+              "process",
+              "missed"
             ],
             "starter": "I don't think I did anything wrong",
-            "reference_answer": "It was like, I don't like the fact that I'm being punished for this because I don't think I did anything wrong."
+            "reference_answer": "I don't think I did anything wrong, but please show me which step I missed.",
+            "reference_answer_zh": "我不觉得自己做错了什么，不过请告诉我漏掉了哪个步骤。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不觉得自己做错了什么，不过我们一起查查说明吧。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不觉得自己做错了什么，不过请告诉我漏掉了哪个步骤。",
+        "context_review_note": "Source paraphrases a party's position; the statement is not proof of innocence or wrongdoing.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "not a lot of people",
-        "cn": "没有多少人",
-        "example": "And that one you're saying not a lot of people are talking about the details, right?",
-        "prompt": "Use “not a lot of people” in a complete sentence.",
+        "cn": "没有很多人；人数不多",
+        "example": "Not a lot of people use the park this early.",
+        "prompt": "Describe a relatively small number without claiming there were none.",
         "source_page": 41,
         "source_segment": "page-41",
         "source_excerpt": "And that one you're saying not a lot of people are talking about the details, right?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "没有多少人",
+        "communicative_function": "Describe a relatively small number without claiming there were none.",
         "original_en": "And that one you're saying not a lot of people are talking about the details, right?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "Not a lot of people use the park this early.",
+        "everyday_example_zh": "这么早来公园的人不多。",
+        "workplace_example": "Not a lot of people are using this feature yet.",
+        "replaceable_parts": "Not a lot of people + plural verb; or there are/were not a lot of people + complement.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“没有多少人”这一表达。",
-            "goal_en": "not a lot of people",
+            "scene_zh": "你向家人描述早晨的公园，说明当时那里的人不多。",
+            "goal_en": "Describe a relatively small number without claiming there were none.",
             "keywords": [
-              "today",
-              "plan"
+              "park",
+              "morning"
             ],
-            "starter": "not a lot of people",
-            "reference_answer": "And that one you're saying not a lot of people are talking about the details, right?"
+            "starter": "Not a lot of people",
+            "reference_answer": "Not a lot of people use the park this early.",
+            "reference_answer_zh": "这么早来公园的人不多。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“没有多少人”这一表达。",
-            "goal_en": "not a lot of people",
+            "scene_zh": "朋友担心活动太拥挤，你告诉他上次参加的人数比较少。",
+            "goal_en": "Describe a relatively small number without claiming there were none.",
             "keywords": [
-              "friend",
-              "situation"
+              "event",
+              "last time"
             ],
-            "starter": "not a lot of people",
-            "reference_answer": "And that one you're saying not a lot of people are talking about the details, right?"
+            "starter": "Not a lot of people",
+            "reference_answer": "Not a lot of people came to the event last time.",
+            "reference_answer_zh": "上次来参加活动的人不多。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“没有多少人”这一表达。",
-            "goal_en": "not a lot of people",
+            "scene_zh": "你向团队反馈一个功能的使用情况，但不夸大成完全没人使用。",
+            "goal_en": "Describe a relatively small number without claiming there were none.",
             "keywords": [
-              "project",
-              "team"
+              "feature",
+              "using"
             ],
-            "starter": "not a lot of people",
-            "reference_answer": "And that one you're saying not a lot of people are talking about the details, right?"
+            "starter": "Not a lot of people",
+            "reference_answer": "Not a lot of people are using this feature yet.",
+            "reference_answer_zh": "目前使用这个功能的人还不多。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这么早来公园的人不多。",
+        "example_source": "adapted",
+        "workplace_example_zh": "目前使用这个功能的人还不多。",
+        "context_review_note": "Source concerns discussion of the second lawsuit; few does not mean nobody.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's a whole ...",
-        "cn": "有一整套……",
-        "example": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings.",
-        "prompt": "Use “There's a whole ...” in a complete sentence.",
+        "cn": "有整整一个……；有一整套……",
+        "example": "There's a whole box of books we haven't unpacked.",
+        "prompt": "Emphasize the extent or completeness of something.",
         "source_page": 41,
         "source_segment": "page-41",
         "source_excerpt": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "有一整套……",
+        "communicative_function": "Emphasize the extent or completeness of something.",
         "original_en": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "There's a whole box of books we haven't unpacked.",
+        "everyday_example_zh": "还有整整一箱书我们没拆。",
+        "workplace_example": "There's a whole approval process we need to follow.",
+        "replaceable_parts": "There's a whole + singular count noun phrase; whole emphasizes scope rather than always literal completeness.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“有一整套……”这一表达。",
-            "goal_en": "There's a whole ...",
+            "scene_zh": "你整理储物间时发现还有一箱没拆的书，向家人说明。",
+            "goal_en": "Emphasize the extent or completeness of something.",
             "keywords": [
-              "today",
-              "plan"
+              "box",
+              "books"
             ],
-            "starter": "There's a whole ...",
-            "reference_answer": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings."
+            "starter": "There's a whole",
+            "reference_answer": "There's a whole box of books we haven't unpacked.",
+            "reference_answer_zh": "还有整整一箱书我们没拆。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“有一整套……”这一表达。",
-            "goal_en": "There's a whole ...",
+            "scene_zh": "朋友只知道旅行的一件小插曲，你说明背后还有很多故事。",
+            "goal_en": "Emphasize the extent or completeness of something.",
             "keywords": [
-              "friend",
-              "situation"
+              "story",
+              "behind"
             ],
-            "starter": "There's a whole ...",
-            "reference_answer": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings."
+            "starter": "There's a whole",
+            "reference_answer": "There's a whole story behind that photo.",
+            "reference_answer_zh": "那张照片背后还有一整个故事。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“有一整套……”这一表达。",
-            "goal_en": "There's a whole ...",
+            "scene_zh": "同事以为审批只有一个步骤，你提醒他其实还有完整流程。",
+            "goal_en": "Emphasize the extent or completeness of something.",
             "keywords": [
-              "project",
-              "team"
+              "process",
+              "approval"
             ],
-            "starter": "There's a whole ...",
-            "reference_answer": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings."
+            "starter": "There's a whole",
+            "reference_answer": "There's a whole approval process we need to follow.",
+            "reference_answer_zh": "我们需要遵循一整套审批流程。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "还有整整一箱书我们没拆。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们需要遵循一整套审批流程。",
+        "context_review_note": "Source's chapter nine remains an unresolved transcription issue; the reusable frame does not correct it to Title IX.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know if ...",
         "cn": "我不知道是否……",
-        "example": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
-        "prompt": "Use “I don't know if ...” in a complete sentence.",
+        "example": "I don't know if the shop is open today.",
+        "prompt": "Express uncertainty about whether a proposition is true.",
         "source_page": 42,
         "source_segment": "page-42",
         "source_excerpt": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我不知道是否……",
+        "communicative_function": "Express uncertainty about whether a proposition is true.",
         "original_en": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "I don't know if the shop is open today.",
+        "everyday_example_zh": "我不知道商店今天是否开门。",
+        "workplace_example": "I don't know if the fix worked yet.",
+        "replaceable_parts": "I don't know if + subject + verb; if means whether here, not an if-then condition.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道是否……”这一表达。",
-            "goal_en": "I don't know if ...",
+            "scene_zh": "你准备去商店但没查营业时间，向家人说明暂时不确定是否开门。",
+            "goal_en": "Express uncertainty about whether a proposition is true.",
             "keywords": [
-              "today",
-              "plan"
+              "shop",
+              "open"
             ],
-            "starter": "I don't know if ...",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if the shop is open today.",
+            "reference_answer_zh": "我不知道商店今天是否开门。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道是否……”这一表达。",
-            "goal_en": "I don't know if ...",
+            "scene_zh": "朋友问另一个人会不会来聚会，你还没有收到对方回复。",
+            "goal_en": "Express uncertainty about whether a proposition is true.",
             "keywords": [
-              "friend",
-              "situation"
+              "joining",
+              "tonight"
             ],
-            "starter": "I don't know if ...",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if she's joining us tonight.",
+            "reference_answer_zh": "我不知道她今晚是否和我们一起去。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道是否……”这一表达。",
-            "goal_en": "I don't know if ...",
+            "scene_zh": "你还没有验证修复结果，向团队说明不能确认问题已经解决。",
+            "goal_en": "Express uncertainty about whether a proposition is true.",
             "keywords": [
-              "project",
-              "team"
+              "fix",
+              "worked"
             ],
-            "starter": "I don't know if ...",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if the fix worked yet.",
+            "reference_answer_zh": "我还不知道修复是否有效。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道商店今天是否开门。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我还不知道修复是否有效。",
+        "context_review_note": "Source is uncertain about which records reporters obtained; no access is invented.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know if they got",
-        "cn": "我不清楚他们是否拿到了",
-        "example": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
-        "prompt": "Use “I don't know if they got” in a complete sentence.",
+        "cn": "我不知道他们是否拿到或收到……",
+        "example": "I don't know if they got the parcel yet.",
+        "prompt": "State uncertainty about another group's receipt or access.",
         "source_page": 42,
         "source_segment": "page-42",
         "source_excerpt": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我不清楚他们是否拿到了",
+        "communicative_function": "State uncertainty about another group's receipt or access.",
         "original_en": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I don't know if they got the parcel yet.",
+        "everyday_example_zh": "我不知道他们是否已经收到包裹。",
+        "workplace_example": "I don't know if they got all the files.",
+        "replaceable_parts": "I don't know if they got + object. Got can mean received/obtained; identify the intended sense.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不清楚他们是否拿到了”这一表达。",
-            "goal_en": "I don't know if they got",
+            "scene_zh": "你给父母寄了包裹但还没有收到确认，向家人说明情况。",
+            "goal_en": "State uncertainty about another group's receipt or access.",
             "keywords": [
-              "today",
-              "plan"
+              "parcel",
+              "received"
             ],
             "starter": "I don't know if they got",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "reference_answer": "I don't know if they got the parcel yet.",
+            "reference_answer_zh": "我不知道他们是否已经收到包裹。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不清楚他们是否拿到了”这一表达。",
-            "goal_en": "I don't know if they got",
+            "scene_zh": "你发出聚会邀请后没有看到回复，担心朋友没有收到。",
+            "goal_en": "State uncertainty about another group's receipt or access.",
             "keywords": [
-              "friend",
-              "situation"
+              "invitation",
+              "message"
             ],
             "starter": "I don't know if they got",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "reference_answer": "I don't know if they got the invitation, so I'll check.",
+            "reference_answer_zh": "我不知道他们是否收到了邀请，所以我会确认一下。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不清楚他们是否拿到了”这一表达。",
-            "goal_en": "I don't know if they got",
+            "scene_zh": "你向客户发送了文件但尚未确认送达，向同事作如实汇报。",
+            "goal_en": "State uncertainty about another group's receipt or access.",
             "keywords": [
-              "project",
-              "team"
+              "files",
+              "client"
             ],
             "starter": "I don't know if they got",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "reference_answer": "I don't know if they got all the files.",
+            "reference_answer_zh": "我不知道他们是否收到了全部文件。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道他们是否已经收到包裹。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不知道他们是否收到了全部文件。",
+        "context_review_note": "Source concerns obtaining investigative records, not catching an illness or understanding a joke.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "What more can you say ...?",
-        "cn": "还能说什么呢……",
-        "example": "What more can you say about it, right?",
-        "prompt": "Use “What more can you say ...?” in a complete sentence.",
+        "cn": "还能再说些什么呢？",
+        "example": "What more can you say about a repair that made the problem worse?",
+        "prompt": "Signal that the point seems self-evident or little remains to add.",
         "source_page": 42,
         "source_segment": "page-42",
         "source_excerpt": "What more can you say about it, right?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "还能说什么呢……",
+        "communicative_function": "Signal that the point seems self-evident or little remains to add.",
         "original_en": "What more can you say about it, right?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "What more can you say about a repair that made the problem worse?",
+        "everyday_example_zh": "一次维修反而让问题更严重，还能再说什么呢？",
+        "workplace_example": "There was no backup at all. What more can you say about that?",
+        "replaceable_parts": "What more can you say about + topic? Usually rhetorical; can sound dismissive depending on tone.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“还能说什么呢……”这一表达。",
-            "goal_en": "What more can you say ...?",
+            "scene_zh": "你已经详细说过一次糟糕的维修经历，向家人表示没什么可补充的。",
+            "goal_en": "Signal that the point seems self-evident or little remains to add.",
             "keywords": [
-              "today",
-              "plan"
+              "repair",
+              "experience"
             ],
-            "starter": "What more can you say ...?",
-            "reference_answer": "What more can you say about it, right?"
+            "starter": "What more can you say",
+            "reference_answer": "What more can you say about a repair that made the problem worse?",
+            "reference_answer_zh": "一次维修反而让问题更严重，还能再说什么呢？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“还能说什么呢……”这一表达。",
-            "goal_en": "What more can you say ...?",
+            "scene_zh": "朋友称赞一场精彩演出，你用轻松的反问表达赞同。",
+            "goal_en": "Signal that the point seems self-evident or little remains to add.",
             "keywords": [
-              "friend",
-              "situation"
+              "performance",
+              "excellent"
             ],
-            "starter": "What more can you say ...?",
-            "reference_answer": "What more can you say about it, right?"
+            "starter": "What more can you say",
+            "reference_answer": "It was an excellent performance. What more can you say?",
+            "reference_answer_zh": "那是一场精彩的演出，还能再说什么呢？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“还能说什么呢……”这一表达。",
-            "goal_en": "What more can you say ...?",
+            "scene_zh": "在非正式复盘中，你对已经反复说明的明显问题表达无奈。",
+            "goal_en": "Signal that the point seems self-evident or little remains to add.",
             "keywords": [
-              "project",
-              "team"
+              "missing",
+              "backup"
             ],
-            "starter": "What more can you say ...?",
-            "reference_answer": "What more can you say about it, right?"
+            "starter": "What more can you say",
+            "reference_answer": "There was no backup at all. What more can you say about that?",
+            "reference_answer_zh": "根本没有备份，对此还能再说什么呢？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "一次维修反而让问题更严重，还能再说什么呢？",
+        "example_source": "adapted",
+        "workplace_example_zh": "根本没有备份，对此还能再说什么呢？",
+        "context_review_note": "Source rhetorically reacts to alleged failed redactions rather than requesting a list of remarks.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It seems more like ...",
-        "cn": "它更像……",
-        "example": "So it seems more like a storage closet, right?",
-        "prompt": "Use “It seems more like ...” in a complete sentence.",
+        "cn": "它看起来更像……",
+        "example": "It seems more like a storage closet than a study.",
+        "prompt": "Compare an apparent situation with a better-fitting description.",
         "source_page": 43,
         "source_segment": "page-43",
         "source_excerpt": "So it seems more like a storage closet, right?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "它更像……",
+        "communicative_function": "Compare an apparent situation with a better-fitting description.",
         "original_en": "So it seems more like a storage closet, right?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It seems more like a storage closet than a study.",
+        "everyday_example_zh": "它看起来更像储物间，而不是书房。",
+        "workplace_example": "It seems more like an experiment than a full launch.",
+        "replaceable_parts": "It seems more like + noun/-ing phrase + optional than + comparison.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“它更像……”这一表达。",
-            "goal_en": "It seems more like ...",
+            "scene_zh": "你看过房屋广告后实地参观，觉得所谓书房更像储物间。",
+            "goal_en": "Compare an apparent situation with a better-fitting description.",
             "keywords": [
-              "today",
-              "plan"
+              "closet",
+              "study"
             ],
-            "starter": "It seems more like ...",
-            "reference_answer": "So it seems more like a storage closet, right?"
+            "starter": "It seems more like",
+            "reference_answer": "It seems more like a storage closet than a study.",
+            "reference_answer_zh": "它看起来更像储物间，而不是书房。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“它更像……”这一表达。",
-            "goal_en": "It seems more like ...",
+            "scene_zh": "朋友邀请你参加活动，你看完安排后觉得它更像小聚会。",
+            "goal_en": "Compare an apparent situation with a better-fitting description.",
             "keywords": [
-              "friend",
-              "situation"
+              "gathering",
+              "party"
             ],
-            "starter": "It seems more like ...",
-            "reference_answer": "So it seems more like a storage closet, right?"
+            "starter": "It seems more like",
+            "reference_answer": "It seems more like a small gathering than a big party.",
+            "reference_answer_zh": "它看起来更像一次小聚，而不是大型派对。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“它更像……”这一表达。",
-            "goal_en": "It seems more like ...",
+            "scene_zh": "同事提出的方案偏向实验而非正式发布，你谨慎说明自己的判断。",
+            "goal_en": "Compare an apparent situation with a better-fitting description.",
             "keywords": [
-              "project",
-              "team"
+              "experiment",
+              "launch"
             ],
-            "starter": "It seems more like ...",
-            "reference_answer": "So it seems more like a storage closet, right?"
+            "starter": "It seems more like",
+            "reference_answer": "It seems more like an experiment than a full launch.",
+            "reference_answer_zh": "它看起来更像一次实验，而不是完整发布。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "它看起来更像储物间，而不是书房。",
+        "example_source": "adapted",
+        "workplace_example_zh": "它看起来更像一次实验，而不是完整发布。",
+        "context_review_note": "Source tentatively compares the space to a storage closet; it does not confirm the room's official function.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's like ...",
-        "cn": "这就像……",
-        "example": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross.",
-        "prompt": "Use “It's like ...” in a complete sentence.",
+        "cn": "大约是……；有点像……",
+        "example": "It's like a ten-minute walk from here.",
+        "prompt": "Give an approximate quantity or comparison, depending on the complement.",
         "source_page": 43,
         "source_segment": "page-43",
         "source_excerpt": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "这就像……",
+        "communicative_function": "Give an approximate quantity or comparison, depending on the complement.",
         "original_en": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It's like a ten-minute walk from here.",
+        "everyday_example_zh": "从这里走过去大概十分钟。",
+        "workplace_example": "It's like a twenty-page guide, not a one-page checklist.",
+        "replaceable_parts": "It's like + approximate amount in this source; like + noun can also introduce a comparison. Keep the two senses distinct.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这就像……”这一表达。",
-            "goal_en": "It's like ...",
+            "scene_zh": "家人问路程有多远，你给出大概距离而不是精确测量。",
+            "goal_en": "Give an approximate quantity or comparison, depending on the complement.",
             "keywords": [
-              "today",
-              "plan"
+              "ten-minute",
+              "walk"
             ],
-            "starter": "It's like ...",
-            "reference_answer": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
+            "starter": "It's like",
+            "reference_answer": "It's like a ten-minute walk from here.",
+            "reference_answer_zh": "从这里走过去大概十分钟。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这就像……”这一表达。",
-            "goal_en": "It's like ...",
+            "scene_zh": "朋友问旅行相册有多厚，你用口语给出大致页数。",
+            "goal_en": "Give an approximate quantity or comparison, depending on the complement.",
             "keywords": [
-              "friend",
-              "situation"
+              "fifty-page",
+              "album"
             ],
-            "starter": "It's like ...",
-            "reference_answer": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
+            "starter": "It's like",
+            "reference_answer": "It's like a fifty-page album, so there's a lot to look through.",
+            "reference_answer_zh": "相册大概有五十页，所以有不少内容可看。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这就像……”这一表达。",
-            "goal_en": "It's like ...",
+            "scene_zh": "在非正式团队交流中，你向同事概述说明文档的大致长度。",
+            "goal_en": "Give an approximate quantity or comparison, depending on the complement.",
             "keywords": [
-              "project",
-              "team"
+              "twenty-page",
+              "guide"
             ],
-            "starter": "It's like ...",
-            "reference_answer": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
+            "starter": "It's like",
+            "reference_answer": "It's like a twenty-page guide, not a one-page checklist.",
+            "reference_answer_zh": "它大概是份二十页的指南，不是一页的检查清单。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "从这里走过去大概十分钟。",
+        "example_source": "adapted",
+        "workplace_example_zh": "它大概是份二十页的指南，不是一页的检查清单。",
+        "context_review_note": "Source's like a hundred page lawsuit approximates length, not a claim that the object merely resembles a lawsuit. Edited teaching uses a hundred-page document.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "We're going to get into",
-        "cn": "我们接下来会讨论",
-        "example": "We're going to get into all the cross-referencing of who is who because",
-        "prompt": "Use “We're going to get into” in a complete sentence.",
+        "cn": "我们接下来要详细谈……",
+        "example": "We're going to get into the materials after we settle the layout.",
+        "prompt": "Preview a topic to be explored in detail.",
         "source_page": 43,
         "source_segment": "page-43",
         "source_excerpt": "We're going to get into all the cross-referencing of who is who because",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我们接下来会讨论",
+        "communicative_function": "Preview a topic to be explored in detail.",
         "original_en": "We're going to get into all the cross-referencing of who is who because",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "We're going to get into the materials after we settle the layout.",
+        "everyday_example_zh": "确定布局之后，我们再详细讨论材料。",
+        "workplace_example": "We're going to get into the troubleshooting steps after the break.",
+        "replaceable_parts": "We're going to get into + topic; not a literal movement into a room here.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我们接下来会讨论”这一表达。",
-            "goal_en": "We're going to get into",
+            "scene_zh": "你和家人商量装修，说明先决定布局再详细谈材料。",
+            "goal_en": "Preview a topic to be explored in detail.",
             "keywords": [
-              "today",
-              "plan"
+              "materials",
+              "layout"
             ],
             "starter": "We're going to get into",
-            "reference_answer": "We're going to get into all the cross-referencing of who is who because"
+            "reference_answer": "We're going to get into the materials after we settle the layout.",
+            "reference_answer_zh": "确定布局之后，我们再详细讨论材料。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我们接下来会讨论”这一表达。",
-            "goal_en": "We're going to get into",
+            "scene_zh": "你组织读书会，提醒朋友们接下来会讨论人物动机。",
+            "goal_en": "Preview a topic to be explored in detail.",
             "keywords": [
-              "friend",
-              "situation"
+              "characters",
+              "motives"
             ],
             "starter": "We're going to get into",
-            "reference_answer": "We're going to get into all the cross-referencing of who is who because"
+            "reference_answer": "We're going to get into the characters' motives next.",
+            "reference_answer_zh": "接下来我们会详细讨论人物的动机。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我们接下来会讨论”这一表达。",
-            "goal_en": "We're going to get into",
+            "scene_zh": "你主持培训，告诉同事下一部分会讲解具体排查步骤。",
+            "goal_en": "Preview a topic to be explored in detail.",
             "keywords": [
-              "project",
-              "team"
+              "troubleshooting",
+              "steps"
             ],
             "starter": "We're going to get into",
-            "reference_answer": "We're going to get into all the cross-referencing of who is who because"
+            "reference_answer": "We're going to get into the troubleshooting steps after the break.",
+            "reference_answer_zh": "休息后，我们会详细讲解排查步骤。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "确定布局之后，我们再详细讨论材料。",
+        "example_source": "adapted",
+        "workplace_example_zh": "休息后，我们会详细讲解排查步骤。",
+        "context_review_note": "Source previews cross-referencing identities; it does not settle uncertain identifications in advance.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "we've pieced together",
-        "cn": "我们已拼凑出",
-        "example": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross.",
-        "prompt": "Use “we've pieced together” in a complete sentence.",
+        "cn": "我们已经把零散信息拼凑起来……",
+        "example": "We've pieced together the timeline from receipts and photos.",
+        "prompt": "Explain that an account was assembled from multiple fragments.",
         "source_page": 43,
         "source_segment": "page-43",
         "source_excerpt": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我们已拼凑出",
+        "communicative_function": "Explain that an account was assembled from multiple fragments.",
         "original_en": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "We've pieced together the timeline from receipts and photos.",
+        "everyday_example_zh": "我们根据收据和照片拼出了时间线。",
+        "workplace_example": "We've pieced together a possible explanation from the logs.",
+        "replaceable_parts": "We've pieced together + object; with a pronoun, we've pieced it together. Completion does not guarantee accuracy.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我们已拼凑出”这一表达。",
-            "goal_en": "we've pieced together",
+            "scene_zh": "你根据收据和照片回忆旅行日期，向家人说明已整理出时间线。",
+            "goal_en": "Explain that an account was assembled from multiple fragments.",
             "keywords": [
-              "today",
-              "plan"
+              "timeline",
+              "receipts"
             ],
-            "starter": "we've pieced together",
-            "reference_answer": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
+            "starter": "We've pieced together",
+            "reference_answer": "We've pieced together the timeline from receipts and photos.",
+            "reference_answer_zh": "我们根据收据和照片拼出了时间线。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我们已拼凑出”这一表达。",
-            "goal_en": "we've pieced together",
+            "scene_zh": "你和朋友各自回忆聚会细节，说明已大致还原当天的经过。",
+            "goal_en": "Explain that an account was assembled from multiple fragments.",
             "keywords": [
-              "friend",
-              "situation"
+              "memories",
+              "day"
             ],
-            "starter": "we've pieced together",
-            "reference_answer": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
+            "starter": "We've pieced together",
+            "reference_answer": "We've pieced together most of what happened that day.",
+            "reference_answer_zh": "我们已经拼出了那天大部分事情的经过。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我们已拼凑出”这一表达。",
-            "goal_en": "we've pieced together",
+            "scene_zh": "团队综合多份日志调查故障，你向经理说明当前已经建立的解释。",
+            "goal_en": "Explain that an account was assembled from multiple fragments.",
             "keywords": [
-              "project",
-              "team"
+              "logs",
+              "explanation"
             ],
-            "starter": "we've pieced together",
-            "reference_answer": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
+            "starter": "We've pieced together",
+            "reference_answer": "We've pieced together a possible explanation from the logs.",
+            "reference_answer_zh": "我们根据日志拼出了一种可能的解释。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我们根据收据和照片拼出了时间线。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们根据日志拼出了一种可能的解释。",
+        "context_review_note": "Source describes reconstruction from documents; the unfinished tried to cross clause is not repaired in the quotation.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "By this point, ...",
-        "cn": "到了这时候……",
-        "example": "By this point, we had finished testing.",
-        "prompt": "Describe a timeline.",
+        "cn": "到这个时候……",
+        "example": "By this point, we had loaded everything into the van.",
+        "prompt": "Locate a state or accumulated result at a stage in an account.",
         "source_page": 44,
         "source_segment": "page-44",
         "source_excerpt": "And by this point, Jane says that she is completely incapacitated.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "到了这时候……",
+        "communicative_function": "Locate a state or accumulated result at a stage in an account.",
         "original_en": "And by this point, Jane says that she is completely incapacitated.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "By this point, we had loaded everything into the van.",
+        "everyday_example_zh": "到这个时候，我们已经把所有东西装进了货车。",
+        "workplace_example": "By this point, we had completed the core features.",
+        "replaceable_parts": "By this point, + clause; often past perfect for prior completion within a past narrative.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "做饭时发现结果和预想不同：请用“到了这个时候……”组织一句完整英语。",
-            "goal_en": "Describe a timeline.",
+            "label": "Daily life",
+            "scene_zh": "你回忆长途搬家过程，说明到了午后大家已把车装满。",
+            "goal_en": "Locate a state or accumulated result at a stage in an account.",
             "keywords": [
-              "point",
-              "finished",
-              "testing"
+              "loaded",
+              "van"
             ],
-            "starter": "by this point",
-            "reference_answer": "By this point, we had finished testing."
+            "starter": "By this point,",
+            "reference_answer": "By this point, we had loaded everything into the van.",
+            "reference_answer_zh": "到这个时候，我们已经把所有东西装进了货车。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "分享一次旅行中的意外经历：请用“到了这个时候……”组织一句完整英语。",
-            "goal_en": "Describe a timeline.",
+            "label": "Friends",
+            "scene_zh": "你向朋友讲一次登山经历，说明走到半山腰时水已经快喝完了。",
+            "goal_en": "Locate a state or accumulated result at a stage in an account.",
             "keywords": [
-              "point",
-              "finished",
-              "testing"
+              "water",
+              "nearly"
             ],
-            "starter": "by this point",
-            "reference_answer": "By this point, we had finished testing."
+            "starter": "By this point,",
+            "reference_answer": "By this point, our water was nearly gone.",
+            "reference_answer_zh": "到这个时候，我们的水已经快喝完了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "说明一个决定可能带来的风险：请用“到了这个时候……”组织一句完整英语。",
-            "goal_en": "Describe a timeline.",
+            "label": "Work",
+            "scene_zh": "你在项目复盘中说明进入试运行时核心功能已经完成。",
+            "goal_en": "Locate a state or accumulated result at a stage in an account.",
             "keywords": [
-              "point",
-              "finished",
-              "testing"
+              "features",
+              "completed"
             ],
-            "starter": "by this point",
-            "reference_answer": "By this point, we had finished testing."
+            "starter": "By this point,",
+            "reference_answer": "By this point, we had completed the core features.",
+            "reference_answer_zh": "截至这一步，我们已经完成了核心功能。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "到这个时候，我们已经把所有东西装进了货车。",
+        "example_source": "adapted",
+        "workplace_example_zh": "截至这一步，我们已经完成了核心功能。",
+        "context_review_note": "Source marks the narrated stage of a reported condition; no exact minute or duration is inferred.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "More on it later",
-        "cn": "稍后再详细说",
-        "example": "But more on it later.",
-        "prompt": "Use “More on it later” in a complete sentence.",
+        "cn": "稍后再详细谈这件事",
+        "example": "I've found a possible apartment. More on it later, after dinner.",
+        "prompt": "Defer detail while signaling that the topic will be revisited.",
         "source_page": 41,
         "source_segment": "page-41",
         "source_excerpt": "But more on it later.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "稍后再详细说",
+        "communicative_function": "Defer detail while signaling that the topic will be revisited.",
         "original_en": "But more on it later.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "I've found a possible apartment. More on it later, after dinner.",
+        "everyday_example_zh": "我找到了一套可能合适的公寓，吃完饭后再详细说。",
+        "workplace_example": "We've identified a scheduling risk. More on it later in the next section.",
+        "replaceable_parts": "More on it later is an elliptical signpost; it must refer to a clear topic. Full form: I'll say more about it later.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“稍后再详细说”这一表达。",
-            "goal_en": "More on it later",
+            "scene_zh": "你向家人提到搬家计划，但准备吃完饭后再详细说明。",
+            "goal_en": "Defer detail while signaling that the topic will be revisited.",
             "keywords": [
-              "today",
-              "plan"
+              "move",
+              "dinner"
             ],
             "starter": "More on it later",
-            "reference_answer": "But more on it later."
+            "reference_answer": "I've found a possible apartment. More on it later, after dinner.",
+            "reference_answer_zh": "我找到了一套可能合适的公寓，吃完饭后再详细说。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“稍后再详细说”这一表达。",
-            "goal_en": "More on it later",
+            "scene_zh": "你向朋友提起一个旅行趣事，但当前需要先处理别的安排。",
+            "goal_en": "Defer detail while signaling that the topic will be revisited.",
             "keywords": [
-              "friend",
-              "situation"
+              "story",
+              "later"
             ],
             "starter": "More on it later",
-            "reference_answer": "But more on it later."
+            "reference_answer": "There's a funny story behind the photo. More on it later.",
+            "reference_answer_zh": "照片背后有个有趣的故事，稍后再详细说。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“稍后再详细说”这一表达。",
-            "goal_en": "More on it later",
+            "scene_zh": "你在会议开头提到一个风险，说明下一节会专门展开。",
+            "goal_en": "Defer detail while signaling that the topic will be revisited.",
             "keywords": [
-              "project",
-              "team"
+              "risk",
+              "next section"
             ],
             "starter": "More on it later",
-            "reference_answer": "But more on it later."
+            "reference_answer": "We've identified a scheduling risk. More on it later in the next section.",
+            "reference_answer_zh": "我们发现了一项进度风险，下一部分会详细讲。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我找到了一套可能合适的公寓，吃完饭后再详细说。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们发现了一项进度风险，下一部分会详细讲。",
+        "context_review_note": "Source postpones discussion of a separate lawsuit; no new detail is supplied by the signpost itself.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "Not a lot of people are talking about",
-        "cn": "没多少人在谈论……",
-        "example": "And that one you're saying not a lot of people are talking about the details, right?",
-        "prompt": "Use “Not a lot of people are talking about” in a complete sentence.",
+        "cn": "没有很多人在谈论……",
+        "example": "Not a lot of people are talking about the new walking route yet.",
+        "prompt": "Point out relatively limited attention to a topic.",
         "source_page": 41,
         "source_segment": "page-41",
         "source_excerpt": "And that one you're saying not a lot of people are talking about the details, right?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "没多少人在谈论……",
+        "communicative_function": "Point out relatively limited attention to a topic.",
         "original_en": "And that one you're saying not a lot of people are talking about the details, right?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "Not a lot of people are talking about the new walking route yet.",
+        "everyday_example_zh": "目前还没多少人在谈论那条新步行路线。",
+        "workplace_example": "Not a lot of people are talking about the maintenance cost yet.",
+        "replaceable_parts": "Not a lot of people are talking about + noun/-ing phrase; this is not the same as nobody knows about it.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“没多少人在谈论……”这一表达。",
-            "goal_en": "Not a lot of people are talking about",
+            "scene_zh": "你发现社区新开了一条步行路线，但邻居很少提起它。",
+            "goal_en": "Point out relatively limited attention to a topic.",
             "keywords": [
-              "today",
-              "plan"
+              "walking route",
+              "neighborhood"
             ],
             "starter": "Not a lot of people are talking about",
-            "reference_answer": "And that one you're saying not a lot of people are talking about the details, right?"
+            "reference_answer": "Not a lot of people are talking about the new walking route yet.",
+            "reference_answer_zh": "目前还没多少人在谈论那条新步行路线。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“没多少人在谈论……”这一表达。",
-            "goal_en": "Not a lot of people are talking about",
+            "scene_zh": "你向朋友推荐一部不太热门的电影，说明它尚未引起广泛讨论。",
+            "goal_en": "Point out relatively limited attention to a topic.",
             "keywords": [
-              "friend",
-              "situation"
+              "film",
+              "yet"
             ],
             "starter": "Not a lot of people are talking about",
-            "reference_answer": "And that one you're saying not a lot of people are talking about the details, right?"
+            "reference_answer": "Not a lot of people are talking about this film, but I enjoyed it.",
+            "reference_answer_zh": "没多少人在谈论这部电影，不过我很喜欢。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“没多少人在谈论……”这一表达。",
-            "goal_en": "Not a lot of people are talking about",
+            "scene_zh": "你在团队会议上提醒大家注意一个目前讨论不足的维护问题。",
+            "goal_en": "Point out relatively limited attention to a topic.",
             "keywords": [
-              "project",
-              "team"
+              "maintenance",
+              "cost"
             ],
             "starter": "Not a lot of people are talking about",
-            "reference_answer": "And that one you're saying not a lot of people are talking about the details, right?"
+            "reference_answer": "Not a lot of people are talking about the maintenance cost yet.",
+            "reference_answer_zh": "目前还没多少人在讨论维护成本。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "目前还没多少人在谈论那条新步行路线。",
+        "example_source": "adapted",
+        "workplace_example_zh": "目前还没多少人在讨论维护成本。",
+        "context_review_note": "Source describes perceived discussion of a lawsuit, not a measured media-coverage survey.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's just a lot",
-        "cn": "信息量实在太大了",
-        "example": "It's just a lot.",
-        "prompt": "Use “It's just a lot” in a complete sentence.",
+        "cn": "事情或信息实在太多；让人有些吃不消",
+        "example": "It's just a lot to manage while we're moving.",
+        "prompt": "Express a feeling of being overwhelmed by quantity or complexity.",
         "source_page": 43,
         "source_segment": "page-43",
         "source_excerpt": "It's just a lot.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "信息量实在太大了",
+        "communicative_function": "Express a feeling of being overwhelmed by quantity or complexity.",
         "original_en": "It's just a lot.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "It's just a lot to manage while we're moving.",
+        "everyday_example_zh": "搬家期间要处理这些事，实在有些忙不过来。",
+        "workplace_example": "It's just a lot of information to organize in one afternoon.",
+        "replaceable_parts": "It's just a lot + optional to process/manage; explain the referent if it is not already clear.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“信息量实在太大了”这一表达。",
-            "goal_en": "It's just a lot",
+            "scene_zh": "你同时准备搬家和处理工作，向家人坦诚说明自己有些忙不过来。",
+            "goal_en": "Express a feeling of being overwhelmed by quantity or complexity.",
             "keywords": [
-              "today",
-              "plan"
+              "moving",
+              "tasks"
             ],
             "starter": "It's just a lot",
-            "reference_answer": "It's just a lot."
+            "reference_answer": "It's just a lot to manage while we're moving.",
+            "reference_answer_zh": "搬家期间要处理这些事，实在有些忙不过来。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“信息量实在太大了”这一表达。",
-            "goal_en": "It's just a lot",
+            "scene_zh": "朋友一下子告诉你许多变化，你需要一点时间消化这些消息。",
+            "goal_en": "Express a feeling of being overwhelmed by quantity or complexity.",
             "keywords": [
-              "friend",
-              "situation"
+              "news",
+              "process"
             ],
             "starter": "It's just a lot",
-            "reference_answer": "It's just a lot."
+            "reference_answer": "It's just a lot to process. Give me a minute.",
+            "reference_answer_zh": "这些信息实在有点多，让我消化一下。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“信息量实在太大了”这一表达。",
-            "goal_en": "It's just a lot",
+            "scene_zh": "你刚接手一个复杂项目，向经理说明自己需要时间整理资料。",
+            "goal_en": "Express a feeling of being overwhelmed by quantity or complexity.",
             "keywords": [
-              "project",
-              "team"
+              "information",
+              "organize"
             ],
             "starter": "It's just a lot",
-            "reference_answer": "It's just a lot."
+            "reference_answer": "It's just a lot of information to organize in one afternoon.",
+            "reference_answer_zh": "要在一个下午整理这么多信息，实在有些吃力。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "搬家期间要处理这些事，实在有些忙不过来。",
+        "example_source": "adapted",
+        "workplace_example_zh": "要在一个下午整理这么多信息，实在有些吃力。",
+        "context_review_note": "Source reacts to a large amount of complicated information; not a precise count or a diagnosis.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
       {
         "text": "I can't help but think",
-        "cn": "我忍不住觉得",
-        "example": "I can’t help but think we missed a step.",
-        "prompt": "Express a cautious impression.",
+        "cn": "我不由得认为；我忍不住想……",
+        "example": "I can't help but think the tap needs a proper inspection.",
+        "prompt": "Express a thought that repeatedly or naturally occurs to you.",
         "source_page": 47,
         "source_segment": "page-47",
         "source_excerpt": "And there is a very general vagueness to the statement that I can't help but think it's very intentional, the timing and the vagueness.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我忍不住觉得",
+        "communicative_function": "Express a thought that repeatedly or naturally occurs to you.",
         "original_en": "And there is a very general vagueness to the statement that I can't help but think it's very intentional, the timing and the vagueness.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I can't help but think the tap needs a proper inspection.",
+        "everyday_example_zh": "我不由得觉得这个水龙头需要好好检查一下。",
+        "workplace_example": "I can't help but think we need clearer requirements.",
+        "replaceable_parts": "I can't help but think + clause; base form think after but. Alternative can't help thinking has -ing.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "做饭时发现结果和预想不同：请用“我不禁觉得……”组织一句完整英语。",
-            "goal_en": "Express a cautious impression.",
+            "label": "Daily life",
+            "scene_zh": "你看着反复漏水的水龙头，不由得觉得需要找人彻底检查。",
+            "goal_en": "Express a thought that repeatedly or naturally occurs to you.",
             "keywords": [
-              "help",
-              "think",
-              "missed",
-              "step"
+              "tap",
+              "inspection"
             ],
-            "starter": "I can’t help but think",
-            "reference_answer": "I can’t help but think we missed a step."
+            "starter": "I can't help but think",
+            "reference_answer": "I can't help but think the tap needs a proper inspection.",
+            "reference_answer_zh": "我不由得觉得这个水龙头需要好好检查一下。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "分享一次旅行中的意外经历：请用“我不禁觉得……”组织一句完整英语。",
-            "goal_en": "Express a cautious impression.",
+            "label": "Friends",
+            "scene_zh": "朋友几次都没能参加聚会，你担心安排的时间可能不合适。",
+            "goal_en": "Express a thought that repeatedly or naturally occurs to you.",
             "keywords": [
-              "help",
-              "think",
-              "missed",
-              "step"
+              "timing",
+              "difficult"
             ],
-            "starter": "I can’t help but think",
-            "reference_answer": "I can’t help but think we missed a step."
+            "starter": "I can't help but think",
+            "reference_answer": "I can't help but think the timing might be difficult for her.",
+            "reference_answer_zh": "我不由得想，这个时间对她来说可能不方便。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "说明一个决定可能带来的风险：请用“我不禁觉得……”组织一句完整英语。",
-            "goal_en": "Express a cautious impression.",
+            "label": "Work",
+            "scene_zh": "团队反复修改同一需求，你表达对问题根源的初步看法。",
+            "goal_en": "Express a thought that repeatedly or naturally occurs to you.",
             "keywords": [
-              "help",
-              "think",
-              "missed",
-              "step"
+              "requirements",
+              "clearer"
             ],
-            "starter": "I can’t help but think",
-            "reference_answer": "I can’t help but think we missed a step."
+            "starter": "I can't help but think",
+            "reference_answer": "I can't help but think we need clearer requirements.",
+            "reference_answer_zh": "我不由得觉得我们需要更明确的需求。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不由得觉得这个水龙头需要好好检查一下。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不由得觉得我们需要更明确的需求。",
+        "context_review_note": "Source speculates about deliberate timing; the strength of the reaction is not evidence of intent.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I highly doubt",
-        "cn": "我很怀疑",
-        "example": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity.",
-        "prompt": "Use “I highly doubt” in a complete sentence.",
+        "cn": "我很怀疑；我觉得不太可能",
+        "example": "I highly doubt the sofa will fit in that lift.",
+        "prompt": "Express a strong belief that something is unlikely.",
         "source_page": 47,
         "source_segment": "page-47",
         "source_excerpt": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我很怀疑",
+        "communicative_function": "Express a strong belief that something is unlikely.",
         "original_en": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I highly doubt the sofa will fit in that lift.",
+        "everyday_example_zh": "我很怀疑那张沙发能放进那部电梯。",
+        "workplace_example": "I highly doubt the migration will finish in ten minutes.",
+        "replaceable_parts": "I highly doubt + clause or that-clause; usually followed by the positive proposition you doubt, not a double negative.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我很怀疑”这一表达。",
-            "goal_en": "I highly doubt",
+            "scene_zh": "家人想把大沙发搬进很小的电梯，你表达对可行性的怀疑。",
+            "goal_en": "Express a strong belief that something is unlikely.",
             "keywords": [
-              "today",
-              "plan"
+              "sofa",
+              "fit"
             ],
             "starter": "I highly doubt",
-            "reference_answer": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity."
+            "reference_answer": "I highly doubt the sofa will fit in that lift.",
+            "reference_answer_zh": "我很怀疑那张沙发能放进那部电梯。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我很怀疑”这一表达。",
-            "goal_en": "I highly doubt",
+            "scene_zh": "朋友想在周末临时订到热门餐厅，你说明自己觉得可能性不高。",
+            "goal_en": "Express a strong belief that something is unlikely.",
             "keywords": [
-              "friend",
-              "situation"
+              "table",
+              "tonight"
             ],
             "starter": "I highly doubt",
-            "reference_answer": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity."
+            "reference_answer": "I highly doubt we'll get a table there tonight without a booking.",
+            "reference_answer_zh": "没预订的话，我觉得我们今晚很难在那里订到位子。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我很怀疑”这一表达。",
-            "goal_en": "I highly doubt",
+            "scene_zh": "同事希望几分钟内完成复杂迁移，你提醒他这个预期可能不现实。",
+            "goal_en": "Express a strong belief that something is unlikely.",
             "keywords": [
-              "project",
-              "team"
+              "migration",
+              "minutes"
             ],
             "starter": "I highly doubt",
-            "reference_answer": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity."
+            "reference_answer": "I highly doubt the migration will finish in ten minutes.",
+            "reference_answer_zh": "我很怀疑迁移能在十分钟内完成。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我很怀疑那张沙发能放进那部电梯。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我很怀疑迁移能在十分钟内完成。",
+        "context_review_note": "Source doubts reporters' attention during a holiday; it is a prediction about others, not measured evidence.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's unclear where",
-        "cn": "不清楚在哪里",
-        "example": "Now it's unclear where the missing months go.",
-        "prompt": "Use “It's unclear where” in a complete sentence.",
+        "cn": "尚不清楚在哪里或到哪里……",
+        "example": "It's unclear where this package came from.",
+        "prompt": "Identify missing information about location, origin or allocation.",
         "source_page": 48,
         "source_segment": "page-48",
         "source_excerpt": "Now it's unclear where the missing months go.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "不清楚在哪里",
+        "communicative_function": "Identify missing information about location, origin or allocation.",
         "original_en": "Now it's unclear where the missing months go.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's unclear where this package came from.",
+        "everyday_example_zh": "目前还不清楚这个包裹是从哪里来的。",
+        "workplace_example": "It's unclear where most of the time was spent.",
+        "replaceable_parts": "It's unclear where + subject + verb; statement word order in the embedded clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“不清楚在哪里”这一表达。",
-            "goal_en": "It's unclear where",
+            "scene_zh": "家人发现一个没有标签的包裹，你说明目前还不知道它来自哪里。",
+            "goal_en": "Identify missing information about location, origin or allocation.",
             "keywords": [
-              "today",
-              "plan"
+              "package",
+              "came from"
             ],
             "starter": "It's unclear where",
-            "reference_answer": "Now it's unclear where the missing months go."
+            "reference_answer": "It's unclear where this package came from.",
+            "reference_answer_zh": "目前还不清楚这个包裹是从哪里来的。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“不清楚在哪里”这一表达。",
-            "goal_en": "It's unclear where",
+            "scene_zh": "朋友们计划见面但没有商定地点，你提醒大家需要先确认。",
+            "goal_en": "Identify missing information about location, origin or allocation.",
             "keywords": [
-              "friend",
-              "situation"
+              "meet",
+              "place"
             ],
             "starter": "It's unclear where",
-            "reference_answer": "Now it's unclear where the missing months go."
+            "reference_answer": "It's unclear where we're meeting, so let's confirm the place.",
+            "reference_answer_zh": "现在还不清楚在哪见面，我们先确认地点吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“不清楚在哪里”这一表达。",
-            "goal_en": "It's unclear where",
+            "scene_zh": "你调查任务耗时异常，说明目前无法确定时间都花在哪个阶段。",
+            "goal_en": "Identify missing information about location, origin or allocation.",
             "keywords": [
-              "project",
-              "team"
+              "time",
+              "spent"
             ],
             "starter": "It's unclear where",
-            "reference_answer": "Now it's unclear where the missing months go."
+            "reference_answer": "It's unclear where most of the time was spent.",
+            "reference_answer_zh": "目前还不清楚大部分时间花在了哪个环节。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "目前还不清楚这个包裹是从哪里来的。",
+        "example_source": "adapted",
+        "workplace_example_zh": "目前还不清楚大部分时间花在了哪个环节。",
+        "context_review_note": "Source's missing months is a metaphor for an unexplained timeline gap, not literal lost calendar pages.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "for the rest of my life",
-        "cn": "在我余生",
-        "example": "It will haunt me and be part of me for the rest of my life.",
-        "prompt": "Use “for the rest of my life” in a complete sentence.",
+        "cn": "在我的余生里；一辈子",
+        "example": "I'll treasure this gift for the rest of my life.",
+        "prompt": "Describe an expected lasting effect or long-term personal commitment.",
         "source_page": 51,
         "source_segment": "page-51",
         "source_excerpt": "It will haunt me and be part of me for the rest of my life.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "在我余生",
+        "communicative_function": "Describe an expected lasting effect or long-term personal commitment.",
         "original_en": "It will haunt me and be part of me for the rest of my life.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I'll treasure this gift for the rest of my life.",
+        "everyday_example_zh": "我会一辈子珍惜这份礼物。",
+        "workplace_example": "I'll carry that lesson with me for the rest of my life.",
+        "replaceable_parts": "For the rest of + possessive + life; often expresses strong emotion rather than a measurable prediction.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“在我余生”这一表达。",
-            "goal_en": "for the rest of my life",
+            "scene_zh": "你收到家人保存多年的纪念物，表达自己会一直珍惜它。",
+            "goal_en": "Describe an expected lasting effect or long-term personal commitment.",
             "keywords": [
-              "today",
-              "plan"
+              "treasure",
+              "gift"
             ],
-            "starter": "for the rest of my life",
-            "reference_answer": "It will haunt me and be part of me for the rest of my life."
+            "starter": "For the rest of my life,",
+            "reference_answer": "I'll treasure this gift for the rest of my life.",
+            "reference_answer_zh": "我会一辈子珍惜这份礼物。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“在我余生”这一表达。",
-            "goal_en": "for the rest of my life",
+            "scene_zh": "朋友在困难时帮助了你，你真诚表达自己会一直记得这份情谊。",
+            "goal_en": "Describe an expected lasting effect or long-term personal commitment.",
             "keywords": [
-              "friend",
-              "situation"
+              "remember",
+              "kindness"
             ],
-            "starter": "for the rest of my life",
-            "reference_answer": "It will haunt me and be part of me for the rest of my life."
+            "starter": "For the rest of my life,",
+            "reference_answer": "I'll remember your kindness for the rest of my life.",
+            "reference_answer_zh": "我会一辈子记得你的善意。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“在我余生”这一表达。",
-            "goal_en": "for the rest of my life",
+            "scene_zh": "你在退休告别中回顾一位导师对自己的长期影响。",
+            "goal_en": "Describe an expected lasting effect or long-term personal commitment.",
             "keywords": [
-              "project",
-              "team"
+              "lesson",
+              "mentor"
             ],
-            "starter": "for the rest of my life",
-            "reference_answer": "It will haunt me and be part of me for the rest of my life."
+            "starter": "For the rest of my life,",
+            "reference_answer": "I'll carry that lesson with me for the rest of my life.",
+            "reference_answer_zh": "那堂课给我的启发会陪伴我一生。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我会一辈子珍惜这份礼物。",
+        "example_source": "adapted",
+        "workplace_example_zh": "那堂课给我的启发会陪伴我一生。",
+        "context_review_note": "Source expresses feared lasting impact of trauma; it must not be turned into a claim that recovery is impossible.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "That's all going to be covered",
-        "cn": "这些都将在之后讲到",
-        "example": "That's all going to be covered in the second half.",
-        "prompt": "Use “That's all going to be covered” in a complete sentence.",
+        "cn": "这些内容都会讲到",
+        "example": "That's all going to be covered in the introductory session.",
+        "prompt": "Reassure listeners that the mentioned topics will be addressed.",
         "source_page": 51,
         "source_segment": "page-51",
         "source_excerpt": "That's all going to be covered in the second half.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "这些都将在之后讲到",
+        "communicative_function": "Reassure listeners that the mentioned topics will be addressed.",
         "original_en": "That's all going to be covered in the second half.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "That's all going to be covered in the introductory session.",
+        "everyday_example_zh": "这些内容都会在入门说明会上讲到。",
+        "workplace_example": "That's all going to be covered in the next section of the training.",
+        "replaceable_parts": "That's all going to be covered + time/place; all refers back to the set of topics, not every possible detail.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这些都将在之后讲到”这一表达。",
-            "goal_en": "That's all going to be covered",
+            "scene_zh": "家人担心新设备的操作步骤太多，你说明说明会上都会讲解。",
+            "goal_en": "Reassure listeners that the mentioned topics will be addressed.",
             "keywords": [
-              "today",
-              "plan"
+              "instructions",
+              "session"
             ],
             "starter": "That's all going to be covered",
-            "reference_answer": "That's all going to be covered in the second half."
+            "reference_answer": "That's all going to be covered in the introductory session.",
+            "reference_answer_zh": "这些内容都会在入门说明会上讲到。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这些都将在之后讲到”这一表达。",
-            "goal_en": "That's all going to be covered",
+            "scene_zh": "朋友有许多旅行问题，你告诉他稍后的通话会逐项讨论。",
+            "goal_en": "Reassure listeners that the mentioned topics will be addressed.",
             "keywords": [
-              "friend",
-              "situation"
+              "questions",
+              "call"
             ],
             "starter": "That's all going to be covered",
-            "reference_answer": "That's all going to be covered in the second half."
+            "reference_answer": "That's all going to be covered when we talk tonight.",
+            "reference_answer_zh": "这些内容都会在今晚聊天时讲到。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这些都将在之后讲到”这一表达。",
-            "goal_en": "That's all going to be covered",
+            "scene_zh": "培训学员问到多个尚未介绍的功能，你说明下一部分会统一讲解。",
+            "goal_en": "Reassure listeners that the mentioned topics will be addressed.",
             "keywords": [
-              "project",
-              "team"
+              "features",
+              "next section"
             ],
             "starter": "That's all going to be covered",
-            "reference_answer": "That's all going to be covered in the second half."
+            "reference_answer": "That's all going to be covered in the next section of the training.",
+            "reference_answer_zh": "这些内容都会在培训的下一部分讲到。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这些内容都会在入门说明会上讲到。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这些内容都会在培训的下一部分讲到。",
+        "context_review_note": "Covered means discussed in the later episode, not insured or certified by this project's coverage index.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It could be that",
         "cn": "有可能是……",
-        "example": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone.",
-        "prompt": "Use “It could be that” in a complete sentence.",
+        "example": "It could be that the battery is flat.",
+        "prompt": "Offer one possible explanation without treating it as fact.",
         "source_page": 48,
         "source_segment": "page-48",
         "source_excerpt": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "有可能是……",
+        "communicative_function": "Offer one possible explanation without treating it as fact.",
         "original_en": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "It could be that the battery is flat.",
+        "everyday_example_zh": "有可能是电池没电了。",
+        "workplace_example": "It could be that the cache hasn't updated yet.",
+        "replaceable_parts": "It could be that + full clause; distinguish possible explanations from confirmed causes.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“有可能是……”这一表达。",
-            "goal_en": "It could be that",
+            "scene_zh": "你发现门铃没响，提出一种可能原因但准备继续检查。",
+            "goal_en": "Offer one possible explanation without treating it as fact.",
             "keywords": [
-              "today",
-              "plan"
+              "battery",
+              "flat"
             ],
             "starter": "It could be that",
-            "reference_answer": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone."
+            "reference_answer": "It could be that the battery is flat.",
+            "reference_answer_zh": "有可能是电池没电了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“有可能是……”这一表达。",
-            "goal_en": "It could be that",
+            "scene_zh": "朋友还没回复消息，你提出一个温和解释而不是认定他故意不理人。",
+            "goal_en": "Offer one possible explanation without treating it as fact.",
             "keywords": [
-              "friend",
-              "situation"
+              "busy",
+              "work"
             ],
             "starter": "It could be that",
-            "reference_answer": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone."
+            "reference_answer": "It could be that she's busy at work.",
+            "reference_answer_zh": "有可能是她工作正忙。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“有可能是……”这一表达。",
-            "goal_en": "It could be that",
+            "scene_zh": "系统显示的数据暂时不同，你向团队提出一个待验证的假设。",
+            "goal_en": "Offer one possible explanation without treating it as fact.",
             "keywords": [
-              "project",
-              "team"
+              "cache",
+              "updated"
             ],
             "starter": "It could be that",
-            "reference_answer": "It could be that Jane was busy with school or healing or was too traumatized to speak to anyone."
+            "reference_answer": "It could be that the cache hasn't updated yet.",
+            "reference_answer_zh": "有可能是缓存还没有更新。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "有可能是电池没电了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "有可能是缓存还没有更新。",
+        "context_review_note": "Source offers speculative reasons for a gap in the timeline; none should be assigned to the person as a verified activity or diagnosis.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ]
   ],
