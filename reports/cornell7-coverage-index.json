@@ -6,8 +6,8 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 507,
-      "chunks": 119
+      "phrases": 514,
+      "chunks": 120
     },
     "source_candidate_totals": {
       "words": 321,
@@ -83,8 +83,8 @@
         "unit": 10,
         "pages": "41-44",
         "words": 9,
-        "phrases": 22,
-        "chunks": 15
+        "phrases": 29,
+        "chunks": 16
       },
       {
         "unit": 11,
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 537,
+      "covered": 549,
       "no_identified_barrier": 177,
-      "requires_review": 136
+      "requires_review": 124
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 136,
+      "transcript_segments_requiring_review": 124,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -9881,13 +9881,17 @@
       "page": 41,
       "segment": 666,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:a separate room",
+        "word:3:fraternity",
+        "word:7:believed"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Which is believed to be marks uncertain identification of the room; pronoun tracking and fraternity-office terminology need annotation.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "They resumes Matthew and Winston, the two remaining men in 665; which is believed to be qualifies the room identification as uncertain. President means the fraternity leader, not the university president. Language and pronoun linkage can be explained without authenticating the office name.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "They take Jane into a smaller room upstairs which is believed to be the fraternity president's office"
     },
     {
@@ -9910,12 +9914,15 @@
       "segment": 668,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:6:pseudonym",
+        "phrase:1:file a civil lawsuit"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "It's John Doe also sues is a spoken false start; the pseudonym and change of plaintiff need explicit reference tracking.",
+      "review_reason": "John Doe introduces a different pseudonymous litigant, not Jane Doe. It's John Doe also sues is a restart; preserve the exact broken syntax and do not infer a real identity from subsequent hints.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It's John Doe also sues Cornell."
     },
     {
@@ -9937,13 +9944,16 @@
       "page": 41,
       "segment": 670,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:one of the accused",
+        "word:6:pseudonym"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "The accused is a nominalized role and seems signals uncertainty; identity must not be inferred merely from a pseudonym.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Accused-person role is now explicitly distinguished from guilt. Seems to be marks the narrator's tentative identification, reinforced by 671's cannot say with certainty; the lesson does not name the pseudonymous person.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But John Doe seems to be one of the accused."
     },
     {
@@ -9995,10 +10005,10 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [],
-      "review_reason": "Because is left unfinished; the connection must be reconstructed across the next paragraph, not treated as an independent covered sentence.",
+      "review_reason": "Because begins an explanation resumed by the investigation and disagreement in 675–677, but the interrupted exchange does not securely finish the clause. Keep this boundary issue, not a standalone causal assertion.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Because..."
     },
     {
@@ -10007,13 +10017,14 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
+        "word:9:title ix",
         "word:9:findings",
-        "word:9:title ix"
+        "phrase:9:one of the accused"
       ],
-      "review_reason": "Chapter nine appears inconsistent with surrounding Title IX references. Preserve PDF wording, flag likely transcription issue and avoid silently certifying the intended term.",
+      "review_reason": "Findings are the school's conclusions and the person disputes them. Chapter nine conflicts with repeated Title IX in adjacent discussion; preserve the transcript and do not silently correct the institutional term.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings."
     },
     {
@@ -10035,27 +10046,32 @@
       "segment": 677,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:9:one of the accused",
+        "phrase:1:file a civil lawsuit"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Interrupted they are trying to and that's why they are suing plus another speaker's yes require turn/subject reconstruction.",
+      "review_reason": "The exchange appears to connect dissatisfaction with suing Cornell, but interrupted they are trying to and the separate yes obscure the exact completed wording. Do not label the source as a clean sentence or infer multiple plaintiffs from they alone.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So they basically are trying to- That's why they're suing- Yes, Cornell."
     },
     {
       "page": 41,
       "segment": 678,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:1:lawsuit"
+        "phrase:9:versus",
+        "phrase:1:file a civil lawsuit",
+        "word:6:pseudonym"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Civil versus criminal action and the pseudonymous plaintiff need dedicated distinctions; a lawsuit card alone does not cover all legal structure.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Versus now explains opposing parties in the title. Civil lawsuit is not criminal prosecution and as well introduces a separate suit; John Doe remains an unidentified pseudonymous plaintiff, not a guilty finding or a second name for Jane.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So there is a John Doe versus Cornell civil lawsuit as well."
     },
     {
@@ -10243,12 +10259,14 @@
       "segment": 692,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:9:the outcome"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Prior to Jane Doe is elliptical: whether it means her lawsuit, report or another event must be explained from the exchange, not assumed.",
+      "review_reason": "The exchange appears to compare the timing of John Doe's action with Jane Doe's later lawsuit, but prior to Jane Doe leaves the event noun unstated. Retain that ellipsis rather than certify a precise chronology or treat it as before her existence.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Yes, but this was prior to Jane Doe."
     },
     {
@@ -10294,12 +10312,14 @@
       "segment": 696,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:9:publicly available"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "And then until this year is awkward temporal wording; this year is recording-relative and requires date context, not automatic replacement with the current year.",
+      "review_reason": "This year is relative to recording, with September 2026 discussed earlier, not automatically the execution year. And then until is an awkward temporal splice; the source does not support silently converting it to not until or confirming a filing date.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And then until this year, the Jane Doe lawsuit became public."
     },
     {
@@ -10347,14 +10367,15 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:9:title ix",
         "phrase:9:getting their hands on",
-        "phrase:9:not publicly available"
+        "phrase:9:not publicly available",
+        "word:9:title ix",
+        "chunk:9:i don't know if they got"
       ],
-      "review_reason": "The access idiom and legal term are taught, but multiple self-repairs and changing certainty about which records were obtained need a clause-by-clause annotation.",
+      "review_reason": "Starts with a claim about large outlets, interrupts it with I think naming ABC, then says I don't know whether they obtained the whole investigation. These certainty levels differ; the unfinished object of getting their hands on and record-access prediction are not filled in or verified.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
     },
     {
@@ -10405,8 +10426,9 @@
       "page": 43,
       "segment": 704,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:9:the essence of",
         "word:9:title ix",
         "word:9:snippets"
       ],
@@ -10414,23 +10436,26 @@
         "word:9:title ix",
         "word:9:snippets"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Nested explanation of the lawsuit's essence ends at that are; linking its continuation and attributing the objection need more than the two word cards.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Read directly into 705: the central objection to the investigation explains why extracts are included in the separate lawsuit. Hey we don't agree dramatizes the litigant's position, not a verified quote or the course's agreement; that are included is one passive relative clause across the boundary.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But this John Doe lawsuit, because the essence of the lawsuit is, hey, we don't agree with the Title IX investigation conclusion, there are lots of snippets of the Title IX investigation that are"
     },
     {
       "page": 43,
       "segment": 705,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:9:snippets",
+        "phrase:9:the essence of"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Passive continuation depends on the unfinished clause in 704; standalone approval would hide the sentence boundary problem.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Completes snippets ... that are obviously included from 704. Included means reproduced or contained in the discussed filing; obviously is the narrator's certainty marker, not separate confirmation of every quoted record.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Obviously included in this lawsuit."
     },
     {
@@ -10439,12 +10464,14 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
-        "phrase:9:pieced together"
+        "phrase:9:a hundred page lawsuit",
+        "phrase:9:pieced together",
+        "word:9:cross referencing"
       ],
-      "review_reason": "The information-assembly idiom is taught but tried to cross is incomplete; do not invent a verb complement in the quoted source.",
+      "review_reason": "Pieced together is assembling scattered information, not physically repairing paper. Tried to cross is unfinished; 707 suggests cross-referencing but does not authorize inserting it into this quotation or certifying a complete clause.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So it's like a hundred page lawsuit and there's just a lot of, a lot of information in there that we've pieced together and tried to cross."
     },
     {
@@ -10498,22 +10525,25 @@
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Pence is an uncertain room-name rendering; preserve the printed name and avoid treating the narrator's later guess as verified identification.",
+      "review_reason": "Pence remains the printed room name. Later assuming president's room supplies a hypothesis, not an authenticated correction; no name is invented from perceived similarity.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But the lawsuit states that they have a room called the Pence."
     },
     {
       "page": 43,
       "segment": 711,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:7:i'm assuming",
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "I'm assuming explicitly flags the president-room interpretation as a guess; this is not a reliable correction of the preceding proper name.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The sentence explicitly frames president's room as the narrator's assumption and distinguishes fraternity president from other presidents. Upstairs is relative location. Understanding the hedge does not verify the preceding Pence name, which remains pending.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So I'm assuming like it's the president's room, the president of the fraternity and it's upstairs."
     },
     {
@@ -10522,25 +10552,28 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:9:adjacent"
+        "word:9:adjacent",
+        "phrase:9:next to that room"
       ],
-      "review_reason": "Adjacent is clear, but Fofus is an uncertain name that the next paragraphs explicitly question; retain unresolved source uncertainty.",
+      "review_reason": "Next-to/adjacent identifies the spatial relation and smaller is comparative. Fofus remains an uncertain proper label questioned in following lines; do not substitute F office as established text.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And next to that room is a smaller adjacent room called the Fofus."
     },
     {
       "page": 43,
       "segment": 713,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:9:typo"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Typo requires spelling-error vocabulary and the narrator's denial does not resolve the disputed room-name transcription.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Typo now has a clear transferable example. This sentence denies a typing error as the narrator's claim; it does not settle the actual room name, and 714–716 immediately express uncertainty.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And this is not like a typo."
     },
     {
@@ -10548,14 +10581,16 @@
       "segment": 714,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "chunk:9:i don't know if"
+      ],
       "candidate_learning_item_ids": [
         "chunk:9:i don't know if"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "F office is one uncertain proposed name, not an established expansion to teach as fact.",
+      "review_reason": "F office is proposed under explicit uncertainty. Preserve the printed candidate without treating it as a verified expansion, spelling or actual office function.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "I don't know if it's F office."
     },
     {
@@ -10563,14 +10598,16 @@
       "segment": 715,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "chunk:9:i don't know if"
+      ],
       "candidate_learning_item_ids": [
         "chunk:9:i don't know if"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "The speaker explicitly does not know the name; preserve the uncertainty rather than normalize it.",
+      "review_reason": "Repeats uncertainty with the Fofus variant; repetition does not authenticate a proper name or resolve its relation to the proposed F office.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "I don't know if it's Fofus."
     },
     {
@@ -10579,12 +10616,13 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:9:alcove"
+        "word:9:alcove",
+        "phrase:9:it's not even an office"
       ],
-      "review_reason": "Alcove is reviewed, but a long series of false starts and varying room-name spellings still needs annotation; the noun alone cannot certify coverage.",
+      "review_reason": "The size/storage-closet comparison and alcove meaning can be followed, but Phophis and phophis add another uncertain spelling amid several restarts. The desk/chairs in 717 do not establish the official room name or function.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Phophis I don't I don't know it's unclear but they bring her into this little phophis and it's a tiny it's kind of like a storage closet it's not even an office it's a little alcove"
     },
     {
@@ -10647,27 +10685,31 @@
       "page": 44,
       "segment": 721,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:9:incapacitated",
         "phrase:9:by this point"
       ],
-      "review_reason": "Timeline marker is linked but incapacitated is a consequential ability/capacity term needing a dedicated contextual explanation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The consequential inability term now has a contextual gloss distinct from merely tired. By this point locates Jane's reported condition after the described events; says keeps the condition attributed and does not supply an independent medical/legal assessment.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And by this point, Jane says that she is completely incapacitated."
     },
     {
       "page": 44,
       "segment": 722,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:sorority",
+        "phrase:7:house mom"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Sorority house and recording-relative event date need contextual linkage; a simple wakes up phrase does not cover the organizational term.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Sorority house is the women's organization's residence, not the fraternity house she is leaving. October 20 follows the narrated October 19 night; later that day is within that narrative, not today's date. No new timestamp or independently verified timeline is created.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Jane wakes up later that day, now it's October 20th, and she goes back to the sorority house."
     },
     {
@@ -10688,30 +10730,33 @@
       "page": 44,
       "segment": 724,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:9:preemptive",
-        "phrase:9:out of fear"
+        "phrase:7:bruising",
+        "phrase:9:uti",
+        "phrase:9:out of fear",
+        "word:9:preemptive"
       ],
-      "review_reason": "Preemptive purpose is explained but UTI and bruise remain barriers; the reported self-medication is not endorsed as safe or effective treatment.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Bruise is the mark described by the existing bruising card; butt area means buttocks. UTI is now expanded neutrally. Out of fear and as a preemptive measure describe the reported motive, not an infection diagnosis or endorsement of medication safety/effectiveness.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "She says that she notices this large bruise on her butt area and out of fear, she started taking, I guess out of fear, she started taking UTI medication as a preemptive measure."
     },
     {
       "page": 44,
       "segment": 725,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "chunk:9:it's not until",
         "phrase:9:public knowledge"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Public knowledge is taught, but the disfluent not until focus construction and repeated all need sentence-level explanation.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Not until now has complete teaching models: awareness begins only later that day. Starts becoming aware signals developing understanding; repeated all is speech repair and public knowledge concerns circulation of the account, not public proof of every allegation.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And it's not until later that day, she starts becoming aware of what exactly happened to her at the frat house the night before and how this is all, like it's all becoming public knowledge."
     },
     {
@@ -10785,15 +10830,18 @@
       "page": 44,
       "segment": 731,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:6:suspension"
+        "word:3:chapter",
+        "word:6:suspension",
+        "word:3:violation",
+        "phrase:9:code of conduct"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Suspension is reviewed, but chapter, alleged violations and code of conduct form an institutional-policy cluster requiring additional contextual teaching.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The institutional policy cluster now has support: local chapter, temporary restriction and alleged rule breaches. Instant means immediate; an instant is the edited article form, while source a instant remains unchanged. Alleged is not a final finding.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Xi chapter is placed on a instant temporary suspension for alleged violations of the student code of conduct."
     },
     {
@@ -10816,12 +10864,14 @@
       "segment": 733,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "The list of names continues across the next page; do not invent missing names or certify proper-name spellings without the continuation.",
+      "review_reason": "This name list continues in 734 on the next page. Julia Lopes differs from Jillio/Giglio forms earlier; preserve the printed names and do not identify a corrected spelling solely by list position.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So Matthew Ingalls, Jonathan Newell, Winston Lee, Julia Lopes,"
     },
     {

@@ -337,108 +337,63 @@
     },
     {
       "page": 41,
-      "segment": 666,
-      "reason": "Which is believed to be marks uncertain identification of the room; pronoun tracking and fraternity-office terminology need annotation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 41,
       "segment": 668,
-      "reason": "It's John Doe also sues is a spoken false start; the pseudonym and change of plaintiff need explicit reference tracking.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 41,
-      "segment": 670,
-      "reason": "The accused is a nominalized role and seems signals uncertainty; identity must not be inferred merely from a pseudonym.",
+      "reason": "John Doe introduces a different pseudonymous litigant, not Jane Doe. It's John Doe also sues is a restart; preserve the exact broken syntax and do not infer a real identity from subsequent hints.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 41,
       "segment": 674,
-      "reason": "Because is left unfinished; the connection must be reconstructed across the next paragraph, not treated as an independent covered sentence."
+      "reason": "Because begins an explanation resumed by the investigation and disagreement in 675–677, but the interrupted exchange does not securely finish the clause. Keep this boundary issue, not a standalone causal assertion."
     },
     {
       "page": 41,
       "segment": 675,
-      "reason": "Chapter nine appears inconsistent with surrounding Title IX references. Preserve PDF wording, flag likely transcription issue and avoid silently certifying the intended term."
+      "reason": "Findings are the school's conclusions and the person disputes them. Chapter nine conflicts with repeated Title IX in adjacent discussion; preserve the transcript and do not silently correct the institutional term."
     },
     {
       "page": 41,
       "segment": 677,
-      "reason": "Interrupted they are trying to and that's why they are suing plus another speaker's yes require turn/subject reconstruction.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 41,
-      "segment": 678,
-      "reason": "Civil versus criminal action and the pseudonymous plaintiff need dedicated distinctions; a lawsuit card alone does not cover all legal structure.",
+      "reason": "The exchange appears to connect dissatisfaction with suing Cornell, but interrupted they are trying to and the separate yes obscure the exact completed wording. Do not label the source as a clean sentence or infer multiple plaintiffs from they alone.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 42,
       "segment": 692,
-      "reason": "Prior to Jane Doe is elliptical: whether it means her lawsuit, report or another event must be explained from the exchange, not assumed.",
+      "reason": "The exchange appears to compare the timing of John Doe's action with Jane Doe's later lawsuit, but prior to Jane Doe leaves the event noun unstated. Retain that ellipsis rather than certify a precise chronology or treat it as before her existence.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 42,
       "segment": 696,
-      "reason": "And then until this year is awkward temporal wording; this year is recording-relative and requires date context, not automatic replacement with the current year.",
+      "reason": "This year is relative to recording, with September 2026 discussed earlier, not automatically the execution year. And then until is an awkward temporal splice; the source does not support silently converting it to not until or confirming a filing date.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 42,
       "segment": 700,
-      "reason": "The access idiom and legal term are taught, but multiple self-repairs and changing certainty about which records were obtained need a clause-by-clause annotation."
-    },
-    {
-      "page": 43,
-      "segment": 704,
-      "reason": "Nested explanation of the lawsuit's essence ends at that are; linking its continuation and attributing the objection need more than the two word cards.",
-      "candidate_learning_item_ids": [
-        "word:9:title ix",
-        "word:9:snippets"
-      ]
-    },
-    {
-      "page": 43,
-      "segment": 705,
-      "reason": "Passive continuation depends on the unfinished clause in 704; standalone approval would hide the sentence boundary problem.",
-      "candidate_learning_item_ids": []
+      "reason": "Starts with a claim about large outlets, interrupts it with I think naming ABC, then says I don't know whether they obtained the whole investigation. These certainty levels differ; the unfinished object of getting their hands on and record-access prediction are not filled in or verified."
     },
     {
       "page": 43,
       "segment": 706,
-      "reason": "The information-assembly idiom is taught but tried to cross is incomplete; do not invent a verb complement in the quoted source."
+      "reason": "Pieced together is assembling scattered information, not physically repairing paper. Tried to cross is unfinished; 707 suggests cross-referencing but does not authorize inserting it into this quotation or certifying a complete clause."
     },
     {
       "page": 43,
       "segment": 710,
-      "reason": "Pence is an uncertain room-name rendering; preserve the printed name and avoid treating the narrator's later guess as verified identification.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 43,
-      "segment": 711,
-      "reason": "I'm assuming explicitly flags the president-room interpretation as a guess; this is not a reliable correction of the preceding proper name.",
+      "reason": "Pence remains the printed room name. Later assuming president's room supplies a hypothesis, not an authenticated correction; no name is invented from perceived similarity.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 43,
       "segment": 712,
-      "reason": "Adjacent is clear, but Fofus is an uncertain name that the next paragraphs explicitly question; retain unresolved source uncertainty."
-    },
-    {
-      "page": 43,
-      "segment": 713,
-      "reason": "Typo requires spelling-error vocabulary and the narrator's denial does not resolve the disputed room-name transcription.",
-      "candidate_learning_item_ids": []
+      "reason": "Next-to/adjacent identifies the spatial relation and smaller is comparative. Fofus remains an uncertain proper label questioned in following lines; do not substitute F office as established text."
     },
     {
       "page": 43,
       "segment": 714,
-      "reason": "F office is one uncertain proposed name, not an established expansion to teach as fact.",
+      "reason": "F office is proposed under explicit uncertainty. Preserve the printed candidate without treating it as a verified expansion, spelling or actual office function.",
       "candidate_learning_item_ids": [
         "chunk:9:i don't know if"
       ]
@@ -446,7 +401,7 @@
     {
       "page": 43,
       "segment": 715,
-      "reason": "The speaker explicitly does not know the name; preserve the uncertainty rather than normalize it.",
+      "reason": "Repeats uncertainty with the Fofus variant; repetition does not authenticate a proper name or resolve its relation to the proposed F office.",
       "candidate_learning_item_ids": [
         "chunk:9:i don't know if"
       ]
@@ -454,40 +409,12 @@
     {
       "page": 43,
       "segment": 716,
-      "reason": "Alcove is reviewed, but a long series of false starts and varying room-name spellings still needs annotation; the noun alone cannot certify coverage."
-    },
-    {
-      "page": 44,
-      "segment": 721,
-      "reason": "Timeline marker is linked but incapacitated is a consequential ability/capacity term needing a dedicated contextual explanation."
-    },
-    {
-      "page": 44,
-      "segment": 722,
-      "reason": "Sorority house and recording-relative event date need contextual linkage; a simple wakes up phrase does not cover the organizational term.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 724,
-      "reason": "Preemptive purpose is explained but UTI and bruise remain barriers; the reported self-medication is not endorsed as safe or effective treatment."
-    },
-    {
-      "page": 44,
-      "segment": 725,
-      "reason": "Public knowledge is taught, but the disfluent not until focus construction and repeated all need sentence-level explanation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 731,
-      "reason": "Suspension is reviewed, but chapter, alleged violations and code of conduct form an institutional-policy cluster requiring additional contextual teaching.",
-      "candidate_learning_item_ids": []
+      "reason": "The size/storage-closet comparison and alcove meaning can be followed, but Phophis and phophis add another uncertain spelling amid several restarts. The desk/chairs in 717 do not establish the official room name or function."
     },
     {
       "page": 44,
       "segment": 733,
-      "reason": "The list of names continues across the next page; do not invent missing names or certify proper-name spellings without the continuation.",
+      "reason": "This name list continues in 734 on the next page. Julia Lopes differs from Jillio/Giglio forms earlier; preserve the printed names and do not identify a corrected spelling solely by list position.",
       "candidate_learning_item_ids": []
     },
     {
