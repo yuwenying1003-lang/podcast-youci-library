@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 500,
+      "phrases": 507,
       "chunks": 119
     },
     "source_candidate_totals": {
@@ -76,7 +76,7 @@
         "unit": 9,
         "pages": "34-40",
         "words": 22,
-        "phrases": 45,
+        "phrases": 52,
         "chunks": 17
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 531,
+      "covered": 537,
       "no_identified_barrier": 177,
-      "requires_review": 142
+      "requires_review": 136
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 142,
+      "transcript_segments_requiring_review": 136,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -9217,13 +9217,15 @@
       "page": 38,
       "segment": 621,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:shop still open"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Shop still open is an objectifying sexual metaphor in this chat, not a literal business-hours question; no dedicated contextual teaching is yet supplied.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The shop metaphor is now explicitly taught as objectifying sexual-access talk, not business hours. Still asks about continuation, while omitted is is normal message ellipsis. Meaning recognition does not establish consent or the sender's actual presence.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And then someone responds, shop still open?"
     },
     {
@@ -9231,12 +9233,14 @@
       "segment": 622,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:8:shop still open"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Emoji is read aloud and carries contextual insinuation; a literal yes does not explain its pragmatic force or establish intent.",
+      "review_reason": "Yeah responds to the prior question and devil face emoji reports a symbol, often suggestive of mischief. The PDF does not show the exact emoji or prove the sender's intended tone. Keep that pragmatic/source uncertainty rather than translate it as verified enthusiasm.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Another fraternity brother responds, yeah, devil face emoji."
     },
     {
@@ -9245,12 +9249,13 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:8:redacted"
+        "word:8:redacted",
+        "phrase:8:right now"
       ],
-      "review_reason": "Redacted is a withheld-name placeholder; laying is ambiguous sexual slang in a fragment and should not be treated as an ordinary posture verb.",
+      "review_reason": "Redacted is a withheld name, not a person's actual name. Laying is an incomplete slang/posture phrase with no object; 626 offers a speculative sexual expansion, not confirmation. Do not identify the person or select a precise act.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Another responds, redacted laying right now."
     },
     {
@@ -9261,10 +9266,10 @@
       "learning_item_ids": [
         "word:8:low key"
       ],
-      "review_reason": "Low-key is taught, but cucking is derogatory sexual slang whose precise referent the narrator speculates about; lexical overlap is insufficient.",
+      "review_reason": "Low-key is informal downplaying, but cucking can carry different derogatory sexual or figurative implications. This fragment does not establish a partner relationship, observer role or the members of us. Retain semantic review rather than teach one imagined scenario as fact.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Low key, he's cucking all of us."
     },
     {
@@ -9286,12 +9291,13 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:8:interaction"
+        "word:8:interaction",
+        "phrase:8:this is my opinion"
       ],
-      "review_reason": "Seems and I think explicitly qualify the proposed sexual-slang reading; the slang and speculative observer inference remain unresolved barriers.",
+      "review_reason": "Seems and I think signal the narrator's conjecture about laying and an observer. The proposed crude expansion is not verified message content; do not use it to prove that someone watched an act or to produce a graphic teaching example.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "I mean, that means it seems like someone is watching some sort of sexual interaction because laying like I think that's supposed to indicate like laying dick right now."
     },
     {
@@ -9300,16 +9306,17 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:8:redacted"
+        "word:8:redacted",
+        "phrase:8:right now"
       ],
       "candidate_learning_item_ids": [
         "word:8:redacted",
         "phrase:8:right now"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Repeats the ambiguous redacted-name fragment; knowing redacted does not resolve laying or who was present.",
+      "review_reason": "Repeats 623 without resolving its missing object or the hidden name. Repetition is not independent evidence of posture, sexual activity or identity; retain the same source-language ambiguity.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Redacted laying right now."
     },
     {
@@ -9351,9 +9358,9 @@
         "word:8:low key"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Repeats the slang statement; low-key coverage does not explain cucking or validate the narrator's proposed scenario.",
+      "review_reason": "Repeats the cucking sentence; dictionary-level recognition of an offensive term would not identify who us includes or what exclusion/humiliation is alleged here. No automatic approval from the existing low-key card.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And then the next line is, low-key, he's cucking all of us."
     },
     {
@@ -9362,13 +9369,13 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
-        "chunk:8:that makes it sound like",
+        "phrase:8:makes it sound like",
         "word:8:interaction"
       ],
-      "review_reason": "Makes it sound like is inferential, and the speculative group-presence claim plus slang definition require further contextual annotation.",
+      "review_reason": "The narrator infers several men watching from the slang, using makes it sound like. That inference is not contained unambiguously in the message; both the intended slang sense and observer-count claim stay unresolved.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking."
     },
     {
@@ -9520,11 +9527,15 @@
       "segment": 642,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Quoted derogatory language, alum and P.U. require contextual register and abbreviation teaching; attribution to the lawsuit must remain explicit.",
+      "learning_item_ids": [
+        "phrase:7:free pussy",
+        "phrase:7:pull up",
+        "word:7:alumni room"
+      ],
+      "review_reason": "The vulgar phrase and come-over expression are taught, and by texting describes means. Alum/P.U. remain interpreted shorthand in a reported allegation, not independently authenticated expansions; preserve uncertainty alongside the lawsuit attribution.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,"
     },
     {
@@ -9533,12 +9544,13 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
-        "phrase:8:in doing so"
+        "phrase:8:in doing so",
+        "phrase:7:without her consent"
       ],
-      "review_reason": "In doing so is linked, but the allegation of organizing and encouraging assault and uncertain chapter-name transcription require more than a connector match.",
+      "review_reason": "The filing alleges that sending the message organized and encouraged others to participate; in doing so refers to the preceding texting action. Zai differs from Xi in other passages, so the quoted chapter name remains unverified. Language support does not adjudicate the allegation.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Quote, in doing so, Jonathan organized and encouraged other Zai chapter members to join in on the gang rape of Jane in the Zai chapter fraternity house."
     },
     {
@@ -9560,12 +9572,13 @@
       "source_unit": 5,
       "status": "covered",
       "learning_item_ids": [
-        "word:8:retreat"
+        "word:8:retreat",
+        "phrase:8:under the covers"
       ],
-      "review_reason": "Retreat under the covers means attempting to hide under bedding; Jane says preserves attribution to her account.",
+      "review_reason": "Bedding meaning of covers now has a learner-facing example; trying to retreat expresses an attempt to hide or withdraw, not certain success. Jane says keeps the account attributed.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Jane says that she's trying to retreat under the covers of the bed."
     },
     {
@@ -9609,13 +9622,17 @@
       "page": 39,
       "segment": 649,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:8:the lawsuit states that",
+        "phrase:7:without her consent",
+        "phrase:7:grabs"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Incomplete quotation ends after a name; it must be read with the following material rather than approved as a complete sentence.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Read across the narrator's interruption at 650 into 651: the lawsuit introduces Diego, then alleges approaching, grabbing and kissing without consent. Soon after is timing within that attributed sequence. Coverage is for the linked sentence, not a claim that the name-only fragment stands alone; 650's acronym conflict remains separate.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The lawsuit reads soon after Diego Sarabia."
     },
     {
@@ -9628,9 +9645,9 @@
       ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Offline paraphrase conflicts with the earlier not AFK wording and incorrect expansion. Preserve the discrepancy for audio verification.",
+      "review_reason": "Offline is the narrator's retrospective paraphrase and conflicts with the earlier not AFK line and incorrect active/available expansion. The new context does not authorize correcting the original message or proving a location.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So Diego, remember Diego went in there seven minutes ago and was offline."
     },
     {
@@ -9692,53 +9709,66 @@
       "page": 40,
       "segment": 655,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:8:potential depravity",
         "phrase:8:barely made a dent"
       ],
-      "review_reason": "The progress idiom is taught, but potential depravity adds a strong moral evaluation that still needs contextual vocabulary coverage.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Strong moral evaluation now has a register-labeled card; potential retains possibility. Barely made a dent describes how little of the lawsuit has been discussed, not physical damage or a verified proportion of misconduct.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So just to quickly emphasize the potential depravity, we've barely made a dent in Jane Doe's lawsuit."
     },
     {
       "page": 40,
       "segment": 656,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:a line of ketamine",
+        "phrase:8:commanded that",
+        "word:7:snorting",
+        "word:7:erection"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Graphic alleged drug administration includes line and snort in drug-specific senses; attribution is explicit and no mere name/word hit can certify comprehension.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Line has the powder-arrangement sense and commanded that uses an ordered base-verb action, both now explicitly supported. Erect is the adjective corresponding to erection; which she did reports compliance, not consent. The complete sentence attributes this explicit allegation to the lawsuit; no drug-use procedure or dosage is added.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It continues, defendant Jonathan then poured a line of ketamine on his erect penis and commanded that Jane snort it, which she did, is what the lawsuit says."
     },
     {
       "page": 40,
       "segment": 657,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:defendant",
+        "phrase:7:groping"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Defendant and the continuation into the next fragment need linked legal-role and sentence-boundary support.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Read directly into 658: defendant is a named party role, not a finding of guilt; gets into bed is movement and the following with Jane continues its complement. The linked alleged action is now supported by the existing groping card.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Defendant Jonathan then gets into bed."
     },
     {
       "page": 40,
       "segment": 658,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:groping",
+        "phrase:7:reach for",
+        "phrase:8:vagina"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Groping in the alleged sexual-contact context requires a precise contextual gloss; simple reaching vocabulary is insufficient.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Continues 657 rather than introducing a new subject. Groping is sexual touching, reaching for is attempted contact, and the anatomical noun now has a neutral gloss; again marks repetition in the attributed allegation.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "With jane and begins groping her and reaching for her vagina again"
     },
     {
@@ -9746,12 +9776,16 @@
       "segment": 659,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:8:tied to",
+        "phrase:7:so called friend",
+        "phrase:7:threesome"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Long fragment mixes people, an earlier sexual encounter and tied to in a figurative association sense; reference tracking remains unfinished.",
+      "review_reason": "Tied to now has the reporting-association meaning. The long while/as frame shifts into listing Matthew and Jonathan with repeated he's, leaving the exact sentence boundary and referent tracking disfluent; do not silently reconstruct a polished quote.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Then as jane is lying on her back on the bed there's matthew her so-called friend jonathan the guy that wanted to do the first threesome and he's he's the one that is consistently tied to ketamine in this case"
     },
     {
@@ -9759,11 +9793,13 @@
       "segment": 660,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "By the reporting is a dangling attribution fragment; its scope depends on the preceding sentence and should not be guessed into a complete claim.",
+      "learning_item_ids": [
+        "phrase:8:tied to"
+      ],
+      "review_reason": "By the reporting attaches to the preceding association with ketamine, not a new independent witness. Its dangling boundary remains unresolved with 659, so preserve the fragment and do not multiply evidence by treating it as another source.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "By the reporting."
     },
     {
@@ -9817,12 +9853,15 @@
       "segment": 664,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:8:a line of ketamine",
+        "word:7:snorting"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Unclosed appears to be a transcription problem and the drug-related verbs need precise teaching; preserve original text and seek audio, not silent correction.",
+      "review_reason": "Powder rows and nasal drug-use meaning are now covered receptively. Unclosed body appears to be a transcription problem, possibly unclothed, but cannot be silently repaired; all source allegations and the reported group action remain attributed.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Now the lawsuit claims that they all start pouring lines of ketamine all over Jane's body, her unclosed body and start snorting ketamine off of her body."
     },
     {

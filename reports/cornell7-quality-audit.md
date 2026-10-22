@@ -8,14 +8,14 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 500 Phrases / 119 Chunks.
+- Library: 321 Words / 507 Phrases / 119 Chunks.
 - Word cards carrying reviewed_complete: 321; remaining: 0.
 - Machine translations awaiting context review: 0.
 - Generated memory aids awaiting refinement: 0.
 - External definitions awaiting review: 0; external IPA: 0.
 - Cards with fewer than two populated collocations: 0. This measures completeness, not independent human approval.
-- Transcript statuses: 531 covered / 177 no identified barrier / 142 requires review.
-- This PDF review has individual decisions for 801 paragraphs; 142 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Transcript statuses: 537 covered / 177 no identified barrier / 136 requires review.
+- This PDF review has individual decisions for 801 paragraphs; 136 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
 - Phrases without reviewed_complete: 1; Chunks: 0.
 - The 85 expressions added between 416866a and 8458263 received a separate 2026-10-23 second reading: 82 retained, three corrected. Per-entry rationale is in reports/cornell7-added85-quality-20261023-review.json. This is a Phrase-content audit, not certification of Word-card IPA or independent human approval.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.

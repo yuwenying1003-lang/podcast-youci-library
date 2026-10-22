@@ -261,35 +261,29 @@
     },
     {
       "page": 38,
-      "segment": 621,
-      "reason": "Shop still open is an objectifying sexual metaphor in this chat, not a literal business-hours question; no dedicated contextual teaching is yet supplied.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 38,
       "segment": 622,
-      "reason": "Emoji is read aloud and carries contextual insinuation; a literal yes does not explain its pragmatic force or establish intent.",
+      "reason": "Yeah responds to the prior question and devil face emoji reports a symbol, often suggestive of mischief. The PDF does not show the exact emoji or prove the sender's intended tone. Keep that pragmatic/source uncertainty rather than translate it as verified enthusiasm.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 38,
       "segment": 623,
-      "reason": "Redacted is a withheld-name placeholder; laying is ambiguous sexual slang in a fragment and should not be treated as an ordinary posture verb."
+      "reason": "Redacted is a withheld name, not a person's actual name. Laying is an incomplete slang/posture phrase with no object; 626 offers a speculative sexual expansion, not confirmation. Do not identify the person or select a precise act."
     },
     {
       "page": 38,
       "segment": 624,
-      "reason": "Low-key is taught, but cucking is derogatory sexual slang whose precise referent the narrator speculates about; lexical overlap is insufficient."
+      "reason": "Low-key is informal downplaying, but cucking can carry different derogatory sexual or figurative implications. This fragment does not establish a partner relationship, observer role or the members of us. Retain semantic review rather than teach one imagined scenario as fact."
     },
     {
       "page": 38,
       "segment": 626,
-      "reason": "Seems and I think explicitly qualify the proposed sexual-slang reading; the slang and speculative observer inference remain unresolved barriers."
+      "reason": "Seems and I think signal the narrator's conjecture about laying and an observer. The proposed crude expansion is not verified message content; do not use it to prove that someone watched an act or to produce a graphic teaching example."
     },
     {
       "page": 38,
       "segment": 627,
-      "reason": "Repeats the ambiguous redacted-name fragment; knowing redacted does not resolve laying or who was present.",
+      "reason": "Repeats 623 without resolving its missing object or the hidden name. Repetition is not independent evidence of posture, sexual activity or identity; retain the same source-language ambiguity.",
       "candidate_learning_item_ids": [
         "word:8:redacted",
         "phrase:8:right now"
@@ -298,7 +292,7 @@
     {
       "page": 38,
       "segment": 630,
-      "reason": "Repeats the slang statement; low-key coverage does not explain cucking or validate the narrator's proposed scenario.",
+      "reason": "Repeats the cucking sentence; dictionary-level recognition of an offensive term would not identify who us includes or what exclusion/humiliation is alleged here. No automatic approval from the existing low-key card.",
       "candidate_learning_item_ids": [
         "word:8:low key"
       ]
@@ -306,68 +300,39 @@
     {
       "page": 38,
       "segment": 631,
-      "reason": "Makes it sound like is inferential, and the speculative group-presence claim plus slang definition require further contextual annotation."
+      "reason": "The narrator infers several men watching from the slang, using makes it sound like. That inference is not contained unambiguously in the message; both the intended slang sense and observer-count claim stay unresolved."
     },
     {
       "page": 39,
       "segment": 642,
-      "reason": "Quoted derogatory language, alum and P.U. require contextual register and abbreviation teaching; attribution to the lawsuit must remain explicit."
+      "reason": "The vulgar phrase and come-over expression are taught, and by texting describes means. Alum/P.U. remain interpreted shorthand in a reported allegation, not independently authenticated expansions; preserve uncertainty alongside the lawsuit attribution."
     },
     {
       "page": 39,
       "segment": 643,
-      "reason": "In doing so is linked, but the allegation of organizing and encouraging assault and uncertain chapter-name transcription require more than a connector match."
-    },
-    {
-      "page": 39,
-      "segment": 649,
-      "reason": "Incomplete quotation ends after a name; it must be read with the following material rather than approved as a complete sentence.",
-      "candidate_learning_item_ids": []
+      "reason": "The filing alleges that sending the message organized and encouraged others to participate; in doing so refers to the preceding texting action. Zai differs from Xi in other passages, so the quoted chapter name remains unverified. Language support does not adjudicate the allegation."
     },
     {
       "page": 39,
       "segment": 650,
-      "reason": "Offline paraphrase conflicts with the earlier not AFK wording and incorrect expansion. Preserve the discrepancy for audio verification.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 40,
-      "segment": 655,
-      "reason": "The progress idiom is taught, but potential depravity adds a strong moral evaluation that still needs contextual vocabulary coverage."
-    },
-    {
-      "page": 40,
-      "segment": 656,
-      "reason": "Graphic alleged drug administration includes line and snort in drug-specific senses; attribution is explicit and no mere name/word hit can certify comprehension.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 40,
-      "segment": 657,
-      "reason": "Defendant and the continuation into the next fragment need linked legal-role and sentence-boundary support.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 40,
-      "segment": 658,
-      "reason": "Groping in the alleged sexual-contact context requires a precise contextual gloss; simple reaching vocabulary is insufficient.",
+      "reason": "Offline is the narrator's retrospective paraphrase and conflicts with the earlier not AFK line and incorrect active/available expansion. The new context does not authorize correcting the original message or proving a location.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
       "segment": 659,
-      "reason": "Long fragment mixes people, an earlier sexual encounter and tied to in a figurative association sense; reference tracking remains unfinished.",
+      "reason": "Tied to now has the reporting-association meaning. The long while/as frame shifts into listing Matthew and Jonathan with repeated he's, leaving the exact sentence boundary and referent tracking disfluent; do not silently reconstruct a polished quote.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
       "segment": 660,
-      "reason": "By the reporting is a dangling attribution fragment; its scope depends on the preceding sentence and should not be guessed into a complete claim."
+      "reason": "By the reporting attaches to the preceding association with ketamine, not a new independent witness. Its dangling boundary remains unresolved with 659, so preserve the fragment and do not multiply evidence by treating it as another source."
     },
     {
       "page": 40,
       "segment": 664,
-      "reason": "Unclosed appears to be a transcription problem and the drug-related verbs need precise teaching; preserve original text and seek audio, not silent correction.",
+      "reason": "Powder rows and nasal drug-use meaning are now covered receptively. Unclosed body appears to be a transcription problem, possibly unclothed, but cannot be silently repaired; all source allegations and the reported group action remain attributed.",
       "candidate_learning_item_ids": []
     },
     {

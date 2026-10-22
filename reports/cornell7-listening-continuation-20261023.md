@@ -11,12 +11,13 @@ Baseline: 8458263, PR #16, existing feature/cornell7-coverage-expansion branch.
 - Unit 7, 376–422: read all paragraphs, added ten Phrases, and recorded eight changed decisions. Five barriers resolved; the apparent joining-date splice in 422 remains pending. The quoted creed was compared with the organization's published text, not used to verify actual conduct.
 - Unit 8, 423–543: read all paragraphs, added 13 Phrases and one Chunk (despite the fact that, with three teaching scenarios), and recorded 18 decisions. Eight barriers resolved. Vehicle wording, plopped up, leaves this, name variants, alum and PU remain explicitly uncertain.
 - Unit 9a, 544–615: read all paragraphs, added six Phrases and recorded 20 decisions. Eight barriers resolved; the AFK contradiction, broken reporting clauses and incomplete photograph description remain pending. A correct dictionary acronym does not repair the original quote.
+- Unit 9b, 616–665: read all paragraphs, added seven Phrases and recorded 20 decisions. Six barriers resolved; ambiguous sexual slang/redactions, abbreviation/name variants, AFK contradiction and broken source clauses remain unresolved.
 
 ## Next
 
-- Unit 9, page 38, segment 616, with later pending paragraphs and covered sentences in the same passage.
+- Unit 10, page 41, segment 666, with later pending paragraphs and covered sentences in the same passage.
 - Separate second-pass quality audit of all 85 entries added between 416866a and 8458263 is recorded in cornell7-added85-quality-20261023-review.json: 82 retained with individual rationale, three corrected (American football translation, unsupported 专职 inference, and a stiff light-side example). This checks the existing Phrase schema, not IPA/mnemonic fields for single-word entries stored as Phrases; it is not independent human approval.
-- Remaining barriers: 142. Current library: 321 Words / 500 Phrases / 119 Chunks.
+- Remaining barriers: 136. Current library: 321 Words / 507 Phrases / 119 Chunks.
 - Earlier source ambiguities, including who pays them out, remain pending. Source PDF/index, audio timestamps and application/UI files are unchanged.
 
 Reviews are Codex editorial judgments, not independent human sign-off or audio verification. Programmatic tests validate structure and provenance, not complete comprehension. This follow-up has not yet rereviewed every remaining or covered paragraph.
