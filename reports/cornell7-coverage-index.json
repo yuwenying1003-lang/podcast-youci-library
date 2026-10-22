@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 320,
+      "phrases": 325,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -62,7 +62,7 @@
         "unit": 7,
         "pages": "24-26",
         "words": 20,
-        "phrases": 18,
+        "phrases": 23,
         "chunks": 5
       },
       {
@@ -95,27 +95,27 @@
       }
     ],
     "coverage_status": {
-      "covered": 406,
-      "no_identified_barrier": 108,
-      "requires_review": 336
+      "covered": 412,
+      "no_identified_barrier": 116,
+      "requires_review": 322
     },
     "unresolved_counts": {
       "missing_ipa": 0,
       "missing_english_definition": 0,
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
-      "requires_human_review": 125,
-      "transcript_segments_requiring_review": 336,
-      "externally_sourced_ipa_requiring_review": 93,
-      "externally_sourced_definition_requiring_review": 81,
-      "machine_translations_requiring_review": 83,
-      "form_generated_memory_requiring_review": 82,
-      "fewer_than_two_collocations": 103
+      "requires_human_review": 105,
+      "transcript_segments_requiring_review": 322,
+      "externally_sourced_ipa_requiring_review": 82,
+      "externally_sourced_definition_requiring_review": 70,
+      "machine_translations_requiring_review": 73,
+      "form_generated_memory_requiring_review": 72,
+      "fewer_than_two_collocations": 85
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-    "reviewed_word_cards": 196,
+    "reviewed_word_cards": 216,
     "translated_word_examples": 321,
-    "upgraded_memory_tips": 217,
+    "upgraded_memory_tips": 235,
     "review_updated_on": "2026-10-22"
   },
   "segments": [
@@ -5426,17 +5426,25 @@
       "segment": 376,
       "source_unit": 3,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Date fragment introduces the repeated full date in 377; no audio time inferred.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "October 19th."
     },
     {
       "page": 24,
       "segment": 377,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Sets date and location with kind of as a hedge; busy day is an ordinary phrase anticipating several events.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "October 19th, 2024 at Cornell was kind of a busy day."
     },
     {
       "page": 24,
@@ -5445,8 +5453,14 @@
       "status": "covered",
       "learning_item_ids": [
         "word:6:arrest",
-        "word:6:ketamine"
-      ]
+        "word:6:ketamine",
+        "phrase:6:to be exact"
+      ],
+      "review_reason": "Drug-related arrest and exact house stated; exact charge is not established and must not be inferred from the substance alone.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There is an arrest made for ketamine at a fraternity at Chi Phi, to be exact, a drug related arrest at the same exact house."
     },
     {
       "page": 24,
@@ -5455,55 +5469,77 @@
       "status": "covered",
       "learning_item_ids": [
         "word:6:interim",
-        "word:6:suspension",
-        "phrase:6:sort of like",
-        "phrase:6:interim suspension",
-        "chunk:6:the university does not"
-      ]
+        "word:6:suspension"
+      ],
+      "review_reason": "Does not place on interim suspension is negative; because they're going to host another party is the narrator's reasoning and does not become an official policy explanation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day."
     },
     {
       "page": 24,
       "segment": 380,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:arrest",
+        "word:6:ketamine"
+      ],
       "candidate_learning_item_ids": [
         "word:6:ketamine"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Ketamine-related offense remains nonspecific; inconsistent Kai-Fai spelling is preserved as printed.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So, Kai-Fai, at the house, someone is arrested for a ketamine-related offense."
     },
     {
       "page": 24,
       "segment": 381,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Explicit statement that the precise offense is unknown; essential uncertainty carried forward.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We don't know what it is."
     },
     {
       "page": 24,
       "segment": 382,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:6:overdosed",
         "phrase:6:go through"
-      ]
+      ],
+      "review_reason": "Snippets and get into in a second need support; Title IX is a named investigation framework requiring context, not a label for a criminal conviction. Overdose remains an allegation.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "When you go through little snippets of the Title IX investigation, which is the Jane Doe investigation that we're going to kind of get into in a second, there are allegations that someone overdosed."
     },
     {
       "page": 24,
       "segment": 383,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:arrest",
+        "word:6:crime log"
+      ],
       "candidate_learning_item_ids": [
         "word:6:arrest"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Do know contrasts with unknown offense; logged means recorded. Cornell fragment is corrected by a new clause in 384.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And we do know that there was an arrest made because that was logged in the Cornell."
     },
     {
       "page": 24,
@@ -5512,7 +5548,12 @@
       "status": "covered",
       "learning_item_ids": [
         "word:6:crime log"
-      ]
+      ],
+      "review_reason": "Daily crime log is a record of reports/incidents, not a record proving guilt.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There's like a crime log that they have, like a daily crime log."
     },
     {
       "page": 24,
@@ -5520,8 +5561,14 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:6:supplying"
-      ]
+        "word:6:supplying",
+        "word:6:arrest"
+      ],
+      "review_reason": "Maybe and unfinished or explicitly mark speculation; do not label the arrestee a supplier as fact.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They arrested someone, maybe like supplying or?"
     },
     {
       "page": 24,
@@ -5530,32 +5577,48 @@
       "status": "covered",
       "learning_item_ids": [
         "word:6:possession",
-        "phrase:6:in possession of",
-        "phrase:6:we don't know if",
-        "chunk:6:we don't know if"
-      ]
+        "word:6:supplying",
+        "word:6:overdosed",
+        "phrase:6:we don't know if"
+      ],
+      "review_reason": "Repeated if clauses enumerate alternatives; supply, possession and overdose are distinct, and the number/identity of individuals is unknown.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine."
     },
     {
       "page": 24,
       "segment": 387,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:ketamine"
+      ],
       "candidate_learning_item_ids": [
         "word:6:ketamine"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Some sort of and related retain nonspecificity; location/date repeated without adding an offense.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But there was some sort of ketamine related activity that was discovered October 19th at Chi Phi Fraternity House."
     },
     {
       "page": 24,
       "segment": 388,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:0:campus",
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "On campus locates the building and leads into a jurisdiction claim, not independent verification of ownership.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now this Chi Phi fraternity house is on Cornell campus."
     },
     {
       "page": 24,
@@ -5566,29 +5629,42 @@
         "word:6:jurisdiction",
         "phrase:6:off campus",
         "phrase:6:under the jurisdiction of"
-      ]
+      ],
+      "review_reason": "Negated off campus contrasts location; technically and right frame the speaker's asserted inference about authority, not legal advice.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So it's not off campus housing, which means it's technically under the jurisdiction of Cornell, right?"
     },
     {
       "page": 24,
       "segment": 390,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Incomplete do nothing to leads directly into give suspension in 391; no missing object invented.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Now they do nothing to,"
     },
     {
       "page": 25,
       "segment": 391,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:6:suspension"
+      ],
       "candidate_learning_item_ids": [
         "word:6:suspension"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Temporary suspension is what others reportedly expected, not what is reported to have happened.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Give any sort of temporary suspension to the fraternity house, which is what a lot of people expected."
     },
     {
       "page": 25,
@@ -5597,8 +5673,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Not supposed to means prohibited/against expectations, not inability; fixed expression deserves explicit learner support.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Because it's like, hey, you're not supposed to have drugs on campus."
     },
     {
       "page": 25,
@@ -5607,47 +5686,69 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:6:made an arrest"
-      ]
+      ],
+      "review_reason": "Imagined institutional speech continues 392; not a newly verified first-person police quote.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We made an arrest at your house."
     },
     {
       "page": 25,
       "segment": 394,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:shut down"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Shut down means stop operations; still imagined response, not the actual action at that moment.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We're going to shut this house down."
     },
     {
       "page": 25,
       "segment": 395,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:6:privileges",
-        "word:6:investigate"
-      ]
+        "word:6:investigate",
+        "phrase:6:kicking people out"
+      ],
+      "review_reason": "Ragers and keg stands remain cultural/slang gaps; profanity intensifies partying. Imagined sanction distinguishes lost event privileges from eviction.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We're not kicking people out, but we're just going to investigate and you guys lose your privileges of throwing fucking ragers and doing keg stands."
     },
     {
       "page": 25,
       "segment": 396,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Rhetorical confirmation request about the expected response, not a universal institutional rule.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Because that's what happens, right?"
     },
     {
       "page": 25,
       "segment": 397,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "But they don't negates the expected response and returns to the narrated account.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But they don't do that."
     },
     {
       "page": 25,
@@ -5655,8 +5756,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:6:sophomore"
-      ]
+        "word:6:sophomore",
+        "word:1:allegation",
+        "word:4:assault"
+      ],
+      "review_reason": "Alleges explicitly frames the assault claim; sophomore is second-year student. Duration and age are quoted, not independently verified.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Instead, 22 hours later, a sophomore, 20-year-old Jane Doe alleges that she went to Chi Phi for a party and was gang raped at the fraternity house for seven hours."
     },
     {
       "page": 25,
@@ -5665,8 +5773,11 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Touts itself and motto are useful vocabulary gaps; building better men is a quoted slogan contrasted with allegations, not endorsed by the lesson.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The same Chi Phi, the fraternity that touts itself, their whole mission, their motto is building better men."
     },
     {
       "page": 25,
@@ -5674,31 +5785,43 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "word:6:personal integrity",
-        "word:6:integrity",
-        "phrase:6:personal integrity"
-      ]
+        "word:6:personal integrity"
+      ],
+      "review_reason": "Founding principles are professed ideals; truth/honor/integrity are not a finding about actual conduct.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Their founding principles they state are truth, honor, and personal integrity."
     },
     {
       "page": 25,
       "segment": 401,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:6:creed",
-        "phrase:6:in the chapter house",
         "chunk:6:in short"
-      ]
+      ],
+      "review_reason": "Whether...or and hand of brotherhood is extended are rhetorical patterns still needing support; literal hand extension alone misses welcoming assistance metaphor.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They have a creed of Kai-Fai and it reads in short, I believe in the friendship of Kai-Fai, whether on the road or in the chapter house, the hand of brotherhood is always extended."
     },
     {
       "page": 25,
       "segment": 402,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:3:fraternity"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Declaration of belief within the creed, not narration certifying the group's behavior.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "I believe in the Chi Phi fraternity."
     },
     {
       "page": 25,
@@ -5706,36 +5829,48 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:6:personal integrity",
-        "word:6:personal integrity",
-        "word:6:integrity"
+        "word:6:integrity",
+        "word:6:personal integrity"
       ],
       "candidate_learning_item_ids": [
         "word:6:personal integrity",
         "word:6:integrity",
         "phrase:6:personal integrity"
       ],
-      "review_status": "systematic_link_review",
-      "review_reason": "Covered by complete reusable phrase/chunk match: personal integrity."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Foundations upon which is a formal relative construction: principles are the metaphorical basis, not actual building foundations.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Truth, honor, and personal integrity are the foundations upon which Chi Phi is built."
     },
     {
       "page": 25,
       "segment": 404,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:word is his bond"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Proverb means keeping promises; no financial-bond or physical-word interpretation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "A man's word is his bond."
     },
     {
       "page": 25,
       "segment": 405,
       "source_unit": 3,
-      "status": "covered",
+      "status": "requires_review",
       "learning_item_ids": [
         "word:6:chivalrous"
-      ]
+      ],
+      "review_reason": "Crosses the ages and touch the heart are figurative rhetoric; chivalrous alone does not resolve the whole line.",
+      "review_status": "context_reviewed_remaining_barriers",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Chivalrous behavior crosses the ages to touch the heart of Chi Phi."
     },
     {
       "page": 25,
@@ -5744,8 +5879,14 @@
       "status": "covered",
       "learning_item_ids": [
         "word:6:pseudonym",
-        "phrase:6:relevant details"
-      ]
+        "phrase:6:relevant details",
+        "word:1:lawsuit"
+      ],
+      "review_reason": "Jane Doe explicitly an assumed name; her starting at Cornell means enrollment/beginning studies. Details are from her civil pleading, not a judgment.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "20 year old Jane Doe, this is obviously a pseudonym, but Jane Doe shares the relevant details of her starting at Cornell in her civil lawsuit."
     },
     {
       "page": 26,
@@ -5754,38 +5895,52 @@
       "status": "requires_review",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Lawsuit dropped here likely means released/filed, unlike drop a lawsuit meaning withdraw it. Needs a context-specific explanation before closure.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So this civil lawsuit dropped September of 2026."
     },
     {
       "page": 26,
       "segment": 408,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Distinguishes incident year from later public discussion; informal big conversation means extensive discussion, not one physical meeting.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "The incident is from 2024 and it seems like there was a big conversation at Cornell with people who knew fraternity members with people who knew Jane Doe"
     },
     {
       "page": 26,
       "segment": 409,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:6:made national news"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "National coverage phrase now explicit, but Title IX investigation still needs a sourced institutional-framework note; not a synonym for police prosecution.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There was an entire Title IX investigation at Cornell but it never made national news"
     },
     {
       "page": 26,
       "segment": 410,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Abandoned relative clause after that; next paragraph starts a contrast. Preserve the fragment.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "There were some official statements that Cornell released that"
     },
     {
       "page": 26,
@@ -5793,9 +5948,14 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:6:what was going on",
-        "chunk:6:unless you were"
-      ]
+        "chunk:6:unless you were",
+        "phrase:6:what was going on"
+      ],
+      "review_reason": "Unless = except if; repeated conditions limit who knew about the situation. What was going on means what was happening, not physical movement.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But unless you were a student there, unless you knew what was going on, I mean, nobody was really talking about it."
     },
     {
       "page": 26,
@@ -5803,8 +5963,16 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:6:sue not just"
-      ]
+        "phrase:6:sue not just",
+        "word:5:sorority",
+        "word:3:fraternity",
+        "word:3:sued"
+      ],
+      "review_reason": "Not just...but and repeated as well as enumerate defendants; a lawsuit against them does not establish liability.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But in September of 2026, Jane Doe decides that she's going to sue not just Cornell, but her sorority, the Chi Phi fraternity, as well as seven members of Chi Phi, as well as another bar."
     },
     {
       "page": 26,
@@ -5814,7 +5982,12 @@
       "learning_item_ids": [
         "phrase:6:get into all of it",
         "chunk:6:we're going to get into"
-      ]
+      ],
+      "review_reason": "Get into means discuss in detail, not physically enter; promises later explanation.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "We're going to get into all of it."
     },
     {
       "page": 26,
@@ -5822,30 +5995,46 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:6:breaks open"
-      ]
+        "phrase:6:breaks open",
+        "phrase:6:relevant details"
+      ],
+      "review_reason": "Case breaks open means becomes exposed/develops publicly in context, not a physical container opening or a final judicial resolution.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "But this is when the entire case breaks open and she starts sharing the relevant details."
     },
     {
       "page": 26,
       "segment": 415,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "no_identified_barrier",
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Completes relevant details of her starting at Cornell from 414; not a standalone new event.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Of her starting at Cornell."
     },
     {
       "page": 26,
       "segment": 416,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:falls apart",
+        "word:6:sophomore",
+        "word:5:sorority"
+      ],
       "candidate_learning_item_ids": [
         "word:6:sophomore"
       ],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Falls apart is figurative deterioration of her situation; academic year named rather than a precise elapsed duration.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "She joins Cornell, joins a sorority, and all of this falls apart her sophomore year."
     },
     {
       "page": 26,
@@ -5854,24 +6043,39 @@
       "status": "covered",
       "learning_item_ids": [
         "phrase:6:for about two years"
-      ]
+      ],
+      "review_reason": "About marks approximation; do not reconcile it into an exact enrollment date from sophomore alone.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So she's already been there for about two years."
     },
     {
       "page": 26,
       "segment": 418,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:5:sorority"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "contextually_reviewed",
+      "review_reason": "Tri Delta is explicitly expanded as three Deltas; named group and reported motivation, not a new general vocabulary sense.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "And she says that the only reason that she even joined the sorority, she joined Tri Delta, which is Delta, Delta, Delta, Tri Delta."
     },
     {
       "page": 26,
       "segment": 419,
       "source_unit": 3,
       "status": "no_identified_barrier",
-      "learning_item_ids": []
+      "learning_item_ids": [],
+      "review_reason": "Short acknowledgment with no independent learning barrier.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "Okay."
     },
     {
       "page": 26,
@@ -5879,9 +6083,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "word:6:promoting",
         "word:6:community",
-        "word:6:promoting"
-      ]
+        "word:4:greek life"
+      ],
+      "review_reason": "Kept promoting means repeatedly encouraged; vital means very important, and she felt like attributes the perceived message to her experience.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So she joins the sorority because she felt like when she got to Cornell, they kept promoting Greek life as like a very vital part of the campus community."
     },
     {
       "page": 26,
@@ -5890,19 +6100,29 @@
       "status": "covered",
       "learning_item_ids": [
         "word:6:network",
-        "phrase:6:safe environment",
-        "phrase:6:make so many friends"
-      ]
+        "phrase:6:make so many friends",
+        "phrase:6:safe environment"
+      ],
+      "review_reason": "Network is build relationships; made it seem like and seems frame an impression of safety, not proof that the environment was safe.",
+      "review_status": "contextually_reviewed",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "They were just, they made it seem like, oh, this is where you network and you make so many friends and it seems like a safe environment."
     },
     {
       "page": 26,
       "segment": 422,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:5:sorority"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "systematic_review_needs_editorial_decision",
-      "review_reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review."
+      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Abrupt joins Tri Delta October 19th wording may fuse prior enrollment with the incident date. Preserve the transcript but do not assert a verified joining date without audio/context confirmation.",
+      "reviewer": "Codex",
+      "review_date": "2026-10-22",
+      "reviewed_text": "So she joins Tri Delta October 19th of 2024."
     },
     {
       "page": 27,

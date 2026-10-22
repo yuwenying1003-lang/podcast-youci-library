@@ -5,106 +5,6 @@
   "generated_spelling_context_memory": [],
   "requires_human_review": [
     {
-      "unit": 7,
-      "page": 24,
-      "word": "arrest"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "crime log"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "interim"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "jurisdiction"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "ketamine"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "overdosed"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "possession"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "chivalrous"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "creed"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "personal integrity"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "privileges"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "pseudonym"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "sophomore"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "community"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "promoting"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "suspension"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "supplying"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "integrity"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "network"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "investigate"
-    },
-    {
       "unit": 8,
       "page": 27,
       "word": "facilitate"
@@ -1116,150 +1016,52 @@
     },
     {
       "page": 24,
-      "segment": 377,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 24,
-      "segment": 380,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:6:ketamine"
-      ]
-    },
-    {
-      "page": 24,
-      "segment": 381,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 24,
-      "segment": 383,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:6:arrest"
-      ]
-    },
-    {
-      "page": 24,
-      "segment": 387,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:6:ketamine"
-      ]
-    },
-    {
-      "page": 24,
-      "segment": 388,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 24,
-      "segment": 390,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 25,
-      "segment": 391,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:6:suspension"
-      ]
+      "segment": 382,
+      "reason": "Snippets and get into in a second need support; Title IX is a named investigation framework requiring context, not a label for a criminal conviction. Overdose remains an allegation."
     },
     {
       "page": 25,
       "segment": 392,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Not supposed to means prohibited/against expectations, not inability; fixed expression deserves explicit learner support.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 25,
-      "segment": 394,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 25,
-      "segment": 396,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 25,
-      "segment": 397,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 395,
+      "reason": "Ragers and keg stands remain cultural/slang gaps; profanity intensifies partying. Imagined sanction distinguishes lost event privileges from eviction."
     },
     {
       "page": 25,
       "segment": 399,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Touts itself and motto are useful vocabulary gaps; building better men is a quoted slogan contrasted with allegations, not endorsed by the lesson.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 25,
-      "segment": 402,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 401,
+      "reason": "Whether...or and hand of brotherhood is extended are rhetorical patterns still needing support; literal hand extension alone misses welcoming assistance metaphor."
     },
     {
       "page": 25,
-      "segment": 404,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 405,
+      "reason": "Crosses the ages and touch the heart are figurative rhetoric; chivalrous alone does not resolve the whole line."
     },
     {
       "page": 26,
       "segment": 407,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 26,
-      "segment": 408,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Lawsuit dropped here likely means released/filed, unlike drop a lawsuit meaning withdraw it. Needs a context-specific explanation before closure.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 26,
       "segment": 409,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 26,
-      "segment": 410,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 26,
-      "segment": 415,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 26,
-      "segment": 416,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:6:sophomore"
-      ]
-    },
-    {
-      "page": 26,
-      "segment": 418,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "National coverage phrase now explicit, but Title IX investigation still needs a sourced institutional-framework note; not a synonym for police prosecution.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 26,
       "segment": 422,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Abrupt joins Tri Delta October 19th wording may fuse prior enrollment with the incident date. Preserve the transcript but do not assert a verified joining date without audio/context confirmation.",
       "candidate_learning_item_ids": []
     },
     {
@@ -2677,94 +2479,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 7,
-      "page": 24,
-      "word": "arrest",
-      "ipa": "/ɚɛst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "ketamine",
-      "ipa": "/ˈkɛt.ə.mɪn/",
-      "source": "freedictionaryapi.com (Wiktionary-derived)",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "overdosed",
-      "ipa": "/oʊvɚdoʊst/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "chivalrous",
-      "ipa": "/ˈʃɪv.əl.ɹəs/",
-      "source": "freedictionaryapi.com (Wiktionary-derived)",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "sophomore",
-      "ipa": "/sɑfmɔr/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "community",
-      "ipa": "/kəmjunəti/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "promoting",
-      "ipa": "/prəmoʊtɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "suspension",
-      "ipa": "/səspɛnʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "supplying",
-      "ipa": "/səplaɪɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "network",
-      "ipa": "/nɛtwɝk/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "investigate",
-      "ipa": "/ɪnvɛstəɡeɪt/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 8,
       "page": 27,
       "word": "hired professional",
@@ -3423,83 +3137,6 @@
   ],
   "externally_sourced_definition_requiring_review": [
     {
-      "unit": 7,
-      "page": 24,
-      "word": "arrest",
-      "definition": "A check; a stop; an act or instance of arresting something.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "ketamine",
-      "definition": "(pharmacology) A synthetic compound used as a dissociative anesthetic and analgesic drug and also recreationally as a hallucinogen.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "overdosed",
-      "definition": "simple past and past participle of overdose",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "chivalrous",
-      "definition": "(of a man) Honourable, especially to women; gallant.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "sophomore",
-      "definition": "(US) The second in a series, especially, the second of an artist’s albums or the second of four years in a high school (tenth grade) or university.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "community",
-      "definition": "(countable) A group sharing common characteristics, such as the same language, law, religion, or tradition.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "promoting",
-      "definition": "present participle and gerund of promote",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "suspension",
-      "definition": "The act of suspending, or the state of being suspended.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "supplying",
-      "definition": "present participle and gerund of supply",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "network",
-      "definition": "Any interconnected group or system.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "investigate",
-      "definition": "(transitive) To inquire into or study in order to ascertain facts or information.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 8,
       "page": 27,
       "word": "operational",
@@ -3991,76 +3628,6 @@
     }
   ],
   "machine_translations_requiring_review": [
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "arrest",
-      "example": "There is an arrest made for ketamine at a fraternity at Chi Phi, to be exact, a drug related arrest at the same exact house.",
-      "translation": "在 Chi Phi 的一个兄弟会，有人因氯胺酮被捕，确切地说，是在同一所房子里因毒品而被捕。"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "ketamine",
-      "example": "There is an arrest made for ketamine at a fraternity at Chi Phi, to be exact, a drug related arrest at the same exact house.",
-      "translation": "在 Chi Phi 的一个兄弟会，有人因氯胺酮被捕，确切地说，是在同一所房子里因毒品而被捕。"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "overdosed",
-      "example": "When you go through little snippets of the Title IX investigation, which is the Jane Doe investigation that we're going to kind of get into in a second, there are allegations that someone overdosed.",
-      "translation": "当您查看“第九条”调查的一些小片段时，即我们稍后将介绍的“无名氏”调查，有人指控有人服药过量。"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "chivalrous",
-      "example": "Chivalrous behavior crosses the ages to touch the heart of Chi Phi.",
-      "translation": "跨越时代的侠义行为触动了芝皮的心。"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "community",
-      "example": "So she joins the sorority because she felt like when she got to Cornell, they kept promoting Greek life as like a very vital part of the campus community.",
-      "translation": "所以她加入了联谊会，因为她觉得当她到达康奈尔大学时，他们一直在推广希腊生活，就像校园社区非常重要的一部分一样。"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "promoting",
-      "example": "So she joins the sorority because she felt like when she got to Cornell, they kept promoting Greek life as like a very vital part of the campus community.",
-      "translation": "所以她加入了联谊会，因为她觉得当她到达康奈尔大学时，他们一直在推广希腊生活，就像校园社区非常重要的一部分一样。"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "suspension",
-      "example": "Now, the university does not place the fraternity on some sort of like interim suspension because they're going to host another party that day.",
-      "translation": "现在，大学不会对兄弟会采取某种类似临时停职的措施，因为他们那天要举办另一场聚会。"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "supplying",
-      "example": "They arrested someone, maybe like supplying or?",
-      "translation": "他们逮捕了某人，也许是提供物资，或者？"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "network",
-      "example": "They were just, they made it seem like, oh, this is where you network and you make so many friends and it seems like a safe environment.",
-      "translation": "他们只是，他们让这看起来像是，哦，这是你交流的地方，你结交了很多朋友，而且这似乎是一个安全的环境。"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "investigate",
-      "example": "We're not kicking people out, but we're just going to investigate and you guys lose your privileges of throwing fucking ragers and doing keg stands.",
-      "translation": "我们不会把人赶出去，但我们只是要调查一下，你们就失去了扔他妈的愤怒和做小桶摊的特权。"
-    },
     {
       "unit": 8,
       "page": 27,
@@ -4575,56 +4142,6 @@
   ],
   "form_generated_memory_requiring_review": [
     {
-      "unit": 7,
-      "page": 24,
-      "word": "arrest"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "ketamine"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "overdosed"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "chivalrous"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "community"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "promoting"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "suspension"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "supplying"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "network"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "investigate"
-    },
-    {
       "unit": 8,
       "page": 27,
       "word": "hired professional"
@@ -4990,96 +4507,6 @@
       "unit": 1,
       "page": 3,
       "word": "bizarre"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "arrest"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "crime log"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "interim"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "jurisdiction"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "ketamine"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "overdosed"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "possession"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "chivalrous"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "creed"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "personal integrity"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "privileges"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "community"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "promoting"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "suspension"
-    },
-    {
-      "unit": 7,
-      "page": 24,
-      "word": "supplying"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "integrity"
-    },
-    {
-      "unit": 7,
-      "page": 26,
-      "word": "network"
-    },
-    {
-      "unit": 7,
-      "page": 25,
-      "word": "investigate"
     },
     {
       "unit": 8,
