@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 392,
+      "phrases": 395,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -62,7 +62,7 @@
         "unit": 7,
         "pages": "24-26",
         "words": 20,
-        "phrases": 23,
+        "phrases": 26,
         "chunks": 5
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 464,
+      "covered": 467,
       "no_identified_barrier": 179,
-      "requires_review": 207
+      "requires_review": 204
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 207,
+      "transcript_segments_requiring_review": 204,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -5562,13 +5562,16 @@
       "page": 24,
       "segment": 382,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:6:overdosed",
-        "phrase:6:go through"
+        "phrase:6:go through",
+        "word:9:snippets",
+        "word:9:title ix",
+        "phrase:6:in a second",
+        "chunk:6:we're going to get into"
       ],
-      "review_reason": "Snippets and get into in a second need support; Title IX is a named investigation framework requiring context, not a label for a criminal conviction. Overdose remains an allegation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Reviewing excerpts, the institutional framework and the preview expression are all linked. The which-clause identifies the investigation, and there are allegations prevents overdose being treated as a proven event.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "When you go through little snippets of the Title IX investigation, which is the Jane Doe investigation that we're going to kind of get into in a second, there are allegations that someone overdosed."
@@ -5720,11 +5723,13 @@
       "page": 25,
       "segment": 392,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:not supposed to"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Not supposed to means prohibited/against expectations, not inability; fixed expression deserves explicit learner support.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The rule-based prohibition meaning is explicitly taught; hey and it's like frame an imagined reaction rather than a verbatim policy quotation.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Because it's like, hey, you're not supposed to have drugs on campus."
@@ -5968,13 +5973,14 @@
       "page": 26,
       "segment": 409,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:6:made national news"
+        "word:9:title ix",
+        "phrase:1:makes the news"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "National coverage phrase now explicit, but Title IX investigation still needs a sourced institutional-framework note; not a synonym for police prosecution.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The existing sourced Title IX definition supplies the institutional context; national news adds countrywide reach to the reviewed make-the-news idiom. The narrator's claim of no such coverage is not independently verified.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "There was an entire Title IX investigation at Cornell but it never made national news"
