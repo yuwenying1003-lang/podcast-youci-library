@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 443,
+      "phrases": 459,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -48,7 +48,7 @@
         "unit": 5,
         "pages": "16-20",
         "words": 45,
-        "phrases": 50,
+        "phrases": 66,
         "chunks": 16
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 496,
+      "covered": 504,
       "no_identified_barrier": 177,
-      "requires_review": 177
+      "requires_review": 169
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 177,
+      "transcript_segments_requiring_review": 169,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -3532,7 +3532,8 @@
       "source_unit": 2,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:4:claim",
+        "phrase:4:rammed in the head",
+        "phrase:4:according to",
         "word:4:chapter"
       ],
       "candidate_learning_item_ids": [
@@ -3540,22 +3541,24 @@
         "phrase:4:according to"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Dense attributed account includes rammed in the head, full pledged, and same party on the same plan. Full pledged may be nonstandard/ASR; lack of coverage must not be converted into inability to sue.",
+      "review_reason": "The impact now has explicit support. Same party on the same plan presents the quoted rationale about one insured group; it is not a verified legal conclusion. Full pledged remains nonstandard source wording, possibly full-fledged; do not silently replace it or close the paragraph.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But also, if you're with a bunch of fraternity brothers throwing a football around and then you get rammed in the head with a football in the front yard as a full pledged brother, well, according to the Redditor, quote, insurance does not cover brothers who sue the chapter or national organization for any reason as they are considered the same party on the same plan."
     },
     {
       "page": 16,
       "segment": 242,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:can't sue them either"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Speaker's can't sue them inference is not logically established by the preceding insurance exclusion claim. Explain the modal as the speaker's conclusion, not an actual legal prohibition.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The negative-addition use of either and the modal conclusion are now taught. This short sentence reports the speaker's inference, not an actual inability to sue; insurance exclusion and access to court are not treated as equivalent. Its meaning can be taught while 241 remains textually uncertain.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So you can't sue them either."
     },
     {
@@ -3564,14 +3567,14 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:4:took a sample of",
         "word:4:claim",
-        "word:3:liability",
-        "word:3:insurance company"
+        "word:3:liability"
       ],
-      "review_reason": "Sample is a subset of insurance claims, analyzed by kind; does insure emphasizes an insurer that actually offers this protection. Sample does not represent all possible incidents automatically.",
+      "review_reason": "Sampling is now explicit learner support, not merely a review note. Does insure is emphatic do; the claims sample was analyzed by category, not proved true or shown representative of all incidents.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "According to one insurance company who does insure fraternities, they took a sample of liability claims and they analyzed what kind of claims they were."
     },
     {
@@ -3667,16 +3670,18 @@
       "page": 16,
       "segment": 250,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:4:having their new pledges",
+        "phrase:4:plastic hoses",
+        "phrase:4:turn of events",
         "word:4:enemas",
-        "word:4:pledge",
-        "phrase:4:turn of events"
+        "word:4:pledge"
       ],
-      "review_reason": "Causative having someone do something plus plastic hoses and explicit anatomy still create barriers. Allegedly is a self-correction limiting the assertion; do not teach this as an instruction.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Causative have + person + base verb and the flexible-tube/body meanings now have explicit support. I guess you could say hedges the narrator's description; well allegedly corrects the assertion's certainty. With alcohol in 251 completes the account. No practical instructions or verified medical finding are inferred.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But in a very rather uncomfortable turn of events, I guess you could say, they discovered that the fraternity was actually having, well, allegedly, having their new pledges stick plastic hoses up their butts to give themselves enemas"
     },
     {
@@ -3713,16 +3718,18 @@
       "page": 16,
       "segment": 253,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:4:lost control of his bowels",
+        "phrase:4:defecated on himself",
+        "phrase:4:no recollection of",
         "word:4:circumstantial evidence",
-        "word:4:process",
-        "phrase:4:no recollection of"
+        "word:4:process"
       ],
-      "review_reason": "Bowels/defecated remain concrete vocabulary gaps. May have and indirect evidence indicate inference; the patient's reported lack of memory does not independently establish the narrative.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Concrete bowel vocabulary now complements indirect evidence and memory vocabulary. May have + past participle signals a possible past event; which also has no recollection of refers to the reported incident. Attribution and uncertainty remain, rather than treating the patient's memory gap as proof.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "However police found circumstantial evidence in the fraternity house including evidence that the patient may have lost control of his bowels in the process and defecated on himself which he also has no recollection of"
     },
     {
@@ -3808,12 +3815,16 @@
       "segment": 259,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:4:bright eyed",
+        "phrase:4:er",
+        "word:4:enemas"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Fragmented headline-like wording includes ER and alleged injury; bright-eyed is ironic. Do not reconstruct omitted punctuation into a verified quotation or teach the fragment as standard grammar.",
+      "review_reason": "Bright-eyed irony and ER are now explicitly explained. The fragment still lacks a secure grammatical link between ER, wine enema and allegedly; preserve it as source speech rather than turning reconstructed punctuation into a verified sentence.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Bright-eyed college student ends up in the er wine enema allegedly so"
     },
     {
@@ -3853,9 +3864,9 @@
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Essay is likely a euphemism or ASR rendering of SA in this list. Preserve the PDF, avoid teaching written essay as a lawsuit category, and await audio verification.",
+      "review_reason": "Read the full rankings through 264. Essay could be an SA rendering, but the PDF alone does not verify that reading. Do not teach an academic essay as a claim category or silently substitute a sexual-assault label.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Then you have essay"
     },
     {
@@ -3906,12 +3917,13 @@
       "source_unit": 2,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:4:that's not saying",
         "word:4:hazing lawsuits"
       ],
-      "review_reason": "That's not saying that there aren't... rejects the inference that a lower rank means few lawsuits. Double negatives have a specific logical scope.",
+      "review_reason": "Nested negatives now have explicit teaching support: a small share of all claims does not imply a small absolute number. That's not saying rejects an inference, while there aren't a lot is the proposition being rejected.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And that's not saying that there aren't a lot of hazing lawsuits."
     },
     {
@@ -3937,16 +3949,18 @@
       "page": 17,
       "segment": 268,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:4:paddling",
+        "phrase:4:aesthetic",
+        "phrase:4:gone wrong",
         "word:4:permanent",
-        "word:4:emotional damage",
-        "phrase:4:gone wrong"
+        "word:4:emotional damage"
       ],
-      "review_reason": "Paddling and aesthetic remain gaps; bottom refers to buttocks rather than a financial bottom line. Distinguish physical appearance from emotional effects.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The source's wooden-board punishment and appearance-related damage are now taught distinctly; bottom is buttocks. Or introduces an alternative to the branding example and causing gives a stated consequence; no harm is minimized by the following narrator's light-side label.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Now they need new skin or paddling gone wrong, causing permanent aesthetic and emotional damage to one's bottom."
     },
     {
@@ -3980,13 +3994,15 @@
       "page": 17,
       "segment": 271,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:paddling"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Paddles are flat implements used for hitting in the account, not rowing activity. On there refers to written organization names; needs concrete vocabulary support.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The paddling card identifies the flat board and plural paddles as the implement. On there refers to names written on the board; hit you with it describes its use. The plural-to-singular pronoun shift is retained as spoken wording, not taught as a model sentence.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "They have these paddles in the fraternity houses that usually have like their fraternity names on there and then they hit you with it."
     },
     {
@@ -4020,12 +4036,14 @@
       "page": 18,
       "segment": 274,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Spanking is an attempt to clarify the physical action. A one-word concrete vocabulary gap still needs support.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:got spanked"
+      ],
+      "review_reason": "The earlier card explicitly defines the action of hitting the buttocks. Like spanking is an elliptical clarification question meaning do you mean something like spanking, not an endorsement or a question about liking it.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Like spanking?"
     },
     {
@@ -4163,17 +4181,18 @@
       "page": 18,
       "segment": 284,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:4:urinate",
         "word:4:intoxicated"
       ],
       "candidate_learning_item_ids": [
         "word:4:intoxicated"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Urinate remains an anatomical vocabulary gap; intoxicated alone is insufficient despite the obvious setting.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Formal urinate and direction out the window are now supported; while trying to describes the activity concurrent with the fall. Intoxicated does not alone cover the anatomical action, hence the added entry.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "They fall out of open windows while trying to urinate out the window when they're intoxicated."
     },
     {
@@ -4374,12 +4393,16 @@
       "page": 19,
       "segment": 298,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Defy gravity and keg stand are distinct idiomatic/cultural barriers. Do not supply instructions for the hazardous drinking stunt; explain receptively if added.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:4:defy gravity",
+        "phrase:4:keg stand",
+        "phrase:4:the promise of"
+      ],
+      "review_reason": "Both the gravity metaphor and the cultural drinking-stunt term are now supported receptively. A random Thursday night is an ordinary weekday-night example; the fragment completes the proposed marketing appeal in 297, not a promise endorsed by this course.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The promise of being able to defy gravity and do a keg stand on a random Thursday night."
     },
     {
@@ -4634,14 +4657,15 @@
       "source_unit": 3,
       "status": "covered",
       "learning_item_ids": [
+        "phrase:4:admit",
+        "phrase:4:expand the number",
         "word:4:tuition",
-        "word:4:institution",
-        "phrase:4:expand the number"
+        "word:4:institution"
       ],
-      "review_reason": "Admit means accept as students; more tuition means increased fee revenue, not more lectures. Which means links the proposed consequence.",
+      "review_reason": "Admission here is enrollment, not confession; the newly explicit card prevents a familiar-word false-friend reading. Allows them to expand expresses enabling, and which means more tuition states the narrator's revenue consequence.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It also allows institutions to expand the number of students they can admit, which means more tuition."
     },
     {
