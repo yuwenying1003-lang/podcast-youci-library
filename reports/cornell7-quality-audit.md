@@ -8,21 +8,21 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 333 Phrases / 118 Chunks.
-- Word cards carrying reviewed_complete: 263; remaining: 58.
-- Machine translations awaiting context review: 38.
-- Generated memory aids awaiting refinement: 37.
-- External definitions awaiting review: 38; external IPA: 41.
-- Cards with fewer than two populated collocations: 48. This measures completeness, not independent human approval.
-- Transcript statuses: 430 covered / 128 no identified barrier / 292 requires review.
-- This PDF review has individual decisions for 494 paragraphs; 119 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
-- Phrases without reviewed_complete: 275; Chunks: 101.
+- Library: 321 Words / 339 Phrases / 118 Chunks.
+- Word cards carrying reviewed_complete: 285; remaining: 36.
+- Machine translations awaiting context review: 26.
+- Generated memory aids awaiting refinement: 26.
+- External definitions awaiting review: 25; external IPA: 28.
+- Cards with fewer than two populated collocations: 32. This measures completeness, not independent human approval.
+- Transcript statuses: 428 covered / 149 no identified barrier / 273 requires review.
+- This PDF review has individual decisions for 616 paragraphs; 161 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Phrases without reviewed_complete: 271; Chunks: 101.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
 
-- Next unreviewed Word: Unit 9, clarifying. Preserve all completed cards in earlier Units.
-- Next paragraph not yet individually read in this PDF pass: page 34, segment 544. The continuous reviewed range is segments 50–543; Unit 1's previous work is preserved.
+- Next unreviewed Word: Unit 10, certainty. Preserve all completed cards in earlier Units.
+- Next paragraph not yet individually read in this PDF pass: page 41, segment 666. The continuous reviewed range is segments 50–665; Unit 1's previous work is preserved.
 - Earliest remaining transcript barrier: page 4, segment 51. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - Continue detailed PDF review beyond the latest recorded batch; do not auto-approve matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.

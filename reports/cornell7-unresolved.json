@@ -5,111 +5,6 @@
   "generated_spelling_context_memory": [],
   "requires_human_review": [
     {
-      "unit": 9,
-      "page": 34,
-      "word": "clarifying"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "consensual"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "dense"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "derogatory"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "morally"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "remotely"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "reprehensible"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "abruptly"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "AFK"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "restating"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "all caps"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "respond"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "POV"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interpretation"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "low-key"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "redacted"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "fake"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interaction"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "recollection"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "upsetting"
-    },
-    {
-      "unit": 9,
-      "page": 40,
-      "word": "consent"
-    },
-    {
       "unit": 10,
       "page": 41,
       "word": "certainty"
@@ -248,11 +143,6 @@
       "unit": 11,
       "page": 51,
       "word": "trauma"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "retreat"
     },
     {
       "unit": 11,
@@ -976,70 +866,54 @@
     },
     {
       "page": 34,
-      "segment": 545,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 544,
+      "reason": "Dense is self-deprecating here, but pull up as a summons needs the preceding message and its contested interpretation."
     },
     {
       "page": 34,
       "segment": 546,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 34,
-      "segment": 551,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "The number refers to chat membership, not proof that all members participated; fraternity brother and the rhetorical relabeling need contextual linkage.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 34,
       "segment": 555,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 34,
-      "segment": 556,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Doesn't make any sense is a transferable idiom of incomprehensibility; no single content word establishes its teaching coverage.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 34,
       "segment": 558,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Broken sentence combines the lawsuit's responses with a named defendant; its syntax and legal-role references need separate explanation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 34,
       "segment": 559,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Free followed by an ellipsis is deliberately ambiguous; the punctuation is read aloud and does not establish the sender's intended meaning.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 35,
-      "segment": 562,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
-      "candidate_learning_item_ids": [
-        "word:8:clarifying"
-      ]
-    },
-    {
-      "page": 35,
       "segment": 564,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Crazy work is evaluative internet slang, not employment; its intended force and register still need a teaching card.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 35,
       "segment": 565,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Defendant is a legal-party label, not a finding of guilt; no linked contextual card is supplied for this paragraph.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 35,
+      "segment": 566,
+      "reason": "Not AFK conflicts with the next expansion and later offline paraphrase. Correct acronym teaching cannot resolve the transcript contradiction without audio."
+    },
+    {
+      "page": 35,
       "segment": 567,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "Source incorrectly defines AFK as active or available; standard meaning is away from keyboard. Preserve quotation and obtain audio verification before resolving the discrepancy.",
       "candidate_learning_item_ids": [
         "word:8:afk"
       ]
@@ -1047,305 +921,196 @@
     {
       "page": 35,
       "segment": 568,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 571,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "There's like a whole thing is a vague conversational placeholder for a longer story, not a literal object; needs a pragmatic explanation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 35,
       "segment": 573,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 575,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 577,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 578,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 36,
-      "segment": 583,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 36,
-      "segment": 584,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Contains a crude quoted sexual message; app-name recognition alone does not cover its derogatory meaning and context.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
       "segment": 585,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Active available paraphrase disagrees with standard AFK and the earlier not AFK wording; do not normalize the contradiction away.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
       "segment": 586,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Fragment offers an uncertain inference about location; saying like almost like is hedged and cannot establish that he was there.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
-      "segment": 588,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 590,
+      "reason": "Legit and the layered imagined quotation need explanation; the narrator is modeling a reading of the message, not proving eyewitness presence."
     },
     {
       "page": 36,
       "segment": 595,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Profane emphasis and a phonetic fraternity-name rendering need explicit register and name verification; do not silently standardize Kai-Fai.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
       "segment": 596,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Broken self-repair This is he invited requires contextual reconstruction; preserve source rather than pretending it is a complete grammatical sentence.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
       "segment": 598,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Run-on switches between people and commentary with minimal punctuation; role labels and speaker/reference tracking still need annotation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
       "segment": 599,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 601,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 602,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 605,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 608,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 609,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 611,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 612,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Nested what each person indicated that they state happened is a disfluent reporting structure; a keyword hit would not resolve attribution.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
       "segment": 613,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Incomplete whether clause and self-repair need the next paragraph; isolated coverage would misrepresent the uncertainty about the image.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
+      "segment": 614,
+      "reason": "Unfinished alternative clothed or appears cannot be resolved from this fragment; do not invent its missing complement."
+    },
+    {
+      "page": 37,
       "segment": 615,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "Had no clue is explained, but a long disfluent legal characterization of the image remains the narrator's claim and needs careful scope/attribution annotation.",
       "candidate_learning_item_ids": [
         "word:8:consent"
       ]
     },
     {
       "page": 38,
-      "segment": 616,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 38,
-      "segment": 617,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 38,
-      "segment": 618,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 38,
-      "segment": 619,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 38,
       "segment": 621,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Shop still open is an objectifying sexual metaphor in this chat, not a literal business-hours question; no dedicated contextual teaching is yet supplied.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 38,
       "segment": 622,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Emoji is read aloud and carries contextual insinuation; a literal yes does not explain its pragmatic force or establish intent.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 38,
-      "segment": 625,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 623,
+      "reason": "Redacted is a withheld-name placeholder; laying is ambiguous sexual slang in a fragment and should not be treated as an ordinary posture verb."
+    },
+    {
+      "page": 38,
+      "segment": 624,
+      "reason": "Low-key is taught, but cucking is derogatory sexual slang whose precise referent the narrator speculates about; lexical overlap is insufficient."
+    },
+    {
+      "page": 38,
+      "segment": 626,
+      "reason": "Seems and I think explicitly qualify the proposed sexual-slang reading; the slang and speculative observer inference remain unresolved barriers."
+    },
+    {
+      "page": 38,
+      "segment": 627,
+      "reason": "Repeats the ambiguous redacted-name fragment; knowing redacted does not resolve laying or who was present.",
+      "candidate_learning_item_ids": [
+        "word:8:redacted",
+        "phrase:8:right now"
+      ]
     },
     {
       "page": 38,
       "segment": 630,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "reason": "Repeats the slang statement; low-key coverage does not explain cucking or validate the narrator's proposed scenario.",
       "candidate_learning_item_ids": [
         "word:8:low key"
       ]
     },
     {
       "page": 38,
-      "segment": 632,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 38,
-      "segment": 633,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 39,
-      "segment": 634,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 631,
+      "reason": "Makes it sound like is inferential, and the speculative group-presence claim plus slang definition require further contextual annotation."
     },
     {
       "page": 39,
       "segment": 638,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Hammered means very drunk here; a literal tool meaning would mislead, and no linked contextual card covers it in this batch.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 39,
       "segment": 640,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Hammered and sorority girl combine intoxication slang with an organizational label; repeated look is disfluency, not proof that these barriers are covered.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 39,
-      "segment": 644,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 642,
+      "reason": "Quoted derogatory language, alum and P.U. require contextual register and abbreviation teaching; attribution to the lawsuit must remain explicit."
     },
     {
       "page": 39,
-      "segment": 648,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 643,
+      "reason": "In doing so is linked, but the allegation of organizing and encouraging assault and uncertain chapter-name transcription require more than a connector match."
     },
     {
       "page": 39,
       "segment": 649,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Incomplete quotation ends after a name; it must be read with the following material rather than approved as a complete sentence.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 39,
       "segment": 650,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Offline paraphrase conflicts with the earlier not AFK wording and incorrect expansion. Preserve the discrepancy for audio verification.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
-      "segment": 653,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 40,
-      "segment": 654,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 655,
+      "reason": "The progress idiom is taught, but potential depravity adds a strong moral evaluation that still needs contextual vocabulary coverage."
     },
     {
       "page": 40,
       "segment": 656,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Graphic alleged drug administration includes line and snort in drug-specific senses; attribution is explicit and no mere name/word hit can certify comprehension.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
       "segment": 657,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Defendant and the continuation into the next fragment need linked legal-role and sentence-boundary support.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
       "segment": 658,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Groping in the alleged sexual-contact context requires a precise contextual gloss; simple reaching vocabulary is insufficient.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
       "segment": 659,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Long fragment mixes people, an earlier sexual encounter and tied to in a figurative association sense; reference tracking remains unfinished.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 40,
-      "segment": 661,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 660,
+      "reason": "By the reporting is a dangling attribution fragment; its scope depends on the preceding sentence and should not be guessed into a complete claim."
     },
     {
       "page": 40,
       "segment": 664,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 40,
-      "segment": 665,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Unclosed appears to be a transcription problem and the drug-related verbs need precise teaching; preserve original text and seek audio, not silent correction.",
       "candidate_learning_item_ids": []
     },
     {
@@ -2037,102 +1802,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 9,
-      "page": 34,
-      "word": "clarifying",
-      "ipa": "/klɛrəfaɪɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "consensual",
-      "ipa": "/kənsɛnsuəl/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "dense",
-      "ipa": "/dɛns/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "morally",
-      "ipa": "/mɔrəli/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "AFK",
-      "ipa": "/ˌeɪ ɛf ˈkeɪ/",
-      "source": "freedictionaryapi.com (Wiktionary-derived)",
-      "status": "external_dictionary_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "all caps",
-      "ipa": "/ɔl kæps/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "respond",
-      "ipa": "/rɪspɑnd/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "POV",
-      "ipa": "/pi oʊ vi/",
-      "source": "CMU Pronouncing Dictionary + transparent inflection/abbreviation rule",
-      "status": "rule_derived_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "low-key",
-      "ipa": "/loʊ ki/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "fake",
-      "ipa": "/feɪk/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interaction",
-      "ipa": "/ɪntɚækʃən/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "upsetting",
-      "ipa": "/əpsɛtɪŋ/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 10,
       "page": 41,
       "word": "certainty",
@@ -2293,14 +1962,6 @@
       "status": "external_dictionary_conversion_unreviewed"
     },
     {
-      "unit": 9,
-      "page": 39,
-      "word": "retreat",
-      "ipa": "/ritrit/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 11,
       "page": 47,
       "word": "formal",
@@ -2366,90 +2027,6 @@
     }
   ],
   "externally_sourced_definition_requiring_review": [
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "clarifying",
-      "definition": "A clarification.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "consensual",
-      "definition": "With permission, with consensus, without coercion; allowed without objecting or resisting.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "dense",
-      "definition": "Having relatively high density.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "morally",
-      "definition": "In terms of morals or ethics.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "AFK",
-      "definition": "(military, video games, Internet slang) Initialism of away from keyboard, i.e. away from one's computer; idle.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "all caps",
-      "definition": "(typography) Text or a font in which all letters are capitalised.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "respond",
-      "definition": "(transitive, intransitive) To say something in return; to answer; to reply.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "POV",
-      "definition": "Initialism of point of view.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "low-key",
-      "definition": "(art, photography) Dark; characterized by dark tones and muted colors.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "fake",
-      "definition": "Not real; false, fraudulent.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interaction",
-      "definition": "The situation or occurrence in which two or more objects or events act upon one another to produce an effect; the effect resulting from such a situation or occurrence.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "upsetting",
-      "definition": "An overturning or disarrangement.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
     {
       "unit": 10,
       "page": 41,
@@ -2570,13 +2147,6 @@
       "source": "freedictionaryapi.com (Wiktionary-derived)"
     },
     {
-      "unit": 9,
-      "page": 39,
-      "word": "retreat",
-      "definition": "The act of pulling back or withdrawing, as from something dangerous, or unpleasant.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 11,
       "page": 47,
       "word": "formal",
@@ -2634,83 +2204,6 @@
     }
   ],
   "machine_translations_requiring_review": [
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "consensual",
-      "example": "Maybe if you engaged in some sexual activity that was consensual and you texted some like, oh, I did some crazy stuff and said a derogatory name.",
-      "translation": "也许如果你进行了一些双方同意的性活动，并且你发了一些短信，比如，哦，我做了一些疯狂的事情，并说了一个贬义的名字。"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "dense",
-      "example": "Maybe I'm dense, but like, I'm pretty sure it means pull up.",
-      "translation": "也许我很笨，但我很确定这意味着拉起。"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "morally",
-      "example": "Would that be morally reprehensible?",
-      "translation": "这会在道德上受到谴责吗？"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "AFK",
-      "example": "Scott K, who is a defendant says, Diego went seven minutes ago and is not AFK.",
-      "translation": "被告斯科特·K (Scott K) 表示，迭戈七分钟前就走了，并没有离开。"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "all caps",
-      "example": "Then Winston responds, Kai-Fai, like all caps.",
-      "translation": "然后温斯顿回应，凯辉，就像所有大写字母一样。"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "respond",
-      "example": "Now, Matthew, the so-called friend of Jane Doe, the one that invited Jane Doe, I guess he wakes up and he starts responding into this Snapchat group.",
-      "translation": "现在，马修，也就是邀请简·多伊的所谓朋友，我猜他醒了，开始对这个 Snapchat 群组做出回应。"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "POV",
-      "example": "So scott k says the alumni shit is not a bit first person pov not a bit um",
-      "translation": "所以斯科特·K 说校友狗屎不是一点第一人称视角不是一点嗯"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "low-key",
-      "example": "Low key, he's cucking all of us.",
-      "translation": "低调，他在欺骗我们所有人。"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "fake",
-      "example": "This is not fake.",
-      "translation": "这不是假的。"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interaction",
-      "example": "I mean, that means it seems like someone is watching some sort of sexual interaction because laying like I think that's supposed to indicate like laying dick right now.",
-      "translation": "我的意思是，这意味着似乎有人正在观看某种性互动，因为我认为这应该表明现在就像是在撒鸡巴。"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "upsetting",
-      "example": "She later states about that picture, the person that's smiling in that photograph, like that image is so upsetting to me.",
-      "translation": "她后来谈到那张照片，照片中微笑的人，就像那张照片让我感到非常不安。"
-    },
     {
       "unit": 10,
       "page": 41,
@@ -2838,13 +2331,6 @@
       "translation": "我想从这次创伤中恢复过来，但这非常困难。"
     },
     {
-      "unit": 9,
-      "page": 39,
-      "word": "retreat",
-      "example": "Jane says that she's trying to retreat under the covers of the bed.",
-      "translation": "简说她正试图躲到床被子里。"
-    },
-    {
       "unit": 11,
       "page": 47,
       "word": "formal",
@@ -2902,56 +2388,6 @@
     }
   ],
   "form_generated_memory_requiring_review": [
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "dense"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "morally"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "AFK"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "all caps"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "respond"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "POV"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "low-key"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "fake"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interaction"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "upsetting"
-    },
     {
       "unit": 10,
       "page": 41,
@@ -3043,11 +2479,6 @@
       "word": "trauma"
     },
     {
-      "unit": 9,
-      "page": 39,
-      "word": "retreat"
-    },
-    {
       "unit": 11,
       "page": 47,
       "word": "formal"
@@ -3093,81 +2524,6 @@
       "unit": 1,
       "page": 3,
       "word": "bizarre"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "dense"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "derogatory"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "morally"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "remotely"
-    },
-    {
-      "unit": 9,
-      "page": 34,
-      "word": "reprehensible"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "AFK"
-    },
-    {
-      "unit": 9,
-      "page": 35,
-      "word": "restating"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "all caps"
-    },
-    {
-      "unit": 9,
-      "page": 36,
-      "word": "respond"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "POV"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "low-key"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "redacted"
-    },
-    {
-      "unit": 9,
-      "page": 37,
-      "word": "fake"
-    },
-    {
-      "unit": 9,
-      "page": 38,
-      "word": "interaction"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "upsetting"
     },
     {
       "unit": 10,
@@ -3283,11 +2639,6 @@
       "unit": 11,
       "page": 51,
       "word": "trauma"
-    },
-    {
-      "unit": 9,
-      "page": 39,
-      "word": "retreat"
     },
     {
       "unit": 11,
