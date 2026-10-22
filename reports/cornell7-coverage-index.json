@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 494,
+      "phrases": 500,
       "chunks": 119
     },
     "source_candidate_totals": {
@@ -76,7 +76,7 @@
         "unit": 9,
         "pages": "34-40",
         "words": 22,
-        "phrases": 39,
+        "phrases": 45,
         "chunks": 17
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 523,
+      "covered": 531,
       "no_identified_barrier": 177,
-      "requires_review": 150
+      "requires_review": 142
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 150,
+      "transcript_segments_requiring_review": 142,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -8126,14 +8126,15 @@
       "page": 34,
       "segment": 544,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:8:dense"
+        "word:8:dense",
+        "phrase:7:pull up"
       ],
-      "review_reason": "Dense is self-deprecating here, but pull up as a summons needs the preceding message and its contested interpretation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Dense is the speaker's self-deprecating slow-to-understand sense, already taught; pretty sure is confidence short of certainty. The sentence asserts a likely reading of PU, not verified expansion of the message. The standalone abbreviation remains pending separately.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Maybe I'm dense, but like, I'm pretty sure it means pull up."
     },
     {
@@ -8153,13 +8154,16 @@
       "page": 34,
       "segment": 546,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:fraternity brother",
+        "phrase:7:group chat"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "The number refers to chat membership, not proof that all members participated; fraternity brother and the rhetorical relabeling need contextual linkage.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Cornell 57 is rhetorical relabeling based on the stated chat-member count, not a new official case title or proof of 57 participants. Because gives that numerical rationale; the membership term and chat grouping already have learner support.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "This is the Cornell 57 case because there are 57 fraternity brothers in that Snapchat group."
     },
     {
@@ -8275,13 +8279,15 @@
       "page": 34,
       "segment": 555,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "chunk:4:it doesn't even make any sense"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Doesn't make any sense is a transferable idiom of incomprehensibility; no single content word establishes its teaching coverage.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Reuse the existing sense-making Chunk: the narrator finds the message incomprehensible. Here just adds emphasis while the taught variant uses even; neither concerns sensory perception or proves what the sender intended.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "But this just doesn't make any sense."
     },
     {
@@ -8316,12 +8322,15 @@
       "segment": 558,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:7:defendant",
+        "phrase:7:according to the lawsuit"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Broken sentence combines the lawsuit's responses with a named defendant; its syntax and legal-role references need separate explanation.",
+      "review_reason": "The start points to responses described in Jane Doe's lawsuit; the rest introduces Scott Norris as a named defendant. The transition lacks a secure grammatical connection, so preserve it rather than manufacture a complete quotation or treat defendant as guilty.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The responses that we can see as detailed in Jane Doe's lawsuit, Scott Norris, another member is the defendant in the lawsuit."
     },
     {
@@ -8329,12 +8338,14 @@
       "segment": 559,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:8:dot dot dot"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Free followed by an ellipsis is deliberately ambiguous; the punctuation is read aloud and does not establish the sender's intended meaning.",
+      "review_reason": "The spoken punctuation now has a card, but free plus ellipsis remains pragmatically underdetermined. Paragraphs 560–563 explicitly offer several interpretations; do not select a questioning, approving or shocked intent as fact.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He says free dot, dot, dot."
     },
     {
@@ -8400,26 +8411,30 @@
       "page": 35,
       "segment": 564,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:crazy work"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Crazy work is evaluative internet slang, not employment; its intended force and register still need a teaching card.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Informal evaluative reaction is now taught, with work referring to behavior rather than a job. The response can be understood as expressing extremeness without proving approval, condemnation, physical presence or a precise tone.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "A guy named Ryan says, this is crazy work."
     },
     {
       "page": 35,
       "segment": 565,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Defendant is a legal-party label, not a finding of guilt; no linked contextual card is supplied for this paragraph.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "He refers back to Ryan in 564, distinguished from other named people in this narration. Not a defendant states lack of that party label in the discussed suit, not innocence, guilt or absence from every legal proceeding.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He's not a defendant."
     },
     {
@@ -8428,12 +8443,13 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:8:afk"
+        "word:8:afk",
+        "word:7:defendant"
       ],
-      "review_reason": "Not AFK conflicts with the next expansion and later offline paraphrase. Correct acronym teaching cannot resolve the transcript contradiction without audio.",
+      "review_reason": "Standard AFK is away from keyboard. PDF not AFK, next active or available, and later offline conflict; preserve the negation and do not infer Diego's actual availability or location from a corrected acronym definition.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Scott K, who is a defendant says, Diego went seven minutes ago and is not AFK."
     },
     {
@@ -8448,22 +8464,24 @@
         "word:8:afk"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Source incorrectly defines AFK as active or available; standard meaning is away from keyboard. Preserve quotation and obtain audio verification before resolving the discrepancy.",
+      "review_reason": "Oxford confirms away from keyboard, not active or available. The existing Word card teaches the standard meaning; this does not authenticate or silently repair the speaker's printed expansion. Source discrepancy remains.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So AFK means active or available."
     },
     {
       "page": 35,
       "segment": 568,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:a whole thing"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "There's like a whole thing is a vague conversational placeholder for a longer story, not a literal object; needs a pragmatic explanation.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "A whole thing now has a transferable example for a complicated backstory; like hedges and okay checks the listener's attention. The narrator announces an explanation rather than identifying a literal object.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So Scott K., there's like a whole thing, okay?"
     },
     {
@@ -8523,13 +8541,16 @@
       "page": 35,
       "segment": 573,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:free pussy",
+        "word:7:snapchat"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Contains a crude quoted sexual message; app-name recognition alone does not cover its derogatory meaning and context.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "After answers the prior timing question about the quoted message, not the origin of consent. The previously added receptive card explains the vulgar objectification; the platform name alone would not suffice.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "After the free pussy Snapchat."
     },
     {
@@ -8690,9 +8711,9 @@
       ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Active available paraphrase disagrees with standard AFK and the earlier not AFK wording; do not normalize the contradiction away.",
+      "review_reason": "Active available is another paraphrase within the same inconsistent acronym passage. No grammatical cleanup can decide whether the original message meant away, not away or another status; retain the contradiction and seven-minute attribution.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So then this text now says Diego went seven minutes ago and is not active available."
     },
     {
@@ -8700,12 +8721,14 @@
       "segment": 586,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:8:makes it sound like"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Fragment offers an uncertain inference about location; saying like almost like is hedged and cannot establish that he was there.",
+      "review_reason": "The sentence tentatively infers Diego's presence from the message; saying like almost like is a hesitant restart. Since its message premise is unresolved, do not turn there into a verified location or silently expand the fragment.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So saying like almost like Diego is there."
     },
     {
@@ -8825,9 +8848,9 @@
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Profane emphasis and a phonetic fraternity-name rendering need explicit register and name verification; do not silently standardize Kai-Fai.",
+      "review_reason": "Fucking intensifies love in a profane quoted reaction, not a description of a sexual act in this grammar. Kai-Fai is a phonetic name variant; the exact form remains unauthenticated and should not be replaced inside the quote.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "I fucking love Kai-Fai."
     },
     {
@@ -8838,9 +8861,9 @@
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Broken self-repair This is he invited requires contextual reconstruction; preserve source rather than pretending it is a complete grammatical sentence.",
+      "review_reason": "Context identifies the preceding sender as Matthew, whom the narrator calls Jane's inviter. This is he invited is a broken restart, not a complete grammatical sentence; keep the inferred linkage separate from verbatim source.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "This is he invited Jane Doe."
     },
     {
@@ -8862,25 +8885,31 @@
       "segment": 598,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:8:more so",
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Run-on switches between people and commentary with minimal punctuation; role labels and speaker/reference tracking still need annotation.",
+      "review_reason": "The paragraph first labels Winston Lee, then returns to Scott K, then comments that messages are the current focus. More so now has support; missing punctuation and switches still need source confirmation before treating this as one secure quotation.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Winston lee is also a defendant scott k back to scott k the names don't really matter it's just more so the messages"
     },
     {
       "page": 37,
       "segment": 599,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:8:indicated",
+        "phrase:6:go through"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Nested what each person indicated that they state happened is a disfluent reporting structure; a keyword hit would not resolve attribution.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Names will matter more later previews a later review of each person's reported account. Go through means examine; what each person indicated that they state happened is a disfluent nested reporting clause, not proof that events occurred as stated. The new reporting-verb card supports this distinction.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The names will matter more later when i go through what each person indicated that they state happened that night"
     },
     {
@@ -9071,12 +9100,14 @@
       "segment": 613,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:3:vague"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Incomplete whether clause and self-repair need the next paragraph; isolated coverage would misrepresent the uncertainty about the image.",
+      "review_reason": "Vague marks uncertainty; whether introduces alternatives, but the sentence restarts and its complement is not securely finished in 614. Do not reconstruct a precise description of the image.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "She is, it's kind of vague of whether she's"
     },
     {
@@ -9084,11 +9115,13 @@
       "segment": 614,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Unfinished alternative clothed or appears cannot be resolved from this fragment; do not invent its missing complement.",
+      "learning_item_ids": [
+        "phrase:8:clothed"
+      ],
+      "review_reason": "Clothed now has an explicit adjective definition. Or appears still lacks a complement, so vocabulary support cannot supply what the speaker intended to contrast or establish the image's contents.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Clothed or appears"
     },
     {
@@ -9097,16 +9130,17 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
+        "phrase:8:clothed",
         "phrase:8:had no clue",
-        "word:8:consent"
+        "phrase:7:in the sense that"
       ],
       "candidate_learning_item_ids": [
         "word:8:consent"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Had no clue is explained, but a long disfluent legal characterization of the image remains the narrator's claim and needs careful scope/attribution annotation.",
+      "review_reason": "Had no clue clearly means did not know the photo was taken. The preceding not-illegal characterization and whether/appears repair are the narrator's uncertain claims, not a legal finding or consent inference. Preserve the unresolved description rather than approving all scopes of this run-on sentence.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It's not like an illegal picture in the sense that she was unclothed or engaged in activity that she did not consent to being filmed but it is a picture of her that she had no clue was taken"
     },
     {

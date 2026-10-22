@@ -187,121 +187,74 @@
     },
     {
       "page": 34,
-      "segment": 544,
-      "reason": "Dense is self-deprecating here, but pull up as a summons needs the preceding message and its contested interpretation."
-    },
-    {
-      "page": 34,
-      "segment": 546,
-      "reason": "The number refers to chat membership, not proof that all members participated; fraternity brother and the rhetorical relabeling need contextual linkage.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 34,
-      "segment": 555,
-      "reason": "Doesn't make any sense is a transferable idiom of incomprehensibility; no single content word establishes its teaching coverage.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 34,
       "segment": 558,
-      "reason": "Broken sentence combines the lawsuit's responses with a named defendant; its syntax and legal-role references need separate explanation.",
+      "reason": "The start points to responses described in Jane Doe's lawsuit; the rest introduces Scott Norris as a named defendant. The transition lacks a secure grammatical connection, so preserve it rather than manufacture a complete quotation or treat defendant as guilty.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 34,
       "segment": 559,
-      "reason": "Free followed by an ellipsis is deliberately ambiguous; the punctuation is read aloud and does not establish the sender's intended meaning.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 564,
-      "reason": "Crazy work is evaluative internet slang, not employment; its intended force and register still need a teaching card.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 565,
-      "reason": "Defendant is a legal-party label, not a finding of guilt; no linked contextual card is supplied for this paragraph.",
+      "reason": "The spoken punctuation now has a card, but free plus ellipsis remains pragmatically underdetermined. Paragraphs 560–563 explicitly offer several interpretations; do not select a questioning, approving or shocked intent as fact.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 35,
       "segment": 566,
-      "reason": "Not AFK conflicts with the next expansion and later offline paraphrase. Correct acronym teaching cannot resolve the transcript contradiction without audio."
+      "reason": "Standard AFK is away from keyboard. PDF not AFK, next active or available, and later offline conflict; preserve the negation and do not infer Diego's actual availability or location from a corrected acronym definition."
     },
     {
       "page": 35,
       "segment": 567,
-      "reason": "Source incorrectly defines AFK as active or available; standard meaning is away from keyboard. Preserve quotation and obtain audio verification before resolving the discrepancy.",
+      "reason": "Oxford confirms away from keyboard, not active or available. The existing Word card teaches the standard meaning; this does not authenticate or silently repair the speaker's printed expansion. Source discrepancy remains.",
       "candidate_learning_item_ids": [
         "word:8:afk"
       ]
     },
     {
-      "page": 35,
-      "segment": 568,
-      "reason": "There's like a whole thing is a vague conversational placeholder for a longer story, not a literal object; needs a pragmatic explanation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 35,
-      "segment": 573,
-      "reason": "Contains a crude quoted sexual message; app-name recognition alone does not cover its derogatory meaning and context.",
-      "candidate_learning_item_ids": []
-    },
-    {
       "page": 36,
       "segment": 585,
-      "reason": "Active available paraphrase disagrees with standard AFK and the earlier not AFK wording; do not normalize the contradiction away.",
+      "reason": "Active available is another paraphrase within the same inconsistent acronym passage. No grammatical cleanup can decide whether the original message meant away, not away or another status; retain the contradiction and seven-minute attribution.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
       "segment": 586,
-      "reason": "Fragment offers an uncertain inference about location; saying like almost like is hedged and cannot establish that he was there.",
+      "reason": "The sentence tentatively infers Diego's presence from the message; saying like almost like is a hesitant restart. Since its message premise is unresolved, do not turn there into a verified location or silently expand the fragment.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
       "segment": 595,
-      "reason": "Profane emphasis and a phonetic fraternity-name rendering need explicit register and name verification; do not silently standardize Kai-Fai.",
+      "reason": "Fucking intensifies love in a profane quoted reaction, not a description of a sexual act in this grammar. Kai-Fai is a phonetic name variant; the exact form remains unauthenticated and should not be replaced inside the quote.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 36,
       "segment": 596,
-      "reason": "Broken self-repair This is he invited requires contextual reconstruction; preserve source rather than pretending it is a complete grammatical sentence.",
+      "reason": "Context identifies the preceding sender as Matthew, whom the narrator calls Jane's inviter. This is he invited is a broken restart, not a complete grammatical sentence; keep the inferred linkage separate from verbatim source.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
       "segment": 598,
-      "reason": "Run-on switches between people and commentary with minimal punctuation; role labels and speaker/reference tracking still need annotation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 37,
-      "segment": 599,
-      "reason": "Nested what each person indicated that they state happened is a disfluent reporting structure; a keyword hit would not resolve attribution.",
+      "reason": "The paragraph first labels Winston Lee, then returns to Scott K, then comments that messages are the current focus. More so now has support; missing punctuation and switches still need source confirmation before treating this as one secure quotation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
       "segment": 613,
-      "reason": "Incomplete whether clause and self-repair need the next paragraph; isolated coverage would misrepresent the uncertainty about the image.",
+      "reason": "Vague marks uncertainty; whether introduces alternatives, but the sentence restarts and its complement is not securely finished in 614. Do not reconstruct a precise description of the image.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 37,
       "segment": 614,
-      "reason": "Unfinished alternative clothed or appears cannot be resolved from this fragment; do not invent its missing complement."
+      "reason": "Clothed now has an explicit adjective definition. Or appears still lacks a complement, so vocabulary support cannot supply what the speaker intended to contrast or establish the image's contents."
     },
     {
       "page": 37,
       "segment": 615,
-      "reason": "Had no clue is explained, but a long disfluent legal characterization of the image remains the narrator's claim and needs careful scope/attribution annotation.",
+      "reason": "Had no clue clearly means did not know the photo was taken. The preceding not-illegal characterization and whether/appears repair are the narrator's uncertain claims, not a legal finding or consent inference. Preserve the unresolved description rather than approving all scopes of this run-on sentence.",
       "candidate_learning_item_ids": [
         "word:8:consent"
       ]
