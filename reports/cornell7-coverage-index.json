@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 385,
+      "phrases": 392,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -55,7 +55,7 @@
         "unit": 6,
         "pages": "21-23",
         "words": 32,
-        "phrases": 21,
+        "phrases": 28,
         "chunks": 3
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 458,
+      "covered": 464,
       "no_identified_barrier": 179,
-      "requires_review": 213
+      "requires_review": 207
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 213,
+      "transcript_segments_requiring_review": 207,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -4857,13 +4857,13 @@
       "page": 21,
       "segment": 334,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:3:hazing"
+        "phrase:5:recounts"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Recounts means tells a past experience; this remains a useful reporting-verb gap rather than automatic coverage from hazing.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The reporting verb is now explicitly taught as telling a past experience; the hazing account remains attributed rather than independently verified.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And he recounts his hazing experience."
@@ -4949,13 +4949,13 @@
       "page": 21,
       "segment": 340,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:5:pledged",
-        "word:5:endure"
+        "phrase:5:fully fledged",
+        "word:4:pledge"
       ],
-      "review_reason": "Fully fledged versus fully pledged is a spoken correction/play on words; the fixed fully fledged adjective needs explicit teaching beyond pledged alone.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Fully fledged denotes complete status, followed by a source correction or wordplay fully pledged. The phrase continues becoming a from 339 and is not silently standardized into one quoted form.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Fully fledged, fully pledged Chi Phi member if they can just endure the next few hours."
@@ -5105,13 +5105,13 @@
       "page": 22,
       "segment": 351,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:5:blindfolded",
+        "phrase:5:made to crawl",
         "phrase:5:on my elbows and knees"
       ],
-      "review_reason": "Made to crawl is passive compulsion; crawl needs a clear physical-action definition. Source has no explicit new subject supplied by us.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Compulsory passive action, crawl movement and body-support posture are explicitly explained. The source omits was before made; teaching grammar is separated from the preserved quote.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Then i was blindfolded again made to crawl on my elbows and knees on hard wooden floors"
@@ -5135,10 +5135,12 @@
       "page": 22,
       "segment": 353,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Collapsed is a physical-action/medical-state verb needing a contextual definition; do not infer cause or diagnosis from one sentence.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:collapsed"
+      ],
+      "review_reason": "The physical sudden-fall sense is taught without inventing a cause, diagnosis or unreported action.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Finally, I collapsed."
@@ -5253,11 +5255,13 @@
       "page": 23,
       "segment": 361,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:a whole piece"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Piece means an article, not a physical piece; Cornell Sun is the named publication. Published recently is relative to recording time.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Piece is identified as an article and the named publication is recognized; which was published recently attaches to the article and uses recording-relative time.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "There's a whole piece on this that Jared shares in the Cornell Sun, which was published recently."
@@ -5427,13 +5431,13 @@
       "page": 23,
       "segment": 373,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:3:alcohol"
+        "phrase:5:liquor bottles"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Liquor bottles adds the spirits sense of liquor; alcohol alone does not teach the beer-versus-liquor distinction.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Beer versus distilled spirits is explicitly distinguished; there's with a plural list is retained as spoken agreement, not taught as careful written grammar.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "There's beer cans, liquor bottles."

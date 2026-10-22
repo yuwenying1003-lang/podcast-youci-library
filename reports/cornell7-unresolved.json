@@ -243,17 +243,6 @@
     },
     {
       "page": 21,
-      "segment": 334,
-      "reason": "Recounts means tells a past experience; this remains a useful reporting-verb gap rather than automatic coverage from hazing.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 21,
-      "segment": 340,
-      "reason": "Fully fledged versus fully pledged is a spoken correction/play on words; the fixed fully fledged adjective needs explicit teaching beyond pledged alone."
-    },
-    {
-      "page": 21,
       "segment": 341,
       "reason": "Tossed onto a sheet and flinging up and down remain physical-action barriers; the account is introduced as an allegation."
     },
@@ -291,16 +280,6 @@
     },
     {
       "page": 22,
-      "segment": 351,
-      "reason": "Made to crawl is passive compulsion; crawl needs a clear physical-action definition. Source has no explicit new subject supplied by us."
-    },
-    {
-      "page": 22,
-      "segment": 353,
-      "reason": "Collapsed is a physical-action/medical-state verb needing a contextual definition; do not infer cause or diagnosis from one sentence."
-    },
-    {
-      "page": 22,
       "segment": 355,
       "reason": "Infamous and inconsistent Kai-Fi versus Chi Phi spelling remain issues. Preserve printed proper name and avoid inventing an official spelling correction in the quotation.",
       "candidate_learning_item_ids": []
@@ -315,18 +294,6 @@
       "page": 22,
       "segment": 357,
       "reason": "Great Fratsby is a fraternity-themed pun on The Great Gatsby; needs a cultural reference note rather than treating it as a normal adjective+noun phrase.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 23,
-      "segment": 361,
-      "reason": "Piece means an article, not a physical piece; Cornell Sun is the named publication. Published recently is relative to recording time.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 23,
-      "segment": 373,
-      "reason": "Liquor bottles adds the spirits sense of liquor; alcohol alone does not teach the beer-versus-liquor distinction.",
       "candidate_learning_item_ids": []
     },
     {
