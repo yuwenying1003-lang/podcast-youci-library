@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 372,
+      "phrases": 379,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -41,7 +41,7 @@
         "unit": 4,
         "pages": "11-15",
         "words": 48,
-        "phrases": 45,
+        "phrases": 52,
         "chunks": 10
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 445,
+      "covered": 451,
       "no_identified_barrier": 179,
-      "requires_review": 226
+      "requires_review": 220
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 226,
+      "transcript_segments_requiring_review": 220,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -2434,13 +2434,13 @@
       "page": 11,
       "segment": 172,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:3:fraternity"
+        "phrase:3:sororities"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Sororities needs the female student-organization sense; fraternity alone does not cover it.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The missing women's student-organization sense is now explicitly taught; some people say preserves attribution of the ranking's scope.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Some people say it's fraternities and sororities."
@@ -2449,11 +2449,13 @@
       "page": 11,
       "segment": 173,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:greek life"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Greek life is US fraternity/sorority culture, not life in Greece; needs an explicit learning item.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Greek life is explicitly distinguished from life in Greece and connects fraternities and sororities in the preceding exchange.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "It's all Greek life."
@@ -2661,10 +2663,10 @@
       "source_unit": 2,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:3:self insuring",
-        "chunk:3:it's to the point where"
+        "phrase:3:to the point where",
+        "phrase:3:self insuring"
       ],
-      "review_reason": "Resulted in self-insuring is printed wording; possible resorted to is unverified. Speaker also conflates retained risk with setting up insurers, so do not certify the explanation.",
+      "review_reason": "Degree marker and retained-risk meaning are now taught, but resulted in versus possible resorted to remains unverified, and the following explanation may conflate self-insurance with creating an insurer.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
@@ -2991,13 +2993,14 @@
       "page": 14,
       "segment": 209,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:3:the second that",
-        "word:3:drops"
+        "phrase:2:court filings",
+        "phrase:3:likely dropped"
       ],
-      "review_reason": "Dropped means membership removed; court filing needs explicit support and the statement remains a generalized claim, not a verified rule.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Immediate-event marker, court-document noun and informal membership removal are all taught; likely and the generalized speaker account are preserved rather than treated as a universal policy.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "All of that, the second that there's a court filing, that member is likely dropped."
@@ -3191,12 +3194,14 @@
       "page": 14,
       "segment": 223,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:3:take off"
+        "phrase:3:a band",
+        "phrase:3:take off",
+        "phrase:3:you can only"
       ],
-      "review_reason": "Band is likely a wristband used for entry/drinking controls, not musicians; needs an explicit contextual item. Cannot remove is covered by take off.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Band is explained with an explicitly labeled wristband inference, take off means remove, and only limits the narrated permission to the person's own drink.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And then you get a band that you can't take off and you can only drink your own beer."
@@ -3249,13 +3254,15 @@
       "page": 15,
       "segment": 227,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:fellow fraternity brothers"
+      ],
       "candidate_learning_item_ids": [
         "word:3:fraternity"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Fellow fraternity brothers and the contrast between checkers' ages and the stated threshold need explanation; no blanket coverage.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Shared organizational membership is explained; the ages contrast peer checkers with the described age-control duties, without proving compliance or noncompliance.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "But like the people that are checking all these things are your fellow fraternity brothers that are also 18, 19, probably maybe 21."
@@ -3449,13 +3456,15 @@
       "page": 15,
       "segment": 240,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:3:throw a football around",
-        "word:3:liability"
+        "phrase:3:non brothers",
+        "phrase:3:athletic",
+        "phrase:3:insurance policy"
       ],
-      "review_reason": "Non-brothers means nonmembers, not unrelated siblings; athletic is a further vocabulary gap. Quoted policy account must remain attributed.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Casual tossing, nonmember status, sporting activity and the document reference are explicitly covered. According to the policy retains the speaker's attribution rather than certifying the restriction.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "We technically could not throw a football around in the front yard with non-brothers that were there because according to the policy, anything athletic was too much of a liability for the insurance company."

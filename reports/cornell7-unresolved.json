@@ -105,21 +105,9 @@
       "reason": "Mold is a specialized comparison in an uncertain asbestos exchange; no confident interpretation from one short sentence."
     },
     {
-      "page": 11,
-      "segment": 172,
-      "reason": "Sororities needs the female student-organization sense; fraternity alone does not cover it.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 11,
-      "segment": 173,
-      "reason": "Greek life is US fraternity/sorority culture, not life in Greece; needs an explicit learning item.",
-      "candidate_learning_item_ids": []
-    },
-    {
       "page": 12,
       "segment": 187,
-      "reason": "Resulted in self-insuring is printed wording; possible resorted to is unverified. Speaker also conflates retained risk with setting up insurers, so do not certify the explanation."
+      "reason": "Degree marker and retained-risk meaning are now taught, but resulted in versus possible resorted to remains unverified, and the following explanation may conflate self-insurance with creating an insurer."
     },
     {
       "page": 12,
@@ -166,11 +154,6 @@
     },
     {
       "page": 14,
-      "segment": 209,
-      "reason": "Dropped means membership removed; court filing needs explicit support and the statement remains a generalized claim, not a verified rule."
-    },
-    {
-      "page": 14,
       "segment": 215,
       "reason": "BYOB begins option two and is expanded in 216, but wording whole list of BYOB is unclear; read the full checklist before approving.",
       "candidate_learning_item_ids": []
@@ -183,32 +166,14 @@
     },
     {
       "page": 14,
-      "segment": 223,
-      "reason": "Band is likely a wristband used for entry/drinking controls, not musicians; needs an explicit contextual item. Cannot remove is covered by take off."
-    },
-    {
-      "page": 14,
       "segment": 225,
       "reason": "Ensure in the PDF may stand for insure; retain the original and await audio rather than teaching ensure as insurance protection.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 15,
-      "segment": 227,
-      "reason": "Fellow fraternity brothers and the contrast between checkers' ages and the stated threshold need explanation; no blanket coverage.",
-      "candidate_learning_item_ids": [
-        "word:3:fraternity"
-      ]
-    },
-    {
-      "page": 15,
       "segment": 231,
       "reason": "Disfluent question about who funds payments; referent of them and insurer/claimant relationships are unclear. Do not convert pays them out into a universal clean model."
-    },
-    {
-      "page": 15,
-      "segment": 240,
-      "reason": "Non-brothers means nonmembers, not unrelated siblings; athletic is a further vocabulary gap. Quoted policy account must remain attributed."
     },
     {
       "page": 16,

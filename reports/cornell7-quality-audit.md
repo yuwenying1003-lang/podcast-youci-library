@@ -8,15 +8,15 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 372 Phrases / 118 Chunks.
+- Library: 321 Words / 379 Phrases / 118 Chunks.
 - Word cards carrying reviewed_complete: 321; remaining: 0.
 - Machine translations awaiting context review: 0.
 - Generated memory aids awaiting refinement: 0.
 - External definitions awaiting review: 0; external IPA: 0.
 - Cards with fewer than two populated collocations: 0. This measures completeness, not independent human approval.
-- Transcript statuses: 445 covered / 179 no identified barrier / 226 requires review.
-- This PDF review has individual decisions for 801 paragraphs; 226 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
-- Phrases without reviewed_complete: 230; Chunks: 52.
+- Transcript statuses: 451 covered / 179 no identified barrier / 220 requires review.
+- This PDF review has individual decisions for 801 paragraphs; 220 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Phrases without reviewed_complete: 191; Chunks: 52.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
@@ -27,7 +27,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - The initial Unit 2–11 paragraph pass is complete; the next coverage work is resolving documented barriers, not rereading or auto-approving all matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
 - Next in-scope barrier after preserved Unit 1: page 4, segment 56: Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches.
 - Next pending Chunk after preserved Unit 1: Unit 9, I don't know what ....
-- Next pending Phrase after preserved Unit 1: Unit 4, don't want to cover.
+- Next pending Phrase after preserved Unit 1: Unit 4, who pays them out.
 - The explicitly requested Unit 1 bizarre collocation repair is complete: bizarre behavior / a bizarre situation. The original excerpt and prior review remain unchanged.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
