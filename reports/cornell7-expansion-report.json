@@ -5,7 +5,7 @@
   "transcript_segments": 850,
   "totals": {
     "words": 321,
-    "phrases": 435,
+    "phrases": 443,
     "chunks": 118
   },
   "source_candidate_totals": {
@@ -40,7 +40,7 @@
       "unit": 4,
       "pages": "11-15",
       "words": 48,
-      "phrases": 61,
+      "phrases": 69,
       "chunks": 10
     },
     {
@@ -94,8 +94,8 @@
     }
   ],
   "coverage_status": {
-    "covered": 494,
-    "no_identified_barrier": 179,
+    "covered": 496,
+    "no_identified_barrier": 177,
     "requires_review": 177
   },
   "unresolved_counts": {

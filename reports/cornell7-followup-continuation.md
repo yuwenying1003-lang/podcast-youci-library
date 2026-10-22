@@ -1,5 +1,7 @@
 # Cornell 7 follow-up checkpoint
 
+For work after 8458263, continue from [the 2026-10-23 listening checkpoint](cornell7-listening-continuation-20261023.md). The counts below are the earlier checkpoint, not current totals.
+
 Baseline: `416866a`, existing PR #16, branch `feature/cornell7-coverage-expansion`.
 
 ## Completed in this follow-up

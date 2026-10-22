@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 const root = new URL('../', import.meta.url);
 const read = path => readFile(new URL(path, root), 'utf8').then(JSON.parse);
 const batch = await read(process.argv[2]);
+const reviewDate = batch.review_date || new Date().toISOString().slice(0, 10);
 const course = await read('courses/8b77ac948ba43d5d084d03e194ce7ecb.json');
 const source = await read('reports/cornell7-transcript-recovered.json');
 const coverage = await read('reports/cornell7-coverage-index.json');
@@ -32,7 +33,7 @@ for (const [word, ipa, definition, cn, pairs, tip, example, example_cn, note] of
     example_translation_status: 'context_reviewed', definition_status: 'context_reviewed', ipa_status: 'american_ipa_reviewed',
     mnemonic_status: 'editorially_curated_complete_card', mnemonic_type: 'word-form-and-context',
     editorial_status: 'reviewed_complete', reviewer: 'Codex', review_method: 'individual_pdf_contextual_review',
-    review_date: '2026-10-22', context_review_note: note });
+    review_date: reviewDate, context_review_note: note });
 }
 for (const [text, segment, definition, cn, example, example_cn, note] of batch.phrases || []) {
   const src = source.transcript.segments.find(s => s.segment === segment);
@@ -43,7 +44,7 @@ for (const [text, segment, definition, cn, example, example_cn, note] of batch.p
   Object.assign(item, { definition, cn, example, example_cn, example_source: 'adapted', source_page: src.page,
     source_segment: `segment-${segment}`, source_excerpt: src.text, source_kind: 'original',
     source_verification: 'verified_transcript_match', extraction_confidence: 'high',
-    editorial_status: 'reviewed_complete', reviewer: 'Codex', review_date: '2026-10-22', context_review_note: note,
+    editorial_status: 'reviewed_complete', reviewer: 'Codex', review_date: reviewDate, context_review_note: note,
     review_method: 'individual_pdf_contextual_review', independent_human_signoff: false });
 }
 for (const [text, cn, function_en, replaceable_parts, note, scenes] of batch.chunks || []) {
@@ -60,7 +61,7 @@ for (const [text, cn, function_en, replaceable_parts, note, scenes] of batch.chu
     everyday_example: scenarios[0].reference_answer, everyday_example_zh: scenarios[0].reference_answer_zh,
     workplace_example: scenarios[2].reference_answer, workplace_example_zh: scenarios[2].reference_answer_zh,
     scenarios, context_review_note: note, editorial_status: 'reviewed_complete',
-    reviewer: 'Codex', review_date: '2026-10-22', review_method: 'individual_pdf_contextual_review' });
+    reviewer: 'Codex', review_date: reviewDate, review_method: 'individual_pdf_contextual_review' });
 }
 const allIds = new Set([
   ...course.vocab.map(v => `word:${v.unit}:${normalize(v.word)}`),
@@ -75,7 +76,7 @@ for (const [segment, status, ids, reason] of batch.segments || []) {
   for (const id of ids) if (!allIds.has(id)) throw new Error(`Unknown learning item: ${id}`);
   Object.assign(row, { status, learning_item_ids: ids, review_reason: reason,
     review_status: status === 'requires_review' ? 'context_reviewed_remaining_barriers' : 'contextually_reviewed',
-    reviewer: 'Codex', review_date: '2026-10-22', reviewed_text: src.text });
+    reviewer: 'Codex', review_date: reviewDate, reviewed_text: src.text });
 }
 await writeFile(new URL('courses/8b77ac948ba43d5d084d03e194ce7ecb.json', root), JSON.stringify(course, null, 2) + '\n');
 await writeFile(new URL('reports/cornell7-coverage-index.json', root), JSON.stringify(coverage, null, 2) + '\n');

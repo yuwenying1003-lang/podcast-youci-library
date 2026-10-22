@@ -30,7 +30,7 @@ expansion.unresolved_counts = Object.fromEntries(Object.entries(unresolved).filt
 expansion.reviewed_word_cards = course.vocab.filter(item => item.editorial_status === 'reviewed_complete').length;
 expansion.translated_word_examples = course.vocab.filter(item => item.example_cn).length;
 expansion.upgraded_memory_tips = course.vocab.filter(item => item.mnemonic_status === 'editorially_curated_complete_card').length;
-expansion.review_updated_on = '2026-10-22';
+expansion.review_updated_on = new Date().toISOString().slice(0, 10);
 coverage.report = { ...expansion };
 for (const [path, value] of [
   ['reports/cornell7-unresolved.json', unresolved],
@@ -46,7 +46,7 @@ const nextPhrase = course.expressions.find(item => item.unit > 0 && item.editori
 const nextBarrier = coverage.segments.find(item => item.page > 3 && item.status === 'requires_review');
 const audit = `# Cornell 7 quality and continuation audit
 
-Updated 2026-10-22. Reviews identify Codex as reviewer; completed contextual editorial review is not independent human sign-off or audio verification.
+Updated ${expansion.review_updated_on}. Reviews identify Codex as reviewer; completed contextual editorial review is not independent human sign-off or audio verification.
 
 ## Recovered source
 
