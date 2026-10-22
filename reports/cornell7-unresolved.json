@@ -337,25 +337,8 @@
     },
     {
       "page": 28,
-      "segment": 455,
-      "reason": "Supposed to be expresses expected responsibility; kind of hedges. Fixed supposed to needs explicit support rather than caregiver noun alone."
-    },
-    {
-      "page": 28,
       "segment": 457,
       "reason": "Subaru differs from prior Uber wording but could be a car make; do not silently repair either. Off campus means outside campus, and venue is named."
-    },
-    {
-      "page": 29,
-      "segment": 459,
-      "reason": "Stamp X's on hands is an entry/age marking action; needs support for stamp/marking rather than treating giant literally.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 30,
-      "segment": 478,
-      "reason": "Hawaii themed is a common -themed event construction needing a reusable note; narrator's interesting choice is commentary, not an event-date correction.",
-      "candidate_learning_item_ids": []
     },
     {
       "page": 30,
@@ -363,24 +346,9 @@
       "reason": "Threesome remains an explicit receptive vocabulary gap; proposition is attributed to the lawsuit. Do not infer agreement from a proposal."
     },
     {
-      "page": 30,
-      "segment": 487,
-      "reason": "Capable of consenting is a central structure needing direct support; reported inability is a pleading claim, not a capacity determination by this review."
-    },
-    {
       "page": 31,
       "segment": 502,
       "reason": "Plopped up is suspect or unusual phrasing; retain rather than replace with propped up. Nested attribution Jane says they said separates apparent powder from chemical identification."
-    },
-    {
-      "page": 31,
-      "segment": 505,
-      "reason": "Plied someone with needs an explicit vocabulary item; believed to be qualifies rum identification. Source claims remain from pleading, not chemical confirmation."
-    },
-    {
-      "page": 31,
-      "segment": 506,
-      "reason": "Engaging in sexual acts and without consent are central structures; a temporal phrase or isolated consent match should not auto-close the sentence."
     },
     {
       "page": 31,
@@ -403,31 +371,8 @@
     },
     {
       "page": 32,
-      "segment": 515,
-      "reason": "Reach for and euphemistic private parts need support. According to lawsuit scopes the continued attempts; meanwhile marks simultaneous timeline."
-    },
-    {
-      "page": 32,
-      "segment": 516,
-      "reason": "Pushing away now supported, but swatting remains a distinct quick striking motion; source describes resistance, not consent.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 32,
-      "segment": 519,
-      "reason": "Grabs someone from someone needs contextual explanation; no rescue motive inferred because later paragraphs explicitly negate it.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 32,
       "segment": 520,
       "reason": "Perhaps and rhetorical right introduce narrator's temporary hope; decent/uncovered are additional gaps. Do not label the entrant a rescuer."
-    },
-    {
-      "page": 32,
-      "segment": 522,
-      "reason": "So that gives purpose in the attributed act; grabs remains unsupported and the next action is not permission for further contact.",
-      "candidate_learning_item_ids": []
     },
     {
       "page": 32,

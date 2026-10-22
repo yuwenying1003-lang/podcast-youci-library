@@ -5,7 +5,7 @@
   "transcript_segments": 850,
   "totals": {
     "words": 321,
-    "phrases": 395,
+    "phrases": 405,
     "chunks": 118
   },
   "source_candidate_totals": {
@@ -68,7 +68,7 @@
       "unit": 8,
       "pages": "27-33",
       "words": 47,
-      "phrases": 46,
+      "phrases": 56,
       "chunks": 12
     },
     {
@@ -94,9 +94,9 @@
     }
   ],
   "coverage_status": {
-    "covered": 467,
+    "covered": 477,
     "no_identified_barrier": 179,
-    "requires_review": 204
+    "requires_review": 194
   },
   "unresolved_counts": {
     "missing_ipa": 0,
@@ -104,7 +104,7 @@
     "missing_example_translation": 0,
     "generated_spelling_context_memory": 0,
     "requires_human_review": 0,
-    "transcript_segments_requiring_review": 204,
+    "transcript_segments_requiring_review": 194,
     "externally_sourced_ipa_requiring_review": 0,
     "externally_sourced_definition_requiring_review": 0,
     "machine_translations_requiring_review": 0,

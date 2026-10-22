@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 395,
+      "phrases": 405,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -69,7 +69,7 @@
         "unit": 8,
         "pages": "27-33",
         "words": 47,
-        "phrases": 46,
+        "phrases": 56,
         "chunks": 12
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 467,
+      "covered": 477,
       "no_identified_barrier": 179,
-      "requires_review": 204
+      "requires_review": 194
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 204,
+      "transcript_segments_requiring_review": 194,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -6665,12 +6665,13 @@
       "page": 28,
       "segment": 455,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:7:supposed to",
         "word:7:caretaker"
       ],
-      "review_reason": "Supposed to be expresses expected responsibility; kind of hedges. Fixed supposed to needs explicit support rather than caregiver noun alone.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Expected-role construction and caretaker meaning are linked. The fragment continues the previous subject, and kind of softens the characterization rather than proving the duties were performed.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Supposed to kind of be a caretaker."
@@ -6720,11 +6721,13 @@
       "page": 29,
       "segment": 459,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:stamp"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Stamp X's on hands is an entry/age marking action; needs support for stamp/marking rather than treating giant literally.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Stamp is the marking action, X's names the shapes and both hands specifies placement. Giant is emphatic size description; no actual service or legal compliance is inferred.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "They stamp these giant X's on both of Jane's hands."
@@ -6997,11 +7000,13 @@
       "page": 30,
       "segment": 478,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:hawaii themed"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Hawaii themed is a common -themed event construction needing a reusable note; narrator's interesting choice is commentary, not an event-date correction.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The reusable theme construction is explained. Interesting choice is the narrator's aside about the date, not a factual correction or additional event.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "The Chi Phi fraternity house is hosting a Hawaii themed party, which is an interesting choice for October 19th, but it's Hawaii themed."
@@ -7127,13 +7132,14 @@
       "page": 30,
       "segment": 487,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:7:capable of consenting",
         "phrase:7:according to the lawsuit",
         "phrase:7:at this point"
       ],
-      "review_reason": "Capable of consenting is a central structure needing direct support; reported inability is a pleading claim, not a capacity determination by this review.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Capacity construction and temporal/attribution markers are explicit. So drunk, she's ... is a spoken result construction; the claim remains in the lawsuit, not a capacity judgment by the lesson.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Now, according to the lawsuit, Jane at this point is so drunk, she's not even capable of consenting to any of this."
@@ -7408,15 +7414,14 @@
       "page": 31,
       "segment": 505,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:7:plied plaintiff with",
         "word:7:plaintiff",
-        "word:7:marijuana",
-        "word:7:high proof",
-        "word:7:believed"
+        "word:7:high proof"
       ],
-      "review_reason": "Plied someone with needs an explicit vocabulary item; believed to be qualifies rum identification. Source claims remain from pleading, not chemical confirmation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Persistent-supply construction now complements the role and alcohol-strength vocabulary. Believed to be qualifies identification, and the filing remains the source of the claim.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "The lawsuit says during this time, defendant Matthew and Jonathan also plied plaintiff with marijuana and quote, Jamaican liquor believed to be some high proof rum."
@@ -7425,12 +7430,16 @@
       "page": 31,
       "segment": 506,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:7:without her consent"
+        "phrase:7:engaging in",
+        "phrase:7:without her consent",
+        "phrase:7:soon after",
+        "word:7:plaintiff",
+        "word:7:defendant"
       ],
-      "review_reason": "Engaging in sexual acts and without consent are central structures; a temporal phrase or isolated consent match should not auto-close the sentence.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Formal activity construction, temporal sequence, legal-party labels and explicit absence of agreement are all explained. Sexual acts is defined receptively in the card note without adding graphic detail.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Soon after defendant Matthew and Jonathan began engaging in sexual acts with plaintiff all without her consent."
@@ -7555,13 +7564,16 @@
       "page": 32,
       "segment": 515,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:7:meanwhile",
-        "phrase:7:keeps trying to"
+        "phrase:7:meanwhile",
+        "phrase:7:keeps trying to",
+        "phrase:7:reach for",
+        "phrase:7:private parts",
+        "phrase:7:according to the lawsuit"
       ],
-      "review_reason": "Reach for and euphemistic private parts need support. According to lawsuit scopes the continued attempts; meanwhile marks simultaneous timeline.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Concurrent timing, repeated attempts, directed hand movement and the euphemistic body reference are taught; the interrupted attribution still scopes the allegation.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Meanwhile, Jonathan keeps, according to the lawsuit, keeps trying to reach for her private parts down there."
@@ -7570,13 +7582,14 @@
       "page": 32,
       "segment": 516,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:7:swatting",
         "phrase:7:pushing his hand away"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Pushing away now supported, but swatting remains a distinct quick striking motion; source describes resistance, not consent.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Quick warding-off strikes are distinguished from pushing away; the source describes resistance rather than assent.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And she's swatting and like pushing his hand away."
@@ -7619,11 +7632,13 @@
       "page": 32,
       "segment": 519,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:grabs"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Grabs someone from someone needs contextual explanation; no rescue motive inferred because later paragraphs explicitly negate it.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Sudden firm holding and the from-person construction are explained. Jane alleges preserves attribution; no rescue motive is inferred from the action.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Jane alleges that Jillio just grabs Jane from Jonathan."
@@ -7659,11 +7674,14 @@
       "page": 32,
       "segment": 522,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:grabs",
+        "phrase:1:so that"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "So that gives purpose in the attributed act; grabs remains unsupported and the next action is not permission for further contact.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The previously reviewed purpose connector explains the alleged reason for grabbing. It states links back to the filing, and kissing does not imply agreement to other contact.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "It states that he grabs Jane so that he can just start kissing her."
