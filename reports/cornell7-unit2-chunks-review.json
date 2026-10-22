@@ -1,0 +1,72 @@
+{
+  "unit": 2,
+  "reviewer": "Codex",
+  "method": "Contextual review of 13 existing patterns against PDF pages 4–7. Preserve original excerpts, replace repeated source quotations in speaking exercises with distinct daily/social/work teaching scenarios.",
+  "chunks": [
+    ["I guess","我想；大概吧","Express a tentative conclusion or a reluctant acceptance.","I guess + subject + verb; avoid treating a guess as confirmed knowledge.","Source is a skeptical inference about the institution's response, not a factual confirmation.",[
+      ["你看到门口的灯熄了，猜测商店可能已经关门。",["closed","lights"],"I guess","I guess the shop is closed; the lights are off.","我想商店关门了，灯都熄了。"],
+      ["朋友建议早点出门，你想了想表示可以接受。",["leave","earlier"],"I guess","I guess we can leave a little earlier.","我想我们可以稍微早点出发。"],
+      ["同事还没有回复邮件，你暂时推测他正在开会。",["meeting","reply"],"I guess","I guess he's in a meeting, but I'll wait for his reply.","我猜他在开会，不过我会等他回复。"]
+    ]],
+    ["it doesn't look like","看起来不像；看来并没有","Describe what the available visual evidence does not seem to show.","It doesn't look like + clause; it doesn't look like + noun phrase.","Source limits the impression to released footage; appearance is not conclusive proof.",[
+      ["你查看天空没有乌云，向家人说出对天气的初步判断。",["rain","sky"],"It doesn't look like","It doesn't look like it's going to rain soon.","看起来近期不会下雨。"],
+      ["朋友发来聚会照片，你没看到很多人，谨慎描述印象。",["party","crowded"],"It doesn't look like","It doesn't look like the party was very crowded.","看起来那场聚会人不是很多。"],
+      ["你查看共享文档没看到最新修改，请同事再检查一次。",["changes","saved"],"It doesn't look like","It doesn't look like the changes were saved. Could you check?","看起来修改没有保存，你能检查一下吗？"]
+    ]],
+    ["There's got to be ...","肯定有……；总该有……","Express a strong belief that an option or explanation exists.","There's got to be + singular noun phrase; use there have got to be for a formal plural agreement.","Strong expectation of an alternative, not direct evidence that one has been identified.",[
+      ["你找不到备用钥匙，觉得家里总应该还有一把。",["spare key","somewhere"],"There's got to be","There's got to be a spare key somewhere.","总该有什么地方放着一把备用钥匙。"],
+      ["朋友发现订位被取消，你认为应该有合理的解释。",["explanation","booking"],"There's got to be","There's got to be an explanation for the canceled booking.","订位被取消总该有个解释。"],
+      ["团队遇到导出文件的问题，你鼓励大家寻找解决办法。",["solution","export"],"There's got to be","There's got to be a solution to this export problem.","这个导出问题肯定有解决办法。"]
+    ]],
+    ["There's got to be a better way","肯定有更好的办法","Challenge an inefficient approach and invite alternatives.","There's got to be a better way to + base verb; replace the task, not the idiom.","Source questions the chosen maneuver rather than supplying a verified alternative.",[
+      ["你每天都费劲收纳电线，想找一种更方便的方法。",["store","cables"],"There's got to be a better way","There's got to be a better way to store these cables.","收纳这些电线肯定有更好的办法。"],
+      ["朋友们反复在群里确认时间，你提议改用共享日历。",["plan","calendar"],"There's got to be a better way","There's got to be a better way to plan this. Let's use a shared calendar.","规划这件事肯定有更好的办法，我们用共享日历吧。"],
+      ["每周手工合并表格很耗时，你向团队提出改进需求。",["combine","reports"],"There's got to be a better way","There's got to be a better way to combine these reports.","合并这些报告肯定有更好的办法。"]
+    ]],
+    ["To give some context","补充一点背景","Introduce background that helps explain the next point.","To give some context, + complete clause containing relevant background.","Source introduces earlier events; its long incomplete final clause is not a model to copy.",[
+      ["邻居问你为什么搬家，你先交代自己每天通勤的情况。",["commute","hour"],"To give some context,","To give some context, my commute used to take over an hour.","补充一点背景，我以前通勤要花一个多小时。"],
+      ["朋友不理解你为什么重视这次旅行，你说明多年没见家人。",["family","years"],"To give some context,","To give some context, I haven't seen my family in three years.","补充一点背景，我已经三年没见家人了。"],
+      ["新同事不知道项目为何延期，你先说明团队最近的变化。",["team","month"],"To give some context, two people left the team last month.","To give some context, two people left the team last month.","补充一点背景，上个月有两个人离开了团队。"]
+    ]],
+    ["all things considered","综合考虑；总的来说","Give a balanced overall judgment after weighing relevant factors.","All things considered, + judgment; alternatively put the phrase at the end.","Narrator weighs the scene as a whole; the phrase does not demonstrate that every fact has been verified.",[
+      ["房子虽然小但租金和位置合适，你向家人总结自己的评价。",["small","good choice"],"All things considered,","All things considered, this apartment is a good choice.","综合考虑，这套公寓是个不错的选择。"],
+      ["旅行中下过雨但大家玩得开心，你和朋友总结这次经历。",["trip","enjoyable"],"All things considered,","All things considered, it was an enjoyable trip.","总的来说，这是一次愉快的旅行。"],
+      ["项目预算紧张但按时完成，你在复盘会上作总体评价。",["budget","well"],"All things considered,","All things considered, the project went well despite the tight budget.","综合考虑，尽管预算紧张，项目仍进展顺利。"]
+    ]],
+    ["it doesn't seem","似乎并不……","Give a cautious negative impression.","It doesn't seem + adjective; it doesn't seem to + verb; use that before a full clause.","Source uses an adjective complement; do not force it into a that-clause pattern.",[
+      ["你试了新椅子，觉得它没有照片上看起来那么舒服。",["comfortable","chair"],"It doesn't seem","It doesn't seem very comfortable after a few minutes.","坐了几分钟后，感觉它并不太舒服。"],
+      ["朋友问你是否需要带大箱子，你根据行程给出温和判断。",["necessary","large suitcase"],"It doesn't seem","It doesn't seem necessary to bring a large suitcase.","似乎没必要带一个大箱子。"],
+      ["你测试更新后暂时没发现问题，谨慎向同事报告结果。",["affect","login"],"It doesn't seem","It doesn't seem to affect the login process.","它似乎不会影响登录流程。"]
+    ]],
+    ["It's very clear","很明显；很清楚","State that evidence or an explanation strongly supports a conclusion.","It's very clear that + clause; it's very clear to + person + that clause.","Source expresses narrator confidence about visible positioning; confidence is not independent verification.",[
+      ["你看到水从水管裂口流出，向家人说明漏水的位置。",["pipe","leaking"],"It's very clear","It's very clear that this pipe is leaking.","很明显，这根水管正在漏水。"],
+      ["朋友练琴进步明显，你用具体观察鼓励他继续练习。",["practice","improving"],"It's very clear","It's very clear that your daily practice is helping.","很明显，你每天的练习正在起作用。"],
+      ["数据表显示错误集中在一个步骤，你在会议上说明发现。",["errors","final step"],"It's very clear","It's very clear that most errors occur in the final step.","很明显，大多数错误出现在最后一步。"]
+    ]],
+    ["What compelled someone to ...?","是什么促使某人……？","Ask what strong reason or pressure led to an action.","What compelled + person + to + base verb? Use past tense compelled for a past decision.","Question seeks motivation; it does not prove that coercion or a specific motive existed.",[
+      ["家人突然决定卖掉汽车，你想了解背后的重要原因。",["sell","car"],"What compelled you to","What compelled you to sell your car?","是什么促使你卖掉汽车？"],
+      ["朋友从稳定工作转去学习艺术，你认真询问他的动机。",["change","careers"],"What compelled you to","What compelled you to change careers?","是什么促使你转行？"],
+      ["团队突然更换供应商，你希望了解这个决定的主要原因。",["switch","suppliers"],"What compelled the team to","What compelled the team to switch suppliers?","是什么促使团队更换供应商？"]
+    ]],
+    ["that will not","那不会……","Predict or state that a proposed action will not produce a result.","That will not + base verb + complement. That must have a clear antecedent.","A basic negative future fragment rather than a self-contained idiom; source adds an emphatic interruption before be.",[
+      ["家人想用小盒子装所有鞋子，你说明这个办法不可行。",["fit","shoes"],"That will not","That will not leave enough room for all the shoes.","那样不会留下足够的空间放所有鞋子。"],
+      ["朋友以为晚到五分钟会毁掉聚会，你安慰他不必担心。",["ruin","evening"],"That will not","That will not ruin the evening. Just let us know when you arrive.","那不会毁掉这个晚上，到的时候告诉我们就好。"],
+      ["同事提议只修改报错文字，你指出根本问题仍然存在。",["solve","problem"],"That will not","That will not solve the underlying problem.","那不会解决根本问题。"]
+    ]],
+    ["It seems like","看起来好像……","Offer an impression based on incomplete information.","It seems like + clause or noun phrase; use it seems that for a more formal clause.","Source impression about divided reactions must remain tentative.",[
+      ["你看到街上很多人撑伞，向家人说明外面可能正在下雨。",["raining","umbrellas"],"It seems like","It seems like it's raining outside; everyone has an umbrella.","看起来外面在下雨，大家都撑着伞。"],
+      ["朋友最近总是忙碌，你温和询问他是否有很多事情要处理。",["busy","lately"],"It seems like","It seems like you've been really busy lately. Are you doing okay?","看起来你最近很忙，你还好吗？"],
+      ["两份需求文档互相矛盾，你向团队提出尚待确认的判断。",["different","versions"],"It seems like","It seems like we're working from different versions of the brief.","看起来我们依据的是不同版本的需求说明。"]
+    ]],
+    ["So I guess","所以我想；那大概……","Draw a tentative conclusion from what was just said.","So I guess + clause; so links to preceding information and guess weakens certainty.","Source uses this as a skeptical conversational conclusion, not as confirmed institutional intent.",[
+      ["公交显示停运，你根据这个消息决定今天步行回家。",["bus","walk"],"So I guess","The bus isn't running, so I guess I'll walk home.","公交停运了，那我想我就走回家吧。"],
+      ["朋友说周六要加班，你推测你们需要另外安排见面时间。",["reschedule","Saturday"],"So I guess","So I guess we need to reschedule our Saturday lunch.","那我想我们得改一下周六午餐的时间。"],
+      ["客户尚未确认设计，你向同事提出暂时不能开工的判断。",["approval","wait"],"So I guess","So I guess we should wait for approval before we start.","所以我想我们应该等批准后再开始。"]
+    ]],
+    ["It doesn't seem that","似乎没有那么……","Soften a negative judgment about the degree of a quality.","It doesn't seem that + adjective, where that means so or very; distinguish it doesn't seem that + full clause.","In the source that modifies volatile as a degree word; it is not a conjunction introducing a missing clause.",[
+      ["家人担心新食谱太难，你看过步骤后给出初步判断。",["difficult","recipe"],"It doesn't seem that","It doesn't seem that difficult, but let's read all the steps first.","看起来没有那么难，不过我们先把所有步骤读完吧。"],
+      ["朋友担心餐厅太贵，你看了菜单后回应他的顾虑。",["expensive","menu"],"It doesn't seem that","It doesn't seem that expensive from the menu.","从菜单看，似乎没有那么贵。"],
+      ["同事觉得任务很紧急，你查看截止日期后谨慎提出不同判断。",["urgent","deadline"],"It doesn't seem that","It doesn't seem that urgent, but I'll confirm the deadline.","似乎没有那么紧急，不过我会确认截止日期。"]
+    ]]
+  ]
+}

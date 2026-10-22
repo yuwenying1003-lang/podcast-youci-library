@@ -22507,750 +22507,913 @@
     [
       {
         "text": "I guess",
-        "cn": "我猜",
-        "example": "So I guess this was Cornell's response to their other shit responses.",
-        "prompt": "Use “I guess” in a complete sentence.",
+        "cn": "我想；大概吧",
+        "example": "I guess the shop is closed; the lights are off.",
+        "prompt": "Express a tentative conclusion or a reluctant acceptance.",
         "source_page": 4,
         "source_segment": "page-4",
         "source_excerpt": "So I guess this was Cornell's response to their other shit responses.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我猜",
+        "communicative_function": "Express a tentative conclusion or a reluctant acceptance.",
         "original_en": "So I guess this was Cornell's response to their other shit responses.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I guess the shop is closed; the lights are off.",
+        "everyday_example_zh": "我想商店关门了，灯都熄了。",
+        "workplace_example": "I guess he's in a meeting, but I'll wait for his reply.",
+        "replaceable_parts": "I guess + subject + verb; avoid treating a guess as confirmed knowledge.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我猜”这一表达。",
-            "goal_en": "I guess",
+            "scene_zh": "你看到门口的灯熄了，猜测商店可能已经关门。",
+            "goal_en": "Express a tentative conclusion or a reluctant acceptance.",
             "keywords": [
-              "today",
-              "plan"
+              "closed",
+              "lights"
             ],
             "starter": "I guess",
-            "reference_answer": "So I guess this was Cornell's response to their other shit responses."
+            "reference_answer": "I guess the shop is closed; the lights are off.",
+            "reference_answer_zh": "我想商店关门了，灯都熄了。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我猜”这一表达。",
-            "goal_en": "I guess",
+            "scene_zh": "朋友建议早点出门，你想了想表示可以接受。",
+            "goal_en": "Express a tentative conclusion or a reluctant acceptance.",
             "keywords": [
-              "friend",
-              "situation"
+              "leave",
+              "earlier"
             ],
             "starter": "I guess",
-            "reference_answer": "So I guess this was Cornell's response to their other shit responses."
+            "reference_answer": "I guess we can leave a little earlier.",
+            "reference_answer_zh": "我想我们可以稍微早点出发。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我猜”这一表达。",
-            "goal_en": "I guess",
+            "scene_zh": "同事还没有回复邮件，你暂时推测他正在开会。",
+            "goal_en": "Express a tentative conclusion or a reluctant acceptance.",
             "keywords": [
-              "project",
-              "team"
+              "meeting",
+              "reply"
             ],
             "starter": "I guess",
-            "reference_answer": "So I guess this was Cornell's response to their other shit responses."
+            "reference_answer": "I guess he's in a meeting, but I'll wait for his reply.",
+            "reference_answer_zh": "我猜他在开会，不过我会等他回复。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我想商店关门了，灯都熄了。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我猜他在开会，不过我会等他回复。",
+        "context_review_note": "Source is a skeptical inference about the institution's response, not a factual confirmation.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "it doesn't look like",
-        "cn": "看起来并不像",
-        "example": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car.",
-        "prompt": "Use “it doesn't look like” in a complete sentence.",
+        "cn": "看起来不像；看来并没有",
+        "example": "It doesn't look like it's going to rain soon.",
+        "prompt": "Describe what the available visual evidence does not seem to show.",
         "source_page": 4,
         "source_segment": "page-4",
         "source_excerpt": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "看起来并不像",
+        "communicative_function": "Describe what the available visual evidence does not seem to show.",
         "original_en": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It doesn't look like it's going to rain soon.",
+        "everyday_example_zh": "看起来近期不会下雨。",
+        "workplace_example": "It doesn't look like the changes were saved. Could you check?",
+        "replaceable_parts": "It doesn't look like + clause; it doesn't look like + noun phrase.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“看起来并不像”这一表达。",
-            "goal_en": "it doesn't look like",
+            "scene_zh": "你查看天空没有乌云，向家人说出对天气的初步判断。",
+            "goal_en": "Describe what the available visual evidence does not seem to show.",
             "keywords": [
-              "today",
-              "plan"
+              "rain",
+              "sky"
             ],
-            "starter": "it doesn't look like",
-            "reference_answer": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car."
+            "starter": "It doesn't look like",
+            "reference_answer": "It doesn't look like it's going to rain soon.",
+            "reference_answer_zh": "看起来近期不会下雨。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“看起来并不像”这一表达。",
-            "goal_en": "it doesn't look like",
+            "scene_zh": "朋友发来聚会照片，你没看到很多人，谨慎描述印象。",
+            "goal_en": "Describe what the available visual evidence does not seem to show.",
             "keywords": [
-              "friend",
-              "situation"
+              "party",
+              "crowded"
             ],
-            "starter": "it doesn't look like",
-            "reference_answer": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car."
+            "starter": "It doesn't look like",
+            "reference_answer": "It doesn't look like the party was very crowded.",
+            "reference_answer_zh": "看起来那场聚会人不是很多。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“看起来并不像”这一表达。",
-            "goal_en": "it doesn't look like",
+            "scene_zh": "你查看共享文档没看到最新修改，请同事再检查一次。",
+            "goal_en": "Describe what the available visual evidence does not seem to show.",
             "keywords": [
-              "project",
-              "team"
+              "changes",
+              "saved"
             ],
-            "starter": "it doesn't look like",
-            "reference_answer": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car."
+            "starter": "It doesn't look like",
+            "reference_answer": "It doesn't look like the changes were saved. Could you check?",
+            "reference_answer_zh": "看起来修改没有保存，你能检查一下吗？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看起来近期不会下雨。",
+        "example_source": "adapted",
+        "workplace_example_zh": "看起来修改没有保存，你能检查一下吗？",
+        "context_review_note": "Source limits the impression to released footage; appearance is not conclusive proof.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's got to be ...",
-        "cn": "肯定有……",
-        "example": "But there's got to be a better way to get out of the parking spot, right?",
-        "prompt": "Use “There's got to be ...” in a complete sentence.",
+        "cn": "肯定有……；总该有……",
+        "example": "There's got to be a spare key somewhere.",
+        "prompt": "Express a strong belief that an option or explanation exists.",
         "source_page": 4,
         "source_segment": "page-4",
         "source_excerpt": "But there's got to be a better way to get out of the parking spot, right?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "肯定有……",
+        "communicative_function": "Express a strong belief that an option or explanation exists.",
         "original_en": "But there's got to be a better way to get out of the parking spot, right?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "There's got to be a spare key somewhere.",
+        "everyday_example_zh": "总该有什么地方放着一把备用钥匙。",
+        "workplace_example": "There's got to be a solution to this export problem.",
+        "replaceable_parts": "There's got to be + singular noun phrase; use there have got to be for a formal plural agreement.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“肯定有……”这一表达。",
-            "goal_en": "There's got to be ...",
+            "scene_zh": "你找不到备用钥匙，觉得家里总应该还有一把。",
+            "goal_en": "Express a strong belief that an option or explanation exists.",
             "keywords": [
-              "today",
-              "plan"
+              "spare key",
+              "somewhere"
             ],
-            "starter": "There's got to be ...",
-            "reference_answer": "But there's got to be a better way to get out of the parking spot, right?"
+            "starter": "There's got to be",
+            "reference_answer": "There's got to be a spare key somewhere.",
+            "reference_answer_zh": "总该有什么地方放着一把备用钥匙。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“肯定有……”这一表达。",
-            "goal_en": "There's got to be ...",
+            "scene_zh": "朋友发现订位被取消，你认为应该有合理的解释。",
+            "goal_en": "Express a strong belief that an option or explanation exists.",
             "keywords": [
-              "friend",
-              "situation"
+              "explanation",
+              "booking"
             ],
-            "starter": "There's got to be ...",
-            "reference_answer": "But there's got to be a better way to get out of the parking spot, right?"
+            "starter": "There's got to be",
+            "reference_answer": "There's got to be an explanation for the canceled booking.",
+            "reference_answer_zh": "订位被取消总该有个解释。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“肯定有……”这一表达。",
-            "goal_en": "There's got to be ...",
+            "scene_zh": "团队遇到导出文件的问题，你鼓励大家寻找解决办法。",
+            "goal_en": "Express a strong belief that an option or explanation exists.",
             "keywords": [
-              "project",
-              "team"
+              "solution",
+              "export"
             ],
-            "starter": "There's got to be ...",
-            "reference_answer": "But there's got to be a better way to get out of the parking spot, right?"
+            "starter": "There's got to be",
+            "reference_answer": "There's got to be a solution to this export problem.",
+            "reference_answer_zh": "这个导出问题肯定有解决办法。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "总该有什么地方放着一把备用钥匙。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这个导出问题肯定有解决办法。",
+        "context_review_note": "Strong expectation of an alternative, not direct evidence that one has been identified.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's got to be a better way",
         "cn": "肯定有更好的办法",
-        "example": "But there's got to be a better way to get out of the parking spot, right?",
-        "prompt": "Use “There's got to be a better way” in a complete sentence.",
+        "example": "There's got to be a better way to store these cables.",
+        "prompt": "Challenge an inefficient approach and invite alternatives.",
         "source_page": 4,
         "source_segment": "page-4",
         "source_excerpt": "But there's got to be a better way to get out of the parking spot, right?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "肯定有更好的办法",
+        "communicative_function": "Challenge an inefficient approach and invite alternatives.",
         "original_en": "But there's got to be a better way to get out of the parking spot, right?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "There's got to be a better way to store these cables.",
+        "everyday_example_zh": "收纳这些电线肯定有更好的办法。",
+        "workplace_example": "There's got to be a better way to combine these reports.",
+        "replaceable_parts": "There's got to be a better way to + base verb; replace the task, not the idiom.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“肯定有更好的办法”这一表达。",
-            "goal_en": "There's got to be a better way",
+            "scene_zh": "你每天都费劲收纳电线，想找一种更方便的方法。",
+            "goal_en": "Challenge an inefficient approach and invite alternatives.",
             "keywords": [
-              "today",
-              "plan"
+              "store",
+              "cables"
             ],
             "starter": "There's got to be a better way",
-            "reference_answer": "But there's got to be a better way to get out of the parking spot, right?"
+            "reference_answer": "There's got to be a better way to store these cables.",
+            "reference_answer_zh": "收纳这些电线肯定有更好的办法。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“肯定有更好的办法”这一表达。",
-            "goal_en": "There's got to be a better way",
+            "scene_zh": "朋友们反复在群里确认时间，你提议改用共享日历。",
+            "goal_en": "Challenge an inefficient approach and invite alternatives.",
             "keywords": [
-              "friend",
-              "situation"
+              "plan",
+              "calendar"
             ],
             "starter": "There's got to be a better way",
-            "reference_answer": "But there's got to be a better way to get out of the parking spot, right?"
+            "reference_answer": "There's got to be a better way to plan this. Let's use a shared calendar.",
+            "reference_answer_zh": "规划这件事肯定有更好的办法，我们用共享日历吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“肯定有更好的办法”这一表达。",
-            "goal_en": "There's got to be a better way",
+            "scene_zh": "每周手工合并表格很耗时，你向团队提出改进需求。",
+            "goal_en": "Challenge an inefficient approach and invite alternatives.",
             "keywords": [
-              "project",
-              "team"
+              "combine",
+              "reports"
             ],
             "starter": "There's got to be a better way",
-            "reference_answer": "But there's got to be a better way to get out of the parking spot, right?"
+            "reference_answer": "There's got to be a better way to combine these reports.",
+            "reference_answer_zh": "合并这些报告肯定有更好的办法。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "收纳这些电线肯定有更好的办法。",
+        "example_source": "adapted",
+        "workplace_example_zh": "合并这些报告肯定有更好的办法。",
+        "context_review_note": "Source questions the chosen maneuver rather than supplying a verified alternative.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "To give some context",
-        "cn": "交代一下背景",
-        "example": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty",
-        "prompt": "Use “To give some context” in a complete sentence.",
+        "cn": "补充一点背景",
+        "example": "To give some context, my commute used to take over an hour.",
+        "prompt": "Introduce background that helps explain the next point.",
         "source_page": 4,
         "source_segment": "page-4",
         "source_excerpt": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "交代一下背景",
+        "communicative_function": "Introduce background that helps explain the next point.",
         "original_en": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "To give some context, my commute used to take over an hour.",
+        "everyday_example_zh": "补充一点背景，我以前通勤要花一个多小时。",
+        "workplace_example": "To give some context, two people left the team last month.",
+        "replaceable_parts": "To give some context, + complete clause containing relevant background.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“交代一下背景”这一表达。",
-            "goal_en": "To give some context",
+            "scene_zh": "邻居问你为什么搬家，你先交代自己每天通勤的情况。",
+            "goal_en": "Introduce background that helps explain the next point.",
             "keywords": [
-              "today",
-              "plan"
+              "commute",
+              "hour"
             ],
-            "starter": "To give some context",
-            "reference_answer": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty"
+            "starter": "To give some context,",
+            "reference_answer": "To give some context, my commute used to take over an hour.",
+            "reference_answer_zh": "补充一点背景，我以前通勤要花一个多小时。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“交代一下背景”这一表达。",
-            "goal_en": "To give some context",
+            "scene_zh": "朋友不理解你为什么重视这次旅行，你说明多年没见家人。",
+            "goal_en": "Introduce background that helps explain the next point.",
             "keywords": [
-              "friend",
-              "situation"
+              "family",
+              "years"
             ],
-            "starter": "To give some context",
-            "reference_answer": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty"
+            "starter": "To give some context,",
+            "reference_answer": "To give some context, I haven't seen my family in three years.",
+            "reference_answer_zh": "补充一点背景，我已经三年没见家人了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“交代一下背景”这一表达。",
-            "goal_en": "To give some context",
+            "scene_zh": "新同事不知道项目为何延期，你先说明团队最近的变化。",
+            "goal_en": "Introduce background that helps explain the next point.",
             "keywords": [
-              "project",
-              "team"
+              "team",
+              "month"
             ],
-            "starter": "To give some context",
-            "reference_answer": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty"
+            "starter": "To give some context, two people left the team last month.",
+            "reference_answer": "To give some context, two people left the team last month.",
+            "reference_answer_zh": "补充一点背景，上个月有两个人离开了团队。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "补充一点背景，我以前通勤要花一个多小时。",
+        "example_source": "adapted",
+        "workplace_example_zh": "补充一点背景，上个月有两个人离开了团队。",
+        "context_review_note": "Source introduces earlier events; its long incomplete final clause is not a model to copy.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "all things considered",
-        "cn": "综合考虑",
-        "example": "All things considered, the launch went well.",
-        "prompt": "Evaluate a project.",
+        "cn": "综合考虑；总的来说",
+        "example": "All things considered, this apartment is a good choice.",
+        "prompt": "Give a balanced overall judgment after weighing relevant factors.",
         "source_page": 5,
         "source_segment": "page-5",
         "source_excerpt": "And it honestly, I mean, it's not that intense, all things considered.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "综合考虑",
+        "communicative_function": "Give a balanced overall judgment after weighing relevant factors.",
         "original_en": "And it honestly, I mean, it's not that intense, all things considered.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "All things considered, this apartment is a good choice.",
+        "everyday_example_zh": "综合考虑，这套公寓是个不错的选择。",
+        "workplace_example": "All things considered, the project went well despite the tight budget.",
+        "replaceable_parts": "All things considered, + judgment; alternatively put the phrase at the end.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "安排家务时需要解释自己的决定：请用“综合考虑”组织一句完整英语。",
-            "goal_en": "Evaluate a project.",
+            "label": "Daily life",
+            "scene_zh": "房子虽然小但租金和位置合适，你向家人总结自己的评价。",
+            "goal_en": "Give a balanced overall judgment after weighing relevant factors.",
             "keywords": [
-              "things",
-              "considered",
-              "launch",
-              "went"
+              "small",
+              "good choice"
             ],
-            "starter": "all things considered",
-            "reference_answer": "All things considered, the launch went well."
+            "starter": "All things considered,",
+            "reference_answer": "All things considered, this apartment is a good choice.",
+            "reference_answer_zh": "综合考虑，这套公寓是个不错的选择。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "和朋友商量见面时间：请用“综合考虑”组织一句完整英语。",
-            "goal_en": "Evaluate a project.",
+            "label": "Friends",
+            "scene_zh": "旅行中下过雨但大家玩得开心，你和朋友总结这次经历。",
+            "goal_en": "Give a balanced overall judgment after weighing relevant factors.",
             "keywords": [
-              "things",
-              "considered",
-              "launch",
-              "went"
+              "trip",
+              "enjoyable"
             ],
-            "starter": "all things considered",
-            "reference_answer": "All things considered, the launch went well."
+            "starter": "All things considered,",
+            "reference_answer": "All things considered, it was an enjoyable trip.",
+            "reference_answer_zh": "总的来说，这是一次愉快的旅行。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "向同事解释一个具体问题：请用“综合考虑”组织一句完整英语。",
-            "goal_en": "Evaluate a project.",
+            "label": "Work",
+            "scene_zh": "项目预算紧张但按时完成，你在复盘会上作总体评价。",
+            "goal_en": "Give a balanced overall judgment after weighing relevant factors.",
             "keywords": [
-              "things",
-              "considered",
-              "launch",
-              "went"
+              "budget",
+              "well"
             ],
-            "starter": "all things considered",
-            "reference_answer": "All things considered, the launch went well."
+            "starter": "All things considered,",
+            "reference_answer": "All things considered, the project went well despite the tight budget.",
+            "reference_answer_zh": "综合考虑，尽管预算紧张，项目仍进展顺利。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "综合考虑，这套公寓是个不错的选择。",
+        "example_source": "adapted",
+        "workplace_example_zh": "综合考虑，尽管预算紧张，项目仍进展顺利。",
+        "context_review_note": "Narrator weighs the scene as a whole; the phrase does not demonstrate that every fact has been verified.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "it doesn't seem",
-        "cn": "看起来似乎不",
-        "example": "And from the footage I saw, it doesn't seem that volatile.",
-        "prompt": "Use “it doesn't seem” in a complete sentence.",
+        "cn": "似乎并不……",
+        "example": "It doesn't seem very comfortable after a few minutes.",
+        "prompt": "Give a cautious negative impression.",
         "source_page": 5,
         "source_segment": "page-5",
         "source_excerpt": "And from the footage I saw, it doesn't seem that volatile.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "看起来似乎不",
+        "communicative_function": "Give a cautious negative impression.",
         "original_en": "And from the footage I saw, it doesn't seem that volatile.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It doesn't seem very comfortable after a few minutes.",
+        "everyday_example_zh": "坐了几分钟后，感觉它并不太舒服。",
+        "workplace_example": "It doesn't seem to affect the login process.",
+        "replaceable_parts": "It doesn't seem + adjective; it doesn't seem to + verb; use that before a full clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“看起来似乎不”这一表达。",
-            "goal_en": "it doesn't seem",
+            "scene_zh": "你试了新椅子，觉得它没有照片上看起来那么舒服。",
+            "goal_en": "Give a cautious negative impression.",
             "keywords": [
-              "today",
-              "plan"
+              "comfortable",
+              "chair"
             ],
-            "starter": "it doesn't seem",
-            "reference_answer": "And from the footage I saw, it doesn't seem that volatile."
+            "starter": "It doesn't seem",
+            "reference_answer": "It doesn't seem very comfortable after a few minutes.",
+            "reference_answer_zh": "坐了几分钟后，感觉它并不太舒服。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“看起来似乎不”这一表达。",
-            "goal_en": "it doesn't seem",
+            "scene_zh": "朋友问你是否需要带大箱子，你根据行程给出温和判断。",
+            "goal_en": "Give a cautious negative impression.",
             "keywords": [
-              "friend",
-              "situation"
+              "necessary",
+              "large suitcase"
             ],
-            "starter": "it doesn't seem",
-            "reference_answer": "And from the footage I saw, it doesn't seem that volatile."
+            "starter": "It doesn't seem",
+            "reference_answer": "It doesn't seem necessary to bring a large suitcase.",
+            "reference_answer_zh": "似乎没必要带一个大箱子。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“看起来似乎不”这一表达。",
-            "goal_en": "it doesn't seem",
+            "scene_zh": "你测试更新后暂时没发现问题，谨慎向同事报告结果。",
+            "goal_en": "Give a cautious negative impression.",
             "keywords": [
-              "project",
-              "team"
+              "affect",
+              "login"
             ],
-            "starter": "it doesn't seem",
-            "reference_answer": "And from the footage I saw, it doesn't seem that volatile."
+            "starter": "It doesn't seem",
+            "reference_answer": "It doesn't seem to affect the login process.",
+            "reference_answer_zh": "它似乎不会影响登录流程。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "坐了几分钟后，感觉它并不太舒服。",
+        "example_source": "adapted",
+        "workplace_example_zh": "它似乎不会影响登录流程。",
+        "context_review_note": "Source uses an adjective complement; do not force it into a that-clause pattern.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's very clear",
-        "cn": "很明显",
-        "example": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot.",
-        "prompt": "Use “It's very clear” in a complete sentence.",
+        "cn": "很明显；很清楚",
+        "example": "It's very clear that this pipe is leaking.",
+        "prompt": "State that evidence or an explanation strongly supports a conclusion.",
         "source_page": 5,
         "source_segment": "page-5",
         "source_excerpt": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "很明显",
+        "communicative_function": "State that evidence or an explanation strongly supports a conclusion.",
         "original_en": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's very clear that this pipe is leaking.",
+        "everyday_example_zh": "很明显，这根水管正在漏水。",
+        "workplace_example": "It's very clear that most errors occur in the final step.",
+        "replaceable_parts": "It's very clear that + clause; it's very clear to + person + that clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“很明显”这一表达。",
-            "goal_en": "It's very clear",
+            "scene_zh": "你看到水从水管裂口流出，向家人说明漏水的位置。",
+            "goal_en": "State that evidence or an explanation strongly supports a conclusion.",
             "keywords": [
-              "today",
-              "plan"
+              "pipe",
+              "leaking"
             ],
             "starter": "It's very clear",
-            "reference_answer": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot."
+            "reference_answer": "It's very clear that this pipe is leaking.",
+            "reference_answer_zh": "很明显，这根水管正在漏水。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“很明显”这一表达。",
-            "goal_en": "It's very clear",
+            "scene_zh": "朋友练琴进步明显，你用具体观察鼓励他继续练习。",
+            "goal_en": "State that evidence or an explanation strongly supports a conclusion.",
             "keywords": [
-              "friend",
-              "situation"
+              "practice",
+              "improving"
             ],
             "starter": "It's very clear",
-            "reference_answer": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot."
+            "reference_answer": "It's very clear that your daily practice is helping.",
+            "reference_answer_zh": "很明显，你每天的练习正在起作用。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“很明显”这一表达。",
-            "goal_en": "It's very clear",
+            "scene_zh": "数据表显示错误集中在一个步骤，你在会议上说明发现。",
+            "goal_en": "State that evidence or an explanation strongly supports a conclusion.",
             "keywords": [
-              "project",
-              "team"
+              "errors",
+              "final step"
             ],
             "starter": "It's very clear",
-            "reference_answer": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot."
+            "reference_answer": "It's very clear that most errors occur in the final step.",
+            "reference_answer_zh": "很明显，大多数错误出现在最后一步。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "很明显，这根水管正在漏水。",
+        "example_source": "adapted",
+        "workplace_example_zh": "很明显，大多数错误出现在最后一步。",
+        "context_review_note": "Source expresses narrator confidence about visible positioning; confidence is not independent verification.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "What compelled someone to ...?",
-        "cn": "是什么促使某人……",
-        "example": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?",
-        "prompt": "Use “What compelled someone to ...?” in a complete sentence.",
+        "cn": "是什么促使某人……？",
+        "example": "What compelled you to sell your car?",
+        "prompt": "Ask what strong reason or pressure led to an action.",
         "source_page": 6,
         "source_segment": "page-6",
         "source_excerpt": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "是什么促使某人……",
+        "communicative_function": "Ask what strong reason or pressure led to an action.",
         "original_en": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "What compelled you to sell your car?",
+        "everyday_example_zh": "是什么促使你卖掉汽车？",
+        "workplace_example": "What compelled the team to switch suppliers?",
+        "replaceable_parts": "What compelled + person + to + base verb? Use past tense compelled for a past decision.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“是什么促使某人……”这一表达。",
-            "goal_en": "What compelled someone to ...?",
+            "scene_zh": "家人突然决定卖掉汽车，你想了解背后的重要原因。",
+            "goal_en": "Ask what strong reason or pressure led to an action.",
             "keywords": [
-              "today",
-              "plan"
+              "sell",
+              "car"
             ],
-            "starter": "What compelled someone to ...?",
-            "reference_answer": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?"
+            "starter": "What compelled you to",
+            "reference_answer": "What compelled you to sell your car?",
+            "reference_answer_zh": "是什么促使你卖掉汽车？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“是什么促使某人……”这一表达。",
-            "goal_en": "What compelled someone to ...?",
+            "scene_zh": "朋友从稳定工作转去学习艺术，你认真询问他的动机。",
+            "goal_en": "Ask what strong reason or pressure led to an action.",
             "keywords": [
-              "friend",
-              "situation"
+              "change",
+              "careers"
             ],
-            "starter": "What compelled someone to ...?",
-            "reference_answer": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?"
+            "starter": "What compelled you to",
+            "reference_answer": "What compelled you to change careers?",
+            "reference_answer_zh": "是什么促使你转行？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“是什么促使某人……”这一表达。",
-            "goal_en": "What compelled someone to ...?",
+            "scene_zh": "团队突然更换供应商，你希望了解这个决定的主要原因。",
+            "goal_en": "Ask what strong reason or pressure led to an action.",
             "keywords": [
-              "project",
-              "team"
+              "switch",
+              "suppliers"
             ],
-            "starter": "What compelled someone to ...?",
-            "reference_answer": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?"
+            "starter": "What compelled the team to",
+            "reference_answer": "What compelled the team to switch suppliers?",
+            "reference_answer_zh": "是什么促使团队更换供应商？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "是什么促使你卖掉汽车？",
+        "example_source": "adapted",
+        "workplace_example_zh": "是什么促使团队更换供应商？",
+        "context_review_note": "Question seeks motivation; it does not prove that coercion or a specific motive existed.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "that will not",
-        "cn": "那不会",
-        "example": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year.",
-        "prompt": "Use “that will not” in a complete sentence.",
+        "cn": "那不会……",
+        "example": "That will not leave enough room for all the shoes.",
+        "prompt": "Predict or state that a proposed action will not produce a result.",
         "source_page": 7,
         "source_segment": "page-7",
         "source_excerpt": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "那不会",
+        "communicative_function": "Predict or state that a proposed action will not produce a result.",
         "original_en": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "That will not leave enough room for all the shoes.",
+        "everyday_example_zh": "那样不会留下足够的空间放所有鞋子。",
+        "workplace_example": "That will not solve the underlying problem.",
+        "replaceable_parts": "That will not + base verb + complement. That must have a clear antecedent.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“那不会”这一表达。",
-            "goal_en": "that will not",
+            "scene_zh": "家人想用小盒子装所有鞋子，你说明这个办法不可行。",
+            "goal_en": "Predict or state that a proposed action will not produce a result.",
             "keywords": [
-              "today",
-              "plan"
+              "fit",
+              "shoes"
             ],
-            "starter": "that will not",
-            "reference_answer": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year."
+            "starter": "That will not",
+            "reference_answer": "That will not leave enough room for all the shoes.",
+            "reference_answer_zh": "那样不会留下足够的空间放所有鞋子。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“那不会”这一表达。",
-            "goal_en": "that will not",
+            "scene_zh": "朋友以为晚到五分钟会毁掉聚会，你安慰他不必担心。",
+            "goal_en": "Predict or state that a proposed action will not produce a result.",
             "keywords": [
-              "friend",
-              "situation"
+              "ruin",
+              "evening"
             ],
-            "starter": "that will not",
-            "reference_answer": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year."
+            "starter": "That will not",
+            "reference_answer": "That will not ruin the evening. Just let us know when you arrive.",
+            "reference_answer_zh": "那不会毁掉这个晚上，到的时候告诉我们就好。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“那不会”这一表达。",
-            "goal_en": "that will not",
+            "scene_zh": "同事提议只修改报错文字，你指出根本问题仍然存在。",
+            "goal_en": "Predict or state that a proposed action will not produce a result.",
             "keywords": [
-              "project",
-              "team"
+              "solve",
+              "problem"
             ],
-            "starter": "that will not",
-            "reference_answer": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year."
+            "starter": "That will not",
+            "reference_answer": "That will not solve the underlying problem.",
+            "reference_answer_zh": "那不会解决根本问题。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "那样不会留下足够的空间放所有鞋子。",
+        "example_source": "adapted",
+        "workplace_example_zh": "那不会解决根本问题。",
+        "context_review_note": "A basic negative future fragment rather than a self-contained idiom; source adds an emphatic interruption before be.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It seems like",
         "cn": "看起来好像……",
-        "example": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine.",
-        "prompt": "Use “It seems like ...” in a complete sentence.",
+        "example": "It seems like it's raining outside; everyone has an umbrella.",
+        "prompt": "Offer an impression based on incomplete information.",
         "source_page": 7,
         "source_segment": "page-7",
         "source_excerpt": "These are the allegations against the Cornell 7 from the Jane Doe lawsuit and why it seems like everybody is divided.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "看起来好像……",
+        "communicative_function": "Offer an impression based on incomplete information.",
         "original_en": "These are the allegations against the Cornell 7 from the Jane Doe lawsuit and why it seems like everybody is divided.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "It seems like it's raining outside; everyone has an umbrella.",
+        "everyday_example_zh": "看起来外面在下雨，大家都撑着伞。",
+        "workplace_example": "It seems like we're working from different versions of the brief.",
+        "replaceable_parts": "It seems like + clause or noun phrase; use it seems that for a more formal clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“似乎……”这一表达。",
-            "goal_en": "It seems like ...",
+            "scene_zh": "你看到街上很多人撑伞，向家人说明外面可能正在下雨。",
+            "goal_en": "Offer an impression based on incomplete information.",
             "keywords": [
-              "today",
-              "plan"
+              "raining",
+              "umbrellas"
             ],
-            "starter": "It seems like ...",
-            "reference_answer": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
+            "starter": "It seems like",
+            "reference_answer": "It seems like it's raining outside; everyone has an umbrella.",
+            "reference_answer_zh": "看起来外面在下雨，大家都撑着伞。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“似乎……”这一表达。",
-            "goal_en": "It seems like ...",
+            "scene_zh": "朋友最近总是忙碌，你温和询问他是否有很多事情要处理。",
+            "goal_en": "Offer an impression based on incomplete information.",
             "keywords": [
-              "friend",
-              "situation"
+              "busy",
+              "lately"
             ],
-            "starter": "It seems like ...",
-            "reference_answer": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
+            "starter": "It seems like",
+            "reference_answer": "It seems like you've been really busy lately. Are you doing okay?",
+            "reference_answer_zh": "看起来你最近很忙，你还好吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“似乎……”这一表达。",
-            "goal_en": "It seems like ...",
+            "scene_zh": "两份需求文档互相矛盾，你向团队提出尚待确认的判断。",
+            "goal_en": "Offer an impression based on incomplete information.",
             "keywords": [
-              "project",
-              "team"
+              "different",
+              "versions"
             ],
-            "starter": "It seems like ...",
-            "reference_answer": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
+            "starter": "It seems like",
+            "reference_answer": "It seems like we're working from different versions of the brief.",
+            "reference_answer_zh": "看起来我们依据的是不同版本的需求说明。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看起来外面在下雨，大家都撑着伞。",
+        "example_source": "adapted",
+        "workplace_example_zh": "看起来我们依据的是不同版本的需求说明。",
+        "context_review_note": "Source impression about divided reactions must remain tentative.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "So I guess",
-        "cn": "所以我猜……",
-        "example": "So I guess this was Cornell's response to their other shit responses.",
-        "prompt": "Use “So I guess” in a complete sentence.",
+        "cn": "所以我想；那大概……",
+        "example": "The bus isn't running, so I guess I'll walk home.",
+        "prompt": "Draw a tentative conclusion from what was just said.",
         "source_page": 4,
         "source_segment": "page-4",
         "source_excerpt": "So I guess this was Cornell's response to their other shit responses.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "所以我猜……",
+        "communicative_function": "Draw a tentative conclusion from what was just said.",
         "original_en": "So I guess this was Cornell's response to their other shit responses.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "The bus isn't running, so I guess I'll walk home.",
+        "everyday_example_zh": "公交停运了，那我想我就走回家吧。",
+        "workplace_example": "So I guess we should wait for approval before we start.",
+        "replaceable_parts": "So I guess + clause; so links to preceding information and guess weakens certainty.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“所以我猜……”这一表达。",
-            "goal_en": "So I guess",
+            "scene_zh": "公交显示停运，你根据这个消息决定今天步行回家。",
+            "goal_en": "Draw a tentative conclusion from what was just said.",
             "keywords": [
-              "today",
-              "plan"
+              "bus",
+              "walk"
             ],
             "starter": "So I guess",
-            "reference_answer": "So I guess this was Cornell's response to their other shit responses."
+            "reference_answer": "The bus isn't running, so I guess I'll walk home.",
+            "reference_answer_zh": "公交停运了，那我想我就走回家吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“所以我猜……”这一表达。",
-            "goal_en": "So I guess",
+            "scene_zh": "朋友说周六要加班，你推测你们需要另外安排见面时间。",
+            "goal_en": "Draw a tentative conclusion from what was just said.",
             "keywords": [
-              "friend",
-              "situation"
+              "reschedule",
+              "Saturday"
             ],
             "starter": "So I guess",
-            "reference_answer": "So I guess this was Cornell's response to their other shit responses."
+            "reference_answer": "So I guess we need to reschedule our Saturday lunch.",
+            "reference_answer_zh": "那我想我们得改一下周六午餐的时间。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“所以我猜……”这一表达。",
-            "goal_en": "So I guess",
+            "scene_zh": "客户尚未确认设计，你向同事提出暂时不能开工的判断。",
+            "goal_en": "Draw a tentative conclusion from what was just said.",
             "keywords": [
-              "project",
-              "team"
+              "approval",
+              "wait"
             ],
             "starter": "So I guess",
-            "reference_answer": "So I guess this was Cornell's response to their other shit responses."
+            "reference_answer": "So I guess we should wait for approval before we start.",
+            "reference_answer_zh": "所以我想我们应该等批准后再开始。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "公交停运了，那我想我就走回家吧。",
+        "example_source": "adapted",
+        "workplace_example_zh": "所以我想我们应该等批准后再开始。",
+        "context_review_note": "Source uses this as a skeptical conversational conclusion, not as confirmed institutional intent.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It doesn't seem that",
         "cn": "似乎没有那么……",
-        "example": "And from the footage I saw, it doesn't seem that volatile.",
-        "prompt": "Use “It doesn't seem that” in a complete sentence.",
+        "example": "It doesn't seem that difficult, but let's read all the steps first.",
+        "prompt": "Soften a negative judgment about the degree of a quality.",
         "source_page": 5,
         "source_segment": "page-5",
         "source_excerpt": "And from the footage I saw, it doesn't seem that volatile.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "似乎没有那么……",
+        "communicative_function": "Soften a negative judgment about the degree of a quality.",
         "original_en": "And from the footage I saw, it doesn't seem that volatile.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "It doesn't seem that difficult, but let's read all the steps first.",
+        "everyday_example_zh": "看起来没有那么难，不过我们先把所有步骤读完吧。",
+        "workplace_example": "It doesn't seem that urgent, but I'll confirm the deadline.",
+        "replaceable_parts": "It doesn't seem that + adjective, where that means so or very; distinguish it doesn't seem that + full clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“似乎没有那么……”这一表达。",
-            "goal_en": "It doesn't seem that",
+            "scene_zh": "家人担心新食谱太难，你看过步骤后给出初步判断。",
+            "goal_en": "Soften a negative judgment about the degree of a quality.",
             "keywords": [
-              "today",
-              "plan"
+              "difficult",
+              "recipe"
             ],
             "starter": "It doesn't seem that",
-            "reference_answer": "And from the footage I saw, it doesn't seem that volatile."
+            "reference_answer": "It doesn't seem that difficult, but let's read all the steps first.",
+            "reference_answer_zh": "看起来没有那么难，不过我们先把所有步骤读完吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“似乎没有那么……”这一表达。",
-            "goal_en": "It doesn't seem that",
+            "scene_zh": "朋友担心餐厅太贵，你看了菜单后回应他的顾虑。",
+            "goal_en": "Soften a negative judgment about the degree of a quality.",
             "keywords": [
-              "friend",
-              "situation"
+              "expensive",
+              "menu"
             ],
             "starter": "It doesn't seem that",
-            "reference_answer": "And from the footage I saw, it doesn't seem that volatile."
+            "reference_answer": "It doesn't seem that expensive from the menu.",
+            "reference_answer_zh": "从菜单看，似乎没有那么贵。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“似乎没有那么……”这一表达。",
-            "goal_en": "It doesn't seem that",
+            "scene_zh": "同事觉得任务很紧急，你查看截止日期后谨慎提出不同判断。",
+            "goal_en": "Soften a negative judgment about the degree of a quality.",
             "keywords": [
-              "project",
-              "team"
+              "urgent",
+              "deadline"
             ],
             "starter": "It doesn't seem that",
-            "reference_answer": "And from the footage I saw, it doesn't seem that volatile."
+            "reference_answer": "It doesn't seem that urgent, but I'll confirm the deadline.",
+            "reference_answer_zh": "似乎没有那么紧急，不过我会确认截止日期。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看起来没有那么难，不过我们先把所有步骤读完吧。",
+        "example_source": "adapted",
+        "workplace_example_zh": "似乎没有那么紧急，不过我会确认截止日期。",
+        "context_review_note": "In the source that modifies volatile as a degree word; it is not a conjunction introducing a missing clause.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
