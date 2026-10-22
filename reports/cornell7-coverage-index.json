@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 350,
+      "phrases": 363,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -27,7 +27,7 @@
         "unit": 2,
         "pages": "4-7",
         "words": 30,
-        "phrases": 24,
+        "phrases": 37,
         "chunks": 13
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 430,
+      "covered": 439,
       "no_identified_barrier": 179,
-      "requires_review": 241
+      "requires_review": 232
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,12 +105,12 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 241,
+      "transcript_segments_requiring_review": 232,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
       "form_generated_memory_requiring_review": 0,
-      "fewer_than_two_collocations": 1
+      "fewer_than_two_collocations": 0
     },
     "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
     "reviewed_word_cards": 321,
@@ -635,12 +635,15 @@
       "page": 4,
       "segment": 51,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:makes the news",
+        "phrase:1:strange conclusion",
+        "word:0:bizarre",
         "word:1:incident"
       ],
-      "review_reason": "Incident alone missed makes the news and strange conclusion; add those explanatory targets before calling the whole paragraph covered.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "News attention and the puzzling outcome/judgment are now taught alongside incident and bizarre; reason is because is conversational redundancy, not a second cause.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "But the reason that this makes the news is because, well, like I said, it's Cornell University and it's such a strange, bizarre incident with a strange conclusion."
@@ -785,13 +788,14 @@
       "page": 4,
       "segment": 61,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:nevertheless",
         "word:1:atrium",
         "word:1:president"
       ],
-      "review_reason": "Atrium and university president corrected, but nevertheless is a contrast marker worth teaching; a single matched noun never establishes complete coverage.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The contrast transition, university leadership role and building location are all explained; as introduces simultaneous events.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Now, nevertheless, as the president introduces the debate series, he's now leaving the atrium."
@@ -815,12 +819,14 @@
       "page": 4,
       "segment": 63,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:footage",
+        "phrase:1:been released",
         "phrase:1:it doesn't look like"
       ],
-      "review_reason": "Footage and that's been released are not explained by the matched negative impression pattern alone.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The recording noun and perfect passive now complement the cautious visual impression. That's means that has, and the statement is restricted to what the narrator saw.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car."
@@ -894,12 +900,14 @@
       "page": 5,
       "segment": 68,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:back out of",
+        "phrase:1:so that",
         "chunk:1:it's very clear"
       ],
-      "review_reason": "Back out of the parking spot and so that purpose/result deserve explanation; clear alone is insufficient.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Reverse movement and the purpose/result connector are explicitly explained; the speaker's confidence does not independently prove the student's intent.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And it's very clear there's one student standing behind his car so that he can't back out of the parking spot."
@@ -1052,12 +1060,13 @@
       "page": 5,
       "segment": 79,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:automatic braking system",
         "word:1:maneuver"
       ],
-      "review_reason": "Automatic braking system is a technical phrase needing a card; do not endorse the claimed car behavior or infer automatic driving capabilities.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Both the braking-system phrase and controlled movement are taught. This covers understanding the reported claim, not technical validation that braking alone could steer the car.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "An automatic braking system was able to slowly maneuver my car from the parking space and exit the parking lot."
@@ -1105,13 +1114,14 @@
       "page": 6,
       "segment": 83,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:silencing speech",
         "word:1:harassment",
         "word:1:intimidation"
       ],
-      "review_reason": "Motive of silencing speech is an additional collocation/metaphor not covered by the two nouns.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Harassment and intimidation are linked with suppressing expression; with the direct motive of attributes an alleged purpose to the quoted speaker, not a proven motive.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "It is harassment and intimidation with the direct motive of silencing speech."
@@ -1299,12 +1309,13 @@
       "page": 6,
       "segment": 95,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:by default",
         "word:1:deemed"
       ],
-      "review_reason": "Continues work for Cornell; by default carries an inference about institutional responsibility and needs explanation. Deemed alone is insufficient.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "By default is explicitly noted as a loose inference about institutional responsibility; deemed means judged, and can't come back describes the narrated exclusion.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "For Cornell and by default, Michael Kotlikoff, the president, has now deemed that it's the student's fault and he can't come back to campus for a full year."
@@ -1446,13 +1457,14 @@
       "page": 7,
       "segment": 105,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:1:weighing in",
-        "phrase:1:get a fair shake"
+        "phrase:1:get a fair shake",
+        "word:10:prosecutor"
       ],
-      "review_reason": "Commenting and fair treatment covered, but prosecutor remains a role-specific gap; do not mark complete just because two phrases match.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Consulted the existing prosecutor card as well as the two idioms: commenting, fair treatment and the legal role now explain the conditional reported opinion without endorsing it.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Yeah, Trump is weighing in, stating that the accused aren't going to get a fair shake if a certain prosecutor is investigating the case."
@@ -1461,11 +1473,15 @@
       "page": 7,
       "segment": 106,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:seemingly",
+        "phrase:1:being analyzed",
+        "phrase:1:been released"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Seemingly released and being analyzed indicate uncertain publication and passive analysis; needs dedicated support beyond ordinary text messages.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Ongoing passive analysis, apparent publication and the informal frequency estimate are distinguished; the trailing comma is preserved and no analyzer or release date is invented.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "There are Snapchat messages that are being analyzed, new text messages seemingly released like every single day,"

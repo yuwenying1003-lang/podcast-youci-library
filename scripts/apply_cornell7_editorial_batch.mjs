@@ -8,6 +8,13 @@ const coverage = await read('reports/cornell7-coverage-index.json');
 const normalize = s => s.normalize('NFKC').toLowerCase().replace(/[‘’]/g, "'").replace(/[^a-z0-9']+/g, ' ').trim();
 const compact = s => normalize(s).replaceAll(' ', '');
 const unit = batch.unit - 1;
+for (const [word, pairs, note] of batch.collocation_updates || []) {
+  const item = course.vocab.find(v => v.unit === unit && v.word === word);
+  if (!item || (item.collocations || []).length >= 2) throw new Error(`Missing/already populated collocations: ${word}`);
+  if (!compact(source.pages[item.source_page - 1].raw_text).includes(compact(item.source_excerpt))) throw new Error(`Source mismatch: ${word}`);
+  item.collocations = [0, 2].map(i => ({ text: pairs[i], meaning_zh: pairs[i + 1], source_kind: 'teaching' }));
+  item.collocation_review = { reviewer: 'Codex', method: 'individual_contextual_review', note, independent_human_signoff: false };
+}
 for (const [word, ipa, definition, cn, pairs, tip, example, example_cn, note] of batch.words || []) {
   const item = course.vocab.find(v => v.unit === unit && v.word === word);
   if (!item || item.editorial_status === 'reviewed_complete') throw new Error(`Missing/already reviewed: ${word}`);
@@ -23,12 +30,14 @@ for (const [word, ipa, definition, cn, pairs, tip, example, example_cn, note] of
 for (const [text, segment, definition, cn, example, example_cn, note] of batch.phrases || []) {
   const src = source.transcript.segments.find(s => s.segment === segment);
   if (!src || !compact(src.text).includes(compact(text))) throw new Error(`Phrase not literal: ${text}`);
+  if (src.page < course.units[unit].transcript_pages[0] || src.page > course.units[unit].transcript_pages[1]) throw new Error(`Phrase outside unit: ${text}`);
   let item = course.expressions.find(v => v.unit === unit && v.text === text);
   if (!item) { item = { text, unit, difficulty: 'Useful' }; course.expressions.push(item); }
   Object.assign(item, { definition, cn, example, example_cn, example_source: 'adapted', source_page: src.page,
     source_segment: `segment-${segment}`, source_excerpt: src.text, source_kind: 'original',
     source_verification: 'verified_transcript_match', extraction_confidence: 'high',
-    editorial_status: 'reviewed_complete', reviewer: 'Codex', review_date: '2026-10-22', context_review_note: note });
+    editorial_status: 'reviewed_complete', reviewer: 'Codex', review_date: '2026-10-22', context_review_note: note,
+    review_method: 'individual_pdf_contextual_review', independent_human_signoff: false });
 }
 for (const [text, cn, function_en, replaceable_parts, note, scenes] of batch.chunks || []) {
   const item = course.patterns[unit].find(v => v.text === text);

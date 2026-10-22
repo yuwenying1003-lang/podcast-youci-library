@@ -7,28 +7,8 @@
   "transcript_segments_requiring_review": [
     {
       "page": 4,
-      "segment": 51,
-      "reason": "Incident alone missed makes the news and strange conclusion; add those explanatory targets before calling the whole paragraph covered."
-    },
-    {
-      "page": 4,
       "segment": 56,
       "reason": "Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches."
-    },
-    {
-      "page": 4,
-      "segment": 61,
-      "reason": "Atrium and university president corrected, but nevertheless is a contrast marker worth teaching; a single matched noun never establishes complete coverage."
-    },
-    {
-      "page": 4,
-      "segment": 63,
-      "reason": "Footage and that's been released are not explained by the matched negative impression pattern alone."
-    },
-    {
-      "page": 5,
-      "segment": 68,
-      "reason": "Back out of the parking spot and so that purpose/result deserve explanation; clear alone is insufficient."
     },
     {
       "page": 5,
@@ -47,16 +27,6 @@
       "reason": "As well as continues 75; wording resulting in the case of two individual bans is awkward and must not be silently reconstructed from assumed audio."
     },
     {
-      "page": 5,
-      "segment": 79,
-      "reason": "Automatic braking system is a technical phrase needing a card; do not endorse the claimed car behavior or infer automatic driving capabilities."
-    },
-    {
-      "page": 6,
-      "segment": 83,
-      "reason": "Motive of silencing speech is an additional collocation/metaphor not covered by the two nouns."
-    },
-    {
       "page": 6,
       "segment": 84,
       "reason": "No place in means unacceptable in a community. Opening It is no place is suspect transcript wording; retain and flag instead of repairing a quote.",
@@ -67,11 +37,6 @@
       "segment": 86,
       "reason": "Senior here means final-year university student, not an elderly person; deserves a contextual card.",
       "candidate_learning_item_ids": []
-    },
-    {
-      "page": 6,
-      "segment": 95,
-      "reason": "Continues work for Cornell; by default carries an inference about institutional responsibility and needs explanation. Deemed alone is insufficient."
     },
     {
       "page": 7,
@@ -93,17 +58,6 @@
       "page": 7,
       "segment": 104,
       "reason": "Mainstream media and going against need language support. Final Trump is a conversational handoff continued in 105, not part of a repaired quote.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 7,
-      "segment": 105,
-      "reason": "Commenting and fair treatment covered, but prosecutor remains a role-specific gap; do not mark complete just because two phrases match."
-    },
-    {
-      "page": 7,
-      "segment": 106,
-      "reason": "Seemingly released and being analyzed indicate uncertain publication and passive analysis; needs dedicated support beyond ordinary text messages.",
       "candidate_learning_item_ids": []
     },
     {
@@ -1413,11 +1367,5 @@
   "externally_sourced_definition_requiring_review": [],
   "machine_translations_requiring_review": [],
   "form_generated_memory_requiring_review": [],
-  "fewer_than_two_collocations": [
-    {
-      "unit": 1,
-      "page": 3,
-      "word": "bizarre"
-    }
-  ]
+  "fewer_than_two_collocations": []
 }

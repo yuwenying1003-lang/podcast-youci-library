@@ -27,6 +27,18 @@ test('contextual coverage references real items and review summaries agree with 
   const coverage = await read('reports/cornell7-coverage-index.json');
   const report = await read('reports/cornell7-expansion-report.json');
   const unresolved = await read('reports/cornell7-unresolved.json');
+  const source = await read('reports/cornell7-transcript-recovered.json');
+  for (const p of course.expressions.filter(x => x.review_method === 'individual_pdf_contextual_review')) {
+    assert.equal(p.reviewer, 'Codex');
+    assert.equal(p.independent_human_signoff, false);
+    assert.equal(p.example_source, 'adapted');
+    assert.ok(p.example_cn && p.context_review_note);
+    const src = source.transcript.segments.find(s => `segment-${s.segment}` === p.source_segment);
+    assert.ok(src, p.text);
+    assert.equal(p.source_excerpt, src.text);
+    assert.equal(p.source_page, src.page);
+    assert.ok(src.page >= course.units[p.unit].transcript_pages[0] && src.page <= course.units[p.unit].transcript_pages[1]);
+  }
   const ids = new Set([
     ...course.vocab.map(x => `word:${x.unit}:${normalized(x.word)}`),
     ...course.expressions.map(x => `phrase:${x.unit}:${normalized(x.text)}`),

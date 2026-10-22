@@ -8,27 +8,27 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 350 Phrases / 118 Chunks.
+- Library: 321 Words / 363 Phrases / 118 Chunks.
 - Word cards carrying reviewed_complete: 321; remaining: 0.
 - Machine translations awaiting context review: 0.
 - Generated memory aids awaiting refinement: 0.
 - External definitions awaiting review: 0; external IPA: 0.
-- Cards with fewer than two populated collocations: 1. This measures completeness, not independent human approval.
-- Transcript statuses: 430 covered / 179 no identified barrier / 241 requires review.
-- This PDF review has individual decisions for 801 paragraphs; 241 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
-- Phrases without reviewed_complete: 263; Chunks: 64.
+- Cards with fewer than two populated collocations: 0. This measures completeness, not independent human approval.
+- Transcript statuses: 439 covered / 179 no identified barrier / 232 requires review.
+- This PDF review has individual decisions for 801 paragraphs; 232 still have explicitly documented barriers. Historical automatic covered statuses outside this scope are not certified as contextual review.
+- Phrases without reviewed_complete: 251; Chunks: 64.
 - Missing IPA, definition, translation and original generic Spelling anchor fields: zero.
 
 ## Exact continuation
 
 - All 321 Word cards now carry completed editorial review; no pending Word remains. Preserve completed cards; independent human sign-off is not implied.
 - The continuous individual PDF review covers segments 50–850 (Units 2–11); no unread paragraph remains in that range. Unit 1's previous work is preserved.
-- Earliest remaining transcript barrier: page 4, segment 51. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
+- Earliest remaining transcript barrier: page 4, segment 56. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - The initial Unit 2–11 paragraph pass is complete; the next coverage work is resolving documented barriers, not rereading or auto-approving all matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
-- Next in-scope barrier after preserved Unit 1: page 4, segment 51: Incident alone missed makes the news and strange conclusion; add those explanatory targets before calling the whole paragraph covered.
+- Next in-scope barrier after preserved Unit 1: page 4, segment 56: Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches.
 - Next pending Chunk after preserved Unit 1: Unit 8, trying to figure out.
-- Next pending Phrase after preserved Unit 1: Unit 2, a handful of.
-- The historical Unit 1 bizarre card still lacks two populated collocations; it is queued rather than silently changed because Unit 1 was explicitly preserved. Its existing reviewed_complete label predates this pass.
+- Next pending Phrase after preserved Unit 1: Unit 3, pick a side.
+- The explicitly requested Unit 1 bizarre collocation repair is complete: bizarre behavior / a bizarre situation. The original excerpt and prior review remain unchanged.
 - Finish pending Phrase/Chunk pedagogical review, including realistic examples/scenarios. A segment-level comprehension decision does not certify every linked card as fully polished.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
 - Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.

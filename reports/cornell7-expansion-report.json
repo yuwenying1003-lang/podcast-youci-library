@@ -5,7 +5,7 @@
   "transcript_segments": 850,
   "totals": {
     "words": 321,
-    "phrases": 350,
+    "phrases": 363,
     "chunks": 118
   },
   "source_candidate_totals": {
@@ -26,7 +26,7 @@
       "unit": 2,
       "pages": "4-7",
       "words": 30,
-      "phrases": 24,
+      "phrases": 37,
       "chunks": 13
     },
     {
@@ -94,9 +94,9 @@
     }
   ],
   "coverage_status": {
-    "covered": 430,
+    "covered": 439,
     "no_identified_barrier": 179,
-    "requires_review": 241
+    "requires_review": 232
   },
   "unresolved_counts": {
     "missing_ipa": 0,
@@ -104,12 +104,12 @@
     "missing_example_translation": 0,
     "generated_spelling_context_memory": 0,
     "requires_human_review": 0,
-    "transcript_segments_requiring_review": 241,
+    "transcript_segments_requiring_review": 232,
     "externally_sourced_ipa_requiring_review": 0,
     "externally_sourced_definition_requiring_review": 0,
     "machine_translations_requiring_review": 0,
     "form_generated_memory_requiring_review": 0,
-    "fewer_than_two_collocations": 1
+    "fewer_than_two_collocations": 0
   },
   "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
   "reviewed_word_cards": 321,
