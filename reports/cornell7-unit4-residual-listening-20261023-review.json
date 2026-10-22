@@ -1,0 +1,18 @@
+{
+  "unit": 4,
+  "review_date": "2026-10-23",
+  "reviewer": "Codex",
+  "method": "Revisit the seven pre-215 Unit 4 residual items with their immediate context. Separate literal vocabulary from uncertain comparisons, insurance wording and mentor-role transcription.",
+  "phrases": [
+    ["mold",166,"fungal growth that can appear on damp surfaces or food","霉菌；霉斑","There was mold on the damp wall.","潮湿的墙上长了霉斑。","American spelling mold; British spelling mould. Here the speaker makes a comparison in the preceding unclear exchange. The card does not identify asbestos as mold or authenticate the suspect a best dose wording."]
+  ],
+  "segments": [
+    [163,"requires_review",["word:3:hazardous waste","word:3:contractor","phrase:3:the sixth worst"],"The hazardous-business comparison and rank are understandable, but a best dose contractors is still suspect transcription. The next paragraphs explicitly question the existence of an official list, so neither an asbestos replacement nor the sixth-worst ranking is verified."],
+    [165,"requires_review",["word:3:contractor"],"A best dose contract repeats the uncertain earlier wording, not a securely identified contract term. Do not turn it into asbestos contractor as a verified quotation merely because that seems plausible from topic."],
+    [166,"requires_review",["phrase:3:mold"],"Mold now has an American-spelling definition and natural example. It's like mold remains an imprecise comparison with the preceding unidentified term; the course does not teach that asbestos is a fungus or infer a specific type of contractor."],
+    [187,"requires_review",["phrase:3:to the point where","phrase:3:self insuring","phrase:3:set up"],"Degree marker and retained-risk sense already have support. Resulted in with fraternities as subject remains awkward, and a possible resorted to reading is not authenticated. The next sentence about their own insurers cannot resolve either the verb or the precise risk arrangement."],
+    [192,"requires_review",["word:3:hazing","word:3:violation","word:3:sued"],"Relative clause completes things they do not cover in 191; get sued is passive and such as introduces examples. Essay in this list is still suspect euphemistic/transcribed wording, not safely an academic essay or a verified substituted category."],
+    [207,"requires_review",["phrase:7:a big and you have a little"],"The later mentor-role card supports big as a senior peer role, but you're big versus your big remains a textual problem here. The unfinished like a connects to 208; preserve the source, not a silently corrected possessive or an inferred exact gesture."],
+    [208,"requires_review",["word:3:power trip","word:3:interpersonal","phrase:3:the pinnacle of"],"Read through the sarcastic sequence: pinnacle is ostensibly highest quality, and obviously can only mean is ironic after coercion. Lexical and irony support is present, but the opening still depends on 207's uncertain role wording; leave the linked-source issue explicit."]
+  ]
+}

@@ -5,7 +5,7 @@
   "transcript_segments": 850,
   "totals": {
     "words": 321,
-    "phrases": 545,
+    "phrases": 547,
     "chunks": 120
   },
   "source_candidate_totals": {
@@ -26,7 +26,7 @@
       "unit": 2,
       "pages": "4-7",
       "words": 30,
-      "phrases": 50,
+      "phrases": 51,
       "chunks": 13
     },
     {
@@ -40,7 +40,7 @@
       "unit": 4,
       "pages": "11-15",
       "words": 48,
-      "phrases": 69,
+      "phrases": 70,
       "chunks": 10
     },
     {

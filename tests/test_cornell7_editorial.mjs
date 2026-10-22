@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 const read = path => readFile(new URL(`../${path}`, import.meta.url), 'utf8').then(JSON.parse);
 const normalized = s => s.normalize('NFKC').toLowerCase().replace(/[‘’]/g, "'").replace(/[^a-z0-9']+/g, ' ').trim();
 test('recovered PDF aligns all historical segment IDs and retains title and raw provenance', async () => {
@@ -67,8 +67,14 @@ test('contextual coverage references real items and review summaries agree with 
     ...course.expressions.map(x => `phrase:${x.unit}:${normalized(x.text)}`),
     ...course.patterns.flatMap((g, u) => g.map(x => `chunk:${u}:${normalized(x.text)}`)),
   ]);
-  const newChunkBatch = await read('reports/cornell7-unit8-listening-20261023-review.json');
-  for (const [text, segment] of newChunkBatch.new_chunk_sources) {
+  const scope = await read('reports/cornell7-listening-scope-20261023.json');
+  assert.equal(scope.baseline_requires_review.length, 177);
+  assert.equal(new Set(scope.baseline_requires_review).size, 177);
+  const batches = await Promise.all((await readdir(new URL('../reports/', import.meta.url)))
+    .filter(name => name.endsWith('listening-20261023-review.json')).map(name => read(`reports/${name}`)));
+  const decisions = new Set(batches.flatMap(batch => batch.segments.map(row => row[0])));
+  for (const id of scope.baseline_requires_review) assert.ok(decisions.has(id), `Unrechecked baseline barrier ${id}`);
+  for (const newChunkBatch of batches) for (const [text, segment] of newChunkBatch.new_chunk_sources || []) {
     const item = course.patterns[newChunkBatch.unit - 1].find(x => x.text === text);
     assert.equal(item.source_segment, `segment-${segment}`);
     const row = source.transcript.segments.find(x => `segment-${x.segment}` === item.source_segment);

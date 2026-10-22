@@ -8,7 +8,7 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 
 ## Current counts
 
-- Library: 321 Words / 545 Phrases / 120 Chunks.
+- Library: 321 Words / 547 Phrases / 120 Chunks.
 - Word cards carrying reviewed_complete: 321; remaining: 0.
 - Machine translations awaiting context review: 0.
 - Generated memory aids awaiting refinement: 0.
@@ -26,14 +26,15 @@ The local Cornell PDF has 51 pages. All pages were extracted into reports/cornel
 - The continuous individual PDF review covers segments 50–850 (Units 2–11); no unread paragraph remains in that range. Unit 1's previous work is preserved.
 - Earliest remaining transcript barrier: page 5, segment 76. Follow each review_reason, including barriers reopened after checking a formerly covered paragraph.
 - The initial Unit 2–11 paragraph pass is complete; the next coverage work is resolving documented barriers, not rereading or auto-approving all matches. Source paragraphs are available locally in the recovered JSON, so no upload or missing-source blocker remains.
-- Next in-scope barrier after preserved Unit 1: page 5, segment 76: As well as continues 75; wording resulting in the case of two individual bans is awkward and must not be silently reconstructed from assumed audio.
+- Next in-scope barrier after preserved Unit 1: page 5, segment 76: Read with the quoted statement in 75: as well as adds another alleged type of conduct. Resulting in the case of two individual bans is awkward and does not securely say whether two individuals or two bans are meant. Preserve the quotation and request source/audio confirmation before correction.
 - No pending Chunk remains after Unit 1.
 - Next pending Phrase after preserved Unit 1: Unit 4, who pays them out.
 - The explicitly requested Unit 1 bizarre collocation repair is complete: bizarre behavior / a bizarre situation. The original excerpt and prior review remain unchanged.
-- Follow the remaining Phrase/Chunk counts above, not historical queues. All previously completed cards are preserved; this follow-up also reviewed the previously pending Unit 1 entries, without repeating its completed reviews. A segment-level comprehension decision does not certify unrelated source claims.
+- Follow the remaining Phrase/Chunk counts above, not historical queues. Previously completed cards are preserved except for the three explicitly documented corrections in the added-85 second-pass audit; the earlier follow-up also reviewed previously pending Unit 1 entries. A segment-level comprehension decision does not certify unrelated source claims.
 - The source-ambiguous Phrase who pays them out remains explicitly deferred; its existing Chinese gloss is provisional. See reports/cornell7-unit4-deferred-phrase-review.json before editing or approving it.
 - Follow-up continuation and baseline-preservation checks are recorded in reports/cornell7-followup-continuation.md. Do not reapply completed batches simply to clear a queue.
 - For the current listening follow-up after 8458263, use reports/cornell7-listening-continuation-20261023.md; its batch boundaries distinguish newly read/revisited paragraphs from the earlier full pass.
+- All 177 barriers queued at 8458263 now have a fresh explicit decision. Scope and baseline IDs are in reports/cornell7-listening-scope-20261023.json; reconsideration is not synonymous with resolution. For spoken-text percentages exclude segment 1, which is the title: 585/849 covered, 177/849 no identified barrier, 87/849 pending.
 - Known transcript uncertainties include essayed, a best dose contractors, incomplete PSA text, AFK/not AFK, chapter nine, room-name variants, charged academically and false starts. Preserve exact quotations; any intended reading must be labeled an inference unless audio verifies it.
 - Batch evidence is stored in reports/cornell7-unit*-review*.json. Word, transcript and Chunk reviews are separately named where a Unit has several batches; each records explicit decisions rather than generated keyword approvals.
 - Refresh reports with node scripts/refresh_cornell7_review_reports.mjs, validate both course files and run npm.cmd test before each commit. Do not rerun the original import/enrichment over edited cards.

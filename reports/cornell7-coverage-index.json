@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 545,
+      "phrases": 547,
       "chunks": 120
     },
     "source_candidate_totals": {
@@ -27,7 +27,7 @@
         "unit": 2,
         "pages": "4-7",
         "words": 30,
-        "phrases": 50,
+        "phrases": 51,
         "chunks": 13
       },
       {
@@ -41,7 +41,7 @@
         "unit": 4,
         "pages": "11-15",
         "words": 48,
-        "phrases": 69,
+        "phrases": 70,
         "chunks": 10
       },
       {
@@ -1030,12 +1030,12 @@
       "source_unit": 1,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:1:disruptive"
+        "phrase:1:ongoing verbal and online abuse"
       ],
-      "review_reason": "As well as continues 75; wording resulting in the case of two individual bans is awkward and must not be silently reconstructed from assumed audio.",
+      "review_reason": "Read with the quoted statement in 75: as well as adds another alleged type of conduct. Resulting in the case of two individual bans is awkward and does not securely say whether two individuals or two bans are meant. Preserve the quotation and request source/audio confirmation before correction.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "As well as disruptive protests resulting in the case of two individual bans from the campus."
     },
     {
@@ -1145,9 +1145,9 @@
       ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "The figurative unacceptability expression is now taught, but It is no place remains suspect source wording; do not silently replace it with It has no place without checking audio.",
+      "review_reason": "The figurative expression is supported by the standard teaching example has no place in. The printed It is no place is still suspect; the following repeated no place clauses support the intended rejection but do not authenticate a replacement verb.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It is no place in an academic community, no place in a democracy and can have no place at Cornell."
     },
     {
@@ -1385,13 +1385,13 @@
       "source_unit": 1,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:1:traumatized",
+        "phrase:1:ripped apart",
         "phrase:10:drops out of school"
       ],
-      "review_reason": "Existing cards now support trauma and leaving school, but gang essayed remains nonstandard/possibly euphemistic transcription; ripped apart is another figurative target still needing an explicit card. No correction or allegation is certified.",
+      "review_reason": "The figurative devastated-life meaning now has explicit support, alongside leaving school and the allegation frame. Gang essayed remains nonstandard or euphemistic source wording; the PDF alone does not verify a lexical replacement or the allegation.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Jane Doe alleges that as a student at Cornell, she went to a fraternity party where she was gang essayed for seven hours, traumatized to the point of dropping out of her dream university and her entire life has been ripped apart"
     },
     {
@@ -1530,10 +1530,10 @@
       "learning_item_ids": [
         "phrase:1:not the other way around"
       ],
-      "review_reason": "Reversal of roles is now taught, but essayed is still unresolved nonstandard wording. Maybe and the prior attributed accused's statement prevent this being treated as a verified counter-allegation.",
+      "review_reason": "Read with the recorded-call attribution in 107: maybe marks the quoted accused person's uncertainty, and not the other way around reverses alleged roles. Essayed is still unresolved; neither repetition nor this counter-claim verifies the intended verb or event.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Maybe he was the one who was essayed by Jane Doe, not the other way around."
     },
     {
@@ -1654,9 +1654,9 @@
       ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Availability expression is now taught, but the paragraph still begins with an incomplete Of sexual violence fragment. The missing subject cannot be invented from the PDF.",
+      "review_reason": "Twenty-four seven is already taught and phone/chat/text are contact channels. Of sexual violence still lacks the subject being described; neighboring case introduction and donation statement do not supply a verified missing helpline sentence. No service details or missing words are invented.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Of sexual violence available 24-7 by phone chat or text"
     },
     {
@@ -2343,15 +2343,14 @@
       "source_unit": 2,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:3:statistic",
         "word:3:hazardous waste",
-        "word:3:disposal",
-        "word:3:contractor"
+        "word:3:contractor",
+        "phrase:3:the sixth worst"
       ],
-      "review_reason": "A best dose contractors is suspect ASR for asbestos contractors, but not audio-verified. Sixth worst statistic is explicitly questioned in subsequent paragraphs; do not silently correct or endorse it.",
+      "review_reason": "The hazardous-business comparison and rank are understandable, but a best dose contractors is still suspect transcription. The next paragraphs explicitly question the existence of an official list, so neither an asbestos replacement nor the sixth-worst ranking is verified.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "There is a common statistic that's cited out there that fraternities are the sixth worst insurance risk in the country behind hazardous waste disposal companies and a best dose contractors."
     },
     {
@@ -2372,12 +2371,14 @@
       "segment": 165,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:3:contractor"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "A best dose contract is another suspect ASR form; preserve exact PDF and await audio verification before proposing a quotation repair.",
+      "review_reason": "A best dose contract repeats the uncertain earlier wording, not a securely identified contract term. Do not turn it into asbestos contractor as a verified quotation merely because that seems plausible from topic.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It's a best dose contract."
     },
     {
@@ -2385,11 +2386,13 @@
       "segment": 166,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Mold is a specialized comparison in an uncertain asbestos exchange; no confident interpretation from one short sentence.",
+      "learning_item_ids": [
+        "phrase:3:mold"
+      ],
+      "review_reason": "Mold now has an American-spelling definition and natural example. It's like mold remains an imprecise comparison with the preceding unidentified term; the course does not teach that asbestos is a fungus or infer a specific type of contractor.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It's like mold."
     },
     {
@@ -2694,12 +2697,13 @@
       "status": "requires_review",
       "learning_item_ids": [
         "phrase:3:to the point where",
-        "phrase:3:self insuring"
+        "phrase:3:self insuring",
+        "phrase:3:set up"
       ],
-      "review_reason": "Degree marker and retained-risk meaning are now taught, but resulted in versus possible resorted to remains unverified, and the following explanation may conflate self-insurance with creating an insurer.",
+      "review_reason": "Degree marker and retained-risk sense already have support. Resulted in with fraternities as subject remains awkward, and a possible resorted to reading is not authenticated. The next sentence about their own insurers cannot resolve either the verb or the precise risk arrangement.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It's to the point where a lot of the fraternities have resulted in self-insuring."
     },
     {
@@ -2771,14 +2775,13 @@
       "status": "requires_review",
       "learning_item_ids": [
         "word:3:hazing",
-        "word:3:alcohol",
         "word:3:violation",
         "word:3:sued"
       ],
-      "review_reason": "Essay in list of grounds for suit is euphemistic/ASR wording, not written composition; retain source and flag. Other insurance claims remain attributed.",
+      "review_reason": "Relative clause completes things they do not cover in 191; get sued is passive and such as introduces examples. Essay in this list is still suspect euphemistic/transcribed wording, not safely an academic essay or a verified substituted category.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "That fraternities usually get sued for, such as hazing, alcohol violations, or essay."
     },
     {
@@ -3010,12 +3013,14 @@
       "segment": 207,
       "source_unit": 2,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:7:a big and you have a little"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "You're big may be ASR for your big, a fraternity mentor role; do not repair without audio. Continues into 208.",
+      "review_reason": "The later mentor-role card supports big as a senior peer role, but you're big versus your big remains a textual problem here. The unfinished like a connects to 208; preserve the source, not a silently corrected possessive or an inferred exact gesture.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And you're big, which is the guy standing over you watching with like a..."
     },
     {
@@ -3028,10 +3033,10 @@
         "word:3:interpersonal",
         "phrase:3:the pinnacle of"
       ],
-      "review_reason": "Pinnacle and sarcastic praise now have explicit support: obviously can only mean is ironic after the coercive actions. The opening still attaches to the uncertain you're big in 207; retain the source ambiguity rather than approving the complete linked passage.",
+      "review_reason": "Read through the sarcastic sequence: pinnacle is ostensibly highest quality, and obviously can only mean is ironic after coercion. Lexical and irony support is present, but the opening still depends on 207's uncertain role wording; leave the linked-source issue explicit.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Weird power trip and that obviously can only mean that this is like the pinnacle of interpersonal relationships and friendship."
     },
     {
