@@ -5,7 +5,7 @@
   "transcript_segments": 850,
   "totals": {
     "words": 321,
-    "phrases": 339,
+    "phrases": 342,
     "chunks": 118
   },
   "source_candidate_totals": {
@@ -82,7 +82,7 @@
       "unit": 10,
       "pages": "41-44",
       "words": 9,
-      "phrases": 19,
+      "phrases": 22,
       "chunks": 15
     },
     {
@@ -94,26 +94,26 @@
     }
   ],
   "coverage_status": {
-    "covered": 428,
-    "no_identified_barrier": 149,
-    "requires_review": 273
+    "covered": 427,
+    "no_identified_barrier": 159,
+    "requires_review": 264
   },
   "unresolved_counts": {
     "missing_ipa": 0,
     "missing_english_definition": 0,
     "missing_example_translation": 0,
     "generated_spelling_context_memory": 0,
-    "requires_human_review": 36,
-    "transcript_segments_requiring_review": 273,
-    "externally_sourced_ipa_requiring_review": 28,
-    "externally_sourced_definition_requiring_review": 25,
-    "machine_translations_requiring_review": 26,
-    "form_generated_memory_requiring_review": 26,
-    "fewer_than_two_collocations": 32
+    "requires_human_review": 27,
+    "transcript_segments_requiring_review": 264,
+    "externally_sourced_ipa_requiring_review": 24,
+    "externally_sourced_definition_requiring_review": 22,
+    "machine_translations_requiring_review": 23,
+    "form_generated_memory_requiring_review": 23,
+    "fewer_than_two_collocations": 26
   },
   "note": "Source excerpts are transcript-grounded. No sentence-level clip objects were generated because verified timestamps are absent. IPA and English-definition gaps are filled with attributed external/editorial data but remain flagged where final contextual review is required.",
-  "reviewed_word_cards": 285,
+  "reviewed_word_cards": 294,
   "translated_word_examples": 321,
-  "upgraded_memory_tips": 290,
+  "upgraded_memory_tips": 296,
   "review_updated_on": "2026-10-22"
 }

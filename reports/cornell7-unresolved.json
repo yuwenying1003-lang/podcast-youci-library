@@ -5,51 +5,6 @@
   "generated_spelling_context_memory": [],
   "requires_human_review": [
     {
-      "unit": 10,
-      "page": 41,
-      "word": "certainty"
-    },
-    {
-      "unit": 10,
-      "page": 41,
-      "word": "findings"
-    },
-    {
-      "unit": 10,
-      "page": 41,
-      "word": "redaction"
-    },
-    {
-      "unit": 10,
-      "page": 42,
-      "word": "Title IX"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "adjacent"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "alcove"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "cross-referencing"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "snippets"
-    },
-    {
-      "unit": 10,
-      "page": 44,
-      "word": "preemptive"
-    },
-    {
       "unit": 11,
       "page": 45,
       "word": "allegation"
@@ -1116,213 +1071,156 @@
     {
       "page": 41,
       "segment": 666,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 41,
-      "segment": 667,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Which is believed to be marks uncertain identification of the room; pronoun tracking and fraternity-office terminology need annotation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 41,
       "segment": 668,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 41,
-      "segment": 669,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "It's John Doe also sues is a spoken false start; the pseudonym and change of plaintiff need explicit reference tracking.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 41,
       "segment": 670,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "The accused is a nominalized role and seems signals uncertainty; identity must not be inferred merely from a pseudonym.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 41,
+      "segment": 674,
+      "reason": "Because is left unfinished; the connection must be reconstructed across the next paragraph, not treated as an independent covered sentence."
+    },
+    {
+      "page": 41,
+      "segment": 675,
+      "reason": "Chapter nine appears inconsistent with surrounding Title IX references. Preserve PDF wording, flag likely transcription issue and avoid silently certifying the intended term."
+    },
+    {
+      "page": 41,
       "segment": 677,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Interrupted they are trying to and that's why they are suing plus another speaker's yes require turn/subject reconstruction.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 41,
       "segment": 678,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 41,
-      "segment": 682,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 42,
-      "segment": 684,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 42,
-      "segment": 686,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 42,
-      "segment": 687,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 42,
-      "segment": 689,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Civil versus criminal action and the pseudonymous plaintiff need dedicated distinctions; a lawsuit card alone does not cover all legal structure.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 42,
       "segment": 692,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 42,
-      "segment": 693,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 42,
-      "segment": 694,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Prior to Jane Doe is elliptical: whether it means her lawsuit, report or another event must be explained from the exchange, not assumed.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 42,
       "segment": 696,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "And then until this year is awkward temporal wording; this year is recording-relative and requires date context, not automatic replacement with the current year.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 42,
-      "segment": 698,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 700,
+      "reason": "The access idiom and legal term are taught, but multiple self-repairs and changing certainty about which records were obtained need a clause-by-clause annotation."
     },
     {
-      "page": 42,
-      "segment": 701,
-      "reason": "Only one Word item matched; retained for contextual phrase and common-word-combination review.",
+      "page": 43,
+      "segment": 704,
+      "reason": "Nested explanation of the lawsuit's essence ends at that are; linking its continuation and attributing the objection need more than the two word cards.",
       "candidate_learning_item_ids": [
-        "word:9:title ix"
+        "word:9:title ix",
+        "word:9:snippets"
       ]
     },
     {
       "page": 43,
       "segment": 705,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Passive continuation depends on the unfinished clause in 704; standalone approval would hide the sentence boundary problem.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 43,
+      "segment": 706,
+      "reason": "The information-assembly idiom is taught but tried to cross is incomplete; do not invent a verb complement in the quoted source."
+    },
+    {
+      "page": 43,
       "segment": 710,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Pence is an uncertain room-name rendering; preserve the printed name and avoid treating the narrator's later guess as verified identification.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 43,
       "segment": 711,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "I'm assuming explicitly flags the president-room interpretation as a guess; this is not a reliable correction of the preceding proper name.",
       "candidate_learning_item_ids": []
+    },
+    {
+      "page": 43,
+      "segment": 712,
+      "reason": "Adjacent is clear, but Fofus is an uncertain name that the next paragraphs explicitly question; retain unresolved source uncertainty."
     },
     {
       "page": 43,
       "segment": 713,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Typo requires spelling-error vocabulary and the narrator's denial does not resolve the disputed room-name transcription.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 43,
-      "segment": 717,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 714,
+      "reason": "F office is one uncertain proposed name, not an established expansion to teach as fact.",
+      "candidate_learning_item_ids": [
+        "chunk:9:i don't know if"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 715,
+      "reason": "The speaker explicitly does not know the name; preserve the uncertainty rather than normalize it.",
+      "candidate_learning_item_ids": [
+        "chunk:9:i don't know if"
+      ]
+    },
+    {
+      "page": 43,
+      "segment": 716,
+      "reason": "Alcove is reviewed, but a long series of false starts and varying room-name spellings still needs annotation; the noun alone cannot certify coverage."
     },
     {
       "page": 44,
-      "segment": 719,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 720,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
+      "segment": 721,
+      "reason": "Timeline marker is linked but incapacitated is a consequential ability/capacity term needing a dedicated contextual explanation."
     },
     {
       "page": 44,
       "segment": 722,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Sorority house and recording-relative event date need contextual linkage; a simple wakes up phrase does not cover the organizational term.",
       "candidate_learning_item_ids": []
+    },
+    {
+      "page": 44,
+      "segment": 724,
+      "reason": "Preemptive purpose is explained but UTI and bruise remain barriers; the reported self-medication is not endorsed as safe or effective treatment."
     },
     {
       "page": 44,
       "segment": 725,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 726,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 727,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 728,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 729,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 730,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Public knowledge is taught, but the disfluent not until focus construction and repeated all need sentence-level explanation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 44,
       "segment": 731,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 44,
-      "segment": 732,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "Suspension is reviewed, but chapter, alleged violations and code of conduct form an institutional-policy cluster requiring additional contextual teaching.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 44,
       "segment": 733,
-      "reason": "No sufficiently strong existing learning-item match; retained for manual spoken-English review.",
+      "reason": "The list of names continues across the next page; do not invent missing names or certify proper-name spellings without the continuation.",
       "candidate_learning_item_ids": []
     },
     {
@@ -1802,38 +1700,6 @@
   ],
   "externally_sourced_ipa_requiring_review": [
     {
-      "unit": 10,
-      "page": 41,
-      "word": "certainty",
-      "ipa": "/sɝtənti/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 10,
-      "page": 41,
-      "word": "findings",
-      "ipa": "/faɪndɪŋz/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
-      "unit": 10,
-      "page": 42,
-      "word": "Title IX",
-      "ipa": "/taɪtəl naɪn/",
-      "source": "CMU Pronouncing Dictionary + transparent inflection/abbreviation rule",
-      "status": "rule_derived_unreviewed"
-    },
-    {
-      "unit": 10,
-      "page": 44,
-      "word": "preemptive",
-      "ipa": "/priɛmptɪv/",
-      "source": "CMU Pronouncing Dictionary (ARPABET converted to broad IPA)",
-      "status": "external_dictionary_conversion_unreviewed"
-    },
-    {
       "unit": 11,
       "page": 45,
       "word": "allegation",
@@ -2028,27 +1894,6 @@
   ],
   "externally_sourced_definition_requiring_review": [
     {
-      "unit": 10,
-      "page": 41,
-      "word": "certainty",
-      "definition": "The state of being certain.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 10,
-      "page": 41,
-      "word": "findings",
-      "definition": "Small tools and materials used by artisans and craftsmen",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
-      "unit": 10,
-      "page": 44,
-      "word": "preemptive",
-      "definition": "Of or relating to preemption.",
-      "source": "freedictionaryapi.com (Wiktionary-derived)"
-    },
-    {
       "unit": 11,
       "page": 45,
       "word": "allegation",
@@ -2204,27 +2049,6 @@
     }
   ],
   "machine_translations_requiring_review": [
-    {
-      "unit": 10,
-      "page": 41,
-      "word": "findings",
-      "example": "There's a whole chapter nine investigation and one of the accused doesn't like the school's findings.",
-      "translation": "有一个完整的第九章调查，其中一名被告不喜欢学校的调查结果。"
-    },
-    {
-      "unit": 10,
-      "page": 42,
-      "word": "Title IX",
-      "example": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
-      "translation": "所以我确实知道很多这样的大人物——我认为美国广播公司新闻已经在接触——我不知道他们是否得到了整个“第九条”调查，这项调查不是公开的，而且可能永远不会公开。"
-    },
-    {
-      "unit": 10,
-      "page": 44,
-      "word": "preemptive",
-      "example": "She says that she notices this large bruise on her butt area and out of fear, she started taking, I guess out of fear, she started taking UTI medication as a preemptive measure.",
-      "translation": "她说，她注意到屁股上有大块瘀伤，出于恐惧，她开始服用，我猜是出于恐惧，她开始服用尿路感染药物作为预防措施。"
-    },
     {
       "unit": 11,
       "page": 45,
@@ -2389,21 +2213,6 @@
   ],
   "form_generated_memory_requiring_review": [
     {
-      "unit": 10,
-      "page": 41,
-      "word": "findings"
-    },
-    {
-      "unit": 10,
-      "page": 42,
-      "word": "Title IX"
-    },
-    {
-      "unit": 10,
-      "page": 44,
-      "word": "preemptive"
-    },
-    {
       "unit": 11,
       "page": 45,
       "word": "allegation"
@@ -2524,36 +2333,6 @@
       "unit": 1,
       "page": 3,
       "word": "bizarre"
-    },
-    {
-      "unit": 10,
-      "page": 41,
-      "word": "findings"
-    },
-    {
-      "unit": 10,
-      "page": 42,
-      "word": "Title IX"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "alcove"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "cross-referencing"
-    },
-    {
-      "unit": 10,
-      "page": 43,
-      "word": "snippets"
-    },
-    {
-      "unit": 10,
-      "page": 44,
-      "word": "preemptive"
     },
     {
       "unit": 11,
