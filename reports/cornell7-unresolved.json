@@ -143,91 +143,44 @@
       "candidate_learning_item_ids": []
     },
     {
-      "page": 27,
-      "segment": 427,
-      "reason": "Big and little are mentorship labels in Greek life, not size or age alone; explanation continues with a student peer in 428. Needs explicit role distinction.",
-      "candidate_learning_item_ids": []
-    },
-    {
       "page": 28,
       "segment": 457,
-      "reason": "Subaru differs from prior Uber wording but could be a car make; do not silently repair either. Off campus means outside campus, and venue is named."
-    },
-    {
-      "page": 30,
-      "segment": 486,
-      "reason": "Threesome remains an explicit receptive vocabulary gap; proposition is attributed to the lawsuit. Do not infer agreement from a proposal."
+      "reason": "Subaru could be the make of the Uber vehicle, but the PDF does not confirm that relationship or rule out transcription error. Keep both names intact; destination and off-campus movement are clear without silently repairing the vehicle term."
     },
     {
       "page": 31,
       "segment": 502,
-      "reason": "Plopped up is suspect or unusual phrasing; retain rather than replace with propped up. Nested attribution Jane says they said separates apparent powder from chemical identification."
-    },
-    {
-      "page": 31,
-      "segment": 508,
-      "reason": "Elliptical forces oral and forcing intercourse require precise receptive definitions; no graphic expansion or silent repair. Source clearly attributes coercion."
-    },
-    {
-      "page": 32,
-      "segment": 509,
-      "reason": "Buttocks, slapping and bruising remain physical-action/injury vocabulary gaps. Multiple times and resulted in distinguish repetition and claimed consequence.",
-      "candidate_learning_item_ids": [
-        "word:7:defendant"
-      ]
+      "reason": "Passing the bag and powder description are supported. Plopped up remains unusual and must not be silently replaced by propped up. Jane says they said is nested attribution of the substance name, not chemical verification."
     },
     {
       "page": 32,
       "segment": 512,
-      "reason": "Hops onto a bed is informal movement and leaves this has an unclear object; retain ambiguity rather than inventing what exactly he leaves.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 32,
-      "segment": 520,
-      "reason": "Perhaps and rhetorical right introduce narrator's temporary hope; decent/uncovered are additional gaps. Do not label the entrant a rescuer."
-    },
-    {
-      "page": 32,
-      "segment": 523,
-      "reason": "Groping and reaching for private parts are central receptive vocabulary gaps; no euphemistic omission or erotic elaboration supplied.",
+      "reason": "The bed-movement meaning is now supported by the literal form in 514. Leaves this still has an unspecified object; 513 confirms remaining in the room but does not identify exactly what the demonstrative refers to. Retain the unresolved source reference.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 32,
       "segment": 524,
-      "reason": "Continues attributed assault account; initiating another assault and inconsistent Giglio/Jillio spelling remain explicit review issues, not reasons to merge identities silently.",
+      "reason": "Initiating now has the begin-an-act sense rather than membership initiation; the source explicitly denies consent. Giglio versus Jillio in the preceding account remains an unverified name discrepancy, so do not merge identities or silently alter the quotation.",
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ]
     },
     {
       "page": 33,
-      "segment": 536,
-      "reason": "Quoted vulgar sexual wording objectifies a person; requires a receptive register/meaning note and must not become an endorsed everyday speaking example.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 33,
-      "segment": 537,
-      "reason": "Repeats the vulgar phrase to check message content; no new factual confirmation or implication of consent.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 33,
       "segment": 538,
-      "reason": "Alum is interpreted as room shorthand later, not necessarily an alumnus; quotation needs explicit uncertainty and register treatment.",
+      "reason": "Vulgar phrase is supported; alum could be shorthand for the room as inferred in 540. The unpunctuated quoted message does not independently confirm that expansion or an alumnus referent, so preserve the abbreviation.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 33,
       "segment": 539,
-      "reason": "PU is an abbreviation fragment; do not silently expand it as original message text."
+      "reason": "PU remains a two-letter source fragment. The narrator later gives pull up as typical but immediately allows another meaning; do not turn the possible expansion into authenticated message text."
     },
     {
       "page": 33,
       "segment": 540,
-      "reason": "I think marks the narrator's inference that alum names the room. Abbreviated vulgar message still needs a dedicated receptive note, not automatic expansion.",
+      "reason": "I think explicitly marks the narrator's interpretation of alum as a room reference. Teaching the vulgar phrase and room name does not settle the abbreviation; retain the uncertainty rather than claiming complete understanding.",
       "candidate_learning_item_ids": [
         "word:7:alumni room"
       ]

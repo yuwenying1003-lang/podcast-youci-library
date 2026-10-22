@@ -6,8 +6,8 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 481,
-      "chunks": 118
+      "phrases": 494,
+      "chunks": 119
     },
     "source_candidate_totals": {
       "words": 321,
@@ -69,8 +69,8 @@
         "unit": 8,
         "pages": "27-33",
         "words": 47,
-        "phrases": 56,
-        "chunks": 12
+        "phrases": 69,
+        "chunks": 13
       },
       {
         "unit": 9,
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 515,
+      "covered": 523,
       "no_identified_barrier": 177,
-      "requires_review": 158
+      "requires_review": 150
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 158,
+      "transcript_segments_requiring_review": 150,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -6353,16 +6353,17 @@
       "page": 27,
       "segment": 427,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:7:side note",
-        "phrase:7:house mom"
+        "phrase:7:house mom",
+        "phrase:7:a big and you have a little"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Big and little are mentorship labels in Greek life, not size or age alone; explanation continues with a student peer in 428. Needs explicit role distinction.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Peer mentor/new-member labels now have explicit support and a university glossary check. Read 428–450: these student roles differ from the salaried professional house director, not from a biological mother solely by age.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Now, side note, house moms of sororities are not like your big sisters, which is like you have a big and you have a little and..."
     },
     {
@@ -6805,10 +6806,10 @@
       "learning_item_ids": [
         "phrase:7:go off campus"
       ],
-      "review_reason": "Subaru differs from prior Uber wording but could be a car make; do not silently repair either. Off campus means outside campus, and venue is named.",
+      "review_reason": "Subaru could be the make of the Uber vehicle, but the PDF does not confirm that relationship or rule out transcription error. Keep both names intact; destination and off-campus movement are clear without silently repairing the vehicle term.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "She gets in the Subaru and they go off campus to a bar called Mooney's."
     },
     {
@@ -6886,14 +6887,15 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
+        "chunk:7:despite the fact that",
         "word:7:establishment",
-        "word:3:beverages",
+        "word:7:bartender",
         "word:7:legal drinking age"
       ],
-      "review_reason": "Despite the fact that contrasts alleged service with underage status; the sentence is explicitly an allegation. Ends with and, a retained false start.",
+      "review_reason": "The contrast clause now has daily/social/work practice. They're all drinking is the narrator's account, and she's under age concerns Jane specifically; it does not identify the age of every attendee. There's a whole/there's a bunch is a false start before the group description.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "However the lawsuit alleges that mooney's is serving her drinks alcoholic beverages and there's like a whole there's a bunch of sorority sisters at this event at mooney's and they're all drinking despite the fact that she's under age at this establishment and"
     },
     {
@@ -7226,15 +7228,17 @@
       "page": 30,
       "segment": 486,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:7:pulls jane off to the side",
         "word:7:propositioned",
-        "phrase:7:pulls jane off to the side"
+        "phrase:7:threesome",
+        "phrase:7:according to the lawsuit"
       ],
-      "review_reason": "Threesome remains an explicit receptive vocabulary gap; proposition is attributed to the lawsuit. Do not infer agreement from a proposal.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Sexual sense of threesome is now explicitly receptive vocabulary, not an invitation or implied agreement. Pull off to the side means separate from the group; asks if introduces the proposal, all under source attribution.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Matthew pulls Jane off to the side and she says, according to the lawsuit, he propositioned her, asks her if she wants to have a threesome with another one of his fraternity brothers."
     },
     {
@@ -7478,14 +7482,14 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
+        "phrase:7:passing around",
         "word:7:powdery",
-        "word:7:substance",
-        "phrase:7:passing around"
+        "word:7:substance"
       ],
-      "review_reason": "Plopped up is suspect or unusual phrasing; retain rather than replace with propped up. Nested attribution Jane says they said separates apparent powder from chemical identification.",
+      "review_reason": "Passing the bag and powder description are supported. Plopped up remains unusual and must not be silently replaced by propped up. Jane says they said is nested attribution of the substance name, not chemical verification.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "According to the lawsuit, it seems Matthew is plopped up on the couch with Jonathan and they start passing around this plastic bag containing a white powdery substance, which Jane says they said was ketamine."
     },
     {
@@ -7573,29 +7577,36 @@
       "page": 31,
       "segment": 508,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:7:so called friend"
+        "phrase:7:so called friend",
+        "phrase:7:forces oral",
+        "phrase:7:intercourse"
       ],
-      "review_reason": "Elliptical forces oral and forcing intercourse require precise receptive definitions; no graphic expansion or silent repair. Source clearly attributes coercion.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The abbreviated sexual term and intercourse now have precise non-graphic receptive explanations. Forces/forcing express alleged coercion; behind/from behind are spatial. The label so-called distances the narrator from the friendship description, not from lack of consent.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Matthew, her so-called friend that she came for, forces oral, and Jonathan is behind her, forcing intercourse from behind."
     },
     {
       "page": 32,
       "segment": 509,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:slapping",
+        "phrase:7:buttocks",
+        "phrase:7:bruising",
+        "phrase:3:result in"
+      ],
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Buttocks, slapping and bruising remain physical-action/injury vocabulary gaps. Multiple times and resulted in distinguish repetition and claimed consequence.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Repeated open-hand strikes, affected body area and stated consequence now each have support. Throughout means during the whole event, kept + -ing marks repetition, and resulted in is a claimed causal link in the filing rather than a fresh diagnosis.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The filing states that throughout the entire assault, defendant Jonathan kept slapping Jane Doe on the buttocks multiple times that resulted in bruising."
     },
     {
@@ -7633,12 +7644,14 @@
       "segment": 512,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:7:hops onto"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Hops onto a bed is informal movement and leaves this has an unclear object; retain ambiguity rather than inventing what exactly he leaves.",
+      "review_reason": "The bed-movement meaning is now supported by the literal form in 514. Leaves this still has an unspecified object; 513 confirms remaining in the room but does not identify exactly what the demonstrative refers to. Retain the unresolved source reference.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So he just leaves this and hops onto a bed."
     },
     {
@@ -7660,13 +7673,13 @@
       "source_unit": 4,
       "status": "covered",
       "learning_item_ids": [
-        "phrase:7:falls asleep",
-        "phrase:7:take a nap"
+        "phrase:7:hops onto",
+        "phrase:7:falls asleep"
       ],
-      "review_reason": "Falls asleep means begins sleeping; one of three beds specifies a location, not leaving the room.",
+      "review_reason": "Moving onto one bed and beginning to sleep are now both explicit learning targets. One of the three selects a bed, not departure from the room or evidence about anyone else's state.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He just hops onto one of the three beds and he falls asleep."
     },
     {
@@ -7756,14 +7769,16 @@
       "page": 32,
       "segment": 520,
       "source_unit": 4,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:7:decent individual",
+        "phrase:7:uncovered",
         "phrase:7:according to the sequence"
       ],
-      "review_reason": "Perhaps and rhetorical right introduce narrator's temporary hope; decent/uncovered are additional gaps. Do not label the entrant a rescuer.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Perhaps expresses a tentative hope, going to be uncovered means about to be found, and right seeks agreement. Immediately read 521: But no rejects the hope, so the paragraph does not identify a rescuer or establish decent conduct.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Okay, perhaps this is like the first decent individual that's going to be uncovered according to the sequence of events in this lawsuit, right?"
     },
     {
@@ -7799,13 +7814,17 @@
       "page": 32,
       "segment": 523,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:groping",
+        "phrase:7:reach for",
+        "phrase:7:private parts"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Groping and reaching for private parts are central receptive vocabulary gaps; no euphemistic omission or erotic elaboration supplied.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Sexual unwanted touching and attempted reaching are distinguished. Gets up means rises and comes up behind means approaches from the rear; again signals repetition, and specifically narrows the target. The source's allegation is preserved without erotic elaboration.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And then Jonathan gets up and comes up behind her and starts groping her from behind, again, specifically reaching for her private parts."
     },
     {
@@ -7814,16 +7833,16 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:7:defendant",
+        "phrase:7:initiating another assault",
         "phrase:7:without her consent"
       ],
       "candidate_learning_item_ids": [
         "word:7:defendant"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Continues attributed assault account; initiating another assault and inconsistent Giglio/Jillio spelling remain explicit review issues, not reasons to merge identities silently.",
+      "review_reason": "Initiating now has the begin-an-act sense rather than membership initiation; the source explicitly denies consent. Giglio versus Jillio in the preceding account remains an unverified name discrepancy, so do not merge identities or silently alter the quotation.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And the lawsuit continues to state, defendant Giglio and Jonathan then placed Jane on a bed and the two men begin having sex with Jane, initiating another assault, all without Jane's consent."
     },
     {
@@ -7990,26 +8009,30 @@
       "page": 33,
       "segment": 536,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:free pussy"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Quoted vulgar sexual wording objectifies a person; requires a receptive register/meaning note and must not become an endorsed everyday speaking example.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The quoted message's vulgar objectification and no-payment claim now have explicit receptive support. Claims marks the sender's statement; none of these words establish willingness, capacity or consent.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He sends a message where he claims there is, quote, free pussy."
     },
     {
       "page": 33,
       "segment": 537,
       "source_unit": 4,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:7:free pussy"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Repeats the vulgar phrase to check message content; no new factual confirmation or implication of consent.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Clarification question repeats the message wording to ask whether it was all that was sent. Only/just restrict content, not ethical seriousness; the repeated phrase does not become an invitation or factual assertion by the course.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Is that the only thing, like, just free pussy?"
     },
     {
@@ -8017,12 +8040,15 @@
       "segment": 538,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:7:free pussy",
+        "word:7:alumni room"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Alum is interpreted as room shorthand later, not necessarily an alumnus; quotation needs explicit uncertainty and register treatment.",
+      "review_reason": "Vulgar phrase is supported; alum could be shorthand for the room as inferred in 540. The unpunctuated quoted message does not independently confirm that expansion or an alumnus referent, so preserve the abbreviation.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He says free pussy alum."
     },
     {
@@ -8030,11 +8056,13 @@
       "segment": 539,
       "source_unit": 4,
       "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "PU is an abbreviation fragment; do not silently expand it as original message text.",
+      "learning_item_ids": [
+        "phrase:7:pull up"
+      ],
+      "review_reason": "PU remains a two-letter source fragment. The narrator later gives pull up as typical but immediately allows another meaning; do not turn the possible expansion into authenticated message text.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "PU."
     },
     {
@@ -8043,15 +8071,16 @@
       "source_unit": 4,
       "status": "requires_review",
       "learning_item_ids": [
+        "phrase:7:free pussy",
         "word:7:alumni room"
       ],
       "candidate_learning_item_ids": [
         "word:7:alumni room"
       ],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "I think marks the narrator's inference that alum names the room. Abbreviated vulgar message still needs a dedicated receptive note, not automatic expansion.",
+      "review_reason": "I think explicitly marks the narrator's interpretation of alum as a room reference. Teaching the vulgar phrase and room name does not settle the abbreviation; retain the uncertainty rather than claiming complete understanding.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So free pussy alum, because I think it means they're in the alumni room."
     },
     {
@@ -8074,10 +8103,10 @@
       "learning_item_ids": [
         "phrase:7:pull up"
       ],
-      "review_reason": "Typically stands for offers a common possible expansion. Phrase card explicitly says this is not verified for this message.",
+      "review_reason": "This sentence reports a typical expansion, not certain decoding. Read 543's maybe something else as a limitation; the standalone message fragment 539 remains unresolved even though pull up as come over is already taught.",
       "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And then PU typically stands for pull up."
     },
     {

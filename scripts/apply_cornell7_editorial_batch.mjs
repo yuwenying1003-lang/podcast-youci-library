@@ -47,6 +47,16 @@ for (const [text, segment, definition, cn, example, example_cn, note] of batch.p
     editorial_status: 'reviewed_complete', reviewer: 'Codex', review_date: reviewDate, context_review_note: note,
     review_method: 'individual_pdf_contextual_review', independent_human_signoff: false });
 }
+for (const [text, segment] of batch.new_chunk_sources || []) {
+  const src = source.transcript.segments.find(s => s.segment === segment);
+  if (!src || !compact(src.text).includes(compact(text))) throw new Error(`Chunk not literal: ${text}`);
+  if (src.page < course.units[unit].transcript_pages[0] || src.page > course.units[unit].transcript_pages[1]) throw new Error(`Chunk outside unit: ${text}`);
+  if (course.patterns[unit].some(v => normalize(v.text) === normalize(text))) throw new Error(`Chunk already exists: ${text}`);
+  if (!(batch.chunks || []).some(v => v[0] === text && v[5]?.length === 3)) throw new Error(`Chunk lacks explicit review/scenarios: ${text}`);
+  course.patterns[unit].push({ text, source_page: src.page, source_segment: `segment-${segment}`,
+    source_excerpt: src.text, source_kind: 'original', source_verification: 'verified_transcript_match',
+    extraction_confidence: 'high', independent_human_signoff: false });
+}
 for (const [text, cn, function_en, replaceable_parts, note, scenes] of batch.chunks || []) {
   const item = course.patterns[unit].find(v => v.text === text);
   if (!item || !compact(source.pages[item.source_page - 1].raw_text).includes(compact(item.source_excerpt))) throw new Error(`Chunk source mismatch: ${text}`);

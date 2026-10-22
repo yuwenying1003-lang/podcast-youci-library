@@ -62,10 +62,23 @@ test('contextual coverage references real items and review summaries agree with 
     assert.ok(src.page >= course.units[p.unit].transcript_pages[0] && src.page <= course.units[p.unit].transcript_pages[1]);
   }
   const ids = new Set([
+    // Newly added Chunks use exact paragraph IDs, not inferred clips or times.
     ...course.vocab.map(x => `word:${x.unit}:${normalized(x.word)}`),
     ...course.expressions.map(x => `phrase:${x.unit}:${normalized(x.text)}`),
     ...course.patterns.flatMap((g, u) => g.map(x => `chunk:${u}:${normalized(x.text)}`)),
   ]);
+  const newChunkBatch = await read('reports/cornell7-unit8-listening-20261023-review.json');
+  for (const [text, segment] of newChunkBatch.new_chunk_sources) {
+    const item = course.patterns[newChunkBatch.unit - 1].find(x => x.text === text);
+    assert.equal(item.source_segment, `segment-${segment}`);
+    const row = source.transcript.segments.find(x => `segment-${x.segment}` === item.source_segment);
+    assert.equal(item.source_excerpt, row.text);
+    assert.equal(item.source_page, row.page);
+    assert.equal(item.independent_human_signoff, false);
+    assert.equal(item.example_source, 'adapted');
+    assert.equal(item.clip, undefined);
+    assert.equal(item.scenarios.length, 3);
+  }
   for (const row of coverage.segments.filter(x => x.reviewer === 'Codex')) {
     assert.ok(row.review_reason.length > 30);
     for (const id of row.learning_item_ids) assert.ok(ids.has(id), id);
