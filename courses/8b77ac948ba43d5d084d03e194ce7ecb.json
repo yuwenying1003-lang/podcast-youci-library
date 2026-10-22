@@ -23307,807 +23307,983 @@
     [
       {
         "text": "Am I allowed to ...?",
-        "cn": "我可以……吗",
-        "example": "And the student just very quickly says, am I allowed to stand here?",
-        "prompt": "Use “Am I allowed to ...?” in a complete sentence.",
+        "cn": "我可以……吗；规定允许我……吗？",
+        "example": "Am I allowed to hang a picture on this wall?",
+        "prompt": "Ask permission or check a rule.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "And the student just very quickly says, am I allowed to stand here?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我可以……吗",
+        "communicative_function": "Ask permission or check a rule.",
         "original_en": "And the student just very quickly says, am I allowed to stand here?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "Am I allowed to hang a picture on this wall?",
+        "everyday_example_zh": "我可以在这面墙上挂画吗？",
+        "workplace_example": "Am I allowed to take these documents home?",
+        "replaceable_parts": "Am I allowed to + base verb? Allowed concerns permission, not physical ability.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我可以……吗”这一表达。",
-            "goal_en": "Am I allowed to ...?",
+            "scene_zh": "你在租住房屋里想挂一幅画，先向房东确认是否允许打孔。",
+            "goal_en": "Ask permission or check a rule.",
             "keywords": [
-              "today",
-              "plan"
+              "hang",
+              "picture"
             ],
-            "starter": "Am I allowed to ...?",
-            "reference_answer": "And the student just very quickly says, am I allowed to stand here?"
+            "starter": "Am I allowed to",
+            "reference_answer": "Am I allowed to hang a picture on this wall?",
+            "reference_answer_zh": "我可以在这面墙上挂画吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我可以……吗”这一表达。",
-            "goal_en": "Am I allowed to ...?",
+            "scene_zh": "朋友邀请你参加聚会，你想先确认能否再带一个朋友。",
+            "goal_en": "Ask permission or check a rule.",
             "keywords": [
-              "friend",
-              "situation"
+              "bring",
+              "friend"
             ],
-            "starter": "Am I allowed to ...?",
-            "reference_answer": "And the student just very quickly says, am I allowed to stand here?"
+            "starter": "Am I allowed to",
+            "reference_answer": "Am I allowed to bring a friend?",
+            "reference_answer_zh": "我可以带一个朋友来吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我可以……吗”这一表达。",
-            "goal_en": "Am I allowed to ...?",
+            "scene_zh": "你要把工作文件带回家处理，先确认公司的相关规定。",
+            "goal_en": "Ask permission or check a rule.",
             "keywords": [
-              "project",
-              "team"
+              "take",
+              "documents"
             ],
-            "starter": "Am I allowed to ...?",
-            "reference_answer": "And the student just very quickly says, am I allowed to stand here?"
+            "starter": "Am I allowed to",
+            "reference_answer": "Am I allowed to take these documents home?",
+            "reference_answer_zh": "我可以把这些文件带回家吗？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我可以在这面墙上挂画吗？",
+        "example_source": "adapted",
+        "workplace_example_zh": "我可以把这些文件带回家吗？",
+        "context_review_note": "Source reports a student's question; the question itself does not establish the legal answer.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I can't think of many reasons",
-        "cn": "我想不出多少理由",
-        "example": "I can't think of many reasons that a person, a pedestrian, can be standing there and get hit by a car and somehow that person, the pedestrian, ends up at fault.",
-        "prompt": "Use “I can't think of many reasons” in a complete sentence.",
+        "cn": "我想不出多少理由……",
+        "example": "I can't think of many reasons to replace a table that still works well.",
+        "prompt": "Express difficulty finding plausible explanations without claiming none exist.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "I can't think of many reasons that a person, a pedestrian, can be standing there and get hit by a car and somehow that person, the pedestrian, ends up at fault.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我想不出多少理由",
+        "communicative_function": "Express difficulty finding plausible explanations without claiming none exist.",
         "original_en": "I can't think of many reasons that a person, a pedestrian, can be standing there and get hit by a car and somehow that person, the pedestrian, ends up at fault.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I can't think of many reasons to replace a table that still works well.",
+        "everyday_example_zh": "我想不出多少理由要换掉一张仍很好用的桌子。",
+        "workplace_example": "I can't think of many reasons to keep this duplicate step.",
+        "replaceable_parts": "I can't think of many reasons why + clause or to + verb. Many differs from any.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我想不出多少理由”这一表达。",
-            "goal_en": "I can't think of many reasons",
+            "scene_zh": "家人建议换掉还很好用的桌子，你说明自己暂时想不到充分理由。",
+            "goal_en": "Express difficulty finding plausible explanations without claiming none exist.",
             "keywords": [
-              "today",
-              "plan"
+              "replace",
+              "table"
             ],
             "starter": "I can't think of many reasons",
-            "reference_answer": "I can't think of many reasons that a person, a pedestrian, can be standing there and get hit by a car and somehow that person, the pedestrian, ends up at fault."
+            "reference_answer": "I can't think of many reasons to replace a table that still works well.",
+            "reference_answer_zh": "我想不出多少理由要换掉一张仍很好用的桌子。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我想不出多少理由”这一表达。",
-            "goal_en": "I can't think of many reasons",
+            "scene_zh": "朋友想取消期待已久的旅行，但目前没有明显障碍，你表达疑惑。",
+            "goal_en": "Express difficulty finding plausible explanations without claiming none exist.",
             "keywords": [
-              "friend",
-              "situation"
+              "cancel",
+              "trip"
             ],
             "starter": "I can't think of many reasons",
-            "reference_answer": "I can't think of many reasons that a person, a pedestrian, can be standing there and get hit by a car and somehow that person, the pedestrian, ends up at fault."
+            "reference_answer": "I can't think of many reasons why we'd cancel the trip now.",
+            "reference_answer_zh": "我想不出多少理由说明我们为什么现在要取消旅行。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我想不出多少理由”这一表达。",
-            "goal_en": "I can't think of many reasons",
+            "scene_zh": "团队讨论是否保留重复流程，你说明目前看不到太多收益。",
+            "goal_en": "Express difficulty finding plausible explanations without claiming none exist.",
             "keywords": [
-              "project",
-              "team"
+              "keep",
+              "duplicate step"
             ],
             "starter": "I can't think of many reasons",
-            "reference_answer": "I can't think of many reasons that a person, a pedestrian, can be standing there and get hit by a car and somehow that person, the pedestrian, ends up at fault."
+            "reference_answer": "I can't think of many reasons to keep this duplicate step.",
+            "reference_answer_zh": "我想不出多少理由要保留这个重复步骤。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我想不出多少理由要换掉一张仍很好用的桌子。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我想不出多少理由要保留这个重复步骤。",
+        "context_review_note": "Source questions a conclusion about fault; inability to imagine reasons is not proof of legal responsibility.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know if",
-        "cn": "我不知道是否",
-        "example": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available.",
-        "prompt": "Use “I don't know if ...” in a complete sentence.",
+        "cn": "我不知道是否……",
+        "example": "I don't know if we have enough rice for everyone.",
+        "prompt": "Acknowledge uncertainty about a proposition.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我不知道是否",
+        "communicative_function": "Acknowledge uncertainty about a proposition.",
         "original_en": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I don't know if we have enough rice for everyone.",
+        "everyday_example_zh": "我不知道米饭够不够大家吃。",
+        "workplace_example": "I don't know if this template has been approved.",
+        "replaceable_parts": "I don't know if + statement-order clause; if means whether.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道是否……”这一表达。",
-            "goal_en": "I don't know if ...",
+            "scene_zh": "家人问剩下的米饭是否足够，你还没有查看份量。",
+            "goal_en": "Acknowledge uncertainty about a proposition.",
             "keywords": [
-              "today",
-              "plan"
+              "enough",
+              "rice"
             ],
-            "starter": "I don't know if ...",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if we have enough rice for everyone.",
+            "reference_answer_zh": "我不知道米饭够不够大家吃。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道是否……”这一表达。",
-            "goal_en": "I don't know if ...",
+            "scene_zh": "朋友问你能不能参加周六活动，你还需要确认自己的日程。",
+            "goal_en": "Acknowledge uncertainty about a proposition.",
             "keywords": [
-              "friend",
-              "situation"
+              "free",
+              "Saturday"
             ],
-            "starter": "I don't know if ...",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if I'm free on Saturday yet.",
+            "reference_answer_zh": "我还不知道周六有没有空。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道是否……”这一表达。",
-            "goal_en": "I don't know if ...",
+            "scene_zh": "你收到一份新模板，但尚未确认其他团队是否已经采用。",
+            "goal_en": "Acknowledge uncertainty about a proposition.",
             "keywords": [
-              "project",
-              "team"
+              "template",
+              "approved"
             ],
-            "starter": "I don't know if ...",
-            "reference_answer": "So I do know that a lot of these big – I think ABC News has been getting their hands on – I don't know if they got the whole Title IX investigation, which that is not publicly available and probably will never be publicly available."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if this template has been approved.",
+            "reference_answer_zh": "我不知道这个模板是否已经获批。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道米饭够不够大家吃。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不知道这个模板是否已经获批。",
+        "context_review_note": "Source distinguishes uncertainty about permission from a judgment about what may be wise; do not merge those claims.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know if ..., but ...",
-        "cn": "我不知道是否……但是……",
-        "example": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid.",
-        "prompt": "Use “I don't know if ..., but ...” in a complete sentence.",
+        "cn": "我不知道是否……，不过……",
+        "example": "I don't know if the fridge is broken, but that noise is unusual.",
+        "prompt": "Separate an uncertain point from a second observation or suggestion.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我不知道是否……但是……",
+        "communicative_function": "Separate an uncertain point from a second observation or suggestion.",
         "original_en": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "I don't know if the fridge is broken, but that noise is unusual.",
+        "everyday_example_zh": "我不知道冰箱是不是坏了，不过那个声音不正常。",
+        "workplace_example": "I don't know if the issue is serious, but we should make a backup.",
+        "replaceable_parts": "I don't know if + clause, but + clause; uncertainty in the first clause does not prove the second.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道是否……但是……”这一表达。",
-            "goal_en": "I don't know if ..., but ...",
+            "scene_zh": "你不确定冰箱是否坏了，但发现声音异常，建议先检查。",
+            "goal_en": "Separate an uncertain point from a second observation or suggestion.",
             "keywords": [
-              "today",
-              "plan"
+              "fridge",
+              "noise"
             ],
-            "starter": "I don't know if ..., but ...",
-            "reference_answer": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if the fridge is broken, but that noise is unusual.",
+            "reference_answer_zh": "我不知道冰箱是不是坏了，不过那个声音不正常。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道是否……但是……”这一表达。",
-            "goal_en": "I don't know if ..., but ...",
+            "scene_zh": "朋友还没确认是否参加聚会，你说自己仍会给他留个位子。",
+            "goal_en": "Separate an uncertain point from a second observation or suggestion.",
             "keywords": [
-              "friend",
-              "situation"
+              "coming",
+              "seat"
             ],
-            "starter": "I don't know if ..., but ...",
-            "reference_answer": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if he's coming, but I'll save him a seat.",
+            "reference_answer_zh": "我不知道他来不来，不过我会给他留个位子。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道是否……但是……”这一表达。",
-            "goal_en": "I don't know if ..., but ...",
+            "scene_zh": "你尚未确认问题是否严重，但认为团队应先做好备份。",
+            "goal_en": "Separate an uncertain point from a second observation or suggestion.",
             "keywords": [
-              "project",
-              "team"
+              "serious",
+              "backup"
             ],
-            "starter": "I don't know if ..., but ...",
-            "reference_answer": "I don't know if he's allowed to stand there, but maybe he shouldn't be standing there because the black Cadillac decides I'm just going to hit the kid."
+            "starter": "I don't know if",
+            "reference_answer": "I don't know if the issue is serious, but we should make a backup.",
+            "reference_answer_zh": "我不知道这个问题是否严重，不过我们应该先备份。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道冰箱是不是坏了，不过那个声音不正常。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不知道这个问题是否严重，不过我们应该先备份。",
+        "context_review_note": "Source contrasts permission with caution; the teaching pattern does not assign fault for the source incident.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I mean",
-        "cn": "我是说",
-        "example": "I mean, you really have to be kind of shit out of luck.",
-        "prompt": "Use “I mean” in a complete sentence.",
+        "cn": "我的意思是；我是说……",
+        "example": "I mean, I'd rather eat later, not skip dinner.",
+        "prompt": "Clarify, rephrase or add emphasis in conversation.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "I mean, you really have to be kind of shit out of luck.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我是说",
+        "communicative_function": "Clarify, rephrase or add emphasis in conversation.",
         "original_en": "I mean, you really have to be kind of shit out of luck.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I mean, I'd rather eat later, not skip dinner.",
+        "everyday_example_zh": "我是说，我想晚一点吃，不是不吃晚饭。",
+        "workplace_example": "I mean, we only need to change one step, not start over.",
+        "replaceable_parts": "I mean, + reformulation or explanation; not always a literal statement of intention.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我是说”这一表达。",
-            "goal_en": "I mean",
+            "scene_zh": "家人误以为你想吃很少的饭，你重新说明自己只是想晚一点吃。",
+            "goal_en": "Clarify, rephrase or add emphasis in conversation.",
             "keywords": [
-              "today",
-              "plan"
+              "later",
+              "dinner"
             ],
-            "starter": "I mean",
-            "reference_answer": "I mean, you really have to be kind of shit out of luck."
+            "starter": "I mean,",
+            "reference_answer": "I mean, I'd rather eat later, not skip dinner.",
+            "reference_answer_zh": "我是说，我想晚一点吃，不是不吃晚饭。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我是说”这一表达。",
-            "goal_en": "I mean",
+            "scene_zh": "你对朋友说旅行很累后，补充说明自己仍然觉得值得。",
+            "goal_en": "Clarify, rephrase or add emphasis in conversation.",
             "keywords": [
-              "friend",
-              "situation"
+              "tiring",
+              "enjoyed"
             ],
-            "starter": "I mean",
-            "reference_answer": "I mean, you really have to be kind of shit out of luck."
+            "starter": "I mean,",
+            "reference_answer": "I mean, it was tiring, but I really enjoyed it.",
+            "reference_answer_zh": "我是说，虽然很累，但我真的很喜欢这趟旅行。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我是说”这一表达。",
-            "goal_en": "I mean",
+            "scene_zh": "同事把你的建议理解为重做项目，你澄清只是调整一个步骤。",
+            "goal_en": "Clarify, rephrase or add emphasis in conversation.",
             "keywords": [
-              "project",
-              "team"
+              "change",
+              "step"
             ],
-            "starter": "I mean",
-            "reference_answer": "I mean, you really have to be kind of shit out of luck."
+            "starter": "I mean,",
+            "reference_answer": "I mean, we only need to change one step, not start over.",
+            "reference_answer_zh": "我的意思是，我们只需要改一个步骤，不是从头开始。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我是说，我想晚一点吃，不是不吃晚饭。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我的意思是，我们只需要改一个步骤，不是从头开始。",
+        "context_review_note": "Source uses a discourse marker before an emphatic judgment. The profanity in the source is not required by the reusable frame.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "sooner rather than later",
-        "cn": "宜早不宜迟",
-        "example": "We should fix the issue sooner rather than later.",
-        "prompt": "Tell a colleague something should be done soon.",
+        "cn": "尽早；早一点而不是拖到以后",
+        "example": "We should fix the leak sooner rather than later.",
+        "prompt": "Favor an earlier time without giving an exact deadline.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "He's got his phone up and we get the answer to his question sooner rather than later.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "宜早不宜迟",
+        "communicative_function": "Favor an earlier time without giving an exact deadline.",
         "original_en": "He's got his phone up and we get the answer to his question sooner rather than later.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "We should fix the leak sooner rather than later.",
+        "everyday_example_zh": "我们应该尽早修好漏水的地方。",
+        "workplace_example": "We need to clarify these requirements sooner rather than later.",
+        "replaceable_parts": "Do something sooner rather than later; can describe a quick outcome or urge prompt action.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "周末出行时改变了原计划：请用“越早越好”组织一句完整英语。",
-            "goal_en": "Tell a colleague something should be done soon.",
+            "label": "Daily life",
+            "scene_zh": "水管有轻微漏水，你建议家人不要一直拖着维修。",
+            "goal_en": "Favor an earlier time without giving an exact deadline.",
             "keywords": [
-              "issue",
-              "sooner",
-              "than",
-              "later"
+              "fix",
+              "leak"
             ],
-            "starter": "sooner rather than later",
-            "reference_answer": "We should fix the issue sooner rather than later."
+            "starter": "Sooner rather than later,",
+            "reference_answer": "We should fix the leak sooner rather than later.",
+            "reference_answer_zh": "我们应该尽早修好漏水的地方。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "回应朋友对周末计划的看法：请用“越早越好”组织一句完整英语。",
-            "goal_en": "Tell a colleague something should be done soon.",
+            "label": "Friends",
+            "scene_zh": "朋友想约一顿饭但一直没定，你提议早点确定时间。",
+            "goal_en": "Favor an earlier time without giving an exact deadline.",
             "keywords": [
-              "issue",
-              "sooner",
-              "than",
-              "later"
+              "pick",
+              "date"
             ],
-            "starter": "sooner rather than later",
-            "reference_answer": "We should fix the issue sooner rather than later."
+            "starter": "Sooner rather than later,",
+            "reference_answer": "Let's pick a date sooner rather than later.",
+            "reference_answer_zh": "我们早点定个日期吧。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "更新团队目前已经确认的信息：请用“越早越好”组织一句完整英语。",
-            "goal_en": "Tell a colleague something should be done soon.",
+            "label": "Work",
+            "scene_zh": "项目依赖客户回复，你建议团队尽早提出待确认的问题。",
+            "goal_en": "Favor an earlier time without giving an exact deadline.",
             "keywords": [
-              "issue",
-              "sooner",
-              "than",
-              "later"
+              "clarify",
+              "requirements"
             ],
-            "starter": "sooner rather than later",
-            "reference_answer": "We should fix the issue sooner rather than later."
+            "starter": "Sooner rather than later,",
+            "reference_answer": "We need to clarify these requirements sooner rather than later.",
+            "reference_answer_zh": "我们需要尽早弄清这些需求。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我们应该尽早修好漏水的地方。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们需要尽早弄清这些需求。",
+        "context_review_note": "Source uses it ironically about quickly receiving an answer through events, not as a literal scheduling instruction.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's not really many scenarios",
-        "cn": "几乎没有几种可能情况",
-        "example": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions.",
-        "prompt": "Use “There's not really many scenarios” in a complete sentence.",
+        "cn": "其实没有多少种情况……",
+        "example": "There aren't really many scenarios in which we'd need two rental cars.",
+        "prompt": "Express that few situations would meet a condition.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "几乎没有几种可能情况",
+        "communicative_function": "Express that few situations would meet a condition.",
         "original_en": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "There aren't really many scenarios in which we'd need two rental cars.",
+        "everyday_example_zh": "其实没有多少种情况会让我们需要租两辆车。",
+        "workplace_example": "There aren't really many scenarios in which we'd need a full rollback.",
+        "replaceable_parts": "Careful form: There aren't really many scenarios in which + clause. Source there's + plural is informal spoken agreement.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“几乎没有几种可能情况”这一表达。",
-            "goal_en": "There's not really many scenarios",
+            "scene_zh": "你比较日常出行方式，觉得很少有情况需要同时租两辆车。",
+            "goal_en": "Express that few situations would meet a condition.",
             "keywords": [
-              "today",
-              "plan"
+              "need",
+              "two cars"
             ],
-            "starter": "There's not really many scenarios",
-            "reference_answer": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions."
+            "starter": "There aren't really many scenarios",
+            "reference_answer": "There aren't really many scenarios in which we'd need two rental cars.",
+            "reference_answer_zh": "其实没有多少种情况会让我们需要租两辆车。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“几乎没有几种可能情况”这一表达。",
-            "goal_en": "There's not really many scenarios",
+            "scene_zh": "朋友担心聚会无人到场，你说明大多数人已经确认会来。",
+            "goal_en": "Express that few situations would meet a condition.",
             "keywords": [
-              "friend",
-              "situation"
+              "everyone",
+              "cancels"
             ],
-            "starter": "There's not really many scenarios",
-            "reference_answer": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions."
+            "starter": "There aren't really many scenarios",
+            "reference_answer": "There aren't really many scenarios in which everyone cancels at once.",
+            "reference_answer_zh": "其实很少会出现所有人同时取消的情况。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“几乎没有几种可能情况”这一表达。",
-            "goal_en": "There's not really many scenarios",
+            "scene_zh": "团队讨论回退计划，你说明只有少数条件会触发全面回退。",
+            "goal_en": "Express that few situations would meet a condition.",
             "keywords": [
-              "project",
-              "team"
+              "full",
+              "rollback"
             ],
-            "starter": "There's not really many scenarios",
-            "reference_answer": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions."
+            "starter": "There aren't really many scenarios",
+            "reference_answer": "There aren't really many scenarios in which we'd need a full rollback.",
+            "reference_answer_zh": "其实只有很少几种情况会需要全面回退。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "其实没有多少种情况会让我们需要租两辆车。",
+        "example_source": "adapted",
+        "workplace_example_zh": "其实只有很少几种情况会需要全面回退。",
+        "context_review_note": "Keep exact source heading for recognition; teach plural agreement in complete adapted sentences. The conclusion remains a personal assessment.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "without asking a ton of follow-up questions",
-        "cn": "不追问一大堆问题就",
-        "example": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions.",
-        "prompt": "Use “without asking a ton of follow-up questions” in a complete sentence.",
+        "cn": "没有追问一大堆后续问题就……",
+        "example": "I wouldn't accept that quote without asking a ton of follow-up questions.",
+        "prompt": "Emphasize the need to clarify details before accepting or deciding.",
         "source_page": 1,
         "source_segment": "page-1",
         "source_excerpt": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "不追问一大堆问题就",
+        "communicative_function": "Emphasize the need to clarify details before accepting or deciding.",
         "original_en": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I wouldn't accept that quote without asking a ton of follow-up questions.",
+        "everyday_example_zh": "我不会不追问一大堆细节就接受那个报价。",
+        "workplace_example": "We can't estimate the project without asking a ton of follow-up questions.",
+        "replaceable_parts": "Without + -ing; a ton of is informal exaggeration meaning many, not weight.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“不追问一大堆问题就”这一表达。",
-            "goal_en": "without asking a ton of follow-up questions",
+            "scene_zh": "你比较复杂的装修报价，告诉家人自己不能不问细节就答应。",
+            "goal_en": "Emphasize the need to clarify details before accepting or deciding.",
             "keywords": [
-              "today",
-              "plan"
+              "quote",
+              "accept"
             ],
-            "starter": "without asking a ton of follow-up questions",
-            "reference_answer": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions."
+            "starter": "Without asking a ton of follow-up questions,",
+            "reference_answer": "I wouldn't accept that quote without asking a ton of follow-up questions.",
+            "reference_answer_zh": "我不会不追问一大堆细节就接受那个报价。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“不追问一大堆问题就”这一表达。",
-            "goal_en": "without asking a ton of follow-up questions",
+            "scene_zh": "朋友讲了一个离奇故事，你说明自己还想了解更多背景。",
+            "goal_en": "Emphasize the need to clarify details before accepting or deciding.",
             "keywords": [
-              "friend",
-              "situation"
+              "story",
+              "believe"
             ],
-            "starter": "without asking a ton of follow-up questions",
-            "reference_answer": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions."
+            "starter": "Without asking a ton of follow-up questions,",
+            "reference_answer": "I can't understand that story without asking a ton of follow-up questions.",
+            "reference_answer_zh": "不追问很多后续问题，我实在理解不了那个故事。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“不追问一大堆问题就”这一表达。",
-            "goal_en": "without asking a ton of follow-up questions",
+            "scene_zh": "客户只发来很短的需求，你解释自己无法直接估算工期。",
+            "goal_en": "Emphasize the need to clarify details before accepting or deciding.",
             "keywords": [
-              "project",
-              "team"
+              "estimate",
+              "project"
             ],
-            "starter": "without asking a ton of follow-up questions",
-            "reference_answer": "There's not really many scenarios in which I would immediately accept that conclusion without asking a ton of follow-up questions."
+            "starter": "Without asking a ton of follow-up questions,",
+            "reference_answer": "We can't estimate the project without asking a ton of follow-up questions.",
+            "reference_answer_zh": "不追问一大堆后续问题，我们没法估算这个项目。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不会不追问一大堆细节就接受那个报价。",
+        "example_source": "adapted",
+        "workplace_example_zh": "不追问一大堆后续问题，我们没法估算这个项目。",
+        "context_review_note": "Source says acceptance would usually require further questions; follow-up questions probe earlier information.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's not like",
-        "cn": "并不是说",
-        "example": "He doesn't get dragged, but it's not like a super soft tap either.",
-        "prompt": "Use “It's not like” in a complete sentence.",
+        "cn": "并不是说……；又不是……",
+        "example": "It's not like we're renovating the whole house.",
+        "prompt": "Reject an exaggerated comparison or assumption.",
         "source_page": 2,
         "source_segment": "page-2",
         "source_excerpt": "He doesn't get dragged, but it's not like a super soft tap either.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "并不是说",
+        "communicative_function": "Reject an exaggerated comparison or assumption.",
         "original_en": "He doesn't get dragged, but it's not like a super soft tap either.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's not like we're renovating the whole house.",
+        "everyday_example_zh": "我们又不是要翻修整栋房子。",
+        "workplace_example": "It's not like we've promised a release date yet.",
+        "replaceable_parts": "It's not like + noun phrase or clause; rhetorical form can sound defensive.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“并不是说”这一表达。",
-            "goal_en": "It's not like",
+            "scene_zh": "家人担心一次小维修会影响很久，你说明并不是要整屋翻修。",
+            "goal_en": "Reject an exaggerated comparison or assumption.",
             "keywords": [
-              "today",
-              "plan"
+              "renovating",
+              "house"
             ],
             "starter": "It's not like",
-            "reference_answer": "He doesn't get dragged, but it's not like a super soft tap either."
+            "reference_answer": "It's not like we're renovating the whole house.",
+            "reference_answer_zh": "我们又不是要翻修整栋房子。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“并不是说”这一表达。",
-            "goal_en": "It's not like",
+            "scene_zh": "朋友因迟到几分钟很自责，你安慰他说并没有错过整场活动。",
+            "goal_en": "Reject an exaggerated comparison or assumption.",
             "keywords": [
-              "friend",
-              "situation"
+              "missed",
+              "whole event"
             ],
             "starter": "It's not like",
-            "reference_answer": "He doesn't get dragged, but it's not like a super soft tap either."
+            "reference_answer": "It's not like you missed the whole event.",
+            "reference_answer_zh": "你又不是错过了整场活动。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“并不是说”这一表达。",
-            "goal_en": "It's not like",
+            "scene_zh": "同事把试验理解成正式承诺，你澄清两者的区别。",
+            "goal_en": "Reject an exaggerated comparison or assumption.",
             "keywords": [
-              "project",
-              "team"
+              "promised",
+              "release"
             ],
             "starter": "It's not like",
-            "reference_answer": "He doesn't get dragged, but it's not like a super soft tap either."
+            "reference_answer": "It's not like we've promised a release date yet.",
+            "reference_answer_zh": "我们还没有承诺发布日期呢。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我们又不是要翻修整栋房子。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们还没有承诺发布日期呢。",
+        "context_review_note": "Source rejects the idea that contact was merely a very gentle tap, while also saying it was not dragging.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "it kind of sounds",
-        "cn": "听起来有点",
-        "example": "I mean, it kind of sounds bizarre because like, sure, you probably shouldn't be standing in front of a car that's trying to get out of the parking lot.",
-        "prompt": "Use “it kind of sounds” in a complete sentence.",
+        "cn": "听起来有点……",
+        "example": "It kind of sounds strange, but I'm not sure what's wrong.",
+        "prompt": "Soften an impression based on a description or sound.",
         "source_page": 3,
         "source_segment": "page-3",
         "source_excerpt": "I mean, it kind of sounds bizarre because like, sure, you probably shouldn't be standing in front of a car that's trying to get out of the parking lot.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "听起来有点",
+        "communicative_function": "Soften an impression based on a description or sound.",
         "original_en": "I mean, it kind of sounds bizarre because like, sure, you probably shouldn't be standing in front of a car that's trying to get out of the parking lot.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It kind of sounds strange, but I'm not sure what's wrong.",
+        "everyday_example_zh": "听起来有点奇怪，不过我不确定哪里出了问题。",
+        "workplace_example": "It kind of sounds complicated. Could we simplify it?",
+        "replaceable_parts": "It kind of sounds + adjective; add like before a noun or clause. Kind of is informal degree softening.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“听起来有点”这一表达。",
-            "goal_en": "it kind of sounds",
+            "scene_zh": "你听见厨房设备发出异响，但不确定是否真的有故障。",
+            "goal_en": "Soften an impression based on a description or sound.",
             "keywords": [
-              "today",
-              "plan"
+              "strange",
+              "noise"
             ],
-            "starter": "it kind of sounds",
-            "reference_answer": "I mean, it kind of sounds bizarre because like, sure, you probably shouldn't be standing in front of a car that's trying to get out of the parking lot."
+            "starter": "It kind of sounds",
+            "reference_answer": "It kind of sounds strange, but I'm not sure what's wrong.",
+            "reference_answer_zh": "听起来有点奇怪，不过我不确定哪里出了问题。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“听起来有点”这一表达。",
-            "goal_en": "it kind of sounds",
+            "scene_zh": "朋友描述一次需要早起的旅行，你觉得安排可能有些累。",
+            "goal_en": "Soften an impression based on a description or sound.",
             "keywords": [
-              "friend",
-              "situation"
+              "exhausting",
+              "trip"
             ],
-            "starter": "it kind of sounds",
-            "reference_answer": "I mean, it kind of sounds bizarre because like, sure, you probably shouldn't be standing in front of a car that's trying to get out of the parking lot."
+            "starter": "It kind of sounds",
+            "reference_answer": "It kind of sounds exhausting, even though it could be fun.",
+            "reference_answer_zh": "听起来有点累，虽然可能也很有趣。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“听起来有点”这一表达。",
-            "goal_en": "it kind of sounds",
+            "scene_zh": "同事提出新流程，你根据描述觉得它可能有些复杂。",
+            "goal_en": "Soften an impression based on a description or sound.",
             "keywords": [
-              "project",
-              "team"
+              "complicated",
+              "process"
             ],
-            "starter": "it kind of sounds",
-            "reference_answer": "I mean, it kind of sounds bizarre because like, sure, you probably shouldn't be standing in front of a car that's trying to get out of the parking lot."
+            "starter": "It kind of sounds",
+            "reference_answer": "It kind of sounds complicated. Could we simplify it?",
+            "reference_answer_zh": "听起来有点复杂，我们能简化一下吗？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "听起来有点奇怪，不过我不确定哪里出了问题。",
+        "example_source": "adapted",
+        "workplace_example_zh": "听起来有点复杂，我们能简化一下吗？",
+        "context_review_note": "Source's bizarre describes the narrator's reaction to the account; not a legal finding.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's kind of like ...",
-        "cn": "有点像……",
-        "example": "It's kind of like built-in marketing.",
-        "prompt": "Use “It's kind of like” in a complete sentence.",
+        "cn": "它有点像……",
+        "example": "It's kind of like a tiny neighborhood library.",
+        "prompt": "Make an approximate comparison rather than assert identity.",
         "source_page": 3,
         "source_segment": "page-3",
         "source_excerpt": "It's kind of like a mixture of preventing it from leaving and kind of loitering.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "有点像……",
+        "communicative_function": "Make an approximate comparison rather than assert identity.",
         "original_en": "It's kind of like a mixture of preventing it from leaving and kind of loitering.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It's kind of like a tiny neighborhood library.",
+        "everyday_example_zh": "它有点像一个小小的社区图书馆。",
+        "workplace_example": "It's kind of like keeping a copy of every draft.",
+        "replaceable_parts": "It's kind of like + noun/-ing phrase; kind of weakens the comparison.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这有点像”这一表达。",
-            "goal_en": "It's kind of like",
+            "scene_zh": "你向家人介绍共享书架，用熟悉的小图书馆来打比方。",
+            "goal_en": "Make an approximate comparison rather than assert identity.",
             "keywords": [
-              "today",
-              "plan"
+              "library",
+              "shared shelf"
             ],
             "starter": "It's kind of like",
-            "reference_answer": "It's kind of like built-in marketing."
+            "reference_answer": "It's kind of like a tiny neighborhood library.",
+            "reference_answer_zh": "它有点像一个小小的社区图书馆。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这有点像”这一表达。",
-            "goal_en": "It's kind of like",
+            "scene_zh": "朋友不理解新桌游，你用共同解谜来解释玩法特点。",
+            "goal_en": "Make an approximate comparison rather than assert identity.",
             "keywords": [
-              "friend",
-              "situation"
+              "puzzle",
+              "together"
             ],
             "starter": "It's kind of like",
-            "reference_answer": "It's kind of like built-in marketing."
+            "reference_answer": "It's kind of like solving a puzzle together.",
+            "reference_answer_zh": "它有点像一起解一道谜题。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这有点像”这一表达。",
-            "goal_en": "It's kind of like",
+            "scene_zh": "你向同事解释版本历史，用保留每次草稿来作类比。",
+            "goal_en": "Make an approximate comparison rather than assert identity.",
             "keywords": [
-              "project",
-              "team"
+              "drafts",
+              "history"
             ],
             "starter": "It's kind of like",
-            "reference_answer": "It's kind of like built-in marketing."
+            "reference_answer": "It's kind of like keeping a copy of every draft.",
+            "reference_answer_zh": "它有点像给每一版草稿都留一份副本。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "它有点像一个小小的社区图书馆。",
+        "example_source": "adapted",
+        "workplace_example_zh": "它有点像给每一版草稿都留一份副本。",
+        "context_review_note": "Source compares behavior with a mixture of blocking and loitering; this is the narrator's characterization.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's a bunch of ...",
-        "cn": "有一群……",
-        "example": "So there's a bunch of students blocking the car.",
-        "prompt": "Use “There's a bunch of ...” in a complete sentence.",
+        "cn": "有一群或一堆……",
+        "example": "There's a bunch of packages by the door.",
+        "prompt": "Describe an informal group or quantity.",
         "source_page": 3,
         "source_segment": "page-3",
         "source_excerpt": "So there's a bunch of students blocking the car.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "有一群……",
+        "communicative_function": "Describe an informal group or quantity.",
         "original_en": "So there's a bunch of students blocking the car.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "There's a bunch of packages by the door.",
+        "everyday_example_zh": "门口有一堆包裹。",
+        "workplace_example": "There's a bunch of questions we still need to discuss.",
+        "replaceable_parts": "There's a bunch of + plural noun is common conversationally; there are a lot of is a neutral alternative.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“有一群……”这一表达。",
-            "goal_en": "There's a bunch of ...",
+            "scene_zh": "你整理门口时发现许多包裹，告诉家人先留出地方。",
+            "goal_en": "Describe an informal group or quantity.",
             "keywords": [
-              "today",
-              "plan"
+              "packages",
+              "door"
             ],
-            "starter": "There's a bunch of ...",
-            "reference_answer": "So there's a bunch of students blocking the car."
+            "starter": "There's a bunch of",
+            "reference_answer": "There's a bunch of packages by the door.",
+            "reference_answer_zh": "门口有一堆包裹。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“有一群……”这一表达。",
-            "goal_en": "There's a bunch of ...",
+            "scene_zh": "你到聚会现场后向朋友介绍还有一群人在外面聊天。",
+            "goal_en": "Describe an informal group or quantity.",
             "keywords": [
-              "friend",
-              "situation"
+              "people",
+              "outside"
             ],
-            "starter": "There's a bunch of ...",
-            "reference_answer": "So there's a bunch of students blocking the car."
+            "starter": "There's a bunch of",
+            "reference_answer": "There's a bunch of people chatting outside.",
+            "reference_answer_zh": "外面有一群人在聊天。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“有一群……”这一表达。",
-            "goal_en": "There's a bunch of ...",
+            "scene_zh": "你准备会议时提醒同事还有一些问题需要一起处理。",
+            "goal_en": "Describe an informal group or quantity.",
             "keywords": [
-              "project",
-              "team"
+              "questions",
+              "discuss"
             ],
-            "starter": "There's a bunch of ...",
-            "reference_answer": "So there's a bunch of students blocking the car."
+            "starter": "There's a bunch of",
+            "reference_answer": "There's a bunch of questions we still need to discuss.",
+            "reference_answer_zh": "还有一堆问题我们需要讨论。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "门口有一堆包裹。",
+        "example_source": "adapted",
+        "workplace_example_zh": "还有一堆问题我们需要讨论。",
+        "context_review_note": "Source refers to a group of students; bunch is not a precise count or a literal bundle.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's different people",
-        "cn": "有不同的人",
-        "example": "There's different people.",
-        "prompt": "Use “There's different people” in a complete sentence.",
+        "cn": "有不同的人；不止同一个人",
+        "example": "There are different people making deliveries on different days.",
+        "prompt": "Point out multiple different people in a scene.",
         "source_page": 2,
         "source_segment": "page-2",
         "source_excerpt": "There's different people.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "有不同的人",
+        "communicative_function": "Point out multiple different people in a scene.",
         "original_en": "There's different people.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "There are different people making deliveries on different days.",
+        "everyday_example_zh": "不同日子来送货的是不同的人。",
+        "workplace_example": "There are different people handling each type of request.",
+        "replaceable_parts": "Careful form: There are different people + complement. Source there's + plural is spoken agreement, not the recommended formal form.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“有不同的人”这一表达。",
-            "goal_en": "There's different people",
+            "scene_zh": "家人以为每天来的快递员都一样，你说明实际上是不同的人。",
+            "goal_en": "Point out multiple different people in a scene.",
             "keywords": [
-              "today",
-              "plan"
+              "deliveries",
+              "days"
             ],
-            "starter": "There's different people",
-            "reference_answer": "There's different people."
+            "starter": "There are different people",
+            "reference_answer": "There are different people making deliveries on different days.",
+            "reference_answer_zh": "不同日子来送货的是不同的人。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“有不同的人”这一表达。",
-            "goal_en": "There's different people",
+            "scene_zh": "朋友以为照片里一直是同一组人，你指出每张照片里的人有所不同。",
+            "goal_en": "Point out multiple different people in a scene.",
             "keywords": [
-              "friend",
-              "situation"
+              "photos",
+              "each"
             ],
-            "starter": "There's different people",
-            "reference_answer": "There's different people."
+            "starter": "There are different people",
+            "reference_answer": "There are different people in each photo.",
+            "reference_answer_zh": "每张照片里都有不同的人。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“有不同的人”这一表达。",
-            "goal_en": "There's different people",
+            "scene_zh": "你向新同事介绍支持安排，说明不同问题由不同人员处理。",
+            "goal_en": "Point out multiple different people in a scene.",
             "keywords": [
-              "project",
-              "team"
+              "support",
+              "requests"
             ],
-            "starter": "There's different people",
-            "reference_answer": "There's different people."
+            "starter": "There are different people",
+            "reference_answer": "There are different people handling each type of request.",
+            "reference_answer_zh": "不同类型的请求由不同的人处理。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "不同日子来送货的是不同的人。",
+        "example_source": "adapted",
+        "workplace_example_zh": "不同类型的请求由不同的人处理。",
+        "context_review_note": "Source clarifies multiple participants; different means distinct people, not necessarily unusual personalities.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's a lot of",
         "cn": "有很多……",
-        "example": "Wait, there's a lot of people?",
-        "prompt": "Use “There's a lot of” in a complete sentence.",
+        "example": "There's a lot of dust behind the shelves.",
+        "prompt": "Describe a large quantity, with agreement depending on the noun.",
         "source_page": 2,
         "source_segment": "page-2",
         "source_excerpt": "Wait, there's a lot of people?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "有很多……",
+        "communicative_function": "Describe a large quantity, with agreement depending on the noun.",
         "original_en": "Wait, there's a lot of people?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "There's a lot of dust behind the shelves.",
+        "everyday_example_zh": "架子后面有很多灰尘。",
+        "workplace_example": "There's a lot of information to review before we decide.",
+        "replaceable_parts": "There's a lot of + uncountable noun; there are a lot of + plural count noun in careful English. Spoken there's people is preserved only as source.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“有很多……”这一表达。",
-            "goal_en": "There's a lot of",
+            "scene_zh": "你清理房间时发现灰尘很多，向家人说明需要多花一点时间。",
+            "goal_en": "Describe a large quantity, with agreement depending on the noun.",
             "keywords": [
-              "today",
-              "plan"
+              "dust",
+              "room"
             ],
             "starter": "There's a lot of",
-            "reference_answer": "Wait, there's a lot of people?"
+            "reference_answer": "There's a lot of dust behind the shelves.",
+            "reference_answer_zh": "架子后面有很多灰尘。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“有很多……”这一表达。",
-            "goal_en": "There's a lot of",
+            "scene_zh": "你到朋友组织的聚会后，感叹现场有很多熟悉的面孔。",
+            "goal_en": "Describe a large quantity, with agreement depending on the noun.",
             "keywords": [
-              "friend",
-              "situation"
+              "familiar faces",
+              "party"
             ],
-            "starter": "There's a lot of",
-            "reference_answer": "Wait, there's a lot of people?"
+            "starter": "There are a lot of",
+            "reference_answer": "There are a lot of familiar faces here.",
+            "reference_answer_zh": "这里有很多熟悉的面孔。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“有很多……”这一表达。",
-            "goal_en": "There's a lot of",
+            "scene_zh": "你刚收到项目资料，告诉同事自己需要先整理大量信息。",
+            "goal_en": "Describe a large quantity, with agreement depending on the noun.",
             "keywords": [
-              "project",
-              "team"
+              "information",
+              "review"
             ],
             "starter": "There's a lot of",
-            "reference_answer": "Wait, there's a lot of people?"
+            "reference_answer": "There's a lot of information to review before we decide.",
+            "reference_answer_zh": "作决定之前，有很多信息需要审阅。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "架子后面有很多灰尘。",
+        "example_source": "adapted",
+        "workplace_example_zh": "作决定之前，有很多信息需要审阅。",
+        "context_review_note": "Source is a surprised question about people; adapt the frame with grammatical agreement instead of changing the quotation.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "Is that what it is?",
