@@ -8,6 +8,13 @@ const coverage = await read('reports/cornell7-coverage-index.json');
 const normalize = s => s.normalize('NFKC').toLowerCase().replace(/[‘’]/g, "'").replace(/[^a-z0-9']+/g, ' ').trim();
 const compact = s => normalize(s).replaceAll(' ', '');
 const unit = batch.unit - 1;
+for (const [text, note] of batch.deferred_phrases || []) {
+  const item = course.expressions.find(v => v.unit === unit && v.text === text);
+  if (!item || item.editorial_status === 'reviewed_complete') throw new Error(`Cannot defer missing/completed phrase: ${text}`);
+  Object.assign(item, { context_review_note: note, reviewer: 'Codex',
+    review_method: 'individual_pdf_contextual_review_incomplete',
+    review_status: 'context_reviewed_source_ambiguous', independent_human_signoff: false });
+}
 for (const [word, pairs, note] of batch.collocation_updates || []) {
   const item = course.vocab.find(v => v.unit === unit && v.word === word);
   if (!item || (item.collocations || []).length >= 2) throw new Error(`Missing/already populated collocations: ${word}`);

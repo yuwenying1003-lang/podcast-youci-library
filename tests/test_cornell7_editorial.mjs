@@ -28,6 +28,11 @@ test('contextual coverage references real items and review summaries agree with 
   const report = await read('reports/cornell7-expansion-report.json');
   const unresolved = await read('reports/cornell7-unresolved.json');
   const source = await read('reports/cornell7-transcript-recovered.json');
+  for (const p of course.expressions.filter(x => x.review_status === 'context_reviewed_source_ambiguous')) {
+    assert.notEqual(p.editorial_status, 'reviewed_complete');
+    assert.equal(p.independent_human_signoff, false);
+    assert.ok(p.context_review_note.length > 30);
+  }
   for (const p of course.expressions.filter(x => x.review_method === 'individual_pdf_contextual_review')) {
     assert.equal(p.reviewer, 'Codex');
     assert.equal(p.independent_human_signoff, false);

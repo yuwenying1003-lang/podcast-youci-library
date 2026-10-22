@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 407,
+      "phrases": 435,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -27,21 +27,21 @@
         "unit": 2,
         "pages": "4-7",
         "words": 30,
-        "phrases": 37,
+        "phrases": 50,
         "chunks": 13
       },
       {
         "unit": 3,
         "pages": "8-10",
         "words": 15,
-        "phrases": 40,
+        "phrases": 46,
         "chunks": 5
       },
       {
         "unit": 4,
         "pages": "11-15",
         "words": 48,
-        "phrases": 52,
+        "phrases": 61,
         "chunks": 10
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 480,
+      "covered": 494,
       "no_identified_barrier": 179,
-      "requires_review": 191
+      "requires_review": 177
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 191,
+      "transcript_segments_requiring_review": 177,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -713,13 +713,16 @@
       "page": 4,
       "segment": 56,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "phrase:1:to give some context",
-        "phrase:1:right before"
+        "phrase:1:right before",
+        "phrase:1:broke out",
+        "phrase:1:demanding justice",
+        "word:1:scandals"
       ],
-      "review_reason": "Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Background marker, event onset and participial demand are now explicit. Spoken which this comes restarts the explanation; some pretty continues into Big scandals in 57. The source is retained rather than taught as polished written syntax.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "To give some context, right before this whole parking lot fiasco, Cornell's president, Michael Kotlikoff, had just introduced to Cornell students the Israel-Palestinian debate series, which this comes after a series of protests broke out on campus demanding justice for Palestine and some pretty"
@@ -959,11 +962,15 @@
       "page": 5,
       "segment": 72,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:brutally punished",
+        "phrase:1:peacefully protesting",
+        "phrase:1:emotions involved"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Brutally punished versus peacefully protesting and gonna be emotions involved need vocabulary/register support; do not erase the contrast.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Harsh-versus-peaceful contrast and emotional involvement are taught. Felt like attributes the perspective to students; gonna is going to, not a separate content word or proven forecast.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "After Cornell students felt like they've been brutally punished for peacefully protesting, there's gonna be a lot of emotions involved."
@@ -1003,14 +1010,16 @@
       "page": 5,
       "segment": 75,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:1:release a public statement",
+        "phrase:1:known to",
+        "phrase:1:ongoing verbal and online abuse",
         "word:1:administration",
-        "word:1:conduct",
-        "phrase:1:release a public statement"
+        "word:1:conduct"
       ],
-      "review_reason": "Long attributed statement includes ongoing verbal and online abuse and are known to; several word hits do not resolve those barriers.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The so big that frame introduces a reported statement; known to marks institutional familiarity, and including supplies claimed prior behavior. All accusations in the long clause remain attributed to the statement.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "The whole situation gets so big that the president of Cornell has to release a public statement where he says, these individuals are known to Cornell for their past conduct, including a long history of ongoing verbal and online abuse towards numerous members of Cornell's administration and staff."
@@ -1131,10 +1140,12 @@
       "segment": 84,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:1:no place in"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "No place in means unacceptable in a community. Opening It is no place is suspect transcript wording; retain and flag instead of repairing a quote.",
+      "review_reason": "The figurative unacceptability expression is now taught, but It is no place remains suspect source wording; do not silently replace it with It has no place without checking audio.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "It is no place in an academic community, no place in a democracy and can have no place at Cornell."
@@ -1162,11 +1173,13 @@
       "page": 6,
       "segment": 86,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:senior"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Senior here means final-year university student, not an elderly person; deserves a contextual card.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Final-year student sense is explicitly distinguished from age and job seniority; graduated fits the educational sequence without adding a date.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "So he was a senior and he graduated."
@@ -1354,13 +1367,14 @@
       "page": 7,
       "segment": 98,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:1:lawsuit",
-        "word:0:frat"
+        "phrase:1:file a civil lawsuit",
+        "phrase:1:dubbed",
+        "word:7:fraternity brother"
       ],
-      "review_reason": "File a civil lawsuit and dubbed the Cornell Seven introduce process and naming; Jane Doe is a pseudonym, not a translation of an ordinary name. Need explicit civil/dubbed support.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Civil filing, organizational membership and naming are linked; Jane Doe is a pseudonymous label in the account. The future-in-the-narrative will file does not refer to this review's future.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Because a few months later, Jane Doe will file a civil lawsuit against Cornell University and seven fraternity brothers from Cornell, now dubbed the Cornell Seven."
@@ -1371,9 +1385,10 @@
       "source_unit": 1,
       "status": "requires_review",
       "learning_item_ids": [
-        "word:1:traumatized"
+        "word:1:traumatized",
+        "phrase:10:drops out of school"
       ],
-      "review_reason": "Gang essayed is euphemistic/ASR wording in this PDF; do not present it as standard English or silently replace it. Dropping out and ripped apart remain useful barriers; all claims are attributed.",
+      "review_reason": "Existing cards now support trauma and leaving school, but gang essayed remains nonstandard/possibly euphemistic transcription; ripped apart is another figurative target still needing an explicit card. No correction or allegation is certified.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
@@ -1416,11 +1431,14 @@
       "page": 7,
       "segment": 102,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:1:workshop",
+        "phrase:1:reflection papers"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Workshop and reflection papers need educational-context definitions; repeated essays is self-repair, not several separate punishments.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Both educational responses are now explained; some of the accused limits the group, and the repeated essays wording is a spoken refinement rather than multiple invented punishments.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And some of the accused, their punishment for the events of that night was to attend a workshop and write essays, reflection essays, reflection papers."
@@ -1444,11 +1462,14 @@
       "page": 7,
       "segment": 104,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:mainstream",
+        "phrase:1:going against"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Mainstream media and going against need language support. Final Trump is a conversational handoff continued in 105, not part of a repaired quote.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Mainstream means broad-audience media and going against means opposing; talk shows are interview/discussion programs and The View is a program name. Final Trump is a handoff continued by 105, not a repaired quotation.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "There are people in mainstream media who are going on talk shows like The View going against Jane Doe, Trump."
@@ -1509,7 +1530,7 @@
       "learning_item_ids": [
         "phrase:1:not the other way around"
       ],
-      "review_reason": "Reverse-role claim is attributed; essayed is the same nonstandard euphemism/possible ASR artifact as 99 and is not an essay-writing vocabulary sense.",
+      "review_reason": "Reversal of roles is now taught, but essayed is still unresolved nonstandard wording. Maybe and the prior attributed accused's statement prevent this being treated as a verified counter-allegation.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
@@ -1642,11 +1663,14 @@
       "page": 8,
       "segment": 118,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:explicitly stated",
+        "phrase:2:redirected"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Redirected donations and explicitly stated through her lawyer need supported language items. RAINN is an organization name, not an ordinary vocabulary word; do not invent missing PSA text.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Clear reporting and changed recipient are taught; donations meant for her means donations intended for her, and through her lawyer marks the channel. RAINN is a named organization; no missing PSA text or live donation instruction is invented.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Jane Doe has also explicitly stated through her lawyer that any donations meant for her should be redirected to RAINN."
@@ -1684,11 +1708,15 @@
       "page": 8,
       "segment": 121,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:partnerships",
+        "phrase:2:made it possible to",
+        "phrase:2:dedicated researchers"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Made it possible to, partnerships, and dedicated researchers remain meaningful barriers; no automatic closure from support alone.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Collaborative arrangements, enabling construction and the researcher description are explicitly taught; possessive team wording identifies the supported group without proving research accuracy.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "This episode's partnerships have also made it possible to support Rotten Mango's team of dedicated researchers."
@@ -2225,12 +2253,14 @@
       "page": 10,
       "segment": 157,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:2:we don't even want"
+        "phrase:2:even insurance companies",
+        "phrase:2:we don't even want",
+        "phrase:3:worth the risk"
       ],
-      "review_reason": "Personified insurer quote and even signal an extreme exception; read with page 11 before deciding whether the risk explanation is adequately supported.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Read with 158–162: companies are personified, refusal is imagined, and risk is the stated rationale. The sentence presents an extreme exception to the narrator's earlier profit generalization, not an actual insurer quote or universal rule.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "But there are some individuals and organizations that even insurance companies are like, we don't even want your money."
@@ -2769,17 +2799,21 @@
       "page": 13,
       "segment": 194,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:3:fraternity",
-        "word:3:hazing"
+        "phrase:3:pledged",
+        "phrase:3:vague",
+        "phrase:3:directed towards",
+        "phrase:3:representative of",
+        "word:3:hazing",
+        "word:3:fraternity"
       ],
       "candidate_learning_item_ids": [
         "word:3:fraternity",
         "word:3:organization"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Pledged, vague, directed towards, and representative of need support; unfinished disclaimer continues in 195 and must not become an assertion about all organizations.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Read through 195: a hypothetical member's experience is interrupted by a disclaimer, not asserted about every organization. Pledged, nonspecific scope, target and representative-of construction are explicitly taught; got hazed is passive and shouldn't be taken as means should not be interpreted as.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "So basically, if you're a member of a fraternity, you're 18, you went to college, you just joined a fraternity, you just pledged, you got hazed, and obviously this is vague and not directed towards one organization, but a general overview that shouldn't be taken as representative of"
@@ -2788,11 +2822,14 @@
       "page": 13,
       "segment": 195,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:representative of",
+        "phrase:3:directed towards"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Completes the not representative disclaimer in 194; review with that full sentence before closing.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "This fragment supplies the object of representative of in 194. Keep the preceding shouldn't: the speaker disclaims representing any specific organization or all organizations; the awkward wording is preserved, not converted into a universal allegation.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Any specific or all organizations."
@@ -2909,11 +2946,13 @@
       "page": 13,
       "segment": 203,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:got spanked"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Spanked is a concrete action in the initiation account and needs a definition; do not hide it behind a generic hazing label.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The concrete bodily action and get-passive are taught explicitly. Yes links back to the hypothetical member's initiation despite loss of membership; no new factual allegation or endorsement is introduced.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Yes, you got spanked."
@@ -2952,11 +2991,16 @@
       "page": 13,
       "segment": 206,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:3:raw onion",
+        "phrase:3:forced to plank",
+        "phrase:3:got spanked",
+        "phrase:3:professing your undying love"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Raw onion, forced to plank, and professing undying love contain multiple concrete/idiomatic barriers needing explicit support; no coverage from theme alone.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Support covers uncooked whole food, passive punishment, the exercise meaning of plank and exaggerated declaration. While marks simultaneous actions, then sequences coercion; the omitted you are continues before forced. Brothers refers to fraternity members, not relatives, and declaring love does not prove sincere affection.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "You're eating an entire raw onion while being spanked, then forced to plank while professing your undying love to the brothers."
@@ -2981,9 +3025,10 @@
       "status": "requires_review",
       "learning_item_ids": [
         "word:3:power trip",
-        "word:3:interpersonal"
+        "word:3:interpersonal",
+        "phrase:3:the pinnacle of"
       ],
-      "review_reason": "Sarcastic praise after coercive actions; pinnacle remains a vocabulary gap and the opening attaches to uncertain 207.",
+      "review_reason": "Pinnacle and sarcastic praise now have explicit support: obviously can only mean is ironic after the coercive actions. The opening still attaches to the uncertain you're big in 207; retain the source ambiguity rather than approving the complete linked passage.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
       "review_date": "2026-10-22",

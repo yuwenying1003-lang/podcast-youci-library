@@ -6,22 +6,6 @@
   "requires_human_review": [],
   "transcript_segments_requiring_review": [
     {
-      "page": 4,
-      "segment": 56,
-      "reason": "Long false-start sentence crosses into 57; protests broke out and demanding justice remain barriers beyond introductory phrase matches."
-    },
-    {
-      "page": 5,
-      "segment": 72,
-      "reason": "Brutally punished versus peacefully protesting and gonna be emotions involved need vocabulary/register support; do not erase the contrast.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 5,
-      "segment": 75,
-      "reason": "Long attributed statement includes ongoing verbal and online abuse and are known to; several word hits do not resolve those barriers."
-    },
-    {
       "page": 5,
       "segment": 76,
       "reason": "As well as continues 75; wording resulting in the case of two individual bans is awkward and must not be silently reconstructed from assumed audio."
@@ -29,64 +13,24 @@
     {
       "page": 6,
       "segment": 84,
-      "reason": "No place in means unacceptable in a community. Opening It is no place is suspect transcript wording; retain and flag instead of repairing a quote.",
+      "reason": "The figurative unacceptability expression is now taught, but It is no place remains suspect source wording; do not silently replace it with It has no place without checking audio.",
       "candidate_learning_item_ids": []
-    },
-    {
-      "page": 6,
-      "segment": 86,
-      "reason": "Senior here means final-year university student, not an elderly person; deserves a contextual card.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 7,
-      "segment": 98,
-      "reason": "File a civil lawsuit and dubbed the Cornell Seven introduce process and naming; Jane Doe is a pseudonym, not a translation of an ordinary name. Need explicit civil/dubbed support."
     },
     {
       "page": 7,
       "segment": 99,
-      "reason": "Gang essayed is euphemistic/ASR wording in this PDF; do not present it as standard English or silently replace it. Dropping out and ripped apart remain useful barriers; all claims are attributed."
-    },
-    {
-      "page": 7,
-      "segment": 102,
-      "reason": "Workshop and reflection papers need educational-context definitions; repeated essays is self-repair, not several separate punishments.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 7,
-      "segment": 104,
-      "reason": "Mainstream media and going against need language support. Final Trump is a conversational handoff continued in 105, not part of a repaired quote.",
-      "candidate_learning_item_ids": []
+      "reason": "Existing cards now support trauma and leaving school, but gang essayed remains nonstandard/possibly euphemistic transcription; ripped apart is another figurative target still needing an explicit card. No correction or allegation is certified."
     },
     {
       "page": 7,
       "segment": 108,
-      "reason": "Reverse-role claim is attributed; essayed is the same nonstandard euphemism/possible ASR artifact as 99 and is not an essay-writing vocabulary sense."
+      "reason": "Reversal of roles is now taught, but essayed is still unresolved nonstandard wording. Maybe and the prior attributed accused's statement prevent this being treated as a verified counter-allegation."
     },
     {
       "page": 8,
       "segment": 117,
       "reason": "Availability expression is now taught, but the paragraph still begins with an incomplete Of sexual violence fragment. The missing subject cannot be invented from the PDF.",
       "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 118,
-      "reason": "Redirected donations and explicitly stated through her lawyer need supported language items. RAINN is an organization name, not an ordinary vocabulary word; do not invent missing PSA text.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 121,
-      "reason": "Made it possible to, partnerships, and dedicated researchers remain meaningful barriers; no automatic closure from support alone.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 157,
-      "reason": "Personified insurer quote and even signal an extreme exception; read with page 11 before deciding whether the risk explanation is adequately supported."
     },
     {
       "page": 11,
@@ -116,33 +60,6 @@
     },
     {
       "page": 13,
-      "segment": 194,
-      "reason": "Pledged, vague, directed towards, and representative of need support; unfinished disclaimer continues in 195 and must not become an assertion about all organizations.",
-      "candidate_learning_item_ids": [
-        "word:3:fraternity",
-        "word:3:organization"
-      ]
-    },
-    {
-      "page": 13,
-      "segment": 195,
-      "reason": "Completes the not representative disclaimer in 194; review with that full sentence before closing.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 13,
-      "segment": 203,
-      "reason": "Spanked is a concrete action in the initiation account and needs a definition; do not hide it behind a generic hazing label.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 13,
-      "segment": 206,
-      "reason": "Raw onion, forced to plank, and professing undying love contain multiple concrete/idiomatic barriers needing explicit support; no coverage from theme alone.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 13,
       "segment": 207,
       "reason": "You're big may be ASR for your big, a fraternity mentor role; do not repair without audio. Continues into 208.",
       "candidate_learning_item_ids": []
@@ -150,7 +67,7 @@
     {
       "page": 13,
       "segment": 208,
-      "reason": "Sarcastic praise after coercive actions; pinnacle remains a vocabulary gap and the opening attaches to uncertain 207."
+      "reason": "Pinnacle and sarcastic praise now have explicit support: obviously can only mean is ironic after the coercive actions. The opening still attaches to the uncertain you're big in 207; retain the source ambiguity rather than approving the complete linked passage."
     },
     {
       "page": 14,
