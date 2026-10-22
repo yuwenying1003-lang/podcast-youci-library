@@ -114,58 +114,26 @@
       "candidate_learning_item_ids": []
     },
     {
-      "page": 21,
-      "segment": 341,
-      "reason": "Tossed onto a sheet and flinging up and down remain physical-action barriers; the account is introduced as an allegation."
-    },
-    {
       "page": 22,
       "segment": 342,
-      "reason": "Tossing him up illustrates prior physical action, but gesture-dependent like this cannot be reconstructed from the PDF.",
+      "reason": "Tossing him up is now lexically supported through toss/fling. Like this refers to an unseen gesture: the PDF does not show its exact motion or extent. Retain the visual-source gap even though the broad action is understood.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 22,
       "segment": 343,
-      "reason": "Essayed is euphemistic/ASR wording in the source, not essay writing; do not silently normalize the quoted allegation without audio."
-    },
-    {
-      "page": 22,
-      "segment": 345,
-      "reason": "Slathered, fistfuls, genitals and the locally named mixture mung create barriers beyond waistband; keep explicit account attributed and avoid instructional examples."
-    },
-    {
-      "page": 22,
-      "segment": 348,
-      "reason": "Oatmeal and consisted of remain learner targets; source lists contents, but the lesson must not turn it into a recipe for abuse."
-    },
-    {
-      "page": 22,
-      "segment": 349,
-      "reason": "Consent to + -ing and smeared still need support; screamed bloody murder is an idiom for loud distress, not literal murder. Explicit absence of consent preserved."
-    },
-    {
-      "page": 22,
-      "segment": 350,
-      "reason": "Junk is slang for genitals here, not rubbish, and gallon is a volume measure. Reported response is not promoted as treatment advice.",
-      "candidate_learning_item_ids": []
+      "reason": "The surrounding unwanted-contact account suggests a euphemistic/ASR interpretation of essayed, but the verb cannot be silently replaced in a quote. First time marks absence of a prior experience; audio verification of the sensitive verb remains pending."
     },
     {
       "page": 22,
       "segment": 355,
-      "reason": "Infamous and inconsistent Kai-Fi versus Chi Phi spelling remain issues. Preserve printed proper name and avoid inventing an official spelling correction in the quotation.",
+      "reason": "Negative reputation meaning is now taught; initiated connects to completed entry into the fraternity. Kai-Fi conflicts with other spellings in the transcript, and a teaching gloss cannot authenticate the proper name. Keep the exact PDF text and the unresolved name flag.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 22,
       "segment": 356,
-      "reason": "Like the houses is unclear after made posters for parties; preserve possible disfluency/ASR error without inventing the intended clause.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 22,
-      "segment": 357,
-      "reason": "Great Fratsby is a fraternity-themed pun on The Great Gatsby; needs a cultural reference note rather than treating it as a normal adjective+noun phrase.",
+      "reason": "Read with the party name in 357 and planning reference in 363. Made posters for parties is clear, but like the houses does not yield a secure clause; do not invent a verb, location or transcription repair.",
       "candidate_learning_item_ids": []
     },
     {

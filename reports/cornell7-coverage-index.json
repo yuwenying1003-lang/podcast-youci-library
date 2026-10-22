@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 459,
+      "phrases": 471,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -55,7 +55,7 @@
         "unit": 6,
         "pages": "21-23",
         "words": 32,
-        "phrases": 28,
+        "phrases": 40,
         "chunks": 3
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 504,
+      "covered": 510,
       "no_identified_barrier": 177,
-      "requires_review": 169
+      "requires_review": 163
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 169,
+      "transcript_segments_requiring_review": 163,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -5045,16 +5045,18 @@
       "page": 21,
       "segment": 341,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "word:5:deprived",
         "word:5:physically exhausted",
-        "word:5:blindfolded"
+        "word:5:blindfolded",
+        "phrase:5:tossed onto a sheet",
+        "phrase:5:flinging me up and down"
       ],
-      "review_reason": "Tossed onto a sheet and flinging up and down remain physical-action barriers; the account is introduced as an allegation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Sleep deprived and exhaustion are separate conditions; alleges/quote attribute the account. The two newly taught movement phrases cover passive throwing onto cloth and repeated forceful motion, without converting the account into a demonstrated technique.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He alleges that he's sleep deprived, physically exhausted, and quote, I was blindfolded and tossed onto a sheet, flinging me up and down."
     },
     {
@@ -5062,12 +5064,15 @@
       "segment": 342,
       "source_unit": 3,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:5:tossed onto a sheet",
+        "phrase:5:flinging me up and down"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Tossing him up illustrates prior physical action, but gesture-dependent like this cannot be reconstructed from the PDF.",
+      "review_reason": "Tossing him up is now lexically supported through toss/fling. Like this refers to an unseen gesture: the PDF does not show its exact motion or extent. Retain the visual-source gap even though the broad action is understood.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Like they were just like tossing him up like this."
     },
     {
@@ -5078,10 +5083,10 @@
       "learning_item_ids": [
         "phrase:5:for the first time"
       ],
-      "review_reason": "Essayed is euphemistic/ASR wording in the source, not essay writing; do not silently normalize the quoted allegation without audio.",
+      "review_reason": "The surrounding unwanted-contact account suggests a euphemistic/ASR interpretation of essayed, but the verb cannot be silently replaced in a quote. First time marks absence of a prior experience; audio verification of the sensitive verb remains pending.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And there, for the first time in my life, I was essayed."
     },
     {
@@ -5100,15 +5105,18 @@
       "page": 22,
       "segment": 345,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
         "word:5:waistband",
+        "phrase:5:slathered",
+        "phrase:5:fistfuls",
+        "phrase:5:genitals",
         "phrase:5:all over"
       ],
-      "review_reason": "Slathered, fistfuls, genitals and the locally named mixture mung create barriers beyond waistband; keep explicit account attributed and avoid instructional examples.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Waistband locates the shorts' upper edge; slather and fistfuls distinguish spreading and quantity. Mung is locally named and defined in 348, not assumed to mean beans. The unwanted bodily contact remains the quoted person's allegation, with no instructions added.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Hands reached under the waistband of my basketball shorts and slathered fistfuls of spicy mung all over my genitals."
     },
     {
@@ -5141,45 +5149,52 @@
       "page": 22,
       "segment": 348,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:5:consisted of",
+        "phrase:5:oatmeal",
         "word:5:vinegar",
         "word:5:cayenne"
       ],
-      "review_reason": "Oatmeal and consisted of remain learner targets; source lists contents, but the lesson must not turn it into a recipe for abuse.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "The existing composition connector plus the new oatmeal sense cover the remaining gap. Hot sauce is spicy sauce, cold is temperature, and mung is this account's name for the listed mixture. The lesson uses unrelated food and presentation examples, not an abuse recipe.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He says mung consisted of cold oatmeal, vinegar, hot sauce, and cayenne pepper."
     },
     {
       "page": 22,
       "segment": 349,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:5:smeared",
+        "phrase:5:consent to anyone touching him",
+        "phrase:5:genitals",
         "word:5:inflicting",
         "phrase:5:screamed bloody murder"
       ],
-      "review_reason": "Consent to + -ing and smeared still need support; screamed bloody murder is an idiom for loud distress, not literal murder. Explicit absence of consent preserved.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Passive smear continues the mixture account, followed by explicitly absent consent to contact or pain. Consent to + -ing and bodily terminology are now supported. Screamed bloody murder is already taught as loud distress, not a literal homicide claim.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Smeared all over his genitals but he did not consent to anyone touching him or inflicting this amount of pain he says i screamed bloody murder"
     },
     {
       "page": 22,
       "segment": 350,
       "source_unit": 3,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:5:a half gallon",
+        "phrase:5:junk",
         "phrase:5:wash off"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Junk is slang for genitals here, not rubbish, and gallon is a volume measure. Reported response is not promoted as treatment advice.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Volume expression and the genital slang sense are now explicit. Was given is passive and to wash off states the narrated purpose, not verified treatment effectiveness; spicy refers to the irritating material described previously.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "A few minutes later i was given a half gallon of milk to wash off my spicy junk"
     },
     {
@@ -5249,13 +5264,14 @@
       "source_unit": 3,
       "status": "requires_review",
       "learning_item_ids": [
+        "phrase:5:infamous",
         "word:5:initiation"
       ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Infamous and inconsistent Kai-Fi versus Chi Phi spelling remain issues. Preserve printed proper name and avoid inventing an official spelling correction in the quotation.",
+      "review_reason": "Negative reputation meaning is now taught; initiated connects to completed entry into the fraternity. Kai-Fi conflicts with other spellings in the transcript, and a teaching gloss cannot authenticate the proper name. Keep the exact PDF text and the unresolved name flag.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He says he was initiated and he starts living at the now infamous Kai-Fi house at Cornell."
     },
     {
@@ -5266,22 +5282,24 @@
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Like the houses is unclear after made posters for parties; preserve possible disfluency/ASR error without inventing the intended clause.",
+      "review_reason": "Read with the party name in 357 and planning reference in 363. Made posters for parties is clear, but like the houses does not yield a secure clause; do not invent a verb, location or transcription repair.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "He says, I made posters for parties, like the houses."
     },
     {
       "page": 22,
       "segment": 357,
       "source_unit": 3,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:5:great fratsby"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Great Fratsby is a fraternity-themed pun on The Great Gatsby; needs a cultural reference note rather than treating it as a normal adjective+noun phrase.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The coined fraternity/title pun now has explicit cultural support and a teaching example. Great belongs to the allusion, not merely the speaker rating the party; no unmentioned party theme details are invented.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "We had a great Fratsby party."
     },
     {
