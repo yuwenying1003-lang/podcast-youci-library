@@ -443,208 +443,77 @@
     {
       "page": 47,
       "segment": 775,
-      "reason": "Essay appears to be a transcription error in a list of sexual harms; do not silently replace it. Discrimination and harassment also require explicit contextual teaching.",
+      "reason": "General discrimination and harassment vocabulary now has explicit support; receive assistance means obtain funding. Essay in the list remains suspect source wording. Official summaries clarify terminology but cannot authenticate that word or make the spoken overview complete legal guidance.",
       "candidate_learning_item_ids": [
         "word:10:federal"
       ]
     },
     {
-      "page": 47,
-      "segment": 779,
-      "reason": "Put together means assemble people, but panel needs the group-of-reviewers sense; the phrasal verb alone does not explain the role.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 780,
-      "reason": "Narrator uses panel as shorthand for this investigation; a panel is not universally synonymous with the whole Title IX process.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 48,
-      "segment": 787,
-      "reason": "Themselves is an isolated reflexive used rhetorically to allege self-investigation; its referent and scope need annotation."
-    },
-    {
-      "page": 48,
-      "segment": 789,
-      "reason": "Panel means an assembled group here, and little can be dismissive; it needs a contextual teaching entry.",
-      "candidate_learning_item_ids": []
-    },
-    {
       "page": 48,
       "segment": 793,
-      "reason": "Subpoena power, search warrant and DA need precise legal-role glosses; probably marks speculation and a prosecutor card cannot validate the powers described."
-    },
-    {
-      "page": 48,
-      "segment": 795,
-      "reason": "No matter what they find is a concessive fragment leading into a legal-authority claim; the sentence must be explained across the boundary.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 48,
-      "segment": 796,
-      "reason": "The everyday phrase is taught, but who they refers to and the legal scope of cannot need contextual verification rather than blanket approval.",
-      "candidate_learning_item_ids": []
+      "reason": "All three role/authority terms now have explicit definitions. Probably marks the narrator's uncertainty and search warrant power conflates access to judicial authorization with powers of an office. The specific comparison remains unverified; do not approve it as a general legal account."
     },
     {
       "page": 48,
       "segment": 797,
-      "reason": "Criminally is reviewed, but take this criminally is nonstandard wording attached to a sweeping authority claim; preserve and annotate, not endorse as a legal rule."
-    },
-    {
-      "page": 48,
-      "segment": 800,
-      "reason": "Several hedges end in an unfinished there's clause; do not certify the fragment without its continuation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 48,
-      "segment": 801,
-      "reason": "Gap completes the previous sentence and refers to elapsed time; isolated treatment would hide the cross-paragraph syntax.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 804,
-      "reason": "Hearings is a procedural-event noun needing distinction from ordinary listening; the numeric claim remains attributed.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 805,
-      "reason": "Expelled must be distinguished from suspended, and it appears qualifies the outcome; investigation vocabulary alone does not explain the sanction.",
-      "candidate_learning_item_ids": []
+      "reason": "Take this criminally is nonstandard phrasing for handling the matter through criminal processes. In any way makes a sweeping assertion beyond the lexical gloss; retain the source and unresolved scope instead of endorsing it as law."
     },
     {
       "page": 49,
       "segment": 806,
-      "reason": "Run-on combines suspension, return timing and a question about expulsion; different penalties and speaker turns still need annotation."
+      "reason": "Temporary suspension and possible return now contrast clearly with expulsion; one of them narrows the three-semester timing to one person. The abrupt Who is expelled starts another turn, so retain the unsettled source boundary rather than merge sanctions."
     },
     {
       "page": 49,
       "segment": 807,
-      "reason": "Expelled versus suspended and uncertain Jillio name rendering are unresolved; do not silently normalize identities or merge sanctions.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 808,
-      "reason": "Involved in sexual activity is reported as others' wording; the phrase can obscure allegations and requires careful attribution rather than unqualified teaching.",
+      "reason": "The narration contrasts Matthew/Jonathan with Winston/Jillio and interleaves yes. Jillio varies from other printed names; do not authenticate a spelling or assign verified sanctions by silently reconstructing the exchange.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 810,
-      "reason": "Initiated it needs a precise antecedent and contextual verb gloss; invited her does not establish consent to later acts.",
+      "reason": "Initiated means began and invited means asked someone to come. It could refer to the alleged assault sequence or its initial arrangements; the line does not uniquely specify its antecedent, and invitation never establishes consent to subsequent acts.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 811,
-      "reason": "Crude quoted message ends in alum and needs register/abbreviation support; sending it remains an attributed allegation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 49,
-      "segment": 812,
-      "reason": "Tied to means associated with in reports, not physically bound; the drug card alone does not cover the figurative relation or attribution.",
+      "reason": "The vulgar phrase is already receptive-only vocabulary, but alum remains shorthand whose room reading was explicitly conjectural. Sender identification is the narrator's attribution, not authenticated message metadata.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 813,
-      "reason": "Conduct is a vague reference to alleged acts and the name variant Jillia remains uncertain; preserve source spellings.",
+      "reason": "Conduct refers generally to the alleged acts under discussion, not an inherently consensual activity. Jillia adds a name variant; keep the referent unresolved instead of silently merging it with Julia/Jillio/Giglio.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
-      "segment": 814,
-      "reason": "Sanctions are penalties, but egregious and multiple speculative hedges require explanation; the reason for different outcomes is not established."
-    },
-    {
-      "page": 49,
       "segment": 815,
-      "reason": "So why are people so is abandoned before a new question; sentence repair and expulsion terminology remain barriers.",
+      "reason": "The abandoned So why are people so is followed by a question about expulsion. Vocabulary is supported but the missing continuation and change of question cannot be supplied as original speech.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 49,
       "segment": 816,
-      "reason": "Expelled, suspended and back are combined in a broken correction; do not assign a definite outcome to a named person from this fragment.",
+      "reason": "Expelled/suspended/back form a broken correction with a dangling Winston. The next line explicitly says Winston's return is unclear; do not extract a definite individual's outcome from this fragment.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 819,
-      "reason": "Repeated could have been is a false start and Jillio is an uncertain spelling; separate possibility for one person from assertion about another.",
+      "reason": "Could have come back is a past possibility for Winston, while but Jillio is back is an assertion about a differently named person. The false start and name variant remain; no identity or return date is authenticated.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 50,
       "segment": 825,
-      "reason": "Charged academically is nonstandard and sits awkwardly beside academic sanctions; retain source and verify audio instead of silently changing it to criminally."
-    },
-    {
-      "page": 50,
-      "segment": 826,
-      "reason": "DA's office abbreviation and the difference between investigated and charged need contextual legal-role support; zero is the narrator's claim.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 831,
-      "reason": "DA abbreviation plus a relative clause ending at that need continuation and role explanation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 832,
-      "reason": "At the time is clear but get attention completes the prior relative clause; standalone status must not conceal the boundary.",
-      "candidate_learning_item_ids": [
-        "phrase:10:at the time"
-      ]
-    },
-    {
-      "page": 50,
-      "segment": 833,
-      "reason": "Long sentence combines allegations, relative dates, civil action and organizations; it requires clause/reference annotation, not a single lawsuit match.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 834,
-      "reason": "Continuation of the list of defendants; the bar name and organizational role need linkage to the preceding sentence.",
-      "candidate_learning_item_ids": []
+      "reason": "Exactly zero is emphatic but charged academically sits uneasily with the preceding academic sanctions and subsequent DA discussion. Preserve it instead of substituting criminally or treating charges and sanctions as identical."
     },
     {
       "page": 50,
       "segment": 835,
-      "reason": "Jane does states appears to be a transcription problem introducing a personal quotation; preserve the wording and verify attribution before normalizing.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 50,
-      "segment": 836,
-      "reason": "Brutalized is a strong harm verb and the sentence ends at perhaps; the continuation on page 51 is necessary.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 51,
-      "segment": 844,
-      "reason": "DA's office still needs a contextual institutional gloss; go through means discuss the statements, not physically pass through an office."
-    },
-    {
-      "page": 51,
-      "segment": 846,
-      "reason": "DA role and handling it need explanation; now in 2026 belongs to the recording and the unprecedented claim is the narrator's personal judgment.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 51,
-      "segment": 850,
-      "reason": "The time connector is taught, but come up ambiguously refers to the next release and edit has an implicit object; no release date or timestamp may be invented.",
+      "reason": "Jane does states appears to introduce Jane Doe's quoted first-person account, but the printed wording is irregular. Preserve the source attribution issue and do not normalize the name/verb without confirmation.",
       "candidate_learning_item_ids": []
     }
   ],
