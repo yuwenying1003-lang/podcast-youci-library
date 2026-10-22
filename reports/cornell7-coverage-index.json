@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 514,
+      "phrases": 531,
       "chunks": 120
     },
     "source_candidate_totals": {
@@ -90,14 +90,14 @@
         "unit": 11,
         "pages": "45-51",
         "words": 27,
-        "phrases": 25,
+        "phrases": 42,
         "chunks": 6
       }
     ],
     "coverage_status": {
-      "covered": 549,
+      "covered": 564,
       "no_identified_barrier": 177,
-      "requires_review": 124
+      "requires_review": 109
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 124,
+      "transcript_segments_requiring_review": 109,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -10879,12 +10879,14 @@
       "segment": 734,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "word:7:defendant"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Continuation of the prior page's name list; spellings and full list boundaries require source tracking rather than lexical matching.",
+      "review_reason": "Completes the seven-name list from 733 rather than a new list. Track names as printed; Julia/Jillio/Giglio variants elsewhere and Scott K/Kay/Kretschmar forms are not authenticated merely by list position.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Diego Sarabia, Scott Norris, and Scott Kretschmar."
     },
     {
@@ -10934,12 +10936,14 @@
       "segment": 738,
       "source_unit": 5,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:10:afforded the opportunity"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Afforded the opportunity and mitigate their conduct are formal and potentially awkward legal-reporting phrases; no keyword hit resolves their scope.",
+      "review_reason": "Formal given-a-chance construction now has support. Who were starts a relative fragment referring back to some suspended people; mitigate their conduct is awkward because essays may mitigate consequences or assessment, not undo conduct. Retain that scope ambiguity rather than silently replace the object.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The lawsuit says, who were afforded the opportunity to mitigate their conduct by submitting essays to Cornell."
     },
     {
@@ -11016,15 +11020,18 @@
       "page": 45,
       "segment": 744,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:non statement",
+        "word:10:statement"
+      ],
       "candidate_learning_item_ids": [
         "word:10:statement"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "As much of a non-statement as a statement can be is a rhetorical comparison criticizing lack of substance; statement alone does not teach this structure.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "As much of a non-statement as a statement can be is a maximizing comparison: the narrator judges the statement nearly devoid of substance while still formally a statement. The evaluative noun now has support; this criticism is not an independent finding about adequacy.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "It's as much of a non-statement as a statement can be."
     },
     {
@@ -11046,15 +11053,17 @@
       "page": 45,
       "segment": 746,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:10:office of student conduct",
+        "phrase:10:diligently",
         "word:10:allegation"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Office of Student Conduct and diligently add institutional-role and manner meanings not covered by the allegation card alone.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Institutional office role and careful-effort adverb now have explicit cards. Has been reviewing presents ongoing activity up to the statement; regarding means about. These are the institution's reported descriptions, not our certification of diligence.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Cornell's Office of Student Conduct has been diligently reviewing all information regarding the allegations."
     },
     {
@@ -11065,24 +11074,25 @@
       "learning_item_ids": [],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Including what addressing is a disfluent boundary between commentary and reported statement; scope of the list needs annotation.",
+      "review_reason": "Taken actions means acted, and addressing concerns means dealing with concerns. Including what addressing appears to interleave a skeptical interruption with the list; preserve the boundary issue rather than identify what as part of a clean institutional quote.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "They have taken a number of actions, including what addressing immediate health, safety and educational concerns."
     },
     {
       "page": 45,
       "segment": 748,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:10:whatever that means",
         "word:6:suspension"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Suspensions are linked, but whatever that means inserts a skeptical aside into reported institutional wording and needs pragmatic explanation.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The skeptical aside is now distinguished from resumed institutional reporting. Temporarily suspending the organization and suspensions for students are two described targets; a number of means several, not a precise count or a final expulsion.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Whatever that means, okay, they state that they are temporarily suspending the fraternity and temporary suspensions were issued for a number of students."
     },
     {
@@ -11103,53 +11113,63 @@
       "page": 46,
       "segment": 750,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
-      "review_reason": "Quoted abstract challenged how we see each other uses see figuratively and embeds two coordinated clauses; requires sentence-level explanation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "status": "covered",
+      "learning_item_ids": [
+        "word:10:statement",
+        "word:6:community"
+      ],
+      "review_reason": "In the quoted statement, challenged how we see each other means unsettled mutual perceptions, not eyesight. How we see each other and think about our community are coordinated perspectives; for many limits who experiences difficulty. The abstraction is reported rhetoric, not a new factual claim.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And quote, for many, these have been a difficult few weeks with events that have challenged how we see each other and think about our community."
     },
     {
       "page": 46,
       "segment": 751,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:what the fuck does that mean"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Profanity intensifies the rhetorical demand for meaning; it needs an explicit register note, not just a basic question-word match.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Profane intensification of a rhetorical demand for clarification now has a register-labeled receptive card and polite alternatives. It is the narrator's reaction, not wording attributed to the institutional statement.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "What the fuck does that mean?"
     },
     {
       "page": 46,
       "segment": 752,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:10:rise to this challenge"
+        "phrase:10:rise to this challenge",
+        "phrase:10:individual and collective goals"
       ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "The challenge idiom is taught, but as it has to others is ellipsis and individual and collective goals adds formal contrast; further annotation is needed.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "As it has to others omits risen: the community has supposedly risen to other challenges. Will rise and continue to pursue coordinate future actions; individual/collective contrasts personal and shared aims. This is confidence expressed in a quote, not verified success.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "I am confident that our community will rise to this challenge as it has to others and continue to pursue our individual and collective goals throughout the academic year."
     },
     {
       "page": 46,
       "segment": 753,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:cornelians",
+        "phrase:10:restful",
+        "phrase:10:loved ones"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Cornelians is a community demonym and restful/loved ones are additional lexical targets; a holiday-name hit would not certify coverage.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Community addressee, rest-providing adjective and emotionally close people now have explicit support. Wish someone a restful break is a conventional closing wish; loved ones is broader than partners alone.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "I wish all Cornelians a restful Thanksgiving break with loved ones, family, and friends."
     },
     {
@@ -11168,13 +11188,15 @@
       "page": 46,
       "segment": 755,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:interim president"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Interim president is a temporary office-holder title requiring a contextual gloss; preserve the historical title rather than updating personnel.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Historical temporary university-leadership title now has explicit support. It signs the quoted letter; do not update the title or current personnel from the execution date.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Interim president, Michael Kotlikoff."
     },
     {
@@ -11183,12 +11205,13 @@
       "source_unit": 5,
       "status": "requires_review",
       "learning_item_ids": [
+        "phrase:10:interim president",
         "phrase:10:at the time"
       ],
-      "review_reason": "At the time is clear, but interim and the unfinished before he becomes clause leave both role and structure unresolved.",
+      "review_reason": "Temporary title and historical at-the-time reference are now understood. Before he becomes is unfinished; the intended later role may be inferable but is not supplied as a verified completion.",
       "review_status": "context_reviewed_remaining_barriers",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "So this is before he becomes, he was an interim president at the time."
     },
     {
@@ -11220,13 +11243,16 @@
       "page": 46,
       "segment": 759,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:reverses out of",
+        "phrase:1:back out of"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Reverses out of parking spots and the allusion to an earlier event require phrasal-verb and contextual explanation; sarcasm is not a new verified claim.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Reverse movement from a parking place is now explicitly taught and linked to the earlier account. Probably should be a bit more careful is sarcastic evaluation; no new collision, intent or date is asserted.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Yeah, the one that probably should be a bit more careful when he reverses out of parking spots."
     },
     {
@@ -11245,41 +11271,49 @@
       "page": 46,
       "segment": 761,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:intriguing",
+        "word:10:statement"
+      ],
       "candidate_learning_item_ids": [
         "word:10:statement"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Intriguing conveys interest or suspicion in this comment; the timing observation needs vocabulary support beyond statement.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Intriguing now conveys curiosity/suspicion while to me makes it personal evaluation. I have to say introduces a candid comment, not a literal compulsion or proof that timing was strategic.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Now, I have to say, the timing of this statement is intriguing to me."
     },
     {
       "page": 46,
       "segment": 762,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:6:off campus",
+        "phrase:1:back out of"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Off campus and block his car refer to location and an earlier event, while perhaps marks speculation; the allusion remains unresolved.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Students off campus means away from the grounds during the break; block his car recalls the prior parking protest. Perhaps qualifies the proposed inability to protest and once more invokes repetition, not evidence that avoiding protest motivated the release.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Thanksgiving break, students are off campus, perhaps unable to protest or block his car once more."
     },
     {
       "page": 46,
       "segment": 763,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:speculating"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Speculating is an important evidentiary qualifier requiring a contextual gloss; it explicitly denies certainty about the proposed motive.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Look draws attention and just explicitly limits the statement to conjecture. The new card prevents the proposed timing motive from being heard as established knowledge.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Look, I'm just speculating."
     },
     {
@@ -11312,30 +11346,32 @@
       "page": 47,
       "segment": 766,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "phrase:10:combing through",
-        "chunk:10:i highly doubt"
+        "phrase:10:festivities",
+        "phrase:10:highly doubt",
+        "phrase:10:combing through"
       ],
-      "review_reason": "Careful-search idiom and strong doubt are covered, but festivities and the nested claim about reporters still need sentence-level support.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Holiday celebrations, strong doubt and careful searching are all supported. The narrator doubts that reporters are searching official pages during the holiday; the embedded action is doubted, not reported as actually observed. To look for gives the hypothetical search purpose.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "The general public is also very busy with Thanksgiving festivities, and I highly doubt news reporters and journalists are combing through Cornell's official statement websites to look for any suspicious activity."
     },
     {
       "page": 47,
       "segment": 767,
       "source_unit": 5,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:10:vagueness",
         "word:10:intentional",
-        "phrase:10:can't help but"
+        "chunk:10:i can't help but think"
       ],
-      "review_reason": "Deliberateness and involuntary thought are taught, but vagueness and the disfluent repeated noun phrase require additional explanation; intent remains speculation.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Vague wording now has a noun card; can't help but think expresses an insistent impression. Repeated the timing and the vagueness clarifies the two perceived features, but deliberate intent remains the narrator's speculative judgment.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "And there is a very general vagueness to the statement that I can't help but think it's very intentional, the timing and the vagueness."
     },
     {
@@ -11426,13 +11462,16 @@
       "page": 47,
       "segment": 774,
       "source_unit": 5,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:10:extensive",
+        "word:9:title ix"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Extensive describes the law's broad scope; it is not merely a long physical object and needs contextual vocabulary support.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Wide scope now has support and pretty is degree quite, not appearance. Because explains the decision to simplify in 772–773; it does not make the following overview a complete or currently authoritative legal explanation.",
       "reviewer": "Codex",
-      "review_date": "2026-10-22",
+      "review_date": "2026-10-23",
       "reviewed_text": "Because it is a pretty extensive law."
     },
     {

@@ -420,116 +420,25 @@
     {
       "page": 45,
       "segment": 734,
-      "reason": "Continuation of the prior page's name list; spellings and full list boundaries require source tracking rather than lexical matching.",
+      "reason": "Completes the seven-name list from 733 rather than a new list. Track names as printed; Julia/Jillio/Giglio variants elsewhere and Scott K/Kay/Kretschmar forms are not authenticated merely by list position.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 45,
       "segment": 738,
-      "reason": "Afforded the opportunity and mitigate their conduct are formal and potentially awkward legal-reporting phrases; no keyword hit resolves their scope.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 744,
-      "reason": "As much of a non-statement as a statement can be is a rhetorical comparison criticizing lack of substance; statement alone does not teach this structure.",
-      "candidate_learning_item_ids": [
-        "word:10:statement"
-      ]
-    },
-    {
-      "page": 45,
-      "segment": 746,
-      "reason": "Office of Student Conduct and diligently add institutional-role and manner meanings not covered by the allegation card alone.",
+      "reason": "Formal given-a-chance construction now has support. Who were starts a relative fragment referring back to some suspended people; mitigate their conduct is awkward because essays may mitigate consequences or assessment, not undo conduct. Retain that scope ambiguity rather than silently replace the object.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 45,
       "segment": 747,
-      "reason": "Including what addressing is a disfluent boundary between commentary and reported statement; scope of the list needs annotation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 45,
-      "segment": 748,
-      "reason": "Suspensions are linked, but whatever that means inserts a skeptical aside into reported institutional wording and needs pragmatic explanation.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 750,
-      "reason": "Quoted abstract challenged how we see each other uses see figuratively and embeds two coordinated clauses; requires sentence-level explanation."
-    },
-    {
-      "page": 46,
-      "segment": 751,
-      "reason": "Profanity intensifies the rhetorical demand for meaning; it needs an explicit register note, not just a basic question-word match.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 752,
-      "reason": "The challenge idiom is taught, but as it has to others is ellipsis and individual and collective goals adds formal contrast; further annotation is needed.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 753,
-      "reason": "Cornelians is a community demonym and restful/loved ones are additional lexical targets; a holiday-name hit would not certify coverage.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 755,
-      "reason": "Interim president is a temporary office-holder title requiring a contextual gloss; preserve the historical title rather than updating personnel.",
+      "reason": "Taken actions means acted, and addressing concerns means dealing with concerns. Including what addressing appears to interleave a skeptical interruption with the list; preserve the boundary issue rather than identify what as part of a clean institutional quote.",
       "candidate_learning_item_ids": []
     },
     {
       "page": 46,
       "segment": 756,
-      "reason": "At the time is clear, but interim and the unfinished before he becomes clause leave both role and structure unresolved."
-    },
-    {
-      "page": 46,
-      "segment": 759,
-      "reason": "Reverses out of parking spots and the allusion to an earlier event require phrasal-verb and contextual explanation; sarcasm is not a new verified claim.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 761,
-      "reason": "Intriguing conveys interest or suspicion in this comment; the timing observation needs vocabulary support beyond statement.",
-      "candidate_learning_item_ids": [
-        "word:10:statement"
-      ]
-    },
-    {
-      "page": 46,
-      "segment": 762,
-      "reason": "Off campus and block his car refer to location and an earlier event, while perhaps marks speculation; the allusion remains unresolved.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 46,
-      "segment": 763,
-      "reason": "Speculating is an important evidentiary qualifier requiring a contextual gloss; it explicitly denies certainty about the proposed motive.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 47,
-      "segment": 766,
-      "reason": "Careful-search idiom and strong doubt are covered, but festivities and the nested claim about reporters still need sentence-level support."
-    },
-    {
-      "page": 47,
-      "segment": 767,
-      "reason": "Deliberateness and involuntary thought are taught, but vagueness and the disfluent repeated noun phrase require additional explanation; intent remains speculation."
-    },
-    {
-      "page": 47,
-      "segment": 774,
-      "reason": "Extensive describes the law's broad scope; it is not merely a long physical object and needs contextual vocabulary support.",
-      "candidate_learning_item_ids": []
+      "reason": "Temporary title and historical at-the-time reference are now understood. Before he becomes is unfinished; the intended later role may be inferable but is not supplied as a verified completion."
     },
     {
       "page": 47,
