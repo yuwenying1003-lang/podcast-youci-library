@@ -1,0 +1,82 @@
+{
+  "unit": 10,
+  "reviewer": "Codex",
+  "method": "Individual review of 15 patterns with original excerpts preserved. Pay particular attention to approximate like, source uncertainty and incomplete spoken syntax; the teaching examples are adaptations, not repaired quotations.",
+  "chunks": [
+    ["I cannot say with certainty","我无法确定地说……","State explicitly that available knowledge is insufficient for certainty.","I cannot say with certainty + whether/how/which clause; use statement word order.","Source declines to identify a pseudonymous party; do not supply the missing identity.",[
+      ["你还没收到维修通知，向家人说明无法确定设备何时能修好。",["repair","ready"],"I cannot say with certainty","I cannot say with certainty when the repair will be finished.","我无法确定维修什么时候能完成。"],
+      ["朋友问你是否能参加周末聚会，但你的行程还没有确定。",["attend","weekend"],"I cannot say with certainty","I cannot say with certainty whether I'll be free this weekend.","我无法确定这周末是否有空。"],
+      ["你向团队汇报初步调查，说明目前无法断言哪个因素导致错误。",["cause","error"],"I cannot say with certainty","I cannot say with certainty which change caused the error.","我无法确定是哪项修改导致了错误。"]
+    ]],
+    ["I don't think I did anything wrong","我不认为自己做错了什么","Express your assessment of your own conduct while allowing discussion.","I don't think + clause; anything follows the negative. Can sound defensive, so invite specific feedback when appropriate.","Source paraphrases a party's position; the statement is not proof of innocence or wrongdoing.",[
+      ["家人误以为你没有按说明安装家具，你说明自己的看法并愿意检查。",["instructions","check"],"I don't think I did anything wrong","I don't think I did anything wrong, but let's check the instructions together.","我不觉得自己做错了什么，不过我们一起查查说明吧。"],
+      ["朋友因你提前离开聚会不高兴，你表达看法并愿意听取他的感受。",["leaving","explain"],"I don't think I did anything wrong","I don't think I did anything wrong by leaving early, but I should have explained.","我不觉得提前离开本身有什么错，不过我应该解释一下。"],
+      ["同事指出流程可能有误，你表达当前理解并请对方指出具体问题。",["process","missed"],"I don't think I did anything wrong","I don't think I did anything wrong, but please show me which step I missed.","我不觉得自己做错了什么，不过请告诉我漏掉了哪个步骤。"]
+    ]],
+    ["not a lot of people","没有很多人；人数不多","Describe a relatively small number without claiming there were none.","Not a lot of people + plural verb; or there are/were not a lot of people + complement.","Source concerns discussion of the second lawsuit; few does not mean nobody.",[
+      ["你向家人描述早晨的公园，说明当时那里的人不多。",["park","morning"],"Not a lot of people","Not a lot of people use the park this early.","这么早来公园的人不多。"],
+      ["朋友担心活动太拥挤，你告诉他上次参加的人数比较少。",["event","last time"],"Not a lot of people","Not a lot of people came to the event last time.","上次来参加活动的人不多。"],
+      ["你向团队反馈一个功能的使用情况，但不夸大成完全没人使用。",["feature","using"],"Not a lot of people","Not a lot of people are using this feature yet.","目前使用这个功能的人还不多。"]
+    ]],
+    ["There's a whole ...","有整整一个……；有一整套……","Emphasize the extent or completeness of something.","There's a whole + singular count noun phrase; whole emphasizes scope rather than always literal completeness.","Source's chapter nine remains an unresolved transcription issue; the reusable frame does not correct it to Title IX.",[
+      ["你整理储物间时发现还有一箱没拆的书，向家人说明。",["box","books"],"There's a whole","There's a whole box of books we haven't unpacked.","还有整整一箱书我们没拆。"],
+      ["朋友只知道旅行的一件小插曲，你说明背后还有很多故事。",["story","behind"],"There's a whole","There's a whole story behind that photo.","那张照片背后还有一整个故事。"],
+      ["同事以为审批只有一个步骤，你提醒他其实还有完整流程。",["process","approval"],"There's a whole","There's a whole approval process we need to follow.","我们需要遵循一整套审批流程。"]
+    ]],
+    ["I don't know if ...","我不知道是否……","Express uncertainty about whether a proposition is true.","I don't know if + subject + verb; if means whether here, not an if-then condition.","Source is uncertain about which records reporters obtained; no access is invented.",[
+      ["你准备去商店但没查营业时间，向家人说明暂时不确定是否开门。",["shop","open"],"I don't know if","I don't know if the shop is open today.","我不知道商店今天是否开门。"],
+      ["朋友问另一个人会不会来聚会，你还没有收到对方回复。",["joining","tonight"],"I don't know if","I don't know if she's joining us tonight.","我不知道她今晚是否和我们一起去。"],
+      ["你还没有验证修复结果，向团队说明不能确认问题已经解决。",["fix","worked"],"I don't know if","I don't know if the fix worked yet.","我还不知道修复是否有效。"]
+    ]],
+    ["I don't know if they got","我不知道他们是否拿到或收到……","State uncertainty about another group's receipt or access.","I don't know if they got + object. Got can mean received/obtained; identify the intended sense.","Source concerns obtaining investigative records, not catching an illness or understanding a joke.",[
+      ["你给父母寄了包裹但还没有收到确认，向家人说明情况。",["parcel","received"],"I don't know if they got","I don't know if they got the parcel yet.","我不知道他们是否已经收到包裹。"],
+      ["你发出聚会邀请后没有看到回复，担心朋友没有收到。",["invitation","message"],"I don't know if they got","I don't know if they got the invitation, so I'll check.","我不知道他们是否收到了邀请，所以我会确认一下。"],
+      ["你向客户发送了文件但尚未确认送达，向同事作如实汇报。",["files","client"],"I don't know if they got","I don't know if they got all the files.","我不知道他们是否收到了全部文件。"]
+    ]],
+    ["What more can you say ...?","还能再说些什么呢？","Signal that the point seems self-evident or little remains to add.","What more can you say about + topic? Usually rhetorical; can sound dismissive depending on tone.","Source rhetorically reacts to alleged failed redactions rather than requesting a list of remarks.",[
+      ["你已经详细说过一次糟糕的维修经历，向家人表示没什么可补充的。",["repair","experience"],"What more can you say","What more can you say about a repair that made the problem worse?","一次维修反而让问题更严重，还能再说什么呢？"],
+      ["朋友称赞一场精彩演出，你用轻松的反问表达赞同。",["performance","excellent"],"What more can you say","It was an excellent performance. What more can you say?","那是一场精彩的演出，还能再说什么呢？"],
+      ["在非正式复盘中，你对已经反复说明的明显问题表达无奈。",["missing","backup"],"What more can you say","There was no backup at all. What more can you say about that?","根本没有备份，对此还能再说什么呢？"]
+    ]],
+    ["It seems more like ...","它看起来更像……","Compare an apparent situation with a better-fitting description.","It seems more like + noun/-ing phrase + optional than + comparison.","Source tentatively compares the space to a storage closet; it does not confirm the room's official function.",[
+      ["你看过房屋广告后实地参观，觉得所谓书房更像储物间。",["closet","study"],"It seems more like","It seems more like a storage closet than a study.","它看起来更像储物间，而不是书房。"],
+      ["朋友邀请你参加活动，你看完安排后觉得它更像小聚会。",["gathering","party"],"It seems more like","It seems more like a small gathering than a big party.","它看起来更像一次小聚，而不是大型派对。"],
+      ["同事提出的方案偏向实验而非正式发布，你谨慎说明自己的判断。",["experiment","launch"],"It seems more like","It seems more like an experiment than a full launch.","它看起来更像一次实验，而不是完整发布。"]
+    ]],
+    ["It's like ...","大约是……；有点像……","Give an approximate quantity or comparison, depending on the complement.","It's like + approximate amount in this source; like + noun can also introduce a comparison. Keep the two senses distinct.","Source's like a hundred page lawsuit approximates length, not a claim that the object merely resembles a lawsuit. Edited teaching uses a hundred-page document.",[
+      ["家人问路程有多远，你给出大概距离而不是精确测量。",["ten-minute","walk"],"It's like","It's like a ten-minute walk from here.","从这里走过去大概十分钟。"],
+      ["朋友问旅行相册有多厚，你用口语给出大致页数。",["fifty-page","album"],"It's like","It's like a fifty-page album, so there's a lot to look through.","相册大概有五十页，所以有不少内容可看。"],
+      ["在非正式团队交流中，你向同事概述说明文档的大致长度。",["twenty-page","guide"],"It's like","It's like a twenty-page guide, not a one-page checklist.","它大概是份二十页的指南，不是一页的检查清单。"]
+    ]],
+    ["We're going to get into","我们接下来要详细谈……","Preview a topic to be explored in detail.","We're going to get into + topic; not a literal movement into a room here.","Source previews cross-referencing identities; it does not settle uncertain identifications in advance.",[
+      ["你和家人商量装修，说明先决定布局再详细谈材料。",["materials","layout"],"We're going to get into","We're going to get into the materials after we settle the layout.","确定布局之后，我们再详细讨论材料。"],
+      ["你组织读书会，提醒朋友们接下来会讨论人物动机。",["characters","motives"],"We're going to get into","We're going to get into the characters' motives next.","接下来我们会详细讨论人物的动机。"],
+      ["你主持培训，告诉同事下一部分会讲解具体排查步骤。",["troubleshooting","steps"],"We're going to get into","We're going to get into the troubleshooting steps after the break.","休息后，我们会详细讲解排查步骤。"]
+    ]],
+    ["we've pieced together","我们已经把零散信息拼凑起来……","Explain that an account was assembled from multiple fragments.","We've pieced together + object; with a pronoun, we've pieced it together. Completion does not guarantee accuracy.","Source describes reconstruction from documents; the unfinished tried to cross clause is not repaired in the quotation.",[
+      ["你根据收据和照片回忆旅行日期，向家人说明已整理出时间线。",["timeline","receipts"],"We've pieced together","We've pieced together the timeline from receipts and photos.","我们根据收据和照片拼出了时间线。"],
+      ["你和朋友各自回忆聚会细节，说明已大致还原当天的经过。",["memories","day"],"We've pieced together","We've pieced together most of what happened that day.","我们已经拼出了那天大部分事情的经过。"],
+      ["团队综合多份日志调查故障，你向经理说明当前已经建立的解释。",["logs","explanation"],"We've pieced together","We've pieced together a possible explanation from the logs.","我们根据日志拼出了一种可能的解释。"]
+    ]],
+    ["By this point, ...","到这个时候……","Locate a state or accumulated result at a stage in an account.","By this point, + clause; often past perfect for prior completion within a past narrative.","Source marks the narrated stage of a reported condition; no exact minute or duration is inferred.",[
+      ["你回忆长途搬家过程，说明到了午后大家已把车装满。",["loaded","van"],"By this point,","By this point, we had loaded everything into the van.","到这个时候，我们已经把所有东西装进了货车。"],
+      ["你向朋友讲一次登山经历，说明走到半山腰时水已经快喝完了。",["water","nearly"],"By this point,","By this point, our water was nearly gone.","到这个时候，我们的水已经快喝完了。"],
+      ["你在项目复盘中说明进入试运行时核心功能已经完成。",["features","completed"],"By this point,","By this point, we had completed the core features.","截至这一步，我们已经完成了核心功能。"]
+    ]],
+    ["More on it later","稍后再详细谈这件事","Defer detail while signaling that the topic will be revisited.","More on it later is an elliptical signpost; it must refer to a clear topic. Full form: I'll say more about it later.","Source postpones discussion of a separate lawsuit; no new detail is supplied by the signpost itself.",[
+      ["你向家人提到搬家计划，但准备吃完饭后再详细说明。",["move","dinner"],"More on it later","I've found a possible apartment. More on it later, after dinner.","我找到了一套可能合适的公寓，吃完饭后再详细说。"],
+      ["你向朋友提起一个旅行趣事，但当前需要先处理别的安排。",["story","later"],"More on it later","There's a funny story behind the photo. More on it later.","照片背后有个有趣的故事，稍后再详细说。"],
+      ["你在会议开头提到一个风险，说明下一节会专门展开。",["risk","next section"],"More on it later","We've identified a scheduling risk. More on it later in the next section.","我们发现了一项进度风险，下一部分会详细讲。"]
+    ]],
+    ["Not a lot of people are talking about","没有很多人在谈论……","Point out relatively limited attention to a topic.","Not a lot of people are talking about + noun/-ing phrase; this is not the same as nobody knows about it.","Source describes perceived discussion of a lawsuit, not a measured media-coverage survey.",[
+      ["你发现社区新开了一条步行路线，但邻居很少提起它。",["walking route","neighborhood"],"Not a lot of people are talking about","Not a lot of people are talking about the new walking route yet.","目前还没多少人在谈论那条新步行路线。"],
+      ["你向朋友推荐一部不太热门的电影，说明它尚未引起广泛讨论。",["film","yet"],"Not a lot of people are talking about","Not a lot of people are talking about this film, but I enjoyed it.","没多少人在谈论这部电影，不过我很喜欢。"],
+      ["你在团队会议上提醒大家注意一个目前讨论不足的维护问题。",["maintenance","cost"],"Not a lot of people are talking about","Not a lot of people are talking about the maintenance cost yet.","目前还没多少人在讨论维护成本。"]
+    ]],
+    ["It's just a lot","事情或信息实在太多；让人有些吃不消","Express a feeling of being overwhelmed by quantity or complexity.","It's just a lot + optional to process/manage; explain the referent if it is not already clear.","Source reacts to a large amount of complicated information; not a precise count or a diagnosis.",[
+      ["你同时准备搬家和处理工作，向家人坦诚说明自己有些忙不过来。",["moving","tasks"],"It's just a lot","It's just a lot to manage while we're moving.","搬家期间要处理这些事，实在有些忙不过来。"],
+      ["朋友一下子告诉你许多变化，你需要一点时间消化这些消息。",["news","process"],"It's just a lot","It's just a lot to process. Give me a minute.","这些信息实在有点多，让我消化一下。"],
+      ["你刚接手一个复杂项目，向经理说明自己需要时间整理资料。",["information","organize"],"It's just a lot","It's just a lot of information to organize in one afternoon.","要在一个下午整理这么多信息，实在有些吃力。"]
+    ]]
+  ]
+}

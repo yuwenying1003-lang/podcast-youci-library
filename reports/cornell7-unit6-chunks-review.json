@@ -1,0 +1,21 @@
+{
+  "unit": 6,
+  "reviewer": "Codex",
+  "chunks": [
+    ["As it turned out","后来发现；结果却是","Introduce a fact discovered later, often contrary to expectations.","As it turned out, + past-tense clause; can also interrupt a clause between commas.","Source reveals that the riddle lacked an answer, distinguishing later discovery from initial expectations.",[
+      ["你原以为丢了钥匙，后来才发现钥匙在外套口袋里。",["keys","pocket"],"As it turned out,","As it turned out, my keys were in my coat pocket.","后来发现，我的钥匙就在外套口袋里。"],
+      ["你以为聚会只有熟人，后来发现一位老同学也来参加。",["classmate","party"],"As it turned out,","As it turned out, an old classmate was at the party too.","后来发现，一位老同学也参加了聚会。"],
+      ["团队以为问题出在代码，检查后发现是输入文件格式错误。",["input file","format"],"As it turned out,","As it turned out, the input file was in the wrong format.","后来发现，是输入文件的格式不对。"]
+    ]],
+    ["It's worth ...","值得……","Recommend an action as valuable enough to justify the effort.","It's worth + -ing form or noun phrase; not worth to + verb.","Source recommends reading; it does not claim the document is unbiased or independently verified.",[
+      ["你准备出门买东西，提醒家人先检查一下商店营业时间。",["checking","hours"],"It's worth","It's worth checking the opening hours before we leave.","出发前值得先查一下营业时间。"],
+      ["朋友犹豫是否尝试新餐厅，你认为值得去试一次。",["trying","restaurant"],"It's worth","It's worth trying the new restaurant at least once.","那家新餐厅至少值得去试一次。"],
+      ["你发现一项需求含糊，建议团队正式开始前先澄清。",["clarifying","requirement"],"It's worth","It's worth clarifying this requirement before we start.","开始之前，值得先把这项需求弄清楚。"]
+    ]],
+    ["It's worth reading","值得一读","Recommend reading a particular text and explain its value.","It's worth reading + optional because clause; it must refer to an identified text.","The original is a brief recommendation, while the teaching scenes use neutral documents rather than repeat distressing case material.",[
+      ["家人准备使用新设备，你提醒他说明书中的安全部分很有用。",["manual","safety"],"It's worth reading","It's worth reading the safety section before using the appliance.","使用电器前，说明书中的安全部分值得读一读。"],
+      ["朋友问你推荐的旅行随笔怎么样，你指出它介绍了当地生活。",["essay","local life"],"It's worth reading","It's worth reading because it gives a vivid picture of local life.","它值得一读，因为它生动地描绘了当地生活。"],
+      ["你向新同事推荐一份复盘报告，说明其中有可借鉴的经验。",["report","lessons"],"It's worth reading","It's worth reading the report for the lessons from the last release.","这份报告值得读一读，可以了解上次发布的经验教训。"]
+    ]]
+  ]
+}

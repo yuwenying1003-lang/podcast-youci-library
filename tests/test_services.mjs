@@ -68,14 +68,39 @@ test('all course vocabulary is unique within each unit and complete', async () =
   }
 });
 
-test('Cornell 7 has eleven units, IPA for every word, no exact clips, and no technical tips', async () => {
-  const course = JSON.parse(await readFile(new URL('../courses/8b77ac948ba43d5d084d03e194ce7ecb.json', import.meta.url), 'utf8'));
+test('Cornell 7 expansion preserves units, provenance, deduplication, and unresolved audits', async () => {
+  const [course, report, unresolved, duplicateReport, coverage] = await Promise.all([
+    readFile(new URL('../courses/8b77ac948ba43d5d084d03e194ce7ecb.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-expansion-report.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-unresolved.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-duplicates.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-coverage-index.json', import.meta.url), 'utf8').then(JSON.parse),
+  ]);
   const audit = auditCourse(course);
   assert.equal(course.units.length, 11);
+  assert.deepEqual(course.units.map(unit => unit.transcript_pages), [[1, 3], [4, 7], [8, 10], [11, 15], [16, 20], [21, 23], [24, 26], [27, 33], [34, 40], [41, 44], [45, 51]]);
+  assert.deepEqual(report.totals, { words: course.vocab.length, phrases: course.expressions.length, chunks: course.patterns.flat().length });
+  assert.equal(report.duplicates_removed, 12);
+  assert.equal(duplicateReport.count, 12);
+  assert.equal(coverage.segments.length, 850);
+  assert.equal(Object.values(report.coverage_status).reduce((sum, count) => sum + count, 0), 850);
+  assert.equal(audit.missing.ipa, unresolved.missing_ipa.length);
   assert.equal(audit.missing.ipa, 0);
+  assert.equal(unresolved.externally_sourced_ipa_requiring_review.length, course.vocab.filter(item => item.ipa_status?.includes('unreviewed')).length);
+  assert.equal(unresolved.missing_english_definition.length, 0);
+  assert.equal(unresolved.externally_sourced_definition_requiring_review.length, course.vocab.filter(item => item.definition_status === 'external_dictionary_unreviewed').length);
+  assert.equal(audit.missing.example_cn, unresolved.missing_example_translation.length);
   assert.equal(audit.missing.example_cn, 0);
+  assert.equal(course.vocab.filter(item => item.tip?.startsWith('Spelling anchor:')).length, 0);
+  assert.equal(unresolved.machine_translations_requiring_review.length, course.vocab.filter(item => item.example_translation_status === 'machine_translated_requires_editorial_review').length);
+  assert.equal(unresolved.form_generated_memory_requiring_review.length, course.vocab.filter(item => item.mnemonic_status === 'form_specific_generated_requires_editorial_review').length);
   assert.equal(audit.technicalTips, 0);
   assert.equal(course.vocab.some(item => item.clip), false);
+  assert.equal(course.expressions.some(item => item.clip), false);
+  for (const item of [...course.vocab, ...course.expressions, ...course.patterns.flat()]) {
+    assert.ok(Number.isInteger(item.source_page));
+    assert.ok(item.source_excerpt);
+  }
 });
 
 test.skip('legacy compact-card vocabulary contract (replaced by approved v2.2 list UI)', async () => {

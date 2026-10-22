@@ -1,0 +1,15 @@
+{
+  "unit": 2,
+  "review_date": "2026-10-23",
+  "reviewer": "Codex",
+  "method": "Return to all earlier Unit 2 queue items with adjacent paragraphs; add the remaining figurative target but do not repair suspect quotations.",
+  "phrases": [
+    ["ripped apart",99,"severely disrupted or devastated, figuratively here","被彻底摧毁；被搅得支离破碎（比喻）","The family felt their lives had been ripped apart by the sudden loss.","突如其来的离别让这家人觉得生活被搅得支离破碎。","Rip apart literally means tear into pieces; a life being ripped apart expresses severe disruption, not literal dismemberment. Source alleges lasting harm; the teaching example is separate and does not authenticate the account."]
+  ],
+  "segments": [
+    [76,"requires_review",["phrase:1:ongoing verbal and online abuse"],"Read with the quoted statement in 75: as well as adds another alleged type of conduct. Resulting in the case of two individual bans is awkward and does not securely say whether two individuals or two bans are meant. Preserve the quotation and request source/audio confirmation before correction."],
+    [84,"requires_review",["phrase:1:no place in"],"The figurative expression is supported by the standard teaching example has no place in. The printed It is no place is still suspect; the following repeated no place clauses support the intended rejection but do not authenticate a replacement verb."],
+    [99,"requires_review",["phrase:1:ripped apart","phrase:10:drops out of school"],"The figurative devastated-life meaning now has explicit support, alongside leaving school and the allegation frame. Gang essayed remains nonstandard or euphemistic source wording; the PDF alone does not verify a lexical replacement or the allegation."],
+    [108,"requires_review",["phrase:1:not the other way around"],"Read with the recorded-call attribution in 107: maybe marks the quoted accused person's uncertainty, and not the other way around reverses alleged roles. Essayed is still unresolved; neither repetition nor this counter-claim verifies the intended verb or event."]
+  ]
+}

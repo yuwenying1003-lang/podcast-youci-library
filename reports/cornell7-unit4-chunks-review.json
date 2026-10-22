@@ -1,0 +1,56 @@
+{
+  "unit": 4,
+  "reviewer": "Codex",
+  "chunks": [
+    ["It's not even worth the risk","连这个风险都不值得冒","Reject an option because the potential benefit is too small for the risk.","It/That is not worth + noun/-ing; even adds emphasis.","Source is an imagined insurer's assessment, not an actual underwriting rule.",[
+      ["家人想踩着摇晃的椅子换灯泡，你建议等拿到梯子再换。",["chair","ladder"],"It's not even worth the risk.","It's not even worth the risk. Let's get a ladder.","根本不值得冒险。我们去拿梯子吧。"],
+      ["朋友想在手机快没电时走陌生的小路，你建议走熟悉的大路。",["shortcut","battery"],"It's not even worth the risk.","It's not even worth the risk. The shortcut only saves two minutes.","根本不值得冒险。抄近路也就省两分钟。"],
+      ["同事想跳过备份直接更新重要文件，你提醒这省不了多少时间。",["backup","files"],"It's not even worth the risk.","It's not even worth the risk. Backing up the files takes a minute.","根本不值得冒险。备份文件只要一分钟。"]
+    ]],
+    ["Imagine the amount of","想想……会有多少","Draw attention to a large quantity of something.","Imagine the amount of + uncountable noun; use the number of with countable plural nouns.","Source has a false start before lawsuits and liability. Teaching examples use uncountable time, planning and work rather than copying that disfluency.",[
+      ["家人想自己重新装修整个房间，你提醒他先考虑所需时间。",["room","time"],"Imagine the amount of","Imagine the amount of time we would need to repaint every room.","想想重新粉刷每个房间需要多少时间。"],
+      ["朋友想组织二十个人一起旅行，你提醒他安排起来不简单。",["trip","planning"],"Imagine the amount of","Imagine the amount of planning a trip for twenty people would take.","想想组织二十人旅行需要做多少安排。"],
+      ["同事提议手动整理几千条记录，你提醒他考虑工作量。",["records","work"],"Imagine the amount of","Imagine the amount of work it would take to check every record by hand.","想想逐条手动检查所有记录需要多少工作。"]
+    ]],
+    ["It's to the point where","已经到了……的程度","Describe a situation that has become severe enough to produce a consequence.","It is/has got to the point where + clause describing a consequence.","Keep source resulted in unchanged; teaching clauses avoid that possible transcription problem.",[
+      ["家里的旧冰箱噪音越来越大，现在已经影响晚上睡觉。",["fridge","sleep"],"It's to the point where","It's to the point where the fridge keeps us awake at night.","已经到了冰箱吵得我们晚上睡不着的程度。"],
+      ["朋友群消息太多，你发现自己已经跟不上重要的活动通知。",["messages","plans"],"It's to the point where","It's to the point where I miss plans because there are so many messages.","消息多到我已经会漏看活动安排了。"],
+      ["团队的手工处理工作不断增加，现在需要专门安排一人负责。",["workload","person"],"It's to the point where","It's to the point where we need someone working on this full-time.","已经到了需要有人全职处理这件事的程度。"]
+    ]],
+    ["That makes sense","这样就说得通了","Acknowledge that an explanation or proposal is understandable.","That makes sense; something makes sense to someone; negative: that doesn't make sense.","Understanding does not necessarily mean agreeing that every detail is true.",[
+      ["家人解释洗衣机为何要等到晚上才开，你听懂了电价原因。",["electricity","evening"],"That makes sense.","That makes sense. Electricity is cheaper in the evening.","这样就说得通了。晚上电价更便宜。"],
+      ["朋友解释为何把聚会提前到周六，你理解他周日要出差。",["Saturday","travel"],"That makes sense.","That makes sense. You'll need Sunday to get ready for your trip.","这样安排有道理。你需要周日为出差做准备。"],
+      ["同事解释为何先测试小样本再处理全部数据，你认同这个步骤。",["sample","errors"],"That makes sense.","That makes sense. A small test will help us catch errors early.","这样做有道理。小规模测试能帮助我们早点发现错误。"]
+    ]],
+    ["The minute you ..., ...","你一……就……","Describe what happens immediately after a trigger.","The minute + present-tense clause, + main clause; for future time use arrive, not will arrive, in the time clause.","Minute is figurative immediacy, not exactly sixty seconds. Source concerns a hypothetical policy scenario.",[
+      ["家人要来接你，你希望自己一到车站就告诉他。",["station","call"],"The minute you arrive,","The minute you arrive, give me a call.","你一到就给我打电话。"],
+      ["朋友等待抢票结果，你希望他一听到消息就通知大家。",["tickets","news"],"The minute you hear anything,","The minute you hear anything, send us a message.","你一听到消息就给我们发信息。"],
+      ["同事等待客户确认，你希望确认一到就启动下一步。",["approval","schedule"],"The minute you get approval,","The minute you get approval, we can confirm the schedule.","你一拿到批准，我们就能确认日程。"]
+    ]],
+    ["If all else fails","如果其他办法都不奏效","Introduce a fallback option after other attempts fail.","If all else fails, + can/will/could + backup action.","Source is a transition into another alleged source of payments, not a guaranteed remedy.",[
+      ["家里的打印机坏了，你想先修一修，同时保留去打印店的办法。",["printer","shop"],"If all else fails,","If all else fails, we can print the tickets at the shop.","如果其他办法都不行，我们可以去店里打印票。"],
+      ["朋友们一直订不到合适的餐馆，你提出最后可以在家做饭。",["restaurant","cook"],"If all else fails,","If all else fails, we can cook dinner at my place.","如果实在订不到，我们可以在我家做晚饭。"],
+      ["团队正在修复展示软件，你提出可用静态幻灯片作为备用。",["demo","slides"],"If all else fails,","If all else fails, we can use the slides for the presentation.","如果其他办法都不行，我们可以用幻灯片做展示。"]
+    ]],
+    ["In which case, ...","如果是那样的话／在那种情况下……","State a consequence of the situation just mentioned.","State the possible condition first, then , in which case + clause. Which refers back to that whole situation.","Not a vague replacement for therefore; it needs an antecedent situation. Source links an alleged breach to claimed lack of coverage.",[
+      ["你准备出门散步，想到可能下雨，并提出下雨时就在家运动。",["rain","indoors"],"It might rain, in which case", "It might rain, in which case we'll exercise indoors.","可能会下雨，如果那样我们就在室内运动。"],
+      ["朋友可能加班到很晚，你们准备在这种情况下另约时间。",["work","tomorrow"],"You might have to work late, in which case", "You might have to work late, in which case we can meet tomorrow.","你可能得加班，如果那样我们可以明天见。"],
+      ["你不确定客户今天能否批准，说明若批准了就可以开始测试。",["approval","testing"],"The client may approve it today, in which case", "The client may approve it today, in which case we can start testing.","客户今天可能会批准，如果那样我们就可以开始测试。"]
+    ]],
+    ["The thing is","问题在于；实际情况是","Introduce an important explanation or complication.","The thing is, + clause; optional that: the thing is that + clause.","Thing is a discourse placeholder, not a physical object; source introduces a qualification about policy wording.",[
+      ["家人希望你今天取快递，你解释自己还没有收到取件码。",["parcel","code"],"The thing is,","The thing is, I haven't received the pickup code yet.","问题在于，我还没有收到取件码。"],
+      ["朋友邀请你周末出去，你解释自己已经答应帮别人搬家。",["weekend","moving"],"The thing is,","The thing is, I already promised to help someone move.","问题在于，我已经答应帮别人搬家了。"],
+      ["同事问为什么不能马上发报价，你解释关键成本还没有确认。",["quote","costs"],"The thing is,","The thing is, we haven't confirmed the delivery costs yet.","问题在于，我们还没有确认配送成本。"]
+    ]],
+    ["It's very hard to say","很难判断；很难确定","Express uncertainty when there is not enough information.","It's very hard to say + if/whether/what/how clause; it refers to making a judgment, not speaking physically.","Source questions the unverified sixth-worst ranking; retain uncertainty.",[
+      ["家人问旧电脑还能用多久，你没有足够信息给出准确判断。",["computer","last"],"It's very hard to say","It's very hard to say how long this computer will last.","很难说这台电脑还能用多久。"],
+      ["朋友问户外活动能否照常举行，你觉得现在的天气信息还不够。",["weather","event"],"It's very hard to say","It's very hard to say whether the weather will hold.","很难说天气能不能一直保持这样。"],
+      ["主管问新方案能节省多少时间，但团队还没有做过试验。",["trial","time"],"It's very hard to say","It's very hard to say how much time we'll save before we run a trial.","在试验之前，很难说能节省多少时间。"]
+    ]],
+    ["What happens then","那接下来会怎样？","Ask about the next consequence of a proposed situation.","If + condition, what happens then? Then refers to the consequence or next step.","Source asks about loss of insurance, rather than providing an answer or recommending an action.",[
+      ["你准备预约送货，想知道如果到时家里没人会怎样处理。",["delivery","home"],"If nobody is home,","If nobody is home when the delivery arrives, what happens then?","如果送货到时家里没人，那会怎样处理？"],
+      ["朋友组织露营，你想了解如果晚上下大雨有什么后续安排。",["camping","rain"],"If it starts raining heavily,","If it starts raining heavily, what happens then?","如果开始下大雨，那接下来怎么办？"],
+      ["同事介绍审批流程，你想了解客户未按时回复时的下一步。",["client","deadline"],"If the client misses the deadline,","If the client misses the deadline, what happens then?","如果客户错过回复截止时间，那接下来怎么办？"]
+    ]]
+  ]
+}

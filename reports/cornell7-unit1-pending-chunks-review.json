@@ -1,0 +1,77 @@
+{
+  "unit": 1,
+  "reviewer": "Codex",
+  "method": "Review only the 14 previously pending Unit 1 chunks; preserve the two completed chunks and original excerpts. Spoken there is/plural agreement is explained rather than copied as formal grammar. All scenarios are teaching adaptations.",
+  "chunks": [
+    ["Am I allowed to ...?","我可以……吗；规定允许我……吗？","Ask permission or check a rule.","Am I allowed to + base verb? Allowed concerns permission, not physical ability.","Source reports a student's question; the question itself does not establish the legal answer.",[
+      ["你在租住房屋里想挂一幅画，先向房东确认是否允许打孔。",["hang","picture"],"Am I allowed to","Am I allowed to hang a picture on this wall?","我可以在这面墙上挂画吗？"],
+      ["朋友邀请你参加聚会，你想先确认能否再带一个朋友。",["bring","friend"],"Am I allowed to","Am I allowed to bring a friend?","我可以带一个朋友来吗？"],
+      ["你要把工作文件带回家处理，先确认公司的相关规定。",["take","documents"],"Am I allowed to","Am I allowed to take these documents home?","我可以把这些文件带回家吗？"]
+    ]],
+    ["I can't think of many reasons","我想不出多少理由……","Express difficulty finding plausible explanations without claiming none exist.","I can't think of many reasons why + clause or to + verb. Many differs from any.","Source questions a conclusion about fault; inability to imagine reasons is not proof of legal responsibility.",[
+      ["家人建议换掉还很好用的桌子，你说明自己暂时想不到充分理由。",["replace","table"],"I can't think of many reasons","I can't think of many reasons to replace a table that still works well.","我想不出多少理由要换掉一张仍很好用的桌子。"],
+      ["朋友想取消期待已久的旅行，但目前没有明显障碍，你表达疑惑。",["cancel","trip"],"I can't think of many reasons","I can't think of many reasons why we'd cancel the trip now.","我想不出多少理由说明我们为什么现在要取消旅行。"],
+      ["团队讨论是否保留重复流程，你说明目前看不到太多收益。",["keep","duplicate step"],"I can't think of many reasons","I can't think of many reasons to keep this duplicate step.","我想不出多少理由要保留这个重复步骤。"]
+    ]],
+    ["I don't know if","我不知道是否……","Acknowledge uncertainty about a proposition.","I don't know if + statement-order clause; if means whether.","Source distinguishes uncertainty about permission from a judgment about what may be wise; do not merge those claims.",[
+      ["家人问剩下的米饭是否足够，你还没有查看份量。",["enough","rice"],"I don't know if","I don't know if we have enough rice for everyone.","我不知道米饭够不够大家吃。"],
+      ["朋友问你能不能参加周六活动，你还需要确认自己的日程。",["free","Saturday"],"I don't know if","I don't know if I'm free on Saturday yet.","我还不知道周六有没有空。"],
+      ["你收到一份新模板，但尚未确认其他团队是否已经采用。",["template","approved"],"I don't know if","I don't know if this template has been approved.","我不知道这个模板是否已经获批。"]
+    ]],
+    ["I don't know if ..., but ...","我不知道是否……，不过……","Separate an uncertain point from a second observation or suggestion.","I don't know if + clause, but + clause; uncertainty in the first clause does not prove the second.","Source contrasts permission with caution; the teaching pattern does not assign fault for the source incident.",[
+      ["你不确定冰箱是否坏了，但发现声音异常，建议先检查。",["fridge","noise"],"I don't know if","I don't know if the fridge is broken, but that noise is unusual.","我不知道冰箱是不是坏了，不过那个声音不正常。"],
+      ["朋友还没确认是否参加聚会，你说自己仍会给他留个位子。",["coming","seat"],"I don't know if","I don't know if he's coming, but I'll save him a seat.","我不知道他来不来，不过我会给他留个位子。"],
+      ["你尚未确认问题是否严重，但认为团队应先做好备份。",["serious","backup"],"I don't know if","I don't know if the issue is serious, but we should make a backup.","我不知道这个问题是否严重，不过我们应该先备份。"]
+    ]],
+    ["I mean","我的意思是；我是说……","Clarify, rephrase or add emphasis in conversation.","I mean, + reformulation or explanation; not always a literal statement of intention.","Source uses a discourse marker before an emphatic judgment. The profanity in the source is not required by the reusable frame.",[
+      ["家人误以为你想吃很少的饭，你重新说明自己只是想晚一点吃。",["later","dinner"],"I mean,","I mean, I'd rather eat later, not skip dinner.","我是说，我想晚一点吃，不是不吃晚饭。"],
+      ["你对朋友说旅行很累后，补充说明自己仍然觉得值得。",["tiring","enjoyed"],"I mean,","I mean, it was tiring, but I really enjoyed it.","我是说，虽然很累，但我真的很喜欢这趟旅行。"],
+      ["同事把你的建议理解为重做项目，你澄清只是调整一个步骤。",["change","step"],"I mean,","I mean, we only need to change one step, not start over.","我的意思是，我们只需要改一个步骤，不是从头开始。"]
+    ]],
+    ["sooner rather than later","尽早；早一点而不是拖到以后","Favor an earlier time without giving an exact deadline.","Do something sooner rather than later; can describe a quick outcome or urge prompt action.","Source uses it ironically about quickly receiving an answer through events, not as a literal scheduling instruction.",[
+      ["水管有轻微漏水，你建议家人不要一直拖着维修。",["fix","leak"],"Sooner rather than later,","We should fix the leak sooner rather than later.","我们应该尽早修好漏水的地方。"],
+      ["朋友想约一顿饭但一直没定，你提议早点确定时间。",["pick","date"],"Sooner rather than later,","Let's pick a date sooner rather than later.","我们早点定个日期吧。"],
+      ["项目依赖客户回复，你建议团队尽早提出待确认的问题。",["clarify","requirements"],"Sooner rather than later,","We need to clarify these requirements sooner rather than later.","我们需要尽早弄清这些需求。"]
+    ]],
+    ["There's not really many scenarios","其实没有多少种情况……","Express that few situations would meet a condition.","Careful form: There aren't really many scenarios in which + clause. Source there's + plural is informal spoken agreement.","Keep exact source heading for recognition; teach plural agreement in complete adapted sentences. The conclusion remains a personal assessment.",[
+      ["你比较日常出行方式，觉得很少有情况需要同时租两辆车。",["need","two cars"],"There aren't really many scenarios","There aren't really many scenarios in which we'd need two rental cars.","其实没有多少种情况会让我们需要租两辆车。"],
+      ["朋友担心聚会无人到场，你说明大多数人已经确认会来。",["everyone","cancels"],"There aren't really many scenarios","There aren't really many scenarios in which everyone cancels at once.","其实很少会出现所有人同时取消的情况。"],
+      ["团队讨论回退计划，你说明只有少数条件会触发全面回退。",["full","rollback"],"There aren't really many scenarios","There aren't really many scenarios in which we'd need a full rollback.","其实只有很少几种情况会需要全面回退。"]
+    ]],
+    ["without asking a ton of follow-up questions","没有追问一大堆后续问题就……","Emphasize the need to clarify details before accepting or deciding.","Without + -ing; a ton of is informal exaggeration meaning many, not weight.","Source says acceptance would usually require further questions; follow-up questions probe earlier information.",[
+      ["你比较复杂的装修报价，告诉家人自己不能不问细节就答应。",["quote","accept"],"Without asking a ton of follow-up questions,","I wouldn't accept that quote without asking a ton of follow-up questions.","我不会不追问一大堆细节就接受那个报价。"],
+      ["朋友讲了一个离奇故事，你说明自己还想了解更多背景。",["story","believe"],"Without asking a ton of follow-up questions,","I can't understand that story without asking a ton of follow-up questions.","不追问很多后续问题，我实在理解不了那个故事。"],
+      ["客户只发来很短的需求，你解释自己无法直接估算工期。",["estimate","project"],"Without asking a ton of follow-up questions,","We can't estimate the project without asking a ton of follow-up questions.","不追问一大堆后续问题，我们没法估算这个项目。"]
+    ]],
+    ["It's not like","并不是说……；又不是……","Reject an exaggerated comparison or assumption.","It's not like + noun phrase or clause; rhetorical form can sound defensive.","Source rejects the idea that contact was merely a very gentle tap, while also saying it was not dragging.",[
+      ["家人担心一次小维修会影响很久，你说明并不是要整屋翻修。",["renovating","house"],"It's not like","It's not like we're renovating the whole house.","我们又不是要翻修整栋房子。"],
+      ["朋友因迟到几分钟很自责，你安慰他说并没有错过整场活动。",["missed","whole event"],"It's not like","It's not like you missed the whole event.","你又不是错过了整场活动。"],
+      ["同事把试验理解成正式承诺，你澄清两者的区别。",["promised","release"],"It's not like","It's not like we've promised a release date yet.","我们还没有承诺发布日期呢。"]
+    ]],
+    ["it kind of sounds","听起来有点……","Soften an impression based on a description or sound.","It kind of sounds + adjective; add like before a noun or clause. Kind of is informal degree softening.","Source's bizarre describes the narrator's reaction to the account; not a legal finding.",[
+      ["你听见厨房设备发出异响，但不确定是否真的有故障。",["strange","noise"],"It kind of sounds","It kind of sounds strange, but I'm not sure what's wrong.","听起来有点奇怪，不过我不确定哪里出了问题。"],
+      ["朋友描述一次需要早起的旅行，你觉得安排可能有些累。",["exhausting","trip"],"It kind of sounds","It kind of sounds exhausting, even though it could be fun.","听起来有点累，虽然可能也很有趣。"],
+      ["同事提出新流程，你根据描述觉得它可能有些复杂。",["complicated","process"],"It kind of sounds","It kind of sounds complicated. Could we simplify it?","听起来有点复杂，我们能简化一下吗？"]
+    ]],
+    ["It's kind of like ...","它有点像……","Make an approximate comparison rather than assert identity.","It's kind of like + noun/-ing phrase; kind of weakens the comparison.","Source compares behavior with a mixture of blocking and loitering; this is the narrator's characterization.",[
+      ["你向家人介绍共享书架，用熟悉的小图书馆来打比方。",["library","shared shelf"],"It's kind of like","It's kind of like a tiny neighborhood library.","它有点像一个小小的社区图书馆。"],
+      ["朋友不理解新桌游，你用共同解谜来解释玩法特点。",["puzzle","together"],"It's kind of like","It's kind of like solving a puzzle together.","它有点像一起解一道谜题。"],
+      ["你向同事解释版本历史，用保留每次草稿来作类比。",["drafts","history"],"It's kind of like","It's kind of like keeping a copy of every draft.","它有点像给每一版草稿都留一份副本。"]
+    ]],
+    ["There's a bunch of ...","有一群或一堆……","Describe an informal group or quantity.","There's a bunch of + plural noun is common conversationally; there are a lot of is a neutral alternative.","Source refers to a group of students; bunch is not a precise count or a literal bundle.",[
+      ["你整理门口时发现许多包裹，告诉家人先留出地方。",["packages","door"],"There's a bunch of","There's a bunch of packages by the door.","门口有一堆包裹。"],
+      ["你到聚会现场后向朋友介绍还有一群人在外面聊天。",["people","outside"],"There's a bunch of","There's a bunch of people chatting outside.","外面有一群人在聊天。"],
+      ["你准备会议时提醒同事还有一些问题需要一起处理。",["questions","discuss"],"There's a bunch of","There's a bunch of questions we still need to discuss.","还有一堆问题我们需要讨论。"]
+    ]],
+    ["There's different people","有不同的人；不止同一个人","Point out multiple different people in a scene.","Careful form: There are different people + complement. Source there's + plural is spoken agreement, not the recommended formal form.","Source clarifies multiple participants; different means distinct people, not necessarily unusual personalities.",[
+      ["家人以为每天来的快递员都一样，你说明实际上是不同的人。",["deliveries","days"],"There are different people","There are different people making deliveries on different days.","不同日子来送货的是不同的人。"],
+      ["朋友以为照片里一直是同一组人，你指出每张照片里的人有所不同。",["photos","each"],"There are different people","There are different people in each photo.","每张照片里都有不同的人。"],
+      ["你向新同事介绍支持安排，说明不同问题由不同人员处理。",["support","requests"],"There are different people","There are different people handling each type of request.","不同类型的请求由不同的人处理。"]
+    ]],
+    ["There's a lot of","有很多……","Describe a large quantity, with agreement depending on the noun.","There's a lot of + uncountable noun; there are a lot of + plural count noun in careful English. Spoken there's people is preserved only as source.","Source is a surprised question about people; adapt the frame with grammatical agreement instead of changing the quotation.",[
+      ["你清理房间时发现灰尘很多，向家人说明需要多花一点时间。",["dust","room"],"There's a lot of","There's a lot of dust behind the shelves.","架子后面有很多灰尘。"],
+      ["你到朋友组织的聚会后，感叹现场有很多熟悉的面孔。",["familiar faces","party"],"There are a lot of","There are a lot of familiar faces here.","这里有很多熟悉的面孔。"],
+      ["你刚收到项目资料，告诉同事自己需要先整理大量信息。",["information","review"],"There's a lot of","There's a lot of information to review before we decide.","作决定之前，有很多信息需要审阅。"]
+    ]]
+  ]
+}
