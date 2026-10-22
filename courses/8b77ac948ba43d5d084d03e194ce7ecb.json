@@ -28016,975 +28016,1193 @@
     [
       {
         "text": "I don't know what ...",
-        "cn": "我不知道……",
-        "example": "So I don't know what that means.",
-        "prompt": "Use “I don't know what ...” in a complete sentence.",
+        "cn": "我不知道……是什么或该……什么",
+        "example": "I don't know what this symbol means.",
+        "prompt": "State a gap in knowledge using an embedded what-question.",
         "source_page": 34,
         "source_segment": "page-34",
         "source_excerpt": "So I don't know what that means.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我不知道……",
+        "communicative_function": "State a gap in knowledge using an embedded what-question.",
         "original_en": "So I don't know what that means.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "I don't know what this symbol means.",
+        "everyday_example_zh": "我不知道这个符号是什么意思。",
+        "workplace_example": "I don't know what the next step is. Could you clarify?",
+        "replaceable_parts": "I don't know what + subject + verb; or what to + base verb. No question inversion inside the clause.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道……”这一表达。",
-            "goal_en": "I don't know what ...",
+            "scene_zh": "电器显示一个陌生符号，你向家人说明自己不认识它。",
+            "goal_en": "State a gap in knowledge using an embedded what-question.",
             "keywords": [
-              "today",
-              "plan"
+              "symbol",
+              "means"
             ],
-            "starter": "I don't know what ...",
-            "reference_answer": "So I don't know what that means."
+            "starter": "I don't know what",
+            "reference_answer": "I don't know what this symbol means.",
+            "reference_answer_zh": "我不知道这个符号是什么意思。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道……”这一表达。",
-            "goal_en": "I don't know what ...",
+            "scene_zh": "朋友问你周末要带什么参加聚会，你还没有收到具体说明。",
+            "goal_en": "State a gap in knowledge using an embedded what-question.",
             "keywords": [
-              "friend",
-              "situation"
+              "bring",
+              "party"
             ],
-            "starter": "I don't know what ...",
-            "reference_answer": "So I don't know what that means."
+            "starter": "I don't know what",
+            "reference_answer": "I don't know what to bring to the party.",
+            "reference_answer_zh": "我不知道该带什么去聚会。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道……”这一表达。",
-            "goal_en": "I don't know what ...",
+            "scene_zh": "你收到一份缺少说明的任务单，向同事确认下一步。",
+            "goal_en": "State a gap in knowledge using an embedded what-question.",
             "keywords": [
-              "project",
-              "team"
+              "next",
+              "step"
             ],
-            "starter": "I don't know what ...",
-            "reference_answer": "So I don't know what that means."
+            "starter": "I don't know what",
+            "reference_answer": "I don't know what the next step is. Could you clarify?",
+            "reference_answer_zh": "我不知道下一步是什么，你能说明一下吗？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道这个符号是什么意思。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不知道下一步是什么，你能说明一下吗？",
+        "context_review_note": "Source concerns the meaning of an ambiguous message, not a confirmed explanation.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know what that means",
         "cn": "我不知道那是什么意思",
-        "example": "So I don't know what that means.",
-        "prompt": "Use “I don't know what that means” in a complete sentence.",
+        "example": "I don't know what that means on the label.",
+        "prompt": "Ask for clarification by acknowledging uncertainty about meaning.",
         "source_page": 34,
         "source_segment": "page-34",
         "source_excerpt": "So I don't know what that means.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我不知道那是什么意思",
+        "communicative_function": "Ask for clarification by acknowledging uncertainty about meaning.",
         "original_en": "So I don't know what that means.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I don't know what that means on the label.",
+        "everyday_example_zh": "我不知道标签上的那个缩写是什么意思。",
+        "workplace_example": "I don't know what that means in this context. Could you give an example?",
+        "replaceable_parts": "I don't know what that means; replace that with a named term if its referent is unclear.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道那是什么意思”这一表达。",
-            "goal_en": "I don't know what that means",
+            "scene_zh": "你看到洗衣标签上的陌生缩写，希望家人帮你解释。",
+            "goal_en": "Ask for clarification by acknowledging uncertainty about meaning.",
             "keywords": [
-              "today",
-              "plan"
+              "label",
+              "abbreviation"
             ],
             "starter": "I don't know what that means",
-            "reference_answer": "So I don't know what that means."
+            "reference_answer": "I don't know what that means on the label.",
+            "reference_answer_zh": "我不知道标签上的那个缩写是什么意思。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道那是什么意思”这一表达。",
-            "goal_en": "I don't know what that means",
+            "scene_zh": "朋友使用了你不熟悉的俚语，你坦诚表示没理解。",
+            "goal_en": "Ask for clarification by acknowledging uncertainty about meaning.",
             "keywords": [
-              "friend",
-              "situation"
+              "slang",
+              "explain"
             ],
             "starter": "I don't know what that means",
-            "reference_answer": "So I don't know what that means."
+            "reference_answer": "I don't know what that means. Could you explain the slang?",
+            "reference_answer_zh": "我不知道那是什么意思，你能解释一下这个俚语吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道那是什么意思”这一表达。",
-            "goal_en": "I don't know what that means",
+            "scene_zh": "会议中有人说了一个内部术语，你请他给出简单解释。",
+            "goal_en": "Ask for clarification by acknowledging uncertainty about meaning.",
             "keywords": [
-              "project",
-              "team"
+              "term",
+              "example"
             ],
             "starter": "I don't know what that means",
-            "reference_answer": "So I don't know what that means."
+            "reference_answer": "I don't know what that means in this context. Could you give an example?",
+            "reference_answer_zh": "我不知道它在这里是什么意思，你能举个例子吗？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道标签上的那个缩写是什么意思。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不知道它在这里是什么意思，你能举个例子吗？",
+        "context_review_note": "The narrator refuses to assign a definite intention to the short message.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "So he claims",
-        "cn": "这是他的说法",
-        "example": "So he claims.",
-        "prompt": "Use “So he claims” in a complete sentence.",
+        "cn": "至少他是这么说的",
+        "example": "He says the kitchen is spotless. So he claims; I haven't checked yet.",
+        "prompt": "Distance yourself from a claim you have not verified.",
         "source_page": 35,
         "source_segment": "page-35",
         "source_excerpt": "So he claims.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "这是他的说法",
+        "communicative_function": "Distance yourself from a claim you have not verified.",
         "original_en": "So he claims.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "He says the kitchen is spotless. So he claims; I haven't checked yet.",
+        "everyday_example_zh": "他说厨房一尘不染，至少他是这么说的，我还没检查。",
+        "workplace_example": "The supplier says the work is finished. So he claims; we're waiting for confirmation.",
+        "replaceable_parts": "So + subject + claim(s); often follows a statement attributed to that person. Can sound skeptical or confrontational.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这是他的说法”这一表达。",
-            "goal_en": "So he claims",
+            "scene_zh": "哥哥说已经把厨房打扫干净，你还没看过，用略带玩笑的语气转述。",
+            "goal_en": "Distance yourself from a claim you have not verified.",
             "keywords": [
-              "today",
-              "plan"
+              "kitchen",
+              "clean"
             ],
             "starter": "So he claims",
-            "reference_answer": "So he claims."
+            "reference_answer": "He says the kitchen is spotless. So he claims; I haven't checked yet.",
+            "reference_answer_zh": "他说厨房一尘不染，至少他是这么说的，我还没检查。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这是他的说法”这一表达。",
-            "goal_en": "So he claims",
+            "scene_zh": "朋友说自己从不迟到，你笑着回应，但不想把说法当成事实。",
+            "goal_en": "Distance yourself from a claim you have not verified.",
             "keywords": [
-              "friend",
-              "situation"
+              "late",
+              "never"
             ],
             "starter": "So he claims",
-            "reference_answer": "So he claims."
+            "reference_answer": "He says he's never late. So he claims.",
+            "reference_answer_zh": "他说自己从不迟到，至少他是这么说的。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这是他的说法”这一表达。",
-            "goal_en": "So he claims",
+            "scene_zh": "非正式同事讨论中你转述供应商的进度，但明确尚未收到证明。",
+            "goal_en": "Distance yourself from a claim you have not verified.",
             "keywords": [
-              "project",
-              "team"
+              "finished",
+              "confirmation"
             ],
             "starter": "So he claims",
-            "reference_answer": "So he claims."
+            "reference_answer": "The supplier says the work is finished. So he claims; we're waiting for confirmation.",
+            "reference_answer_zh": "供应商说工作做完了，至少他是这么说的，我们还在等确认。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "他说厨房一尘不染，至少他是这么说的，我还没检查。",
+        "example_source": "adapted",
+        "workplace_example_zh": "供应商说工作做完了，至少他是这么说的，我们还在等确认。",
+        "context_review_note": "Source signals doubt about a reported account; doubt itself is not proof that the account is false.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "what do you mean",
-        "cn": "你是什么意思",
-        "example": "Maybe he's like, what do you mean free?",
-        "prompt": "Use “what do you mean” in a complete sentence.",
+        "cn": "你是什么意思；你所说的……具体指什么",
+        "example": "What do you mean by a regular-size box?",
+        "prompt": "Request a clearer explanation of a word or statement.",
         "source_page": 35,
         "source_segment": "page-35",
         "source_excerpt": "Maybe he's like, what do you mean free?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "你是什么意思",
+        "communicative_function": "Request a clearer explanation of a word or statement.",
         "original_en": "Maybe he's like, what do you mean free?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "What do you mean by a regular-size box?",
+        "everyday_example_zh": "你说的普通尺寸的盒子具体是多大？",
+        "workplace_example": "What do you mean by a more flexible design?",
+        "replaceable_parts": "What do you mean by + noun/-ing? What do you mean, + quoted wording? Tone can be curious or challenging.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“你是什么意思”这一表达。",
-            "goal_en": "what do you mean",
+            "scene_zh": "家人说买一个普通尺寸的盒子，你想知道具体多大。",
+            "goal_en": "Request a clearer explanation of a word or statement.",
             "keywords": [
-              "today",
-              "plan"
+              "regular size",
+              "box"
             ],
-            "starter": "what do you mean",
-            "reference_answer": "Maybe he's like, what do you mean free?"
+            "starter": "What do you mean",
+            "reference_answer": "What do you mean by a regular-size box?",
+            "reference_answer_zh": "你说的普通尺寸的盒子具体是多大？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“你是什么意思”这一表达。",
-            "goal_en": "what do you mean",
+            "scene_zh": "朋友说希望这次聚会简单一点，你温和询问他的想法。",
+            "goal_en": "Request a clearer explanation of a word or statement.",
             "keywords": [
-              "friend",
-              "situation"
+              "simple",
+              "party"
             ],
-            "starter": "what do you mean",
-            "reference_answer": "Maybe he's like, what do you mean free?"
+            "starter": "What do you mean",
+            "reference_answer": "What do you mean by keeping the party simple?",
+            "reference_answer_zh": "你说聚会简单一点，具体是指什么？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“你是什么意思”这一表达。",
-            "goal_en": "what do you mean",
+            "scene_zh": "同事说方案要更灵活，你请他解释希望有哪些变化。",
+            "goal_en": "Request a clearer explanation of a word or statement.",
             "keywords": [
-              "project",
-              "team"
+              "flexible",
+              "design"
             ],
-            "starter": "what do you mean",
-            "reference_answer": "Maybe he's like, what do you mean free?"
+            "starter": "What do you mean",
+            "reference_answer": "What do you mean by a more flexible design?",
+            "reference_answer_zh": "你说更灵活的设计，具体指什么？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "你说的普通尺寸的盒子具体是多大？",
+        "example_source": "adapted",
+        "workplace_example_zh": "你说更灵活的设计，具体指什么？",
+        "context_review_note": "Source imagines a clarification question rather than reporting that it was actually asked.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I could be ...",
         "cn": "我可能……",
-        "example": "I could be picking up the wrong things.",
-        "prompt": "Use “I could be ...” in a complete sentence.",
+        "example": "I could be wrong about the closing time.",
+        "prompt": "Acknowledge a possibility rather than claim certainty.",
         "source_page": 36,
         "source_segment": "page-36",
         "source_excerpt": "I could be picking up the wrong things.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我可能……",
+        "communicative_function": "Acknowledge a possibility rather than claim certainty.",
         "original_en": "I could be picking up the wrong things.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "I could be wrong about the closing time.",
+        "everyday_example_zh": "我可能记错了关门时间。",
+        "workplace_example": "I could be misreading the chart, but why did sales fall?",
+        "replaceable_parts": "I could be + adjective or -ing form; could marks possibility here, not past ability.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我可能……”这一表达。",
-            "goal_en": "I could be ...",
+            "scene_zh": "你记不清商店几点关门，提醒家人自己的记忆可能不准。",
+            "goal_en": "Acknowledge a possibility rather than claim certainty.",
             "keywords": [
-              "today",
-              "plan"
+              "wrong",
+              "closing time"
             ],
-            "starter": "I could be ...",
-            "reference_answer": "I could be picking up the wrong things."
+            "starter": "I could be",
+            "reference_answer": "I could be wrong about the closing time.",
+            "reference_answer_zh": "我可能记错了关门时间。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我可能……”这一表达。",
-            "goal_en": "I could be ...",
+            "scene_zh": "朋友回复很短，你提醒自己也许把他的语气想得太严重。",
+            "goal_en": "Acknowledge a possibility rather than claim certainty.",
             "keywords": [
-              "friend",
-              "situation"
+              "overthinking",
+              "reply"
             ],
-            "starter": "I could be ...",
-            "reference_answer": "I could be picking up the wrong things."
+            "starter": "I could be",
+            "reference_answer": "I could be overthinking his reply.",
+            "reference_answer_zh": "我可能把他的回复想得太多了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我可能……”这一表达。",
-            "goal_en": "I could be ...",
+            "scene_zh": "你看完一张图表提出问题，同时承认自己可能理解错了。",
+            "goal_en": "Acknowledge a possibility rather than claim certainty.",
             "keywords": [
-              "project",
-              "team"
+              "misreading",
+              "chart"
             ],
-            "starter": "I could be ...",
-            "reference_answer": "I could be picking up the wrong things."
+            "starter": "I could be",
+            "reference_answer": "I could be misreading the chart, but why did sales fall?",
+            "reference_answer_zh": "我可能看错了图表，不过销售额为什么下降了？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我可能记错了关门时间。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我可能看错了图表，不过销售额为什么下降了？",
+        "context_review_note": "Source admits possible misinterpretation; it is not confirmation that the interpretation is wrong.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I could be picking up",
-        "cn": "我可能是在捕捉到",
-        "example": "I could be picking up the wrong things.",
-        "prompt": "Use “I could be picking up” in a complete sentence.",
+        "cn": "我可能正在感受到或理解出……",
+        "example": "I could be picking up a faint noise from the fan.",
+        "prompt": "Offer a tentative reading of subtle signals or tone.",
         "source_page": 36,
         "source_segment": "page-36",
         "source_excerpt": "I could be picking up the wrong things.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我可能是在捕捉到",
+        "communicative_function": "Offer a tentative reading of subtle signals or tone.",
         "original_en": "I could be picking up the wrong things.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I could be picking up a faint noise from the fan.",
+        "everyday_example_zh": "我可能听到了风扇发出的轻微异响。",
+        "workplace_example": "I could be picking up some hesitation from the team, but I'd like to check.",
+        "replaceable_parts": "I could be picking up + noun phrase; for a signal use picking up on + signal. Not physical collection here.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我可能是在捕捉到”这一表达。",
-            "goal_en": "I could be picking up",
+            "scene_zh": "你听到家里设备有异响，但不确定是不是自己听错了。",
+            "goal_en": "Offer a tentative reading of subtle signals or tone.",
             "keywords": [
-              "today",
-              "plan"
+              "noise",
+              "fan"
             ],
             "starter": "I could be picking up",
-            "reference_answer": "I could be picking up the wrong things."
+            "reference_answer": "I could be picking up a faint noise from the fan.",
+            "reference_answer_zh": "我可能听到了风扇发出的轻微异响。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我可能是在捕捉到”这一表达。",
-            "goal_en": "I could be picking up",
+            "scene_zh": "你觉得朋友有些担心，却不想擅自认定他的感受。",
+            "goal_en": "Offer a tentative reading of subtle signals or tone.",
             "keywords": [
-              "friend",
-              "situation"
+              "concern",
+              "tone"
             ],
             "starter": "I could be picking up",
-            "reference_answer": "I could be picking up the wrong things."
+            "reference_answer": "I could be picking up some concern in your voice. Is something wrong?",
+            "reference_answer_zh": "我可能听出了你语气中的一些担心，是有什么事吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我可能是在捕捉到”这一表达。",
-            "goal_en": "I could be picking up",
+            "scene_zh": "你觉得团队对新方案犹豫，但希望先确认而不是直接下结论。",
+            "goal_en": "Offer a tentative reading of subtle signals or tone.",
             "keywords": [
-              "project",
+              "hesitation",
               "team"
             ],
             "starter": "I could be picking up",
-            "reference_answer": "I could be picking up the wrong things."
+            "reference_answer": "I could be picking up some hesitation from the team, but I'd like to check.",
+            "reference_answer_zh": "我可能感觉到了团队的一些犹豫，不过我想先确认一下。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我可能听到了风扇发出的轻微异响。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我可能感觉到了团队的一些犹豫，不过我想先确认一下。",
+        "context_review_note": "Source explicitly allows that the inferred tone may be mistaken.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "out of nowhere",
-        "cn": "毫无征兆",
-        "example": "The warning appeared out of nowhere.",
-        "prompt": "Describe a sudden event.",
+        "cn": "突然；毫无预兆地",
+        "example": "Out of nowhere, a storm hit the neighborhood.",
+        "prompt": "Describe an unexpected appearance, event or action.",
         "source_page": 36,
         "source_segment": "page-36",
         "source_excerpt": "And like Diego, maybe that's where Diego went because Diego left out of nowhere.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "毫无征兆",
+        "communicative_function": "Describe an unexpected appearance, event or action.",
         "original_en": "And like Diego, maybe that's where Diego went because Diego left out of nowhere.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "Out of nowhere, a storm hit the neighborhood.",
+        "everyday_example_zh": "一场暴风雨毫无预兆地袭来。",
+        "workplace_example": "A new error seemed to appear out of nowhere.",
+        "replaceable_parts": "Subject + verb + out of nowhere; metaphorical surprise, not literally no place of origin.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "安排家务时需要解释自己的决定：请用“毫无征兆地”组织一句完整英语。",
-            "goal_en": "Describe a sudden event.",
+            "label": "Daily life",
+            "scene_zh": "天气原本很好却突然下雨，你向家人讲述刚才的变化。",
+            "goal_en": "Describe an unexpected appearance, event or action.",
             "keywords": [
-              "warning",
-              "appeared",
-              "nowhere"
+              "storm",
+              "appeared"
             ],
-            "starter": "out of nowhere",
-            "reference_answer": "The warning appeared out of nowhere."
+            "starter": "Out of nowhere,",
+            "reference_answer": "Out of nowhere, a storm hit the neighborhood.",
+            "reference_answer_zh": "一场暴风雨毫无预兆地袭来。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "和朋友商量见面时间：请用“毫无征兆地”组织一句完整英语。",
-            "goal_en": "Describe a sudden event.",
+            "label": "Friends",
+            "scene_zh": "很久没联系的朋友突然打电话，你向另一位朋友分享这件事。",
+            "goal_en": "Describe an unexpected appearance, event or action.",
             "keywords": [
-              "warning",
-              "appeared",
-              "nowhere"
+              "called",
+              "years"
             ],
-            "starter": "out of nowhere",
-            "reference_answer": "The warning appeared out of nowhere."
+            "starter": "Out of nowhere,",
+            "reference_answer": "Out of nowhere, an old friend called after years of silence.",
+            "reference_answer_zh": "多年没联系的老朋友突然打来了电话。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "向同事解释一个具体问题：请用“毫无征兆地”组织一句完整英语。",
-            "goal_en": "Describe a sudden event.",
+            "label": "Work",
+            "scene_zh": "测试原本正常，却突然出现新错误，你在复盘中描述这个现象。",
+            "goal_en": "Describe an unexpected appearance, event or action.",
             "keywords": [
-              "warning",
-              "appeared",
-              "nowhere"
+              "error",
+              "appeared"
             ],
-            "starter": "out of nowhere",
-            "reference_answer": "The warning appeared out of nowhere."
+            "starter": "Out of nowhere,",
+            "reference_answer": "A new error seemed to appear out of nowhere.",
+            "reference_answer_zh": "一个新错误似乎突然冒了出来。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "一场暴风雨毫无预兆地袭来。",
+        "example_source": "adapted",
+        "workplace_example_zh": "一个新错误似乎突然冒了出来。",
+        "context_review_note": "Source uses it with left to emphasize sudden departure, a less typical pairing than appeared out of nowhere.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "That makes it sound like",
-        "cn": "这让它听起来像",
-        "example": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking.",
-        "prompt": "Use “That makes it sound like” in a complete sentence.",
+        "cn": "这听起来让人觉得……",
+        "example": "That makes it sound like we need a major repair.",
+        "prompt": "Explain an impression created by wording without asserting it is true.",
         "source_page": 38,
         "source_segment": "page-38",
         "source_excerpt": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "这让它听起来像",
+        "communicative_function": "Explain an impression created by wording without asserting it is true.",
         "original_en": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "That makes it sound like we need a major repair.",
+        "everyday_example_zh": "这听起来让人觉得我们需要大修。",
+        "workplace_example": "That makes it sound like we've guaranteed the deadline, which we haven't.",
+        "replaceable_parts": "That makes it sound like + clause; distinguish how a statement sounds from what actually happened.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这让它听起来像”这一表达。",
-            "goal_en": "That makes it sound like",
+            "scene_zh": "家人把一件小修理说得很严重，你说明这种说法给你的印象。",
+            "goal_en": "Explain an impression created by wording without asserting it is true.",
             "keywords": [
-              "today",
-              "plan"
+              "major repair",
+              "wording"
             ],
             "starter": "That makes it sound like",
-            "reference_answer": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking."
+            "reference_answer": "That makes it sound like we need a major repair.",
+            "reference_answer_zh": "这听起来让人觉得我们需要大修。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这让它听起来像”这一表达。",
-            "goal_en": "That makes it sound like",
+            "scene_zh": "朋友的消息听起来像是在取消聚会，你先确认是不是这个意思。",
+            "goal_en": "Explain an impression created by wording without asserting it is true.",
             "keywords": [
-              "friend",
-              "situation"
+              "canceling",
+              "party"
             ],
             "starter": "That makes it sound like",
-            "reference_answer": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking."
+            "reference_answer": "That makes it sound like you're canceling the party. Is that what you mean?",
+            "reference_answer_zh": "这听起来像是你要取消聚会，你是这个意思吗？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这让它听起来像”这一表达。",
-            "goal_en": "That makes it sound like",
+            "scene_zh": "草稿措辞容易让客户以为已作出承诺，你提醒同事修改。",
+            "goal_en": "Explain an impression created by wording without asserting it is true.",
             "keywords": [
-              "project",
-              "team"
+              "guaranteed",
+              "deadline"
             ],
             "starter": "That makes it sound like",
-            "reference_answer": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking."
+            "reference_answer": "That makes it sound like we've guaranteed the deadline, which we haven't.",
+            "reference_answer_zh": "这听起来像是我们保证了截止日期，但实际上没有。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这听起来让人觉得我们需要大修。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这听起来像是我们保证了截止日期，但实际上没有。",
+        "context_review_note": "Source draws a speculative inference about who was present; it does not verify that inference.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "That's just my interpretation",
-        "cn": "那只是我的解读",
-        "example": "That's just my interpretation, okay?",
-        "prompt": "Use “That's just my interpretation” in a complete sentence.",
+        "cn": "那只是我的理解或解读",
+        "example": "That's just my interpretation of the note; we should ask her.",
+        "prompt": "Make clear that an explanation is your reading, not an established fact.",
         "source_page": 38,
         "source_segment": "page-38",
         "source_excerpt": "That's just my interpretation, okay?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "那只是我的解读",
+        "communicative_function": "Make clear that an explanation is your reading, not an established fact.",
         "original_en": "That's just my interpretation, okay?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "That's just my interpretation of the note; we should ask her.",
+        "everyday_example_zh": "那只是我对纸条的理解，我们应该问问她。",
+        "workplace_example": "That's just my interpretation of the feedback; let's confirm it with the client.",
+        "replaceable_parts": "That's just my interpretation + optional of + material; just limits the claim rather than dismissing others.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“那只是我的解读”这一表达。",
-            "goal_en": "That's just my interpretation",
+            "scene_zh": "你猜测邻居留下纸条的意思，提醒家人这只是自己的看法。",
+            "goal_en": "Make clear that an explanation is your reading, not an established fact.",
             "keywords": [
-              "today",
-              "plan"
+              "note",
+              "meaning"
             ],
             "starter": "That's just my interpretation",
-            "reference_answer": "That's just my interpretation, okay?"
+            "reference_answer": "That's just my interpretation of the note; we should ask her.",
+            "reference_answer_zh": "那只是我对纸条的理解，我们应该问问她。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“那只是我的解读”这一表达。",
-            "goal_en": "That's just my interpretation",
+            "scene_zh": "你和朋友讨论电影结尾，说明不同观众可能有不同理解。",
+            "goal_en": "Make clear that an explanation is your reading, not an established fact.",
             "keywords": [
-              "friend",
-              "situation"
+              "ending",
+              "film"
             ],
             "starter": "That's just my interpretation",
-            "reference_answer": "That's just my interpretation, okay?"
+            "reference_answer": "That's just my interpretation of the ending. What did you think?",
+            "reference_answer_zh": "那只是我对结尾的理解，你怎么看？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“那只是我的解读”这一表达。",
-            "goal_en": "That's just my interpretation",
+            "scene_zh": "你在会上解释客户反馈，但希望团队不要误当成客户明确要求。",
+            "goal_en": "Make clear that an explanation is your reading, not an established fact.",
             "keywords": [
-              "project",
-              "team"
+              "feedback",
+              "confirm"
             ],
             "starter": "That's just my interpretation",
-            "reference_answer": "That's just my interpretation, okay?"
+            "reference_answer": "That's just my interpretation of the feedback; let's confirm it with the client.",
+            "reference_answer_zh": "那只是我对反馈的解读，我们向客户确认一下吧。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "那只是我对纸条的理解，我们应该问问她。",
+        "example_source": "adapted",
+        "workplace_example_zh": "那只是我对反馈的解读，我们向客户确认一下吧。",
+        "context_review_note": "Source explicitly qualifies a reading of ambiguous chat messages.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know what's going on",
-        "cn": "我不知道发生了什么",
-        "example": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do.",
-        "prompt": "Use “I don't know what's going on” in a complete sentence.",
+        "cn": "我不知道发生了什么或是什么情况",
+        "example": "I don't know what's going on with the lights.",
+        "prompt": "State uncertainty about a current situation.",
         "source_page": 36,
         "source_segment": "page-36",
         "source_excerpt": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我不知道发生了什么",
+        "communicative_function": "State uncertainty about a current situation.",
         "original_en": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "I don't know what's going on with the lights.",
+        "everyday_example_zh": "我不知道这些灯是怎么回事。",
+        "workplace_example": "I don't know what's going on with the project yet. Could you give me a quick update?",
+        "replaceable_parts": "I don't know what's going on + optional with/in + context. What's = what is.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道发生了什么”这一表达。",
-            "goal_en": "I don't know what's going on",
+            "scene_zh": "家里的灯反复闪烁，你向家人说明自己还没找到原因。",
+            "goal_en": "State uncertainty about a current situation.",
             "keywords": [
-              "today",
-              "plan"
+              "lights",
+              "flickering"
             ],
             "starter": "I don't know what's going on",
-            "reference_answer": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do."
+            "reference_answer": "I don't know what's going on with the lights.",
+            "reference_answer_zh": "我不知道这些灯是怎么回事。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道发生了什么”这一表达。",
-            "goal_en": "I don't know what's going on",
+            "scene_zh": "朋友群里突然改了计划，你想请别人补充说明。",
+            "goal_en": "State uncertainty about a current situation.",
             "keywords": [
-              "friend",
-              "situation"
+              "plans",
+              "changed"
             ],
             "starter": "I don't know what's going on",
-            "reference_answer": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do."
+            "reference_answer": "I don't know what's going on. Why did the plans change?",
+            "reference_answer_zh": "我不知道是什么情况，计划为什么变了？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道发生了什么”这一表达。",
-            "goal_en": "I don't know what's going on",
+            "scene_zh": "你刚回到工作群，看到很多新消息，请同事先概述当前情况。",
+            "goal_en": "State uncertainty about a current situation.",
             "keywords": [
-              "project",
-              "team"
+              "update",
+              "project"
             ],
             "starter": "I don't know what's going on",
-            "reference_answer": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do."
+            "reference_answer": "I don't know what's going on with the project yet. Could you give me a quick update?",
+            "reference_answer_zh": "我还不知道项目目前是什么情况，你能简要更新一下吗？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道这些灯是怎么回事。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我还不知道项目目前是什么情况，你能简要更新一下吗？",
+        "context_review_note": "Source extends the phrase to someone's mind, marking lack of access to intentions.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "That's the tone that I picked up",
-        "cn": "我感受到的就是这种语气",
-        "example": "So like that's the tone that I picked up.",
-        "prompt": "Use “That's the tone that I picked up” in a complete sentence.",
+        "cn": "那是我感受到的语气",
+        "example": "It sounded urgent. That's the tone that I picked up from the message.",
+        "prompt": "Describe the attitude you inferred from language or delivery.",
         "source_page": 36,
         "source_segment": "page-36",
         "source_excerpt": "So like that's the tone that I picked up.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我感受到的就是这种语气",
+        "communicative_function": "Describe the attitude you inferred from language or delivery.",
         "original_en": "So like that's the tone that I picked up.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "It sounded urgent. That's the tone that I picked up from the message.",
+        "everyday_example_zh": "听起来有些着急，这是我从消息中感受到的语气。",
+        "workplace_example": "It seemed cautious. That's the tone that I picked up from the email, not a firm refusal.",
+        "replaceable_parts": "That's the tone that I picked up + optional from + message/speaker; tone is perceived attitude.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我感受到的就是这种语气”这一表达。",
-            "goal_en": "That's the tone that I picked up",
+            "scene_zh": "你觉得房东的短信有些急，向家人解释这只是你读出的语气。",
+            "goal_en": "Describe the attitude you inferred from language or delivery.",
             "keywords": [
-              "today",
-              "plan"
+              "urgent",
+              "message"
             ],
             "starter": "That's the tone that I picked up",
-            "reference_answer": "So like that's the tone that I picked up."
+            "reference_answer": "It sounded urgent. That's the tone that I picked up from the message.",
+            "reference_answer_zh": "听起来有些着急，这是我从消息中感受到的语气。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我感受到的就是这种语气”这一表达。",
-            "goal_en": "That's the tone that I picked up",
+            "scene_zh": "你和朋友讨论一条玩笑消息，说明自己听出来的是调侃。",
+            "goal_en": "Describe the attitude you inferred from language or delivery.",
             "keywords": [
-              "friend",
-              "situation"
+              "playful",
+              "reply"
             ],
             "starter": "That's the tone that I picked up",
-            "reference_answer": "So like that's the tone that I picked up."
+            "reference_answer": "It seemed playful. That's the tone that I picked up from her reply.",
+            "reference_answer_zh": "感觉像在开玩笑，这是我从她回复里感受到的语气。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我感受到的就是这种语气”这一表达。",
-            "goal_en": "That's the tone that I picked up",
+            "scene_zh": "客户邮件看起来比较谨慎，你向同事区分语气印象和明确要求。",
+            "goal_en": "Describe the attitude you inferred from language or delivery.",
             "keywords": [
-              "project",
-              "team"
+              "cautious",
+              "email"
             ],
             "starter": "That's the tone that I picked up",
-            "reference_answer": "So like that's the tone that I picked up."
+            "reference_answer": "It seemed cautious. That's the tone that I picked up from the email, not a firm refusal.",
+            "reference_answer_zh": "邮件看起来比较谨慎，那是我的语气印象，并不是明确拒绝。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "听起来有些着急，这是我从消息中感受到的语气。",
+        "example_source": "adapted",
+        "workplace_example_zh": "邮件看起来比较谨慎，那是我的语气印象，并不是明确拒绝。",
+        "context_review_note": "Source reports a subjective impression and immediately acknowledges it might be wrong.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "This is my opinion",
-        "cn": "这只是我的观点",
-        "example": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do.",
-        "prompt": "Use “This is my opinion” in a complete sentence.",
+        "cn": "这是我的看法",
+        "example": "This is my opinion, but the blue chair suits the room better.",
+        "prompt": "Separate personal judgment from confirmed information.",
         "source_page": 36,
         "source_segment": "page-36",
         "source_excerpt": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "这只是我的观点",
+        "communicative_function": "Separate personal judgment from confirmed information.",
         "original_en": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "This is my opinion, but the blue chair suits the room better.",
+        "everyday_example_zh": "这只是我的看法，不过蓝色椅子更适合这个房间。",
+        "workplace_example": "This is my opinion, but a simpler process might work better.",
+        "replaceable_parts": "This is my opinion, but + clause; or state a view and then qualify it. Does not make factual claims immune to checking.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这只是我的观点”这一表达。",
-            "goal_en": "This is my opinion",
+            "scene_zh": "家人讨论家具颜色，你说明只是自己的审美偏好而非客观标准。",
+            "goal_en": "Separate personal judgment from confirmed information.",
             "keywords": [
-              "today",
-              "plan"
+              "blue",
+              "room"
             ],
-            "starter": "This is my opinion",
-            "reference_answer": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do."
+            "starter": "This is my opinion,",
+            "reference_answer": "This is my opinion, but the blue chair suits the room better.",
+            "reference_answer_zh": "这只是我的看法，不过蓝色椅子更适合这个房间。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这只是我的观点”这一表达。",
-            "goal_en": "This is my opinion",
+            "scene_zh": "朋友们讨论电影，你表达自己的评价并为不同看法留出空间。",
+            "goal_en": "Separate personal judgment from confirmed information.",
             "keywords": [
-              "friend",
-              "situation"
+              "ending",
+              "rushed"
             ],
-            "starter": "This is my opinion",
-            "reference_answer": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do."
+            "starter": "This is my opinion,",
+            "reference_answer": "This is my opinion, but the ending felt rushed.",
+            "reference_answer_zh": "这只是我的看法，不过结尾感觉有点仓促。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这只是我的观点”这一表达。",
-            "goal_en": "This is my opinion",
+            "scene_zh": "团队讨论工作流程，你提出建议但不假装已经有数据证明。",
+            "goal_en": "Separate personal judgment from confirmed information.",
             "keywords": [
-              "project",
-              "team"
+              "simpler",
+              "process"
             ],
-            "starter": "This is my opinion",
-            "reference_answer": "Like, okay, if I read it, this is my opinion because I don't know what's going on in Scott K's mind or what Scott K did or didn't do."
+            "starter": "This is my opinion,",
+            "reference_answer": "This is my opinion, but a simpler process might work better.",
+            "reference_answer_zh": "这是我的看法，不过更简单的流程可能效果更好。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这只是我的看法，不过蓝色椅子更适合这个房间。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这是我的看法，不过更简单的流程可能效果更好。",
+        "context_review_note": "Source explicitly distinguishes the narrator's opinion from knowledge of another person's thoughts or acts.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I have no recollection",
         "cn": "我完全不记得",
-        "example": "I have no recollection of that whatsoever.",
-        "prompt": "Use “I have no recollection” in a complete sentence.",
+        "example": "I have no recollection of putting the key there.",
+        "prompt": "State an absence of memory without asserting an event never happened.",
         "source_page": 39,
         "source_segment": "page-39",
         "source_excerpt": "I have no recollection of that whatsoever.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我完全不记得",
+        "communicative_function": "State an absence of memory without asserting an event never happened.",
         "original_en": "I have no recollection of that whatsoever.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I have no recollection of putting the key there.",
+        "everyday_example_zh": "我完全不记得把钥匙放在那里。",
+        "workplace_example": "I have no recollection of discussing that change, but I'll check the notes.",
+        "replaceable_parts": "I have no recollection of + noun/-ing; or no recollection that + clause. More formal than I don't remember.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我完全不记得”这一表达。",
-            "goal_en": "I have no recollection",
+            "scene_zh": "家人说你把备用钥匙放进抽屉，你说明自己完全没印象。",
+            "goal_en": "State an absence of memory without asserting an event never happened.",
             "keywords": [
-              "today",
-              "plan"
+              "putting",
+              "key"
             ],
             "starter": "I have no recollection",
-            "reference_answer": "I have no recollection of that whatsoever."
+            "reference_answer": "I have no recollection of putting the key there.",
+            "reference_answer_zh": "我完全不记得把钥匙放在那里。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我完全不记得”这一表达。",
-            "goal_en": "I have no recollection",
+            "scene_zh": "朋友说你们小时候一起去过某个地方，但你已经想不起来。",
+            "goal_en": "State an absence of memory without asserting an event never happened.",
             "keywords": [
-              "friend",
-              "situation"
+              "visiting",
+              "park"
             ],
             "starter": "I have no recollection",
-            "reference_answer": "I have no recollection of that whatsoever."
+            "reference_answer": "I have no recollection of visiting that park.",
+            "reference_answer_zh": "我完全不记得去过那个公园。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我完全不记得”这一表达。",
-            "goal_en": "I have no recollection",
+            "scene_zh": "同事问之前是否讨论过一项变更，你如实说明自己没有记忆。",
+            "goal_en": "State an absence of memory without asserting an event never happened.",
             "keywords": [
-              "project",
-              "team"
+              "discussing",
+              "change"
             ],
             "starter": "I have no recollection",
-            "reference_answer": "I have no recollection of that whatsoever."
+            "reference_answer": "I have no recollection of discussing that change, but I'll check the notes.",
+            "reference_answer_zh": "我不记得讨论过那项变更，不过我会查一下记录。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我完全不记得把钥匙放在那里。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不记得讨论过那项变更，不过我会查一下记录。",
+        "context_review_note": "The speaker describes lack of memory of the image; that is distinct from denying its existence.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It doesn't appear that",
-        "cn": "看来不是",
-        "example": "It doesn't appear that I'm wearing a shirt.",
-        "prompt": "Use “It doesn't appear that” in a complete sentence.",
+        "cn": "看起来似乎并没有……",
+        "example": "It doesn't appear that any rain got in.",
+        "prompt": "Give a cautious negative conclusion based on available evidence.",
         "source_page": 39,
         "source_segment": "page-39",
         "source_excerpt": "It doesn't appear that I'm wearing a shirt.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "看来不是",
+        "communicative_function": "Give a cautious negative conclusion based on available evidence.",
         "original_en": "It doesn't appear that I'm wearing a shirt.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It doesn't appear that any rain got in.",
+        "everyday_example_zh": "看起来似乎没有雨水进来。",
+        "workplace_example": "It doesn't appear that the job has finished yet.",
+        "replaceable_parts": "It doesn't appear that + full clause; not the same as proving the clause false.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“看来不是”这一表达。",
-            "goal_en": "It doesn't appear that",
+            "scene_zh": "你看过窗边地面还没有水迹，向家人报告初步观察。",
+            "goal_en": "Give a cautious negative conclusion based on available evidence.",
             "keywords": [
-              "today",
-              "plan"
+              "rain",
+              "got in"
             ],
             "starter": "It doesn't appear that",
-            "reference_answer": "It doesn't appear that I'm wearing a shirt."
+            "reference_answer": "It doesn't appear that any rain got in.",
+            "reference_answer_zh": "看起来似乎没有雨水进来。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“看来不是”这一表达。",
-            "goal_en": "It doesn't appear that",
+            "scene_zh": "朋友问另一个人是否已回复邀请，你查看群消息后谨慎回答。",
+            "goal_en": "Give a cautious negative conclusion based on available evidence.",
             "keywords": [
-              "friend",
-              "situation"
+              "replied",
+              "invitation"
             ],
             "starter": "It doesn't appear that",
-            "reference_answer": "It doesn't appear that I'm wearing a shirt."
+            "reference_answer": "It doesn't appear that he's replied yet.",
+            "reference_answer_zh": "看起来他似乎还没有回复。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“看来不是”这一表达。",
-            "goal_en": "It doesn't appear that",
+            "scene_zh": "你检查系统日志，向团队说明还没看到任务完成的记录。",
+            "goal_en": "Give a cautious negative conclusion based on available evidence.",
             "keywords": [
-              "project",
-              "team"
+              "job",
+              "finished"
             ],
             "starter": "It doesn't appear that",
-            "reference_answer": "It doesn't appear that I'm wearing a shirt."
+            "reference_answer": "It doesn't appear that the job has finished yet.",
+            "reference_answer_zh": "看起来这项任务似乎还没有完成。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "看起来似乎没有雨水进来。",
+        "example_source": "adapted",
+        "workplace_example_zh": "看起来这项任务似乎还没有完成。",
+        "context_review_note": "Source describes what an image appears to show, not everything outside the frame.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "the lawsuit states that",
-        "cn": "诉状称",
-        "example": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,",
-        "prompt": "Use “the lawsuit states that” in a complete sentence.",
+        "cn": "诉状写明或声称……",
+        "example": "The lawsuit in this exercise states that the fence was damaged during construction.",
+        "prompt": "Attribute a proposition to a filing rather than adopt it as a finding.",
         "source_page": 39,
         "source_segment": "page-39",
         "source_excerpt": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "诉状称",
+        "communicative_function": "Attribute a proposition to a filing rather than adopt it as a finding.",
         "original_en": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "The lawsuit in this exercise states that the fence was damaged during construction.",
+        "everyday_example_zh": "本练习的诉状称，围栏在施工期间遭到损坏。",
+        "workplace_example": "The report states that the data is incomplete.",
+        "replaceable_parts": "The lawsuit states that + clause; source can be replaced by report/notice in ordinary use. States does not mean proves.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“诉状称”这一表达。",
-            "goal_en": "the lawsuit states that",
+            "scene_zh": "在虚构的邻里纠纷阅读中，你转述诉状对围栏损坏的主张。",
+            "goal_en": "Attribute a proposition to a filing rather than adopt it as a finding.",
             "keywords": [
-              "today",
-              "plan"
+              "lawsuit",
+              "fence"
             ],
-            "starter": "the lawsuit states that",
-            "reference_answer": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,"
+            "starter": "The lawsuit states that",
+            "reference_answer": "The lawsuit in this exercise states that the fence was damaged during construction.",
+            "reference_answer_zh": "本练习的诉状称，围栏在施工期间遭到损坏。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“诉状称”这一表达。",
-            "goal_en": "the lawsuit states that",
+            "scene_zh": "朋友问活动会不会取消，你依据通知转述已经写出的安排。",
+            "goal_en": "Attribute a proposition to a filing rather than adopt it as a finding.",
             "keywords": [
-              "friend",
-              "situation"
+              "notice",
+              "postponed"
             ],
-            "starter": "the lawsuit states that",
-            "reference_answer": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,"
+            "starter": "The notice states that",
+            "reference_answer": "The notice states that the event has been postponed.",
+            "reference_answer_zh": "通知写明活动已延期。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“诉状称”这一表达。",
-            "goal_en": "the lawsuit states that",
+            "scene_zh": "同事询问报告中如何描述数据问题，你明确指出自己的信息来源。",
+            "goal_en": "Attribute a proposition to a filing rather than adopt it as a finding.",
             "keywords": [
-              "project",
-              "team"
+              "report",
+              "incomplete"
             ],
-            "starter": "the lawsuit states that",
-            "reference_answer": "But continuing with the lawsuit, the lawsuit states that by Jonathan texting into the fraternity Snapchat free pussy alum pull up or P.U.,"
+            "starter": "The report states that",
+            "reference_answer": "The report states that the data is incomplete.",
+            "reference_answer_zh": "报告指出，数据不完整。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "本练习的诉状称，围栏在施工期间遭到损坏。",
+        "example_source": "adapted",
+        "workplace_example_zh": "报告指出，数据不完整。",
+        "context_review_note": "Source sentence continues across paragraphs and contains a quoted message; keep allegation attribution and do not turn the fragment into a new quotation.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "There's no way for her to",
-        "cn": "她没办法……",
-        "example": "Jane says that her phone is on the other side of the room and she feels like there's no way for her to escape this room.",
-        "prompt": "Use “There's no way for her to” in a complete sentence.",
+        "cn": "她没有办法……",
+        "example": "There's no way for her to open this door without the key.",
+        "prompt": "Describe an obstacle that makes an action impossible in the stated circumstances.",
         "source_page": 40,
         "source_segment": "page-40",
         "source_excerpt": "Jane says that her phone is on the other side of the room and she feels like there's no way for her to escape this room.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "她没办法……",
+        "communicative_function": "Describe an obstacle that makes an action impossible in the stated circumstances.",
         "original_en": "Jane says that her phone is on the other side of the room and she feels like there's no way for her to escape this room.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "There's no way for her to open this door without the key.",
+        "everyday_example_zh": "没有钥匙，她无法打开这扇门。",
+        "workplace_example": "There's no way for her to upload the file without access to the folder.",
+        "replaceable_parts": "There's no way for + person + to + base verb; specify the constraint and avoid unsupported absolute claims.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“她没办法……”这一表达。",
-            "goal_en": "There's no way for her to",
+            "scene_zh": "你说明家人没带钥匙，当前无法进入锁着的房间。",
+            "goal_en": "Describe an obstacle that makes an action impossible in the stated circumstances.",
             "keywords": [
-              "today",
-              "plan"
+              "key",
+              "room"
             ],
             "starter": "There's no way for her to",
-            "reference_answer": "Jane says that her phone is on the other side of the room and she feels like there's no way for her to escape this room."
+            "reference_answer": "There's no way for her to open this door without the key.",
+            "reference_answer_zh": "没有钥匙，她无法打开这扇门。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“她没办法……”这一表达。",
-            "goal_en": "There's no way for her to",
+            "scene_zh": "朋友的手机没电了，你解释她为什么暂时无法通过手机联系大家。",
+            "goal_en": "Describe an obstacle that makes an action impossible in the stated circumstances.",
             "keywords": [
-              "friend",
-              "situation"
+              "phone",
+              "battery"
             ],
             "starter": "There's no way for her to",
-            "reference_answer": "Jane says that her phone is on the other side of the room and she feels like there's no way for her to escape this room."
+            "reference_answer": "There's no way for her to call from that phone while the battery is dead.",
+            "reference_answer_zh": "那部手机没电时，她无法用它打电话。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“她没办法……”这一表达。",
-            "goal_en": "There's no way for her to",
+            "scene_zh": "同事缺少系统权限，你说明她目前无法完成上传操作。",
+            "goal_en": "Describe an obstacle that makes an action impossible in the stated circumstances.",
             "keywords": [
-              "project",
-              "team"
+              "access",
+              "upload"
             ],
             "starter": "There's no way for her to",
-            "reference_answer": "Jane says that her phone is on the other side of the room and she feels like there's no way for her to escape this room."
+            "reference_answer": "There's no way for her to upload the file without access to the folder.",
+            "reference_answer_zh": "没有文件夹访问权限，她无法上传文件。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "没有钥匙，她无法打开这扇门。",
+        "example_source": "adapted",
+        "workplace_example_zh": "没有文件夹访问权限，她无法上传文件。",
+        "context_review_note": "Source says she feels like there is no way to escape, preserving her reported experience rather than external certainty about every option.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I have no recollection of",
         "cn": "我完全不记得……",
-        "example": "I have no recollection of that conversation.",
-        "prompt": "Talk about not remembering something.",
+        "example": "I have no recollection of buying this lamp.",
+        "prompt": "Specify the event or action missing from memory.",
         "source_page": 39,
         "source_segment": "page-39",
         "source_excerpt": "I have no recollection of that whatsoever.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我完全不记得……",
+        "communicative_function": "Specify the event or action missing from memory.",
         "original_en": "I have no recollection of that whatsoever.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "new_exact_match_pedagogical_review_pending",
+        "everyday_example": "I have no recollection of buying this lamp.",
+        "everyday_example_zh": "我完全不记得买过这盏灯。",
+        "workplace_example": "I have no recollection of approving this request. Let's check the record.",
+        "replaceable_parts": "I have no recollection of + noun or -ing form; never of + bare infinitive.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "做饭时发现结果和预想不同：请用“我完全不记得……”组织一句完整英语。",
-            "goal_en": "Talk about not remembering something.",
+            "label": "Daily life",
+            "scene_zh": "你整理旧物发现一张收据，却完全不记得买过对应的东西。",
+            "goal_en": "Specify the event or action missing from memory.",
             "keywords": [
-              "recollection",
-              "conversation"
+              "buying",
+              "lamp"
             ],
             "starter": "I have no recollection of",
-            "reference_answer": "I have no recollection of that conversation."
+            "reference_answer": "I have no recollection of buying this lamp.",
+            "reference_answer_zh": "我完全不记得买过这盏灯。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "分享一次旅行中的意外经历：请用“我完全不记得……”组织一句完整英语。",
-            "goal_en": "Talk about not remembering something.",
+            "label": "Friends",
+            "scene_zh": "朋友提起一场旧演唱会，你如实说自己不记得参加过。",
+            "goal_en": "Specify the event or action missing from memory.",
             "keywords": [
-              "recollection",
-              "conversation"
+              "attending",
+              "concert"
             ],
             "starter": "I have no recollection of",
-            "reference_answer": "I have no recollection of that conversation."
+            "reference_answer": "I have no recollection of attending that concert.",
+            "reference_answer_zh": "我完全不记得参加过那场演唱会。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "说明一个决定可能带来的风险：请用“我完全不记得……”组织一句完整英语。",
-            "goal_en": "Talk about not remembering something.",
+            "label": "Work",
+            "scene_zh": "你核对一份审批记录时发现陌生签名，说明自己没有批准的印象。",
+            "goal_en": "Specify the event or action missing from memory.",
             "keywords": [
-              "recollection",
-              "conversation"
+              "approving",
+              "request"
             ],
             "starter": "I have no recollection of",
-            "reference_answer": "I have no recollection of that conversation."
+            "reference_answer": "I have no recollection of approving this request. Let's check the record.",
+            "reference_answer_zh": "我完全不记得批准过这项申请，我们查一下记录吧。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我完全不记得买过这盏灯。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我完全不记得批准过这项申请，我们查一下记录吧。",
+        "context_review_note": "Of introduces the remembered event; source's whatsoever intensifies no, not the event itself.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
