@@ -68,7 +68,7 @@
     {
       "page": 8,
       "segment": 117,
-      "reason": "Fragment begins Of sexual violence without its subject; 24-7 means continuously, but missing preceding wording cannot be recovered from this PDF. Keep source incomplete and add a reviewed availability expression before closing.",
+      "reason": "Availability expression is now taught, but the paragraph still begins with an incomplete Of sexual violence fragment. The missing subject cannot be invented from the PDF.",
       "candidate_learning_item_ids": []
     },
     {
@@ -82,44 +82,6 @@
       "segment": 121,
       "reason": "Made it possible to, partnerships, and dedicated researchers remain meaningful barriers; no automatic closure from support alone.",
       "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 123,
-      "reason": "Show notes means episode references and supporting material, not theatrical notes; needs an explicit learning item.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 8,
-      "segment": 124,
-      "reason": "Content warning is a reusable fixed expression; the fragment introduces the next paragraph and needs a card.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 9,
-      "segment": 130,
-      "reason": "News outlet and cutoff time are covered, but court filings versus public records and nested attribution still need explicit language support."
-    },
-    {
-      "page": 9,
-      "segment": 138,
-      "reason": "A whole football team of lawyers is deliberate exaggeration of quantity, clarified by 142; needs a reusable quantity/hyperbole note.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 142,
-      "reason": "Completes 141 with exaggeration; explain rhetorical exaggeration with 138 rather than treating the claims as literal head counts.",
-      "candidate_learning_item_ids": []
-    },
-    {
-      "page": 10,
-      "segment": 154,
-      "reason": "Ship something in the mail and means absolutely nothing need explanation; a time phrase alone does not cover the whole claim.",
-      "candidate_learning_item_ids": [
-        "word:2:insurance",
-        "phrase:2:at this point"
-      ]
     },
     {
       "page": 10,

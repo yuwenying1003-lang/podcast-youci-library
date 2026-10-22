@@ -6,7 +6,7 @@
     "transcript_segments": 850,
     "totals": {
       "words": 321,
-      "phrases": 363,
+      "phrases": 372,
       "chunks": 118
     },
     "source_candidate_totals": {
@@ -34,7 +34,7 @@
         "unit": 3,
         "pages": "8-10",
         "words": 15,
-        "phrases": 31,
+        "phrases": 40,
         "chunks": 5
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "coverage_status": {
-      "covered": 439,
+      "covered": 445,
       "no_identified_barrier": 179,
-      "requires_review": 232
+      "requires_review": 226
     },
     "unresolved_counts": {
       "missing_ipa": 0,
@@ -105,7 +105,7 @@
       "missing_example_translation": 0,
       "generated_spelling_context_memory": 0,
       "requires_human_review": 0,
-      "transcript_segments_requiring_review": 232,
+      "transcript_segments_requiring_review": 226,
       "externally_sourced_ipa_requiring_review": 0,
       "externally_sourced_definition_requiring_review": 0,
       "machine_translations_requiring_review": 0,
@@ -1628,10 +1628,12 @@
       "segment": 117,
       "source_unit": 1,
       "status": "requires_review",
-      "learning_item_ids": [],
+      "learning_item_ids": [
+        "phrase:2:24 7"
+      ],
       "candidate_learning_item_ids": [],
       "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Fragment begins Of sexual violence without its subject; 24-7 means continuously, but missing preceding wording cannot be recovered from this PDF. Keep source incomplete and add a reviewed availability expression before closing.",
+      "review_reason": "Availability expression is now taught, but the paragraph still begins with an incomplete Of sexual violence fragment. The missing subject cannot be invented from the PDF.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Of sexual violence available 24-7 by phone chat or text"
@@ -1708,11 +1710,13 @@
       "page": 8,
       "segment": 123,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:show notes"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Show notes means episode references and supporting material, not theatrical notes; needs an explicit learning item.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The podcast-specific reference material is now explicitly explained; available at introduces the supplied website address without asserting its current accessibility.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "As always, full show notes are available at rottenmangopodcast.com."
@@ -1721,11 +1725,13 @@
       "page": 8,
       "segment": 124,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:content warning"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Content warning is a reusable fixed expression; the fragment introduces the next paragraph and needs a card.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Content warning now has a dedicated card. The introductory fragment deliberately leads into segment 125; no missing warning topics are invented.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Before we begin a big content warning,"
@@ -1810,13 +1816,15 @@
       "page": 9,
       "segment": 130,
       "source_unit": 1,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
-        "word:2:outlet",
+        "phrase:2:court filings",
+        "phrase:2:news outlet",
+        "phrase:2:public records",
         "phrase:2:up until the time of recording"
       ],
-      "review_reason": "News outlet and cutoff time are covered, but court filings versus public records and nested attribution still need explicit language support.",
-      "review_status": "context_reviewed_remaining_barriers",
+      "review_reason": "Three parallel sources attach to what is described: alleged in filings, reported by media, or found in records. The recording cutoff limits all claims; none is silently promoted to a judicial finding.",
+      "review_status": "contextually_reviewed",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "When we describe what happened that night, we're describing what is alleged in court filings, reported by news outlets, or found in public records up until the time of recording."
@@ -1930,11 +1938,14 @@
       "page": 9,
       "segment": 138,
       "source_unit": 1,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:a whole football team of",
+        "phrase:2:exaggeration"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "A whole football team of lawyers is deliberate exaggeration of quantity, clarified by 142; needs a reusable quantity/hyperbole note.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Quantity comparison is explicitly taught as hyperbole, confirmed by segment 142; not a claim of an exact number or actual athletes.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "And I will say there is like a whole football team of lawyers involved."
@@ -1984,11 +1995,13 @@
       "page": 10,
       "segment": 142,
       "source_unit": 2,
-      "status": "requires_review",
-      "learning_item_ids": [],
+      "status": "covered",
+      "learning_item_ids": [
+        "phrase:2:exaggeration"
+      ],
       "candidate_learning_item_ids": [],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Completes 141 with exaggeration; explain rhetorical exaggeration with 138 rather than treating the claims as literal head counts.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "The retrospective disclaimer identifies the earlier quantity as rhetorical, with it feels like describing the speaker's impression.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "Obviously an exaggeration, but it just feels like that."
@@ -2161,16 +2174,18 @@
       "page": 10,
       "segment": 154,
       "source_unit": 2,
-      "status": "requires_review",
+      "status": "covered",
       "learning_item_ids": [
+        "phrase:2:in the mail",
+        "phrase:2:means absolutely nothing",
         "phrase:2:at this point"
       ],
       "candidate_learning_item_ids": [
         "word:2:insurance",
         "phrase:2:at this point"
       ],
-      "review_status": "context_reviewed_remaining_barriers",
-      "review_reason": "Ship something in the mail and means absolutely nothing need explanation; a time phrase alone does not cover the whole claim.",
+      "review_status": "contextually_reviewed",
+      "review_reason": "Postal sending, an emphatic value judgment and the temporal boundary are all covered. The source's dismissive view of insurance cards remains opinion, not advice about coverage.",
       "reviewer": "Codex",
       "review_date": "2026-10-22",
       "reviewed_text": "They'll ship you one of those like plastic insurance cards in the mail that means absolutely nothing at this point."
