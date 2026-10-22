@@ -24473,918 +24473,1123 @@
     [
       {
         "text": "It's hard to gauge",
-        "cn": "很难衡量",
-        "example": "And it's hard to gauge how much is going up the butt, to put it simply.",
-        "prompt": "Use “It's hard to gauge” in a complete sentence.",
+        "cn": "很难判断或估计……",
+        "example": "It's hard to gauge how much longer the cake needs.",
+        "prompt": "Explain difficulty estimating an amount, reaction or effect.",
         "source_page": 17,
         "source_segment": "page-17",
         "source_excerpt": "And it's hard to gauge how much is going up the butt, to put it simply.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "很难衡量",
+        "communicative_function": "Explain difficulty estimating an amount, reaction or effect.",
         "original_en": "And it's hard to gauge how much is going up the butt, to put it simply.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's hard to gauge how much longer the cake needs.",
+        "everyday_example_zh": "很难判断蛋糕还需要烤多久。",
+        "workplace_example": "It's hard to gauge demand this early.",
+        "replaceable_parts": "It's hard to gauge + noun phrase or embedded question; embedded questions use statement word order.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“很难衡量”这一表达。",
-            "goal_en": "It's hard to gauge",
+            "scene_zh": "你第一次使用新烤箱，不确定还要烤多久才熟。",
+            "goal_en": "Explain difficulty estimating an amount, reaction or effect.",
             "keywords": [
-              "today",
-              "plan"
+              "time",
+              "oven"
             ],
             "starter": "It's hard to gauge",
-            "reference_answer": "And it's hard to gauge how much is going up the butt, to put it simply."
+            "reference_answer": "It's hard to gauge how much longer the cake needs.",
+            "reference_answer_zh": "很难判断蛋糕还需要烤多久。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“很难衡量”这一表达。",
-            "goal_en": "It's hard to gauge",
+            "scene_zh": "朋友发来很简短的回复，你无法确定他的真实反应。",
+            "goal_en": "Explain difficulty estimating an amount, reaction or effect.",
             "keywords": [
-              "friend",
-              "situation"
+              "reaction",
+              "message"
             ],
             "starter": "It's hard to gauge",
-            "reference_answer": "And it's hard to gauge how much is going up the butt, to put it simply."
+            "reference_answer": "It's hard to gauge her reaction from one short message.",
+            "reference_answer_zh": "仅凭一条简短消息，很难判断她的反应。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“很难衡量”这一表达。",
-            "goal_en": "It's hard to gauge",
+            "scene_zh": "产品刚刚上线，你提醒团队目前还不能准确判断需求。",
+            "goal_en": "Explain difficulty estimating an amount, reaction or effect.",
             "keywords": [
-              "project",
-              "team"
+              "demand",
+              "early"
             ],
             "starter": "It's hard to gauge",
-            "reference_answer": "And it's hard to gauge how much is going up the butt, to put it simply."
+            "reference_answer": "It's hard to gauge demand this early.",
+            "reference_answer_zh": "现在还这么早，很难判断需求。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "很难判断蛋糕还需要烤多久。",
+        "example_source": "adapted",
+        "workplace_example_zh": "现在还这么早，很难判断需求。",
+        "context_review_note": "Gauge means estimate, not physically measure with certainty; the source's sensitive example is retained only as provenance.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I don't know if it's standard",
-        "cn": "我不知道这是否普遍",
-        "example": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
-        "prompt": "Use “I don't know if it's standard” in a complete sentence.",
+        "cn": "我不知道这是否是惯例",
+        "example": "I don't know if it's standard to pay a cleaning fee in advance.",
+        "prompt": "Distinguish a reported practice from a confirmed norm.",
         "source_page": 18,
         "source_segment": "page-18",
         "source_excerpt": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我不知道这是否普遍",
+        "communicative_function": "Distinguish a reported practice from a confirmed norm.",
         "original_en": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I don't know if it's standard to pay a cleaning fee in advance.",
+        "everyday_example_zh": "我不知道提前付清洁费是不是惯例。",
+        "workplace_example": "I don't know if it's standard to take minutes at every meeting.",
+        "replaceable_parts": "I don't know if it's standard to + verb; or standard for + group + to + verb.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我不知道这是否普遍”这一表达。",
-            "goal_en": "I don't know if it's standard",
+            "scene_zh": "你第一次租房，不确定是否通常要提前支付清洁费。",
+            "goal_en": "Distinguish a reported practice from a confirmed norm.",
             "keywords": [
-              "today",
-              "plan"
+              "pay",
+              "cleaning fee"
             ],
             "starter": "I don't know if it's standard",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "reference_answer": "I don't know if it's standard to pay a cleaning fee in advance.",
+            "reference_answer_zh": "我不知道提前付清洁费是不是惯例。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我不知道这是否普遍”这一表达。",
-            "goal_en": "I don't know if it's standard",
+            "scene_zh": "朋友问婚礼宾客是否都要穿同一种颜色，你不确定习俗。",
+            "goal_en": "Distinguish a reported practice from a confirmed norm.",
             "keywords": [
-              "friend",
-              "situation"
+              "guests",
+              "color"
             ],
             "starter": "I don't know if it's standard",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "reference_answer": "I don't know if it's standard for guests to wear the same color.",
+            "reference_answer_zh": "我不知道宾客穿同一种颜色是不是惯例。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我不知道这是否普遍”这一表达。",
-            "goal_en": "I don't know if it's standard",
+            "scene_zh": "新同事问每次会议是否都要写纪要，你说明自己尚未确认。",
+            "goal_en": "Distinguish a reported practice from a confirmed norm.",
             "keywords": [
-              "project",
-              "team"
+              "minutes",
+              "meeting"
             ],
             "starter": "I don't know if it's standard",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "reference_answer": "I don't know if it's standard to take minutes at every meeting.",
+            "reference_answer_zh": "我不知道每次会议都做纪要是不是惯例。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我不知道提前付清洁费是不是惯例。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我不知道每次会议都做纪要是不是惯例。",
+        "context_review_note": "Source explicitly lacks certainty about prevalence; do not generalize a reported practice to all groups.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It doesn't even make any sense",
         "cn": "这根本说不通",
-        "example": "It doesn't even make any sense.",
-        "prompt": "Use “It doesn't even make any sense” in a complete sentence.",
+        "example": "It doesn't even make any sense to close the box before tightening the screws.",
+        "prompt": "Express strong confusion about logic or meaning.",
         "source_page": 18,
         "source_segment": "page-18",
         "source_excerpt": "It doesn't even make any sense.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "这根本说不通",
+        "communicative_function": "Express strong confusion about logic or meaning.",
         "original_en": "It doesn't even make any sense.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It doesn't even make any sense to close the box before tightening the screws.",
+        "everyday_example_zh": "还没拧紧螺丝就把盒子盖上，这根本说不通。",
+        "workplace_example": "It doesn't even make any sense to require approval before a request exists.",
+        "replaceable_parts": "It doesn't even make any sense + optional to me; use a clear preceding referent for it.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这根本说不通”这一表达。",
-            "goal_en": "It doesn't even make any sense",
+            "scene_zh": "组装说明让你先盖上盒子再拧里面的螺丝，你指出矛盾。",
+            "goal_en": "Express strong confusion about logic or meaning.",
             "keywords": [
-              "today",
-              "plan"
+              "instructions",
+              "screws"
             ],
             "starter": "It doesn't even make any sense",
-            "reference_answer": "It doesn't even make any sense."
+            "reference_answer": "It doesn't even make any sense to close the box before tightening the screws.",
+            "reference_answer_zh": "还没拧紧螺丝就把盒子盖上，这根本说不通。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这根本说不通”这一表达。",
-            "goal_en": "It doesn't even make any sense",
+            "scene_zh": "朋友转发一条自相矛盾的传言，你提醒他先不要相信。",
+            "goal_en": "Express strong confusion about logic or meaning.",
             "keywords": [
-              "friend",
-              "situation"
+              "story",
+              "check"
             ],
             "starter": "It doesn't even make any sense",
-            "reference_answer": "It doesn't even make any sense."
+            "reference_answer": "It doesn't even make any sense. Let's check where the story came from.",
+            "reference_answer_zh": "这根本说不通，我们先查查这说法从哪里来的。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这根本说不通”这一表达。",
-            "goal_en": "It doesn't even make any sense",
+            "scene_zh": "流程要求先审批再提交申请，你指出步骤存在逻辑问题。",
+            "goal_en": "Express strong confusion about logic or meaning.",
             "keywords": [
-              "project",
-              "team"
+              "approval",
+              "request"
             ],
             "starter": "It doesn't even make any sense",
-            "reference_answer": "It doesn't even make any sense."
+            "reference_answer": "It doesn't even make any sense to require approval before a request exists.",
+            "reference_answer_zh": "申请还没提出就要求先获得批准，这根本说不通。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "还没拧紧螺丝就把盒子盖上，这根本说不通。",
+        "example_source": "adapted",
+        "workplace_example_zh": "申请还没提出就要求先获得批准，这根本说不通。",
+        "context_review_note": "Even strengthens the negative; sense is logical meaning, not a physical sense organ.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It seems to be ...",
-        "cn": "似乎是……",
-        "example": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
-        "prompt": "Use “It seems to be ...” in a complete sentence.",
+        "cn": "它似乎是……",
+        "example": "It seems to be condensation rather than a leak.",
+        "prompt": "Describe an apparent state while allowing uncertainty.",
         "source_page": 18,
         "source_segment": "page-18",
         "source_excerpt": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "似乎是……",
+        "communicative_function": "Describe an apparent state while allowing uncertainty.",
         "original_en": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "It seems to be condensation rather than a leak.",
+        "everyday_example_zh": "这似乎是冷凝水，而不是漏水。",
+        "workplace_example": "It seems to be a temporary connection problem.",
+        "replaceable_parts": "It seems to be + noun phrase or adjective; use to be rather than like before an adjective.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“似乎是……”这一表达。",
-            "goal_en": "It seems to be ...",
+            "scene_zh": "你检查冰箱门上的水珠，暂时判断只是冷凝水。",
+            "goal_en": "Describe an apparent state while allowing uncertainty.",
             "keywords": [
-              "today",
-              "plan"
+              "condensation",
+              "fridge"
             ],
-            "starter": "It seems to be ...",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "starter": "It seems to be",
+            "reference_answer": "It seems to be condensation rather than a leak.",
+            "reference_answer_zh": "这似乎是冷凝水，而不是漏水。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“似乎是……”这一表达。",
-            "goal_en": "It seems to be ...",
+            "scene_zh": "朋友问新开的咖啡馆怎么样，你根据排队情况作初步判断。",
+            "goal_en": "Describe an apparent state while allowing uncertainty.",
             "keywords": [
-              "friend",
-              "situation"
+              "popular",
+              "cafe"
             ],
-            "starter": "It seems to be ...",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "starter": "It seems to be",
+            "reference_answer": "It seems to be a popular place for breakfast.",
+            "reference_answer_zh": "那里似乎是个很受欢迎的早餐去处。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“似乎是……”这一表达。",
-            "goal_en": "It seems to be ...",
+            "scene_zh": "服务偶尔无法访问，你向同事描述尚未最终确认的问题。",
+            "goal_en": "Describe an apparent state while allowing uncertainty.",
             "keywords": [
-              "project",
-              "team"
+              "temporary",
+              "problem"
             ],
-            "starter": "It seems to be ...",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "starter": "It seems to be",
+            "reference_answer": "It seems to be a temporary connection problem.",
+            "reference_answer_zh": "这似乎是暂时的连接问题。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "这似乎是冷凝水，而不是漏水。",
+        "example_source": "adapted",
+        "workplace_example_zh": "这似乎是暂时的连接问题。",
+        "context_review_note": "Source uses seems to soften an inference, not to prove a universal practice.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "it seems to be a thing",
-        "cn": "这似乎是个常见现象",
-        "example": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
-        "prompt": "Use “it seems to be a thing” in a complete sentence.",
+        "cn": "这似乎确实是一种现象或做法",
+        "example": "Selling tiny plants seems to be a thing in local shops now.",
+        "prompt": "Recognize an informal trend without claiming it is universal.",
         "source_page": 18,
         "source_segment": "page-18",
         "source_excerpt": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "这似乎是个常见现象",
+        "communicative_function": "Recognize an informal trend without claiming it is universal.",
         "original_en": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "Selling tiny plants seems to be a thing in local shops now.",
+        "everyday_example_zh": "在本地商店卖迷你植物，现在似乎成了一种趋势。",
+        "workplace_example": "Meeting-free afternoons seem to be a thing among smaller teams.",
+        "replaceable_parts": "It seems to be a thing + optional among/in + group or place; clarify what it refers to.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这似乎是个常见现象”这一表达。",
-            "goal_en": "it seems to be a thing",
+            "scene_zh": "你发现几家商店都开始卖迷你植物，向家人谈起这个趋势。",
+            "goal_en": "Recognize an informal trend without claiming it is universal.",
             "keywords": [
-              "today",
-              "plan"
+              "tiny plants",
+              "shops"
             ],
-            "starter": "it seems to be a thing",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "starter": "It seems to be a thing",
+            "reference_answer": "Selling tiny plants seems to be a thing in local shops now.",
+            "reference_answer_zh": "在本地商店卖迷你植物，现在似乎成了一种趋势。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这似乎是个常见现象”这一表达。",
-            "goal_en": "it seems to be a thing",
+            "scene_zh": "朋友说最近大家喜欢约着一起散步，你表示自己也注意到了。",
+            "goal_en": "Recognize an informal trend without claiming it is universal.",
             "keywords": [
-              "friend",
-              "situation"
+              "walking dates",
+              "lately"
             ],
-            "starter": "it seems to be a thing",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "starter": "It seems to be a thing",
+            "reference_answer": "Walking dates seem to be a thing lately.",
+            "reference_answer_zh": "最近散步约会似乎成了一种风潮。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这似乎是个常见现象”这一表达。",
-            "goal_en": "it seems to be a thing",
+            "scene_zh": "你听说几家公司都采用无会议下午，谨慎描述这个做法。",
+            "goal_en": "Recognize an informal trend without claiming it is universal.",
             "keywords": [
-              "project",
-              "team"
+              "meeting-free",
+              "teams"
             ],
-            "starter": "it seems to be a thing",
-            "reference_answer": "I mean, it's not, I don't know if it's standard for a lot of fraternities, but it seems to be a thing."
+            "starter": "It seems to be a thing",
+            "reference_answer": "Meeting-free afternoons seem to be a thing among smaller teams.",
+            "reference_answer_zh": "在较小的团队里，下午不安排会议似乎成了一种做法。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "在本地商店卖迷你植物，现在似乎成了一种趋势。",
+        "example_source": "adapted",
+        "workplace_example_zh": "在较小的团队里，下午不安排会议似乎成了一种做法。",
+        "context_review_note": "A thing is informal for an established phenomenon, not a concrete object.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "one would think",
-        "cn": "按理说会认为",
-        "example": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?",
-        "prompt": "Use “one would think” in a complete sentence.",
+        "cn": "按理说应该会认为……",
+        "example": "One would think instructions would be included.",
+        "prompt": "State a reasonable expectation that may conflict with reality.",
         "source_page": 18,
         "source_segment": "page-18",
         "source_excerpt": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "按理说会认为",
+        "communicative_function": "State a reasonable expectation that may conflict with reality.",
         "original_en": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "One would think instructions would be included.",
+        "everyday_example_zh": "按理说应该会附带说明书。",
+        "workplace_example": "One would think a clear process would prevent these errors.",
+        "replaceable_parts": "One would think + clause; one is formal and generic, not the number one.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“按理说会认为”这一表达。",
-            "goal_en": "one would think",
+            "scene_zh": "你发现新买的设备没有说明书，表达对此不合理之处的看法。",
+            "goal_en": "State a reasonable expectation that may conflict with reality.",
             "keywords": [
-              "today",
-              "plan"
+              "instructions",
+              "included"
             ],
-            "starter": "one would think",
-            "reference_answer": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
+            "starter": "One would think",
+            "reference_answer": "One would think instructions would be included.",
+            "reference_answer_zh": "按理说应该会附带说明书。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“按理说会认为”这一表达。",
-            "goal_en": "one would think",
+            "scene_zh": "朋友讲述订位后仍等了很久，你表示这不符合正常预期。",
+            "goal_en": "State a reasonable expectation that may conflict with reality.",
             "keywords": [
-              "friend",
-              "situation"
+              "reservation",
+              "wait"
             ],
-            "starter": "one would think",
-            "reference_answer": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
+            "starter": "One would think",
+            "reference_answer": "One would think a reservation would mean a shorter wait.",
+            "reference_answer_zh": "按理说，订了位就应该少等一会儿。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“按理说会认为”这一表达。",
-            "goal_en": "one would think",
+            "scene_zh": "团队已有明确流程但仍频繁出错，你提出温和的反思。",
+            "goal_en": "State a reasonable expectation that may conflict with reality.",
             "keywords": [
-              "project",
-              "team"
+              "clear process",
+              "errors"
             ],
-            "starter": "one would think",
-            "reference_answer": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
+            "starter": "One would think",
+            "reference_answer": "One would think a clear process would prevent these errors.",
+            "reference_answer_zh": "按理说，明确的流程应该能避免这些错误。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "按理说应该会附带说明书。",
+        "example_source": "adapted",
+        "workplace_example_zh": "按理说，明确的流程应该能避免这些错误。",
+        "context_review_note": "Source uses a rhetorical expectation to challenge a policy, not a deductive proof.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "One would think ..., why ...?",
-        "cn": "按理会以为……但为何……",
-        "example": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?",
-        "prompt": "Use “One would think ..., why ...?” in a complete sentence.",
+        "cn": "按理说……，为什么却……？",
+        "example": "One would think the express line would be faster. Why is it moving so slowly?",
+        "prompt": "Contrast an expectation with a puzzling outcome through a rhetorical question.",
         "source_page": 18,
         "source_segment": "page-18",
         "source_excerpt": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "按理会以为……但为何……",
+        "communicative_function": "Contrast an expectation with a puzzling outcome through a rhetorical question.",
         "original_en": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "One would think the express line would be faster. Why is it moving so slowly?",
+        "everyday_example_zh": "按理说快速通道应该更快，为什么反而走得这么慢？",
+        "workplace_example": "One would think extra checks would help. Why are we seeing more errors?",
+        "replaceable_parts": "One would think + expectation. Why + question? Use two sentences in careful writing rather than copying a spoken run-on.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“按理会以为……但为何……”这一表达。",
-            "goal_en": "One would think ..., why ...?",
+            "scene_zh": "标着快速通道的队伍反而最慢，你提出一个带有疑惑的问题。",
+            "goal_en": "Contrast an expectation with a puzzling outcome through a rhetorical question.",
             "keywords": [
-              "today",
-              "plan"
+              "express line",
+              "slow"
             ],
-            "starter": "One would think ..., why ...?",
-            "reference_answer": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
+            "starter": "One would think",
+            "reference_answer": "One would think the express line would be faster. Why is it moving so slowly?",
+            "reference_answer_zh": "按理说快速通道应该更快，为什么反而走得这么慢？",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“按理会以为……但为何……”这一表达。",
-            "goal_en": "One would think ..., why ...?",
+            "scene_zh": "朋友说聚会安排得很早但很多人迟到，你指出预期与现实的差别。",
+            "goal_en": "Contrast an expectation with a puzzling outcome through a rhetorical question.",
             "keywords": [
-              "friend",
-              "situation"
+              "notice",
+              "late"
             ],
-            "starter": "One would think ..., why ...?",
-            "reference_answer": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
+            "starter": "One would think",
+            "reference_answer": "One would think a week's notice would be enough. Why is everyone late?",
+            "reference_answer_zh": "按理说提前一周通知应该够了，为什么大家都迟到？",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“按理会以为……但为何……”这一表达。",
-            "goal_en": "One would think ..., why ...?",
+            "scene_zh": "系统增加了检查步骤却出现更多错误，你在复盘会上提问。",
+            "goal_en": "Contrast an expectation with a puzzling outcome through a rhetorical question.",
             "keywords": [
-              "project",
-              "team"
+              "checks",
+              "errors"
             ],
-            "starter": "One would think ..., why ...?",
-            "reference_answer": "One would think if insurance companies don't even want fraternities, why do colleges and universities want them on campus?"
+            "starter": "One would think",
+            "reference_answer": "One would think extra checks would help. Why are we seeing more errors?",
+            "reference_answer_zh": "按理说增加检查应该有帮助，为什么我们反而发现更多错误？",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "按理说快速通道应该更快，为什么反而走得这么慢？",
+        "example_source": "adapted",
+        "workplace_example_zh": "按理说增加检查应该有帮助，为什么我们反而发现更多错误？",
+        "context_review_note": "Adapted rhetorical frame from a disfluent source sentence; the ellipsis is a teaching slot, not an exact quoted string.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I hadn't even thought of",
-        "cn": "我以前根本没想到",
-        "example": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
-        "prompt": "Use “I hadn't even thought of” in a complete sentence.",
+        "cn": "我之前甚至没有想到……",
+        "example": "I hadn't even thought of changing my mailing address.",
+        "prompt": "Acknowledge a possibility that had not occurred to you before another moment.",
         "source_page": 19,
         "source_segment": "page-19",
         "source_excerpt": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我以前根本没想到",
+        "communicative_function": "Acknowledge a possibility that had not occurred to you before another moment.",
         "original_en": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I hadn't even thought of changing my mailing address.",
+        "everyday_example_zh": "我之前甚至没想到要改通信地址。",
+        "workplace_example": "I hadn't even thought of caching the results.",
+        "replaceable_parts": "I hadn't even thought of + noun or -ing form; do not use of + bare verb.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我以前根本没想到”这一表达。",
-            "goal_en": "I hadn't even thought of",
+            "scene_zh": "家人提醒搬家要提前改通信地址，你承认之前忽略了这件事。",
+            "goal_en": "Acknowledge a possibility that had not occurred to you before another moment.",
             "keywords": [
-              "today",
-              "plan"
+              "changing",
+              "address"
             ],
             "starter": "I hadn't even thought of",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "reference_answer": "I hadn't even thought of changing my mailing address.",
+            "reference_answer_zh": "我之前甚至没想到要改通信地址。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我以前根本没想到”这一表达。",
-            "goal_en": "I hadn't even thought of",
+            "scene_zh": "朋友建议去小城旅行，你发现这是自己从未考虑过的选择。",
+            "goal_en": "Acknowledge a possibility that had not occurred to you before another moment.",
             "keywords": [
-              "friend",
-              "situation"
+              "visiting",
+              "town"
             ],
             "starter": "I hadn't even thought of",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "reference_answer": "I hadn't even thought of visiting that town.",
+            "reference_answer_zh": "我之前甚至没想到可以去那个小城。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我以前根本没想到”这一表达。",
-            "goal_en": "I hadn't even thought of",
+            "scene_zh": "同事提出缓存能改善性能，你承认之前没有考虑这个方案。",
+            "goal_en": "Acknowledge a possibility that had not occurred to you before another moment.",
             "keywords": [
-              "project",
-              "team"
+              "caching",
+              "results"
             ],
             "starter": "I hadn't even thought of",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "reference_answer": "I hadn't even thought of caching the results.",
+            "reference_answer_zh": "我之前甚至没想到缓存结果这个办法。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我之前甚至没想到要改通信地址。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我之前甚至没想到缓存结果这个办法。",
+        "context_review_note": "Past perfect places the lack of consideration before the new realization.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "It's kind of like",
-        "cn": "这有点像",
-        "example": "It's kind of like built-in marketing.",
-        "prompt": "Use “It's kind of like” in a complete sentence.",
+        "cn": "它有点像……",
+        "example": "It's kind of like a small oven with a strong fan.",
+        "prompt": "Use an approximate analogy to make an idea easier to understand.",
         "source_page": 19,
         "source_segment": "page-19",
         "source_excerpt": "It's kind of like built-in marketing.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "这有点像",
+        "communicative_function": "Use an approximate analogy to make an idea easier to understand.",
         "original_en": "It's kind of like built-in marketing.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "It's kind of like a small oven with a strong fan.",
+        "everyday_example_zh": "它有点像一个带强力风扇的小烤箱。",
+        "workplace_example": "It's kind of like taking a number and waiting your turn.",
+        "replaceable_parts": "It's kind of like + noun phrase or -ing phrase; kind of makes the comparison approximate.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这有点像”这一表达。",
-            "goal_en": "It's kind of like",
+            "scene_zh": "你向家人解释空气炸锅，想用熟悉的厨房设备作类比。",
+            "goal_en": "Use an approximate analogy to make an idea easier to understand.",
             "keywords": [
-              "today",
-              "plan"
+              "small oven",
+              "fan"
             ],
             "starter": "It's kind of like",
-            "reference_answer": "It's kind of like built-in marketing."
+            "reference_answer": "It's kind of like a small oven with a strong fan.",
+            "reference_answer_zh": "它有点像一个带强力风扇的小烤箱。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这有点像”这一表达。",
-            "goal_en": "It's kind of like",
+            "scene_zh": "朋友不理解新的桌游规则，你用合作解谜来帮助他理解。",
+            "goal_en": "Use an approximate analogy to make an idea easier to understand.",
             "keywords": [
-              "friend",
-              "situation"
+              "solving",
+              "puzzle"
             ],
             "starter": "It's kind of like",
-            "reference_answer": "It's kind of like built-in marketing."
+            "reference_answer": "It's kind of like solving a puzzle together.",
+            "reference_answer_zh": "它有点像大家一起解谜。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这有点像”这一表达。",
-            "goal_en": "It's kind of like",
+            "scene_zh": "你向非技术同事解释任务队列，使用排队领号的类比。",
+            "goal_en": "Use an approximate analogy to make an idea easier to understand.",
             "keywords": [
-              "project",
-              "team"
+              "taking a number",
+              "queue"
             ],
             "starter": "It's kind of like",
-            "reference_answer": "It's kind of like built-in marketing."
+            "reference_answer": "It's kind of like taking a number and waiting your turn.",
+            "reference_answer_zh": "它有点像先领一个号码，再等轮到自己。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "它有点像一个带强力风扇的小烤箱。",
+        "example_source": "adapted",
+        "workplace_example_zh": "它有点像先领一个号码，再等轮到自己。",
+        "context_review_note": "Source compares the effect to built-in marketing, not an exact technical equivalence.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "On top of that",
-        "cn": "除此之外",
-        "example": "On top of that, we need more time.",
-        "prompt": "Add one more reason.",
+        "cn": "除此之外；而且",
+        "example": "On top of that, the apartment is very quiet.",
+        "prompt": "Add another point that increases the overall effect.",
         "source_page": 19,
         "source_segment": "page-19",
         "source_excerpt": "And also on top of that, there is a bottom line incentive.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "除此之外",
+        "communicative_function": "Add another point that increases the overall effect.",
         "original_en": "And also on top of that, there is a bottom line incentive.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "On top of that, the apartment is very quiet.",
+        "everyday_example_zh": "而且，这套公寓很安静。",
+        "workplace_example": "On top of that, the new tool reduces our monthly costs.",
+        "replaceable_parts": "On top of that, + complete clause; it can add a benefit or a problem.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
-            "label": "Daily life · 日常生活",
-            "scene_zh": "乘坐公共交通时遇到一个问题：请用“除此之外”组织一句完整英语。",
-            "goal_en": "Add one more reason.",
+            "label": "Daily life",
+            "scene_zh": "你说明为什么喜欢新公寓，在交通方便之外再补充一个优点。",
+            "goal_en": "Add another point that increases the overall effect.",
             "keywords": [
-              "need",
-              "more",
-              "time"
+              "quiet",
+              "apartment"
             ],
-            "starter": "on top of that",
-            "reference_answer": "On top of that, we need more time."
+            "starter": "On top of that,",
+            "reference_answer": "On top of that, the apartment is very quiet.",
+            "reference_answer_zh": "而且，这套公寓很安静。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
-            "label": "Social conversation · 朋友聊天",
-            "scene_zh": "向朋友澄清一件容易误会的事：请用“除此之外”组织一句完整英语。",
-            "goal_en": "Add one more reason.",
+            "label": "Friends",
+            "scene_zh": "你向朋友讲旅行遇到的问题，在延误之后再说行李丢失。",
+            "goal_en": "Add another point that increases the overall effect.",
             "keywords": [
-              "need",
-              "more",
-              "time"
+              "luggage",
+              "lost"
             ],
-            "starter": "on top of that",
-            "reference_answer": "On top of that, we need more time."
+            "starter": "On top of that,",
+            "reference_answer": "On top of that, the airline lost my luggage.",
+            "reference_answer_zh": "除此之外，航空公司还把我的行李弄丢了。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
-            "label": "Work communication · 工作交流",
-            "scene_zh": "在会议上汇报项目进度：请用“除此之外”组织一句完整英语。",
-            "goal_en": "Add one more reason.",
+            "label": "Work",
+            "scene_zh": "你汇报新工具的收益，在节省时间之外再说明成本降低。",
+            "goal_en": "Add another point that increases the overall effect.",
             "keywords": [
-              "need",
-              "more",
-              "time"
+              "costs",
+              "reduce"
             ],
-            "starter": "on top of that",
-            "reference_answer": "On top of that, we need more time."
+            "starter": "On top of that,",
+            "reference_answer": "On top of that, the new tool reduces our monthly costs.",
+            "reference_answer_zh": "而且，这个新工具还能降低我们的每月成本。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "而且，这套公寓很安静。",
+        "example_source": "adapted",
+        "workplace_example_zh": "而且，这个新工具还能降低我们的每月成本。",
+        "context_review_note": "Source adds another incentive; the phrase is figurative, not a physical stacking instruction.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "one random one",
-        "cn": "我随便想到一个",
-        "example": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
-        "prompt": "Use “one random one” in a complete sentence.",
+        "cn": "随便举一个；其中一个意想不到的例子",
+        "example": "I found a few surprises. One random one was an old family photo.",
+        "prompt": "Pick one item from a previously established set in casual speech.",
         "source_page": 19,
         "source_segment": "page-19",
         "source_excerpt": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我随便想到一个",
+        "communicative_function": "Pick one item from a previously established set in casual speech.",
         "original_en": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I found a few surprises. One random one was an old family photo.",
+        "everyday_example_zh": "我找到了一些意想不到的东西，随便举一个，就是一张老全家福。",
+        "workplace_example": "We made several small improvements. One random one was clearer folder labels.",
+        "replaceable_parts": "One random one + clause; establish the set first so the second one has a clear referent.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我随便想到一个”这一表达。",
-            "goal_en": "one random one",
+            "scene_zh": "家人问整理房间能发现什么，你随口举出一个意外找到的东西。",
+            "goal_en": "Pick one item from a previously established set in casual speech.",
             "keywords": [
-              "today",
-              "plan"
+              "finds",
+              "photo"
             ],
-            "starter": "one random one",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "starter": "One random one",
+            "reference_answer": "I found a few surprises. One random one was an old family photo.",
+            "reference_answer_zh": "我找到了一些意想不到的东西，随便举一个，就是一张老全家福。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我随便想到一个”这一表达。",
-            "goal_en": "one random one",
+            "scene_zh": "朋友让你从旅行趣事中选一个，你先说明只是随便挑一个。",
+            "goal_en": "Pick one item from a previously established set in casual speech.",
             "keywords": [
-              "friend",
-              "situation"
+              "moments",
+              "station"
             ],
-            "starter": "one random one",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "starter": "One random one",
+            "reference_answer": "There were lots of funny moments. One random one was meeting my neighbor at the station.",
+            "reference_answer_zh": "旅途中有很多有趣时刻，随便举一个，就是在车站碰见了邻居。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我随便想到一个”这一表达。",
-            "goal_en": "one random one",
+            "scene_zh": "轻松的团队讨论中你从几个小改进中挑一个例子，不作排名。",
+            "goal_en": "Pick one item from a previously established set in casual speech.",
             "keywords": [
-              "project",
-              "team"
+              "improvements",
+              "labels"
             ],
-            "starter": "one random one",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "starter": "One random one",
+            "reference_answer": "We made several small improvements. One random one was clearer folder labels.",
+            "reference_answer_zh": "我们做了几项小改进，随便举一个，就是把文件夹标签写得更清楚。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我找到了一些意想不到的东西，随便举一个，就是一张老全家福。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们做了几项小改进，随便举一个，就是把文件夹标签写得更清楚。",
+        "context_review_note": "Spontaneous and vague wording, not a precise standalone idiom; avoid unnecessary repetition in formal communication.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "One random one I hadn't thought of ...",
-        "cn": "我没想到的另一点……",
-        "example": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
-        "prompt": "Use “One random one I hadn't thought of ...” in a complete sentence.",
+        "cn": "其中一个我此前没想到的例子是……",
+        "example": "Moving had several benefits. One random one I hadn't thought of was walking to the shops.",
+        "prompt": "Introduce an overlooked example from a known set.",
         "source_page": 19,
         "source_segment": "page-19",
         "source_excerpt": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我没想到的另一点……",
+        "communicative_function": "Introduce an overlooked example from a known set.",
         "original_en": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "Moving had several benefits. One random one I hadn't thought of was walking to the shops.",
+        "everyday_example_zh": "搬家带来了好几个好处，其中一个我此前没想到的，就是能步行去商店。",
+        "workplace_example": "There were several benefits. One random one I hadn't thought of was having more time to focus.",
+        "replaceable_parts": "One random one I hadn't thought of was + noun or -ing phrase; establish the set first. Use one unexpected benefit in formal writing.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我没想到的另一点……”这一表达。",
-            "goal_en": "One random one I hadn't thought of ...",
+            "scene_zh": "你谈搬家后发现的好处，补充一个事先没有想到的小优点。",
+            "goal_en": "Introduce an overlooked example from a known set.",
             "keywords": [
-              "today",
-              "plan"
+              "benefits",
+              "walking"
             ],
-            "starter": "One random one I hadn't thought of ...",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "starter": "One random one I hadn't thought of",
+            "reference_answer": "Moving had several benefits. One random one I hadn't thought of was walking to the shops.",
+            "reference_answer_zh": "搬家带来了好几个好处，其中一个我此前没想到的，就是能步行去商店。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我没想到的另一点……”这一表达。",
-            "goal_en": "One random one I hadn't thought of ...",
+            "scene_zh": "你和朋友分享学摄影的收获，指出一个意料之外的变化。",
+            "goal_en": "Introduce an overlooked example from a known set.",
             "keywords": [
-              "friend",
-              "situation"
+              "benefits",
+              "noticing"
             ],
-            "starter": "One random one I hadn't thought of ...",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "starter": "One random one I hadn't thought of",
+            "reference_answer": "Photography has lots of benefits. One random one I hadn't thought of was noticing small details.",
+            "reference_answer_zh": "摄影有很多好处，其中一个我之前没想到的，就是开始留意细节。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我没想到的另一点……”这一表达。",
-            "goal_en": "One random one I hadn't thought of ...",
+            "scene_zh": "在非正式复盘中，你从远程办公的优点里补充一个意外发现。",
+            "goal_en": "Introduce an overlooked example from a known set.",
             "keywords": [
-              "project",
-              "team"
+              "benefits",
+              "focus"
             ],
-            "starter": "One random one I hadn't thought of ...",
-            "reference_answer": "One random one that I hadn't even thought of was a lot of these universities, they don't have to build and maintain more buildings anymore."
+            "starter": "One random one I hadn't thought of",
+            "reference_answer": "There were several benefits. One random one I hadn't thought of was having more time to focus.",
+            "reference_answer_zh": "好处有好几个，其中一个我此前没想到的，就是有了更多专注工作的时间。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "搬家带来了好几个好处，其中一个我此前没想到的，就是能步行去商店。",
+        "example_source": "adapted",
+        "workplace_example_zh": "好处有好几个，其中一个我此前没想到的，就是有了更多专注工作的时间。",
+        "context_review_note": "Adapted shorter pattern; the original contains that and even, preserved in source_excerpt rather than falsely claimed as an exact match.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "They benefit a lot from",
-        "cn": "他们从……受益很多",
-        "example": "Colleges and universities, they benefit a lot from fraternities.",
-        "prompt": "Use “They benefit a lot from” in a complete sentence.",
+        "cn": "他们从……中获益很多",
+        "example": "My parents use the delivery service. They benefit a lot from not having to carry heavy bags.",
+        "prompt": "Explain a substantial benefit to an already identified group.",
         "source_page": 19,
         "source_segment": "page-19",
         "source_excerpt": "Colleges and universities, they benefit a lot from fraternities.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "他们从……受益很多",
+        "communicative_function": "Explain a substantial benefit to an already identified group.",
         "original_en": "Colleges and universities, they benefit a lot from fraternities.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "My parents use the delivery service. They benefit a lot from not having to carry heavy bags.",
+        "everyday_example_zh": "我父母使用送货服务，不用再拎沉重的袋子给他们带来了很大方便。",
+        "workplace_example": "Our new hires benefit a lot from regular feedback.",
+        "replaceable_parts": "They benefit a lot from + noun or -ing phrase; replace they with a named group when needed.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“他们从……受益很多”这一表达。",
-            "goal_en": "They benefit a lot from",
+            "scene_zh": "你谈到父母使用送餐服务的体验，说明这给他们带来的帮助。",
+            "goal_en": "Explain a substantial benefit to an already identified group.",
             "keywords": [
-              "today",
-              "plan"
+              "parents",
+              "delivery"
             ],
             "starter": "They benefit a lot from",
-            "reference_answer": "Colleges and universities, they benefit a lot from fraternities."
+            "reference_answer": "My parents use the delivery service. They benefit a lot from not having to carry heavy bags.",
+            "reference_answer_zh": "我父母使用送货服务，不用再拎沉重的袋子给他们带来了很大方便。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“他们从……受益很多”这一表达。",
-            "goal_en": "They benefit a lot from",
+            "scene_zh": "朋友组织读书会，你说明新成员为什么喜欢交流讨论。",
+            "goal_en": "Explain a substantial benefit to an already identified group.",
             "keywords": [
-              "friend",
-              "situation"
+              "members",
+              "discussion"
             ],
             "starter": "They benefit a lot from",
-            "reference_answer": "Colleges and universities, they benefit a lot from fraternities."
+            "reference_answer": "The new members benefit a lot from the weekly discussions.",
+            "reference_answer_zh": "新成员从每周的讨论中获益很多。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“他们从……受益很多”这一表达。",
-            "goal_en": "They benefit a lot from",
+            "scene_zh": "你向经理说明新人辅导的价值，指出培训给新员工的帮助。",
+            "goal_en": "Explain a substantial benefit to an already identified group.",
             "keywords": [
-              "project",
-              "team"
+              "new hires",
+              "feedback"
             ],
             "starter": "They benefit a lot from",
-            "reference_answer": "Colleges and universities, they benefit a lot from fraternities."
+            "reference_answer": "Our new hires benefit a lot from regular feedback.",
+            "reference_answer_zh": "我们的新员工从定期反馈中获益很多。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我父母使用送货服务，不用再拎沉重的袋子给他们带来了很大方便。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我们的新员工从定期反馈中获益很多。",
+        "context_review_note": "Source is the narrator's claim about institutional incentives, not a quantified finding.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I guess the question",
-        "cn": "我想问题是",
-        "example": "But I guess the question that's been coming up more recently is, is it really fucking worth it?",
-        "prompt": "Use “I guess the question” in a complete sentence.",
+        "cn": "我想，问题在于……",
+        "example": "I guess the question is whether it's worth repairing.",
+        "prompt": "Tentatively identify the question that matters next.",
         "source_page": 20,
         "source_segment": "page-20",
         "source_excerpt": "But I guess the question that's been coming up more recently is, is it really fucking worth it?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "medium",
-        "communicative_function": "我想问题是",
+        "communicative_function": "Tentatively identify the question that matters next.",
         "original_en": "But I guess the question that's been coming up more recently is, is it really fucking worth it?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_match_verified_pattern_requires_contextual_review",
+        "everyday_example": "I guess the question is whether it's worth repairing.",
+        "everyday_example_zh": "我想，问题是它是否值得修。",
+        "workplace_example": "I guess the question we need to answer is what users need most.",
+        "replaceable_parts": "I guess the question + optional relative clause + is + embedded question; complete the fragment.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我想问题是”这一表达。",
-            "goal_en": "I guess the question",
+            "scene_zh": "家人讨论是否换冰箱，你把讨论聚焦到维修是否值得。",
+            "goal_en": "Tentatively identify the question that matters next.",
             "keywords": [
-              "today",
-              "plan"
+              "repair",
+              "worth"
             ],
             "starter": "I guess the question",
-            "reference_answer": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
+            "reference_answer": "I guess the question is whether it's worth repairing.",
+            "reference_answer_zh": "我想，问题是它是否值得修。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我想问题是”这一表达。",
-            "goal_en": "I guess the question",
+            "scene_zh": "朋友讨论周末去哪玩，你把问题集中到大家可用的时间。",
+            "goal_en": "Tentatively identify the question that matters next.",
             "keywords": [
-              "friend",
-              "situation"
+              "time",
+              "available"
             ],
             "starter": "I guess the question",
-            "reference_answer": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
+            "reference_answer": "I guess the question is how much time we have.",
+            "reference_answer_zh": "我想，问题是我们有多少时间。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我想问题是”这一表达。",
-            "goal_en": "I guess the question",
+            "scene_zh": "团队列了很多功能，你把讨论引向用户最需要解决的问题。",
+            "goal_en": "Tentatively identify the question that matters next.",
             "keywords": [
-              "project",
-              "team"
+              "users",
+              "need"
             ],
             "starter": "I guess the question",
-            "reference_answer": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
+            "reference_answer": "I guess the question we need to answer is what users need most.",
+            "reference_answer_zh": "我想，我们需要回答的问题是用户最需要什么。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我想，问题是它是否值得修。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我想，我们需要回答的问题是用户最需要什么。",
+        "context_review_note": "Source contains a long relative clause before is; the teaching frame must end in a complete thought.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "I guess the question is ...",
-        "cn": "我想问题是……",
-        "example": "But I guess the question that's been coming up more recently is, is it really fucking worth it?",
-        "prompt": "Use “I guess the question is ...” in a complete sentence.",
+        "cn": "我想，关键问题是……",
+        "example": "I guess the question is how far we're willing to commute.",
+        "prompt": "Refocus a discussion on an unresolved decision.",
         "source_page": 20,
         "source_segment": "page-20",
         "source_excerpt": "But I guess the question that's been coming up more recently is, is it really fucking worth it?",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "我想问题是……",
+        "communicative_function": "Refocus a discussion on an unresolved decision.",
         "original_en": "But I guess the question that's been coming up more recently is, is it really fucking worth it?",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "I guess the question is how far we're willing to commute.",
+        "everyday_example_zh": "我想，关键问题是我们愿意接受多远的通勤。",
+        "workplace_example": "I guess the question is whether we've done enough testing.",
+        "replaceable_parts": "I guess the question is whether/how/what + statement-order clause; do not invert the embedded question.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“我想问题是……”这一表达。",
-            "goal_en": "I guess the question is ...",
+            "scene_zh": "你比较两个租房方案，提醒家人先明确愿意接受的通勤距离。",
+            "goal_en": "Refocus a discussion on an unresolved decision.",
             "keywords": [
-              "today",
-              "plan"
+              "commute",
+              "willing"
             ],
-            "starter": "I guess the question is ...",
-            "reference_answer": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
+            "starter": "I guess the question is",
+            "reference_answer": "I guess the question is how far we're willing to commute.",
+            "reference_answer_zh": "我想，关键问题是我们愿意接受多远的通勤。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“我想问题是……”这一表达。",
-            "goal_en": "I guess the question is ...",
+            "scene_zh": "朋友讨论旅行花费，你把讨论集中到是否值得多住一晚。",
+            "goal_en": "Refocus a discussion on an unresolved decision.",
             "keywords": [
-              "friend",
-              "situation"
+              "extra night",
+              "worth"
             ],
-            "starter": "I guess the question is ...",
-            "reference_answer": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
+            "starter": "I guess the question is",
+            "reference_answer": "I guess the question is whether an extra night is worth the cost.",
+            "reference_answer_zh": "我想，关键问题是多住一晚是否值得这笔花费。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“我想问题是……”这一表达。",
-            "goal_en": "I guess the question is ...",
+            "scene_zh": "团队对发布日期意见不同，你指出要先判断测试是否充分。",
+            "goal_en": "Refocus a discussion on an unresolved decision.",
             "keywords": [
-              "project",
-              "team"
+              "testing",
+              "enough"
             ],
-            "starter": "I guess the question is ...",
-            "reference_answer": "But I guess the question that's been coming up more recently is, is it really fucking worth it?"
+            "starter": "I guess the question is",
+            "reference_answer": "I guess the question is whether we've done enough testing.",
+            "reference_answer_zh": "我想，关键问题是我们是否做了足够的测试。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "我想，关键问题是我们愿意接受多远的通勤。",
+        "example_source": "adapted",
+        "workplace_example_zh": "我想，关键问题是我们是否做了足够的测试。",
+        "context_review_note": "Adapted contiguous frame from a longer source sentence; preserves the tentative stance without copying profanity.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       },
       {
         "text": "That means ...",
-        "cn": "这意味着……",
-        "example": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student.",
-        "prompt": "Use “That means ...” in a complete sentence.",
+        "cn": "那意味着……",
+        "example": "The shop closes at five. That means we need to leave earlier.",
+        "prompt": "Explain a consequence or implication of preceding information.",
         "source_page": 20,
         "source_segment": "page-20",
         "source_excerpt": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student.",
         "source_kind": "original",
         "source_verification": "verified_transcript_match",
         "extraction_confidence": "high",
-        "communicative_function": "这意味着……",
+        "communicative_function": "Explain a consequence or implication of preceding information.",
         "original_en": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student.",
-        "everyday_example": "",
-        "everyday_example_zh": "",
-        "workplace_example": "",
-        "replaceable_parts": "",
-        "editorial_status": "source_verified_adaptation_pending",
+        "everyday_example": "The shop closes at five. That means we need to leave earlier.",
+        "everyday_example_zh": "商店五点关门，那意味着我们得早点出发。",
+        "workplace_example": "The transfer is automatic now. That means we no longer need to copy the data manually.",
+        "replaceable_parts": "That means + clause or noun phrase; that must refer to a stated fact or assumption.",
+        "editorial_status": "reviewed_complete",
         "scenarios": [
           {
             "type": "daily",
             "label": "Daily life",
-            "scene_zh": "在日常生活中自然使用“这意味着……”这一表达。",
-            "goal_en": "That means ...",
+            "scene_zh": "你发现商店今天提前关门，告诉家人需要改变购物时间。",
+            "goal_en": "Explain a consequence or implication of preceding information.",
             "keywords": [
-              "today",
-              "plan"
+              "closes",
+              "earlier"
             ],
-            "starter": "That means ...",
-            "reference_answer": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student."
+            "starter": "That means",
+            "reference_answer": "The shop closes at five. That means we need to leave earlier.",
+            "reference_answer_zh": "商店五点关门，那意味着我们得早点出发。",
+            "source_kind": "teaching"
           },
           {
             "type": "social",
             "label": "Friends",
-            "scene_zh": "和朋友聊天时自然使用“这意味着……”这一表达。",
-            "goal_en": "That means ...",
+            "scene_zh": "朋友取消了周日计划，你向另一位朋友说明现在多出时间。",
+            "goal_en": "Explain a consequence or implication of preceding information.",
             "keywords": [
-              "friend",
-              "situation"
+              "free",
+              "Sunday"
             ],
-            "starter": "That means ...",
-            "reference_answer": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student."
+            "starter": "That means",
+            "reference_answer": "The trip was canceled. That means I'm free on Sunday.",
+            "reference_answer_zh": "旅行取消了，那意味着我周日有空。",
+            "source_kind": "teaching"
           },
           {
             "type": "work",
             "label": "Work",
-            "scene_zh": "在工作沟通中自然使用“这意味着……”这一表达。",
-            "goal_en": "That means ...",
+            "scene_zh": "新流程取消人工复制数据，你向团队说明节省下来的工作。",
+            "goal_en": "Explain a consequence or implication of preceding information.",
             "keywords": [
-              "project",
-              "team"
+              "automatic",
+              "copying"
             ],
-            "starter": "That means ...",
-            "reference_answer": "So that means less buildings, less insurance the school has to pay for those student dorms because it's like by bed and by student."
+            "starter": "That means",
+            "reference_answer": "The transfer is automatic now. That means we no longer need to copy the data manually.",
+            "reference_answer_zh": "现在传输自动进行了，那意味着我们不再需要手动复制数据。",
+            "source_kind": "teaching"
           }
-        ]
+        ],
+        "example_cn": "商店五点关门，那意味着我们得早点出发。",
+        "example_source": "adapted",
+        "workplace_example_zh": "现在传输自动进行了，那意味着我们不再需要手动复制数据。",
+        "context_review_note": "Source explains a proposed financial consequence; the causal link is the narrator's reasoning, not independently audited data.",
+        "reviewer": "Codex",
+        "review_date": "2026-10-22",
+        "review_method": "individual_pdf_contextual_review"
       }
     ],
     [
