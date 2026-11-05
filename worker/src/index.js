@@ -54,6 +54,7 @@ export async function callGemini(input, env, fetcher = fetch, sleep = ms => new 
   }
   if (!response.ok) {
     const detail = await response.text();
+    console.warn('gemini_feedback_upstream_failure', JSON.stringify({ timestamp: new Date().toISOString(), model, status: response.status, category: response.status === 503 ? 'api_unavailable' : response.status === 429 ? 'api_quota_or_rate_limit' : response.status === 401 || response.status === 403 ? 'api_configuration_or_key' : 'upstream_error' }));
     if (response.status === 429) throw new Error('Gemini 免费额度暂时用完，请稍后或明天再试。');
     if (response.status === 503) throw new Error('Gemini 当前繁忙，已自动重试 3 次，请稍后再试。');
     throw new Error(`Gemini 请求失败 (${response.status}${detail.includes('API_KEY') ? ', key configuration' : ''})。`);
