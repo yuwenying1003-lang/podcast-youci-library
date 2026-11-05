@@ -26,7 +26,7 @@ async function useDailyQuota(db, hash, limit) {
   return result ? { allowed: true, remaining: Math.max(0, limit - result.request_count) } : { allowed: false, remaining: 0 };
 }
 
-export async function callGemini(input, env, fetcher = fetch, sleep = ms => new Promise(resolve => setTimeout(resolve, ms))) {
+export async function callGemini(input, env, fetcher = fetch, sleep = ms => new Promise(resolve => setTimeout(resolve, ms)), timeoutMs = 12000) {
   if (!env.GEMINI_API_KEY) throw new Error('Gemini API Key 尚未配置。');
   const model = env.GEMINI_MODEL || 'gemini-3.8-flash';
   const request = {
@@ -39,12 +39,14 @@ export async function callGemini(input, env, fetcher = fetch, sleep = ms => new 
   };
   let response;
   for (let attempt = 0; attempt < 3; attempt += 1) {
-    try { response = await fetcher(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, request); }
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try { response = await fetcher(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, { ...request, signal: controller.signal }); }
     catch (error) {
       if (attempt === 2) throw new Error('Gemini 暂时无法连接，请稍后重试。');
       await sleep(500 * (2 ** attempt) + Math.floor(Math.random() * 250));
       continue;
-    }
+    } finally { clearTimeout(timer); }
     if (response.status !== 503 && response.status !== 408 && response.status < 500) break;
     if (attempt === 2) break;
     await response.body?.cancel().catch(() => {});

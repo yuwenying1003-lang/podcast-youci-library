@@ -330,6 +330,17 @@ test('Gemini 503 responses retry three times without changing models', async () 
   assert.equal(waits.length, 2);
 });
 
+test('Gemini requests time out, retry, and return control to the learner', async () => {
+  const input = { sentence: 'It is not worth the risk.', target_pattern: 'It is not worth the risk', scenario_zh: '解释风险。', reference_answer: 'It is not worth the risk.' };
+  let calls = 0;
+  const fetcher = (_url, request) => new Promise((resolve, reject) => {
+    calls += 1;
+    request.signal.addEventListener('abort', () => reject(Object.assign(new Error('aborted'), { name: 'AbortError' })));
+  });
+  await assert.rejects(callGemini(input, { GEMINI_API_KEY: 'test-only' }, fetcher, async () => {}, 1), /Gemini/);
+  assert.equal(calls, 3);
+});
+
 test('AI feedback worker enforces origin, session, quota, and refunds failed model calls', async () => {
   const allowedOrigin = 'https://yuwenying1003-lang.github.io';
   const requests = [];
