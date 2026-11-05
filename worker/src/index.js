@@ -43,6 +43,7 @@ export async function callGemini(input, env, fetcher = fetch, sleep = ms => new 
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try { response = await fetcher(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, { ...request, signal: controller.signal }); }
     catch (error) {
+      if (attempt === 2) console.warn('gemini_feedback_transport_failure', JSON.stringify({ timestamp: new Date().toISOString(), model, status: null, category: error?.name === 'AbortError' ? 'api_timeout' : 'api_network_error' }));
       if (attempt === 2) throw new Error('Gemini 暂时无法连接，请稍后重试。');
       await sleep(500 * (2 ** attempt) + Math.floor(Math.random() * 250));
       continue;
