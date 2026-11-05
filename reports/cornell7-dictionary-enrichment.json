@@ -1,0 +1,1876 @@
+{
+  "generated_at": "2026-10-21T21:21:27.242Z",
+  "sources": [
+    "https://dictionaryapi.dev/",
+    "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict",
+    "https://freedictionaryapi.com/api/v1/entries/en/"
+  ],
+  "source_note": "Keyless Free Dictionary API is preferred. Missing entries fall back to CMUdict US pronunciations converted from ARPABET to broad IPA, then Wiktionary-derived IPA. Imported phonetics remain externally sourced and require editorial review.",
+  "requested": 0,
+  "filled": 0,
+  "remaining": 0,
+  "definition_requested": 0,
+  "definition_filled": 0,
+  "definition_remaining": 0,
+  "unresolved": [],
+  "lookups": {
+    "filming": {
+      "status": 530,
+      "ipa": ""
+    },
+    "investigation": {
+      "status": 530,
+      "ipa": ""
+    },
+    "conclusion": {
+      "status": 530,
+      "ipa": ""
+    },
+    "aggressive": {
+      "status": 530,
+      "ipa": ""
+    },
+    "atrium": {
+      "status": 530,
+      "ipa": ""
+    },
+    "balance": {
+      "status": 200,
+      "ipa": "/ˈbæləns/"
+    },
+    "vehicle": {
+      "status": 200,
+      "ipa": "/ˈvɪː(ə).kəl/"
+    },
+    "banned": {
+      "status": 530,
+      "ipa": ""
+    },
+    "allegation": {
+      "status": 530,
+      "ipa": ""
+    },
+    "administration": {
+      "status": 200,
+      "ipa": "/ədˌmɪnəˈstɹeɪʃən/"
+    },
+    "deemed": {
+      "status": 530,
+      "ipa": ""
+    },
+    "protest": {
+      "status": 530,
+      "ipa": ""
+    },
+    "incident": {
+      "status": 530,
+      "ipa": ""
+    },
+    "compelled": {
+      "status": 530,
+      "ipa": ""
+    },
+    "doxxed": {
+      "status": 530,
+      "ipa": ""
+    },
+    "protester": {
+      "status": 530,
+      "ipa": ""
+    },
+    "pending": {
+      "status": 200,
+      "ipa": "/ˈpɛndɪŋ/"
+    },
+    "lawyered up": {
+      "status": 530,
+      "ipa": ""
+    },
+    "bonk": {
+      "status": 530,
+      "ipa": ""
+    },
+    "protesters": {
+      "status": 530,
+      "ipa": ""
+    },
+    "scandal": {
+      "status": 200,
+      "ipa": "/ˈskændəl/"
+    },
+    "lawsuit": {
+      "status": 530,
+      "ipa": ""
+    },
+    "endorsed": {
+      "status": 530,
+      "ipa": ""
+    },
+    "screaming": {
+      "status": 530,
+      "ipa": ""
+    },
+    "survivor": {
+      "status": 429,
+      "ipa": ""
+    },
+    "worst": {
+      "status": 429,
+      "ipa": ""
+    },
+    "leaked": {
+      "status": 429,
+      "ipa": ""
+    },
+    "president": {
+      "status": 429,
+      "ipa": ""
+    },
+    "campus": {
+      "status": 429,
+      "ipa": ""
+    },
+    "scandals": {
+      "status": 429,
+      "ipa": ""
+    },
+    "suspending": {
+      "status": 429,
+      "ipa": ""
+    },
+    "publicly": {
+      "status": 429,
+      "ipa": ""
+    },
+    "alleged": {
+      "status": 429,
+      "ipa": ""
+    },
+    "apparently": {
+      "status": 429,
+      "ipa": ""
+    },
+    "frat": {
+      "status": 429,
+      "ipa": ""
+    },
+    "conduct": {
+      "status": 429,
+      "ipa": ""
+    },
+    "coverage": {
+      "status": 429,
+      "ipa": ""
+    },
+    "potentially": {
+      "status": 429,
+      "ipa": ""
+    },
+    "outlet": {
+      "status": 429,
+      "ipa": ""
+    },
+    "individual": {
+      "status": 429,
+      "ipa": ""
+    },
+    "disposal": {
+      "status": 429,
+      "ipa": ""
+    },
+    "risk": {
+      "status": 429,
+      "ipa": ""
+    },
+    "threatened": {
+      "status": 429,
+      "ipa": ""
+    },
+    "contractor": {
+      "status": 429,
+      "ipa": ""
+    },
+    "board member": {
+      "status": 429,
+      "ipa": ""
+    },
+    "hazardous waste": {
+      "status": 429,
+      "ipa": ""
+    },
+    "statistic": {
+      "status": 429,
+      "ipa": ""
+    },
+    "alcohol": {
+      "status": 429,
+      "ipa": ""
+    },
+    "insurance company": {
+      "status": 429,
+      "ipa": ""
+    },
+    "umbrella": {
+      "status": 429,
+      "ipa": ""
+    },
+    "blindfolds": {
+      "status": 429,
+      "ipa": ""
+    },
+    "national": {
+      "status": 429,
+      "ipa": ""
+    },
+    "interpersonal": {
+      "status": 429,
+      "ipa": ""
+    },
+    "chapter": {
+      "status": 429,
+      "ipa": ""
+    },
+    "nightmare": {
+      "status": 429,
+      "ipa": ""
+    },
+    "organization": {
+      "status": 429,
+      "ipa": ""
+    },
+    "policy": {
+      "status": 429,
+      "ipa": ""
+    },
+    "power trip": {
+      "status": 429,
+      "ipa": ""
+    },
+    "rescinded": {
+      "status": 429,
+      "ipa": ""
+    },
+    "poetic": {
+      "status": 429,
+      "ipa": ""
+    },
+    "guest list": {
+      "status": 429,
+      "ipa": ""
+    },
+    "limitation": {
+      "status": 429,
+      "ipa": ""
+    },
+    "membership": {
+      "status": 429,
+      "ipa": ""
+    },
+    "insured": {
+      "status": 429,
+      "ipa": ""
+    },
+    "industry": {
+      "status": 429,
+      "ipa": ""
+    },
+    "vendor": {
+      "status": 429,
+      "ipa": ""
+    },
+    "homeowner's": {
+      "status": 429,
+      "ipa": ""
+    },
+    "bylaws": {
+      "status": 429,
+      "ipa": ""
+    },
+    "workaround": {
+      "status": 429,
+      "ipa": ""
+    },
+    "foolproof": {
+      "status": 429,
+      "ipa": ""
+    },
+    "bylaw": {
+      "status": 429,
+      "ipa": ""
+    },
+    "third party": {
+      "status": 429,
+      "ipa": ""
+    },
+    "violation": {
+      "status": 429,
+      "ipa": ""
+    },
+    "claim": {
+      "status": 429,
+      "ipa": ""
+    },
+    "bypassing": {
+      "status": 429,
+      "ipa": ""
+    },
+    "payouts": {
+      "status": 429,
+      "ipa": ""
+    },
+    "injuries": {
+      "status": 429,
+      "ipa": ""
+    },
+    "circumstantial": {
+      "status": 429,
+      "ipa": ""
+    },
+    "absorb": {
+      "status": 429,
+      "ipa": ""
+    },
+    "enemas": {
+      "status": 429,
+      "ipa": ""
+    },
+    "emotional damage": {
+      "status": 429,
+      "ipa": ""
+    },
+    "terrifying": {
+      "status": 429,
+      "ipa": ""
+    },
+    "grafts": {
+      "status": 429,
+      "ipa": ""
+    },
+    "hazing lawsuits": {
+      "status": 429,
+      "ipa": ""
+    },
+    "rushed": {
+      "status": 429,
+      "ipa": ""
+    },
+    "branding": {
+      "status": 429,
+      "ipa": ""
+    },
+    "sodomized": {
+      "status": 429,
+      "ipa": ""
+    },
+    "assault": {
+      "status": 429,
+      "ipa": ""
+    },
+    "iron": {
+      "status": 429,
+      "ipa": ""
+    },
+    "insurance": {
+      "status": 429,
+      "ipa": ""
+    },
+    "balconies": {
+      "status": 429,
+      "ipa": ""
+    },
+    "permanent": {
+      "status": 429,
+      "ipa": ""
+    },
+    "sustain": {
+      "status": 429,
+      "ipa": ""
+    },
+    "rectum": {
+      "status": 429,
+      "ipa": ""
+    },
+    "sued": {
+      "status": 429,
+      "ipa": ""
+    },
+    "lawsuits": {
+      "status": 429,
+      "ipa": ""
+    },
+    "drops": {
+      "status": 429,
+      "ipa": ""
+    },
+    "escape": {
+      "status": 429,
+      "ipa": ""
+    },
+    "beverages": {
+      "status": 429,
+      "ipa": ""
+    },
+    "guest": {
+      "status": 429,
+      "ipa": ""
+    },
+    "organized": {
+      "status": 429,
+      "ipa": ""
+    },
+    "process": {
+      "status": 429,
+      "ipa": ""
+    },
+    "workarounds": {
+      "status": 429,
+      "ipa": ""
+    },
+    "standard": {
+      "status": 429,
+      "ipa": ""
+    },
+    "beneficial": {
+      "status": 429,
+      "ipa": ""
+    },
+    "donation": {
+      "status": 429,
+      "ipa": ""
+    },
+    "assume": {
+      "status": 429,
+      "ipa": ""
+    },
+    "Greek life": {
+      "status": 429,
+      "ipa": ""
+    },
+    "housing": {
+      "status": 429,
+      "ipa": ""
+    },
+    "institution": {
+      "status": 429,
+      "ipa": ""
+    },
+    "financially": {
+      "status": 429,
+      "ipa": ""
+    },
+    "enticing": {
+      "status": 429,
+      "ipa": ""
+    },
+    "active chapters": {
+      "status": 429,
+      "ipa": ""
+    },
+    "merged": {
+      "status": 429,
+      "ipa": ""
+    },
+    "deprived": {
+      "status": 429,
+      "ipa": ""
+    },
+    "physically exhausted": {
+      "status": 429,
+      "ipa": ""
+    },
+    "freshman": {
+      "status": 429,
+      "ipa": ""
+    },
+    "dorms": {
+      "status": 429,
+      "ipa": ""
+    },
+    "marketing": {
+      "status": 429,
+      "ipa": ""
+    },
+    "precipice": {
+      "status": 429,
+      "ipa": ""
+    },
+    "relevant": {
+      "status": 429,
+      "ipa": ""
+    },
+    "trap door": {
+      "status": 429,
+      "ipa": ""
+    },
+    "coffin": {
+      "status": 429,
+      "ipa": ""
+    },
+    "ashamed": {
+      "status": 429,
+      "ipa": ""
+    },
+    "cayenne": {
+      "status": 429,
+      "ipa": ""
+    },
+    "pledged": {
+      "status": 429,
+      "ipa": ""
+    },
+    "inflicting": {
+      "status": 429,
+      "ipa": ""
+    },
+    "offerings": {
+      "status": 429,
+      "ipa": ""
+    },
+    "addiction": {
+      "status": 429,
+      "ipa": ""
+    },
+    "vacant": {
+      "status": 429,
+      "ipa": ""
+    },
+    "arrest": {
+      "status": 429,
+      "ipa": ""
+    },
+    "conquest": {
+      "status": 429,
+      "ipa": ""
+    },
+    "vinegar": {
+      "status": 429,
+      "ipa": ""
+    },
+    "waistband": {
+      "status": 429,
+      "ipa": ""
+    },
+    "glory": {
+      "status": 429,
+      "ipa": ""
+    },
+    "community": {
+      "status": 429,
+      "ipa": ""
+    },
+    "promoting": {
+      "status": 429,
+      "ipa": ""
+    },
+    "chivalrous": {
+      "status": 429,
+      "ipa": ""
+    },
+    "generous": {
+      "status": 429,
+      "ipa": ""
+    },
+    "ketamine": {
+      "status": 429,
+      "ipa": ""
+    },
+    "physical": {
+      "status": 429,
+      "ipa": ""
+    },
+    "sophomore": {
+      "status": 429,
+      "ipa": ""
+    },
+    "overdosed": {
+      "status": 429,
+      "ipa": ""
+    },
+    "fentanyl": {
+      "status": 429,
+      "ipa": ""
+    },
+    "active": {
+      "status": 429,
+      "ipa": ""
+    },
+    "sorority": {
+      "status": 429,
+      "ipa": ""
+    },
+    "supplying": {
+      "status": 429,
+      "ipa": ""
+    },
+    "network": {
+      "status": 429,
+      "ipa": ""
+    },
+    "suspension": {
+      "status": 429,
+      "ipa": ""
+    },
+    "barred": {
+      "status": 429,
+      "ipa": ""
+    },
+    "investigate": {
+      "status": 429,
+      "ipa": ""
+    },
+    "legal drinking age": {
+      "status": 429,
+      "ipa": ""
+    },
+    "oversee": {
+      "status": 429,
+      "ipa": ""
+    },
+    "shots": {
+      "status": 429,
+      "ipa": ""
+    },
+    "salaried": {
+      "status": 429,
+      "ipa": ""
+    },
+    "operational manager": {
+      "status": 429,
+      "ipa": ""
+    },
+    "hired professional": {
+      "status": 429,
+      "ipa": ""
+    },
+    "house director": {
+      "status": 429,
+      "ipa": ""
+    },
+    "operational": {
+      "status": 429,
+      "ipa": ""
+    },
+    "establishment": {
+      "status": 429,
+      "ipa": ""
+    },
+    "separate": {
+      "status": 429,
+      "ipa": ""
+    },
+    "fraternity brother": {
+      "status": 429,
+      "ipa": ""
+    },
+    "bartender": {
+      "status": 429,
+      "ipa": ""
+    },
+    "caretaker": {
+      "status": 429,
+      "ipa": ""
+    },
+    "vodka": {
+      "status": 429,
+      "ipa": ""
+    },
+    "under 21": {
+      "status": 429,
+      "ipa": ""
+    },
+    "upkeep": {
+      "status": 429,
+      "ipa": ""
+    },
+    "high proof": {
+      "status": 429,
+      "ipa": ""
+    },
+    "alumni room": {
+      "status": 429,
+      "ipa": ""
+    },
+    "propositioned": {
+      "status": 429,
+      "ipa": ""
+    },
+    "unclear": {
+      "status": 429,
+      "ipa": ""
+    },
+    "couch": {
+      "status": 429,
+      "ipa": ""
+    },
+    "dancing": {
+      "status": 429,
+      "ipa": ""
+    },
+    "awkwardly": {
+      "status": 429,
+      "ipa": ""
+    },
+    "wristband": {
+      "status": 429,
+      "ipa": ""
+    },
+    "meanwhile": {
+      "status": 429,
+      "ipa": ""
+    },
+    "pressuring": {
+      "status": 429,
+      "ipa": ""
+    },
+    "erection": {
+      "status": 429,
+      "ipa": ""
+    },
+    "marijuana": {
+      "status": 429,
+      "ipa": ""
+    },
+    "unlocked": {
+      "status": 429,
+      "ipa": ""
+    },
+    "snorting": {
+      "status": 429,
+      "ipa": ""
+    },
+    "powdery": {
+      "status": 429,
+      "ipa": ""
+    },
+    "substance": {
+      "status": 429,
+      "ipa": ""
+    },
+    "clarifying": {
+      "status": 429,
+      "ipa": ""
+    },
+    "morally": {
+      "status": 429,
+      "ipa": ""
+    },
+    "all caps": {
+      "status": 429,
+      "ipa": ""
+    },
+    "group message": {
+      "status": 429,
+      "ipa": ""
+    },
+    "Snapchat": {
+      "status": 429,
+      "ipa": ""
+    },
+    "AFK": {
+      "status": 429,
+      "ipa": ""
+    },
+    "dense": {
+      "status": 429,
+      "ipa": ""
+    },
+    "consensual": {
+      "status": 429,
+      "ipa": ""
+    },
+    "manager": {
+      "status": 429,
+      "ipa": ""
+    },
+    "low-key": {
+      "status": 429,
+      "ipa": ""
+    },
+    "onsite": {
+      "status": 429,
+      "ipa": ""
+    },
+    "respond": {
+      "status": 429,
+      "ipa": ""
+    },
+    "employees": {
+      "status": 429,
+      "ipa": ""
+    },
+    "considers": {
+      "status": 429,
+      "ipa": ""
+    },
+    "hired": {
+      "status": 429,
+      "ipa": ""
+    },
+    "POV": {
+      "status": 429,
+      "ipa": ""
+    },
+    "upsetting": {
+      "status": 429,
+      "ipa": ""
+    },
+    "findings": {
+      "status": 429,
+      "ipa": ""
+    },
+    "certainty": {
+      "status": 429,
+      "ipa": ""
+    },
+    "fake": {
+      "status": 429,
+      "ipa": ""
+    },
+    "invited": {
+      "status": 429,
+      "ipa": ""
+    },
+    "Title IX": {
+      "status": 429,
+      "ipa": ""
+    },
+    "interaction": {
+      "status": 429,
+      "ipa": ""
+    },
+    "believed": {
+      "status": 429,
+      "ipa": ""
+    },
+    "federal": {
+      "status": 429,
+      "ipa": ""
+    },
+    "preemptive": {
+      "status": 429,
+      "ipa": ""
+    },
+    "statement": {
+      "status": 429,
+      "ipa": ""
+    },
+    "intentional": {
+      "status": 429,
+      "ipa": ""
+    },
+    "criminally": {
+      "status": 429,
+      "ipa": ""
+    },
+    "victim": {
+      "status": 429,
+      "ipa": ""
+    },
+    "academically": {
+      "status": 429,
+      "ipa": ""
+    },
+    "mainstream": {
+      "status": 429,
+      "ipa": ""
+    },
+    "haunt": {
+      "status": 429,
+      "ipa": ""
+    },
+    "alleged assault": {
+      "status": 429,
+      "ipa": ""
+    },
+    "charged": {
+      "status": 429,
+      "ipa": ""
+    },
+    "emotionally": {
+      "status": 429,
+      "ipa": ""
+    },
+    "news outlet": {
+      "status": 429,
+      "ipa": ""
+    },
+    "graduating": {
+      "status": 429,
+      "ipa": ""
+    },
+    "recover": {
+      "status": 429,
+      "ipa": ""
+    },
+    "retreat": {
+      "status": 429,
+      "ipa": ""
+    },
+    "trauma": {
+      "status": 429,
+      "ipa": ""
+    },
+    "healing": {
+      "status": 429,
+      "ipa": ""
+    },
+    "equipped": {
+      "status": 429,
+      "ipa": ""
+    },
+    "commences": {
+      "status": 429,
+      "ipa": ""
+    },
+    "formal": {
+      "status": 429,
+      "ipa": ""
+    },
+    "prosecutors": {
+      "status": 429,
+      "ipa": ""
+    },
+    "complaint": {
+      "status": 429,
+      "ipa": ""
+    },
+    "victims": {
+      "status": 429,
+      "ipa": ""
+    },
+    "instantly": {
+      "status": 429,
+      "ipa": ""
+    }
+  },
+  "definitions": {
+    "filming": {
+      "status": 200,
+      "definition": "The action of the verb to film."
+    },
+    "balance": {
+      "status": 200,
+      "definition": "(uncountable) A state in which opposing forces harmonise; equilibrium."
+    },
+    "investigation": {
+      "status": 200,
+      "definition": "The act of investigating; the process of inquiring into or following up; research, especially patient or thorough inquiry or examination"
+    },
+    "aggressive": {
+      "status": 200,
+      "definition": "Characterized by aggression; highly combative; prone to behave in a way that involves attacking (especially if unjustly) or arguing."
+    },
+    "conclusion": {
+      "status": 200,
+      "definition": "The end, finish, close or last part of something."
+    },
+    "banned": {
+      "status": 200,
+      "definition": "Forbidden; not allowed."
+    },
+    "protester": {
+      "status": 200,
+      "definition": "One who protests, either alone or in a public display of group feeling."
+    },
+    "atrium": {
+      "status": 200,
+      "definition": "(architecture) A central room or space in ancient Roman homes, open to the sky in the middle; a similar space in other buildings."
+    },
+    "vehicle": {
+      "status": 200,
+      "definition": "A conveyance: a spacious device for carrying or transporting substances, objects, people or animals."
+    },
+    "incident": {
+      "status": 200,
+      "definition": "(countable, uncountable) An event or occurrence."
+    },
+    "compelled": {
+      "status": 200,
+      "definition": "Driven; forced."
+    },
+    "administration": {
+      "status": 200,
+      "definition": "(uncountable) The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction."
+    },
+    "protest": {
+      "status": 200,
+      "definition": "(intransitive) To make a strong objection."
+    },
+    "deemed": {
+      "status": 200,
+      "definition": "An accreditation awarded to higher educational institutions in India."
+    },
+    "scandal": {
+      "status": 200,
+      "definition": "An incident or event that disgraces or damages the reputation of the persons or organization involved."
+    },
+    "doxxed": {
+      "status": 200,
+      "definition": "simple past and past participle of doxx"
+    },
+    "lawsuit": {
+      "status": 200,
+      "definition": "(law) In civil law, a case where two or more people disagree and one or more of the parties take the case to a court for resolution."
+    },
+    "allegation": {
+      "status": 200,
+      "definition": "An assertion, especially an accusation, not necessarily based on facts."
+    },
+    "protesters": {
+      "status": 200,
+      "definition": "plural of protester"
+    },
+    "endorsed": {
+      "status": 200,
+      "definition": "(heraldry) Flanked by endorses."
+    },
+    "screaming": {
+      "status": 200,
+      "definition": "Loud, sharp, and piercing to the ear."
+    },
+    "bonk": {
+      "status": 200,
+      "definition": "(informal) To hit or strike; to collide with something."
+    },
+    "pending": {
+      "status": 200,
+      "definition": "Awaiting a conclusion or a confirmation."
+    },
+    "lawyered up": {
+      "status": 200,
+      "definition": "Having sufficient legal representation to protect oneself in the event of legal trouble"
+    },
+    "suspending": {
+      "status": 200,
+      "definition": "present participle and gerund of suspend"
+    },
+    "scandals": {
+      "status": 200,
+      "definition": "plural of scandal"
+    },
+    "survivor": {
+      "status": 200,
+      "definition": "One who survives, especially one who survives a traumatic experience."
+    },
+    "leaked": {
+      "status": 200,
+      "definition": "Of a document, etc, produced by a company or organization, intended to be confidential but having been released to the public or the press."
+    },
+    "campus": {
+      "status": 200,
+      "definition": "The grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."
+    },
+    "president": {
+      "status": 200,
+      "definition": "The head of state of a republic, sometimes also the head of government as well, particularly (US politics) the head of the executive branch of the federal government of the United States of America."
+    },
+    "publicly": {
+      "status": 200,
+      "definition": "In public, openly, in an open and public manner."
+    },
+    "worst": {
+      "status": 200,
+      "definition": "(for non-slang definitions) superlative form of bad: most bad"
+    },
+    "outlet": {
+      "status": 200,
+      "definition": "A vent or similar passage to allow the escape of something."
+    },
+    "apparently": {
+      "status": 200,
+      "definition": "(rare) Plainly; clearly; manifestly; evidently."
+    },
+    "individual": {
+      "status": 200,
+      "definition": "A person considered alone, rather than as belonging to a group of people."
+    },
+    "conduct": {
+      "status": 200,
+      "definition": "The act or method of controlling or directing."
+    },
+    "potentially": {
+      "status": 200,
+      "definition": "In a manner showing much potential; with the possibility of happening in a given way."
+    },
+    "alleged": {
+      "status": 200,
+      "definition": "Asserted but not proved."
+    },
+    "frat": {
+      "status": 200,
+      "definition": "(often attributive) Shortened form of fraternity, college organization."
+    },
+    "coverage": {
+      "status": 200,
+      "definition": "An amount by which something or someone is covered."
+    },
+    "contractor": {
+      "status": 200,
+      "definition": "A person or company that builds or improves buildings or structures."
+    },
+    "threatened": {
+      "status": 200,
+      "definition": "(especially ecology, of an organism) At risk of becoming endangered in the near future."
+    },
+    "disposal": {
+      "status": 200,
+      "definition": "(countable) A disposition; an arrangement, categorization, or classification of things."
+    },
+    "statistic": {
+      "status": 200,
+      "definition": "A single item in a statistical study."
+    },
+    "alcohol": {
+      "status": 200,
+      "definition": "(organic chemistry, countable) Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH)."
+    },
+    "hazardous waste": {
+      "status": 200,
+      "definition": ""
+    },
+    "board member": {
+      "status": 200,
+      "definition": "A member of a board in an association or company, especially the board of directors."
+    },
+    "risk": {
+      "status": 200,
+      "definition": "(uncountable) The probability of a negative outcome to a decision or event."
+    },
+    "insurance company": {
+      "status": 200,
+      "definition": "A company that provides insurance policies."
+    },
+    "national": {
+      "status": 200,
+      "definition": "Pertaining to a nation or country, especially as a whole; affecting, shared by, or existing throughout all of a nation."
+    },
+    "chapter": {
+      "status": 200,
+      "definition": "One of the main sections into which a published work is divided, especially a book."
+    },
+    "organization": {
+      "status": 200,
+      "definition": "(uncountable) The quality of being organized."
+    },
+    "umbrella": {
+      "status": 200,
+      "definition": "A cloth-covered frame used for protection against rain or sun."
+    },
+    "nightmare": {
+      "status": 200,
+      "definition": "A very unpleasant or frightening dream."
+    },
+    "interpersonal": {
+      "status": 200,
+      "definition": "Between two or more people."
+    },
+    "blindfolds": {
+      "status": 200,
+      "definition": "plural of blindfold"
+    },
+    "rescinded": {
+      "status": 200,
+      "definition": "simple past and past participle of rescind"
+    },
+    "membership": {
+      "status": 200,
+      "definition": "The state of being a member of a group or organization."
+    },
+    "power trip": {
+      "status": 200,
+      "definition": "Any activity which confers a sense of power on the person involved."
+    },
+    "policy": {
+      "status": 200,
+      "definition": "A principle of behaviour, conduct which an entity (government, organization, etc.) applies or seeks to follow, especially as formally expressed by an authoritative body."
+    },
+    "vendor": {
+      "status": 200,
+      "definition": "A person or a company that vends or sells."
+    },
+    "guest list": {
+      "status": 200,
+      "definition": "A list of all the guests invited or allowed to enter an event."
+    },
+    "poetic": {
+      "status": 200,
+      "definition": "Relating to poetry."
+    },
+    "limitation": {
+      "status": 200,
+      "definition": "The act of limiting or the state of being limited."
+    },
+    "third party": {
+      "status": 200,
+      "definition": "(business, commerce) Someone not directly involved in a transaction; an entity beyond the seller (first party) and customer (second party)."
+    },
+    "insured": {
+      "status": 200,
+      "definition": "Covered by an insurance policy."
+    },
+    "foolproof": {
+      "status": 200,
+      "definition": "Of a device: protected against, or designed to be proof against, misuse or error."
+    },
+    "workaround": {
+      "status": 200,
+      "definition": "A means of overcoming some obstacle, especially an obstacle consisting of constraints, or laws or regulations."
+    },
+    "bylaws": {
+      "status": 200,
+      "definition": "plural of bylaw"
+    },
+    "industry": {
+      "status": 200,
+      "definition": "(uncountable) The tendency to work persistently."
+    },
+    "homeowner's": {
+      "status": 200,
+      "definition": ""
+    },
+    "bylaw": {
+      "status": 200,
+      "definition": "A local custom or law of a settlement or district."
+    },
+    "payouts": {
+      "status": 200,
+      "definition": "plural of payout"
+    },
+    "violation": {
+      "status": 200,
+      "definition": "The act or an instance of violating or the condition of being violated."
+    },
+    "bypassing": {
+      "status": 200,
+      "definition": "present participle and gerund of bypass"
+    },
+    "circumstantial": {
+      "status": 200,
+      "definition": "Pertaining to or dependent on circumstances, especially as opposed to essentials; incidental, not essential."
+    },
+    "claim": {
+      "status": 200,
+      "definition": "A demand of ownership made for something."
+    },
+    "absorb": {
+      "status": 200,
+      "definition": "(transitive) To include so that it no longer has separate existence; to overwhelm; to cause to disappear as if by swallowing up; to incorporate; to assimilate; to take in and use up."
+    },
+    "sodomized": {
+      "status": 200,
+      "definition": "simple past and past participle of sodomize"
+    },
+    "enemas": {
+      "status": 200,
+      "definition": "plural of enema"
+    },
+    "injuries": {
+      "status": 200,
+      "definition": "plural of injury"
+    },
+    "rushed": {
+      "status": 200,
+      "definition": "Very busy."
+    },
+    "terrifying": {
+      "status": 200,
+      "definition": "Frightening or intimidating."
+    },
+    "assault": {
+      "status": 200,
+      "definition": "A violent onset or attack with physical means, for example blows, weapons, etc."
+    },
+    "emotional damage": {
+      "status": 200,
+      "definition": ""
+    },
+    "grafts": {
+      "status": 200,
+      "definition": "plural of graft"
+    },
+    "hazing lawsuits": {
+      "status": 200,
+      "definition": ""
+    },
+    "iron": {
+      "status": 200,
+      "definition": "(uncountable) A common, inexpensive metal, silvery grey when untarnished, that rusts, is attracted by magnets, and is used in making steel: a chemical element having atomic number 26 and symbol Fe."
+    },
+    "branding": {
+      "status": 200,
+      "definition": "The process in which a mark, usually a symbol or ornamental pattern, is burned into the skin of a living animal or person (usually a livestock animal)."
+    },
+    "permanent": {
+      "status": 200,
+      "definition": "Without end, eternal."
+    },
+    "rectum": {
+      "status": 200,
+      "definition": "(anatomy) The terminal part of the large intestine through which feces pass after exiting the colon, but before leaving the body through the anus or cloaca."
+    },
+    "insurance": {
+      "status": 200,
+      "definition": "A means of indemnity against a future occurrence of an uncertain event."
+    },
+    "sustain": {
+      "status": 200,
+      "definition": "(transitive) To maintain, or keep in existence."
+    },
+    "balconies": {
+      "status": 200,
+      "definition": "plural of balcony"
+    },
+    "sued": {
+      "status": 200,
+      "definition": "simple past and past participle of sue"
+    },
+    "lawsuits": {
+      "status": 200,
+      "definition": "plural of lawsuit"
+    },
+    "organized": {
+      "status": 200,
+      "definition": "(of things or settings) Having been organized; in good order."
+    },
+    "beverages": {
+      "status": 200,
+      "definition": "plural of beverage"
+    },
+    "guest": {
+      "status": 200,
+      "definition": "A recipient of hospitality, especially someone staying by invitation at the house of another."
+    },
+    "standard": {
+      "status": 200,
+      "definition": "Falling within an accepted range of size, amount, power, quality, etc."
+    },
+    "workarounds": {
+      "status": 200,
+      "definition": "plural of workaround"
+    },
+    "process": {
+      "status": 200,
+      "definition": "A series of events leading to a result or product."
+    },
+    "assume": {
+      "status": 200,
+      "definition": "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof."
+    },
+    "enticing": {
+      "status": 200,
+      "definition": "That entices; alluring; attractive; charming"
+    },
+    "donation": {
+      "status": 200,
+      "definition": "A voluntary gift or contribution for a specific cause."
+    },
+    "drops": {
+      "status": 200,
+      "definition": "plural of drop"
+    },
+    "escape": {
+      "status": 200,
+      "definition": "(intransitive) To get free; to free oneself."
+    },
+    "beneficial": {
+      "status": 200,
+      "definition": "Helpful or good to something or someone."
+    },
+    "institution": {
+      "status": 200,
+      "definition": "A custom or practice of a society or community."
+    },
+    "Greek life": {
+      "status": 200,
+      "definition": "(US) The activities of college fraternities and sororities."
+    },
+    "financially": {
+      "status": 200,
+      "definition": "In terms of finance or money."
+    },
+    "housing": {
+      "status": 200,
+      "definition": "(uncountable) The activity of enclosing something or providing a residence for someone."
+    },
+    "marketing": {
+      "status": 200,
+      "definition": "Buying and/or selling in a market (street market or market fair)."
+    },
+    "freshman": {
+      "status": 200,
+      "definition": "(US, Canada, Philippines) a person (of either sex) entering the first year of an institution, especially a high school (ninth grade for US, grade 9 for Canada, grade 7 for Philippines), a university, or legislative body"
+    },
+    "dorms": {
+      "status": 200,
+      "definition": "plural of dorm"
+    },
+    "merged": {
+      "status": 200,
+      "definition": "joined by merging"
+    },
+    "deprived": {
+      "status": 200,
+      "definition": "Subject to deprivation; poor."
+    },
+    "physically exhausted": {
+      "status": 200,
+      "definition": ""
+    },
+    "active chapters": {
+      "status": 200,
+      "definition": ""
+    },
+    "ashamed": {
+      "status": 200,
+      "definition": "(chiefly of someone in trouble and undergoing punishment for doing something wrong) Feeling shame or guilt."
+    },
+    "pledged": {
+      "status": 200,
+      "definition": "Under the obligation of a promise made."
+    },
+    "cayenne": {
+      "status": 200,
+      "definition": "Ellipsis of cayenne pepper."
+    },
+    "relevant": {
+      "status": 200,
+      "definition": "Related, connected, or pertinent to a topic."
+    },
+    "precipice": {
+      "status": 200,
+      "definition": "A very steep cliff."
+    },
+    "coffin": {
+      "status": 200,
+      "definition": "A closed box in which the body of a dead person is placed for burial."
+    },
+    "inflicting": {
+      "status": 200,
+      "definition": "present participle and gerund of inflict"
+    },
+    "waistband": {
+      "status": 200,
+      "definition": "A band of fabric encircling the waist, especially a part of a pair of pants or a skirt."
+    },
+    "trap door": {
+      "status": 200,
+      "definition": "Alternative form of trapdoor."
+    },
+    "addiction": {
+      "status": 200,
+      "definition": "(medicine) A state that is characterized by compulsive drug use or compulsive engagement in rewarding behavior, despite negative consequences."
+    },
+    "vinegar": {
+      "status": 200,
+      "definition": "(uncountable) A sour liquid formed by the fermentation of alcohol used as a condiment or preservative; a dilute solution of acetic acid."
+    },
+    "conquest": {
+      "status": 200,
+      "definition": "An act or instance of achieving victory through combat; the subjugation of an enemy."
+    },
+    "vacant": {
+      "status": 200,
+      "definition": "Not occupied; empty."
+    },
+    "offerings": {
+      "status": 200,
+      "definition": "plural of offering"
+    },
+    "arrest": {
+      "status": 200,
+      "definition": "A check; a stop; an act or instance of arresting something."
+    },
+    "ketamine": {
+      "status": 200,
+      "definition": "(pharmacology) A synthetic compound used as a dissociative anesthetic and analgesic drug and also recreationally as a hallucinogen."
+    },
+    "glory": {
+      "status": 200,
+      "definition": "Great beauty and splendor."
+    },
+    "overdosed": {
+      "status": 200,
+      "definition": "simple past and past participle of overdose"
+    },
+    "chivalrous": {
+      "status": 200,
+      "definition": "(of a man) Honourable, especially to women; gallant."
+    },
+    "generous": {
+      "status": 200,
+      "definition": "Noble in behaviour or actions; principled, not petty; kind, magnanimous."
+    },
+    "physical": {
+      "status": 200,
+      "definition": "Of medicine."
+    },
+    "sophomore": {
+      "status": 200,
+      "definition": "(US) The second in a series, especially, the second of an artist’s albums or the second of four years in a high school (tenth grade) or university."
+    },
+    "community": {
+      "status": 200,
+      "definition": "(countable) A group sharing common characteristics, such as the same language, law, religion, or tradition."
+    },
+    "promoting": {
+      "status": 200,
+      "definition": "present participle and gerund of promote"
+    },
+    "supplying": {
+      "status": 200,
+      "definition": "present participle and gerund of supply"
+    },
+    "network": {
+      "status": 200,
+      "definition": "Any interconnected group or system."
+    },
+    "active": {
+      "status": 200,
+      "definition": "Having the power or quality of acting; causing change; communicating action or motion; acting;—opposed to passive, that receives."
+    },
+    "investigate": {
+      "status": 200,
+      "definition": "(transitive) To inquire into or study in order to ascertain facts or information."
+    },
+    "barred": {
+      "status": 200,
+      "definition": "Having bars; striped."
+    },
+    "suspension": {
+      "status": 200,
+      "definition": "The act of suspending, or the state of being suspended."
+    },
+    "sorority": {
+      "status": 200,
+      "definition": "A group of girls or women associated for a common purpose; a sisterhood."
+    },
+    "fentanyl": {
+      "status": 200,
+      "definition": "(pharmacology) A synthetic opioid narcotic analgesic, C₂₂H₂₈N₂O, with pharmacological action similar to morphine that is administered transdermally as a skin patch and in the form of its citrate, C₂₂H₂₈N₂O·C₆H₈O₇, is administered orally or parenterally (as by intravenous or epidural injection); N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide."
+    },
+    "legal drinking age": {
+      "status": 200,
+      "definition": ""
+    },
+    "house director": {
+      "status": 200,
+      "definition": ""
+    },
+    "operational": {
+      "status": 200,
+      "definition": "Of or relating to operations, especially military operations."
+    },
+    "hired professional": {
+      "status": 200,
+      "definition": ""
+    },
+    "operational manager": {
+      "status": 200,
+      "definition": ""
+    },
+    "oversee": {
+      "status": 200,
+      "definition": "(literally) To survey, look at something in a wide angle."
+    },
+    "salaried": {
+      "status": 200,
+      "definition": "Paid a salary, as opposed to being an hourly worker or a volunteer. Generally indicating a professional or manager."
+    },
+    "vodka": {
+      "status": 200,
+      "definition": "A clear distilled alcoholic liquor made from grain mash."
+    },
+    "upkeep": {
+      "status": 200,
+      "definition": "Maintenance; the act or effort of keeping something in good and working condition."
+    },
+    "shots": {
+      "status": 200,
+      "definition": "plural of shot"
+    },
+    "caretaker": {
+      "status": 200,
+      "definition": "Someone who takes care of a place or thing; someone looking after a place, or responsible for keeping it in good repair."
+    },
+    "separate": {
+      "status": 200,
+      "definition": "(transitive) To divide (a thing) into separate parts."
+    },
+    "establishment": {
+      "status": 200,
+      "definition": "The act or process of establishing; a ratifying or ordaining; settlement; confirmation."
+    },
+    "fraternity brother": {
+      "status": 200,
+      "definition": ""
+    },
+    "bartender": {
+      "status": 200,
+      "definition": "One who tends a bar or pub; a person preparing and serving drinks at a bar. [from 19th c.]"
+    },
+    "under 21": {
+      "status": 200,
+      "definition": ""
+    },
+    "wristband": {
+      "status": 200,
+      "definition": "The cuff of a sleeve that wraps around the wrist."
+    },
+    "unclear": {
+      "status": 200,
+      "definition": "Ambiguous; liable to more than one interpretation."
+    },
+    "awkwardly": {
+      "status": 200,
+      "definition": "In an awkward manner; with discomfort or lack of coordination."
+    },
+    "couch": {
+      "status": 200,
+      "definition": "(Canada, US, Australia, Ireland) An item of furniture, often upholstered, for the comfortable seating of more than one person; a sofa."
+    },
+    "dancing": {
+      "status": 200,
+      "definition": "The activity of taking part in a dance."
+    },
+    "propositioned": {
+      "status": 200,
+      "definition": "simple past and past participle of proposition"
+    },
+    "alumni room": {
+      "status": 200,
+      "definition": ""
+    },
+    "high proof": {
+      "status": 200,
+      "definition": ""
+    },
+    "pressuring": {
+      "status": 200,
+      "definition": "An act or instance of somebody being pressured."
+    },
+    "marijuana": {
+      "status": 200,
+      "definition": "The inflorescence of the Cannabis sativa plant, smoked or ingested for euphoric effect."
+    },
+    "powdery": {
+      "status": 200,
+      "definition": "Of or pertaining to powder."
+    },
+    "snorting": {
+      "status": 200,
+      "definition": "A snort sound or action."
+    },
+    "meanwhile": {
+      "status": 200,
+      "definition": "The time between two events."
+    },
+    "erection": {
+      "status": 200,
+      "definition": "(uncountable) The act of building or putting up or together of something."
+    },
+    "unlocked": {
+      "status": 200,
+      "definition": "Not secured or protected by a lock."
+    },
+    "substance": {
+      "status": 200,
+      "definition": "Physical matter; material."
+    },
+    "group message": {
+      "status": 200,
+      "definition": ""
+    },
+    "Snapchat": {
+      "status": 200,
+      "definition": "(Internet, social media) A mobile photo-messaging application, introduced in 2011."
+    },
+    "dense": {
+      "status": 200,
+      "definition": "Having relatively high density."
+    },
+    "clarifying": {
+      "status": 200,
+      "definition": "A clarification."
+    },
+    "all caps": {
+      "status": 200,
+      "definition": "(typography) Text or a font in which all letters are capitalised."
+    },
+    "morally": {
+      "status": 200,
+      "definition": "In terms of morals or ethics."
+    },
+    "consensual": {
+      "status": 200,
+      "definition": "With permission, with consensus, without coercion; allowed without objecting or resisting."
+    },
+    "AFK": {
+      "status": 200,
+      "definition": "(military, video games, Internet slang) Initialism of away from keyboard, i.e. away from one's computer; idle."
+    },
+    "respond": {
+      "status": 200,
+      "definition": "(transitive, intransitive) To say something in return; to answer; to reply."
+    },
+    "low-key": {
+      "status": 200,
+      "definition": "(art, photography) Dark; characterized by dark tones and muted colors."
+    },
+    "POV": {
+      "status": 200,
+      "definition": "Initialism of point of view."
+    },
+    "manager": {
+      "status": 200,
+      "definition": "(management) A person whose job is to manage something, such as a business, a restaurant, or a sports team."
+    },
+    "employees": {
+      "status": 200,
+      "definition": "plural of employee"
+    },
+    "onsite": {
+      "status": 200,
+      "definition": "On or at a site."
+    },
+    "hired": {
+      "status": 200,
+      "definition": "simple past and past participle of hire"
+    },
+    "invited": {
+      "status": 200,
+      "definition": "Having been asked to attend."
+    },
+    "fake": {
+      "status": 200,
+      "definition": "Not real; false, fraudulent."
+    },
+    "interaction": {
+      "status": 200,
+      "definition": "The situation or occurrence in which two or more objects or events act upon one another to produce an effect; the effect resulting from such a situation or occurrence."
+    },
+    "believed": {
+      "status": 200,
+      "definition": "simple past and past participle of believe"
+    },
+    "considers": {
+      "status": 200,
+      "definition": "third-person singular simple present indicative of consider"
+    },
+    "upsetting": {
+      "status": 200,
+      "definition": "An overturning or disarrangement."
+    },
+    "findings": {
+      "status": 200,
+      "definition": "Small tools and materials used by artisans and craftsmen"
+    },
+    "certainty": {
+      "status": 200,
+      "definition": "The state of being certain."
+    },
+    "preemptive": {
+      "status": 200,
+      "definition": "Of or relating to preemption."
+    },
+    "Title IX": {
+      "status": 200,
+      "definition": ""
+    },
+    "intentional": {
+      "status": 200,
+      "definition": "Intended or planned; done deliberately or voluntarily."
+    },
+    "federal": {
+      "status": 200,
+      "definition": "Pertaining to a league or treaty; derived from an agreement or covenant between parties, especially between nations."
+    },
+    "criminally": {
+      "status": 200,
+      "definition": "In a criminal manner."
+    },
+    "academically": {
+      "status": 200,
+      "definition": "In an academic style or way; from an academic perspective."
+    },
+    "victim": {
+      "status": 200,
+      "definition": "One that is harmed—killed, injured, subjected to oppression, deceit, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition; in particular:"
+    },
+    "statement": {
+      "status": 200,
+      "definition": "A declaration or remark."
+    },
+    "charged": {
+      "status": 200,
+      "definition": "Arousing strong emotion."
+    },
+    "alleged assault": {
+      "status": 200,
+      "definition": ""
+    },
+    "graduating": {
+      "status": 200,
+      "definition": "present participle and gerund of graduate"
+    },
+    "emotionally": {
+      "status": 200,
+      "definition": "In an emotional manner; displaying emotion."
+    },
+    "haunt": {
+      "status": 200,
+      "definition": "(transitive) To inhabit or to visit frequently (most often used in reference to ghosts)."
+    },
+    "mainstream": {
+      "status": 200,
+      "definition": "Used or accepted broadly rather than by small portions of population, market, scientific community, etc."
+    },
+    "news outlet": {
+      "status": 200,
+      "definition": ""
+    },
+    "recover": {
+      "status": 200,
+      "definition": "(transitive) To get back, to regain (a physical thing; in astronomy and navigation, sight of a thing or a signal)."
+    },
+    "formal": {
+      "status": 200,
+      "definition": "In accordance with established forms."
+    },
+    "complaint": {
+      "status": 200,
+      "definition": "The act of complaining."
+    },
+    "trauma": {
+      "status": 200,
+      "definition": "Any injury to the body of a living thing."
+    },
+    "retreat": {
+      "status": 200,
+      "definition": "The act of pulling back or withdrawing, as from something dangerous, or unpleasant."
+    },
+    "commences": {
+      "status": 200,
+      "definition": "third-person singular simple present indicative of commence"
+    },
+    "prosecutors": {
+      "status": 200,
+      "definition": "plural of prosecutor"
+    },
+    "equipped": {
+      "status": 200,
+      "definition": "Having the equipment, resources, and skills one needs; prepared."
+    },
+    "healing": {
+      "status": 200,
+      "definition": "The process where the cells in the body regenerate and repair themselves."
+    },
+    "instantly": {
+      "status": 200,
+      "definition": "At once; without delay."
+    },
+    "victims": {
+      "status": 200,
+      "definition": "plural of victim"
+    }
+  }
+}

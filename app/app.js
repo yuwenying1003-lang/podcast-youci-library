@@ -177,7 +177,11 @@ function selectItems() {
 function wordLevel(item) { return item.difficulty || item.level || 'Useful'; }
 
 function collocations(item) {
-  if (Array.isArray(item.collocations) && item.collocations.length) return item.collocations.slice(0, 3).map(value => Array.isArray(value) ? value : [value, '教学搭配']);
+  if (Array.isArray(item.collocations) && item.collocations.length) return item.collocations.slice(0, 3).map(value => {
+    if (Array.isArray(value)) return value;
+    if (value && typeof value === 'object') return [value.text, value.meaning_zh || (value.source_kind === 'original' ? '原文搭配' : '教学搭配')];
+    return [value, '教学搭配'];
+  });
   const fromTip = String(item.tip || '').match(/(?:collocations?|combinations?|partners?|objects?|patterns?):\s*([^.!]+)/i)?.[1];
   if (fromTip) return fromTip.split(/,|\band\b/i).map(value => value.trim()).filter(Boolean).slice(0, 3).map(value => [value, '教学搭配']);
   const example = String(item.example || '');
@@ -224,10 +228,13 @@ function buildWord(item, index) {
   panel.append(node('div', 'rule'), node('div', 'section-label', 'MEMORY TRICK'));
   panel.append(node('p', '', item.memory_trick || item.tip || `Focus on the spelling and sound of “${item.word}”.`));
   const anchor = itemCollocations[0]?.[0] || item.example || item.word;
-  panel.append(node('div', 'section-label', 'MEMORY HOOK'), node('p', '', `${item.word}: ${String(anchor).split(/\s+/).slice(0, 10).join(' ')}`));
-  panel.append(node('div', 'section-label', 'MENTAL IMAGE'), node('p', '', item.mental_image || `想象“${anchor}”的具体画面，并把 ${item.word} 写在画面中央。`));
+  panel.append(node('div', 'section-label', 'MEMORY HOOK'), node('p', '', item.memory_hook || `${item.word}: ${String(anchor).split(/\s+/).slice(0, 10).join(' ')}`));
+  panel.append(node('div', 'section-label', 'MENTAL IMAGE'), node('p', '', item.mental_image_zh || item.mental_image || `想象“${anchor}”的具体画面，并把 ${item.word} 写在画面中央。`));
   panel.append(node('div', 'section-label', 'MNEMONIC TYPE'), node('p', 'origin', memoryType(item)));
-  panel.append(node('div', 'rule'), node('div', 'section-label', item.example_source === 'verified_transcript' ? 'EXAMPLE · PODCAST ORIGINAL' : 'EXAMPLE · TEACHING SENTENCE'));
+  if (item.source_excerpt) {
+    panel.append(node('div', 'rule'), node('div', 'section-label', `ORIGINAL PODCAST · PAGE ${item.source_page}`), node('p', '', item.source_excerpt));
+  }
+  panel.append(node('div', 'rule'), node('div', 'section-label', ['transcript', 'verified_transcript'].includes(item.example_source) ? 'EXAMPLE · PODCAST ORIGINAL' : 'EXAMPLE · TEACHING SENTENCE'));
   const example = node('div', 'example-row');
   const text = node('p', '', item.example || '');
   if (item.example_cn) text.append(node('span', 'muted', ` · ${item.example_cn}`));
@@ -260,10 +267,13 @@ function buildPhrase(item) {
   row.append(main, actions); wrap.append(row);
   if (item.example) {
     const example = node('div', 'example-row');
-    example.append(node('p', '', item.example), speechButton(item.example, true, `Read expression example: ${item.example}`));
+    const exampleText = node('p', '', item.example);
+    if (item.example_cn) exampleText.append(node('span', 'muted', ` · ${item.example_cn}`));
+    example.append(exampleText, speechButton(item.example, true, `Read expression example: ${item.example}`));
     const original = originalButton(item); if (original) example.append(original);
-    wrap.append(example, node('div', 'origin', item.example_source === 'verified_transcript' ? 'Podcast original' : 'Teaching example'));
+    wrap.append(example, node('div', 'origin', ['transcript', 'verified_transcript'].includes(item.example_source) ? 'Podcast original' : 'Teaching example'));
   }
+  if (item.source_excerpt && !['transcript', 'verified_transcript'].includes(item.example_source)) wrap.append(node('div', 'origin', `Original Podcast · Page ${item.source_page}: ${item.source_excerpt}`));
   return wrap;
 }
 
@@ -317,6 +327,10 @@ function renderChunks() {
   const name = node('div', 'entry-main'); name.append(node('div', 'entry-title', item.text), node('div', 'entry-desc', item.cn || ''));
   const actions = node('div', 'entry-actions'); actions.append(speechButton(item.text, false, `Pronounce chunk: ${item.text}`), bookmarkButton('chunks', item));
   head.append(name, actions); detail.append(head);
+  if (item.source_excerpt) {
+    detail.append(node('div', 'section-label', `ORIGINAL PODCAST · PAGE ${item.source_page}`));
+    detail.append(node('p', '', item.source_excerpt));
+  }
   if (item.example) {
     detail.append(node('div', 'section-label', 'MODEL EXAMPLE'));
     const example = node('div', 'example-row'); example.append(node('p', '', item.example), speechButton(item.example, true, 'Read model example')); detail.append(example);

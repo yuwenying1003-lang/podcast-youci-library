@@ -6,7 +6,8 @@ import { loadCourse } from '../app/services/course-loader.js';
 import { TtsService } from '../app/services/tts.js';
 import { auditCourse, normalizeWord } from '../scripts/audit_vocab.mjs';
 import { buildPrompt, feedbackSchema, validateFeedbackInput, validateGeminiFeedback } from '../worker/src/core.js';
-import { callGemini } from '../worker/src/index.js';
+import worker, { callGemini } from '../worker/src/index.js';
+import { issueSession } from '../worker/src/auth.js';
 
 test('podcast IDs accept the ListenLeap ID and reject URL injection', () => {
   assert.equal(validPodcastId('8b77ac948ba43d5d084d03e194ce7ecb'), true);
@@ -68,14 +69,39 @@ test('all course vocabulary is unique within each unit and complete', async () =
   }
 });
 
-test('Cornell 7 has eleven units, IPA for every word, no exact clips, and no technical tips', async () => {
-  const course = JSON.parse(await readFile(new URL('../courses/8b77ac948ba43d5d084d03e194ce7ecb.json', import.meta.url), 'utf8'));
+test('Cornell 7 expansion preserves units, provenance, deduplication, and unresolved audits', async () => {
+  const [course, report, unresolved, duplicateReport, coverage] = await Promise.all([
+    readFile(new URL('../courses/8b77ac948ba43d5d084d03e194ce7ecb.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-expansion-report.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-unresolved.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-duplicates.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../reports/cornell7-coverage-index.json', import.meta.url), 'utf8').then(JSON.parse),
+  ]);
   const audit = auditCourse(course);
   assert.equal(course.units.length, 11);
+  assert.deepEqual(course.units.map(unit => unit.transcript_pages), [[1, 3], [4, 7], [8, 10], [11, 15], [16, 20], [21, 23], [24, 26], [27, 33], [34, 40], [41, 44], [45, 51]]);
+  assert.deepEqual(report.totals, { words: course.vocab.length, phrases: course.expressions.length, chunks: course.patterns.flat().length });
+  assert.equal(report.duplicates_removed, 12);
+  assert.equal(duplicateReport.count, 12);
+  assert.equal(coverage.segments.length, 850);
+  assert.equal(Object.values(report.coverage_status).reduce((sum, count) => sum + count, 0), 850);
+  assert.equal(audit.missing.ipa, unresolved.missing_ipa.length);
   assert.equal(audit.missing.ipa, 0);
+  assert.equal(unresolved.externally_sourced_ipa_requiring_review.length, course.vocab.filter(item => item.ipa_status?.includes('unreviewed')).length);
+  assert.equal(unresolved.missing_english_definition.length, 0);
+  assert.equal(unresolved.externally_sourced_definition_requiring_review.length, course.vocab.filter(item => item.definition_status === 'external_dictionary_unreviewed').length);
+  assert.equal(audit.missing.example_cn, unresolved.missing_example_translation.length);
   assert.equal(audit.missing.example_cn, 0);
+  assert.equal(course.vocab.filter(item => item.tip?.startsWith('Spelling anchor:')).length, 0);
+  assert.equal(unresolved.machine_translations_requiring_review.length, course.vocab.filter(item => item.example_translation_status === 'machine_translated_requires_editorial_review').length);
+  assert.equal(unresolved.form_generated_memory_requiring_review.length, course.vocab.filter(item => item.mnemonic_status === 'form_specific_generated_requires_editorial_review').length);
   assert.equal(audit.technicalTips, 0);
   assert.equal(course.vocab.some(item => item.clip), false);
+  assert.equal(course.expressions.some(item => item.clip), false);
+  for (const item of [...course.vocab, ...course.expressions, ...course.patterns.flat()]) {
+    assert.ok(Number.isInteger(item.source_page));
+    assert.ok(item.source_excerpt);
+  }
 });
 
 test.skip('legacy compact-card vocabulary contract (replaced by approved v2.2 list UI)', async () => {
@@ -302,6 +328,77 @@ test('Gemini 503 responses retry three times without changing models', async () 
   await assert.rejects(callGemini(input, { GEMINI_API_KEY: 'test-only', GEMINI_MODEL: 'gemini-3.8-flash' }, fetcher, async ms => waits.push(ms)), /重试 3 次/);
   assert.equal(calls, 3);
   assert.equal(waits.length, 2);
+});
+
+test('Gemini requests time out, retry, and return control to the learner', async () => {
+  const input = { sentence: 'It is not worth the risk.', target_pattern: 'It is not worth the risk', scenario_zh: '解释风险。', reference_answer: 'It is not worth the risk.' };
+  let calls = 0;
+  const fetcher = (_url, request) => new Promise((resolve, reject) => {
+    calls += 1;
+    request.signal.addEventListener('abort', () => reject(Object.assign(new Error('aborted'), { name: 'AbortError' })));
+  });
+  await assert.rejects(callGemini(input, { GEMINI_API_KEY: 'test-only' }, fetcher, async () => {}, 1), /Gemini/);
+  assert.equal(calls, 3);
+});
+
+test('AI feedback worker enforces origin, session, quota, and refunds failed model calls', async () => {
+  const allowedOrigin = 'https://yuwenying1003-lang.github.io';
+  const requests = [];
+  let quotaCount = 0;
+  const env = {
+    ALLOWED_ORIGIN: allowedOrigin,
+    SESSION_SECRET: 'test-session-secret-that-is-long-enough',
+    GEMINI_API_KEY: 'test-only',
+    GEMINI_MODEL: 'gemini-3.8-flash',
+    DAILY_LIMIT: '2',
+    AI_RATE_LIMITER: { limit: async ({ key }) => { requests.push(key); return { success: true }; } },
+    DB: {
+      prepare(sql) {
+        return {
+          bind(...args) {
+            return {
+              first: async () => {
+                assert.match(sql, /INSERT INTO daily_usage/);
+                quotaCount += 1;
+                return { request_count: quotaCount };
+              },
+              run: async () => {
+                assert.match(sql, /UPDATE daily_usage/);
+                quotaCount -= 1;
+                return {};
+              },
+            };
+          },
+        };
+      },
+    },
+  };
+  const input = { sentence: 'It is not worth the risk.', target_pattern: 'It is not worth the risk', scenario_zh: '解释风险。', reference_answer: 'It is not worth the risk.' };
+  const token = await issueSession('learner@example.com', env);
+  const headers = { Origin: allowedOrigin, Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' };
+  const badOrigin = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers: { ...headers, Origin: 'https://evil.example' }, body: JSON.stringify(input) }), env);
+  assert.equal(badOrigin.status, 403);
+  const anonymous = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers: { Origin: allowedOrigin, 'Content-Type': 'application/json' }, body: JSON.stringify(input) }), env);
+  assert.equal(anonymous.status, 401);
+
+  const originalFetch = globalThis.fetch;
+  try {
+    globalThis.fetch = async () => new Response(JSON.stringify({ candidates: [{ content: { parts: [{ text: JSON.stringify({
+      status: 'correct', grammar_feedback_zh: '语法正确。', pattern_usage_feedback_zh: '句式自然。', corrected_sentence: input.sentence, natural_alternative: 'The risk is not worth taking.', brief_explanation_zh: '表达清楚。',
+    }) }] } }] }), { status: 200 });
+    const ok = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers, body: JSON.stringify(input) }), env);
+    assert.equal(ok.status, 200);
+    assert.equal(ok.headers.get('Access-Control-Allow-Origin'), allowedOrigin);
+    assert.equal((await ok.json()).remaining, 1);
+
+    globalThis.fetch = async () => new Response('unavailable', { status: 503 });
+    const failed = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers, body: JSON.stringify(input) }), env);
+    assert.equal(failed.status, 400);
+    assert.equal(quotaCount, 1, 'a failed Gemini call must not consume daily quota');
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+  assert.equal(requests.length, 2);
 });
 
 test.skip('legacy editorial shell contract (replaced by approved prototype shell)', async () => {

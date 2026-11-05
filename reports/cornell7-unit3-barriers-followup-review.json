@@ -1,0 +1,18 @@
+{
+  "unit": 3,
+  "reviewer": "Codex",
+  "method": "Resolve the three remaining interpretable Unit 3 barriers with new language support and adjacent context; leave the incomplete PSA fragment unresolved.",
+  "phrases": [
+    ["explicitly stated",118,"said clearly and directly rather than merely implied","明确表示；直接说明","The instructions explicitly stated that copies were acceptable.","说明明确表示可以使用副本。","Explicitly concerns clarity of wording, not independent truth. Through her lawyer means via a representative; the reported statement is not newly authenticated."],
+    ["redirected",118,"sent or directed to a different destination or recipient","被转向；被改送至其他对象","The message was redirected to the support team.","消息被转发给了支持团队。","Re- adds change of direction here. Source concerns intended donations, not an instruction from this assistant to transfer money."],
+    ["made it possible to",121,"enabled an action or result","使……成为可能","The shared timetable made it possible to coordinate our visits.","共享时间表让我们能够协调到访时间。","It is a placeholder before the to-infinitive; possible describes feasibility. Not a claim that the result was guaranteed by every partnership."],
+    ["partnerships",121,"cooperative arrangements between people or organizations","合作关系；合作项目","The program relies on partnerships with local groups.","这个项目依靠与本地团体的合作。","Episode partnerships suggests commercial or supporting collaborations in context, not necessarily legal partnerships or romantic partners."],
+    ["dedicated researchers",121,"researchers committed to doing their work carefully and consistently","投入工作的研究人员；专职研究人员","The project depends on a team of dedicated researchers.","项目依赖一支投入工作的研究团队。","Dedicated emphasizes commitment or assignment to the work; it is not proof that every finding is correct."],
+    ["even insurance companies",157,"insurance companies too, presented as an unexpected extreme example","就连保险公司也……","In the story, even insurance companies refused the proposal.","故事中，就连保险公司也拒绝了那个提议。","Even marks a surprising case on the speaker's scale, not the word evening. Source imagines companies speaking and later identifies fraternities as the example, without naming a verified quotation."]
+  ],
+  "segments": [
+    [118,"covered",["phrase:2:explicitly stated","phrase:2:redirected"],"Clear reporting and changed recipient are taught; donations meant for her means donations intended for her, and through her lawyer marks the channel. RAINN is a named organization; no missing PSA text or live donation instruction is invented."],
+    [121,"covered",["phrase:2:partnerships","phrase:2:made it possible to","phrase:2:dedicated researchers"],"Collaborative arrangements, enabling construction and the researcher description are explicitly taught; possessive team wording identifies the supported group without proving research accuracy."],
+    [157,"covered",["phrase:2:even insurance companies","phrase:2:we don't even want","phrase:3:worth the risk"],"Read with 158–162: companies are personified, refusal is imagined, and risk is the stated rationale. The sentence presents an extreme exception to the narrator's earlier profit generalization, not an actual insurer quote or universal rule."]
+  ]
+}

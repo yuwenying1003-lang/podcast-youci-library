@@ -1,0 +1,92 @@
+{
+  "unit": 9,
+  "reviewer": "Codex",
+  "method": "Individual review of 17 source-linked patterns on pages 34–40. Separate uncertainty, interpretation, memory and allegation from verified events. Three independently written teaching situations per pattern; no source times are invented.",
+  "chunks": [
+    ["I don't know what ...","我不知道……是什么或该……什么","State a gap in knowledge using an embedded what-question.","I don't know what + subject + verb; or what to + base verb. No question inversion inside the clause.","Source concerns the meaning of an ambiguous message, not a confirmed explanation.",[
+      ["电器显示一个陌生符号，你向家人说明自己不认识它。",["symbol","means"],"I don't know what","I don't know what this symbol means.","我不知道这个符号是什么意思。"],
+      ["朋友问你周末要带什么参加聚会，你还没有收到具体说明。",["bring","party"],"I don't know what","I don't know what to bring to the party.","我不知道该带什么去聚会。"],
+      ["你收到一份缺少说明的任务单，向同事确认下一步。",["next","step"],"I don't know what","I don't know what the next step is. Could you clarify?","我不知道下一步是什么，你能说明一下吗？"]
+    ]],
+    ["I don't know what that means","我不知道那是什么意思","Ask for clarification by acknowledging uncertainty about meaning.","I don't know what that means; replace that with a named term if its referent is unclear.","The narrator refuses to assign a definite intention to the short message.",[
+      ["你看到洗衣标签上的陌生缩写，希望家人帮你解释。",["label","abbreviation"],"I don't know what that means","I don't know what that means on the label.","我不知道标签上的那个缩写是什么意思。"],
+      ["朋友使用了你不熟悉的俚语，你坦诚表示没理解。",["slang","explain"],"I don't know what that means","I don't know what that means. Could you explain the slang?","我不知道那是什么意思，你能解释一下这个俚语吗？"],
+      ["会议中有人说了一个内部术语，你请他给出简单解释。",["term","example"],"I don't know what that means","I don't know what that means in this context. Could you give an example?","我不知道它在这里是什么意思，你能举个例子吗？"]
+    ]],
+    ["So he claims","至少他是这么说的","Distance yourself from a claim you have not verified.","So + subject + claim(s); often follows a statement attributed to that person. Can sound skeptical or confrontational.","Source signals doubt about a reported account; doubt itself is not proof that the account is false.",[
+      ["哥哥说已经把厨房打扫干净，你还没看过，用略带玩笑的语气转述。",["kitchen","clean"],"So he claims","He says the kitchen is spotless. So he claims; I haven't checked yet.","他说厨房一尘不染，至少他是这么说的，我还没检查。"],
+      ["朋友说自己从不迟到，你笑着回应，但不想把说法当成事实。",["late","never"],"So he claims","He says he's never late. So he claims.","他说自己从不迟到，至少他是这么说的。"],
+      ["非正式同事讨论中你转述供应商的进度，但明确尚未收到证明。",["finished","confirmation"],"So he claims","The supplier says the work is finished. So he claims; we're waiting for confirmation.","供应商说工作做完了，至少他是这么说的，我们还在等确认。"]
+    ]],
+    ["what do you mean","你是什么意思；你所说的……具体指什么","Request a clearer explanation of a word or statement.","What do you mean by + noun/-ing? What do you mean, + quoted wording? Tone can be curious or challenging.","Source imagines a clarification question rather than reporting that it was actually asked.",[
+      ["家人说买一个普通尺寸的盒子，你想知道具体多大。",["regular size","box"],"What do you mean","What do you mean by a regular-size box?","你说的普通尺寸的盒子具体是多大？"],
+      ["朋友说希望这次聚会简单一点，你温和询问他的想法。",["simple","party"],"What do you mean","What do you mean by keeping the party simple?","你说聚会简单一点，具体是指什么？"],
+      ["同事说方案要更灵活，你请他解释希望有哪些变化。",["flexible","design"],"What do you mean","What do you mean by a more flexible design?","你说更灵活的设计，具体指什么？"]
+    ]],
+    ["I could be ...","我可能……","Acknowledge a possibility rather than claim certainty.","I could be + adjective or -ing form; could marks possibility here, not past ability.","Source admits possible misinterpretation; it is not confirmation that the interpretation is wrong.",[
+      ["你记不清商店几点关门，提醒家人自己的记忆可能不准。",["wrong","closing time"],"I could be","I could be wrong about the closing time.","我可能记错了关门时间。"],
+      ["朋友回复很短，你提醒自己也许把他的语气想得太严重。",["overthinking","reply"],"I could be","I could be overthinking his reply.","我可能把他的回复想得太多了。"],
+      ["你看完一张图表提出问题，同时承认自己可能理解错了。",["misreading","chart"],"I could be","I could be misreading the chart, but why did sales fall?","我可能看错了图表，不过销售额为什么下降了？"]
+    ]],
+    ["I could be picking up","我可能正在感受到或理解出……","Offer a tentative reading of subtle signals or tone.","I could be picking up + noun phrase; for a signal use picking up on + signal. Not physical collection here.","Source explicitly allows that the inferred tone may be mistaken.",[
+      ["你听到家里设备有异响，但不确定是不是自己听错了。",["noise","fan"],"I could be picking up","I could be picking up a faint noise from the fan.","我可能听到了风扇发出的轻微异响。"],
+      ["你觉得朋友有些担心，却不想擅自认定他的感受。",["concern","tone"],"I could be picking up","I could be picking up some concern in your voice. Is something wrong?","我可能听出了你语气中的一些担心，是有什么事吗？"],
+      ["你觉得团队对新方案犹豫，但希望先确认而不是直接下结论。",["hesitation","team"],"I could be picking up","I could be picking up some hesitation from the team, but I'd like to check.","我可能感觉到了团队的一些犹豫，不过我想先确认一下。"]
+    ]],
+    ["out of nowhere","突然；毫无预兆地","Describe an unexpected appearance, event or action.","Subject + verb + out of nowhere; metaphorical surprise, not literally no place of origin.","Source uses it with left to emphasize sudden departure, a less typical pairing than appeared out of nowhere.",[
+      ["天气原本很好却突然下雨，你向家人讲述刚才的变化。",["storm","appeared"],"Out of nowhere,","Out of nowhere, a storm hit the neighborhood.","一场暴风雨毫无预兆地袭来。"],
+      ["很久没联系的朋友突然打电话，你向另一位朋友分享这件事。",["called","years"],"Out of nowhere,","Out of nowhere, an old friend called after years of silence.","多年没联系的老朋友突然打来了电话。"],
+      ["测试原本正常，却突然出现新错误，你在复盘中描述这个现象。",["error","appeared"],"Out of nowhere,","A new error seemed to appear out of nowhere.","一个新错误似乎突然冒了出来。"]
+    ]],
+    ["That makes it sound like","这听起来让人觉得……","Explain an impression created by wording without asserting it is true.","That makes it sound like + clause; distinguish how a statement sounds from what actually happened.","Source draws a speculative inference about who was present; it does not verify that inference.",[
+      ["家人把一件小修理说得很严重，你说明这种说法给你的印象。",["major repair","wording"],"That makes it sound like","That makes it sound like we need a major repair.","这听起来让人觉得我们需要大修。"],
+      ["朋友的消息听起来像是在取消聚会，你先确认是不是这个意思。",["canceling","party"],"That makes it sound like","That makes it sound like you're canceling the party. Is that what you mean?","这听起来像是你要取消聚会，你是这个意思吗？"],
+      ["草稿措辞容易让客户以为已作出承诺，你提醒同事修改。",["guaranteed","deadline"],"That makes it sound like","That makes it sound like we've guaranteed the deadline, which we haven't.","这听起来像是我们保证了截止日期，但实际上没有。"]
+    ]],
+    ["That's just my interpretation","那只是我的理解或解读","Make clear that an explanation is your reading, not an established fact.","That's just my interpretation + optional of + material; just limits the claim rather than dismissing others.","Source explicitly qualifies a reading of ambiguous chat messages.",[
+      ["你猜测邻居留下纸条的意思，提醒家人这只是自己的看法。",["note","meaning"],"That's just my interpretation","That's just my interpretation of the note; we should ask her.","那只是我对纸条的理解，我们应该问问她。"],
+      ["你和朋友讨论电影结尾，说明不同观众可能有不同理解。",["ending","film"],"That's just my interpretation","That's just my interpretation of the ending. What did you think?","那只是我对结尾的理解，你怎么看？"],
+      ["你在会上解释客户反馈，但希望团队不要误当成客户明确要求。",["feedback","confirm"],"That's just my interpretation","That's just my interpretation of the feedback; let's confirm it with the client.","那只是我对反馈的解读，我们向客户确认一下吧。"]
+    ]],
+    ["I don't know what's going on","我不知道发生了什么或是什么情况","State uncertainty about a current situation.","I don't know what's going on + optional with/in + context. What's = what is.","Source extends the phrase to someone's mind, marking lack of access to intentions.",[
+      ["家里的灯反复闪烁，你向家人说明自己还没找到原因。",["lights","flickering"],"I don't know what's going on","I don't know what's going on with the lights.","我不知道这些灯是怎么回事。"],
+      ["朋友群里突然改了计划，你想请别人补充说明。",["plans","changed"],"I don't know what's going on","I don't know what's going on. Why did the plans change?","我不知道是什么情况，计划为什么变了？"],
+      ["你刚回到工作群，看到很多新消息，请同事先概述当前情况。",["update","project"],"I don't know what's going on","I don't know what's going on with the project yet. Could you give me a quick update?","我还不知道项目目前是什么情况，你能简要更新一下吗？"]
+    ]],
+    ["That's the tone that I picked up","那是我感受到的语气","Describe the attitude you inferred from language or delivery.","That's the tone that I picked up + optional from + message/speaker; tone is perceived attitude.","Source reports a subjective impression and immediately acknowledges it might be wrong.",[
+      ["你觉得房东的短信有些急，向家人解释这只是你读出的语气。",["urgent","message"],"That's the tone that I picked up","It sounded urgent. That's the tone that I picked up from the message.","听起来有些着急，这是我从消息中感受到的语气。"],
+      ["你和朋友讨论一条玩笑消息，说明自己听出来的是调侃。",["playful","reply"],"That's the tone that I picked up","It seemed playful. That's the tone that I picked up from her reply.","感觉像在开玩笑，这是我从她回复里感受到的语气。"],
+      ["客户邮件看起来比较谨慎，你向同事区分语气印象和明确要求。",["cautious","email"],"That's the tone that I picked up","It seemed cautious. That's the tone that I picked up from the email, not a firm refusal.","邮件看起来比较谨慎，那是我的语气印象，并不是明确拒绝。"]
+    ]],
+    ["This is my opinion","这是我的看法","Separate personal judgment from confirmed information.","This is my opinion, but + clause; or state a view and then qualify it. Does not make factual claims immune to checking.","Source explicitly distinguishes the narrator's opinion from knowledge of another person's thoughts or acts.",[
+      ["家人讨论家具颜色，你说明只是自己的审美偏好而非客观标准。",["blue","room"],"This is my opinion,","This is my opinion, but the blue chair suits the room better.","这只是我的看法，不过蓝色椅子更适合这个房间。"],
+      ["朋友们讨论电影，你表达自己的评价并为不同看法留出空间。",["ending","rushed"],"This is my opinion,","This is my opinion, but the ending felt rushed.","这只是我的看法，不过结尾感觉有点仓促。"],
+      ["团队讨论工作流程，你提出建议但不假装已经有数据证明。",["simpler","process"],"This is my opinion,","This is my opinion, but a simpler process might work better.","这是我的看法，不过更简单的流程可能效果更好。"]
+    ]],
+    ["I have no recollection","我完全不记得","State an absence of memory without asserting an event never happened.","I have no recollection of + noun/-ing; or no recollection that + clause. More formal than I don't remember.","The speaker describes lack of memory of the image; that is distinct from denying its existence.",[
+      ["家人说你把备用钥匙放进抽屉，你说明自己完全没印象。",["putting","key"],"I have no recollection","I have no recollection of putting the key there.","我完全不记得把钥匙放在那里。"],
+      ["朋友说你们小时候一起去过某个地方，但你已经想不起来。",["visiting","park"],"I have no recollection","I have no recollection of visiting that park.","我完全不记得去过那个公园。"],
+      ["同事问之前是否讨论过一项变更，你如实说明自己没有记忆。",["discussing","change"],"I have no recollection","I have no recollection of discussing that change, but I'll check the notes.","我不记得讨论过那项变更，不过我会查一下记录。"]
+    ]],
+    ["It doesn't appear that","看起来似乎并没有……","Give a cautious negative conclusion based on available evidence.","It doesn't appear that + full clause; not the same as proving the clause false.","Source describes what an image appears to show, not everything outside the frame.",[
+      ["你看过窗边地面还没有水迹，向家人报告初步观察。",["rain","got in"],"It doesn't appear that","It doesn't appear that any rain got in.","看起来似乎没有雨水进来。"],
+      ["朋友问另一个人是否已回复邀请，你查看群消息后谨慎回答。",["replied","invitation"],"It doesn't appear that","It doesn't appear that he's replied yet.","看起来他似乎还没有回复。"],
+      ["你检查系统日志，向团队说明还没看到任务完成的记录。",["job","finished"],"It doesn't appear that","It doesn't appear that the job has finished yet.","看起来这项任务似乎还没有完成。"]
+    ]],
+    ["the lawsuit states that","诉状写明或声称……","Attribute a proposition to a filing rather than adopt it as a finding.","The lawsuit states that + clause; source can be replaced by report/notice in ordinary use. States does not mean proves.","Source sentence continues across paragraphs and contains a quoted message; keep allegation attribution and do not turn the fragment into a new quotation.",[
+      ["在虚构的邻里纠纷阅读中，你转述诉状对围栏损坏的主张。",["lawsuit","fence"],"The lawsuit states that","The lawsuit in this exercise states that the fence was damaged during construction.","本练习的诉状称，围栏在施工期间遭到损坏。"],
+      ["朋友问活动会不会取消，你依据通知转述已经写出的安排。",["notice","postponed"],"The notice states that","The notice states that the event has been postponed.","通知写明活动已延期。"],
+      ["同事询问报告中如何描述数据问题，你明确指出自己的信息来源。",["report","incomplete"],"The report states that","The report states that the data is incomplete.","报告指出，数据不完整。"]
+    ]],
+    ["There's no way for her to","她没有办法……","Describe an obstacle that makes an action impossible in the stated circumstances.","There's no way for + person + to + base verb; specify the constraint and avoid unsupported absolute claims.","Source says she feels like there is no way to escape, preserving her reported experience rather than external certainty about every option.",[
+      ["你说明家人没带钥匙，当前无法进入锁着的房间。",["key","room"],"There's no way for her to","There's no way for her to open this door without the key.","没有钥匙，她无法打开这扇门。"],
+      ["朋友的手机没电了，你解释她为什么暂时无法通过手机联系大家。",["phone","battery"],"There's no way for her to","There's no way for her to call from that phone while the battery is dead.","那部手机没电时，她无法用它打电话。"],
+      ["同事缺少系统权限，你说明她目前无法完成上传操作。",["access","upload"],"There's no way for her to","There's no way for her to upload the file without access to the folder.","没有文件夹访问权限，她无法上传文件。"]
+    ]],
+    ["I have no recollection of","我完全不记得……","Specify the event or action missing from memory.","I have no recollection of + noun or -ing form; never of + bare infinitive.","Of introduces the remembered event; source's whatsoever intensifies no, not the event itself.",[
+      ["你整理旧物发现一张收据，却完全不记得买过对应的东西。",["buying","lamp"],"I have no recollection of","I have no recollection of buying this lamp.","我完全不记得买过这盏灯。"],
+      ["朋友提起一场旧演唱会，你如实说自己不记得参加过。",["attending","concert"],"I have no recollection of","I have no recollection of attending that concert.","我完全不记得参加过那场演唱会。"],
+      ["你核对一份审批记录时发现陌生签名，说明自己没有批准的印象。",["approving","request"],"I have no recollection of","I have no recollection of approving this request. Let's check the record.","我完全不记得批准过这项申请，我们查一下记录吧。"]
+    ]]
+  ]
+}

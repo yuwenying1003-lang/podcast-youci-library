@@ -1,0 +1,87 @@
+{
+  "unit": 5,
+  "reviewer": "Codex",
+  "method": "Review 16 source-linked patterns on PDF pages 17–20. Replace generic prompts and repeated source examples with task-specific neutral speaking practice. Preserve source hedges and distinguish adapted patterns from verbatim excerpts.",
+  "chunks": [
+    ["It's hard to gauge","很难判断或估计……","Explain difficulty estimating an amount, reaction or effect.","It's hard to gauge + noun phrase or embedded question; embedded questions use statement word order.","Gauge means estimate, not physically measure with certainty; the source's sensitive example is retained only as provenance.",[
+      ["你第一次使用新烤箱，不确定还要烤多久才熟。",["time","oven"],"It's hard to gauge","It's hard to gauge how much longer the cake needs.","很难判断蛋糕还需要烤多久。"],
+      ["朋友发来很简短的回复，你无法确定他的真实反应。",["reaction","message"],"It's hard to gauge","It's hard to gauge her reaction from one short message.","仅凭一条简短消息，很难判断她的反应。"],
+      ["产品刚刚上线，你提醒团队目前还不能准确判断需求。",["demand","early"],"It's hard to gauge","It's hard to gauge demand this early.","现在还这么早，很难判断需求。"]
+    ]],
+    ["I don't know if it's standard","我不知道这是否是惯例","Distinguish a reported practice from a confirmed norm.","I don't know if it's standard to + verb; or standard for + group + to + verb.","Source explicitly lacks certainty about prevalence; do not generalize a reported practice to all groups.",[
+      ["你第一次租房，不确定是否通常要提前支付清洁费。",["pay","cleaning fee"],"I don't know if it's standard","I don't know if it's standard to pay a cleaning fee in advance.","我不知道提前付清洁费是不是惯例。"],
+      ["朋友问婚礼宾客是否都要穿同一种颜色，你不确定习俗。",["guests","color"],"I don't know if it's standard","I don't know if it's standard for guests to wear the same color.","我不知道宾客穿同一种颜色是不是惯例。"],
+      ["新同事问每次会议是否都要写纪要，你说明自己尚未确认。",["minutes","meeting"],"I don't know if it's standard","I don't know if it's standard to take minutes at every meeting.","我不知道每次会议都做纪要是不是惯例。"]
+    ]],
+    ["It doesn't even make any sense","这根本说不通","Express strong confusion about logic or meaning.","It doesn't even make any sense + optional to me; use a clear preceding referent for it.","Even strengthens the negative; sense is logical meaning, not a physical sense organ.",[
+      ["组装说明让你先盖上盒子再拧里面的螺丝，你指出矛盾。",["instructions","screws"],"It doesn't even make any sense","It doesn't even make any sense to close the box before tightening the screws.","还没拧紧螺丝就把盒子盖上，这根本说不通。"],
+      ["朋友转发一条自相矛盾的传言，你提醒他先不要相信。",["story","check"],"It doesn't even make any sense","It doesn't even make any sense. Let's check where the story came from.","这根本说不通，我们先查查这说法从哪里来的。"],
+      ["流程要求先审批再提交申请，你指出步骤存在逻辑问题。",["approval","request"],"It doesn't even make any sense","It doesn't even make any sense to require approval before a request exists.","申请还没提出就要求先获得批准，这根本说不通。"]
+    ]],
+    ["It seems to be ...","它似乎是……","Describe an apparent state while allowing uncertainty.","It seems to be + noun phrase or adjective; use to be rather than like before an adjective.","Source uses seems to soften an inference, not to prove a universal practice.",[
+      ["你检查冰箱门上的水珠，暂时判断只是冷凝水。",["condensation","fridge"],"It seems to be","It seems to be condensation rather than a leak.","这似乎是冷凝水，而不是漏水。"],
+      ["朋友问新开的咖啡馆怎么样，你根据排队情况作初步判断。",["popular","cafe"],"It seems to be","It seems to be a popular place for breakfast.","那里似乎是个很受欢迎的早餐去处。"],
+      ["服务偶尔无法访问，你向同事描述尚未最终确认的问题。",["temporary","problem"],"It seems to be","It seems to be a temporary connection problem.","这似乎是暂时的连接问题。"]
+    ]],
+    ["it seems to be a thing","这似乎确实是一种现象或做法","Recognize an informal trend without claiming it is universal.","It seems to be a thing + optional among/in + group or place; clarify what it refers to.","A thing is informal for an established phenomenon, not a concrete object.",[
+      ["你发现几家商店都开始卖迷你植物，向家人谈起这个趋势。",["tiny plants","shops"],"It seems to be a thing","Selling tiny plants seems to be a thing in local shops now.","在本地商店卖迷你植物，现在似乎成了一种趋势。"],
+      ["朋友说最近大家喜欢约着一起散步，你表示自己也注意到了。",["walking dates","lately"],"It seems to be a thing","Walking dates seem to be a thing lately.","最近散步约会似乎成了一种风潮。"],
+      ["你听说几家公司都采用无会议下午，谨慎描述这个做法。",["meeting-free","teams"],"It seems to be a thing","Meeting-free afternoons seem to be a thing among smaller teams.","在较小的团队里，下午不安排会议似乎成了一种做法。"]
+    ]],
+    ["one would think","按理说应该会认为……","State a reasonable expectation that may conflict with reality.","One would think + clause; one is formal and generic, not the number one.","Source uses a rhetorical expectation to challenge a policy, not a deductive proof.",[
+      ["你发现新买的设备没有说明书，表达对此不合理之处的看法。",["instructions","included"],"One would think","One would think instructions would be included.","按理说应该会附带说明书。"],
+      ["朋友讲述订位后仍等了很久，你表示这不符合正常预期。",["reservation","wait"],"One would think","One would think a reservation would mean a shorter wait.","按理说，订了位就应该少等一会儿。"],
+      ["团队已有明确流程但仍频繁出错，你提出温和的反思。",["clear process","errors"],"One would think","One would think a clear process would prevent these errors.","按理说，明确的流程应该能避免这些错误。"]
+    ]],
+    ["One would think ..., why ...?","按理说……，为什么却……？","Contrast an expectation with a puzzling outcome through a rhetorical question.","One would think + expectation. Why + question? Use two sentences in careful writing rather than copying a spoken run-on.","Adapted rhetorical frame from a disfluent source sentence; the ellipsis is a teaching slot, not an exact quoted string.",[
+      ["标着快速通道的队伍反而最慢，你提出一个带有疑惑的问题。",["express line","slow"],"One would think","One would think the express line would be faster. Why is it moving so slowly?","按理说快速通道应该更快，为什么反而走得这么慢？"],
+      ["朋友说聚会安排得很早但很多人迟到，你指出预期与现实的差别。",["notice","late"],"One would think","One would think a week's notice would be enough. Why is everyone late?","按理说提前一周通知应该够了，为什么大家都迟到？"],
+      ["系统增加了检查步骤却出现更多错误，你在复盘会上提问。",["checks","errors"],"One would think","One would think extra checks would help. Why are we seeing more errors?","按理说增加检查应该有帮助，为什么我们反而发现更多错误？"]
+    ]],
+    ["I hadn't even thought of","我之前甚至没有想到……","Acknowledge a possibility that had not occurred to you before another moment.","I hadn't even thought of + noun or -ing form; do not use of + bare verb.","Past perfect places the lack of consideration before the new realization.",[
+      ["家人提醒搬家要提前改通信地址，你承认之前忽略了这件事。",["changing","address"],"I hadn't even thought of","I hadn't even thought of changing my mailing address.","我之前甚至没想到要改通信地址。"],
+      ["朋友建议去小城旅行，你发现这是自己从未考虑过的选择。",["visiting","town"],"I hadn't even thought of","I hadn't even thought of visiting that town.","我之前甚至没想到可以去那个小城。"],
+      ["同事提出缓存能改善性能，你承认之前没有考虑这个方案。",["caching","results"],"I hadn't even thought of","I hadn't even thought of caching the results.","我之前甚至没想到缓存结果这个办法。"]
+    ]],
+    ["It's kind of like","它有点像……","Use an approximate analogy to make an idea easier to understand.","It's kind of like + noun phrase or -ing phrase; kind of makes the comparison approximate.","Source compares the effect to built-in marketing, not an exact technical equivalence.",[
+      ["你向家人解释空气炸锅，想用熟悉的厨房设备作类比。",["small oven","fan"],"It's kind of like","It's kind of like a small oven with a strong fan.","它有点像一个带强力风扇的小烤箱。"],
+      ["朋友不理解新的桌游规则，你用合作解谜来帮助他理解。",["solving","puzzle"],"It's kind of like","It's kind of like solving a puzzle together.","它有点像大家一起解谜。"],
+      ["你向非技术同事解释任务队列，使用排队领号的类比。",["taking a number","queue"],"It's kind of like","It's kind of like taking a number and waiting your turn.","它有点像先领一个号码，再等轮到自己。"]
+    ]],
+    ["On top of that","除此之外；而且","Add another point that increases the overall effect.","On top of that, + complete clause; it can add a benefit or a problem.","Source adds another incentive; the phrase is figurative, not a physical stacking instruction.",[
+      ["你说明为什么喜欢新公寓，在交通方便之外再补充一个优点。",["quiet","apartment"],"On top of that,","On top of that, the apartment is very quiet.","而且，这套公寓很安静。"],
+      ["你向朋友讲旅行遇到的问题，在延误之后再说行李丢失。",["luggage","lost"],"On top of that,","On top of that, the airline lost my luggage.","除此之外，航空公司还把我的行李弄丢了。"],
+      ["你汇报新工具的收益，在节省时间之外再说明成本降低。",["costs","reduce"],"On top of that,","On top of that, the new tool reduces our monthly costs.","而且，这个新工具还能降低我们的每月成本。"]
+    ]],
+    ["one random one","随便举一个；其中一个意想不到的例子","Pick one item from a previously established set in casual speech.","One random one + clause; establish the set first so the second one has a clear referent.","Spontaneous and vague wording, not a precise standalone idiom; avoid unnecessary repetition in formal communication.",[
+      ["家人问整理房间能发现什么，你随口举出一个意外找到的东西。",["finds","photo"],"One random one","I found a few surprises. One random one was an old family photo.","我找到了一些意想不到的东西，随便举一个，就是一张老全家福。"],
+      ["朋友让你从旅行趣事中选一个，你先说明只是随便挑一个。",["moments","station"],"One random one","There were lots of funny moments. One random one was meeting my neighbor at the station.","旅途中有很多有趣时刻，随便举一个，就是在车站碰见了邻居。"],
+      ["轻松的团队讨论中你从几个小改进中挑一个例子，不作排名。",["improvements","labels"],"One random one","We made several small improvements. One random one was clearer folder labels.","我们做了几项小改进，随便举一个，就是把文件夹标签写得更清楚。"]
+    ]],
+    ["One random one I hadn't thought of ...","其中一个我此前没想到的例子是……","Introduce an overlooked example from a known set.","One random one I hadn't thought of was + noun or -ing phrase; establish the set first. Use one unexpected benefit in formal writing.","Adapted shorter pattern; the original contains that and even, preserved in source_excerpt rather than falsely claimed as an exact match.",[
+      ["你谈搬家后发现的好处，补充一个事先没有想到的小优点。",["benefits","walking"],"One random one I hadn't thought of","Moving had several benefits. One random one I hadn't thought of was walking to the shops.","搬家带来了好几个好处，其中一个我此前没想到的，就是能步行去商店。"],
+      ["你和朋友分享学摄影的收获，指出一个意料之外的变化。",["benefits","noticing"],"One random one I hadn't thought of","Photography has lots of benefits. One random one I hadn't thought of was noticing small details.","摄影有很多好处，其中一个我之前没想到的，就是开始留意细节。"],
+      ["在非正式复盘中，你从远程办公的优点里补充一个意外发现。",["benefits","focus"],"One random one I hadn't thought of","There were several benefits. One random one I hadn't thought of was having more time to focus.","好处有好几个，其中一个我此前没想到的，就是有了更多专注工作的时间。"]
+    ]],
+    ["They benefit a lot from","他们从……中获益很多","Explain a substantial benefit to an already identified group.","They benefit a lot from + noun or -ing phrase; replace they with a named group when needed.","Source is the narrator's claim about institutional incentives, not a quantified finding.",[
+      ["你谈到父母使用送餐服务的体验，说明这给他们带来的帮助。",["parents","delivery"],"They benefit a lot from","My parents use the delivery service. They benefit a lot from not having to carry heavy bags.","我父母使用送货服务，不用再拎沉重的袋子给他们带来了很大方便。"],
+      ["朋友组织读书会，你说明新成员为什么喜欢交流讨论。",["members","discussion"],"They benefit a lot from","The new members benefit a lot from the weekly discussions.","新成员从每周的讨论中获益很多。"],
+      ["你向经理说明新人辅导的价值，指出培训给新员工的帮助。",["new hires","feedback"],"They benefit a lot from","Our new hires benefit a lot from regular feedback.","我们的新员工从定期反馈中获益很多。"]
+    ]],
+    ["I guess the question","我想，问题在于……","Tentatively identify the question that matters next.","I guess the question + optional relative clause + is + embedded question; complete the fragment.","Source contains a long relative clause before is; the teaching frame must end in a complete thought.",[
+      ["家人讨论是否换冰箱，你把讨论聚焦到维修是否值得。",["repair","worth"],"I guess the question","I guess the question is whether it's worth repairing.","我想，问题是它是否值得修。"],
+      ["朋友讨论周末去哪玩，你把问题集中到大家可用的时间。",["time","available"],"I guess the question","I guess the question is how much time we have.","我想，问题是我们有多少时间。"],
+      ["团队列了很多功能，你把讨论引向用户最需要解决的问题。",["users","need"],"I guess the question","I guess the question we need to answer is what users need most.","我想，我们需要回答的问题是用户最需要什么。"]
+    ]],
+    ["I guess the question is ...","我想，关键问题是……","Refocus a discussion on an unresolved decision.","I guess the question is whether/how/what + statement-order clause; do not invert the embedded question.","Adapted contiguous frame from a longer source sentence; preserves the tentative stance without copying profanity.",[
+      ["你比较两个租房方案，提醒家人先明确愿意接受的通勤距离。",["commute","willing"],"I guess the question is","I guess the question is how far we're willing to commute.","我想，关键问题是我们愿意接受多远的通勤。"],
+      ["朋友讨论旅行花费，你把讨论集中到是否值得多住一晚。",["extra night","worth"],"I guess the question is","I guess the question is whether an extra night is worth the cost.","我想，关键问题是多住一晚是否值得这笔花费。"],
+      ["团队对发布日期意见不同，你指出要先判断测试是否充分。",["testing","enough"],"I guess the question is","I guess the question is whether we've done enough testing.","我想，关键问题是我们是否做了足够的测试。"]
+    ]],
+    ["That means ...","那意味着……","Explain a consequence or implication of preceding information.","That means + clause or noun phrase; that must refer to a stated fact or assumption.","Source explains a proposed financial consequence; the causal link is the narrator's reasoning, not independently audited data.",[
+      ["你发现商店今天提前关门，告诉家人需要改变购物时间。",["closes","earlier"],"That means","The shop closes at five. That means we need to leave earlier.","商店五点关门，那意味着我们得早点出发。"],
+      ["朋友取消了周日计划，你向另一位朋友说明现在多出时间。",["free","Sunday"],"That means","The trip was canceled. That means I'm free on Sunday.","旅行取消了，那意味着我周日有空。"],
+      ["新流程取消人工复制数据，你向团队说明节省下来的工作。",["automatic","copying"],"That means","The transfer is automatic now. That means we no longer need to copy the data manually.","现在传输自动进行了，那意味着我们不再需要手动复制数据。"]
+    ]]
+  ]
+}

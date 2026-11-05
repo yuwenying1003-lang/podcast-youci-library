@@ -1,0 +1,20 @@
+{
+  "unit": 11,
+  "reviewer": "Codex",
+  "method": "Individual contextual review of 13 pending phrases. Separate personal statements, institutional claims and narrator opinions; no source date or legal outcome is updated or invented.",
+  "phrases": [
+    ["at the time",756,"during the particular period being discussed","当时；在那个时候","She was working abroad at the time.","她当时在国外工作。","Recording-relative past period, not the review date. Source's unfinished before he becomes clause remains unchanged."],
+    ["highly doubt",766,"strongly believe something is unlikely","很怀疑；认为很不可能","I highly doubt the room will be empty at noon.","我很怀疑那个房间中午会空着。","Doubt takes the proposition being questioned. Strong skepticism is not proof; the source speculates about journalists' attention."],
+    ["every aspect of",839,"all parts or dimensions of something","……的每一个方面","The change affects every aspect of our routine.","这项变化影响了我们日常安排的每一个方面。","Aspect means a dimension or part, not a physical direction. Source is a person's statement about the reach of trauma, not a quantified clinical assessment."],
+    ["for the rest of my life",840,"throughout all the years of life still ahead","在我的余生中；一辈子","I'll remember that kindness for the rest of my life.","我会一辈子记得那份善意。","Expresses an anticipated lasting effect. Source's fear of lifelong impact does not establish that recovery is impossible."],
+    ["in the second half",844,"during the latter of two parts","在后半部分","We'll discuss questions in the second half of the session.","我们将在活动的后半部分讨论问题。","Half identifies an organizational division; it need not mean exactly equal duration in informal episode planning."],
+    ["recover from",838,"become well or regain stability after harm or difficulty","从……中恢复过来","The team needed time to recover from the setback.","团队需要时间从挫折中恢复过来。","Recover from + difficulty differs from recover a lost file. Source expresses a wish and difficulty, not a promised treatment result."],
+    ["very quietly",743,"with little noise or, figuratively, little publicity","很安静地；低调地","The company introduced the change very quietly.","公司很低调地推出了这项变更。","Publicity sense in source, not simply low speaking volume. Quietly is the narrator's characterization and does not prove concealment or intent."],
+    ["for many",750,"for many people in the group being discussed","对许多人来说","For many, the first week in a new job is tiring.","对许多人来说，新工作的第一周很累。","Many functions as a pronoun with people understood; not an unfinished many + noun requirement. Source quotation describes community experience without a headcount."],
+    ["formal complaint",771,"an official report of a grievance or alleged wrongdoing","正式投诉；正式申诉","She submitted a formal complaint about the service.","她就服务问题提交了正式投诉。","Formal marks an official process, not clothing or polite style. The institutional complaint is distinct from automatically filing a criminal charge."],
+    ["allowed to return",806,"given permission to come back","被允许返回","Visitors are allowed to return after the inspection.","检查结束后，访客获准返回。","Be allowed to concerns permission, not ability. Source mixes multiple people's outcomes in a run-on; reviewing the phrase does not resolve who returned."],
+    ["three semesters",806,"three academic terms in a semester-based calendar","三个学期","The course runs for three semesters.","这门课程持续三个学期。","Semester is an academic term, not always a fixed six-month block in every calendar. Do not infer an exact return date from the source duration."],
+    ["picked up instantly",841,"immediately taken up for reporting or wider attention","迅速被媒体跟进报道","The local story was picked up instantly by a national outlet.","这则地方新闻迅速被一家全国性媒体跟进报道。","News uptake sense, not arrest, a ride or physical collection. Instantly is narrator emphasis, not a measured release interval."],
+    ["second half",844,"the latter of two parts","后半部分","The second half of the workshop focuses on practice.","工作坊的后半部分侧重练习。","A structural label rather than an exact timestamp; source previews a separate portion and does not provide its full content here."]
+  ]
+}

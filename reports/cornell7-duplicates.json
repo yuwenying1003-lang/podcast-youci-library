@@ -1,0 +1,101 @@
+{
+  "count": 12,
+  "items": [
+    {
+      "kind": "chunk",
+      "unit": 2,
+      "normalized": "it doesn't look like",
+      "text": "It doesn't look like ...",
+      "source_page": 4,
+      "source_excerpt": "Now from the footage that I saw that's been released, it doesn't look like the students are jumping up on his car."
+    },
+    {
+      "kind": "chunk",
+      "unit": 4,
+      "normalized": "imagine the amount of",
+      "text": "Imagine the amount of ...",
+      "source_page": 12,
+      "source_excerpt": "Imagine the amount of- Lawsuits, liability."
+    },
+    {
+      "kind": "chunk",
+      "unit": 4,
+      "normalized": "that makes sense",
+      "text": "That makes sense.",
+      "source_page": 12,
+      "source_excerpt": "That makes sense."
+    },
+    {
+      "kind": "chunk",
+      "unit": 4,
+      "normalized": "if all else fails",
+      "text": "If all else fails, ...",
+      "source_page": 15,
+      "source_excerpt": "But if all else fails,"
+    },
+    {
+      "kind": "chunk",
+      "unit": 5,
+      "normalized": "it's kind of like",
+      "text": "It's kind of like ...",
+      "source_page": 19,
+      "source_excerpt": "It's kind of like built-in marketing."
+    },
+    {
+      "kind": "chunk",
+      "unit": 7,
+      "normalized": "we're going to get into",
+      "text": "We're going to get into ...",
+      "source_page": 26,
+      "source_excerpt": "We're going to get into all of it."
+    },
+    {
+      "kind": "chunk",
+      "unit": 7,
+      "normalized": "we don't know if",
+      "text": "We don't know if",
+      "source_page": 24,
+      "source_excerpt": "So we don't know if it was the same individual, if it was two different individuals, if someone is supplying and then someone overdosed or if someone overdosed and that's how they found out that they were in possession of ketamine."
+    },
+    {
+      "kind": "chunk",
+      "unit": 8,
+      "normalized": "it would appear",
+      "text": "It would appear ...",
+      "source_page": 29,
+      "source_excerpt": "She's given another under 21 wristband, and it would appear at least from the filing that they do not serve her any alcoholic beverages here."
+    },
+    {
+      "kind": "chunk",
+      "unit": 9,
+      "normalized": "what do you mean",
+      "text": "What do you mean ...?",
+      "source_page": 35,
+      "source_excerpt": "Maybe he's like, what do you mean free?"
+    },
+    {
+      "kind": "chunk",
+      "unit": 9,
+      "normalized": "that makes it sound like",
+      "text": "That makes it sound like ...",
+      "source_page": 38,
+      "source_excerpt": "That makes it sound like there's all of us, a lot of guys in the room who are watching an interaction happen because usually that is the term cucking."
+    },
+    {
+      "kind": "chunk",
+      "unit": 10,
+      "normalized": "i cannot say with certainty",
+      "text": "I cannot say with certainty ...",
+      "source_page": 41,
+      "source_excerpt": "Though I cannot say with certainty, legally speaking, which one it is."
+    },
+    {
+      "kind": "phrase",
+      "unit": 3,
+      "normalized": "with that being said",
+      "text": "with that being said",
+      "source_page": 10,
+      "source_excerpt": "So with that being said, let's get started."
+    }
+  ]
+}

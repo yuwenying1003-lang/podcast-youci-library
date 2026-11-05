@@ -1,0 +1,31 @@
+{
+  "unit": 3,
+  "reviewer": "Codex",
+  "chunks": [
+    ["It is not that simple.","事情没那么简单。","Explain why a proposed solution overlooks a complication.","It/That + is not that simple; follow with the overlooked reason.","That expresses degree. Source rejects choosing sides too easily; everyday examples transfer the same function without borrowing case allegations.",[
+      ["家人建议直接搬到便宜的公寓，但你还要考虑通勤时间。",["rent","commute"],"It is not that simple.","It is not that simple. The cheaper apartment is two hours from work.","事情没那么简单。便宜的那套公寓离工作地点有两小时路程。"],
+      ["朋友说取消旅行就行，但其他朋友已经付了不可退的订金。",["trip","deposit"],"It is not that simple.","It is not that simple. Some of us have already paid a nonrefundable deposit.","事情没那么简单。我们中有些人已经交了不可退的订金。"],
+      ["同事建议今天就上线新功能，但安全检查还没有完成。",["launch","checks"],"It is not that simple.","It is not that simple. We still need to finish the security checks.","事情没那么简单。我们还需要完成安全检查。"]
+    ]],
+    ["at least in my personal experience","至少就我的个人经验而言","Limit a general statement to your own experience.","Place the phrase before or after a claim; it limits evidence, not numerical quantity.","The insurance claim is explicitly personal experience. New examples do not present broad claims as established facts.",[
+      ["家人问早上去超市是否更清静，你只根据自己的几次经历回答。",["shopping","morning"],"At least in my personal experience,", "At least in my personal experience, the store is quieter in the morning.","至少就我的个人经验而言，这家店早上比较清静。"],
+      ["朋友问学习小组有没有帮助，你想说明这只是自己的体验。",["study","group"],"At least in my personal experience,","At least in my personal experience, studying with one friend works better than a large group.","至少就我的个人经验而言，和一个朋友一起学比参加大组学习效果好。"],
+      ["团队讨论开会方式，你想分享自己的体会而不替所有人下结论。",["meetings","agenda"],"At least in my personal experience,","At least in my personal experience, meetings are shorter when we share an agenda first.","至少就我的个人经验而言，提前发议程能让会议更简短。"]
+    ]],
+    ["Just something to keep in mind","有一点供你参考／提醒你留意","Offer a relevant caution without issuing a direct command.","State a fact, then add just something to keep in mind; keep in mind means remember when deciding.","Fragment works as a conversational aside. Complete teaching examples provide the actual caution missing from generic prompts.",[
+      ["家人准备周日晚去买东西，你提醒他附近商店那天会提早关门。",["store","Sunday"],"The store closes early on Sundays—", "The store closes early on Sundays—just something to keep in mind.","这家店周日关门早，提醒你留意一下。"],
+      ["朋友计划坐末班车回家，你想轻轻提醒他路上可能需要更多时间。",["bus","traffic"],"Traffic can be slow after the concert—","Traffic can be slow after the concert—just something to keep in mind.","音乐会结束后交通可能很慢，提醒你考虑到这一点。"],
+      ["同事安排周五交稿，你提醒他负责审批的人当天不在办公室。",["approval","Friday"],"Our reviewer is away on Friday—","Our reviewer is away on Friday—just something to keep in mind.","审批人周五不在，提醒你安排时留意一下。"]
+    ]],
+    ["They don't like to ...","他们不愿意／不喜欢……","Describe someone's usual reluctance or preference.","They/we/I don't like to + base verb; he/she doesn't like to + base verb.","A preference, not an inability or prohibition. Don't expands to do not; the verb after to stays in base form.",[
+      ["家人问孩子为什么想早点回家，你解释他们不喜欢太晚吃晚饭。",["children","dinner"],"They don't like to", "They don't like to eat dinner late.","他们不喜欢很晚才吃晚饭。"],
+      ["朋友想给共同好友办大型派对，你说明那两位朋友不喜欢当众讲话。",["friends","speeches"],"They don't like to","They don't like to give speeches in front of a crowd.","他们不喜欢在人群面前讲话。"],
+      ["同事建议临时改会，你解释客户通常不愿意临时更改计划。",["clients","plans"],"They don't like to","They don't like to change plans at the last minute.","他们不喜欢在最后一刻更改计划。"]
+    ]],
+    ["With that being said","话虽如此；说完这些","Move on after acknowledging the preceding point, sometimes adding a contrast.","With that being said, + a complete clause. It can signal transition as well as concession.","At segment 148 it resumes the main discussion rather than contradicting the disclaimer. Do not teach every occurrence as however.",[
+      ["你已说明今天时间紧张，接着提出仍然可以做一顿简单晚饭。",["time","dinner"],"With that being said,","We are short on time. With that being said, we can still cook something simple.","我们时间不多。话虽如此，还是可以做点简单的饭菜。"],
+      ["你向朋友讲完出游注意事项，现在准备开始愉快的行程。",["trip","start"],"With that being said,","Those are the main things to remember. With that being said, let's enjoy the trip.","要注意的主要就是这些。说完这些，我们好好享受旅行吧。"],
+      ["你说明方案还有风险，但认为可以先做一个小规模试验。",["risks","pilot"],"With that being said,","There are still risks. With that being said, a small pilot would help us learn more.","仍然存在风险。话虽如此，小规模试验能帮助我们了解更多。"]
+    ]]
+  ]
+}

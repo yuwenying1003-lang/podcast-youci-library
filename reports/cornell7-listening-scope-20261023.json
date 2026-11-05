@@ -1,0 +1,12 @@
+{
+  "baseline_commit": "8458263",
+  "reviewer": "Codex",
+  "independent_human_signoff": false,
+  "review_date": "2026-10-23",
+  "baseline_library": {"words":321,"phrases":435,"chunks":118},
+  "baseline_requires_review": [76,84,99,108,117,163,165,166,187,192,207,208,215,220,225,231,241,242,250,253,259,262,268,271,274,284,298,341,342,343,345,348,349,350,355,356,357,395,399,401,405,407,422,427,457,486,502,508,509,512,520,523,524,536,537,538,539,540,544,546,555,558,559,564,565,566,567,568,573,585,586,595,596,598,599,613,614,615,621,622,623,624,626,627,630,631,642,643,649,650,655,656,657,658,659,660,664,666,668,670,674,675,677,678,692,696,700,704,705,706,710,711,712,713,714,715,716,721,722,724,725,731,733,734,738,744,746,747,748,750,751,752,753,755,756,759,761,762,763,766,767,774,775,779,780,787,789,793,795,796,797,800,801,804,805,806,807,808,810,811,812,813,814,815,816,819,825,826,831,832,833,834,835,836,844,846,850],
+  "continuous_second_read_range": [211,850],
+  "earlier_residuals_reread_with_neighbors": [76,84,99,108,117,163,165,166,187,192,207,208],
+  "decision_evidence": "reports/cornell7-unit*-listening-20261023-review.json; each queued ID has an explicit outcome and rationale. Unchanged covered/no-barrier paragraphs in the continuous range were read, not bulk rewritten or counted as new decisions.",
+  "limitations": "The initial queue is fully reconsidered, not fully resolved. Tests establish identity/provenance/structure, not comprehension. The source-materials directory contains only the PDF, with no original audio/video for confirming suspected transcriptions or gestures. Source claims, inferred intent and legal conclusions are not independently authenticated. Remaining issues need differentiated source and semantic review, not automatic approval. Unit 1 and earlier already-complete ranges were not reread wholesale."
+}

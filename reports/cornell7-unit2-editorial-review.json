@@ -1,0 +1,190 @@
+{
+  "unit": 2,
+  "batch": 2,
+  "review_date": "2026-10-22",
+  "reviewer": "Codex",
+  "review_method": "Individual contextual editorial review of stored transcript excerpts; not a human sign-off or audio verification.",
+  "references": [
+    "https://dictionary.cambridge.org/us/dictionary/english/atrium",
+    "https://dictionary.cambridge.org/us/dictionary/english/protester",
+    "https://dictionary.cambridge.org/us/dictionary/english/volatile",
+    "https://www.dictionary.com/browse/dox"
+  ],
+  "cards": [
+    {
+      "word": "atrium",
+      "source_page": 4,
+      "source_excerpt": "Now, nevertheless, as the president introduces the debate series, he's now leaving the atrium.",
+      "context_decision": "Campus building sense, not the heart chamber or exclusively an ancient Roman courtyard. President in the source means university president.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "incident",
+      "source_page": 4,
+      "source_excerpt": "But the reason that this makes the news is because, well, like I said, it's Cornell University and it's such a strange, bizarre incident with a strange conclusion.",
+      "context_decision": "Refers to the unusual parking-lot event, not an incidental detail.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "protester",
+      "source_page": 4,
+      "source_excerpt": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
+      "context_decision": "Singular headword corresponds to protesters in the excerpt; public opposition does not by itself imply violence.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "rescind",
+      "source_page": 4,
+      "source_excerpt": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
+      "context_decision": "The transcript says rescinding student visas; preserve that attributed wording without treating it as independent legal verification.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "accosted",
+      "source_page": 5,
+      "source_excerpt": "He says that he was accosted in the hallway, that they continued to follow him to his car, surrounded him, banged on the windows, blocked the car, and they were shouting.",
+      "context_decision": "The speaker reports his claim of being accosted; the teaching example is not a quotation or evidence of that claim.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "disruptive",
+      "source_page": 5,
+      "source_excerpt": "As well as disruptive protests resulting in the case of two individual bans from the campus.",
+      "context_decision": "The statement characterizes protests as disruptive; the sense is interruption, not necessarily physical destruction.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "maneuver",
+      "source_page": 5,
+      "source_excerpt": "An automatic braking system was able to slowly maneuver my car from the parking space and exit the parking lot.",
+      "context_decision": "Physical vehicle movement in the quoted statement, not a political tactic.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "volatile",
+      "source_page": 5,
+      "source_excerpt": "And from the footage I saw, it doesn't seem that volatile.",
+      "context_decision": "The speaker judges the visible confrontation as not very volatile; not the chemical evaporation sense.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "compelled",
+      "source_page": 6,
+      "source_excerpt": "I mean, what compelled him to reverse his car when he knew that there were pedestrians, Cornell students, standing around his car?",
+      "context_decision": "The rhetorical source question asks what motivated reversing the car; it need not mean literal physical force.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "harassment",
+      "source_page": 6,
+      "source_excerpt": "It is harassment and intimidation with the direct motive of silencing speech.",
+      "context_decision": "An accusation in the quoted statement, not an independently established finding.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "hazardous",
+      "source_page": 6,
+      "source_excerpt": "As the reverse lights of the vehicle were illuminated, your intentional act created a hazardous condition.",
+      "context_decision": "Describes the condition allegedly created near the reversing vehicle.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "illuminated",
+      "source_page": 6,
+      "source_excerpt": "As the reverse lights of the vehicle were illuminated, your intentional act created a hazardous condition.",
+      "context_decision": "Literal lights-on sense in the source. Replaces a figurative example about footage revealing a detail.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "intimidation",
+      "source_page": 6,
+      "source_excerpt": "It is harassment and intimidation with the direct motive of silencing speech.",
+      "context_decision": "The quoted statement alleges pressure intended to silence speech; keep attribution separate from factual endorsement.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "protest",
+      "source_page": 6,
+      "source_excerpt": "He also says the behavior I experienced last night is not protest.",
+      "context_decision": "Noun after “is not”; distinguish protest from the misconduct alleged by the person quoted.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "reverse",
+      "source_page": 6,
+      "source_excerpt": "As the reverse lights of the vehicle were illuminated, your intentional act created a hazardous condition.",
+      "context_decision": "Source excerpt uses reverse as a modifier in reverse lights; nearby context also uses the driving verb.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "allegation",
+      "source_page": 7,
+      "source_excerpt": "These are the allegations against the Cornell 7 from the Jane Doe lawsuit and why it seems like everybody is divided.",
+      "context_decision": "Lawsuit allegations must remain attributed. Replaces the awkward translation of a separate, longer statement excerpt.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "doxxed",
+      "source_page": 7,
+      "source_excerpt": "People are getting doxxed.",
+      "context_decision": "The source describes privacy exposure, not merely searching for someone. Corrects the base-form IPA that omitted the past-participle ending.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "lawsuit",
+      "source_page": 7,
+      "source_excerpt": "Because a few months later, Jane Doe will file a civil lawsuit against Cornell University and seven fraternity brothers from Cornell, now dubbed the Cornell Seven.",
+      "context_decision": "The source refers to a civil lawsuit and its claims, not a criminal conviction. Jane Doe is a pseudonym in that context.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "scandal",
+      "source_page": 7,
+      "source_excerpt": "And this was a huge scandal for Cornell earlier this year.",
+      "context_decision": "Refers back to the parking-lot controversy before the narration introduces later allegations.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "protesters",
+      "source_page": 4,
+      "source_excerpt": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
+      "context_decision": "Plural form retained as an existing separate learning card; not removed as an exact duplicate.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "suspending",
+      "source_page": 4,
+      "source_excerpt": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
+      "context_decision": "Temporary disciplinary exclusion in the list; not hanging a physical object.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "expelling",
+      "source_page": 4,
+      "source_excerpt": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
+      "context_decision": "School disciplinary removal, not the bodily sense of forcing something out.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "scandals",
+      "source_page": 4,
+      "source_excerpt": "Big scandals of Ivy League schools punishing protesters, suspending them, expelling them, rescinding student visas.",
+      "context_decision": "Plural controversies concerning disciplinary responses at universities; retain distinction from the singular parking-lot reference.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "worst",
+      "source_page": 7,
+      "source_excerpt": "But that will not, not even in the slightest, be the worst investigation and scandal that Cornell University will be caught up in in this year.",
+      "context_decision": "Superlative in the narrator’s comparison of scandals; not an assertion that any allegation has been proved.",
+      "example_source": "adapted"
+    },
+    {
+      "word": "traumatized",
+      "source_page": 7,
+      "source_excerpt": "Jane Doe alleges that as a student at Cornell, she went to a fraternity party where she was gang essayed for seven hours, traumatized to the point of dropping out of her dream university and her entire life has been ripped apart",
+      "context_decision": "Retains explicit attribution to the lawsuit; no diagnosis or independent verification is claimed.",
+      "example_source": "adapted"
+    }
+  ]
+}

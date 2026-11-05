@@ -1,0 +1,37 @@
+{
+  "unit": 11,
+  "reviewer": "Codex",
+  "method": "Individual review of six remaining Unit 11 patterns. Source opinions and personal distress remain attributed; neutral teaching scenarios transfer the language without inventing case facts.",
+  "chunks": [
+    ["I can't help but think","我不由得认为；我忍不住想……","Express a thought that repeatedly or naturally occurs to you.","I can't help but think + clause; base form think after but. Alternative can't help thinking has -ing.","Source speculates about deliberate timing; the strength of the reaction is not evidence of intent.",[
+      ["你看着反复漏水的水龙头，不由得觉得需要找人彻底检查。",["tap","inspection"],"I can't help but think","I can't help but think the tap needs a proper inspection.","我不由得觉得这个水龙头需要好好检查一下。"],
+      ["朋友几次都没能参加聚会，你担心安排的时间可能不合适。",["timing","difficult"],"I can't help but think","I can't help but think the timing might be difficult for her.","我不由得想，这个时间对她来说可能不方便。"],
+      ["团队反复修改同一需求，你表达对问题根源的初步看法。",["requirements","clearer"],"I can't help but think","I can't help but think we need clearer requirements.","我不由得觉得我们需要更明确的需求。"]
+    ]],
+    ["I highly doubt","我很怀疑；我觉得不太可能","Express a strong belief that something is unlikely.","I highly doubt + clause or that-clause; usually followed by the positive proposition you doubt, not a double negative.","Source doubts reporters' attention during a holiday; it is a prediction about others, not measured evidence.",[
+      ["家人想把大沙发搬进很小的电梯，你表达对可行性的怀疑。",["sofa","fit"],"I highly doubt","I highly doubt the sofa will fit in that lift.","我很怀疑那张沙发能放进那部电梯。"],
+      ["朋友想在周末临时订到热门餐厅，你说明自己觉得可能性不高。",["table","tonight"],"I highly doubt","I highly doubt we'll get a table there tonight without a booking.","没预订的话，我觉得我们今晚很难在那里订到位子。"],
+      ["同事希望几分钟内完成复杂迁移，你提醒他这个预期可能不现实。",["migration","minutes"],"I highly doubt","I highly doubt the migration will finish in ten minutes.","我很怀疑迁移能在十分钟内完成。"]
+    ]],
+    ["It's unclear where","尚不清楚在哪里或到哪里……","Identify missing information about location, origin or allocation.","It's unclear where + subject + verb; statement word order in the embedded clause.","Source's missing months is a metaphor for an unexplained timeline gap, not literal lost calendar pages.",[
+      ["家人发现一个没有标签的包裹，你说明目前还不知道它来自哪里。",["package","came from"],"It's unclear where","It's unclear where this package came from.","目前还不清楚这个包裹是从哪里来的。"],
+      ["朋友们计划见面但没有商定地点，你提醒大家需要先确认。",["meet","place"],"It's unclear where","It's unclear where we're meeting, so let's confirm the place.","现在还不清楚在哪见面，我们先确认地点吧。"],
+      ["你调查任务耗时异常，说明目前无法确定时间都花在哪个阶段。",["time","spent"],"It's unclear where","It's unclear where most of the time was spent.","目前还不清楚大部分时间花在了哪个环节。"]
+    ]],
+    ["for the rest of my life","在我的余生里；一辈子","Describe an expected lasting effect or long-term personal commitment.","For the rest of + possessive + life; often expresses strong emotion rather than a measurable prediction.","Source expresses feared lasting impact of trauma; it must not be turned into a claim that recovery is impossible.",[
+      ["你收到家人保存多年的纪念物，表达自己会一直珍惜它。",["treasure","gift"],"For the rest of my life,","I'll treasure this gift for the rest of my life.","我会一辈子珍惜这份礼物。"],
+      ["朋友在困难时帮助了你，你真诚表达自己会一直记得这份情谊。",["remember","kindness"],"For the rest of my life,","I'll remember your kindness for the rest of my life.","我会一辈子记得你的善意。"],
+      ["你在退休告别中回顾一位导师对自己的长期影响。",["lesson","mentor"],"For the rest of my life,","I'll carry that lesson with me for the rest of my life.","那堂课给我的启发会陪伴我一生。"]
+    ]],
+    ["That's all going to be covered","这些内容都会讲到","Reassure listeners that the mentioned topics will be addressed.","That's all going to be covered + time/place; all refers back to the set of topics, not every possible detail.","Covered means discussed in the later episode, not insured or certified by this project's coverage index.",[
+      ["家人担心新设备的操作步骤太多，你说明说明会上都会讲解。",["instructions","session"],"That's all going to be covered","That's all going to be covered in the introductory session.","这些内容都会在入门说明会上讲到。"],
+      ["朋友有许多旅行问题，你告诉他稍后的通话会逐项讨论。",["questions","call"],"That's all going to be covered","That's all going to be covered when we talk tonight.","这些内容都会在今晚聊天时讲到。"],
+      ["培训学员问到多个尚未介绍的功能，你说明下一部分会统一讲解。",["features","next section"],"That's all going to be covered","That's all going to be covered in the next section of the training.","这些内容都会在培训的下一部分讲到。"]
+    ]],
+    ["It could be that","有可能是……","Offer one possible explanation without treating it as fact.","It could be that + full clause; distinguish possible explanations from confirmed causes.","Source offers speculative reasons for a gap in the timeline; none should be assigned to the person as a verified activity or diagnosis.",[
+      ["你发现门铃没响，提出一种可能原因但准备继续检查。",["battery","flat"],"It could be that","It could be that the battery is flat.","有可能是电池没电了。"],
+      ["朋友还没回复消息，你提出一个温和解释而不是认定他故意不理人。",["busy","work"],"It could be that","It could be that she's busy at work.","有可能是她工作正忙。"],
+      ["系统显示的数据暂时不同，你向团队提出一个待验证的假设。",["cache","updated"],"It could be that","It could be that the cache hasn't updated yet.","有可能是缓存还没有更新。"]
+    ]]
+  ]
+}
