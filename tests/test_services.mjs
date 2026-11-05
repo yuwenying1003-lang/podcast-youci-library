@@ -6,7 +6,8 @@ import { loadCourse } from '../app/services/course-loader.js';
 import { TtsService } from '../app/services/tts.js';
 import { auditCourse, normalizeWord } from '../scripts/audit_vocab.mjs';
 import { buildPrompt, feedbackSchema, validateFeedbackInput, validateGeminiFeedback } from '../worker/src/core.js';
-import { callGemini } from '../worker/src/index.js';
+import worker, { callGemini } from '../worker/src/index.js';
+import { issueSession } from '../worker/src/auth.js';
 
 test('podcast IDs accept the ListenLeap ID and reject URL injection', () => {
   assert.equal(validPodcastId('8b77ac948ba43d5d084d03e194ce7ecb'), true);
@@ -327,6 +328,66 @@ test('Gemini 503 responses retry three times without changing models', async () 
   await assert.rejects(callGemini(input, { GEMINI_API_KEY: 'test-only', GEMINI_MODEL: 'gemini-3.8-flash' }, fetcher, async ms => waits.push(ms)), /重试 3 次/);
   assert.equal(calls, 3);
   assert.equal(waits.length, 2);
+});
+
+test('AI feedback worker enforces origin, session, quota, and refunds failed model calls', async () => {
+  const allowedOrigin = 'https://yuwenying1003-lang.github.io';
+  const requests = [];
+  let quotaCount = 0;
+  const env = {
+    ALLOWED_ORIGIN: allowedOrigin,
+    SESSION_SECRET: 'test-session-secret-that-is-long-enough',
+    GEMINI_API_KEY: 'test-only',
+    GEMINI_MODEL: 'gemini-3.8-flash',
+    DAILY_LIMIT: '2',
+    AI_RATE_LIMITER: { limit: async ({ key }) => { requests.push(key); return { success: true }; } },
+    DB: {
+      prepare(sql) {
+        return {
+          bind(...args) {
+            return {
+              first: async () => {
+                assert.match(sql, /INSERT INTO daily_usage/);
+                quotaCount += 1;
+                return { request_count: quotaCount };
+              },
+              run: async () => {
+                assert.match(sql, /UPDATE daily_usage/);
+                quotaCount -= 1;
+                return {};
+              },
+            };
+          },
+        };
+      },
+    },
+  };
+  const input = { sentence: 'It is not worth the risk.', target_pattern: 'It is not worth the risk', scenario_zh: '解释风险。', reference_answer: 'It is not worth the risk.' };
+  const token = await issueSession('learner@example.com', env);
+  const headers = { Origin: allowedOrigin, Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' };
+  const badOrigin = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers: { ...headers, Origin: 'https://evil.example' }, body: JSON.stringify(input) }), env);
+  assert.equal(badOrigin.status, 403);
+  const anonymous = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers: { Origin: allowedOrigin, 'Content-Type': 'application/json' }, body: JSON.stringify(input) }), env);
+  assert.equal(anonymous.status, 401);
+
+  const originalFetch = globalThis.fetch;
+  try {
+    globalThis.fetch = async () => new Response(JSON.stringify({ candidates: [{ content: { parts: [{ text: JSON.stringify({
+      status: 'correct', grammar_feedback_zh: '语法正确。', pattern_usage_feedback_zh: '句式自然。', corrected_sentence: input.sentence, natural_alternative: 'The risk is not worth taking.', brief_explanation_zh: '表达清楚。',
+    }) }] } }] }), { status: 200 });
+    const ok = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers, body: JSON.stringify(input) }), env);
+    assert.equal(ok.status, 200);
+    assert.equal(ok.headers.get('Access-Control-Allow-Origin'), allowedOrigin);
+    assert.equal((await ok.json()).remaining, 1);
+
+    globalThis.fetch = async () => new Response('unavailable', { status: 503 });
+    const failed = await worker.fetch(new Request('https://worker.test/v1/feedback', { method: 'POST', headers, body: JSON.stringify(input) }), env);
+    assert.equal(failed.status, 400);
+    assert.equal(quotaCount, 1, 'a failed Gemini call must not consume daily quota');
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+  assert.equal(requests.length, 2);
 });
 
 test.skip('legacy editorial shell contract (replaced by approved prototype shell)', async () => {
